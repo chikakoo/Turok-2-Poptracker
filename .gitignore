@@ -1,0 +1,6 @@
+todo.*
+.~lock.*
+*.xcf
+*.sai
+.idea
+/images/maps/original\ screenshots/

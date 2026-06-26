@@ -1,0 +1,15 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+  {
+    "name": "Progressive Warp Level 1",
+    "type": "consumable",
+    "img": "images/items/warp_lv_1.png",
+    "max_quantity": 8,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 8,
+    "codes": "ProgressiveWarpLevel1"
+  }
+]

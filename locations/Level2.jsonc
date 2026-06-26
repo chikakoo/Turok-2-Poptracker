@@ -1,0 +1,88 @@
+[
+  {
+    "name": "Level 2 - Map 1",
+    "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+    "chest_opened_img": "images/icons/LF1_gray.png",
+    "children": [
+      {
+        "name": "LF1 on Box",
+        "sections": [
+          {
+            "name": "LF1 on Box",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "2-1",
+            "x": 469,
+            "y": 333
+          }
+        ]
+      },
+      {
+        "name": "LFs in Left Ship Half",
+        "sections": [
+          {
+            "name": "LFs in Left Ship Half",
+            "item_count": 2
+          },
+          {
+            "name": "A test item that does not exist",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "2-1",
+            "x": 700,
+            "y": 375
+          }
+        ]
+      },
+      {
+        "name": "Power Cell",
+        "chest_unopened_img": "images/icons/powercell.png", // default if children do not override
+        "chest_opened_img": "images/icons/powercell_gray.png",
+
+        "sections": [
+          {
+            "name": "Power Cell",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "2-1",
+            "x": 282,
+            "y": 415
+          }
+        ]
+      }
+    ]
+  },
+    {
+    "name": "Level 2 - Map 2",
+    "access_rules": ["ProgressiveWarpLevel1"],
+    "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+    "chest_opened_img": "images/icons/LF1_gray.png",
+    "children": [
+      {
+        "name": "Random Check 1",
+        "sections": [
+          {
+            "name": "TEST - Requires Progressive Warp Level 1",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "2-1",
+            "x": 138,
+            "y": 230
+          }
+        ]
+      }
+    ]
+  }
+]

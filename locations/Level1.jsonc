@@ -1,0 +1,256 @@
+[
+  {
+    "name": "Level 1",
+    "children": [
+      {
+        "name": "1-1",
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+          {
+            "name": "On Box",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 337,
+                "y": 367
+              }
+            ]
+          },
+          {
+            "name": "Under Left Ship Half in Water",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 2
+              },
+              {
+                "name": "LF10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 118,
+                "y": 318
+              }
+            ]
+          },
+          {
+            "name": "Under Right Ship Half in Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 162,
+                "y": 281
+              }
+            ]
+          },
+          {
+            "name": "Under Rightmost Alcove in Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 292,
+                "y": 378
+              }
+            ]
+          },
+          {
+            "name": "Under Right Alcove in Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 292,
+                "y": 331
+              }
+            ]
+          },
+          {
+            "name": "Under Center Alcove in Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 292,
+                "y": 286
+              }
+            ]
+          },
+          {
+            "name": "Under Left Alcove in Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 292,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "name": "Under Leftmost Alcove in Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 292,
+                "y": 192
+              }
+            ]
+          },
+          {
+            "name": "On Planks",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 330,
+                "y": 230
+              }
+            ]
+          },
+          {
+            "name": "Power Cell Room",
+            "chest_unopened_img": "images/icons/powercell.png", // default if children do not override
+            "chest_opened_img": "images/icons/powercell_gray.png",
+            "sections": [
+              {
+                "name": "Power Cell",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 500,
+                "y": 291
+              }
+            ]
+          },
+          {
+            "name": "First Room Life Force Trail",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 4
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 500,
+                "y": 168
+              }
+            ]
+          },
+          {
+            "name": "Pipe Overlooking First Room",
+            "sections": [
+              {
+                "name": "Pistol",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 553,
+                "y": 168
+              }
+            ]
+          },
+          {
+            "name": "Beacon Room",
+            "chest_unopened_img": "images/icons/powercell.png", // default if children do not override
+            "chest_opened_img": "images/icons/powercell_gray.png",
+            "sections": [
+              {
+                "name": "Activate Beacon",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 422,
+                "y": 292
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "1-2",
+        "access_rules": [
+          "ProgressiveWarpLevel1"
+        ],
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+          {
+            "name": "Random Check 1",
+            "sections": [
+              {
+                "name": "TEST - Requires Progressive Warp Level 1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2",
+                "x": 138,
+                "y": 230
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
