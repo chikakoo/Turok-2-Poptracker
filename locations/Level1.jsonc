@@ -2,7 +2,7 @@
   {
     "name": "Level 1",
     "children": [
-      {
+      { //1-1
         "name": "1-1",
         "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
         "chest_opened_img": "images/icons/LF1_gray.png",
@@ -18,8 +18,8 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 337,
-                "y": 367
+                "x": 417,
+                "y": 364
               }
             ]
           },
@@ -38,8 +38,8 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 118,
-                "y": 318
+                "x": 145,
+                "y": 283
               }
             ]
           },
@@ -54,8 +54,8 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 162,
-                "y": 281
+                "x": 238,
+                "y": 253
               }
             ]
           },
@@ -70,7 +70,7 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 292,
+                "x": 359,
                 "y": 378
               }
             ]
@@ -86,8 +86,8 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 292,
-                "y": 331
+                "x": 359,
+                "y": 315
               }
             ]
           },
@@ -102,8 +102,8 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 292,
-                "y": 286
+                "x": 359,
+                "y": 269
               }
             ]
           },
@@ -118,8 +118,8 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 292,
-                "y": 240
+                "x": 359,
+                "y": 220
               }
             ]
           },
@@ -134,13 +134,13 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 292,
-                "y": 192
+                "x": 359,
+                "y": 173
               }
             ]
           },
           {
-            "name": "On Planks",
+            "name": "On Long Boxes",
             "sections": [
               {
                 "name": "Arrows",
@@ -150,8 +150,8 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 330,
-                "y": 230
+                "x": 402,
+                "y": 179
               }
             ]
           },
@@ -168,8 +168,8 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 500,
-                "y": 291
+                "x": 603,
+                "y": 277
               }
             ]
           },
@@ -184,8 +184,8 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 500,
-                "y": 168
+                "x": 603,
+                "y": 137
               }
             ]
           },
@@ -200,8 +200,8 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 553,
-                "y": 168
+                "x": 652,
+                "y": 135
               }
             ]
           },
@@ -218,20 +218,32 @@
             "map_locations": [
               {
                 "map": "1-1",
-                "x": 422,
-                "y": 292
+                "x": 520,
+                "y": 277
               }
             ]
           }
         ]
       },
-      {
+      { //1-2
         "name": "1-2",
         "access_rules": [
           "ProgressiveWarpLevel1"
         ],
         "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
         "chest_opened_img": "images/icons/LF1_gray.png",
+        "sections": [
+          {
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-1",
+            "shape": "trapezoid",
+            "x": 656,
+            "y": 231
+          }
+        ],
         "children": [
           {
             "name": "Random Check 1",
