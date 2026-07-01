@@ -7,10 +7,10 @@
     "img": "images/maps/1-1.png"
   },
   {
-    "name": "1-2",
-    "location_size": 50,
-    "location_border_thickness": 4,
-    "img": "images/maps/1-2.png"
+    "name": "1-2a",
+    "location_size": 15,
+    "location_border_thickness": 2,
+    "img": "images/maps/1-2a.png"
   },
   {
     "name": "2-1",

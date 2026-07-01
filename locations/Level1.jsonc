@@ -225,39 +225,431 @@
           }
         ]
       },
-      { //1-2
-        "name": "1-2",
+      { //1-2a
+        "name": "1-2a",
         "access_rules": [
           "ProgressiveWarpLevel1"
         ],
         "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
         "chest_opened_img": "images/icons/LF1_gray.png",
-        "sections": [
-          {
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "1-1",
-            "shape": "trapezoid",
-            "x": 656,
-            "y": 231
-          }
-        ],
         "children": [
           {
-            "name": "Random Check 1",
+            "name": "On Close Catwalks",
             "sections": [
               {
-                "name": "TEST - Requires Progressive Warp Level 1",
+                "name": "LF1",
+                "item_count": 6
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 478,
+                "y": 501
+              }
+            ]
+          },
+          {
+            "name": "On Far Catwalks",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 5
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 176,
+                "y": 390
+              }
+            ]
+          },
+          {
+            "name": "Level Key Room",
+            "sections": [
+              {
+                "name": "Level Key",
                 "item_count": 1
               }
             ],
             "map_locations": [
               {
-                "map": "1-2",
-                "x": 138,
-                "y": 230
+                "map": "1-2a",
+                "x": 326,
+                "y": 497
+              }
+            ]
+          },
+          {
+            "name": "Level Key Room",
+            "sections": [
+              {
+                "name": "Quiver",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 350,
+                "y": 537
+              }
+            ]
+          },
+          {
+            "name": "In Crawlspace",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 7
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 266,
+                "y": 386
+              }
+            ]
+          },
+          {
+            "name": "Lower Water Room Doorway",
+            "sections": [
+              {
+                "name": "Pistol",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 325,
+                "y": 350
+              }
+            ]
+          },
+          {
+            "name": "Lower Water Room Under Bridge",
+            "sections": [
+              {
+                "name": "Silver Health",
+                "item_count": 4
+              },
+              {
+                "name": "Box of Bullets",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 325,
+                "y": 290
+              }
+            ]
+          },
+          {
+            "name": "Lower Water Room in Water Tunnel",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 405,
+                "y": 200
+              }
+            ]
+          },
+          {
+            "name": "After Tunnel",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 448,
+                "y": 164
+              }
+            ]
+          },
+          {
+            "name": "After Tunnel Behind Switch Door",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 430,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "name": "Lower Water Room Across Bridge",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 336,
+                "y": 258
+              }
+            ]
+          },
+          {
+            "name": "On Catwalks",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 4
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 326,
+                "y": 242
+              }
+            ]
+          },
+          {
+            "name": "Catwalks Enemy Trigger Room",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 258,
+                "y": 218
+              }
+            ]
+          },
+          {
+            "name": "Child Path",
+            "sections": [
+              {
+                "name": "Silver Health",
+                "item_count": 8
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 345,
+                "y": 442
+              }
+            ]
+          },
+          {
+            "name": "Child Path",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 505,
+                "y": 387
+              }
+            ]
+          },
+          {
+            "name": "Child Path in Pipe by First Switch",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 437,
+                "y": 334
+              }
+            ]
+          },
+          {
+            "name": "Child Area Bottom Around Cage",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 4
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 613,
+                "y": 400
+              }
+            ]
+          },
+          {
+            "name": "Child Area Left Ramp",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 4
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 718,
+                "y": 352
+              }
+            ]
+          },
+          {
+            "name": "Child Area Right Ramp",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 4
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 718,
+                "y": 525
+              }
+            ]
+          },
+          {
+            "name": "Child Area Top After Switch",
+            "sections": [
+              {
+                "name": "Box of Bullets",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 786,
+                "y": 155
+              }
+            ]
+          },
+          {
+            "name": "Child Area Top Switch Room",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 605,
+                "y": 155
+              }
+            ]
+          },
+          {
+            "name": "Child Area Bottom",
+            "sections": [
+              {
+                "name": "Rescue Child",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 658,
+                "y": 442
+              }
+            ]
+          },
+          {
+            "name": "Before Lower Warp Room",
+            "sections": [
+              {
+                "name": "Box of Bullets",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 173,
+                "y": 288
+              }
+            ]
+          },
+          {
+            "name": "Before Lower Warp Room Behind Door L/R",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 195,
+                "y": 271
+              }
+            ]
+          },
+          {
+            "name": "Lower Warp Room Behind Door",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 117,
+                "y": 264
+              }
+            ]
+          },
+          {
+            "name": "Lower Warp Room Behind Fallen Pillar",
+            "sections": [
+              {
+                "name": "Quiver",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 62,
+                "y": 317
               }
             ]
           }
