@@ -654,6 +654,218 @@
             ]
           }
         ]
+      },
+      { //1-3F
+        "name": "1-3F",
+        "access_rules": [],
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+          {
+            "name": "Near Portal Behind Left Pillar",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "x": 44,
+                "y": 630
+              }
+            ]
+          },
+          {
+            "name": "Behind Right Pillar",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "x": 160,
+                "y": 669
+              }
+            ]
+          },
+          {
+            "name": "By Rubble",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              },
+              {
+                "name": "LF10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "x": 160,
+                "y": 617
+              }
+            ]
+          },
+          {
+            "name": "In Switch Room",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "x": 175,
+                "y": 562
+              }
+            ]
+          },
+          {
+            "name": "By Left Door",
+            "sections": [
+              {
+                "name": "Quiver",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "x": 30,
+                "y": 475
+              }
+            ]
+          },
+          {
+            "name": "In Lower Hallway",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 8
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "x": 49,
+                "y": 355
+              }
+            ]
+          },
+          {
+            "name": "Up First Ladder",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "x": 194,
+                "y": 253
+              }
+            ]
+          },
+          {
+            "name": "Up First Ladder",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "x": 240,
+                "y": 255
+              }
+            ]
+          },
+          {
+            "name": "Under Bridge",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "x": 183,
+                "y": 389
+              }
+            ]
+          },
+          {
+            "name": "On Top Across Bridge",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 4
+              },
+              {
+                "name": "Ultra Health",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "x": 83,
+                "y": 390
+              }
+            ]
+          },
+          {
+            "name": "On Arch",
+            "sections": [
+              {
+                "name": "Pistol",
+                "item_count": 1
+              },
+              {
+                "name": "Clip",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "x": 614,
+                "y": 122
+              }
+            ]
+          },
+          {
+            "name": "Up Second Ladder",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "x": 293,
+                "y": 247
+              }
+            ]
+          }
+        ]
       }
     ]
   }
