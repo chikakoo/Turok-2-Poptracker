@@ -1562,6 +1562,530 @@
             ]
           }
         ]
+      },
+      { //1-4b
+        "name": "1-4",
+        "access_rules": [],
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+          {
+            "name": "On Ground Near Ledge",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 206,
+                "y": 362
+              }
+            ]
+          },
+          {
+            "name": "On Ground Near Left House",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 239,
+                "y": 288
+              }
+            ]
+          },
+          {
+            "name": "Left House Lower",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 4
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 269,
+                "y": 324
+              }
+            ]
+          },
+          {
+            "name": "Right House Lower",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 299,
+                "y": 453
+              }
+            ]
+          },
+          {
+            "name": "In Alley by Right House",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 313,
+                "y": 488
+              }
+            ]
+          },
+          {
+            "name": "In Waterfall Basin",
+            "sections": [
+              {
+                "name": "Explosive Shells",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 377,
+                "y": 384
+              }
+            ]
+          },
+          {
+            "name": "Behind Waterfall",
+            "sections": [
+              {
+                "name": "Level Key",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 420,
+                "y": 384
+              }
+            ]
+          },
+          {
+            "name": "Down Narrow Hallway",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 8
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 385,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "name": "After Bird Kill Door",
+            "sections": [
+              {
+                "name": "Ultra Health",
+                "item_count": 1
+              },
+              {
+                "name": "LF10",
+                "item_count": 8
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 281,
+                "y": 471
+              }
+            ]
+          },
+          {
+            "name": "First Hall by Talisman Portal",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 412,
+                "y": 664
+              }
+            ]
+          },
+          {
+            "name": "Left Corner near Portal",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 509,
+                "y": 641
+              }
+            ]
+          },
+          {
+            "name": "Right Corner near Portal",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 565,
+                "y": 694
+              }
+            ]
+          },
+          {
+            "name": "Alcove near Portal",
+            "sections": [
+              {
+                "name": "Talisman Portal Switch",
+                "item_count": 1
+              },
+              {
+                "name": "Blue Health",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 593,
+                "y": 641
+              }
+            ]
+          },
+          {
+            "name": "Second Hall near Talisman Portal",
+            "sections": [
+              {
+                "name": "Shells",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 543,
+                "y": 617
+              }
+            ]
+          },
+          {
+            "name": "Behind First Upper Building",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 494,
+                "y": 455
+              }
+            ]
+          },
+          {
+            "name": "By Boxes",
+            "sections": [
+              {
+                "name": "Shells",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 469,
+                "y": 386
+              }
+            ]
+          },
+          {
+            "name": "Upper Building 1 Up Ladder",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 1
+              },
+              {
+                "name": "LF10",
+                "item_count": 4
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 459,
+                "y": 454
+              }
+            ]
+          },
+          {
+            "name": "Hall to Primagen Key",
+            "sections": [
+              {
+                "name": "Tek Bow",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 485,
+                "y": 288
+              }
+            ]
+          },
+          {
+            "name": "Hall to Primagen Key",
+            "sections": [
+              {
+                "name": "Tek Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 457,
+                "y": 182
+              }
+            ]
+          },
+          {
+            "name": "On Ground Below Leap Trail",
+            "sections": [
+              {
+                "name": "Tek Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 511,
+                "y": 107
+              }
+            ]
+          },
+          {
+            "name": "Near Leap Pad",
+            "sections": [
+              {
+                "name": "Tek Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 517,
+                "y": 75
+              }
+            ]
+          },
+          {
+            "name": "Below Door-Triggering Enemy",
+            "sections": [
+              {
+                "name": "Tek Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 381,
+                "y": 136
+              }
+            ]
+          },
+          {
+            "name": "Primagen Key Leap",
+            "sections": [
+              {
+                "name": "LF10 (Jumpable)",
+                "item_count": 1
+              },
+              {
+                "name": "LF10",
+                "item_count": 5
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 511,
+                "y": 132
+              }
+            ]
+          },
+          {
+            "name": "Primagen Key Leap Platform",
+            "sections": [
+              {
+                "name": "Primagen Key",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 511,
+                "y": 183
+              }
+            ]
+          },
+          {
+            "name": "Path to Upper Building 2",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 398,
+                "y": 260
+              }
+            ]
+          },
+          {
+            "name": "Inside Upper Building 2",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 277,
+                "y": 226
+              }
+            ]
+          },
+          {
+            "name": "Behind Upper Building 2",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 5
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 307,
+                "y": 177
+              }
+            ]
+          },
+          {
+            "name": "On Ledge",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 207,
+                "y": 339
+              }
+            ]
+          },
+          {
+            "name": "Jump to Second Floor",
+            "sections": [
+              {
+                "name": "Explosive Shells",
+                "item_count": 1
+              },
+              {
+                "name": "Silver Health",
+                "item_count": 4
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 286,
+                "y": 304
+              }
+            ]
+          },
+          {
+            "name": "Upper Primagen Key Switch",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 514,
+                "y": 362
+              }
+            ]
+          },
+          {
+            "name": "Waterfall Switch",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 346,
+                "y": 470
+              }
+            ]
+          }
+        ]
       }
     ]
   }
