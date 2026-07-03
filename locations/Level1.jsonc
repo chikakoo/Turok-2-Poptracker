@@ -866,6 +866,702 @@
             ]
           }
         ]
+      },
+      { //1-3B
+        "name": "1-3B",
+        "access_rules": [],
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+          {
+            "name": "Ladder Near Barrel Tower",
+            "sections": [
+              {
+                "name": "Silver Health",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 313,
+                "y": 597
+              }
+            ]
+          },
+          {
+            "name": "In Box Alcove",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 327,
+                "y": 350
+              }
+            ]
+          },
+          {
+            "name": "On Box",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 285,
+                "y": 372
+              }
+            ]
+          },
+          {
+            "name": "On Single Ship",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 210,
+                "y": 412
+              }
+            ]
+          },
+          {
+            "name": "Barrel Room",
+            "sections": [
+              {
+                "name": "Power Cell",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 199,
+                "y": 321
+              }
+            ]
+          },
+          {
+            "name": "In Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 115,
+                "y": 433
+              }
+            ]
+          },
+          {
+            "name": "Room Between Ships",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 129,
+                "y": 134
+              }
+            ]
+          },
+          {
+            "name": "Room Between Ships",
+            "sections": [
+              {
+                "name": "Shotgun",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 130,
+                "y": 291
+              }
+            ]
+          },
+          {
+            "name": "Behind Left Boxes",
+            "sections": [
+              {
+                "name": "Pistol",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 222,
+                "y": 68
+              }
+            ]
+          },
+          {
+            "name": "In Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 118,
+                "y": 181
+              }
+            ]
+          },
+          {
+            "name": "Between Upper Boxes",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 289,
+                "y": 69
+              }
+            ]
+          },
+          {
+            "name": "In Corner",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 255,
+                "y": 240
+              }
+            ]
+          },
+          {
+            "name": "By Right Boxes",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 314,
+                "y": 204
+              }
+            ]
+          },
+          {
+            "name": "On Right Boxes",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 337,
+                "y": 210
+              }
+            ]
+          },
+          {
+            "name": "On Right Ship",
+            "sections": [
+              {
+                "name": "Silver Health",
+                "item_count": 5
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 315,
+                "y": 119
+              }
+            ]
+          },
+          {
+            "name": "On Left Ship",
+            "sections": [
+              {
+                "name": "Silver Health",
+                "item_count": 5
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 274,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "name": "On Upper Boxes",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 266,
+                "y": 69
+              }
+            ]
+          },
+          {
+            "name": "In Power Cell Alcove",
+            "sections": [
+              {
+                "name": "Power Cell",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 423,
+                "y": 97
+              }
+            ]
+          },
+          {
+            "name": "On Ground",
+            "sections": [
+              {
+                "name": "Shells",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 537,
+                "y": 134
+              }
+            ]
+          },
+          {
+            "name": "On Ground",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 658,
+                "y": 252
+              }
+            ]
+          },
+          {
+            "name": "On Box Up Ramp",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 538,
+                "y": 226
+              }
+            ]
+          },
+          {
+            "name": "On Planks Up Ramp",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 538,
+                "y": 174
+              }
+            ]
+          },
+          {
+            "name": "In Alcove Up Ramp",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 7
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 673,
+                "y": 289
+              }
+            ]
+          },
+          {
+            "name": "On Edge Up Ramp",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 616,
+                "y": 197
+              }
+            ]
+          },
+          {
+            "name": "On Right Boxes",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              },
+              {
+                "name": "Silver Health",
+                "item_count": 6
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 682,
+                "y": 170
+              }
+            ]
+          },
+          {
+            "name": "Exploded Wall Before Bridge",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 507,
+                "y": 371
+              }
+            ]
+          },
+          {
+            "name": "Bridge Jump to Boxes",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 501,
+                "y": 425
+              }
+            ]
+          },
+          {
+            "name": "Child Entrance Room",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 4
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 563,
+                "y": 472
+              }
+            ]
+          },
+          {
+            "name": "In Water Corner",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 560,
+                "y": 568
+              }
+            ]
+          },
+          {
+            "name": "Cage Switch Room",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              },
+              {
+                "name": "Blue Health",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 604,
+                "y": 743
+              }
+            ]
+          },
+          {
+            "name": "Ladder After Box Jumps",
+            "sections": [
+              {
+                "name": "Activate Beacon",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 359,
+                "y": 338
+              }
+            ]
+          },
+          {
+            "name": "Bottom Right Near Boxes",
+            "sections": [
+              {
+                "name": "Activate Beacon",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 366,
+                "y": 187
+              }
+            ]
+          },
+          {
+            "name": "Between Door Near Beacon",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 393,
+                "y": 219
+              }
+            ]
+          },
+          {
+            "name": "Up Ramp",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 395,
+                "y": 37
+              }
+            ]
+          },
+          {
+            "name": "Up Ladder", //Near Child
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 613,
+                "y": 539
+              }
+            ]
+          },
+          {
+            "name": "Room After Jump to Pipe",
+            "sections": [
+              {
+                "name": "Rescue Child",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 618,
+                "y": 697
+              }
+            ]
+          }
+        ]
+      },
+      { //1-2b
+        "name": "1-2b",
+        "access_rules": [],
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+          {
+            "name": "In Corner Up Ladder",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2b",
+                "x": 152,
+                "y": 108
+              }
+            ]
+          },
+          {
+            "name": "Up Ladder",
+            "sections": [
+              {
+                "name": "Level Key",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2b",
+                "x": 139,
+                "y": 148
+              }
+            ]
+          },
+          {
+            "name": "End of Pipe",
+            "sections": [
+              {
+                "name": "Explosive Shells",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2b",
+                "x": 139,
+                "y": 246
+              }
+            ]
+          },
+          {
+            "name": "Behind Exit Door",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2b",
+                "x": 355,
+                "y": 304
+              }
+            ]
+          },
+          {
+            "name": "Behind Left Portal Pillar",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2b",
+                "x": 455,
+                "y": 282
+              }
+            ]
+          },
+          {
+            "name": "Behind Right Portal Pillar",
+            "sections": [
+              {
+                "name": "Quiver",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2b",
+                "x": 455,
+                "y": 348
+              }
+            ]
+          }
+        ]
       }
     ]
   }

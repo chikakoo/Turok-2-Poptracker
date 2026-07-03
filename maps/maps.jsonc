@@ -22,7 +22,13 @@
     "name": "1-3B",
     "location_size": 15,
     "location_border_thickness": 2,
-    "img": "images/maps/1-3F.png"
+    "img": "images/maps/1-3B.png"
+  },
+  {
+    "name": "1-2b",
+    "location_size": 15,
+    "location_border_thickness": 2,
+    "img": "images/maps/1-2b.png"
   },
   {
     "name": "2-1",
