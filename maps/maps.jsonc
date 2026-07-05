@@ -37,6 +37,18 @@
     "img": "images/maps/1-4.png"
   },
   {
+    "name": "1-5",
+    "location_size": 15,
+    "location_border_thickness": 2,
+    "img": "images/maps/1-5.png"
+  },
+  {
+    "name": "1-6",
+    "location_size": 15,
+    "location_border_thickness": 2,
+    "img": "images/maps/1-6.png"
+  },
+  {
     "name": "2-1",
     "location_size": 50,
     "location_border_thickness": 4,
