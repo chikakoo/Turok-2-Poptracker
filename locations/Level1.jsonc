@@ -1342,6 +1342,22 @@
             ]
           },
           {
+            "name": "By Checkpoint",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "x": 449,
+                "y": 660
+              }
+            ]
+          },
+          {
             "name": "Cage Switch Room",
             "sections": [
               {
