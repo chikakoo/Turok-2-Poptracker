@@ -266,7 +266,7 @@
             ]
           },
           {
-            "name": "Level Key Room",
+            "name": "Level Key Room Center",
             "sections": [
               {
                 "name": "Level Key",
@@ -282,7 +282,7 @@
             ]
           },
           {
-            "name": "Level Key Room",
+            "name": "Level Key Room Corner",
             "sections": [
               {
                 "name": "Quiver",
@@ -446,7 +446,7 @@
             ]
           },
           {
-            "name": "Child Path",
+            "name": "Child Path Upper Walkway",
             "sections": [
               {
                 "name": "Silver Health",
@@ -462,7 +462,7 @@
             ]
           },
           {
-            "name": "Child Path",
+            "name": "Child Path After Walkway",
             "sections": [
               {
                 "name": "Switch",
@@ -546,7 +546,7 @@
             "sections": [
               {
                 "name": "Box of Bullets",
-                "item_count": 2
+                "item_count": 1
               }
             ],
             "map_locations": [
@@ -650,6 +650,159 @@
                 "map": "1-2a",
                 "x": 62,
                 "y": 317
+              }
+            ]
+          },
+          {
+            "name": "Enemy in Level Key Room",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "shape": "diamond",
+                "x": 349,
+                "y": 516
+              }
+            ]
+          },
+          {
+            "name": "Enemy Below Far Catwalks",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "shape": "diamond",
+                "x": 207,
+                "y": 465
+              }
+            ]
+          },
+          {
+            "name": "Enemy After Tunnel Behind Switch Door",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "shape": "diamond",
+                "x": 440,
+                "y": 118
+              }
+            ]
+          },
+          {
+            "name": "Enemy On Catwalks",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "shape": "diamond",
+                "x": 256,
+                "y": 239
+              }
+            ]
+          },
+          {
+            "name": "Enemy in Child Area Bottom",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "shape": "diamond",
+                "x": 606,
+                "y": 384
+              }
+            ]
+          },
+          {
+            "name": "Enemy in Child Area Top",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "shape": "diamond",
+                "x": 696,
+                "y": 215
+              }
+            ]
+          },
+          {
+            "name": "Enemy in Child Area Top After Switch",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "shape": "diamond",
+                "x": 771,
+                "y": 156
+              }
+            ]
+          },
+          {
+            "name": "Enemy By Water After Catwalks Switch",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "shape": "diamond",
+                "x": 196,
+                "y": 288
+              }
+            ]
+          },
+          {
+            "name": "Enemy By Portal",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "shape": "diamond",
+                "x": 74,
+                "y": 289
               }
             ]
           }
@@ -762,7 +915,7 @@
             ]
           },
           {
-            "name": "Up First Ladder",
+            "name": "Up First Ladder in Corner",
             "sections": [
               {
                 "name": "Arrows",
@@ -778,7 +931,7 @@
             ]
           },
           {
-            "name": "Up First Ladder",
+            "name": "Up First Ladder Right Wall",
             "sections": [
               {
                 "name": "Switch",
@@ -970,7 +1123,7 @@
             ]
           },
           {
-            "name": "Room Between Ships",
+            "name": "Room Between Ships by Entrance",
             "sections": [
               {
                 "name": "LF10",
@@ -981,12 +1134,12 @@
               {
                 "map": "1-3B",
                 "x": 129,
-                "y": 134
+                "y": 325
               }
             ]
           },
           {
-            "name": "Room Between Ships",
+            "name": "Room Between Ships Center",
             "sections": [
               {
                 "name": "Shotgun",
@@ -996,7 +1149,7 @@
             "map_locations": [
               {
                 "map": "1-3B",
-                "x": 130,
+                "x": 129,
                 "y": 291
               }
             ]
@@ -1082,7 +1235,7 @@
             ]
           },
           {
-            "name": "On Right Boxes",
+            "name": "On Two Ships Right Boxes",
             "sections": [
               {
                 "name": "Blue Health",
@@ -1162,7 +1315,7 @@
             ]
           },
           {
-            "name": "On Ground",
+            "name": "Front On Ground",
             "sections": [
               {
                 "name": "Shells",
@@ -1178,7 +1331,7 @@
             ]
           },
           {
-            "name": "On Ground",
+            "name": "Back On Ground",
             "sections": [
               {
                 "name": "LF10",
@@ -1258,7 +1411,7 @@
             ]
           },
           {
-            "name": "On Right Boxes",
+            "name": "On Box Room Right Boxes",
             "sections": [
               {
                 "name": "Switch",
@@ -1870,7 +2023,7 @@
             ]
           },
           {
-            "name": "Hall to Primagen Key",
+            "name": "Primagen Key Room Entrance",
             "sections": [
               {
                 "name": "Tek Bow",
@@ -1886,7 +2039,7 @@
             ]
           },
           {
-            "name": "Hall to Primagen Key",
+            "name": "Primagen Key Room Entrance Corner",
             "sections": [
               {
                 "name": "Tek Arrows",
