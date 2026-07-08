@@ -208,17 +208,17 @@ LOCATION_MAPPING = {
 	[53097] = {"@Level 1/1-3B/Up Ladder/Switch"},
 	[53098] = {"@Level 1/1-3B/Cage Switch Room/Switch"},
 	[53099] = {"@Level 1/1-3B/Room After Jump to Pipe/Rescue Child"},
-
-
-
-
-
-
-
-
-
-
-
+	[53100] = {"@Level 1/1-3F/Enemy on Broken Pillar/Endtrail"},
+	[53101] = {"@Level 1/1-3F/Enemy by Left Door/Endtrail"},
+	[53102] = {"@Level 1/1-3F/Enemy Under Bridge/Compy"},
+	[53103] = {"@Level 1/1-3F/Enemy Under Bridge/Compy"},
+	[53104] = {"@Level 1/1-3F/Enemy Under Bridge/Compy"},
+	[53105] = {"@Level 1/1-3F/Enemy After Lower Hallway/Endtrail"},
+	[53106] = {"@Level 1/1-3F/Enemy on Main Path Switch Bridge/Raptoid"},
+	[53107] = {"@Level 1/1-3F/Enemy on Main Path by Ladder/Raptor"},
+	[53108] = {"@Level 1/1-3F/Enemy on Main Path by Ladder/Raptor"},
+	[53109] = {"@Level 1/1-3F/Enemy at End of Main Path/Raptoid"},
+	[53110] = {"@Level 1/1-3F/Enemy at End of Main Path/Endtrail"},
 
 
 

@@ -1017,6 +1017,129 @@
                 "y": 247
               }
             ]
+          },
+          {
+            "name": "Enemy on Broken Pillar",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "shape": "diamond",
+                "x": 119,
+                "y": 486
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Left Door",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "shape": "diamond",
+                "x": 43,
+                "y": 472
+              }
+            ]
+          },
+          {
+            "name": "Enemy Under Bridge",
+            "sections": [
+              {
+                "name": "Compy",
+                "item_count": 3
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "shape": "diamond",
+                "x": 207,
+                "y": 412
+              }
+            ]
+          },
+          {
+            "name": "Enemy After Lower Hallway",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "shape": "diamond",
+                "x": 248,
+                "y": 288
+              }
+            ]
+          },
+          {
+            "name": "Enemy on Main Path Switch Bridge",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "shape": "diamond",
+                "x": 161,
+                "y": 389
+              }
+            ]
+          },
+          {
+            "name": "Enemy on Main Path by Ladder",
+            "sections": [
+              {
+                "name": "Raptor",
+                "item_count": 2
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "shape": "diamond",
+                "x": 346,
+                "y": 133
+              }
+            ]
+          },
+          {
+            "name": "Enemy at End of Main Path",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1
+              },
+              {
+                "name": "Endtrail",
+                "item_count": 1
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3F",
+                "shape": "diamond",
+                "x": 577,
+                "y": 113
+              }
+            ]
           }
         ]
       },
