@@ -87,17 +87,17 @@ LOCATION_MAPPING = {
 	[52065] = {"@Level 1/1-2a/Child Path/Switch"},
 	[52066] = {"@Level 1/1-2a/Child Area Top Switch Room/Switch"},
 	[52067] = {"@Level 1/1-2a/Child Area Bottom/Rescue Child"},
-	[52068] = {"@Level 1/1-2a//"},
-	[52069] = {"@Level 1/1-2a//"},
-	[52070] = {"@Level 1/1-2a//"},
-	[52071] = {"@Level 1/1-2a//"},
-	[52072] = {"@Level 1/1-2a//"},
-	[52073] = {"@Level 1/1-2a//"},
-	[52074] = {"@Level 1/1-2a//"},
-	[52075] = {"@Level 1/1-2a//"},
-	[52076] = {"@Level 1/1-2a//"},
-	[52077] = {"@Level 1/1-2a//"},
-	[52078] = {"@Level 1/1-2a//"},
+
+
+
+
+
+
+
+
+
+
+
 	[52079] = {"@Level 1/1-2b/In Corner Up Ladder/Clip"},
 	[52080] = {"@Level 1/1-2b/In Corner Up Ladder/Clip"},
 	[52081] = {"@Level 1/1-2b/In Corner Up Ladder/Clip"},
@@ -106,8 +106,8 @@ LOCATION_MAPPING = {
 	[52084] = {"@Level 1/1-2b/Behind Exit Door/Clip"},
 	[52085] = {"@Level 1/1-2b/Behind Left Portal Pillar/Arrows"},
 	[52086] = {"@Level 1/1-2b/Behind Left Portal Pillar/Quiver"},
-	[52087] = {"@Level 1/1-2b//"},
-	[52088] = {"@Level 1/1-2b//"},
+
+
 	[53000] = {"@Level 1/1-3F/Near Portal Behind Left Pillar/Clip"},
 	[53001] = {"@Level 1/1-3F/Behind Right Pillar/Clip"},
 	[53002] = {"@Level 1/1-3F/By Rubble/LF10"},
@@ -208,36 +208,36 @@ LOCATION_MAPPING = {
 	[53097] = {"@Level 1/1-3B/Up Ladder/Switch"},
 	[53098] = {"@Level 1/1-3B/Cage Switch Room/Switch"},
 	[53099] = {"@Level 1/1-3B/Room After Jump to Pipe/Rescue Child"},
-	[53100] = {"@Level 1/1-3B//"},
-	[53101] = {"@Level 1/1-3B//"},
-	[53102] = {"@Level 1/1-3B//"},
-	[53103] = {"@Level 1/1-3B//"},
-	[53104] = {"@Level 1/1-3B//"},
-	[53105] = {"@Level 1/1-3B//"},
-	[53106] = {"@Level 1/1-3B//"},
-	[53107] = {"@Level 1/1-3B//"},
-	[53108] = {"@Level 1/1-3B//"},
-	[53109] = {"@Level 1/1-3B//"},
-	[53110] = {"@Level 1/1-3B//"},
-	[53111] = {"@Level 1/1-3B//"},
-	[53112] = {"@Level 1/1-3B//"},
-	[53113] = {"@Level 1/1-3B//"},
-	[53114] = {"@Level 1/1-3B//"},
-	[53115] = {"@Level 1/1-3B//"},
-	[53116] = {"@Level 1/1-3B//"},
-	[53117] = {"@Level 1/1-3B//"},
-	[53118] = {"@Level 1/1-3B//"},
-	[53119] = {"@Level 1/1-3B//"},
-	[53120] = {"@Level 1/1-3B//"},
-	[53121] = {"@Level 1/1-3B//"},
-	[53122] = {"@Level 1/1-3B//"},
-	[53123] = {"@Level 1/1-3B//"},
-	[53124] = {"@Level 1/1-3B//"},
-	[53125] = {"@Level 1/1-3B//"},
-	[53126] = {"@Level 1/1-3B//"},
-	[53127] = {"@Level 1/1-3B//"},
-	[53128] = {"@Level 1/1-3B//"},
-	[53129] = {"@Level 1/1-3B//"},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	[55000] = {"@Level 1/1-4/On Ground Near Ledge/Arrows"},
 	[55001] = {"@Level 1/1-4/On Ground Near Left House/Arrows"},
 	[55002] = {"@Level 1/1-4/Left House Lower/LF1"},
@@ -313,19 +313,19 @@ LOCATION_MAPPING = {
 	[55072] = {"@Level 1/1-4/Waterfall Switch/Switch"},
 	[55073] = {"@Level 1/1-4/Alcove near Portal/Talisman Portal Switch"},
 	[55074] = {"@Level 1/1-4/Upper Primagen Key Switch/Switch"},
-	[55075] = {"@Level 1/1-4//"},
-	[55076] = {"@Level 1/1-4//"},
-	[55077] = {"@Level 1/1-4//"},
-	[55078] = {"@Level 1/1-4//"},
-	[55079] = {"@Level 1/1-4//"},
-	[55080] = {"@Level 1/1-4//"},
-	[55081] = {"@Level 1/1-4//"},
-	[55082] = {"@Level 1/1-4//"},
-	[55083] = {"@Level 1/1-4//"},
-	[55084] = {"@Level 1/1-4//"},
-	[55085] = {"@Level 1/1-4//"},
-	[55086] = {"@Level 1/1-4//"},
-	[55087] = {"@Level 1/1-4//"},
+
+
+
+
+
+
+
+
+
+
+
+
+
 	[54000] = {"@Level 1/1-5/In Entrance Hall/Tek Bow"},
 	[54001] = {"@Level 1/1-5/Right of Rubble/Arrows"},
 	[54002] = {"@Level 1/1-5/Left of Rubble/Clip"},
@@ -354,23 +354,23 @@ LOCATION_MAPPING = {
 	[54025] = {"@Level 1/1-5/Up Ladder Rubble Jump/Switch"},
 	[54026] = {"@Level 1/1-5/Right of Fountain/Switch"},
 	[54027] = {"@Level 1/1-5/Left of Fountain/Switch"},
-	[54028] = {"@Level 1/1-5/Child Bridges Left Close"/Switch"},
+	[54028] = {"@Level 1/1-5/Child Bridges Left Close/Switch"},
 	[54029] = {"@Level 1/1-5/Child Bridges Center/Switch"},
 	[54030] = {"@Level 1/1-5/Child Bridges Right/Switch"},
 	[54031] = {"@Level 1/1-5/Child Bridges Left Far/Switch"},
 	[54032] = {"@Level 1/1-5/Cage Switch Alcove/Switch"},
 	[54033] = {"@Level 1/1-5/Child Area Cage/Rescue Child"},
-	[54034] = {"@Level 1/1-5//"},
-	[54035] = {"@Level 1/1-5//"},
-	[54036] = {"@Level 1/1-5//"},
-	[54037] = {"@Level 1/1-5//"},
-	[54038] = {"@Level 1/1-5//"},
-	[54039] = {"@Level 1/1-5//"},
-	[54040] = {"@Level 1/1-5//"},
-	[54041] = {"@Level 1/1-5//"},
-	[54042] = {"@Level 1/1-5//"},
-	[54043] = {"@Level 1/1-5//"},
-	[54044] = {"@Level 1/1-5//"},
+
+
+
+
+
+
+
+
+
+
+
 	[56000] = {"@Level 1/1-6/In Archery House Between Beds/Clip"},
 	[56001] = {"@Level 1/1-6/In Archery House Between Beds/Clip"},
 	[56002] = {"@Level 1/1-6/Behind Archery House/Arrows"},
@@ -406,8 +406,4 @@ LOCATION_MAPPING = {
 	[56032] = {"@Level 1/1-6/Trail to Bridge/LF1"},
 	[56033] = {"@Level 1/1-6/In Archery House/Switch"},
 	[56034] = {"@Level 1/1-6/Bridge House Lower Room/Switch"},
-	[56035] = {"@Level 1/1-6//"},
-	[56036] = {"@Level 1/1-6//"},
-	[56037] = {"@Level 1/1-6//"},
-	[56038] = {"@Level 1/1-6//"},
 }
