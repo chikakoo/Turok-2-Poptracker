@@ -1,15 +1,23 @@
 -- put logic functions here using the Lua API: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#lua-interface
 -- don't be afraid to use custom logic functions. it will make many things a lot easier to maintain, for example by adding logging.
 -- to see how this function gets called, check: locations/locations.json
--- example:
-function has_more_then_n_consumable(n)
-    local count = Tracker:ProviderCountForCode('consumable')
-    local val = (count > tonumber(n))
-    if ENABLE_DEBUG_LOG then
-        print(string.format("called has_more_then_n_consumable: count: %s, n: %s, val: %s", count, n, val))
+require("scripts.autotracking.archipelago")
+
+---Checks whether the id of the given location exists as a location in the seed
+---Accepts any number of args and returns the number of then that do exist
+function id_exists(...)
+    if Archipelago.PlayerNumber == -1 then
+        return true
     end
-    if val then
-        return 1 -- 1 => access is in logic
+
+    local args = {...}
+    local count = #args
+
+    for _, value in pairs(args) do
+        if not ALL_LOCATIONS_MAP[tonumber(value)] then
+            count = count - 1
+        end
     end
-    return 0 -- 0 => no access
+
+    return count
 end

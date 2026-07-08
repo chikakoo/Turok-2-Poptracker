@@ -5,6 +5,7 @@ CUR_INDEX = -1
 --SLOT_DATA = nil
 
 ALL_LOCATIONS = {}
+ALL_LOCATIONS_MAP = {}
 SLOT_DATA = {}
 
 MANUAL_CHECKED = true
@@ -232,6 +233,7 @@ function OnClear(slot_data)
             end
         end
     end
+
     -- reset items
     for _, item_array in pairs(ITEM_MAPPING) do
         for _, item_pair in pairs(item_array) do
@@ -258,16 +260,34 @@ function OnClear(slot_data)
         end
         for _, value in pairs(Archipelago.MissingLocations) do
             table.insert(ALL_LOCATIONS, #ALL_LOCATIONS + 1, value)
+            ALL_LOCATIONS_MAP[value] = true
         end
 
         for _, value in pairs(Archipelago.CheckedLocations) do
             table.insert(ALL_LOCATIONS, #ALL_LOCATIONS + 1, value)
+            ALL_LOCATIONS_MAP[value] = true
         end
 
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
     end
+
+    -- Mark off items that are % checks (if not in AP, it should be marked off)
+    for location_id, location_array in pairs(LOCATION_MAPPING) do
+        for _, location in pairs(location_array) do
+            if location then
+                if not ALL_LOCATIONS_MAP[tonumber(location_id)] then
+                    ---@type LocationSection
+                    local location_obj = Tracker:FindObjectForCode(location)
+                    if location_obj and location:sub(1, 1) == "@" then
+                        location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
+                    end
+                end
+            end
+        end
+    end
+
     ScriptHost:AddOnFrameHandler("load handler", OnFrameHandler)
     MANUAL_CHECKED = true
 end
