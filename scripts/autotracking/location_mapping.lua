@@ -106,8 +106,8 @@ LOCATION_MAPPING = {
 	[52084] = {"@Level 1/1-2b/Behind Exit Door/Clip"},
 	[52085] = {"@Level 1/1-2b/Behind Left Portal Pillar/Arrows"},
 	[52086] = {"@Level 1/1-2b/Behind Right Portal Pillar/Quiver"},
-
-
+	[52087] = {"@Level 1/1-2b/Enemy up Ladder/Raptoid"},
+	[52088] = {"@Level 1/1-2b/Enemy Behind Exit Door/Endtrail"},
 	[53000] = {"@Level 1/1-3F/Near Portal Behind Left Pillar/Clip"},
 	[53001] = {"@Level 1/1-3F/Behind Right Pillar/Clip"},
 	[53002] = {"@Level 1/1-3F/By Rubble/LF10"},
@@ -202,7 +202,7 @@ LOCATION_MAPPING = {
 	[53091] = {"@Level 1/1-3B/Ladder After Box Jumps/Activate Beacon"},
 	[53092] = {"@Level 1/1-3B/Bottom Right Near Boxes/Activate Beacon"},
 	[53093] = {"@Level 1/1-3B/Up Ramp/Switch"},
-	[53094] = {"@Level 1/1-3B/Between Door Near Beacon/Switch"},
+	[53094] = {"@Level 1/1-3B/After Two Ships Switch/Switch"},
 	[53095] = {"@Level 1/1-3B/On Box Room Right Boxes/Switch"},
 	[53096] = {"@Level 1/1-3B/By Checkpoint/Switch"},
 	[53097] = {"@Level 1/1-3B/Up Ladder/Switch"},
@@ -219,25 +219,25 @@ LOCATION_MAPPING = {
 	[53108] = {"@Level 1/1-3F/Enemy on Main Path by Ladder/Raptor"},
 	[53109] = {"@Level 1/1-3F/Enemy at End of Main Path/Raptoid"},
 	[53110] = {"@Level 1/1-3F/Enemy at End of Main Path/Endtrail"},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	[53111] = {"@Level 1/1-3B/Enemy Near Barrel Tower/Raptoid"},
+	[53112] = {"@Level 1/1-3B/Enemy Near Single Ship/Raptoid"},
+	[53113] = {"@Level 1/1-3B/Enemy Before Room Between Ships/Endtrail"},
+	[53114] = {"@Level 1/1-3B/Enemy After Room Between Ships/Endtrail"},
+	[53115] = {"@Level 1/1-3B/Enemy in Water/Raptoid"},
+	[53116] = {"@Level 1/1-3B/Enemy up Ramp/Endtrail"},
+	[53117] = {"@Level 1/1-3B/Enemy After Two Ships Switch/Endtrail"},
+	[53118] = {"@Level 1/1-3B/Enemy in Box Room/Lower Raptor or Endtrail"},
+	[53119] = {"@Level 1/1-3B/Enemy in Box Room/Either Raptoid"},
+	[53120] = {"@Level 1/1-3B/Enemy Before Bridge/Raptoid"},
+	[53121] = {"@Level 1/1-3B/Enemy Before Bridge/Raptoid"},
+	[53122] = {"@Level 1/1-3B/Enemy Before Bridge/Endtrail"},
+	[53123] = {"@Level 1/1-3B/Enemy Across Bridge/Endtrail"},
+	[53124] = {"@Level 1/1-3B/Enemy Before Water Room/Endtrail"},
+	[53125] = {"@Level 1/1-3B/Enemy Before Water Room/Raptor"},
+	[53126] = {"@Level 1/1-3B/Enemy in Water Room/Raptoid"},
+	[53127] = {"@Level 1/1-3B/Enemy in Water Room/Raptoid"},
+	[53128] = {"@Level 1/1-3B/Enemy by Cage/Endtrail"},
+	[53129] = {"@Level 1/1-3B/Enemy by Cage/Endtrail"},
 	[55000] = {"@Level 1/1-4/On Ground Near Ledge/Arrows"},
 	[55001] = {"@Level 1/1-4/On Ground Near Left House/Arrows"},
 	[55002] = {"@Level 1/1-4/Left House Lower/LF1"},
@@ -406,4 +406,46 @@ LOCATION_MAPPING = {
 	[56032] = {"@Level 1/1-6/Trail to Bridge/LF1"},
 	[56033] = {"@Level 1/1-6/In Archery House/Switch"},
 	[56034] = {"@Level 1/1-6/Bridge House Lower Room/Switch"},
+
+
+
+
+	[57000] = {"@Level 1/1-7/Entrance Trail/LF1"},
+	[57001] = {"@Level 1/1-7/Entrance Trail/LF1"},
+	[57002] = {"@Level 1/1-7/Entrance Trail/LF1"},
+	[57003] = {"@Level 1/1-7/Entrance Trail/LF1"},
+	[57004] = {"@Level 1/1-7/In Exploded Wall/Clip"},
+	[57005] = {"@Level 1/1-7/On First Roof Corner/Tek Arrows"},
+	[57006] = {"@Level 1/1-7/On Second Roof Center/Full Health"},
+	[57007] = {"@Level 1/1-7/On Second Roof Back/Silver Health"},
+	[57008] = {"@Level 1/1-7/On Second Roof Back/Silver Health"},
+	[57009] = {"@Level 1/1-7/On Second Roof Back/Silver Health"},
+	[57010] = {"@Level 1/1-7/On Second Roof Back/Silver Health"},
+	[57011] = {"@Level 1/1-7/On Second Roof Back/Silver Health"},
+	[57012] = {"@Level 1/1-7/On Second Roof Back/Silver Health"},
+	[57013] = {"@Level 1/1-7/Inside Second House/Clip"},
+	[57014] = {"@Level 1/1-7/Between Boxes Near Hidden Door/LF10"},
+	[57015] = {"@Level 1/1-7/On Crate Near Hidden Door/Shells"},
+	[57016] = {"@Level 1/1-7/Between Center Pillars/Clip"},
+	[57017] = {"@Level 1/1-7/In Right Alcove/Shells"},
+	[57018] = {"@Level 1/1-7/In Upwards Path Gate/Blue Health"},
+	[57019] = {"@Level 1/1-7/On Dead-end Ledge/Blue Health"},
+	[57020] = {"@Level 1/1-7/Along Upwards Path/LF1"},
+	[57021] = {"@Level 1/1-7/Along Upwards Path/LF1"},
+	[57022] = {"@Level 1/1-7/Along Upwards Path/LF1"},
+	[57023] = {"@Level 1/1-7/Along Upwards Path/LF1"},
+	[57024] = {"@Level 1/1-7/Along Upwards Path/LF1"},
+	[57025] = {"@Level 1/1-7/In Hallway Corner/Clip"},
+	[57026] = {"@Level 1/1-7/Behind Right Rubble/Arrows"},
+	[57027] = {"@Level 1/1-7/Behind Ramp/Clip"},
+	[57028] = {"@Level 1/1-7/Below Central Rubble Arch/Blue Health"},
+	[57029] = {"@Level 1/1-7/Behind Central Rubble Pillar/Clip"},
+	[57030] = {"@Level 1/1-7/After Jump From Roof/Switch"},
+	[57031] = {"@Level 1/1-7/Double Switch Room Right/Switch"},
+	[57032] = {"@Level 1/1-7/Double Switch Room Left/Switch"},
+	[57033] = {"@Level 1/1-7/On Boxes Near Hidden Door/Switch"},
+	[57034] = {"@Level 1/1-7/Above Child Cage/Switch"},
+	[57035] = {"@Level 1/1-7/On Middle Platform/Rescue Child"},
+	[57036] = {"@Level 1/1-7/By Hallway Gate/Switch"},
+	[57037] = {"@Level 1/1-7/In Room Up Ramp/Switch"},
 }

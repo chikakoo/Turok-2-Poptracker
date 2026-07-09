@@ -1647,7 +1647,7 @@
             ]
           },
           {
-            "name": "On Right Ship",
+            "name": "On Left Ship",
             "sections": [
               {
                 "name": "Silver Health",
@@ -1666,7 +1666,7 @@
             ]
           },
           {
-            "name": "On Left Ship",
+            "name": "On Right Ship",
             "sections": [
               {
                 "name": "Silver Health",
@@ -1997,8 +1997,8 @@
             "map_locations": [
               {
                 "map": "1-3B",
-                "x": 359,
-                "y": 338
+                "x": 358,
+                "y": 380
               }
             ]
           },
@@ -2022,7 +2022,7 @@
             ]
           },
           {
-            "name": "Between Door Near Beacon",
+            "name": "After Two Ships Switch",
             "sections": [
               {
                 "name": "Switch",
@@ -2094,6 +2094,287 @@
                 "map": "1-3B",
                 "x": 618,
                 "y": 697
+              }
+            ]
+          },
+          {
+            "name": "Enemy Near Barrel Tower",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53111"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 374,
+                "y": 455
+              }
+            ]
+          },
+          {
+            "name": "Enemy Near Single Ship",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53112"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 333,
+                "y": 427
+              }
+            ]
+          },
+          {
+            "name": "Enemy Before Room Between Ships",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53113"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 128,
+                "y": 351
+              }
+            ]
+          },
+          {
+            "name": "Enemy After Room Between Ships",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53114"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 115,
+                "y": 237
+              }
+            ]
+          },
+          {
+            "name": "Enemy in Water",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53115"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 124,
+                "y": 134
+              }
+            ]
+          },
+          {
+            "name": "Enemy up Ramp",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53116"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 393,
+                "y": 65
+              }
+            ]
+          },
+          {
+            "name": "Enemy After Two Ships Switch",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53117"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 400,
+                "y": 199
+              }
+            ]
+          },
+          {
+            "name": "Enemy in Box Room",
+            "sections": [
+              {
+                "name": "Lower Raptor or Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53118"
+                ]
+              },
+              {
+                "name": "Either Raptoid",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53119"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 574,
+                "y": 129
+              }
+            ]
+          },
+          {
+            "name": "Enemy Before Bridge",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|53120|53121"
+                ]
+              },
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53122"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 478,
+                "y": 347
+              }
+            ]
+          },
+          {
+            "name": "Enemy Across Bridge",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53123"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 450,
+                "y": 549
+              }
+            ]
+          },
+          {
+            "name": "Enemy Before Water Room",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53124"
+                ]
+              },
+              {
+                "name": "Raptor",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53125"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 573,
+                "y": 487
+              }
+            ]
+          },
+          {
+            "name": "Enemy in Water Room",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|53126|53127"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 642,
+                "y": 567
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Cage",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|53128|53129"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-3B",
+                "shape": "diamond",
+                "x": 649,
+                "y": 693
               }
             ]
           }
@@ -2216,6 +2497,46 @@
                 "map": "1-2b",
                 "x": 455,
                 "y": 348
+              }
+            ]
+          },
+          {
+            "name": "Enemy up Ladder",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52087"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2b",
+                "shape": "diamond",
+                "x": 133,
+                "y": 107
+              }
+            ]
+          },
+          {
+            "name": "Enemy Behind Exit Door",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52088"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2b",
+                "shape": "diamond",
+                "x": 298,
+                "y": 314
               }
             ]
           }
