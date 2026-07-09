@@ -15,7 +15,10 @@
                   "$id_exists|51000"
                 ],
                 "name": "LF1",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51000"
+                ]
               }
             ],
             "map_locations": [
@@ -34,14 +37,20 @@
                   "$id_exists|51002"
                 ],
                 "name": "LF1",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|51001|51002"
+                ]
               },
               {
                 "visibility_rules": [
                   "$id_exists|51007"
                 ],
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51007"
+                ]
               }
             ],
             "map_locations": [
@@ -57,7 +66,10 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 3
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|51008|51009|51010"
+                ]
               }
             ],
             "map_locations": [
@@ -73,7 +85,10 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51011"
+                ]
               }
             ],
             "map_locations": [
@@ -89,7 +104,10 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51012"
+                ]
               }
             ],
             "map_locations": [
@@ -105,7 +123,10 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51013"
+                ]
               }
             ],
             "map_locations": [
@@ -121,7 +142,10 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51014"
+                ]
               }
             ],
             "map_locations": [
@@ -137,7 +161,10 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51015"
+                ]
               }
             ],
             "map_locations": [
@@ -153,7 +180,10 @@
             "sections": [
               {
                 "name": "Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51016"
+                ]
               }
             ],
             "map_locations": [
@@ -171,7 +201,10 @@
             "sections": [
               {
                 "name": "Power Cell",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51017"
+                ]
               }
             ],
             "map_locations": [
@@ -187,7 +220,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 4
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|51003|51004|51005|51006"
+                ]
               }
             ],
             "map_locations": [
@@ -206,7 +242,10 @@
                   "$id_exists|51018"
                 ],
                 "name": "Pistol",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51018"
+                ]
               }
             ],
             "map_locations": [
@@ -224,7 +263,10 @@
             "sections": [
               {
                 "name": "Activate Beacon",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51019"
+                ]
               }
             ],
             "map_locations": [
@@ -250,7 +292,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 6
+                "item_count": 6,
+                "visibility_rules": [
+                  "$id_exists|52000|52001|52002|52003|52004|52005"
+                ]
               }
             ],
             "map_locations": [
@@ -266,7 +311,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 5
+                "item_count": 5,
+                "visibility_rules": [
+                  "$id_exists|52006|52007|52008|52009|52010"
+                ]
               }
             ],
             "map_locations": [
@@ -282,7 +330,10 @@
             "sections": [
               {
                 "name": "Level Key",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52011"
+                ]
               }
             ],
             "map_locations": [
@@ -298,7 +349,10 @@
             "sections": [
               {
                 "name": "Quiver",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52012"
+                ]
               }
             ],
             "map_locations": [
@@ -314,7 +368,10 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 7
+                "item_count": 7,
+                "visibility_rules": [
+                  "$id_exists|52013|52014|52015|52016|52017|52018|52019"
+                ]
               }
             ],
             "map_locations": [
@@ -330,7 +387,10 @@
             "sections": [
               {
                 "name": "Pistol",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52020"
+                ]
               }
             ],
             "map_locations": [
@@ -346,11 +406,17 @@
             "sections": [
               {
                 "name": "Silver Health",
-                "item_count": 4
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|52021|52022|52023|52024"
+                ]
               },
               {
                 "name": "Box of Bullets",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52025"
+                ]
               }
             ],
             "map_locations": [
@@ -366,7 +432,10 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 3
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|52026|52027|52028"
+                ]
               }
             ],
             "map_locations": [
@@ -382,7 +451,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52063"
+                ]
               }
             ],
             "map_locations": [
@@ -398,7 +470,10 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|52029|52030"
+                ]
               }
             ],
             "map_locations": [
@@ -414,7 +489,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52031"
+                ]
               }
             ],
             "map_locations": [
@@ -430,7 +508,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 4
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|52032|52033|52034|52035"
+                ]
               }
             ],
             "map_locations": [
@@ -446,7 +527,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52064"
+                ]
               }
             ],
             "map_locations": [
@@ -462,7 +546,10 @@
             "sections": [
               {
                 "name": "Silver Health",
-                "item_count": 8
+                "item_count": 8,
+                "visibility_rules": [
+                  "$id_exists|52036|52037|52038|52039|52040|52041|52042|52043"
+                ]
               }
             ],
             "map_locations": [
@@ -478,7 +565,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52065"
+                ]
               }
             ],
             "map_locations": [
@@ -494,7 +584,10 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52044"
+                ]
               }
             ],
             "map_locations": [
@@ -510,7 +603,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 4
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|52045|52046|52047|52048"
+                ]
               }
             ],
             "map_locations": [
@@ -525,11 +621,11 @@
             "name": "Child Area Left Ramp",
             "sections": [
               {
+                "name": "Blue Health",
+                "item_count": 4,
                 "visibility_rules": [
                   "$id_exists|52049|52050|52051|52052"
-                ],
-                "name": "Blue Health",
-                "item_count": 4
+                ]
               }
             ],
             "map_locations": [
@@ -544,11 +640,11 @@
             "name": "Child Area Right Ramp",
             "sections": [
               {
+                "name": "Blue Health",
+                "item_count": 4,
                 "visibility_rules": [
                   "$id_exists|52053|52054|52055|52056"
-                ],
-                "name": "Blue Health",
-                "item_count": 4
+                ]
               }
             ],
             "map_locations": [
@@ -564,7 +660,10 @@
             "sections": [
               {
                 "name": "Box of Bullets",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52057"
+                ]
               }
             ],
             "map_locations": [
@@ -580,7 +679,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52066"
+                ]
               }
             ],
             "map_locations": [
@@ -596,7 +698,10 @@
             "sections": [
               {
                 "name": "Rescue Child",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52067"
+                ]
               }
             ],
             "map_locations": [
@@ -612,7 +717,10 @@
             "sections": [
               {
                 "name": "Box of Bullets",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52060"
+                ]
               }
             ],
             "map_locations": [
@@ -628,7 +736,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|52058|52059"
+                ]
               }
             ],
             "map_locations": [
@@ -644,7 +755,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52061"
+                ]
               }
             ],
             "map_locations": [
@@ -660,7 +774,10 @@
             "sections": [
               {
                 "name": "Quiver",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52062"
+                ]
               }
             ],
             "map_locations": [
@@ -676,7 +793,10 @@
             "sections": [
               {
                 "name": "Raptoid",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52068"
+                ]
               }
             ],
             "map_locations": [
@@ -693,7 +813,10 @@
             "sections": [
               {
                 "name": "Raptoid",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|52069|52070"
+                ]
               }
             ],
             "map_locations": [
@@ -710,7 +833,10 @@
             "sections": [
               {
                 "name": "Raptoid",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52071"
+                ]
               }
             ],
             "map_locations": [
@@ -727,7 +853,10 @@
             "sections": [
               {
                 "name": "Endtrail",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52072"
+                ]
               }
             ],
             "map_locations": [
@@ -744,7 +873,10 @@
             "sections": [
               {
                 "name": "Endtrail",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52073"
+                ]
               }
             ],
             "map_locations": [
@@ -761,7 +893,10 @@
             "sections": [
               {
                 "name": "Endtrail",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52074"
+                ]
               }
             ],
             "map_locations": [
@@ -778,7 +913,10 @@
             "sections": [
               {
                 "name": "Raptoid",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52075"
+                ]
               }
             ],
             "map_locations": [
@@ -795,7 +933,10 @@
             "sections": [
               {
                 "name": "Endtrail",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52076"
+                ]
               }
             ],
             "map_locations": [
@@ -812,7 +953,10 @@
             "sections": [
               {
                 "name": "Raptoid",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|52077|52078"
+                ]
               }
             ],
             "map_locations": [
@@ -837,7 +981,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53000"
+                ]
               }
             ],
             "map_locations": [
@@ -853,7 +1000,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53001"
+                ]
               }
             ],
             "map_locations": [
@@ -869,11 +1019,17 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53087"
+                ]
               },
               {
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53002"
+                ]
               }
             ],
             "map_locations": [
@@ -889,7 +1045,10 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 3
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|53003|53004|53005"
+                ]
               }
             ],
             "map_locations": [
@@ -905,7 +1064,10 @@
             "sections": [
               {
                 "name": "Quiver",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53006"
+                ]
               }
             ],
             "map_locations": [
@@ -921,7 +1083,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 8
+                "item_count": 8,
+                "visibility_rules": [
+                  "$id_exists|53007|53008|53009|53010|530011|53012|53013|53014"
+                ]
               }
             ],
             "map_locations": [
@@ -937,7 +1102,10 @@
             "sections": [
               {
                 "name": "Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53015"
+                ]
               }
             ],
             "map_locations": [
@@ -953,7 +1121,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53089"
+                ]
               }
             ],
             "map_locations": [
@@ -969,7 +1140,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53088"
+                ]
               }
             ],
             "map_locations": [
@@ -985,11 +1159,17 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 4
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|53016|53017|53018|53019"
+                ]
               },
               {
                 "name": "Ultra Health",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53020"
+                ]
               }
             ],
             "map_locations": [
@@ -1005,11 +1185,17 @@
             "sections": [
               {
                 "name": "Pistol",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53023"
+                ]
               },
               {
                 "name": "Clip",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|53021|53022"
+                ]
               }
             ],
             "map_locations": [
@@ -1025,7 +1211,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53090"
+                ]
               }
             ],
             "map_locations": [
@@ -1041,7 +1230,10 @@
             "sections": [
               {
                 "name": "Endtrail",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53100"
+                ]
               }
             ],
             "map_locations": [
@@ -1058,7 +1250,10 @@
             "sections": [
               {
                 "name": "Endtrail",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53101"
+                ]
               }
             ],
             "map_locations": [
@@ -1075,7 +1270,10 @@
             "sections": [
               {
                 "name": "Compy",
-                "item_count": 3
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|53102|53103|53104"
+                ]
               }
             ],
             "map_locations": [
@@ -1092,7 +1290,10 @@
             "sections": [
               {
                 "name": "Endtrail",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53105"
+                ]
               }
             ],
             "map_locations": [
@@ -1109,7 +1310,10 @@
             "sections": [
               {
                 "name": "Raptoid",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53106"
+                ]
               }
             ],
             "map_locations": [
@@ -1126,7 +1330,10 @@
             "sections": [
               {
                 "name": "Raptor",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|53107|53108"
+                ]
               }
             ],
             "map_locations": [
@@ -1143,11 +1350,17 @@
             "sections": [
               {
                 "name": "Raptoid",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53109"
+                ]
               },
               {
                 "name": "Endtrail",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53110"
+                ]
               }
             ],
             "map_locations": [
@@ -1172,7 +1385,10 @@
             "sections": [
               {
                 "name": "Silver Health",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|53024|53025"
+                ]
               }
             ],
             "map_locations": [
@@ -1188,7 +1404,10 @@
             "sections": [
               {
                 "name": "Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53026"
+                ]
               }
             ],
             "map_locations": [
@@ -1204,7 +1423,10 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53027"
+                ]
               }
             ],
             "map_locations": [
@@ -1220,7 +1442,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53028"
+                ]
               }
             ],
             "map_locations": [
@@ -1236,7 +1461,10 @@
             "sections": [
               {
                 "name": "Power Cell",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53030"
+                ]
               }
             ],
             "map_locations": [
@@ -1248,11 +1476,14 @@
             ]
           },
           {
-            "name": "In Water",
+            "name": "In Water by Single Ship",
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53029"
+                ]
               }
             ],
             "map_locations": [
@@ -1268,7 +1499,10 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 3
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|53031|53032|53033"
+                ]
               }
             ],
             "map_locations": [
@@ -1284,7 +1518,10 @@
             "sections": [
               {
                 "name": "Shotgun",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53034"
+                ]
               }
             ],
             "map_locations": [
@@ -1300,7 +1537,10 @@
             "sections": [
               {
                 "name": "Pistol",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53039"
+                ]
               }
             ],
             "map_locations": [
@@ -1312,11 +1552,14 @@
             ]
           },
           {
-            "name": "In Water",
+            "name": "In Water by Two Ships",
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53036"
+                ]
               }
             ],
             "map_locations": [
@@ -1332,7 +1575,10 @@
             "sections": [
               {
                 "name": "Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53040"
+                ]
               }
             ],
             "map_locations": [
@@ -1348,7 +1594,10 @@
             "sections": [
               {
                 "name": "Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53035"
+                ]
               }
             ],
             "map_locations": [
@@ -1364,7 +1613,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|53037|53038"
+                ]
               }
             ],
             "map_locations": [
@@ -1380,7 +1632,10 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53046"
+                ]
               }
             ],
             "map_locations": [
@@ -1396,7 +1651,10 @@
             "sections": [
               {
                 "name": "Silver Health",
-                "item_count": 5
+                "item_count": 5,
+                "visibility_rules": [
+                  "$id_exists|53041|53042|53043|53044|53045"
+                ]
               }
             ],
             "map_locations": [
@@ -1412,7 +1670,10 @@
             "sections": [
               {
                 "name": "Silver Health",
-                "item_count": 5
+                "item_count": 5,
+                "visibility_rules": [
+                  "$id_exists|53047|53048|53049|53050|53051"
+                ]
               }
             ],
             "map_locations": [
@@ -1428,7 +1689,10 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 3
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|53052|53053|53054"
+                ]
               }
             ],
             "map_locations": [
@@ -1444,7 +1708,10 @@
             "sections": [
               {
                 "name": "Power Cell",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53055"
+                ]
               }
             ],
             "map_locations": [
@@ -1460,7 +1727,10 @@
             "sections": [
               {
                 "name": "Shells",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53056"
+                ]
               }
             ],
             "map_locations": [
@@ -1476,7 +1746,10 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53057"
+                ]
               }
             ],
             "map_locations": [
@@ -1492,7 +1765,10 @@
             "sections": [
               {
                 "name": "Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53058"
+                ]
               }
             ],
             "map_locations": [
@@ -1508,7 +1784,10 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|53059|53060"
+                ]
               }
             ],
             "map_locations": [
@@ -1524,7 +1803,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 7
+                "item_count": 7,
+                "visibility_rules": [
+                  "$id_exists|53063|53064|53065|53066|53067|53068|53069"
+                ]
               }
             ],
             "map_locations": [
@@ -1540,7 +1822,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|53061|53062"
+                ]
               }
             ],
             "map_locations": [
@@ -1556,11 +1841,17 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53095"
+                ]
               },
               {
                 "name": "Silver Health",
-                "item_count": 6
+                "item_count": 6,
+                "visibility_rules": [
+                  "$id_exists|53070|53071|53072|53073|53074|53075"
+                ]
               }
             ],
             "map_locations": [
@@ -1576,7 +1867,10 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53076"
+                ]
               }
             ],
             "map_locations": [
@@ -1592,7 +1886,10 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 3
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|53077|53078|53079"
+                ]
               }
             ],
             "map_locations": [
@@ -1608,7 +1905,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 4
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|53080|53081|53082|53083"
+                ]
               }
             ],
             "map_locations": [
@@ -1624,7 +1924,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53084"
+                ]
               }
             ],
             "map_locations": [
@@ -1640,7 +1943,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53096"
+                ]
               }
             ],
             "map_locations": [
@@ -1656,11 +1962,17 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53098"
+                ]
               },
               {
                 "name": "Blue Health",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|53085|53086"
+                ]
               }
             ],
             "map_locations": [
@@ -1676,7 +1988,10 @@
             "sections": [
               {
                 "name": "Activate Beacon",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53091"
+                ]
               }
             ],
             "map_locations": [
@@ -1692,7 +2007,10 @@
             "sections": [
               {
                 "name": "Activate Beacon",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53092"
+                ]
               }
             ],
             "map_locations": [
@@ -1708,7 +2026,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53094"
+                ]
               }
             ],
             "map_locations": [
@@ -1724,7 +2045,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53093"
+                ]
               }
             ],
             "map_locations": [
@@ -1740,7 +2064,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53097"
+                ]
               }
             ],
             "map_locations": [
@@ -1756,7 +2083,10 @@
             "sections": [
               {
                 "name": "Rescue Child",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|53099"
+                ]
               }
             ],
             "map_locations": [
@@ -1780,7 +2110,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 3
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|52079|52080|52081"
+                ]
               }
             ],
             "map_locations": [
@@ -1796,7 +2129,10 @@
             "sections": [
               {
                 "name": "Level Key",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52082"
+                ]
               }
             ],
             "map_locations": [
@@ -1812,7 +2148,10 @@
             "sections": [
               {
                 "name": "Explosive Shells",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52083"
+                ]
               }
             ],
             "map_locations": [
@@ -1828,7 +2167,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52084"
+                ]
               }
             ],
             "map_locations": [
@@ -1844,7 +2186,10 @@
             "sections": [
               {
                 "name": "Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52085"
+                ]
               }
             ],
             "map_locations": [
@@ -1860,7 +2205,10 @@
             "sections": [
               {
                 "name": "Quiver",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52086"
+                ]
               }
             ],
             "map_locations": [
@@ -1884,7 +2232,10 @@
             "sections": [
               {
                 "name": "Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55000"
+                ]
               }
             ],
             "map_locations": [
@@ -1900,7 +2251,10 @@
             "sections": [
               {
                 "name": "Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55001"
+                ]
               }
             ],
             "map_locations": [
@@ -1916,7 +2270,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 4
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|55002|55003|55004|55005"
+                ]
               }
             ],
             "map_locations": [
@@ -1932,7 +2289,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55006"
+                ]
               }
             ],
             "map_locations": [
@@ -1948,7 +2308,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55007"
+                ]
               }
             ],
             "map_locations": [
@@ -1964,7 +2327,10 @@
             "sections": [
               {
                 "name": "Explosive Shells",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|55008|55009"
+                ]
               }
             ],
             "map_locations": [
@@ -1980,7 +2346,10 @@
             "sections": [
               {
                 "name": "Level Key",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55010"
+                ]
               }
             ],
             "map_locations": [
@@ -1996,7 +2365,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 8
+                "item_count": 8,
+                "visibility_rules": [
+                  "$id_exists|55011|55012|55013|55014|55015|55016|55017|55018"
+                ]
               }
             ],
             "map_locations": [
@@ -2012,11 +2384,17 @@
             "sections": [
               {
                 "name": "Ultra Health",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55019"
+                ]
               },
               {
                 "name": "LF10",
-                "item_count": 8
+                "item_count": 8,
+                "visibility_rules": [
+                  "$id_exists|55020|55021|55022|55023|55024|55025|55026|55027"
+                ]
               }
             ],
             "map_locations": [
@@ -2032,7 +2410,10 @@
             "sections": [
               {
                 "name": "Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55028"
+                ]
               }
             ],
             "map_locations": [
@@ -2048,7 +2429,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55029"
+                ]
               }
             ],
             "map_locations": [
@@ -2064,7 +2448,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55030"
+                ]
               }
             ],
             "map_locations": [
@@ -2080,11 +2467,17 @@
             "sections": [
               {
                 "name": "Talisman Portal Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55073"
+                ]
               },
               {
                 "name": "Blue Health",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|55031|55032"
+                ]
               }
             ],
             "map_locations": [
@@ -2100,7 +2493,10 @@
             "sections": [
               {
                 "name": "Shells",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55033"
+                ]
               }
             ],
             "map_locations": [
@@ -2116,7 +2512,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 3
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|55034|55035|55036"
+                ]
               }
             ],
             "map_locations": [
@@ -2132,7 +2531,10 @@
             "sections": [
               {
                 "name": "Shells",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55037"
+                ]
               }
             ],
             "map_locations": [
@@ -2148,11 +2550,17 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55042"
+                ]
               },
               {
                 "name": "LF10",
-                "item_count": 4
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|55038|55039|55040|55041"
+                ]
               }
             ],
             "map_locations": [
@@ -2168,7 +2576,10 @@
             "sections": [
               {
                 "name": "Tek Bow",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55043"
+                ]
               }
             ],
             "map_locations": [
@@ -2184,7 +2595,10 @@
             "sections": [
               {
                 "name": "Tek Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55044"
+                ]
               }
             ],
             "map_locations": [
@@ -2200,7 +2614,10 @@
             "sections": [
               {
                 "name": "Tek Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55045"
+                ]
               }
             ],
             "map_locations": [
@@ -2216,7 +2633,10 @@
             "sections": [
               {
                 "name": "Tek Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55046"
+                ]
               }
             ],
             "map_locations": [
@@ -2232,7 +2652,10 @@
             "sections": [
               {
                 "name": "Tek Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55047"
+                ]
               }
             ],
             "map_locations": [
@@ -2248,11 +2671,17 @@
             "sections": [
               {
                 "name": "LF10 (Jumpable)",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55048"
+                ]
               },
               {
                 "name": "LF10",
-                "item_count": 5
+                "item_count": 5,
+                "visibility_rules": [
+                  "$id_exists|55049|55050|55051|55052|55053"
+                ]
               }
             ],
             "map_locations": [
@@ -2268,7 +2697,10 @@
             "sections": [
               {
                 "name": "Primagen Key",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55054"
+                ]
               }
             ],
             "map_locations": [
@@ -2284,7 +2716,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 3
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|55055|55056|55057"
+                ]
               }
             ],
             "map_locations": [
@@ -2300,7 +2735,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55058"
+                ]
               }
             ],
             "map_locations": [
@@ -2316,7 +2754,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 5
+                "item_count": 5,
+                "visibility_rules": [
+                  "$id_exists|55059|55060|55061|55062|55063"
+                ]
               }
             ],
             "map_locations": [
@@ -2332,7 +2773,10 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 3
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|55064|55065|55066"
+                ]
               }
             ],
             "map_locations": [
@@ -2348,11 +2792,17 @@
             "sections": [
               {
                 "name": "Explosive Shells",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55071"
+                ]
               },
               {
                 "name": "Silver Health",
-                "item_count": 4
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|55067|55068|55069|55070"
+                ]
               }
             ],
             "map_locations": [
@@ -2368,7 +2818,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55074"
+                ]
               }
             ],
             "map_locations": [
@@ -2384,7 +2837,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55072"
+                ]
               }
             ],
             "map_locations": [
@@ -2408,7 +2864,10 @@
             "sections": [
               {
                 "name": "Tek Bow",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54000"
+                ]
               }
             ],
             "map_locations": [
@@ -2424,7 +2883,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54002"
+                ]
               }
             ],
             "map_locations": [
@@ -2440,7 +2902,10 @@
             "sections": [
               {
                 "name": "Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54001"
+                ]
               }
             ],
             "map_locations": [
@@ -2456,11 +2921,17 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54007"
+                ]
               },
               {
                 "name": "LF1",
-                "item_count": 4
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|54003|54004|54005|54006"
+                ]
               }
             ],
             "map_locations": [
@@ -2476,7 +2947,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 7
+                "item_count": 7,
+                "visibility_rules": [
+                  "$id_exists|54008|54009|54010|54011|54012|54013|54014"
+                ]
               }
             ],
             "map_locations": [
@@ -2492,7 +2966,10 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54015"
+                ]
               }
             ],
             "map_locations": [
@@ -2508,7 +2985,10 @@
             "sections": [
               {
                 "name": "Silver Health",
-                "item_count": 3
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|54016|54017|54018"
+                ]
               }
             ],
             "map_locations": [
@@ -2524,7 +3004,10 @@
             "sections": [
               {
                 "name": "Shotgun",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54019"
+                ]
               }
             ],
             "map_locations": [
@@ -2540,11 +3023,17 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54029"
+                ]
               },
               {
                 "name": "Shells",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54020"
+                ]
               }
             ],
             "map_locations": [
@@ -2560,7 +3049,10 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54021"
+                ]
               }
             ],
             "map_locations": [
@@ -2576,7 +3068,10 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54022"
+                ]
               }
             ],
             "map_locations": [
@@ -2592,11 +3087,17 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54032"
+                ]
               },
               {
                 "name": "Blue Health",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|54023|54024"
+                ]
               }
             ],
             "map_locations": [
@@ -2612,7 +3113,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54025"
+                ]
               }
             ],
             "map_locations": [
@@ -2628,7 +3132,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54027"
+                ]
               }
             ],
             "map_locations": [
@@ -2644,7 +3151,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54026"
+                ]
               }
             ],
             "map_locations": [
@@ -2660,7 +3170,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54028"
+                ]
               }
             ],
             "map_locations": [
@@ -2676,7 +3189,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54031"
+                ]
               }
             ],
             "map_locations": [
@@ -2692,7 +3208,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54030"
+                ]
               }
             ],
             "map_locations": [
@@ -2708,7 +3227,10 @@
             "sections": [
               {
                 "name": "Rescue Child",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54033"
+                ]
               }
             ],
             "map_locations": [
@@ -2732,7 +3254,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|56000|56001"
+                ]
               }
             ],
             "map_locations": [
@@ -2748,7 +3273,10 @@
             "sections": [
               {
                 "name": "Arrows",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|56002"
+                ]
               }
             ],
             "map_locations": [
@@ -2764,7 +3292,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 4
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|56003|56004|56005|56006"
+                ]
               }
             ],
             "map_locations": [
@@ -2780,7 +3311,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|56007"
+                ]
               }
             ],
             "map_locations": [
@@ -2796,7 +3330,10 @@
             "sections": [
               {
                 "name": "Silver Health",
-                "item_count": 6
+                "item_count": 6,
+                "visibility_rules": [
+                  "$id_exists|56008|56009|56010|56011|56012|56013"
+                ]
               }
             ],
             "map_locations": [
@@ -2812,7 +3349,10 @@
             "sections": [
               {
                 "name": "Blue Health",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|56014|56015"
+                ]
               }
             ],
             "map_locations": [
@@ -2828,7 +3368,10 @@
             "sections": [
               {
                 "name": "Clip",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|56016|56017"
+                ]
               }
             ],
             "map_locations": [
@@ -2844,11 +3387,17 @@
             "sections": [
               {
                 "name": "LF10",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|56020"
+                ]
               },
               {
                 "name": "LF1",
-                "item_count": 2
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|56018|56019"
+                ]
               }
             ],
             "map_locations": [
@@ -2864,7 +3413,10 @@
             "sections": [
               {
                 "name": "Box of Shells",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|56021"
+                ]
               }
             ],
             "map_locations": [
@@ -2880,7 +3432,10 @@
             "sections": [
               {
                 "name": "Box of Bullets",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|56022"
+                ]
               }
             ],
             "map_locations": [
@@ -2896,7 +3451,10 @@
             "sections": [
               {
                 "name": "Explosive Shells",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|56023"
+                ]
               }
             ],
             "map_locations": [
@@ -2912,7 +3470,10 @@
             "sections": [
               {
                 "name": "LF1",
-                "item_count": 9
+                "item_count": 9,
+                "visibility_rules": [
+                  "$id_exists|56024|56025|56026|56027|56028|56029|56030|56031|56032"
+                ]
               }
             ],
             "map_locations": [
@@ -2928,7 +3489,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|56033"
+                ]
               }
             ],
             "map_locations": [
@@ -2944,7 +3508,10 @@
             "sections": [
               {
                 "name": "Switch",
-                "item_count": 1
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|56034"
+                ]
               }
             ],
             "map_locations": [
