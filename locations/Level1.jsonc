@@ -11,7 +11,9 @@
             "name": "On Box",
             "sections": [
               {
-                "visibility_rules": [ "$id_exists|51000" ],
+                "visibility_rules": [
+                  "$id_exists|51000"
+                ],
                 "name": "LF1",
                 "item_count": 1
               }
@@ -28,12 +30,16 @@
             "name": "Under Left Ship Half in Water",
             "sections": [
               {
-                "visibility_rules": [ "$id_exists|51002" ],
+                "visibility_rules": [
+                  "$id_exists|51002"
+                ],
                 "name": "LF1",
                 "item_count": 2
               },
               {
-                "visibility_rules": [ "$id_exists|51007" ],
+                "visibility_rules": [
+                  "$id_exists|51007"
+                ],
                 "name": "LF10",
                 "item_count": 1
               }
@@ -196,7 +202,9 @@
             "name": "Pipe Overlooking First Room",
             "sections": [
               {
-                "visibility_rules": [ "$id_exists|51018" ],
+                "visibility_rules": [
+                  "$id_exists|51018"
+                ],
                 "name": "Pistol",
                 "item_count": 1
               }
@@ -517,7 +525,9 @@
             "name": "Child Area Left Ramp",
             "sections": [
               {
-                "visibility_rules": [ "$id_exists|52049|52050|52051|52052" ],
+                "visibility_rules": [
+                  "$id_exists|52049|52050|52051|52052"
+                ],
                 "name": "Blue Health",
                 "item_count": 4
               }
@@ -534,7 +544,9 @@
             "name": "Child Area Right Ramp",
             "sections": [
               {
-                "visibility_rules": [ "$id_exists|52053|52054|52055|52056" ],
+                "visibility_rules": [
+                  "$id_exists|52053|52054|52055|52056"
+                ],
                 "name": "Blue Health",
                 "item_count": 4
               }
@@ -2940,6 +2952,508 @@
                 "map": "1-6",
                 "x": 445,
                 "y": 271
+              }
+            ]
+          }
+        ]
+      },
+      { //1-7
+        "name": "1-7",
+        "access_rules": [],
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+          {
+            "name": "Entrance Trail",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|57000|57001|57002|57002"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 221,
+                "y": 832
+              }
+            ]
+          },
+          {
+            "name": "In Exploded Wall",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57004"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 115,
+                "y": 833
+              }
+            ]
+          },
+          {
+            "name": "On First Roof",
+            "sections": [
+              {
+                "name": "Tek Arrows",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57005"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 201,
+                "y": 731
+              }
+            ]
+          },
+          {
+            "name": "On Second Roof Center",
+            "sections": [
+              {
+                "name": "Red Health",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57006"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 309,
+                "y": 667
+              }
+            ]
+          },
+          {
+            "name": "On Second Roof Back",
+            "sections": [
+              {
+                "name": "Silver Health",
+                "item_count": 6,
+                "visibility_rules": [
+                  "$id_exists|57007|57008|57009|57010|57011|57012"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 345,
+                "y": 668
+              }
+            ]
+          },
+          {
+            "name": "Inside Second House",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57013"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 290,
+                "y": 686
+              }
+            ]
+          },
+          {
+            "name": "Between Boxes Near Hidden Door",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57014"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 234,
+                "y": 534
+              }
+            ]
+          },
+          {
+            "name": "On Crate Near Hidden Door",
+            "sections": [
+              {
+                "name": "Shells",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57015"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 274,
+                "y": 524
+              }
+            ]
+          },
+          {
+            "name": "Between Center Pillars",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57016"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 171,
+                "y": 335
+              }
+            ]
+          },
+          {
+            "name": "In Right Alcove",
+            "sections": [
+              {
+                "name": "Shells",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57017"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 137,
+                "y": 218
+              }
+            ]
+          },
+          {
+            "name": "In Upwards Path Gate",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57018"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 403,
+                "y": 220
+              }
+            ]
+          },
+          {
+            "name": "On Dead-end Ledge",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57019"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 542,
+                "y": 147
+              }
+            ]
+          },
+          {
+            "name": "Along Upwards Path",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 5,
+                "visibility_rules": [
+                  "$id_exists|57020|57021|57022|57023|57024"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 474,
+                "y": 86
+              }
+            ]
+          },
+          {
+            "name": "In Hallway Corner",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57025"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 399,
+                "y": 498
+              }
+            ]
+          },
+          {
+            "name": "Behind Right Rubble",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57026"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 582,
+                "y": 648
+              }
+            ]
+          },
+          {
+            "name": "Behind Ramp",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57027"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 563,
+                "y": 430
+              }
+            ]
+          },
+          {
+            "name": "Below Central Rubble Arch",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57028"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 666,
+                "y": 532
+              }
+            ]
+          },
+          {
+            "name": "Behind Central Rubble Pillar",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57029"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 677,
+                "y": 491
+              }
+            ]
+          },
+          {
+            "name": "After Jump From Roof",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57030"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 314,
+                "y": 764
+              }
+            ]
+          },
+          {
+            "name": "Double Switch Room Right",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57031"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 31,
+                "y": 698
+              }
+            ]
+          },
+          {
+            "name": "Double Switch Room Left",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57032"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 70,
+                "y": 769
+              }
+            ]
+          },
+          {
+            "name": "On Boxes Near Hidden Door",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57033"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 228,
+                "y": 599
+              }
+            ]
+          },
+          {
+            "name": "Above Child Cage",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57034"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 793,
+                "y": 321
+              }
+            ]
+          },
+          {
+            "name": "On Middle Platform",
+            "sections": [
+              {
+                "name": "Rescue Child",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57035"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 788,
+                "y": 186
+              }
+            ]
+          },
+          {
+            "name": "By Hallway Gate",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57036"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 468,
+                "y": 635
+              }
+            ]
+          },
+          {
+            "name": "In Room Up Ramp",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|57037"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-7",
+                "x": 497,
+                "y": 463
               }
             ]
           }
