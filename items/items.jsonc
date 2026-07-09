@@ -11,5 +11,13 @@
     "overlay_background": "#000000",
     "overlay_font_size": 8,
     "codes": "ProgressiveWarpLevel1"
+  },
+  {
+    "name": "update",
+    "type": "toggle",
+    "img": "images/items/update.png",
+    "initial_active_state": false,
+    "overlay_align": "right",
+    "codes": "update"
   }
 ]

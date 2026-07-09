@@ -313,19 +313,19 @@ LOCATION_MAPPING = {
 	[55072] = {"@Level 1/1-4/Waterfall Switch/Switch"},
 	[55073] = {"@Level 1/1-4/Alcove near Portal/Talisman Portal Switch"},
 	[55074] = {"@Level 1/1-4/Upper Primagen Key Switch/Switch"},
-
-
-
-
-
-
-
-
-
-
-
-
-
+	[55075] = {"@Level 1/1-4/Enemy Behind Waterfall/Endtrail"},
+	[55076] = {"@Level 1/1-4/Enemy by Talisman Portal/Endtrail"},
+	[55077] = {"@Level 1/1-4/Enemy by Talisman Portal/Endtrail"},
+	[55078] = {"@Level 1/1-4/Enemy by Upper Building Start/Raptoid"},
+	[55079] = {"@Level 1/1-4/Enemy by Upper Building Left/Raptoid"},
+	[55080] = {"@Level 1/1-4/Enemy by Upper Building Left/Raptoid"},
+	[55081] = {"@Level 1/1-4/Enemy Below Primagen Key/Endtrail"},
+	[55082] = {"@Level 1/1-4/Enemy Above Primagen Key/Endtrail"},
+	[55083] = {"@Level 1/1-4/Enemy Above Doorway/Endtrail"},
+	[55084] = {"@Level 1/1-4/Enemy Upper Left Sniper/Endtrail"},
+	[55085] = {"@Level 1/1-4/Enemy Upper Right Sniper/Endtrail"},
+	[55086] = {"@Level 1/1-4/Enemy by Building 2/Raptoid"},
+	[55087] = {"@Level 1/1-4/Enemy by Exit Portal/Endtrail"},
 	[54000] = {"@Level 1/1-5/In Entrance Hall/Tek Bow"},
 	[54001] = {"@Level 1/1-5/Right of Rubble/Arrows"},
 	[54002] = {"@Level 1/1-5/Left of Rubble/Clip"},
@@ -360,17 +360,17 @@ LOCATION_MAPPING = {
 	[54031] = {"@Level 1/1-5/Child Bridges Left Far/Switch"},
 	[54032] = {"@Level 1/1-5/Cage Switch Alcove/Switch"},
 	[54033] = {"@Level 1/1-5/Child Area Cage/Rescue Child"},
-
-
-
-
-
-
-
-
-
-
-
+	[54034] = {"@Level 1/1-5/Enemy on Rubble/Raptoid"},
+	[54035] = {"@Level 1/1-5/Enemy on Rubble/Raptoid"},
+	[54036] = {"@Level 1/1-5/Enemy on Rubble/Endtrail"},
+	[54037] = {"@Level 1/1-5/Enemy Child Bridges/Raptoid"},
+	[54038] = {"@Level 1/1-5/Enemy Child Bridges/Raptoid"},
+	[54039] = {"@Level 1/1-5/Enemy Child Bridges/Raptoid"},
+	[54040] = {"@Level 1/1-5/Enemy Child Bridges/Raptoid"},
+	[54041] = {"@Level 1/1-5/Enemy Child Bridges/Raptoid"},
+	[54042] = {"@Level 1/1-5/Enemy Child Bridges/Raptoid"},
+	[54043] = {"@Level 1/1-5/Enemy by Cage/Endtrail"},
+	[54044] = {"@Level 1/1-5/Enemy by Cage/Endtrail"},
 	[56000] = {"@Level 1/1-6/In Archery House Between Beds/Clip"},
 	[56001] = {"@Level 1/1-6/In Archery House Between Beds/Clip"},
 	[56002] = {"@Level 1/1-6/Behind Archery House/Arrows"},
@@ -406,16 +406,16 @@ LOCATION_MAPPING = {
 	[56032] = {"@Level 1/1-6/Trail to Bridge/LF1"},
 	[56033] = {"@Level 1/1-6/In Archery House/Switch"},
 	[56034] = {"@Level 1/1-6/Bridge House Lower Room/Switch"},
-
-
-
-
+	[56035] = {"@Level 1/1-6/Enemy in Hallway/Raptoid"},
+	[56036] = {"@Level 1/1-6/Enemy in Wall/Raptoid"},
+	[56037] = {"@Level 1/1-6/Enemy Before Bridge/Endtrail"},
+	[56038] = {"@Level 1/1-6/Enemy After Bridge/Endtrail"},
 	[57000] = {"@Level 1/1-7/Entrance Trail/LF1"},
 	[57001] = {"@Level 1/1-7/Entrance Trail/LF1"},
 	[57002] = {"@Level 1/1-7/Entrance Trail/LF1"},
 	[57003] = {"@Level 1/1-7/Entrance Trail/LF1"},
 	[57004] = {"@Level 1/1-7/In Exploded Wall/Clip"},
-	[57005] = {"@Level 1/1-7/On First Roof Corner/Tek Arrows"},
+	[57005] = {"@Level 1/1-7/On First Roof/Tek Arrows"},
 	[57006] = {"@Level 1/1-7/On Second Roof Center/Full Health"},
 	[57007] = {"@Level 1/1-7/On Second Roof Back/Silver Health"},
 	[57008] = {"@Level 1/1-7/On Second Roof Back/Silver Health"},

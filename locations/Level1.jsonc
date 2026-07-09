@@ -2530,7 +2530,7 @@
           }
         ]
       },
-      { //1-4b
+      { //1-4
         "name": "1-4",
         "access_rules": [],
         "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
@@ -2645,8 +2645,8 @@
             "map_locations": [
               {
                 "map": "1-4",
-                "x": 377,
-                "y": 384
+                "x": 373,
+                "y": 386
               }
             ]
           },
@@ -2664,8 +2664,8 @@
             "map_locations": [
               {
                 "map": "1-4",
-                "x": 420,
-                "y": 384
+                "x": 390,
+                "y": 386
               }
             ]
           },
@@ -2996,8 +2996,8 @@
             "map_locations": [
               {
                 "map": "1-4",
-                "x": 511,
-                "y": 132
+                "x": 543,
+                "y": 129
               }
             ]
           },
@@ -3157,6 +3157,226 @@
                 "map": "1-4",
                 "x": 346,
                 "y": 470
+              }
+            ]
+          },
+          {
+            "name": "Enemy Behind Waterfall",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55075"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 391,
+                "y": 361
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Talisman Portal",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|55076|55077"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 511,
+                "y": 689
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Upper Building Start",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55078"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 467,
+                "y": 494
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Upper Building Left",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|55079|55080"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 418,
+                "y": 454
+              }
+            ]
+          },
+          {
+            "name": "Enemy Below Primagen Key",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55081"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 460,
+                "y": 195
+              }
+            ]
+          },
+          {
+            "name": "Enemy Above Primagen Key",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55082"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 560,
+                "y": 182
+              }
+            ]
+          },
+          {
+            "name": "Enemy Above Doorway",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55083"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 358,
+                "y": 135
+              }
+            ]
+          },
+          {
+            "name": "Enemy Upper Left Sniper",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55084"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 552,
+                "y": 91
+              }
+            ]
+          },
+          {
+            "name": "Enemy Upper Right Sniper",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55085"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 303,
+                "y": 106
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Building 2",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55086"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 353,
+                "y": 236
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Exit Portal",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55087"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 90,
+                "y": 204
               }
             ]
           }
@@ -3549,6 +3769,73 @@
                 "y": 523
               }
             ]
+          },
+          {
+            "name": "Enemy on Rubble",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|54034|54035"
+                ]
+              },
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54036"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "shape": "diamond",
+                "x": 298,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "name": "Enemy Child Bridges",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 6,
+                "visibility_rules": [
+                  "$id_exists|54037|54038|54039|54040|54041|54042"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "shape": "diamond",
+                "x": 159,
+                "y": 520
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Cage",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|54043|54044"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "shape": "diamond",
+                "x": 53,
+                "y": 523
+              }
+            ]
           }
         ]
       },
@@ -3830,6 +4117,86 @@
                 "y": 271
               }
             ]
+          },
+          {
+            "name": "Enemy in Hallway",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|56035"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-6",
+                "shape": "diamond",
+                "x": 402,
+                "y": 393
+              }
+            ]
+          },
+          {
+            "name": "Enemy in Wall",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|56036"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-6",
+                "shape": "diamond",
+                "x": 383,
+                "y": 176
+              }
+            ]
+          },
+          {
+            "name": "Enemy Before Bridge",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|56037"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-6",
+                "shape": "diamond",
+                "x": 648,
+                "y": 98
+              }
+            ]
+          },
+          {
+            "name": "Enemy After Bridge",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|56038"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-6",
+                "shape": "diamond",
+                "x": 487,
+                "y": 97
+              }
+            ]
           }
         ]
       },
@@ -3900,7 +4267,7 @@
             "name": "On Second Roof Center",
             "sections": [
               {
-                "name": "Red Health",
+                "name": "Full Health",
                 "item_count": 1,
                 "visibility_rules": [
                   "$id_exists|57006"
