@@ -102,7 +102,6 @@ function ForceUpdate()
     update.Active = not update.Active
 end
 
-
 ---resets a given item back to default or what's saved for the given seed in the pseuso-cache LuaItems
 ---@param item_type string table of the ItemCode and extra parameters from the Item_Mapping.lau
 ---@param item_obj JsonItem Tracker:FindObjectForCode(item) return object
@@ -367,6 +366,19 @@ function OnLocation(location_id, location_name)
         end
     end
     MANUAL_CHECKED = true
+end
+
+---Called from the client to update the current map
+---Contains json containing the tab to switch to
+---@param json json containing the map and section used to switch tabs
+function OnBounce(json)
+    local data = json["data"]
+    if data then
+        if data["type"] == "MapUpdate" then
+            Tracker:UiHint("ActivateTab", data["map"])
+            Tracker:UiHint("ActivateTab", data["section"])
+        end
+    end
 end
 
 -- this Autofill function is meant as an example on how to do the reading from slot_data
