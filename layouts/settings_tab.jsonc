@@ -1,22 +1,126 @@
 {
-    "settings_tab": {
-        "type": "array",
-        "orientation": "horizontal",
-        // "margin": "10,10,10,10",
+  "settings_tab": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+        "type": "group",
+        "header": "Goal",
+        "description": "Goal-related settings",
+        "header_background": "#3e4b57",
         "content": [
-            {
-              "type": "group",
-              "header": "Progression",
-              "description": "How far each progressive warp takes you.",
-              "header_background": "#3e4b57",
-              "content": [
-                {
-                  "type": "item",
-                  "max_width": "32",
-                  "item": "progressive_warp_weight"
-                }
-              ]
-            }
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "level_goal"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "primagen_goal"
+              }
+            ]
+          }
         ]
-    }
+      },
+      {
+        "type": "group",
+        "header": "Included levels",
+        "description": "What levels are included",
+        "header_background": "#3e4b57",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "include_level_1"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "include_level_2"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "include_level_3"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "include_level_4"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "include_level_5"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "include_level_6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Progression",
+        "description": "Progression-related settings",
+        "header_background": "#3e4b57",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "progressive_warps"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "level_unlock_method"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "progressive_weapon_ammo_upgrades"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Tracker",
+        "description": "Tracker-related settings",
+        "header_background": "#3e4b57",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "item",
+                "max_width": "80",
+                "item": "autofill_settings"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

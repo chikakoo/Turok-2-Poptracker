@@ -11,6 +11,10 @@
           {
             "ref": "1-1/On Box/LF1",
             "name": "1"
+          },
+          {
+            "ref": "1-1/Under Left Ship Half in Water/LF1",
+            "name": "2"
           }
         ],
         "map_locations": [

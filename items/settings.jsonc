@@ -1,8 +1,118 @@
 [
+    // Goal
     {
-        "name": "Progressive Warp Weight",
+        "name": "Level Goal",
         "type": "consumable",
-        "img": "/images/settings/progressive_warp_weight.png",
-        "codes": "progressive_warp_weight"
+        "img": "/images/settings/level_goal.png",
+        "max_quantity": 6,
+        "initial_quantity": 2,
+        "codes": "level_goal"
+    },
+    {
+        // Options are none, defeat, get to lair
+        // Defeat and get to lair are logically equivalent here, so we can use a toggle
+        "name": "Primagen Goal",
+        "type": "toggle",
+        "img": "/images/settings/primagen_goal.png",
+        "initial_active_state": true,
+        "codes": "primagen_goal"
+    },
+
+    // Included Levels
+    {
+        "name": "Include Level 1",
+        "type": "toggle",
+        "img": "/images/settings/include_level_1.png",
+        "initial_active_state": true,
+        "codes": "include_level_1"
+    },
+    {
+        "name": "Include Level 2",
+        "type": "toggle",
+        "img": "/images/settings/include_level_2.png",
+        "initial_active_state": true,
+        "codes": "include_level_2"
+    },
+    {
+        "name": "Include Level 3",
+        "type": "toggle",
+        "img": "/images/settings/include_level_3.png",
+        "initial_active_state": true,
+        "codes": "include_level_3"
+    },
+    {
+        "name": "Include Level 4",
+        "type": "toggle",
+        "img": "/images/settings/include_level_4.png",
+        "initial_active_state": true,
+        "codes": "include_level_4"
+    },
+    {
+        "name": "Include Level 5",
+        "type": "toggle",
+        "img": "/images/settings/include_level_5.png",
+        "initial_active_state": true,
+        "codes": "include_level_5"
+    },
+    {
+        "name": "Include Level 6",
+        "type": "toggle",
+        "img": "/images/settings/include_level_6.png",
+        "initial_active_state": true,
+        "codes": "include_level_6"
+    },
+
+    // Progression
+    {
+        "name": "Progressive Warps",
+        "type": "consumable",
+        "img": "/images/settings/progressive_warps.png",
+        "max_quantity": 15,
+        "initial_quantity": 1,
+        "codes": "progressive_warps"
+    },
+    {
+        "name": "Level Unlock Method",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Level Unlock Method (All Level Keys)",
+                "img": "/images/settings/level_unlock_method_all_level_keys.png",
+                "codes": "level_unlock_method,level_unlock_method_all_level_keys",
+                "inherit_codes": false
+            },
+            {
+                "name": "Level Unlock Method (One Level Key)",
+                "img": "/images/settings/level_unlock_method_one_level_key.png",
+                "codes": "level_unlock_method,level_unlock_method_one_level_key",
+                "inherit_codes": false
+            },
+            {
+                "name": "Level Unlock Method (One Progressive Warp)",
+                "img": "/images/settings/level_unlock_method_one_progressive_warp.png",
+                "codes": "level_unlock_method,level_unlock_method_one_progressive_warp",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Progressive Weapon Ammo Upgrades",
+        "type": "consumable",
+        "img": "/images/settings/progressive_weapon_ammo_upgrades.png",
+        "min_quantity": 1,
+        "max_quantity": 5,
+        "initial_quantity": 1,
+        "codes": "progressive_weapon_ammo_upgrades"
+    },
+
+    // Tracker
+    {
+        "name": "Autofill Settings",
+        "type": "toggle",
+        "img": "/images/settings/autofill_settings.png",
+        "initial_active_state": true,
+        "codes": "autofill_settings"
     }
 ]

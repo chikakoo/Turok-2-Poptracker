@@ -1,6 +1,9 @@
 {
   "settings_popup": {
+    "type": "dock",
+    "content": {
       "type": "tabbed",
+      "dock": "left",
       "tabs": [
         {
           "title": "Settings",
@@ -12,3 +15,4 @@
       ]
     }
   }
+}

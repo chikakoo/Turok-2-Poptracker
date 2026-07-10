@@ -248,9 +248,11 @@ function OnClear(slot_data)
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
-    -- if Tracker:FindObjectForCode("autofill_settings").Active == true then
-    --     AutoFill(slot_data)
-    -- end
+
+    if Tracker:FindObjectForCode("autofill_settings").Active == true then
+         AutoFill(slot_data)
+    end
+
     -- print(PLAYER_ID, TEAM_NUMBER)
     if Archipelago.PlayerNumber > -1 then
         if #ALL_LOCATIONS > 0 then
@@ -383,32 +385,125 @@ end
 -- this Autofill function is meant as an example on how to do the reading from slot_data
 -- and mapping the values to your own settings
 -- ---@param slot_data table
--- function AutoFill(slot_data)
---     -- print(DumpTable(slot_data))
+function AutoFill(slot_data)
+    if not Tracker:FindObjectForCode("autofill_settings").Active then
+        return
+    end
 
---     mapToggle={[0]=0,[1]=1,[2]=1,[3]=1,[4]=1}
---     mapToggleReverse={[0]=1,[1]=0,[2]=0,[3]=0,[4]=0}
---     mapTripleReverse={[0]=2,[1]=1,[2]=0}
+    print(DumpTable(slot_data))
 
---     slotCodes = {
---         map_name = {code="", mapping=mapToggle...}
---     }
---     -- print(Tracker:FindObjectForCode("autofill_settings").Active)
---     if Tracker:FindObjectForCode("autofill_settings").Active == true then
---         for settings_name, settings_value in pairs(slot_data) do
---             -- print(k, v)
---             if slotCodes[settings_name] then
---                 item = Tracker:FindObjectForCode(slotCodes[settings_name].code)
---                 if item.Type == "toggle" then
---                     item.Active = slotCodes[settings_name].mapping[settings_value]
---                 else
---                     -- print(k,v,Tracker:FindObjectForCode(slotCodes[k].code).CurrentStage, slotCodes[k].mapping[v])
---                     item.CurrentStage = slotCodes[settings_name].mapping[settings_value]
---                 end
---             end
---         end
---     end
--- end
+    slotCodes = {
+        -- Goals
+        level_goal = { code = "level_goal" },
+        primagen_goal = { code = "primagen_goal", mapping = { [0]=false, [1]=true, [2]=true} },
+
+        -- Included levels
+        include_level_1 = { code=  "include_level_1" },
+        include_level_2 = { code = "include_level_2" },
+        include_level_3 = { code = "include_level_3" },
+        include_level_4 = { code = "include_level_4" },
+        include_level_5 = { code = "include_level_5" },
+        include_level_6 = { code = "include_level_6" },
+
+        -- Progressions
+        progressive_warps = { code = "progressive_warps" },
+        level_unlock_method = { code = "level_unlock_method" },
+        progressive_weapon_ammo_upgrades = {  code = "level_unlock_method" }
+        
+        --TODO still
+        --weapon_barrier_settings
+        --tricks
+    }
+
+    for settings_name, settings_value in pairs(slot_data) do
+        settingData = slotCodes[settings_name]
+        if settingData then
+            item = Tracker:FindObjectForCode(settingData.code)
+            if item.Type == "toggle" then
+                if settingData.mapping then
+                    item.Active = settingData.mapping[settings_value]
+                else
+                    item.Active = settings_value
+                end
+            elseif item.Type == "consumable" then
+                item.AcquiredCount = settings_value
+            elseif item.Type == "progressive" then
+                item.CurrentStage = settings_value
+            else
+                print("WARNING - Setting not mapped: " .. settings_name)
+            end
+        end
+    end
+end
+
+---Sets the progressive warp max counts according to the value here
+function OnProgressiveWarps()
+    local default_max_values = { 9, 11, 8, 10, 10, 13 }
+    local progressive_warp_strength = Tracker:FindObjectForCode("progressive_warps").AcquiredCount
+    local progressive_warp_settings = {
+        "progressive_warp_l1", "progressive_warp_l2", "progressive_warp_l3", 
+        "progressive_warp_l4", "progressive_warp_l5", "progressive_warp_l6"
+    }
+    for i, value in ipairs(progressive_warp_settings) do
+        if progressive_warp_strength == 0 then
+            Tracker:FindObjectForCode(value).MaxCount = 0
+        else
+            local max_progressive_warps
+            if progressive_warp_strength == 0 then
+                max_progressive_warps = 0
+            else
+                max_progressive_warps = math.ceil(default_max_values[i] / progressive_warp_strength)
+            end
+            Tracker:FindObjectForCode(value).MaxCount = max_progressive_warps
+        end
+    end
+end
+
+---Sets the level key max counts according to the level unlock method setting
+function OnLevelUnlockMethod()
+    local level_key_settings = {
+        "level_1_key", "level_2_key", "level_3_key", "level_4_key", "level_5_key", "level_6_key"
+    }
+
+    -- Set the vanilla counts
+    if has("level_unlock_method_all_level_keys") then
+        for _, value in pairs(level_key_settings) do
+            Tracker:FindObjectForCode(value).MaxCount = 3
+        end
+        Tracker:FindObjectForCode("level_6_key").MaxCount = 6
+        return
+    end
+
+    -- Keys should be 1 or 0, depending on if they're included
+    local level_key_max_count = -1
+    if has("level_unlock_method_one_level_key") then
+        level_key_max_count = 1
+    elseif has("level_unlock_method_one_progressive_warp") then
+        level_key_max_count = 0
+    end
+
+    if level_key_max_count > -1 then
+        for _, value in pairs(level_key_settings) do
+            Tracker:FindObjectForCode(value).MaxCount = level_key_max_count
+        end
+    else
+        print("ERROR - Unknown level_unlock_method value: " .. Tracker:FindObjectForCode("level_unlock_method").CurrentStage)
+    end
+end
+
+---Sets the weapon max ammo counts according to the progressive weapon ammo upgrades setting
+function OnProgressiveWeaponAmmoUpgrades()
+    local progressive_weapon_ammo_upgrades = Tracker:FindObjectForCode("progressive_weapon_ammo_upgrades").AcquiredCount
+    local weapons_with_ammo = {
+        "tek_bow", "pistol", "mag_60", "tranquilizer_gun", "charge_dart_rifle",
+        "shotgun", "shredder", "plasma_rifle", "firestorm_cannon", "sunfire_pod",
+        "cerebral_bore", "pfm_layer", "grenade_launcher", "scorpion_launcher", "flame_thrower",
+        "harpoon_gun", "torpedo_launcher"
+    }
+    for _, value in pairs(weapons_with_ammo) do
+        Tracker:FindObjectForCode(value).MaxCount = progressive_weapon_ammo_upgrades
+    end
+end
 
 ---@class APHintMessage
 ---@field receiving_player integer
