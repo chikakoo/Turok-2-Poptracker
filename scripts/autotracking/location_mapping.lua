@@ -483,4 +483,11 @@ LOCATION_MAPPING = {
 	[58016] = {"@1-8/In Room After Arches/Switch"},
 	[58017] = {"@1-8/In Room Behind Bookshelves/Switch"},
 	[58018] = {"@1-8/In Top Floor Room/Switch"},
+	[58019] = {"@1-8/Enemy at Start/Endtrail"},
+	[58020] = {"@1-8/Enemy up Ladder/Endtrail"},
+	[58021] = {"@1-8/Enemy by Open Gate/Raptoid"},
+	[58022] = {"@1-8/Enemy by Open Gate/Raptoid"},
+	[58023] = {"@1-8/Enemy by Exit Gate/Endtrail"},
+	[58024] = {"@1-8/Enemy on Bottom Floor/Endtrail"},
+	[58025] = {"@1-8/Enemy up Building Ladder/Endtrail"},
 }
