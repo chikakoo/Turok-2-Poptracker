@@ -1,365 +1,360 @@
 [
   {
-    "name": "Level 1",
+    "name": "1-6",
+    "access_rules": [],
+    "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+    "chest_opened_img": "images/icons/LF1_gray.png",
     "children": [
       {
-        "name": "1-6",
-        "access_rules": [],
-        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
-        "chest_opened_img": "images/icons/LF1_gray.png",
-        "children": [
+        "name": "In Archery House Between Beds",
+        "sections": [
           {
-            "name": "In Archery House Between Beds",
-            "sections": [
-              {
-                "name": "Clip",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|56000|56001"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 201,
-                "y": 271
-              }
+            "name": "Clip",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|56000|56001"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-6",
+            "x": 201,
+            "y": 271
+          }
+        ]
+      },
+      {
+        "name": "Behind Archery House",
+        "sections": [
+          {
+            "name": "Arrows",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|56002"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-6",
+            "x": 185,
+            "y": 214
+          }
+        ]
+      },
+      {
+        "name": "Trail to Connecting Hallway",
+        "sections": [
+          {
+            "name": "LF1",
+            "item_count": 4,
+            "visibility_rules": [
+              "$id_exists|56003|56004|56005|56006"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-6",
+            "x": 102,
+            "y": 224
+          }
+        ]
+      },
+      {
+        "name": "Before Hallway Corner",
+        "sections": [
+          {
+            "name": "Clip",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|56007"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-6",
+            "x": 84,
+            "y": 211
+          }
+        ]
+      },
+      {
+        "name": "Bridge House Lower Armory",
+        "sections": [
+          {
+            "name": "Silver Health",
+            "item_count": 6,
+            "visibility_rules": [
+              "$id_exists|56008|56009|56010|56011|56012|56013"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-6",
+            "x": 449,
+            "y": 231
+          }
+        ]
+      },
+      {
+        "name": "Left Exploded Wall in Bridge Room",
+        "sections": [
+          {
+            "name": "Blue Health",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|56014|56015"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-6",
+            "x": 376,
+            "y": 164
+          }
+        ]
+      },
+      {
+        "name": "Exploded Corner in Bridge Room",
+        "sections": [
+          {
+            "name": "Clip",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|56016|56017"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-6",
+            "x": 489,
+            "y": 124
+          }
+        ]
+      },
+      {
+        "name": "Right Exploded Wall in Bridge Room",
+        "sections": [
+          {
+            "name": "LF10",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|56020"
             ]
           },
           {
-            "name": "Behind Archery House",
-            "sections": [
-              {
-                "name": "Arrows",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|56002"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 185,
-                "y": 214
-              }
+            "name": "LF1",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|56018|56019"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Trail to Connecting Hallway",
-            "sections": [
-              {
-                "name": "LF1",
-                "item_count": 4,
-                "visibility_rules": [
-                  "$id_exists|56003|56004|56005|56006"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 102,
-                "y": 224
-              }
-            ]
-          },
+            "map": "1-6",
+            "x": 565,
+            "y": 271
+          }
+        ]
+      },
+      {
+        "name": "Bridge House Upper Corner",
+        "sections": [
           {
-            "name": "Before Hallway Corner",
-            "sections": [
-              {
-                "name": "Clip",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|56007"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 84,
-                "y": 211
-              }
+            "name": "Box of Shells",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|56021"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Bridge House Lower Armory",
-            "sections": [
-              {
-                "name": "Silver Health",
-                "item_count": 6,
-                "visibility_rules": [
-                  "$id_exists|56008|56009|56010|56011|56012|56013"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 449,
-                "y": 231
-              }
-            ]
-          },
+            "map": "1-6",
+            "x": 489,
+            "y": 271
+          }
+        ]
+      },
+      {
+        "name": "On Rubble Pile",
+        "sections": [
           {
-            "name": "Left Exploded Wall in Bridge Room",
-            "sections": [
-              {
-                "name": "Blue Health",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|56014|56015"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 376,
-                "y": 164
-              }
+            "name": "Box of Bullets",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|56022"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Exploded Corner in Bridge Room",
-            "sections": [
-              {
-                "name": "Clip",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|56016|56017"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 489,
-                "y": 124
-              }
-            ]
-          },
+            "map": "1-6",
+            "x": 513,
+            "y": 213
+          }
+        ]
+      },
+      {
+        "name": "On Fallen Pillar",
+        "sections": [
           {
-            "name": "Right Exploded Wall in Bridge Room",
-            "sections": [
-              {
-                "name": "LF10",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|56020"
-                ]
-              },
-              {
-                "name": "LF1",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|56018|56019"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 565,
-                "y": 271
-              }
+            "name": "Explosive Shells",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|56023"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Bridge House Upper Corner",
-            "sections": [
-              {
-                "name": "Box of Shells",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|56021"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 489,
-                "y": 271
-              }
-            ]
-          },
+            "map": "1-6",
+            "x": 530,
+            "y": 146
+          }
+        ]
+      },
+      {
+        "name": "Trail to Bridge",
+        "sections": [
           {
-            "name": "On Rubble Pile",
-            "sections": [
-              {
-                "name": "Box of Bullets",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|56022"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 513,
-                "y": 213
-              }
+            "name": "LF1",
+            "item_count": 9,
+            "visibility_rules": [
+              "$id_exists|56024|56025|56026|56027|56028|56029|56030|56031|56032"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "On Fallen Pillar",
-            "sections": [
-              {
-                "name": "Explosive Shells",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|56023"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 530,
-                "y": 146
-              }
-            ]
-          },
+            "map": "1-6",
+            "x": 649,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "In Archery House",
+        "sections": [
           {
-            "name": "Trail to Bridge",
-            "sections": [
-              {
-                "name": "LF1",
-                "item_count": 9,
-                "visibility_rules": [
-                  "$id_exists|56024|56025|56026|56027|56028|56029|56030|56031|56032"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 649,
-                "y": 120
-              }
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|56033"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "In Archery House",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|56033"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 187,
-                "y": 236
-              }
-            ]
-          },
+            "map": "1-6",
+            "x": 187,
+            "y": 236
+          }
+        ]
+      },
+      {
+        "name": "Bridge House Lower Room",
+        "sections": [
           {
-            "name": "Bridge House Lower Room",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|56034"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "x": 445,
-                "y": 271
-              }
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|56034"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Enemy in Hallway",
-            "sections": [
-              {
-                "name": "Raptoid",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|56035"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "shape": "diamond",
-                "x": 402,
-                "y": 393
-              }
-            ]
-          },
+            "map": "1-6",
+            "x": 445,
+            "y": 271
+          }
+        ]
+      },
+      {
+        "name": "Enemy in Hallway",
+        "sections": [
           {
-            "name": "Enemy in Wall",
-            "sections": [
-              {
-                "name": "Raptoid",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|56036"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "shape": "diamond",
-                "x": 383,
-                "y": 176
-              }
+            "name": "Raptoid",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|56035"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Enemy Before Bridge",
-            "sections": [
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|56037"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "shape": "diamond",
-                "x": 648,
-                "y": 98
-              }
-            ]
-          },
+            "map": "1-6",
+            "shape": "diamond",
+            "x": 402,
+            "y": 393
+          }
+        ]
+      },
+      {
+        "name": "Enemy in Wall",
+        "sections": [
           {
-            "name": "Enemy After Bridge",
-            "sections": [
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|56038"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-6",
-                "shape": "diamond",
-                "x": 487,
-                "y": 97
-              }
+            "name": "Raptoid",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|56036"
             ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-6",
+            "shape": "diamond",
+            "x": 383,
+            "y": 176
+          }
+        ]
+      },
+      {
+        "name": "Enemy Before Bridge",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|56037"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-6",
+            "shape": "diamond",
+            "x": 648,
+            "y": 98
+          }
+        ]
+      },
+      {
+        "name": "Enemy After Bridge",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|56038"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-6",
+            "shape": "diamond",
+            "x": 487,
+            "y": 97
           }
         ]
       }

@@ -30,6 +30,15 @@
           "type": "tabbed",
           "tabs": [
             {
+              "title": "Hub",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "Hub"
+                ]
+              }
+            },
+            {
               "title": "Level 1",
               "content": {
                 "type": "tabbed",

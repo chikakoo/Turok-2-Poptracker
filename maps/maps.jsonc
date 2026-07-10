@@ -1,6 +1,12 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
   {
+    "name": "Hub",
+    "location_size": 24,
+    "location_border_thickness": 3,
+    "img": "images/maps/Hub.png"
+  },
+  {
     "name": "1-1",
     "location_size": 24,
     "location_border_thickness": 3,

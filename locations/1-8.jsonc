@@ -1,304 +1,299 @@
 [
   {
-    "name": "Level 1",
+    "name": "1-8",
+    "access_rules": [],
+    "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+    "chest_opened_img": "images/icons/LF1_gray.png",
     "children": [
       {
-        "name": "1-8",
-        "access_rules": [],
-        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
-        "chest_opened_img": "images/icons/LF1_gray.png",
-        "children": [
+        "name": "Up Ladder Before Gate",
+        "sections": [
           {
-            "name": "Up Ladder Before Gate",
-            "sections": [
-              {
-                "name": "Box of Shells",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58000"
-                ]
-              },
-              {
-                "name": "Box of Bullets",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58001"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 95,
-                "y": 48
-              }
+            "name": "Box of Shells",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58000"
             ]
           },
           {
-            "name": "Behind Right Door",
-            "sections": [
-              {
-                "name": "Clip",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58002"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 401,
-                "y": 558
-              }
+            "name": "Box of Bullets",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58001"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "By Back Entrance Arch",
-            "sections": [
-              {
-                "name": "Clip",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58003"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 603,
-                "y": 459
-              }
-            ]
-          },
+            "map": "1-8",
+            "x": 95,
+            "y": 48
+          }
+        ]
+      },
+      {
+        "name": "Behind Right Door",
+        "sections": [
           {
-            "name": "Under Back Entrance Arch",
-            "sections": [
-              {
-                "name": "Quiver",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58004"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 570,
-                "y": 356
-              }
+            "name": "Clip",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58002"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "In Right Exploded Wall",
-            "sections": [
-              {
-                "name": "Clip",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|58005|58006"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 704,
-                "y": 316
-              }
-            ]
-          },
+            "map": "1-8",
+            "x": 401,
+            "y": 558
+          }
+        ]
+      },
+      {
+        "name": "By Back Entrance Arch",
+        "sections": [
           {
-            "name": "In Left Exploded Wall",
-            "sections": [
-              {
-                "name": "Blue Health",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|58007|58008"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 656,
-                "y": 264
-              }
+            "name": "Clip",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58003"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "In Exploded Corner",
-            "sections": [
-              {
-                "name": "Shells",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58009"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 596,
-                "y": 270
-              }
-            ]
-          },
+            "map": "1-8",
+            "x": 603,
+            "y": 459
+          }
+        ]
+      },
+      {
+        "name": "Under Back Entrance Arch",
+        "sections": [
           {
-            "name": "In House Bottom Floor",
-            "sections": [
-              {
-                "name": "Silver Health",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|58010|58011"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 457,
-                "y": 360
-              }
+            "name": "Quiver",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58004"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Up Ladder Left",
-            "sections": [
-              {
-                "name": "Silver Health",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58012"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 474,
-                "y": 340
-              }
-            ]
-          },
+            "map": "1-8",
+            "x": 570,
+            "y": 356
+          }
+        ]
+      },
+      {
+        "name": "In Right Exploded Wall",
+        "sections": [
           {
-            "name": "Up Ladder Straight",
-            "sections": [
-              {
-                "name": "Level Key",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58013"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 436,
-                "y": 363
-              }
+            "name": "Clip",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|58005|58006"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "By Ladder Room Before Gate",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58014"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 38,
-                "y": 201
-              }
-            ]
-          },
+            "map": "1-8",
+            "x": 704,
+            "y": 316
+          }
+        ]
+      },
+      {
+        "name": "In Left Exploded Wall",
+        "sections": [
           {
-            "name": "By Gate",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58015"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 152,
-                "y": 407
-              }
+            "name": "Blue Health",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|58007|58008"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "In Room After Arches",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58016"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 407,
-                "y": 428
-              }
-            ]
-          },
+            "map": "1-8",
+            "x": 656,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "In Exploded Corner",
+        "sections": [
           {
-            "name": "In Room Behind Bookshelves",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58017"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 572,
-                "y": 455
-              }
+            "name": "Shells",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58009"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "In Top Floor Room",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|58018"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-8",
-                "x": 390,
-                "y": 499
-              }
+            "map": "1-8",
+            "x": 596,
+            "y": 270
+          }
+        ]
+      },
+      {
+        "name": "In House Bottom Floor",
+        "sections": [
+          {
+            "name": "Silver Health",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|58010|58011"
             ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "x": 457,
+            "y": 360
+          }
+        ]
+      },
+      {
+        "name": "Up Ladder Left",
+        "sections": [
+          {
+            "name": "Silver Health",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58012"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "x": 474,
+            "y": 340
+          }
+        ]
+      },
+      {
+        "name": "Up Ladder Straight",
+        "sections": [
+          {
+            "name": "Level Key",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58013"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "x": 436,
+            "y": 363
+          }
+        ]
+      },
+      {
+        "name": "By Ladder Room Before Gate",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58014"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "x": 38,
+            "y": 201
+          }
+        ]
+      },
+      {
+        "name": "By Gate",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58015"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "x": 152,
+            "y": 407
+          }
+        ]
+      },
+      {
+        "name": "In Room After Arches",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58016"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "x": 407,
+            "y": 428
+          }
+        ]
+      },
+      {
+        "name": "In Room Behind Bookshelves",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58017"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "x": 572,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "In Top Floor Room",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58018"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "x": 390,
+            "y": 499
           }
         ]
       }

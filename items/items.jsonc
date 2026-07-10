@@ -1,23 +1,428 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
   {
-    "name": "Progressive Warp Level 1",
-    "type": "consumable",
-    "img": "images/items/warp_lv_1.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 0,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "ProgressiveWarpLevel1"
-  },
-  {
     "name": "update",
     "type": "toggle",
     "img": "images/items/update.png",
     "initial_active_state": false,
     "overlay_align": "right",
     "codes": "update"
+  },
+
+  {
+    "name": "Level 1 Key",
+    "type": "consumable",
+    "img": "images/items/level_1_key.png",
+    "max_quantity": 3,
+    "codes": "level_1_key"
+  },
+  {
+    "name": "Level 2 Key",
+    "type": "consumable",
+    "img": "images/items/level_2_key.png",
+    "max_quantity": 3,
+    "codes": "level_2_key"
+  },
+  {
+    "name": "Level 3 Key",
+    "type": "consumable",
+    "img": "images/items/level_3_key.png",
+    "max_quantity": 3,
+    "codes": "level_3_key"
+  },
+  {
+    "name": "Level 4 Key",
+    "type": "consumable",
+    "img": "images/items/level_4_key.png",
+    "max_quantity": 3,
+    "codes": "level_4_key"
+  },
+  {
+    "name": "Level 5 Key",
+    "type": "consumable",
+    "img": "images/items/level_5_key.png",
+    "max_quantity": 3,
+    "codes": "level_5_key"
+  },
+  {
+    "name": "Level 6 Key",
+    "type": "consumable",
+    "img": "images/items/level_6_key.png",
+    "max_quantity": 6,
+    "codes": "level_6_key"
+  },
+
+  {
+    "name": "Progressive Warp Level 1",
+    "type": "consumable",
+    "img": "images/items/progressive_warp_l1.png",
+    "max_quantity": 9,
+    "codes": "progressive_warp_l1"
+  },
+  {
+    "name": "Progressive Warp Level 2",
+    "type": "consumable",
+    "img": "images/items/progressive_warp_l2.png",
+    "max_quantity": 11,
+    "codes": "progressive_warp_l2"
+  },
+  {
+    "name": "Progressive Warp Level 3",
+    "type": "consumable",
+    "img": "images/items/progressive_warp_l3.png",
+    "max_quantity": 8,
+    "codes": "progressive_warp_l3"
+  },
+  {
+    "name": "Progressive Warp Level 4",
+    "type": "consumable",
+    "img": "images/items/progressive_warp_l4.png",
+    "max_quantity": 10,
+    "codes": "progressive_warp_l4"
+  },
+  {
+    "name": "Progressive Warp Level 5",
+    "type": "consumable",
+    "img": "images/items/progressive_warp_l5.png",
+    "max_quantity": 10,
+    "codes": "progressive_warp_l5"
+  },
+  {
+    "name": "Progressive Warp Level 6",
+    "type": "consumable",
+    "img": "images/items/progressive_warp_l6.png",
+    "max_quantity": 13,
+    "codes": "progressive_warp_l6"
+  },
+
+  {
+    "name": "Level 2 Eagle Feather",
+    "type": "toggle",
+    "img": "images/items/level_2_eagle_feather.png",
+    "codes": "level_2_eagle_feather"
+  },
+  {
+    "name": "Level 3 Eagle Feather",
+    "type": "toggle",
+    "img": "images/items/level_3_eagle_feather.png",
+    "codes": "level_3_eagle_feather"
+  },
+  {
+    "name": "Level 4 Eagle Feather",
+    "type": "toggle",
+    "img": "images/items/level_4_eagle_feather.png",
+    "codes": "level_4_eagle_feather"
+  },
+  {
+    "name": "Level 5 Eagle Feather",
+    "type": "toggle",
+    "img": "images/items/level_5_eagle_feather.png",
+    "codes": "level_5_eagle_feather"
+  },
+  {
+    "name": "Level 6 Eagle Feather",
+    "type": "toggle",
+    "img": "images/items/level_6_eagle_feather.png",
+    "codes": "level_6_eagle_feather"
+  },
+
+  {
+    "name": "Primagen Key 1",
+    "type": "toggle",
+    "img": "images/items/primagen_key_1.png",
+    "codes": "primagen_key_1"
+  },
+  {
+    "name": "Primagen Key 2",
+    "type": "toggle",
+    "img": "images/items/primagen_key_2.png",
+    "codes": "primagen_key_2"
+  },
+  {
+    "name": "Primagen Key 3",
+    "type": "toggle",
+    "img": "images/items/primagen_key_3.png",
+    "codes": "primagen_key_3"
+  },
+  {
+    "name": "Primagen Key 4",
+    "type": "toggle",
+    "img": "images/items/primagen_key_4.png",
+    "codes": "primagen_key_4"
+  },
+  {
+    "name": "Primagen Key 5",
+    "type": "toggle",
+    "img": "images/items/primagen_key_5.png",
+    "codes": "primagen_key_5"
+  },
+  {
+    "name": "Primagen Key 6",
+    "type": "toggle",
+    "img": "images/items/primagen_key_6.png",
+    "codes": "primagen_key_6"
+  },
+
+  {
+    "name": "Leap of Faith",
+    "type": "toggle",
+    "img": "images/items/leap_of_faith.png",
+    "codes": "leap_of_faith"
+  },
+  {
+    "name": "Breath of Life",
+    "type": "toggle",
+    "img": "images/items/breath_of_life.png",
+    "codes": "breath_of_life"
+  },
+  {
+    "name": "Heart of Fire",
+    "type": "toggle",
+    "img": "images/items/heart_of_fire.png",
+    "codes": "heart_of_fire"
+  },
+  {
+    "name": "Whispers",
+    "type": "toggle",
+    "img": "images/items/whispers.png",
+    "codes": "whispers"
+  },
+  {
+    "name": "Eye of Truth",
+    "type": "toggle",
+    "img": "images/items/eye_of_truth.png",
+    "codes": "eye_of_truth"
+  },
+
+  {
+    "name": "Power Cell",
+    "type": "consumable",
+    "img": "images/items/power_cell.png",
+    "max_quantity": 3,
+    "codes": "power_cell"
+  },
+  {
+    "name": "Gate Key",
+    "type": "consumable",
+    "img": "images/items/gate_key.png",
+    "max_quantity": 2,
+    "codes": "gate_key"
+  },
+  {
+    "name": "Graveyard Key",
+    "type": "consumable",
+    "img": "images/items/graveyard_key.png",
+    "max_quantity": 2,
+    "codes": "graveyard_key"
+  },
+  {
+    "name": "Level 3 Satchel Charge",
+    "type": "consumable",
+    "img": "images/items/l3_satchel_charge.png",
+    "max_quantity": 3,
+    "codes": "l3_satchel_charge"
+  },
+  {
+    "name": "Cave Door Key",
+    "type": "consumable",
+    "img": "images/items/cave_door_key.png",
+    "max_quantity": 7,
+    "codes": "cave_door_key"
+  },
+  {
+    "name": "Level 4 Satchel Charge",
+    "type": "consumable",
+    "img": "images/items/l4_satchel_charge.png",
+    "max_quantity": 3,
+    "codes": "l4_satchel_charge"
+  },
+  {
+    "name": "Level 5 Satchel Charge",
+    "type": "consumable",
+    "img": "images/items/l5_satchel_charge.png",
+    "max_quantity": 4,
+    "codes": "l5_satchel_charge"
+  },
+  {
+    "name": "Ion Capacitor",
+    "type": "consumable",
+    "img": "images/items/ion_capacitor.png",
+    "max_quantity": 16,
+    "codes": "ion_capacitor"
+  },
+  {
+    "name": "Blue Laser Cell",
+    "type": "consumable",
+    "img": "images/items/blue_laser_cell.png",
+    "max_quantity": 2,
+    "codes": "blue_laser_cell"
+  },
+  {
+    "name": "Red Laser Cell",
+    "type": "consumable",
+    "img": "images/items/red_laser_cell.png",
+    "max_quantity": 2,
+    "codes": "red_laser_cell"
+  },
+
+  {
+    "name": "Nuke Parts",
+    "type": "consumable",
+    "img": "images/items/nuke_parts.png",
+    "max_quantity": 6,
+    "codes": "nuke_parts"
+  },
+
+  {
+    "name": "Talon",
+    "type": "toggle",
+    "img": "images/items/weapons/talon.png",
+    "initial_active_state": true,
+    "codes": "talon"
+  },
+  {
+    "name": "War Blade",
+    "type": "toggle",
+    "img": "images/items/weapons/war_blade.png",
+    "codes": "war_blade"
+  },
+  {
+    "name": "Bow",
+    "type": "toggle",
+    "img": "images/items/weapons/bow.png",
+    "initial_active_state": true,
+    "codes": "bow"
+  },
+  {
+    "name": "Tek Bow",
+    "type": "consumable",
+    "img": "images/items/weapons/tek_bow.png",
+    "max_quantity": 5,
+    "codes": "tek_bow"
+  },
+  {
+    "name": "Pistol",
+    "type": "consumable",
+    "img": "images/items/weapons/pistol.png",
+    "max_quantity": 5,
+    "codes": "pistol"
+  },
+  {
+    "name": "Mag 60",
+    "type": "consumable",
+    "img": "images/items/weapons/mag_60.png",
+    "max_quantity": 5,
+    "codes": "mag_60"
+  },
+  {
+    "name": "Shotgun",
+    "type": "consumable",
+    "img": "images/items/weapons/shotgun.png",
+    "max_quantity": 5,
+    "codes": "shotgun"
+  },
+  {
+    "name": "Shredder",
+    "type": "consumable",
+    "img": "images/items/weapons/shredder.png",
+    "max_quantity": 5,
+    "codes": "shredder"
+  },
+  {
+    "name": "Plasma Rifle",
+    "type": "consumable",
+    "img": "images/items/weapons/plasma_rifle.png",
+    "max_quantity": 5,
+    "codes": "plasma_rifle"
+  },
+  {
+    "name": "Firestorm Cannon",
+    "type": "consumable",
+    "img": "images/items/weapons/firestorm_cannon.png",
+    "max_quantity": 5,
+    "codes": "firestorm_cannon"
+  },
+  {
+    "name": "Tranquilizer Gun",
+    "type": "consumable",
+    "img": "images/items/weapons/tranquilizer_gun.png",
+    "max_quantity": 5,
+    "codes": "tranquilizer_gun"
+  },
+  {
+    "name": "Charge Dart Rifle",
+    "type": "consumable",
+    "img": "images/items/weapons/charge_dart_rifle.png",
+    "max_quantity": 5,
+    "codes": "charge_dart_rifle"
+  },
+
+  {
+    "name": "Grenade Launcher",
+    "type": "consumable",
+    "img": "images/items/weapons/grenade_launcher.png",
+    "max_quantity": 5,
+    "codes": "grenade_launcher"
+  },
+  {
+    "name": "Flame Thrower",
+    "type": "consumable",
+    "img": "images/items/weapons/flame_thrower.png",
+    "max_quantity": 5,
+    "codes": "flame_thrower"
+  },
+  {
+    "name": "Scorpion Launcher",
+    "type": "consumable",
+    "img": "images/items/weapons/scorpion_launcher.png",
+    "max_quantity": 5,
+    "codes": "scorpion_launcher"
+  },
+  {
+    "name": "P.F.M. Layer",
+    "type": "consumable",
+    "img": "images/items/weapons/pfm_layer.png",
+    "max_quantity": 5,
+    "codes": "pfm_layer"
+  },
+  {
+    "name": "Cerebral Bore",
+    "type": "consumable",
+    "img": "images/items/weapons/cerebral_bore.png",
+    "max_quantity": 5,
+    "codes": "cerebral_bore"
+  },
+  {
+    "name": "Razor Wind",
+    "type": "toggle",
+    "img": "images/items/weapons/razor_wind.png",
+    "codes": "razor_wind"
+  },
+  {
+    "name": "Sunfire Pod",
+    "type": "consumable",
+    "img": "images/items/weapons/sunfire_pod.png",
+    "max_quantity": 5,
+    "codes": "sunfire_pod"
+  },
+  {
+    "name": "Harpoon Gun",
+    "type": "consumable",
+    "img": "images/items/weapons/harpoon_gun.png",
+    "max_quantity": 5,
+    "codes": "harpoon_gun"
+  },
+  {
+    "name": "Torpedo Launcher",
+    "type": "consumable",
+    "img": "images/items/weapons/torpedo_launcher.png",
+    "max_quantity": 5,
+    "codes": "torpedo_launcher"
+  },
+  {
+    "name": "Nuke",
+    "type": "toggle",
+    "img": "images/items/weapons/nuke.png",
+    "codes": "nuke"
   }
 ]

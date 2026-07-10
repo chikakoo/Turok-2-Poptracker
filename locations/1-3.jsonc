@@ -1,1414 +1,1409 @@
 [
-  {
-    "name": "Level 1",
+  { //1-3F
+    "name": "1-3F",
+    "access_rules": [],
+    "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+    "chest_opened_img": "images/icons/LF1_gray.png",
     "children": [
-      { //1-3F
-        "name": "1-3F",
-        "access_rules": [],
-        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
-        "chest_opened_img": "images/icons/LF1_gray.png",
-        "children": [
+      {
+        "name": "Near Portal Behind Left Pillar",
+        "sections": [
           {
-            "name": "Near Portal Behind Left Pillar",
-            "sections": [
-              {
-                "name": "Clip",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53000"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "x": 44,
-                "y": 630
-              }
+            "name": "Clip",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53000"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Behind Right Pillar",
-            "sections": [
-              {
-                "name": "Clip",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53001"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "x": 160,
-                "y": 669
-              }
-            ]
-          },
-          {
-            "name": "By Rubble",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53087"
-                ]
-              },
-              {
-                "name": "LF10",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53002"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "x": 160,
-                "y": 617
-              }
-            ]
-          },
-          {
-            "name": "In Switch Room",
-            "sections": [
-              {
-                "name": "Blue Health",
-                "item_count": 3,
-                "visibility_rules": [
-                  "$id_exists|53003|53004|53005"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "x": 175,
-                "y": 562
-              }
-            ]
-          },
-          {
-            "name": "By Left Door",
-            "sections": [
-              {
-                "name": "Quiver",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53006"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "x": 30,
-                "y": 475
-              }
-            ]
-          },
-          {
-            "name": "In Lower Hallway",
-            "sections": [
-              {
-                "name": "LF1",
-                "item_count": 8,
-                "visibility_rules": [
-                  "$id_exists|53007|53008|53009|53010|530011|53012|53013|53014"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "x": 49,
-                "y": 355
-              }
-            ]
-          },
-          {
-            "name": "Up First Ladder in Corner",
-            "sections": [
-              {
-                "name": "Arrows",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53015"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "x": 194,
-                "y": 253
-              }
-            ]
-          },
-          {
-            "name": "Up First Ladder Right Wall",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53089"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "x": 240,
-                "y": 255
-              }
-            ]
-          },
-          {
-            "name": "Under Bridge",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53088"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "x": 183,
-                "y": 389
-              }
-            ]
-          },
-          {
-            "name": "On Top Across Bridge",
-            "sections": [
-              {
-                "name": "LF10",
-                "item_count": 4,
-                "visibility_rules": [
-                  "$id_exists|53016|53017|53018|53019"
-                ]
-              },
-              {
-                "name": "Ultra Health",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53020"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "x": 83,
-                "y": 390
-              }
-            ]
-          },
-          {
-            "name": "On Arch",
-            "sections": [
-              {
-                "name": "Pistol",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53023"
-                ]
-              },
-              {
-                "name": "Clip",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|53021|53022"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "x": 614,
-                "y": 122
-              }
-            ]
-          },
-          {
-            "name": "Up Second Ladder",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53090"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "x": 293,
-                "y": 247
-              }
-            ]
-          },
-          {
-            "name": "Enemy on Broken Pillar",
-            "sections": [
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53100"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "shape": "diamond",
-                "x": 119,
-                "y": 486
-              }
-            ]
-          },
-          {
-            "name": "Enemy by Left Door",
-            "sections": [
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53101"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "shape": "diamond",
-                "x": 43,
-                "y": 472
-              }
-            ]
-          },
-          {
-            "name": "Enemy Under Bridge",
-            "sections": [
-              {
-                "name": "Compy",
-                "item_count": 3,
-                "visibility_rules": [
-                  "$id_exists|53102|53103|53104"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "shape": "diamond",
-                "x": 207,
-                "y": 412
-              }
-            ]
-          },
-          {
-            "name": "Enemy After Lower Hallway",
-            "sections": [
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53105"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "shape": "diamond",
-                "x": 248,
-                "y": 288
-              }
-            ]
-          },
-          {
-            "name": "Enemy on Main Path Switch Bridge",
-            "sections": [
-              {
-                "name": "Raptoid",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53106"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "shape": "diamond",
-                "x": 161,
-                "y": 389
-              }
-            ]
-          },
-          {
-            "name": "Enemy on Main Path by Ladder",
-            "sections": [
-              {
-                "name": "Raptor",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|53107|53108"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "shape": "diamond",
-                "x": 346,
-                "y": 133
-              }
-            ]
-          },
-          {
-            "name": "Enemy at End of Main Path",
-            "sections": [
-              {
-                "name": "Raptoid",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53109"
-                ]
-              },
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53110"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3F",
-                "shape": "diamond",
-                "x": 577,
-                "y": 113
-              }
-            ]
+            "map": "1-3F",
+            "x": 44,
+            "y": 630
           }
         ]
       },
-      { //1-3B
-        "name": "1-3B",
-        "access_rules": [],
-        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
-        "chest_opened_img": "images/icons/LF1_gray.png",
-        "children": [
+      {
+        "name": "Behind Right Pillar",
+        "sections": [
           {
-            "name": "Ladder Near Barrel Tower",
-            "sections": [
-              {
-                "name": "Silver Health",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|53024|53025"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 313,
-                "y": 597
-              }
+            "name": "Clip",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53001"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "x": 160,
+            "y": 669
+          }
+        ]
+      },
+      {
+        "name": "By Rubble",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53087"
             ]
           },
           {
-            "name": "In Box Alcove",
-            "sections": [
-              {
-                "name": "Arrows",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53026"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 327,
-                "y": 350
-              }
+            "name": "LF10",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53002"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "x": 160,
+            "y": 617
+          }
+        ]
+      },
+      {
+        "name": "In Switch Room",
+        "sections": [
+          {
+            "name": "Blue Health",
+            "item_count": 3,
+            "visibility_rules": [
+              "$id_exists|53003|53004|53005"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "x": 175,
+            "y": 562
+          }
+        ]
+      },
+      {
+        "name": "By Left Door",
+        "sections": [
+          {
+            "name": "Quiver",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53006"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "x": 30,
+            "y": 475
+          }
+        ]
+      },
+      {
+        "name": "In Lower Hallway",
+        "sections": [
+          {
+            "name": "LF1",
+            "item_count": 8,
+            "visibility_rules": [
+              "$id_exists|53007|53008|53009|53010|530011|53012|53013|53014"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "x": 49,
+            "y": 355
+          }
+        ]
+      },
+      {
+        "name": "Up First Ladder in Corner",
+        "sections": [
+          {
+            "name": "Arrows",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53015"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "x": 194,
+            "y": 253
+          }
+        ]
+      },
+      {
+        "name": "Up First Ladder Right Wall",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53089"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "x": 240,
+            "y": 255
+          }
+        ]
+      },
+      {
+        "name": "Under Bridge",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53088"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "x": 183,
+            "y": 389
+          }
+        ]
+      },
+      {
+        "name": "On Top Across Bridge",
+        "sections": [
+          {
+            "name": "LF10",
+            "item_count": 4,
+            "visibility_rules": [
+              "$id_exists|53016|53017|53018|53019"
             ]
           },
           {
-            "name": "On Box",
-            "sections": [
-              {
-                "name": "Blue Health",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53027"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 285,
-                "y": 372
-              }
+            "name": "Ultra Health",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53020"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "x": 83,
+            "y": 390
+          }
+        ]
+      },
+      {
+        "name": "On Arch",
+        "sections": [
+          {
+            "name": "Pistol",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53023"
             ]
           },
           {
-            "name": "On Single Ship",
-            "sections": [
-              {
-                "name": "Clip",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53028"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 210,
-                "y": 412
-              }
+            "name": "Clip",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|53021|53022"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "x": 614,
+            "y": 122
+          }
+        ]
+      },
+      {
+        "name": "Up Second Ladder",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53090"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "x": 293,
+            "y": 247
+          }
+        ]
+      },
+      {
+        "name": "Enemy on Broken Pillar",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53100"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "shape": "diamond",
+            "x": 119,
+            "y": 486
+          }
+        ]
+      },
+      {
+        "name": "Enemy by Left Door",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53101"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "shape": "diamond",
+            "x": 43,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "Enemy Under Bridge",
+        "sections": [
+          {
+            "name": "Compy",
+            "item_count": 3,
+            "visibility_rules": [
+              "$id_exists|53102|53103|53104"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "shape": "diamond",
+            "x": 207,
+            "y": 412
+          }
+        ]
+      },
+      {
+        "name": "Enemy After Lower Hallway",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53105"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "shape": "diamond",
+            "x": 248,
+            "y": 288
+          }
+        ]
+      },
+      {
+        "name": "Enemy on Main Path Switch Bridge",
+        "sections": [
+          {
+            "name": "Raptoid",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53106"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "shape": "diamond",
+            "x": 161,
+            "y": 389
+          }
+        ]
+      },
+      {
+        "name": "Enemy on Main Path by Ladder",
+        "sections": [
+          {
+            "name": "Raptor",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|53107|53108"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "shape": "diamond",
+            "x": 346,
+            "y": 133
+          }
+        ]
+      },
+      {
+        "name": "Enemy at End of Main Path",
+        "sections": [
+          {
+            "name": "Raptoid",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53109"
             ]
           },
           {
-            "name": "Barrel Room",
-            "sections": [
-              {
-                "name": "Power Cell",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53030"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 199,
-                "y": 321
-              }
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53110"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3F",
+            "shape": "diamond",
+            "x": 577,
+            "y": 113
+          }
+        ]
+      }
+    ]
+  },
+  { //1-3B
+    "name": "1-3B",
+    "access_rules": [],
+    "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+    "chest_opened_img": "images/icons/LF1_gray.png",
+    "children": [
+      {
+        "name": "Ladder Near Barrel Tower",
+        "sections": [
+          {
+            "name": "Silver Health",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|53024|53025"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 313,
+            "y": 597
+          }
+        ]
+      },
+      {
+        "name": "In Box Alcove",
+        "sections": [
+          {
+            "name": "Arrows",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53026"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 327,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "On Box",
+        "sections": [
+          {
+            "name": "Blue Health",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53027"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 285,
+            "y": 372
+          }
+        ]
+      },
+      {
+        "name": "On Single Ship",
+        "sections": [
+          {
+            "name": "Clip",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53028"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 210,
+            "y": 412
+          }
+        ]
+      },
+      {
+        "name": "Barrel Room",
+        "sections": [
+          {
+            "name": "Power Cell",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53030"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 199,
+            "y": 321
+          }
+        ]
+      },
+      {
+        "name": "In Water by Single Ship",
+        "sections": [
+          {
+            "name": "LF10",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53029"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 115,
+            "y": 433
+          }
+        ]
+      },
+      {
+        "name": "Room Between Ships by Entrance",
+        "sections": [
+          {
+            "name": "LF10",
+            "item_count": 3,
+            "visibility_rules": [
+              "$id_exists|53031|53032|53033"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 129,
+            "y": 325
+          }
+        ]
+      },
+      {
+        "name": "Room Between Ships Center",
+        "sections": [
+          {
+            "name": "Shotgun",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53034"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 129,
+            "y": 291
+          }
+        ]
+      },
+      {
+        "name": "Behind Left Boxes",
+        "sections": [
+          {
+            "name": "Pistol",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53039"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 222,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "In Water by Two Ships",
+        "sections": [
+          {
+            "name": "LF10",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53036"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 118,
+            "y": 181
+          }
+        ]
+      },
+      {
+        "name": "Between Upper Boxes",
+        "sections": [
+          {
+            "name": "Arrows",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53040"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 289,
+            "y": 69
+          }
+        ]
+      },
+      {
+        "name": "In Corner",
+        "sections": [
+          {
+            "name": "Arrows",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53035"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 255,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "By Right Boxes",
+        "sections": [
+          {
+            "name": "Clip",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|53037|53038"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 314,
+            "y": 204
+          }
+        ]
+      },
+      {
+        "name": "On Two Ships Right Boxes",
+        "sections": [
+          {
+            "name": "Blue Health",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53046"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 337,
+            "y": 210
+          }
+        ]
+      },
+      {
+        "name": "On Left Ship",
+        "sections": [
+          {
+            "name": "Silver Health",
+            "item_count": 5,
+            "visibility_rules": [
+              "$id_exists|53041|53042|53043|53044|53045"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 315,
+            "y": 119
+          }
+        ]
+      },
+      {
+        "name": "On Right Ship",
+        "sections": [
+          {
+            "name": "Silver Health",
+            "item_count": 5,
+            "visibility_rules": [
+              "$id_exists|53047|53048|53049|53050|53051"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 274,
+            "y": 180
+          }
+        ]
+      },
+      {
+        "name": "On Upper Boxes",
+        "sections": [
+          {
+            "name": "LF10",
+            "item_count": 3,
+            "visibility_rules": [
+              "$id_exists|53052|53053|53054"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 266,
+            "y": 69
+          }
+        ]
+      },
+      {
+        "name": "In Power Cell Alcove",
+        "sections": [
+          {
+            "name": "Power Cell",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53055"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 423,
+            "y": 97
+          }
+        ]
+      },
+      {
+        "name": "Front On Ground",
+        "sections": [
+          {
+            "name": "Shells",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53056"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 537,
+            "y": 134
+          }
+        ]
+      },
+      {
+        "name": "Back On Ground",
+        "sections": [
+          {
+            "name": "LF10",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53057"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 658,
+            "y": 252
+          }
+        ]
+      },
+      {
+        "name": "On Box Up Ramp",
+        "sections": [
+          {
+            "name": "Arrows",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53058"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 538,
+            "y": 226
+          }
+        ]
+      },
+      {
+        "name": "On Planks Up Ramp",
+        "sections": [
+          {
+            "name": "Blue Health",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|53059|53060"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 538,
+            "y": 174
+          }
+        ]
+      },
+      {
+        "name": "In Alcove Up Ramp",
+        "sections": [
+          {
+            "name": "LF1",
+            "item_count": 7,
+            "visibility_rules": [
+              "$id_exists|53063|53064|53065|53066|53067|53068|53069"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 673,
+            "y": 289
+          }
+        ]
+      },
+      {
+        "name": "On Edge Up Ramp",
+        "sections": [
+          {
+            "name": "Clip",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|53061|53062"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 616,
+            "y": 197
+          }
+        ]
+      },
+      {
+        "name": "On Box Room Right Boxes",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53095"
             ]
           },
           {
-            "name": "In Water by Single Ship",
-            "sections": [
-              {
-                "name": "LF10",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53029"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 115,
-                "y": 433
-              }
+            "name": "Silver Health",
+            "item_count": 6,
+            "visibility_rules": [
+              "$id_exists|53070|53071|53072|53073|53074|53075"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 682,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Exploded Wall Before Bridge",
+        "sections": [
+          {
+            "name": "Blue Health",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53076"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 507,
+            "y": 371
+          }
+        ]
+      },
+      {
+        "name": "Bridge Jump to Boxes",
+        "sections": [
+          {
+            "name": "LF10",
+            "item_count": 3,
+            "visibility_rules": [
+              "$id_exists|53077|53078|53079"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 501,
+            "y": 425
+          }
+        ]
+      },
+      {
+        "name": "Child Entrance Room",
+        "sections": [
+          {
+            "name": "LF1",
+            "item_count": 4,
+            "visibility_rules": [
+              "$id_exists|53080|53081|53082|53083"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 563,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "In Water Corner",
+        "sections": [
+          {
+            "name": "Clip",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53084"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 560,
+            "y": 568
+          }
+        ]
+      },
+      {
+        "name": "By Checkpoint",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53096"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 449,
+            "y": 660
+          }
+        ]
+      },
+      {
+        "name": "Cage Switch Room",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53098"
             ]
           },
           {
-            "name": "Room Between Ships by Entrance",
-            "sections": [
-              {
-                "name": "LF10",
-                "item_count": 3,
-                "visibility_rules": [
-                  "$id_exists|53031|53032|53033"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 129,
-                "y": 325
-              }
+            "name": "Blue Health",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|53085|53086"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 604,
+            "y": 743
+          }
+        ]
+      },
+      {
+        "name": "Ladder After Box Jumps",
+        "sections": [
+          {
+            "name": "Activate Beacon",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53091"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 358,
+            "y": 380
+          }
+        ]
+      },
+      {
+        "name": "Bottom Right Near Boxes",
+        "sections": [
+          {
+            "name": "Activate Beacon",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53092"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 366,
+            "y": 187
+          }
+        ]
+      },
+      {
+        "name": "After Two Ships Switch",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53094"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 393,
+            "y": 219
+          }
+        ]
+      },
+      {
+        "name": "Up Ramp",
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53093"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 395,
+            "y": 37
+          }
+        ]
+      },
+      {
+        "name": "Up Ladder", //Near Child
+        "sections": [
+          {
+            "name": "Switch",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53097"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 613,
+            "y": 539
+          }
+        ]
+      },
+      {
+        "name": "Room After Jump to Pipe",
+        "sections": [
+          {
+            "name": "Rescue Child",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53099"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "x": 618,
+            "y": 697
+          }
+        ]
+      },
+      {
+        "name": "Enemy Near Barrel Tower",
+        "sections": [
+          {
+            "name": "Raptoid",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53111"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 374,
+            "y": 455
+          }
+        ]
+      },
+      {
+        "name": "Enemy Near Single Ship",
+        "sections": [
+          {
+            "name": "Raptoid",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53112"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 333,
+            "y": 427
+          }
+        ]
+      },
+      {
+        "name": "Enemy Before Room Between Ships",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53113"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 128,
+            "y": 351
+          }
+        ]
+      },
+      {
+        "name": "Enemy After Room Between Ships",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53114"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 115,
+            "y": 237
+          }
+        ]
+      },
+      {
+        "name": "Enemy in Water",
+        "sections": [
+          {
+            "name": "Raptoid",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53115"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 124,
+            "y": 134
+          }
+        ]
+      },
+      {
+        "name": "Enemy up Ramp",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53116"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 393,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "name": "Enemy After Two Ships Switch",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53117"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 400,
+            "y": 199
+          }
+        ]
+      },
+      {
+        "name": "Enemy in Box Room",
+        "sections": [
+          {
+            "name": "Lower Raptor or Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53118"
             ]
           },
           {
-            "name": "Room Between Ships Center",
-            "sections": [
-              {
-                "name": "Shotgun",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53034"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 129,
-                "y": 291
-              }
+            "name": "Either Raptoid",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53119"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 574,
+            "y": 129
+          }
+        ]
+      },
+      {
+        "name": "Enemy Before Bridge",
+        "sections": [
+          {
+            "name": "Raptoid",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|53120|53121"
             ]
           },
           {
-            "name": "Behind Left Boxes",
-            "sections": [
-              {
-                "name": "Pistol",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53039"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 222,
-                "y": 68
-              }
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53122"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 478,
+            "y": 347
+          }
+        ]
+      },
+      {
+        "name": "Enemy Across Bridge",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53123"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 450,
+            "y": 549
+          }
+        ]
+      },
+      {
+        "name": "Enemy Before Water Room",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53124"
             ]
           },
           {
-            "name": "In Water by Two Ships",
-            "sections": [
-              {
-                "name": "LF10",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53036"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 118,
-                "y": 181
-              }
+            "name": "Raptor",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|53125"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "Between Upper Boxes",
-            "sections": [
-              {
-                "name": "Arrows",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53040"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 289,
-                "y": 69
-              }
-            ]
-          },
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 573,
+            "y": 487
+          }
+        ]
+      },
+      {
+        "name": "Enemy in Water Room",
+        "sections": [
           {
-            "name": "In Corner",
-            "sections": [
-              {
-                "name": "Arrows",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53035"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 255,
-                "y": 240
-              }
+            "name": "Raptoid",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|53126|53127"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "By Right Boxes",
-            "sections": [
-              {
-                "name": "Clip",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|53037|53038"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 314,
-                "y": 204
-              }
-            ]
-          },
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 642,
+            "y": 567
+          }
+        ]
+      },
+      {
+        "name": "Enemy by Cage",
+        "sections": [
           {
-            "name": "On Two Ships Right Boxes",
-            "sections": [
-              {
-                "name": "Blue Health",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53046"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 337,
-                "y": 210
-              }
+            "name": "Endtrail",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|53128|53129"
             ]
-          },
+          }
+        ],
+        "map_locations": [
           {
-            "name": "On Left Ship",
-            "sections": [
-              {
-                "name": "Silver Health",
-                "item_count": 5,
-                "visibility_rules": [
-                  "$id_exists|53041|53042|53043|53044|53045"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 315,
-                "y": 119
-              }
-            ]
-          },
-          {
-            "name": "On Right Ship",
-            "sections": [
-              {
-                "name": "Silver Health",
-                "item_count": 5,
-                "visibility_rules": [
-                  "$id_exists|53047|53048|53049|53050|53051"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 274,
-                "y": 180
-              }
-            ]
-          },
-          {
-            "name": "On Upper Boxes",
-            "sections": [
-              {
-                "name": "LF10",
-                "item_count": 3,
-                "visibility_rules": [
-                  "$id_exists|53052|53053|53054"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 266,
-                "y": 69
-              }
-            ]
-          },
-          {
-            "name": "In Power Cell Alcove",
-            "sections": [
-              {
-                "name": "Power Cell",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53055"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 423,
-                "y": 97
-              }
-            ]
-          },
-          {
-            "name": "Front On Ground",
-            "sections": [
-              {
-                "name": "Shells",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53056"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 537,
-                "y": 134
-              }
-            ]
-          },
-          {
-            "name": "Back On Ground",
-            "sections": [
-              {
-                "name": "LF10",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53057"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 658,
-                "y": 252
-              }
-            ]
-          },
-          {
-            "name": "On Box Up Ramp",
-            "sections": [
-              {
-                "name": "Arrows",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53058"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 538,
-                "y": 226
-              }
-            ]
-          },
-          {
-            "name": "On Planks Up Ramp",
-            "sections": [
-              {
-                "name": "Blue Health",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|53059|53060"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 538,
-                "y": 174
-              }
-            ]
-          },
-          {
-            "name": "In Alcove Up Ramp",
-            "sections": [
-              {
-                "name": "LF1",
-                "item_count": 7,
-                "visibility_rules": [
-                  "$id_exists|53063|53064|53065|53066|53067|53068|53069"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 673,
-                "y": 289
-              }
-            ]
-          },
-          {
-            "name": "On Edge Up Ramp",
-            "sections": [
-              {
-                "name": "Clip",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|53061|53062"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 616,
-                "y": 197
-              }
-            ]
-          },
-          {
-            "name": "On Box Room Right Boxes",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53095"
-                ]
-              },
-              {
-                "name": "Silver Health",
-                "item_count": 6,
-                "visibility_rules": [
-                  "$id_exists|53070|53071|53072|53073|53074|53075"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 682,
-                "y": 170
-              }
-            ]
-          },
-          {
-            "name": "Exploded Wall Before Bridge",
-            "sections": [
-              {
-                "name": "Blue Health",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53076"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 507,
-                "y": 371
-              }
-            ]
-          },
-          {
-            "name": "Bridge Jump to Boxes",
-            "sections": [
-              {
-                "name": "LF10",
-                "item_count": 3,
-                "visibility_rules": [
-                  "$id_exists|53077|53078|53079"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 501,
-                "y": 425
-              }
-            ]
-          },
-          {
-            "name": "Child Entrance Room",
-            "sections": [
-              {
-                "name": "LF1",
-                "item_count": 4,
-                "visibility_rules": [
-                  "$id_exists|53080|53081|53082|53083"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 563,
-                "y": 472
-              }
-            ]
-          },
-          {
-            "name": "In Water Corner",
-            "sections": [
-              {
-                "name": "Clip",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53084"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 560,
-                "y": 568
-              }
-            ]
-          },
-          {
-            "name": "By Checkpoint",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53096"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 449,
-                "y": 660
-              }
-            ]
-          },
-          {
-            "name": "Cage Switch Room",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53098"
-                ]
-              },
-              {
-                "name": "Blue Health",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|53085|53086"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 604,
-                "y": 743
-              }
-            ]
-          },
-          {
-            "name": "Ladder After Box Jumps",
-            "sections": [
-              {
-                "name": "Activate Beacon",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53091"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 358,
-                "y": 380
-              }
-            ]
-          },
-          {
-            "name": "Bottom Right Near Boxes",
-            "sections": [
-              {
-                "name": "Activate Beacon",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53092"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 366,
-                "y": 187
-              }
-            ]
-          },
-          {
-            "name": "After Two Ships Switch",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53094"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 393,
-                "y": 219
-              }
-            ]
-          },
-          {
-            "name": "Up Ramp",
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53093"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 395,
-                "y": 37
-              }
-            ]
-          },
-          {
-            "name": "Up Ladder", //Near Child
-            "sections": [
-              {
-                "name": "Switch",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53097"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 613,
-                "y": 539
-              }
-            ]
-          },
-          {
-            "name": "Room After Jump to Pipe",
-            "sections": [
-              {
-                "name": "Rescue Child",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53099"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "x": 618,
-                "y": 697
-              }
-            ]
-          },
-          {
-            "name": "Enemy Near Barrel Tower",
-            "sections": [
-              {
-                "name": "Raptoid",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53111"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 374,
-                "y": 455
-              }
-            ]
-          },
-          {
-            "name": "Enemy Near Single Ship",
-            "sections": [
-              {
-                "name": "Raptoid",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53112"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 333,
-                "y": 427
-              }
-            ]
-          },
-          {
-            "name": "Enemy Before Room Between Ships",
-            "sections": [
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53113"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 128,
-                "y": 351
-              }
-            ]
-          },
-          {
-            "name": "Enemy After Room Between Ships",
-            "sections": [
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53114"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 115,
-                "y": 237
-              }
-            ]
-          },
-          {
-            "name": "Enemy in Water",
-            "sections": [
-              {
-                "name": "Raptoid",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53115"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 124,
-                "y": 134
-              }
-            ]
-          },
-          {
-            "name": "Enemy up Ramp",
-            "sections": [
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53116"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 393,
-                "y": 65
-              }
-            ]
-          },
-          {
-            "name": "Enemy After Two Ships Switch",
-            "sections": [
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53117"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 400,
-                "y": 199
-              }
-            ]
-          },
-          {
-            "name": "Enemy in Box Room",
-            "sections": [
-              {
-                "name": "Lower Raptor or Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53118"
-                ]
-              },
-              {
-                "name": "Either Raptoid",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53119"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 574,
-                "y": 129
-              }
-            ]
-          },
-          {
-            "name": "Enemy Before Bridge",
-            "sections": [
-              {
-                "name": "Raptoid",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|53120|53121"
-                ]
-              },
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53122"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 478,
-                "y": 347
-              }
-            ]
-          },
-          {
-            "name": "Enemy Across Bridge",
-            "sections": [
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53123"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 450,
-                "y": 549
-              }
-            ]
-          },
-          {
-            "name": "Enemy Before Water Room",
-            "sections": [
-              {
-                "name": "Endtrail",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53124"
-                ]
-              },
-              {
-                "name": "Raptor",
-                "item_count": 1,
-                "visibility_rules": [
-                  "$id_exists|53125"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 573,
-                "y": 487
-              }
-            ]
-          },
-          {
-            "name": "Enemy in Water Room",
-            "sections": [
-              {
-                "name": "Raptoid",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|53126|53127"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 642,
-                "y": 567
-              }
-            ]
-          },
-          {
-            "name": "Enemy by Cage",
-            "sections": [
-              {
-                "name": "Endtrail",
-                "item_count": 2,
-                "visibility_rules": [
-                  "$id_exists|53128|53129"
-                ]
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "1-3B",
-                "shape": "diamond",
-                "x": 649,
-                "y": 693
-              }
-            ]
+            "map": "1-3B",
+            "shape": "diamond",
+            "x": 649,
+            "y": 693
           }
         ]
       }

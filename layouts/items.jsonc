@@ -3,9 +3,83 @@
   // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
   "shared_item_grid": {
     "type": "array",
-    "orientation": "vertical",
+    "orientation": "horizontal",
     "margin": "0,0",
     "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "4,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "1, 1",
+            "h_alignment": "left",
+            "rows": [
+              [
+                "level_1_key",
+                "progressive_warp_l1",
+                "",
+                "primagen_key_1",
+                "",
+                "",
+                "",
+                "power_cell"
+              ],
+              [
+                "level_2_key",
+                "progressive_warp_l2",
+                "level_2_eagle_feather",
+                "primagen_key_2",
+                "leap_of_faith",
+                "",
+                "gate_key",
+                "graveyard_key"
+              ],
+              [
+                "level_3_key",
+                "progressive_warp_l3",
+                "level_3_eagle_feather",
+                "primagen_key_3",
+                "breath_of_life",
+                "",
+                "",
+                "l3_satchel_charge"
+              ],
+              [
+                "level_4_key",
+                "progressive_warp_l4",
+                "level_4_eagle_feather",
+                "primagen_key_4",
+                "heart_of_fire",
+                "",
+                "cave_door_key",
+                "l4_satchel_charge"
+              ],
+              [
+                "level_5_key",
+                "progressive_warp_l5",
+                "level_5_eagle_feather",
+                "primagen_key_5",
+                "whispers",
+                "",
+                "",
+                "l5_satchel_charge"
+              ],
+              [
+                "level_6_key",
+                "progressive_warp_l6",
+                "level_6_eagle_feather",
+                "primagen_key_6",
+                "eye_of_truth",
+                "ion_capacitor",
+                "blue_laser_cell",
+                "red_laser_cell"
+              ]
+            ]
+          }
+        ]
+      },
       {
         "type": "array",
         "orientation": "horizontal",
@@ -13,12 +87,45 @@
         "content": [
           {
             "type": "itemgrid",
-            "item_margin": "10, 10",
+            "item_margin": "1, 1",
             "h_alignment": "left",
+            "item_size": "64,32",
             "rows": [
               [
-                "ProgressiveWarpLevel1",
-                "progressive"
+                "talon",
+                "war_blade",
+                "bow",
+                "tek_bow"
+              ],
+              [
+                "pistol",
+                "mag_60",
+                "shotgun",
+                "shredder"
+              ],
+              [
+                "plasma_rifle",
+                "firestorm_cannon",
+                "tranquilizer_gun",
+                "charge_dart_rifle"
+              ],
+              [
+                "grenade_launcher",
+                "flame_thrower",
+                "scorpion_launcher",
+                "pfm_layer"
+              ],
+              [
+                "cerebral_bore",
+                "razor_wind",
+                "sunfire_pod",
+                "harpoon_gun"
+              ],
+              [
+                "torpedo_launcher",
+                "",
+                "nuke",
+                "nuke_parts"
               ]
             ]
           }
