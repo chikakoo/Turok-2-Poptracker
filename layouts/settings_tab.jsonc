@@ -1,0 +1,22 @@
+{
+    "settings_tab": {
+        "type": "array",
+        "orientation": "horizontal",
+        // "margin": "10,10,10,10",
+        "content": [
+            {
+              "type": "group",
+              "header": "Progression",
+              "description": "How far each progressive warp takes you.",
+              "header_background": "#3e4b57",
+              "content": [
+                {
+                  "type": "item",
+                  "max_width": "32",
+                  "item": "progressive_warp_weight"
+                }
+              ]
+            }
+        ]
+    }
+}

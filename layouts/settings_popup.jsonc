@@ -1,0 +1,14 @@
+{
+  "settings_popup": {
+      "type": "tabbed",
+      "tabs": [
+        {
+          "title": "Settings",
+          "content": {
+            "type": "layout",
+            "key": "settings_tab"
+          }
+        }
+      ]
+    }
+  }

@@ -2,7 +2,6 @@ require("scripts.autotracking.item_mapping")
 require("scripts.autotracking.location_mapping")
 
 CUR_INDEX = -1
---SLOT_DATA = nil
 
 ALL_LOCATIONS = {}
 ALL_LOCATIONS_MAP = {}
@@ -218,7 +217,7 @@ function OnClear(slot_data)
 
     ScriptHost:RemoveWatchForCode("StateChanged")
     ScriptHost:RemoveOnLocationSectionHandler("location_section_change_handler")
-    --SLOT_DATA = slot_data
+
     CUR_INDEX = -1
     -- reset locations
     for _, location_array in pairs(LOCATION_MAPPING) do
@@ -487,61 +486,6 @@ function OnNotifyLaunch(key, value)
         Tracker.BulkUpdate = false
     end
 end
-
--------------------
----this section is only for special things that are time of day or day of year dependant if you really want to do stuff
----stuff like this
-
----@param start_date number BuildTimeObj() return aka unix timestamp
----@param end_date number BuildTimeObj() return aka unix timestamp
----@param target_date number BuildTimeObj() return aka unix timestamp
-function CheckDateRange(start_date, end_date, target_date)
-    local one_day = 86400
-    local check_result = false
-    for day_obj = start_date, end_date, one_day do
-        check_result = CheckDate(day_obj, target_date)
-        if check_result then
-            return true
-        end
-    end
-end
-
----@param target_date number BuildTimeObj() return aka unix timestamp
----@param reference_time number? BuildTimeObj() return aka unix timestamp
-function CheckDate(reference_time, target_date)
-    local today = os.date("*t")
-    local reference_day =  os.date("*t", target_date)
-    if reference_time then
-        today = os.date("*t", reference_time)
-    end
-    return today.year == reference_day.year and
-    today.month == reference_day.month and
-    today.day == reference_day.day
-end
-
----helper function to return a date object for the provided day
----@param year number?
----@param month number?
----@param day number?
----@param hour number?
----@param minute number?
----@param second number?
----@return integer
-function BuildTimeObj(year, month, day, hour, minute, second)
-    local today = os.date("*t", os.time())
-    return os.time(
-        {
-            year = year or today.year,
-            month = month or today.month,
-            day = day or today.day,
-            hour = hour or 0,
-            min = minute or 0,
-            sec = second or 0
-        }
-    )
-end
--------------------
-
 
 --doc
 --hint layout

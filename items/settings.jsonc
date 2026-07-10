@@ -1,0 +1,8 @@
+[
+    {
+        "name": "Progressive Warp Weight",
+        "type": "consumable",
+        "img": "/images/settings/progressive_warp_weight.png",
+        "codes": "progressive_warp_weight"
+    }
+]
