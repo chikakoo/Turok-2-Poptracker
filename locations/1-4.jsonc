@@ -1,0 +1,859 @@
+[
+  {
+    "name": "Level 1",
+    "children": [
+      {
+        "name": "1-4",
+        "access_rules": [],
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+          {
+            "name": "On Ground Near Ledge",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55000"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 206,
+                "y": 362
+              }
+            ]
+          },
+          {
+            "name": "On Ground Near Left House",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55001"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 239,
+                "y": 288
+              }
+            ]
+          },
+          {
+            "name": "Left House Lower",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|55002|55003|55004|55005"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 269,
+                "y": 324
+              }
+            ]
+          },
+          {
+            "name": "Right House Lower",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55006"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 299,
+                "y": 453
+              }
+            ]
+          },
+          {
+            "name": "In Alley by Right House",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55007"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 313,
+                "y": 488
+              }
+            ]
+          },
+          {
+            "name": "In Waterfall Basin",
+            "sections": [
+              {
+                "name": "Explosive Shells",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|55008|55009"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 373,
+                "y": 386
+              }
+            ]
+          },
+          {
+            "name": "Behind Waterfall",
+            "sections": [
+              {
+                "name": "Level Key",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55010"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 390,
+                "y": 386
+              }
+            ]
+          },
+          {
+            "name": "Down Narrow Hallway",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 8,
+                "visibility_rules": [
+                  "$id_exists|55011|55012|55013|55014|55015|55016|55017|55018"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 385,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "name": "After Bird Kill Door",
+            "sections": [
+              {
+                "name": "Ultra Health",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55019"
+                ]
+              },
+              {
+                "name": "LF10",
+                "item_count": 8,
+                "visibility_rules": [
+                  "$id_exists|55020|55021|55022|55023|55024|55025|55026|55027"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 281,
+                "y": 471
+              }
+            ]
+          },
+          {
+            "name": "First Hall by Talisman Portal",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55028"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 412,
+                "y": 664
+              }
+            ]
+          },
+          {
+            "name": "Left Corner near Portal",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55029"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 509,
+                "y": 641
+              }
+            ]
+          },
+          {
+            "name": "Right Corner near Portal",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55030"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 565,
+                "y": 694
+              }
+            ]
+          },
+          {
+            "name": "Alcove near Portal",
+            "sections": [
+              {
+                "name": "Talisman Portal Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55073"
+                ]
+              },
+              {
+                "name": "Blue Health",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|55031|55032"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 593,
+                "y": 641
+              }
+            ]
+          },
+          {
+            "name": "Second Hall near Talisman Portal",
+            "sections": [
+              {
+                "name": "Shells",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55033"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 543,
+                "y": 617
+              }
+            ]
+          },
+          {
+            "name": "Behind First Upper Building",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|55034|55035|55036"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 494,
+                "y": 455
+              }
+            ]
+          },
+          {
+            "name": "By Boxes",
+            "sections": [
+              {
+                "name": "Shells",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55037"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 469,
+                "y": 386
+              }
+            ]
+          },
+          {
+            "name": "Upper Building 1 Up Ladder",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55042"
+                ]
+              },
+              {
+                "name": "LF10",
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|55038|55039|55040|55041"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 459,
+                "y": 454
+              }
+            ]
+          },
+          {
+            "name": "Primagen Key Room Entrance",
+            "sections": [
+              {
+                "name": "Tek Bow",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55043"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 485,
+                "y": 288
+              }
+            ]
+          },
+          {
+            "name": "Primagen Key Room Entrance Corner",
+            "sections": [
+              {
+                "name": "Tek Arrows",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55044"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 457,
+                "y": 182
+              }
+            ]
+          },
+          {
+            "name": "On Ground Below Leap Trail",
+            "sections": [
+              {
+                "name": "Tek Arrows",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55045"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 511,
+                "y": 107
+              }
+            ]
+          },
+          {
+            "name": "Near Leap Pad",
+            "sections": [
+              {
+                "name": "Tek Arrows",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55046"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 517,
+                "y": 75
+              }
+            ]
+          },
+          {
+            "name": "Below Door-Triggering Enemy",
+            "sections": [
+              {
+                "name": "Tek Arrows",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55047"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 381,
+                "y": 136
+              }
+            ]
+          },
+          {
+            "name": "Primagen Key Leap",
+            "sections": [
+              {
+                "name": "LF10 (Jumpable)",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55048"
+                ]
+              },
+              {
+                "name": "LF10",
+                "item_count": 5,
+                "visibility_rules": [
+                  "$id_exists|55049|55050|55051|55052|55053"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 543,
+                "y": 129
+              }
+            ]
+          },
+          {
+            "name": "Primagen Key Leap Platform",
+            "sections": [
+              {
+                "name": "Primagen Key",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55054"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 511,
+                "y": 183
+              }
+            ]
+          },
+          {
+            "name": "Path to Upper Building 2",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|55055|55056|55057"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 398,
+                "y": 260
+              }
+            ]
+          },
+          {
+            "name": "Inside Upper Building 2",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55058"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 277,
+                "y": 226
+              }
+            ]
+          },
+          {
+            "name": "Behind Upper Building 2",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 5,
+                "visibility_rules": [
+                  "$id_exists|55059|55060|55061|55062|55063"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 307,
+                "y": 177
+              }
+            ]
+          },
+          {
+            "name": "On Ledge",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|55064|55065|55066"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 207,
+                "y": 339
+              }
+            ]
+          },
+          {
+            "name": "Jump to Second Floor",
+            "sections": [
+              {
+                "name": "Explosive Shells",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55071"
+                ]
+              },
+              {
+                "name": "Silver Health",
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|55067|55068|55069|55070"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 286,
+                "y": 304
+              }
+            ]
+          },
+          {
+            "name": "Upper Primagen Key Switch",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55074"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 514,
+                "y": 362
+              }
+            ]
+          },
+          {
+            "name": "Waterfall Switch",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55072"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "x": 346,
+                "y": 470
+              }
+            ]
+          },
+          {
+            "name": "Enemy Behind Waterfall",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55075"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 391,
+                "y": 361
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Talisman Portal",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|55076|55077"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 511,
+                "y": 689
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Upper Building Start",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55078"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 467,
+                "y": 494
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Upper Building Left",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|55079|55080"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 418,
+                "y": 454
+              }
+            ]
+          },
+          {
+            "name": "Enemy Below Primagen Key",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55081"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 460,
+                "y": 195
+              }
+            ]
+          },
+          {
+            "name": "Enemy Above Primagen Key",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55082"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 560,
+                "y": 182
+              }
+            ]
+          },
+          {
+            "name": "Enemy Above Doorway",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55083"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 358,
+                "y": 135
+              }
+            ]
+          },
+          {
+            "name": "Enemy Upper Left Sniper",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55084"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 552,
+                "y": 91
+              }
+            ]
+          },
+          {
+            "name": "Enemy Upper Right Sniper",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55085"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 303,
+                "y": 106
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Building 2",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55086"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 353,
+                "y": 236
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Exit Portal",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|55087"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-4",
+                "shape": "diamond",
+                "x": 90,
+                "y": 204
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

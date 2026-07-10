@@ -1,0 +1,464 @@
+[
+  {
+    "name": "Level 1",
+    "children": [
+      {
+        "name": "1-5",
+        "access_rules": [],
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+          {
+            "name": "In Entrance Hall",
+            "sections": [
+              {
+                "name": "Tek Bow",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54000"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 324,
+                "y": 628
+              }
+            ]
+          },
+          {
+            "name": "Left of Rubble",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54002"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 264,
+                "y": 453
+              }
+            ]
+          },
+          {
+            "name": "Right of Rubble",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54001"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 339,
+                "y": 443
+              }
+            ]
+          },
+          {
+            "name": "In Water Pool",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54007"
+                ]
+              },
+              {
+                "name": "LF1",
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|54003|54004|54005|54006"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 306,
+                "y": 256
+              }
+            ]
+          },
+          {
+            "name": "Trail to Warp Behind Fountain",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 7,
+                "visibility_rules": [
+                  "$id_exists|54008|54009|54010|54011|54012|54013|54014"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 450,
+                "y": 124
+              }
+            ]
+          },
+          {
+            "name": "On Top of Rubble",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54015"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 311,
+                "y": 423
+              }
+            ]
+          },
+          {
+            "name": "Trail to Child Area",
+            "sections": [
+              {
+                "name": "Silver Health",
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|54016|54017|54018"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 238,
+                "y": 520
+              }
+            ]
+          },
+          {
+            "name": "Child Bridges Entrance",
+            "sections": [
+              {
+                "name": "Shotgun",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54019"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 177,
+                "y": 520
+              }
+            ]
+          },
+          {
+            "name": "Child Bridges Center",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54029"
+                ]
+              },
+              {
+                "name": "Shells",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54020"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 133,
+                "y": 521
+              }
+            ]
+          },
+          {
+            "name": "Child Bridges In Left Wall",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54021"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 199,
+                "y": 560
+              }
+            ]
+          },
+          {
+            "name": "Child Bridges In Right Wall",
+            "sections": [
+              {
+                "name": "Blue Health",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54022"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 141,
+                "y": 464
+              }
+            ]
+          },
+          {
+            "name": "Cage Switch Alcove",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54032"
+                ]
+              },
+              {
+                "name": "Blue Health",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|54023|54024"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 104,
+                "y": 522
+              }
+            ]
+          },
+          {
+            "name": "Up Ladder Rubble Jump",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54025"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 366,
+                "y": 467
+              }
+            ]
+          },
+          {
+            "name": "Left of Fountain",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54027"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 384,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "name": "Right of Fountain",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54026"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 443,
+                "y": 193
+              }
+            ]
+          },
+          {
+            "name": "Child Bridges Left Close",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54028"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 178,
+                "y": 565
+              }
+            ]
+          },
+          {
+            "name": "Child Bridges Left Far",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54031"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 142,
+                "y": 583
+              }
+            ]
+          },
+          {
+            "name": "Child Bridges Right",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54030"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 201,
+                "y": 485
+              }
+            ]
+          },
+          {
+            "name": "Child Area Cage",
+            "sections": [
+              {
+                "name": "Rescue Child",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54033"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "x": 27,
+                "y": 523
+              }
+            ]
+          },
+          {
+            "name": "Enemy on Rubble",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|54034|54035"
+                ]
+              },
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|54036"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "shape": "diamond",
+                "x": 298,
+                "y": 500
+              }
+            ]
+          },
+          {
+            "name": "Enemy Child Bridges",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 6,
+                "visibility_rules": [
+                  "$id_exists|54037|54038|54039|54040|54041|54042"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "shape": "diamond",
+                "x": 159,
+                "y": 520
+              }
+            ]
+          },
+          {
+            "name": "Enemy by Cage",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|54043|54044"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-5",
+                "shape": "diamond",
+                "x": 53,
+                "y": 523
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

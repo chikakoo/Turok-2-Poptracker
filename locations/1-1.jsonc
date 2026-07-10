@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Level 1",
+    "children": [
+      {
+        "name": "1-1",
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+          {
+            "name": "On Box",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51000"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 417,
+                "y": 364
+              }
+            ]
+          },
+          {
+            "name": "Under Left Ship Half in Water",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|51001|51002"
+                ]
+              },
+              {
+                "name": "LF10",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51007"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 145,
+                "y": 283
+              }
+            ]
+          },
+          {
+            "name": "Under Right Ship Half in Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 3,
+                "visibility_rules": [
+                  "$id_exists|51008|51009|51010"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 238,
+                "y": 253
+              }
+            ]
+          },
+          {
+            "name": "Under Rightmost Alcove in Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51011"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 359,
+                "y": 378
+              }
+            ]
+          },
+          {
+            "name": "Under Right Alcove in Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51012"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 359,
+                "y": 315
+              }
+            ]
+          },
+          {
+            "name": "Under Center Alcove in Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51013"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 359,
+                "y": 269
+              }
+            ]
+          },
+          {
+            "name": "Under Left Alcove in Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51014"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 359,
+                "y": 220
+              }
+            ]
+          },
+          {
+            "name": "Under Leftmost Alcove in Water",
+            "sections": [
+              {
+                "name": "LF10",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51015"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 359,
+                "y": 173
+              }
+            ]
+          },
+          {
+            "name": "On Long Boxes",
+            "sections": [
+              {
+                "name": "Arrows",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51016"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 402,
+                "y": 179
+              }
+            ]
+          },
+          {
+            "name": "Power Cell Room",
+            "chest_unopened_img": "images/icons/powercell.png", // default if children do not override
+            "chest_opened_img": "images/icons/powercell_gray.png",
+            "sections": [
+              {
+                "name": "Power Cell",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51017"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 603,
+                "y": 277
+              }
+            ]
+          },
+          {
+            "name": "First Room Life Force Trail",
+            "sections": [
+              {
+                "name": "LF1",
+                "item_count": 4,
+                "visibility_rules": [
+                  "$id_exists|51003|51004|51005|51006"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 603,
+                "y": 137
+              }
+            ]
+          },
+          {
+            "name": "Pipe Overlooking First Room",
+            "sections": [
+              {
+                "name": "Pistol",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51018"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 652,
+                "y": 135
+              }
+            ]
+          },
+          {
+            "name": "Beacon Room",
+            "chest_unopened_img": "images/icons/powercell.png", // default if children do not override
+            "chest_opened_img": "images/icons/powercell_gray.png",
+            "sections": [
+              {
+                "name": "Activate Beacon",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|51019"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-1",
+                "x": 520,
+                "y": 277
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
