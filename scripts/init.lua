@@ -34,9 +34,9 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
 end
 
 -- Layout
-Tracker:AddLayouts("layouts/items.jsonc")
+Tracker:AddLayouts("layouts/inventory.jsonc")
+Tracker:AddLayouts("layouts/weapons.jsonc")
 Tracker:AddLayouts("layouts/tracker.jsonc")
-Tracker:AddLayouts("layouts/broadcast.jsonc")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.25.2" then

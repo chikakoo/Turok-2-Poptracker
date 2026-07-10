@@ -1,0 +1,62 @@
+{
+  // sets layouts for shadred items grids
+  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+  "weapons": {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "1, 1",
+            "h_alignment": "left",
+            "item_size": "64,32",
+            "rows": [
+              [
+                "talon",
+                "war_blade",
+                "bow",
+                "tek_bow"
+              ],
+              [
+                "pistol",
+                "mag_60",
+                "shotgun",
+                "shredder"
+              ],
+              [
+                "plasma_rifle",
+                "firestorm_cannon",
+                "tranquilizer_gun",
+                "charge_dart_rifle"
+              ],
+              [
+                "grenade_launcher",
+                "flame_thrower",
+                "scorpion_launcher",
+                "pfm_layer"
+              ],
+              [
+                "cerebral_bore",
+                "razor_wind",
+                "sunfire_pod",
+                "harpoon_gun"
+              ],
+              [
+                "torpedo_launcher",
+                "",
+                "nuke",
+                "nuke_parts"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
