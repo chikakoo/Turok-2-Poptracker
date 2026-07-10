@@ -448,22 +448,22 @@ LOCATION_MAPPING = {
 	[57035] = {"@1-7/On Middle Platform/Rescue Child"},
 	[57036] = {"@1-7/By Hallway Gate/Switch"},
 	[57037] = {"@1-7/In Room Up Ramp/Switch"},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	[57038] = {"@1-7/Enemy in Wall/Raptoid"},
+	[57039] = {"@1-7/Enemy on Boxes/Endtrail"},
+	[57040] = {"@1-7/Enemy by Connecting Hallway/Endtrail"},
+	[57041] = {"@1-7/Enemy in Switch Room 1/Raptor"},
+	[57042] = {"@1-7/Enemy in Switch Room 2/Raptor"},
+	[57043] = {"@1-7/Enemy on Child Ground/Endtrail"},
+	[57044] = {"@1-7/Enemy Before Child Ladder/Endtrail"},
+	[57045] = {"@1-7/Enemy by Child Switch/Endtrail"},
+	[57046] = {"@1-7/Enemy in Connecting Hallway/Raptoid"},
+	[57047] = {"@1-7/Enemy in Connecting Hallway/Raptoid"},
+	[57048] = {"@1-7/Enemy in Connecting Hallway/Raptoid"},
+	[57049] = {"@1-7/Enemy by Gate/Endtrail"},
+	[57050] = {"@1-7/Enemy After Gate/Raptoid"},
+	[57051] = {"@1-7/Enemy After Gate/Raptoid"},
+	[57052] = {"@1-7/Enemy up Ramp/Endtrail"},
+	[57053] = {"@1-7/Enemy by Exit Portal/Raptoid"},
 	[58000] = {"@1-8/Up Ladder Before Gate/Box of Shells"},
 	[58001] = {"@1-8/Up Ladder Before Gate/Box of Bullets"},
 	[58002] = {"@1-8/Behind Right Door/Clip"},

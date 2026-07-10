@@ -498,6 +498,266 @@
             "y": 463
           }
         ]
+      },
+      {
+        "name": "Enemy in Wall",
+        "sections": [
+          {
+            "name": "Raptoid",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|57038"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 135,
+            "y": 833
+          }
+        ]
+      },
+      {
+        "name": "Enemy on Boxes",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|57039"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 248,
+            "y": 686
+          }
+        ]
+      },
+      {
+        "name": "Enemy by Connecting Hallway",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|57040"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 338,
+            "y": 599
+          }
+        ]
+      },
+      {
+        "name": "Enemy in Switch Room 1",
+        "sections": [
+          {
+            "name": "Raptor",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|57041"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 111,
+            "y": 732
+          }
+        ]
+      },
+      {
+        "name": "Enemy in Switch Room 2",
+        "sections": [
+          {
+            "name": "Raptor",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|57042"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 42,
+            "y": 763
+          }
+        ]
+      },
+      {
+        "name": "Enemy on Child Ground",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|57043"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 129,
+            "y": 247
+          }
+        ]
+      },
+      {
+        "name": "Enemy Before Child Ladder",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|57044"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 474,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "Enemy by Child Switch",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|57045"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 784,
+            "y": 297
+          }
+        ]
+      },
+      {
+        "name": "Enemy in Connecting Hallway",
+        "sections": [
+          {
+            "name": "Raptoid",
+            "item_count": 3,
+            "visibility_rules": [
+              "$id_exists|57046|57047|57048"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 337,
+            "y": 530
+          }
+        ]
+      },
+      {
+        "name": "Enemy by Gate",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|57049"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 469,
+            "y": 611
+          }
+        ]
+      },
+      {
+        "name": "Enemy After Gate",
+        "sections": [
+          {
+            "name": "Raptoid",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|57050|57051"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 562,
+            "y": 606
+          }
+        ]
+      },
+      {
+        "name": "Enemy up Ramp",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|57052"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 520,
+            "y": 463
+          }
+        ]
+      },
+      {
+        "name": "Enemy by Exit Portal",
+        "sections": [
+          {
+            "name": "Raptoid",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|57053"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-7",
+            "shape": "diamond",
+            "x": 707,
+            "y": 464
+          }
+        ]
       }
     ]
   }
