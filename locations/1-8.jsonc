@@ -27,7 +27,7 @@
           {
             "map": "1-8",
             "x": 95,
-            "y": 48
+            "y": 45
           }
         ]
       },
@@ -294,6 +294,126 @@
             "map": "1-8",
             "x": 390,
             "y": 499
+          }
+        ]
+      },
+      {
+        "name": "Enemy at Start",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58019"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "shape": "diamond",
+            "x": 102,
+            "y": 315
+          }
+        ]
+      },
+      {
+        "name": "Enemy up Ladder",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58020"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "shape": "diamond",
+            "x": 96,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "name": "Enemy by Open Gate",
+        "sections": [
+          {
+            "name": "Raptoid",
+            "item_count": 2,
+            "visibility_rules": [
+              "$id_exists|58021|58022"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "shape": "diamond",
+            "x": 306,
+            "y": 443
+          }
+        ]
+      },
+      {
+        "name": "Enemy by Exit Gate",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58023"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "shape": "diamond",
+            "x": 508,
+            "y": 264
+          }
+        ]
+      },
+      {
+        "name": "Enemy on Bottom Floor",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58024"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "shape": "diamond",
+            "x": 504,
+            "y": 493
+          }
+        ]
+      },
+      {
+        "name": "Enemy up Building Ladder",
+        "sections": [
+          {
+            "name": "Endtrail",
+            "item_count": 1,
+            "visibility_rules": [
+              "$id_exists|58025"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "1-8",
+            "shape": "diamond",
+            "x": 529,
+            "y": 383
           }
         ]
       }

@@ -12,7 +12,7 @@ ROOM_SEED = "default"
 TROLL_PLAYER = false
 
 if Highlight then
-    HIGHLIGHT_LEVEL= {
+    HIGHLIGHT_LEVEL = {
         [0] = Highlight.Unspecified,
         [10] = Highlight.NoPriority,
         [20] = Highlight.Avoid,
@@ -154,14 +154,6 @@ local function PreOnClear()
             end
         end
 
-        --- example for how to build a date object and how to check current user's date against it
-        --local start_day_range = BuildTimeObj(nil, 3 , 31)
-        --local end_day_range = BuildTimeObj(nil, 4 , 5)
-        --DATE_CHECK_PASSED = CheckDateRange(start_day_range, end_day_range, os.time())
-        --if TROLL_PLAYER == false and DATE_CHECK_PASSED then
-        --    TROLL_PLAYER = true
-        --end
-
         if #ALL_LOCATIONS > 0 then
             ALL_LOCATIONS = {}
         end
@@ -202,7 +194,7 @@ local function PreOnClear()
     end
 end
 
----function that gets called when the pack connects to an AP server
+---Called when the pack connects to an AP server
 ---@param slot_data? table Slotdata send from AP server for the specific user/slot
 function OnClear(slot_data)
     MANUAL_CHECKED = false
@@ -382,9 +374,8 @@ function OnBounce(json)
     end
 end
 
--- this Autofill function is meant as an example on how to do the reading from slot_data
--- and mapping the values to your own settings
--- ---@param slot_data table
+---Populates the settings based on the slot data
+---@param slot_data table containing the slot data
 function AutoFill(slot_data)
     if not Tracker:FindObjectForCode("autofill_settings").Active then
         return
