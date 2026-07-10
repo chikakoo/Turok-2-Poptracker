@@ -11,6 +11,13 @@
             "type": "layout",
             "key": "settings_tab"
           }
+        },
+        {
+          "title": "Weapon Barrier Settings",
+          "content": {
+            "type": "layout",
+            "key": "weapon_barrier_settings_tab"
+          }
         }
       ]
     }

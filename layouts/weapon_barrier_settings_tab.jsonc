@@ -1,0 +1,57 @@
+{
+  "weapon_barrier_settings_tab": {
+    "type": "array",
+    "orientation": "vertical",
+    "content": [
+      {
+          "type": "array",
+          "orientation": "horizontal",
+          "margin": "0,0",
+          "content": [
+            {
+              "type": "itemgrid",
+              "item_margin": "1, 1",
+              "h_alignment": "left",
+              "item_size": "32,32",
+              "rows": [
+                [
+                  "weapon_barrier_level_1_start",
+                  "weapon_barrier_level_1_mid",
+                  "weapon_barrier_level_1_end"
+                ],
+                [
+                  "weapon_barrier_level_2_start",
+                  "weapon_barrier_level_2_mid",
+                  "weapon_barrier_level_2_end"
+                ],
+                [
+                  "weapon_barrier_level_3_start",
+                  "weapon_barrier_level_3_mid",
+                  "weapon_barrier_level_3_end"
+                ],
+                [
+                  "weapon_barrier_level_4_start",
+                  "weapon_barrier_level_4_mid",
+                  "weapon_barrier_level_4_end"
+                ],
+                [
+                  "weapon_barrier_level_5_start",
+                  "weapon_barrier_level_5_mid",
+                  "weapon_barrier_level_5_end"
+                ],
+                [
+                  "weapon_barrier_level_6_start",
+                  "weapon_barrier_level_6_mid",
+                  "weapon_barrier_level_6_end"
+                ],
+                [
+                  "",
+                  "weapon_barrier_primagen"
+                ]
+              ]
+            }
+          ]
+        }
+    ]
+  }
+}

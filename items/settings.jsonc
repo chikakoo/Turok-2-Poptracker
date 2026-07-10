@@ -114,5 +114,159 @@
         "img": "/images/settings/autofill_settings.png",
         "initial_active_state": true,
         "codes": "autofill_settings"
+    },
+
+    // Weapon Barrier Settings
+    {
+        "name": "Weapon Barrier Level 1 Start",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_1.png",
+        "max_quantity": 17,
+        "initial_quantity": 1,
+        "codes": "weapon_barrier_level_1_start"
+    },
+    {
+        "name": "Weapon Barrier Level 1 Mid",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_1.png",
+        "max_quantity": 17,
+        "initial_quantity": 2,
+        "codes": "weapon_barrier_level_1_mid"
+    },
+    {
+        "name": "Weapon Barrier Level 1 End",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_1.png",
+        "max_quantity": 17,
+        "initial_quantity": 3,
+        "codes": "weapon_barrier_level_1_end"
+    },
+    {
+        "name": "Weapon Barrier Level 2 Start",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_2.png",
+        "max_quantity": 17,
+        "initial_quantity": 2,
+        "codes": "weapon_barrier_level_2_start"
+    },
+    {
+        "name": "Weapon Barrier Level 2 Mid",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_2.png",
+        "max_quantity": 17,
+        "initial_quantity": 3,
+        "codes": "weapon_barrier_level_2_mid"
+    },
+    {
+        "name": "Weapon Barrier Level 2 End",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_2.png",
+        "max_quantity": 17,
+        "initial_quantity": 4,
+        "codes": "weapon_barrier_level_2_end"
+    },
+    {
+        "name": "Weapon Barrier Level 3 Start",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_3.png",
+        "max_quantity": 17,
+        "initial_quantity": 2,
+        "codes": "weapon_barrier_level_3_start"
+    },
+    {
+        "name": "Weapon Barrier Level 3 Mid",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_3.png",
+        "max_quantity": 17,
+        "initial_quantity": 4,
+        "codes": "weapon_barrier_level_3_mid"
+    },
+    {
+        "name": "Weapon Barrier Level 3 End",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_3.png",
+        "max_quantity": 17,
+        "initial_quantity": 4,
+        "codes": "weapon_barrier_level_3_end"
+    },
+    {
+        "name": "Weapon Barrier Level 4 Start",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_4.png",
+        "max_quantity": 17,
+        "initial_quantity": 3,
+        "codes": "weapon_barrier_level_4_start"
+    },
+    {
+        "name": "Weapon Barrier Level 4 Mid",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_4.png",
+        "max_quantity": 17,
+        "initial_quantity": 5,
+        "codes": "weapon_barrier_level_4_mid"
+    },
+    {
+        "name": "Weapon Barrier Level 4 End",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_4.png",
+        "max_quantity": 17,
+        "initial_quantity": 6,
+        "codes": "weapon_barrier_level_4_end"
+    },
+    {
+        "name": "Weapon Barrier Level 5 Start",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_5.png",
+        "max_quantity": 17,
+        "initial_quantity": 4,
+        "codes": "weapon_barrier_level_5_start"
+    },
+    {
+        "name": "Weapon Barrier Level 5 Mid",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_5.png",
+        "max_quantity": 17,
+        "initial_quantity": 5,
+        "codes": "weapon_barrier_level_5_mid"
+    },
+    {
+        "name": "Weapon Barrier Level 5 End",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_5.png",
+        "max_quantity": 17,
+        "initial_quantity": 7,
+        "codes": "weapon_barrier_level_5_end"
+    },
+    {
+        "name": "Weapon Barrier Level 6 Start",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_6.png",
+        "max_quantity": 17,
+        "initial_quantity": 4,
+        "codes": "weapon_barrier_level_6_start"
+    },
+    {
+        "name": "Weapon Barrier Level 6 Mid",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_6.png",
+        "max_quantity": 17,
+        "initial_quantity": 6,
+        "codes": "weapon_barrier_level_6_mid"
+    },
+    {
+        "name": "Weapon Barrier Level 6 End",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_level_6.png",
+        "max_quantity": 17,
+        "initial_quantity": 8,
+        "codes": "weapon_barrier_level_6_end"
+    },
+    {
+        "name": "Weapon Barrier Primagen",
+        "type": "consumable",
+        "img": "/images/settings/weapon_barrier_primagen.png",
+        "max_quantity": 17,
+        "initial_quantity": 12,
+        "codes": "weapon_barrier_primagen"
     }
 ]

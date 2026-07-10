@@ -408,10 +408,30 @@ function AutoFill(slot_data)
         -- Progressions
         progressive_warps = { code = "progressive_warps" },
         level_unlock_method = { code = "level_unlock_method" },
-        progressive_weapon_ammo_upgrades = {  code = "level_unlock_method" }
+        progressive_weapon_ammo_upgrades = {  code = "level_unlock_method" },
+
+        -- Weapon Barriers
+        weapon_barrier_level_1_start = { code = "weapon_barrier_level_1_start" },
+        weapon_barrier_level_1_mid = { code = "weapon_barrier_level_1_mid" },
+        weapon_barrier_level_1_end = { code = "weapon_barrier_level_1_end" },
+        weapon_barrier_level_2_start = { code = "weapon_barrier_level_2_start" },
+        weapon_barrier_level_2_mid = { code = "weapon_barrier_level_2_mid" },
+        weapon_barrier_level_2_end = { code = "weapon_barrier_level_2_end" },
+        weapon_barrier_level_3_start = { code = "weapon_barrier_level_3_start" },
+        weapon_barrier_level_3_mid = { code = "weapon_barrier_level_3_mid" },
+        weapon_barrier_level_3_end = { code = "weapon_barrier_level_3_end" },
+        weapon_barrier_level_4_start = { code = "weapon_barrier_level_4_start" },
+        weapon_barrier_level_4_mid = { code = "weapon_barrier_level_4_mid" },
+        weapon_barrier_level_4_end = { code = "weapon_barrier_level_4_end" },
+        weapon_barrier_level_5_start = { code = "weapon_barrier_level_5_start" },
+        weapon_barrier_level_5_mid = { code = "weapon_barrier_level_5_mid" },
+        weapon_barrier_level_5_end = { code = "weapon_barrier_level_5_end" },
+        weapon_barrier_level_6_start = { code = "weapon_barrier_level_6_start" },
+        weapon_barrier_level_6_mid = { code = "weapon_barrier_level_6_mid" },
+        weapon_barrier_level_6_end = { code = "weapon_barrier_level_6_end" },
+        weapon_barrier_primagen = { code = "weapon_barrier_primagen" },
         
         --TODO still
-        --weapon_barrier_settings
         --tricks
     }
 
