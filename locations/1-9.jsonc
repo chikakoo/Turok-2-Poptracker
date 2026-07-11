@@ -450,7 +450,7 @@
                 ]
             },
             {
-                "name": "In Top Exit Doorway",
+                "name": "Start Room Catwalks Exit",
                 "sections": [
                     {
                         "name": "Pistol",
@@ -465,6 +465,530 @@
                         "map": "1-9C",
                         "x": 210,
                         "y": 300
+                    }
+                ]
+            },
+            {
+                "name": "In Top Exit Doorway",
+                "sections": [
+                    {
+                        "name": "Tek Quiver",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59056"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 103,
+                        "y": 187
+                    }
+                ]
+            },
+            {
+                "name": "On Top Exit Catwalk",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59057|59058"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 822,
+                        "y": 515
+                    }
+                ]
+            },
+            {
+                "name": "In Bottom Return Hallway",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|59059|59060|59061}59062|59063"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 165,
+                        "y": 125
+                    }
+                ]
+            },
+            {
+                "name": "Behind Rubble",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59064"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 693,
+                        "y": 475
+                    }
+                ]
+            },
+            {
+                "name": "On Rubble",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59065"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 659,
+                        "y": 533
+                    }
+                ]
+            },
+            {
+                "name": "Up Ladder Behind Wall",
+                "sections": [
+                    {
+                        "name": "Level Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59066"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 789,
+                        "y": 596
+                    }
+                ]
+            },
+            {
+                "name": "In Hallway to Bridge Area",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59067"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 760,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Up Hall to Bridge",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59068"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 914,
+                        "y": 317
+                    }
+                ]
+            },
+            {
+                "name": "On Bridge Center",
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59069"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 802,
+                        "y": 243
+                    }
+                ]
+            },
+            {
+                "name": "In Canal Start",
+                "sections": [
+                    {
+                        "name": "Tek Bow",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59078"
+                        ]
+                    },
+                    {
+                        "name": "LF1",
+                        "item_count": 8,
+                        "visibility_rules": [
+                            "$id_exists|59070|59071|59072|59073|59074|59075|59076|59077"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 555,
+                        "y": 252
+                    }
+                ]
+            },
+            {
+                "name": "In Canal End Doors Room",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59083"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|59079|59080|59081|59082"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 123,
+                        "y": 270
+                    }
+                ]
+            },
+            {
+                "name": "Up Ladder Near End",
+                "sections": [
+                    {
+                        "name": "Tek Bow",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59084"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 273,
+                        "y": 343
+                    }
+                ]
+            },
+            {
+                "name": "In Fountain",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|59085|59086|59087|59088"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 383,
+                        "y": 233
+                    }
+                ]
+            },
+            {
+                "name": "Between Building Ramps",
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59091"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59089|59090"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 382,
+                        "y": 151
+                    }
+                ]
+            },
+            {
+                "name": "Left Room Near Bookshelf",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59092"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 344,
+                        "y": 95
+                    }
+                ]
+            },
+            {
+                "name": "Right Room on Bed",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59093"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 455,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "name": "Right Room Right of Furnace",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59094"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 469,
+                        "y": 102
+                    }
+                ]
+            },
+            {
+                "name": "Left Room Between Pillars",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59095|59096"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 592,
+                        "y": 73
+                    }
+                ]
+            },
+            {
+                "name": "Left Room Inside Pillar",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59097"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 592,
+                        "y": 85
+                    }
+                ]
+            },
+            {
+                "name": "Right Room Between Beds",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59098"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 693,
+                        "y": 40
+                    }
+                ]
+            },
+            {
+                "name": "On Outside Center Platform",
+                "sections": [
+                    {
+                        "name": "Level Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59099"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 631,
+                        "y": 90
+                    }
+                ]
+            },
+            {
+                "name": "Along Hall to Oblivion Portal",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 14,
+                        "visibility_rules": [
+                            "$id_exists|59100|59101|59102|59103|59104|59105|59106|59107|59108|59109|59110|59111|59112|59113"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 372,
+                        "y": 373
+                    }
+                ]
+            },
+            {
+                "name": "Catwalk with Oblivion Switch",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|59114|59115|59116|59117"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 564,
+                        "y": 515
+                    }
+                ]
+            },
+            {
+                "name": "End Portal Left Wall",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|59118|59119|59120|59121|59122"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 39,
+                        "y": 298
+                    }
+                ]
+            },
+            {
+                "name": "End Portal Right Wall",
+                "sections": [
+                    {
+                        "name": "Quiver",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59123"
+                        ]
+                    },
+                    {
+                        "name": "Box of Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59124"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59125"
+                        ]
+                    },
+                    {
+                        "name": "Explosive Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59126"
+                        ]
+                    },
+                    {
+                        "name": "Tek Quiver",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59127"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 39,
+                        "y": 245
                     }
                 ]
             },
@@ -484,6 +1008,177 @@
                         "map": "1-9C",
                         "x": 210,
                         "y": 225
+                    }
+                ]
+            },
+            {
+                "name": "Up Ladder Across from Rubble",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59129"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 743,
+                        "y": 593
+                    }
+                ]
+            },
+            {
+                "name": "Up Ladder Near Compy Bridge",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59130"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 737,
+                        "y": 293
+                    }
+                ]
+            },
+            {
+                "name": "Behind Left End Door",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59131"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 124,
+                        "y": 302
+                    }
+                ]
+            },
+            {
+                "name": "Behind Right End Door",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59132"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 124,
+                        "y": 240
+                    }
+                ]
+            },
+            {
+                "name": "In Left Room Corner",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59133"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 291,
+                        "y": 97
+                    }
+                ]
+            },
+            {
+                "name": "Right Room Left of Furnace",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59134"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 461,
+                        "y": 91
+                    }
+                ]
+            },
+            {
+                "name": "Left Room by Table",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59135"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 75,
+                        "y": 34
+                    }
+                ]
+            },
+            {
+                "name": "Right Room in Corner",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59136"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 198,
+                        "y": 35
+                    }
+                ]
+            },
+            {
+                "name": "On Catwalk Under Portal",
+                "sections": [
+                    {
+                        "name": "Oblivion Portal Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59137"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 564,
+                        "y": 484
                     }
                 ]
             },
