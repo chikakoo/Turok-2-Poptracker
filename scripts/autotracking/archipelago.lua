@@ -1,5 +1,5 @@
 require("scripts.autotracking.item_mapping")
-require("scripts.autotracking.location_mapping")
+require("scripts.autotracking.locations.location_mapping")
 
 CUR_INDEX = -1
 
@@ -381,7 +381,7 @@ function AutoFill(slot_data)
         return
     end
 
-    print(DumpTable(slot_data))
+    --print(DumpTable(slot_data))
 
     slotCodes = {
         -- Goals

@@ -1,5 +1,5 @@
-LOCATION_MAPPING = {
-	[51000] = {"@1-1/On Box/LF1"},
+LOCATIONS_1_1 = {
+    [51000] = {"@1-1/On Box/LF1"},
 	[51001] = {"@1-1/Under Left Ship Half in Water/LF1"},
 	[51002] = {"@1-1/Under Left Ship Half in Water/LF1"},
 	[51003] = {"@1-1/First Room Life Force Trail/LF1"},
@@ -18,7 +18,10 @@ LOCATION_MAPPING = {
 	[51016] = {"@1-1/On Long Boxes/Arrows"},
 	[51017] = {"@1-1/Power Cell Room/Power Cell"},
 	[51018] = {"@1-1/Pipe Overlooking First Room/Pistol"},
-	[51019] = {"@1-1/Beacon Room/Activate Beacon"},
+	[51019] = {"@1-1/Beacon Room/Activate Beacon"}
+}
+
+LOCATIONS_1_2a = {
 	[52000] = {"@1-2a/On Close Catwalks/LF1"},
 	[52001] = {"@1-2a/On Close Catwalks/LF1"},
 	[52002] = {"@1-2a/On Close Catwalks/LF1"},
@@ -97,7 +100,10 @@ LOCATION_MAPPING = {
 	[52075] = {"@1-2a/Enemy in Child Area Top After Switch/Raptoid"},
 	[52076] = {"@1-2a/Enemy By Water After Catwalks Switch/Endtrail"},
 	[52077] = {"@1-2a/Enemy By Portal/Raptoid"},
-	[52078] = {"@1-2a/Enemy By Portal/Raptoid"},
+	[52078] = {"@1-2a/Enemy By Portal/Raptoid"}
+}
+
+LOCATIONS_1_2b = {
 	[52079] = {"@1-2b/In Corner Up Ladder/Clip"},
 	[52080] = {"@1-2b/In Corner Up Ladder/Clip"},
 	[52081] = {"@1-2b/In Corner Up Ladder/Clip"},
@@ -107,7 +113,10 @@ LOCATION_MAPPING = {
 	[52085] = {"@1-2b/Behind Left Portal Pillar/Arrows"},
 	[52086] = {"@1-2b/Behind Right Portal Pillar/Quiver"},
 	[52087] = {"@1-2b/Enemy up Ladder/Raptoid"},
-	[52088] = {"@1-2b/Enemy Behind Exit Door/Endtrail"},
+	[52088] = {"@1-2b/Enemy Behind Exit Door/Endtrail"}
+}
+
+LOCATIONS_1_3 = {
 	[53000] = {"@1-3F/Near Portal Behind Left Pillar/Clip"},
 	[53001] = {"@1-3F/Behind Right Pillar/Clip"},
 	[53002] = {"@1-3F/By Rubble/LF10"},
@@ -237,7 +246,10 @@ LOCATION_MAPPING = {
 	[53126] = {"@1-3B/Enemy in Water Room/Raptoid"},
 	[53127] = {"@1-3B/Enemy in Water Room/Raptoid"},
 	[53128] = {"@1-3B/Enemy by Cage/Endtrail"},
-	[53129] = {"@1-3B/Enemy by Cage/Endtrail"},
+	[53129] = {"@1-3B/Enemy by Cage/Endtrail"}
+}
+
+LOCATIONS_1_4 = {
 	[55000] = {"@1-4/On Ground Near Ledge/Arrows"},
 	[55001] = {"@1-4/On Ground Near Left House/Arrows"},
 	[55002] = {"@1-4/Left House Lower/LF1"},
@@ -326,6 +338,9 @@ LOCATION_MAPPING = {
 	[55085] = {"@1-4/Enemy Upper Right Sniper/Endtrail"},
 	[55086] = {"@1-4/Enemy by Building 2/Raptoid"},
 	[55087] = {"@1-4/Enemy by Exit Portal/Endtrail"},
+}
+
+LOCATIONS_1_5 = {
 	[54000] = {"@1-5/In Entrance Hall/Tek Bow"},
 	[54001] = {"@1-5/Right of Rubble/Arrows"},
 	[54002] = {"@1-5/Left of Rubble/Clip"},
@@ -370,7 +385,10 @@ LOCATION_MAPPING = {
 	[54041] = {"@1-5/Enemy Child Bridges/Raptoid"},
 	[54042] = {"@1-5/Enemy Child Bridges/Raptoid"},
 	[54043] = {"@1-5/Enemy by Cage/Endtrail"},
-	[54044] = {"@1-5/Enemy by Cage/Endtrail"},
+	[54044] = {"@1-5/Enemy by Cage/Endtrail"}
+}
+
+LOCATIONS_1_6 = {
 	[56000] = {"@1-6/In Archery House Between Beds/Clip"},
 	[56001] = {"@1-6/In Archery House Between Beds/Clip"},
 	[56002] = {"@1-6/Behind Archery House/Arrows"},
@@ -409,7 +427,10 @@ LOCATION_MAPPING = {
 	[56035] = {"@1-6/Enemy in Hallway/Raptoid"},
 	[56036] = {"@1-6/Enemy in Wall/Raptoid"},
 	[56037] = {"@1-6/Enemy Before Bridge/Endtrail"},
-	[56038] = {"@1-6/Enemy After Bridge/Endtrail"},
+	[56038] = {"@1-6/Enemy After Bridge/Endtrail"}
+}
+
+LOCATIONS_1_7 = {
 	[57000] = {"@1-7/Entrance Trail/LF1"},
 	[57001] = {"@1-7/Entrance Trail/LF1"},
 	[57002] = {"@1-7/Entrance Trail/LF1"},
@@ -463,7 +484,10 @@ LOCATION_MAPPING = {
 	[57050] = {"@1-7/Enemy After Gate/Raptoid"},
 	[57051] = {"@1-7/Enemy After Gate/Raptoid"},
 	[57052] = {"@1-7/Enemy up Ramp/Endtrail"},
-	[57053] = {"@1-7/Enemy by Exit Portal/Raptoid"},
+	[57053] = {"@1-7/Enemy by Exit Portal/Raptoid"}
+}
+
+LOCATIONS_1_8 = {
 	[58000] = {"@1-8/Up Ladder Before Gate/Box of Shells"},
 	[58001] = {"@1-8/Up Ladder Before Gate/Box of Bullets"},
 	[58002] = {"@1-8/Behind Right Door/Clip"},
@@ -490,6 +514,9 @@ LOCATION_MAPPING = {
 	[58023] = {"@1-8/Enemy by Exit Gate/Endtrail"},
 	[58024] = {"@1-8/Enemy on Bottom Floor/Endtrail"},
 	[58025] = {"@1-8/Enemy up Building Ladder/Endtrail"},
+}
+
+LOCATIONS_1_9 = {
 	[59000] = {"@1-9C/Near Boxes at Start/Box of Bullets"},
 	[59001] = {"@1-9C/Near Boxes at Start/Blue Health"},
 	[59002] = {"@1-9C/Near Boxes Before Checkpoint/Clip"},
@@ -546,8 +573,6 @@ LOCATION_MAPPING = {
 	[59053] = {"@1-9C/On Start Room Catwalks/LF1"},
 	[59054] = {"@1-9C/On Start Room Catwalks/LF1"},
 	[59055] = {"@1-9C/In Top Exit Doorway/Pistol"},
-
-
 
 
 

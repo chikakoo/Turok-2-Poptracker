@@ -21,6 +21,9 @@ function dump_table(o, depth)
     end
 end
 
+---Returns whether the code has the given amount (or any if not given)
+---@param item string of the code to check
+---@param amount number to verify, if any
 function has(item, amount)
     local count = Tracker:ProviderCountForCode(item)
     amount = tonumber(amount)
@@ -29,4 +32,18 @@ function has(item, amount)
     else
         return count >= amount
     end
+end
+
+---Concatenates and all given tables into a single result and returns it
+function concat_tables(...)
+    local result = {}
+
+    for i = 1, select("#", ...) do
+        local table = select(i, ...)
+        for key, value in pairs(table) do
+            result[key] = value
+        end
+    end
+
+    return result
 end

@@ -1,20 +1,81 @@
-// TODO: write a script to generate this json and copy/paste it here
 [
   {
     "name": "Hub",
     "children": [
       {
-        "name": "L1",
+        "name": "Level 1",
         "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
         "chest_opened_img": "images/icons/LF1_gray.png",
         "sections": [
           {
-            "ref": "1-1/On Box/LF1",
-            "name": "1"
+            "name": "1-1",
+            "item_count": 1,
+            "access_rules": [
+              "$is_any_location_unchecked|LOCATIONS_1_1"
+            ]
           },
           {
-            "ref": "1-1/Under Left Ship Half in Water/LF1",
-            "name": "2"
+            "name": "1-2a",
+            "item_count": 1,
+            "access_rules": [
+              "$is_any_location_unchecked|LOCATIONS_1_2a"
+            ]
+          },
+          {
+            "name": "1-3",
+            "item_count": 1,
+            "access_rules": [
+              "$is_any_location_unchecked|LOCATIONS_1_3"
+            ]
+          },
+          {
+            "name": "1-2b",
+            "item_count": 1,
+            "access_rules": [
+              "$is_any_location_unchecked|LOCATIONS_1_2b"
+            ]
+          },
+          {
+            "name": "1-4",
+            "item_count": 1,
+            "access_rules": [
+              "$is_any_location_unchecked|LOCATIONS_1_4"
+            ]
+          },
+          {
+            "name": "1-5",
+            "item_count": 1,
+            "access_rules": [
+              "$is_any_location_unchecked|LOCATIONS_1_5"
+            ]
+          },
+          {
+            "name": "1-6",
+            "item_count": 1,
+            "access_rules": [
+              "$is_any_location_unchecked|LOCATIONS_1_6"
+            ]
+          },
+          {
+            "name": "1-7",
+            "item_count": 1,
+            "access_rules": [
+              "$is_any_location_unchecked|LOCATIONS_1_7"
+            ]
+          },
+          {
+            "name": "1-8",
+            "item_count": 1,
+            "access_rules": [
+              "$is_any_location_unchecked|LOCATIONS_1_8"
+            ]
+          },
+          {
+            "name": "1-9",
+            "item_count": 1,
+            "access_rules": [
+              "$is_any_location_unchecked|LOCATIONS_1_9"
+            ]
           }
         ],
         "map_locations": [

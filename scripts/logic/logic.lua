@@ -21,3 +21,24 @@ function id_exists(...)
 
     return count
 end
+
+--- Checks whether any location is unchecked, given the location table
+function is_any_location_unchecked(location_table_name)
+    local locations = _G[location_table_name]
+    if locations == nil then
+        print("Unknown location table: " .. location_table_name)
+        return false
+    end
+
+    for _, location_array in pairs(locations) do
+        for _, location in pairs(location_array) do
+            local location_obj = Tracker:FindObjectForCode(location)
+
+            if location_obj.AvailableChestCount > 0 then
+                return true
+            end
+        end
+    end
+
+    return false
+end

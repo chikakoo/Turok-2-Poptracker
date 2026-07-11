@@ -1,0 +1,15 @@
+require("scripts.autotracking.locations.level_1")
+
+LOCATION_MAPPING = concat_tables(
+	-- Level 1
+	LOCATIONS_1_1,
+	LOCATIONS_1_2a,
+	LOCATIONS_1_2b,
+	LOCATIONS_1_3,
+	LOCATIONS_1_4,
+	LOCATIONS_1_5,
+	LOCATIONS_1_6,
+	LOCATIONS_1_7,
+	LOCATIONS_1_8,
+	LOCATIONS_1_9
+)
