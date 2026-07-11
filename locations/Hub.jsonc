@@ -3,79 +3,63 @@
     "name": "Hub",
     "children": [
       {
-        "name": "Level 1",
-        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
-        "chest_opened_img": "images/icons/LF1_gray.png",
+        "name": "1-1",
         "sections": [
           {
-            "name": "1-1",
-            "item_count": 1,
-            "access_rules": [
-              "$is_any_location_unchecked|LOCATIONS_1_1"
-            ]
+            "ref": "1-1/On Box/LF1",
+            "name": "[LF1] On Box"
           },
           {
-            "name": "1-2a",
-            "item_count": 1,
-            "access_rules": [
-              "$is_any_location_unchecked|LOCATIONS_1_2a"
-            ]
+            "ref": "1-1/Under Left Ship Half in Water/LF1",
+            "name": "[LF1] Under Left Ship Half in Water"
           },
           {
-            "name": "1-3",
-            "item_count": 1,
-            "access_rules": [
-              "$is_any_location_unchecked|LOCATIONS_1_3"
-            ]
+            "ref": "1-1/Under Left Ship Half in Water/LF10",
+            "name": "[LF10] Under Left Ship Half in Water"
           },
           {
-            "name": "1-2b",
-            "item_count": 1,
-            "access_rules": [
-              "$is_any_location_unchecked|LOCATIONS_1_2b"
-            ]
+            "ref": "1-1/Under Right Ship Half in Water/LF10",
+            "name": "[LF10] Under Right Ship Half in Water"
           },
           {
-            "name": "1-4",
-            "item_count": 1,
-            "access_rules": [
-              "$is_any_location_unchecked|LOCATIONS_1_4"
-            ]
+            "ref": "1-1/Under Rightmost Alcove in Water/LF10",
+            "name": "[LF10] Under Rightmost Alcove in Water"
           },
           {
-            "name": "1-5",
-            "item_count": 1,
-            "access_rules": [
-              "$is_any_location_unchecked|LOCATIONS_1_5"
-            ]
+            "ref": "1-1/Under Right Alcove in Water/LF10",
+            "name": "[LF10] Under Right Alcove in Water"
           },
           {
-            "name": "1-6",
-            "item_count": 1,
-            "access_rules": [
-              "$is_any_location_unchecked|LOCATIONS_1_6"
-            ]
+            "ref": "1-1/Under Center Alcove in Water/LF10",
+            "name": "[LF10] Under Center Alcove in Water"
           },
           {
-            "name": "1-7",
-            "item_count": 1,
-            "access_rules": [
-              "$is_any_location_unchecked|LOCATIONS_1_7"
-            ]
+            "ref": "1-1/Under Left Alcove in Water/LF10",
+            "name": "[LF10] Under Left Alcove in Water"
           },
           {
-            "name": "1-8",
-            "item_count": 1,
-            "access_rules": [
-              "$is_any_location_unchecked|LOCATIONS_1_8"
-            ]
+            "ref": "1-1/Under Leftmost Alcove in Water/LF10",
+            "name": "[LF10] Under Leftmost Alcove in Water"
           },
           {
-            "name": "1-9",
-            "item_count": 1,
-            "access_rules": [
-              "$is_any_location_unchecked|LOCATIONS_1_9"
-            ]
+            "ref": "1-1/On Long Boxes/Arrows",
+            "name": "[Arrows] On Long Boxes"
+          },
+          {
+            "ref": "1-1/Power Cell Room/Power Cell",
+            "name": "[Power Cell] Power Cell Room"
+          },
+          {
+            "ref": "1-1/First Room Life Force Trail/LF1",
+            "name": "[LF1] First Room Life Force Trail"
+          },
+          {
+            "ref": "1-1/Pipe Overlooking First Room/Pistol",
+            "name": "[Pistol] Pipe Overlooking First Room"
+          },
+          {
+            "ref": "1-1/Beacon Room/Activate Beacon",
+            "name": "[Activate Beacon] Beacon Room"
           }
         ],
         "map_locations": [
@@ -84,7 +68,1567 @@
             "x": 30,
             "y": 30
           }
-        ]
+        ],
+        "chest_unopened_img": "images/icons/LF1.png",
+        "chest_opened_img": "images/icons/LF1_gray.png"
+      },
+      {
+        "name": "1-2a",
+        "sections": [
+          {
+            "ref": "1-2a/On Close Catwalks/LF1",
+            "name": "[LF1] On Close Catwalks"
+          },
+          {
+            "ref": "1-2a/On Far Catwalks/LF1",
+            "name": "[LF1] On Far Catwalks"
+          },
+          {
+            "ref": "1-2a/Level Key Room Center/Level Key",
+            "name": "[Level Key] Level Key Room Center"
+          },
+          {
+            "ref": "1-2a/Level Key Room Corner/Quiver",
+            "name": "[Quiver] Level Key Room Corner"
+          },
+          {
+            "ref": "1-2a/In Crawlspace/Blue Health",
+            "name": "[Blue Health] In Crawlspace"
+          },
+          {
+            "ref": "1-2a/Lower Water Room Doorway/Pistol",
+            "name": "[Pistol] Lower Water Room Doorway"
+          },
+          {
+            "ref": "1-2a/Lower Water Room Under Bridge/Silver Health",
+            "name": "[Silver Health] Lower Water Room Under Bridge"
+          },
+          {
+            "ref": "1-2a/Lower Water Room Under Bridge/Box of Bullets",
+            "name": "[Box of Bullets] Lower Water Room Under Bridge"
+          },
+          {
+            "ref": "1-2a/Lower Water Room in Water Tunnel/LF10",
+            "name": "[LF10] Lower Water Room in Water Tunnel"
+          },
+          {
+            "ref": "1-2a/After Tunnel/Switch",
+            "name": "[Switch] After Tunnel"
+          },
+          {
+            "ref": "1-2a/After Tunnel Behind Switch Door/Blue Health",
+            "name": "[Blue Health] After Tunnel Behind Switch Door"
+          },
+          {
+            "ref": "1-2a/Lower Water Room Across Bridge/LF1",
+            "name": "[LF1] Lower Water Room Across Bridge"
+          },
+          {
+            "ref": "1-2a/On Catwalks/LF1",
+            "name": "[LF1] On Catwalks"
+          },
+          {
+            "ref": "1-2a/Catwalks Enemy Trigger Room/Switch",
+            "name": "[Switch] Catwalks Enemy Trigger Room"
+          },
+          {
+            "ref": "1-2a/Child Path Upper Walkway/Silver Health",
+            "name": "[Silver Health] Child Path Upper Walkway"
+          },
+          {
+            "ref": "1-2a/Child Path After Walkway/Switch",
+            "name": "[Switch] Child Path After Walkway"
+          },
+          {
+            "ref": "1-2a/Child Path in Pipe by First Switch/LF10",
+            "name": "[LF10] Child Path in Pipe by First Switch"
+          },
+          {
+            "ref": "1-2a/Child Area Bottom Around Cage/Clip",
+            "name": "[Clip] Child Area Bottom Around Cage"
+          },
+          {
+            "ref": "1-2a/Child Area Left Ramp/Blue Health",
+            "name": "[Blue Health] Child Area Left Ramp"
+          },
+          {
+            "ref": "1-2a/Child Area Right Ramp/Blue Health",
+            "name": "[Blue Health] Child Area Right Ramp"
+          },
+          {
+            "ref": "1-2a/Child Area Top After Switch/Box of Bullets",
+            "name": "[Box of Bullets] Child Area Top After Switch"
+          },
+          {
+            "ref": "1-2a/Child Area Top Switch Room/Switch",
+            "name": "[Switch] Child Area Top Switch Room"
+          },
+          {
+            "ref": "1-2a/Child Area Bottom/Rescue Child",
+            "name": "[Rescue Child] Child Area Bottom"
+          },
+          {
+            "ref": "1-2a/Before Lower Warp Room/Box of Bullets",
+            "name": "[Box of Bullets] Before Lower Warp Room"
+          },
+          {
+            "ref": "1-2a/Before Lower Warp Room Behind Door L/R/Clip",
+            "name": "[Clip] Before Lower Warp Room Behind Door L/R"
+          },
+          {
+            "ref": "1-2a/Lower Warp Room Behind Door/Clip",
+            "name": "[Clip] Lower Warp Room Behind Door"
+          },
+          {
+            "ref": "1-2a/Lower Warp Room Behind Fallen Pillar/Quiver",
+            "name": "[Quiver] Lower Warp Room Behind Fallen Pillar"
+          },
+          {
+            "ref": "1-2a/Enemy in Level Key Room/Raptoid",
+            "name": "[Raptoid] Enemy in Level Key Room"
+          },
+          {
+            "ref": "1-2a/Enemy Below Far Catwalks/Raptoid",
+            "name": "[Raptoid] Enemy Below Far Catwalks"
+          },
+          {
+            "ref": "1-2a/Enemy After Tunnel Behind Switch Door/Raptoid",
+            "name": "[Raptoid] Enemy After Tunnel Behind Switch Door"
+          },
+          {
+            "ref": "1-2a/Enemy On Catwalks/Endtrail",
+            "name": "[Endtrail] Enemy On Catwalks"
+          },
+          {
+            "ref": "1-2a/Enemy in Child Area Bottom/Endtrail",
+            "name": "[Endtrail] Enemy in Child Area Bottom"
+          },
+          {
+            "ref": "1-2a/Enemy in Child Area Top/Endtrail",
+            "name": "[Endtrail] Enemy in Child Area Top"
+          },
+          {
+            "ref": "1-2a/Enemy in Child Area Top After Switch/Raptoid",
+            "name": "[Raptoid] Enemy in Child Area Top After Switch"
+          },
+          {
+            "ref": "1-2a/Enemy By Water After Catwalks Switch/Endtrail",
+            "name": "[Endtrail] Enemy By Water After Catwalks Switch"
+          },
+          {
+            "ref": "1-2a/Enemy By Portal/Raptoid",
+            "name": "[Raptoid] Enemy By Portal"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 40,
+            "y": 30
+          }
+        ],
+        "chest_unopened_img": "images/icons/LF1.png",
+        "chest_opened_img": "images/icons/LF1_gray.png"
+      },
+      {
+        "name": "1-2b",
+        "sections": [
+          {
+            "ref": "1-2b/In Corner Up Ladder/Clip",
+            "name": "[Clip] In Corner Up Ladder"
+          },
+          {
+            "ref": "1-2b/Up Ladder/Level Key",
+            "name": "[Level Key] Up Ladder"
+          },
+          {
+            "ref": "1-2b/End of Pipe/Explosive Shells",
+            "name": "[Explosive Shells] End of Pipe"
+          },
+          {
+            "ref": "1-2b/Behind Exit Door/Clip",
+            "name": "[Clip] Behind Exit Door"
+          },
+          {
+            "ref": "1-2b/Behind Left Portal Pillar/Arrows",
+            "name": "[Arrows] Behind Left Portal Pillar"
+          },
+          {
+            "ref": "1-2b/Behind Right Portal Pillar/Quiver",
+            "name": "[Quiver] Behind Right Portal Pillar"
+          },
+          {
+            "ref": "1-2b/Enemy up Ladder/Raptoid",
+            "name": "[Raptoid] Enemy up Ladder"
+          },
+          {
+            "ref": "1-2b/Enemy Behind Exit Door/Endtrail",
+            "name": "[Endtrail] Enemy Behind Exit Door"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 40,
+            "y": 40
+          }
+        ],
+        "chest_unopened_img": "images/icons/LF1.png",
+        "chest_opened_img": "images/icons/LF1_gray.png"
+      },
+      {
+        "name": "1-3",
+        "sections": [
+          {
+            "ref": "1-3F/Near Portal Behind Left Pillar/Clip",
+            "name": "[Clip] Near Portal Behind Left Pillar"
+          },
+          {
+            "ref": "1-3F/Behind Right Pillar/Clip",
+            "name": "[Clip] Behind Right Pillar"
+          },
+          {
+            "ref": "1-3F/By Rubble/Switch",
+            "name": "[Switch] By Rubble"
+          },
+          {
+            "ref": "1-3F/By Rubble/LF10",
+            "name": "[LF10] By Rubble"
+          },
+          {
+            "ref": "1-3F/In Switch Room/Blue Health",
+            "name": "[Blue Health] In Switch Room"
+          },
+          {
+            "ref": "1-3F/By Left Door/Quiver",
+            "name": "[Quiver] By Left Door"
+          },
+          {
+            "ref": "1-3F/In Lower Hallway/LF1",
+            "name": "[LF1] In Lower Hallway"
+          },
+          {
+            "ref": "1-3F/Up First Ladder in Corner/Arrows",
+            "name": "[Arrows] Up First Ladder in Corner"
+          },
+          {
+            "ref": "1-3F/Up First Ladder Right Wall/Switch",
+            "name": "[Switch] Up First Ladder Right Wall"
+          },
+          {
+            "ref": "1-3F/Under Bridge/Switch",
+            "name": "[Switch] Under Bridge"
+          },
+          {
+            "ref": "1-3F/On Top Across Bridge/LF10",
+            "name": "[LF10] On Top Across Bridge"
+          },
+          {
+            "ref": "1-3F/On Top Across Bridge/Ultra Health",
+            "name": "[Ultra Health] On Top Across Bridge"
+          },
+          {
+            "ref": "1-3F/On Arch/Pistol",
+            "name": "[Pistol] On Arch"
+          },
+          {
+            "ref": "1-3F/On Arch/Clip",
+            "name": "[Clip] On Arch"
+          },
+          {
+            "ref": "1-3F/Up Second Ladder/Switch",
+            "name": "[Switch] Up Second Ladder"
+          },
+          {
+            "ref": "1-3F/Enemy on Broken Pillar/Endtrail",
+            "name": "[Endtrail] Enemy on Broken Pillar"
+          },
+          {
+            "ref": "1-3F/Enemy by Left Door/Endtrail",
+            "name": "[Endtrail] Enemy by Left Door"
+          },
+          {
+            "ref": "1-3F/Enemy Under Bridge/Compy",
+            "name": "[Compy] Enemy Under Bridge"
+          },
+          {
+            "ref": "1-3F/Enemy After Lower Hallway/Endtrail",
+            "name": "[Endtrail] Enemy After Lower Hallway"
+          },
+          {
+            "ref": "1-3F/Enemy on Main Path Switch Bridge/Raptoid",
+            "name": "[Raptoid] Enemy on Main Path Switch Bridge"
+          },
+          {
+            "ref": "1-3F/Enemy on Main Path by Ladder/Raptor",
+            "name": "[Raptor] Enemy on Main Path by Ladder"
+          },
+          {
+            "ref": "1-3F/Enemy at End of Main Path/Raptoid",
+            "name": "[Raptoid] Enemy at End of Main Path"
+          },
+          {
+            "ref": "1-3F/Enemy at End of Main Path/Endtrail",
+            "name": "[Endtrail] Enemy at End of Main Path"
+          },
+          {
+            "ref": "1-3B/Ladder Near Barrel Tower/Silver Health",
+            "name": "[Silver Health] Ladder Near Barrel Tower"
+          },
+          {
+            "ref": "1-3B/In Box Alcove/Arrows",
+            "name": "[Arrows] In Box Alcove"
+          },
+          {
+            "ref": "1-3B/On Box/Blue Health",
+            "name": "[Blue Health] On Box"
+          },
+          {
+            "ref": "1-3B/On Single Ship/Clip",
+            "name": "[Clip] On Single Ship"
+          },
+          {
+            "ref": "1-3B/Barrel Room/Power Cell",
+            "name": "[Power Cell] Barrel Room"
+          },
+          {
+            "ref": "1-3B/In Water by Single Ship/LF10",
+            "name": "[LF10] In Water by Single Ship"
+          },
+          {
+            "ref": "1-3B/Room Between Ships by Entrance/LF10",
+            "name": "[LF10] Room Between Ships by Entrance"
+          },
+          {
+            "ref": "1-3B/Room Between Ships Center/Shotgun",
+            "name": "[Shotgun] Room Between Ships Center"
+          },
+          {
+            "ref": "1-3B/Behind Left Boxes/Pistol",
+            "name": "[Pistol] Behind Left Boxes"
+          },
+          {
+            "ref": "1-3B/In Water by Two Ships/LF10",
+            "name": "[LF10] In Water by Two Ships"
+          },
+          {
+            "ref": "1-3B/Between Upper Boxes/Arrows",
+            "name": "[Arrows] Between Upper Boxes"
+          },
+          {
+            "ref": "1-3B/In Corner/Arrows",
+            "name": "[Arrows] In Corner"
+          },
+          {
+            "ref": "1-3B/By Right Boxes/Clip",
+            "name": "[Clip] By Right Boxes"
+          },
+          {
+            "ref": "1-3B/On Two Ships Right Boxes/Blue Health",
+            "name": "[Blue Health] On Two Ships Right Boxes"
+          },
+          {
+            "ref": "1-3B/On Left Ship/Silver Health",
+            "name": "[Silver Health] On Left Ship"
+          },
+          {
+            "ref": "1-3B/On Right Ship/Silver Health",
+            "name": "[Silver Health] On Right Ship"
+          },
+          {
+            "ref": "1-3B/On Upper Boxes/LF10",
+            "name": "[LF10] On Upper Boxes"
+          },
+          {
+            "ref": "1-3B/In Power Cell Alcove/Power Cell",
+            "name": "[Power Cell] In Power Cell Alcove"
+          },
+          {
+            "ref": "1-3B/Front On Ground/Shells",
+            "name": "[Shells] Front On Ground"
+          },
+          {
+            "ref": "1-3B/Back On Ground/LF10",
+            "name": "[LF10] Back On Ground"
+          },
+          {
+            "ref": "1-3B/On Box Up Ramp/Arrows",
+            "name": "[Arrows] On Box Up Ramp"
+          },
+          {
+            "ref": "1-3B/On Planks Up Ramp/Blue Health",
+            "name": "[Blue Health] On Planks Up Ramp"
+          },
+          {
+            "ref": "1-3B/In Alcove Up Ramp/LF1",
+            "name": "[LF1] In Alcove Up Ramp"
+          },
+          {
+            "ref": "1-3B/On Edge Up Ramp/Clip",
+            "name": "[Clip] On Edge Up Ramp"
+          },
+          {
+            "ref": "1-3B/On Box Room Right Boxes/Switch",
+            "name": "[Switch] On Box Room Right Boxes"
+          },
+          {
+            "ref": "1-3B/On Box Room Right Boxes/Silver Health",
+            "name": "[Silver Health] On Box Room Right Boxes"
+          },
+          {
+            "ref": "1-3B/Exploded Wall Before Bridge/Blue Health",
+            "name": "[Blue Health] Exploded Wall Before Bridge"
+          },
+          {
+            "ref": "1-3B/Bridge Jump to Boxes/LF10",
+            "name": "[LF10] Bridge Jump to Boxes"
+          },
+          {
+            "ref": "1-3B/Child Entrance Room/LF1",
+            "name": "[LF1] Child Entrance Room"
+          },
+          {
+            "ref": "1-3B/In Water Corner/Clip",
+            "name": "[Clip] In Water Corner"
+          },
+          {
+            "ref": "1-3B/By Checkpoint/Switch",
+            "name": "[Switch] By Checkpoint"
+          },
+          {
+            "ref": "1-3B/Cage Switch Room/Switch",
+            "name": "[Switch] Cage Switch Room"
+          },
+          {
+            "ref": "1-3B/Cage Switch Room/Blue Health",
+            "name": "[Blue Health] Cage Switch Room"
+          },
+          {
+            "ref": "1-3B/Ladder After Box Jumps/Activate Beacon",
+            "name": "[Activate Beacon] Ladder After Box Jumps"
+          },
+          {
+            "ref": "1-3B/Bottom Right Near Boxes/Activate Beacon",
+            "name": "[Activate Beacon] Bottom Right Near Boxes"
+          },
+          {
+            "ref": "1-3B/After Two Ships Switch/Switch",
+            "name": "[Switch] After Two Ships Switch"
+          },
+          {
+            "ref": "1-3B/Up Ramp/Switch",
+            "name": "[Switch] Up Ramp"
+          },
+          {
+            "ref": "1-3B/Up Ladder/Switch",
+            "name": "[Switch] Up Ladder"
+          },
+          {
+            "ref": "1-3B/Room After Jump to Pipe/Rescue Child",
+            "name": "[Rescue Child] Room After Jump to Pipe"
+          },
+          {
+            "ref": "1-3B/Enemy Near Barrel Tower/Raptoid",
+            "name": "[Raptoid] Enemy Near Barrel Tower"
+          },
+          {
+            "ref": "1-3B/Enemy Near Single Ship/Raptoid",
+            "name": "[Raptoid] Enemy Near Single Ship"
+          },
+          {
+            "ref": "1-3B/Enemy Before Room Between Ships/Endtrail",
+            "name": "[Endtrail] Enemy Before Room Between Ships"
+          },
+          {
+            "ref": "1-3B/Enemy After Room Between Ships/Endtrail",
+            "name": "[Endtrail] Enemy After Room Between Ships"
+          },
+          {
+            "ref": "1-3B/Enemy in Water/Raptoid",
+            "name": "[Raptoid] Enemy in Water"
+          },
+          {
+            "ref": "1-3B/Enemy up Ramp/Endtrail",
+            "name": "[Endtrail] Enemy up Ramp"
+          },
+          {
+            "ref": "1-3B/Enemy After Two Ships Switch/Endtrail",
+            "name": "[Endtrail] Enemy After Two Ships Switch"
+          },
+          {
+            "ref": "1-3B/Enemy in Box Room/Lower Raptor or Endtrail",
+            "name": "[Lower Raptor or Endtrail] Enemy in Box Room"
+          },
+          {
+            "ref": "1-3B/Enemy in Box Room/Either Raptoid",
+            "name": "[Either Raptoid] Enemy in Box Room"
+          },
+          {
+            "ref": "1-3B/Enemy Before Bridge/Raptoid",
+            "name": "[Raptoid] Enemy Before Bridge"
+          },
+          {
+            "ref": "1-3B/Enemy Before Bridge/Endtrail",
+            "name": "[Endtrail] Enemy Before Bridge"
+          },
+          {
+            "ref": "1-3B/Enemy Across Bridge/Endtrail",
+            "name": "[Endtrail] Enemy Across Bridge"
+          },
+          {
+            "ref": "1-3B/Enemy Before Water Room/Endtrail",
+            "name": "[Endtrail] Enemy Before Water Room"
+          },
+          {
+            "ref": "1-3B/Enemy Before Water Room/Raptor",
+            "name": "[Raptor] Enemy Before Water Room"
+          },
+          {
+            "ref": "1-3B/Enemy in Water Room/Raptoid",
+            "name": "[Raptoid] Enemy in Water Room"
+          },
+          {
+            "ref": "1-3B/Enemy by Cage/Endtrail",
+            "name": "[Endtrail] Enemy by Cage"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 200,
+            "y": 30
+          }
+        ],
+        "chest_unopened_img": "images/icons/LF1.png",
+        "chest_opened_img": "images/icons/LF1_gray.png"
+      },
+      {
+        "name": "1-4",
+        "sections": [
+          {
+            "ref": "1-4/On Ground Near Ledge/Arrows",
+            "name": "[Arrows] On Ground Near Ledge"
+          },
+          {
+            "ref": "1-4/On Ground Near Left House/Arrows",
+            "name": "[Arrows] On Ground Near Left House"
+          },
+          {
+            "ref": "1-4/Left House Lower/LF1",
+            "name": "[LF1] Left House Lower"
+          },
+          {
+            "ref": "1-4/Right House Lower/Clip",
+            "name": "[Clip] Right House Lower"
+          },
+          {
+            "ref": "1-4/In Alley by Right House/Clip",
+            "name": "[Clip] In Alley by Right House"
+          },
+          {
+            "ref": "1-4/In Waterfall Basin/Explosive Shells",
+            "name": "[Explosive Shells] In Waterfall Basin"
+          },
+          {
+            "ref": "1-4/Behind Waterfall/Level Key",
+            "name": "[Level Key] Behind Waterfall"
+          },
+          {
+            "ref": "1-4/Down Narrow Hallway/LF1",
+            "name": "[LF1] Down Narrow Hallway"
+          },
+          {
+            "ref": "1-4/After Bird Kill Door/Ultra Health",
+            "name": "[Ultra Health] After Bird Kill Door"
+          },
+          {
+            "ref": "1-4/After Bird Kill Door/LF10",
+            "name": "[LF10] After Bird Kill Door"
+          },
+          {
+            "ref": "1-4/First Hall by Talisman Portal/Arrows",
+            "name": "[Arrows] First Hall by Talisman Portal"
+          },
+          {
+            "ref": "1-4/Left Corner near Portal/Clip",
+            "name": "[Clip] Left Corner near Portal"
+          },
+          {
+            "ref": "1-4/Right Corner near Portal/Clip",
+            "name": "[Clip] Right Corner near Portal"
+          },
+          {
+            "ref": "1-4/Alcove near Portal/Talisman Portal Switch",
+            "name": "[Talisman Portal Switch] Alcove near Portal"
+          },
+          {
+            "ref": "1-4/Alcove near Portal/Blue Health",
+            "name": "[Blue Health] Alcove near Portal"
+          },
+          {
+            "ref": "1-4/Second Hall near Talisman Portal/Shells",
+            "name": "[Shells] Second Hall near Talisman Portal"
+          },
+          {
+            "ref": "1-4/Behind First Upper Building/Clip",
+            "name": "[Clip] Behind First Upper Building"
+          },
+          {
+            "ref": "1-4/By Boxes/Shells",
+            "name": "[Shells] By Boxes"
+          },
+          {
+            "ref": "1-4/Upper Building 1 Up Ladder/Blue Health",
+            "name": "[Blue Health] Upper Building 1 Up Ladder"
+          },
+          {
+            "ref": "1-4/Upper Building 1 Up Ladder/LF10",
+            "name": "[LF10] Upper Building 1 Up Ladder"
+          },
+          {
+            "ref": "1-4/Primagen Key Room Entrance/Tek Bow",
+            "name": "[Tek Bow] Primagen Key Room Entrance"
+          },
+          {
+            "ref": "1-4/Primagen Key Room Entrance Corner/Tek Arrows",
+            "name": "[Tek Arrows] Primagen Key Room Entrance Corner"
+          },
+          {
+            "ref": "1-4/On Ground Below Leap Trail/Tek Arrows",
+            "name": "[Tek Arrows] On Ground Below Leap Trail"
+          },
+          {
+            "ref": "1-4/Near Leap Pad/Tek Arrows",
+            "name": "[Tek Arrows] Near Leap Pad"
+          },
+          {
+            "ref": "1-4/Below Door-Triggering Enemy/Tek Arrows",
+            "name": "[Tek Arrows] Below Door-Triggering Enemy"
+          },
+          {
+            "ref": "1-4/Primagen Key Leap/LF10 (Jumpable)",
+            "name": "[LF10 (Jumpable)] Primagen Key Leap"
+          },
+          {
+            "ref": "1-4/Primagen Key Leap/LF10",
+            "name": "[LF10] Primagen Key Leap"
+          },
+          {
+            "ref": "1-4/Primagen Key Leap Platform/Primagen Key",
+            "name": "[Primagen Key] Primagen Key Leap Platform"
+          },
+          {
+            "ref": "1-4/Path to Upper Building 2/LF1",
+            "name": "[LF1] Path to Upper Building 2"
+          },
+          {
+            "ref": "1-4/Inside Upper Building 2/Clip",
+            "name": "[Clip] Inside Upper Building 2"
+          },
+          {
+            "ref": "1-4/Behind Upper Building 2/LF1",
+            "name": "[LF1] Behind Upper Building 2"
+          },
+          {
+            "ref": "1-4/On Ledge/Blue Health",
+            "name": "[Blue Health] On Ledge"
+          },
+          {
+            "ref": "1-4/Jump to Second Floor/Explosive Shells",
+            "name": "[Explosive Shells] Jump to Second Floor"
+          },
+          {
+            "ref": "1-4/Jump to Second Floor/Silver Health",
+            "name": "[Silver Health] Jump to Second Floor"
+          },
+          {
+            "ref": "1-4/Upper Primagen Key Switch/Switch",
+            "name": "[Switch] Upper Primagen Key Switch"
+          },
+          {
+            "ref": "1-4/Waterfall Switch/Switch",
+            "name": "[Switch] Waterfall Switch"
+          },
+          {
+            "ref": "1-4/Enemy Behind Waterfall/Endtrail",
+            "name": "[Endtrail] Enemy Behind Waterfall"
+          },
+          {
+            "ref": "1-4/Enemy by Talisman Portal/Endtrail",
+            "name": "[Endtrail] Enemy by Talisman Portal"
+          },
+          {
+            "ref": "1-4/Enemy by Upper Building Start/Raptoid",
+            "name": "[Raptoid] Enemy by Upper Building Start"
+          },
+          {
+            "ref": "1-4/Enemy by Upper Building Left/Raptoid",
+            "name": "[Raptoid] Enemy by Upper Building Left"
+          },
+          {
+            "ref": "1-4/Enemy Below Primagen Key/Endtrail",
+            "name": "[Endtrail] Enemy Below Primagen Key"
+          },
+          {
+            "ref": "1-4/Enemy Above Primagen Key/Endtrail",
+            "name": "[Endtrail] Enemy Above Primagen Key"
+          },
+          {
+            "ref": "1-4/Enemy Above Doorway/Endtrail",
+            "name": "[Endtrail] Enemy Above Doorway"
+          },
+          {
+            "ref": "1-4/Enemy Upper Left Sniper/Endtrail",
+            "name": "[Endtrail] Enemy Upper Left Sniper"
+          },
+          {
+            "ref": "1-4/Enemy Upper Right Sniper/Endtrail",
+            "name": "[Endtrail] Enemy Upper Right Sniper"
+          },
+          {
+            "ref": "1-4/Enemy by Building 2/Raptoid",
+            "name": "[Raptoid] Enemy by Building 2"
+          },
+          {
+            "ref": "1-4/Enemy by Exit Portal/Endtrail",
+            "name": "[Endtrail] Enemy by Exit Portal"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 60,
+            "y": 30
+          }
+        ],
+        "chest_unopened_img": "images/icons/LF1.png",
+        "chest_opened_img": "images/icons/LF1_gray.png"
+      },
+      {
+        "name": "1-5",
+        "sections": [
+          {
+            "ref": "1-5/In Entrance Hall/Tek Bow",
+            "name": "[Tek Bow] In Entrance Hall"
+          },
+          {
+            "ref": "1-5/Left of Rubble/Clip",
+            "name": "[Clip] Left of Rubble"
+          },
+          {
+            "ref": "1-5/Right of Rubble/Arrows",
+            "name": "[Arrows] Right of Rubble"
+          },
+          {
+            "ref": "1-5/In Water Pool/LF10",
+            "name": "[LF10] In Water Pool"
+          },
+          {
+            "ref": "1-5/In Water Pool/LF1",
+            "name": "[LF1] In Water Pool"
+          },
+          {
+            "ref": "1-5/Trail to Warp Behind Fountain/LF1",
+            "name": "[LF1] Trail to Warp Behind Fountain"
+          },
+          {
+            "ref": "1-5/On Top of Rubble/Blue Health",
+            "name": "[Blue Health] On Top of Rubble"
+          },
+          {
+            "ref": "1-5/Trail to Child Area/Silver Health",
+            "name": "[Silver Health] Trail to Child Area"
+          },
+          {
+            "ref": "1-5/Child Bridges Entrance/Shotgun",
+            "name": "[Shotgun] Child Bridges Entrance"
+          },
+          {
+            "ref": "1-5/Child Bridges Center/Switch",
+            "name": "[Switch] Child Bridges Center"
+          },
+          {
+            "ref": "1-5/Child Bridges Center/Shells",
+            "name": "[Shells] Child Bridges Center"
+          },
+          {
+            "ref": "1-5/Child Bridges In Left Wall/Blue Health",
+            "name": "[Blue Health] Child Bridges In Left Wall"
+          },
+          {
+            "ref": "1-5/Child Bridges In Right Wall/Blue Health",
+            "name": "[Blue Health] Child Bridges In Right Wall"
+          },
+          {
+            "ref": "1-5/Cage Switch Alcove/Switch",
+            "name": "[Switch] Cage Switch Alcove"
+          },
+          {
+            "ref": "1-5/Cage Switch Alcove/Blue Health",
+            "name": "[Blue Health] Cage Switch Alcove"
+          },
+          {
+            "ref": "1-5/Up Ladder Rubble Jump/Switch",
+            "name": "[Switch] Up Ladder Rubble Jump"
+          },
+          {
+            "ref": "1-5/Left of Fountain/Switch",
+            "name": "[Switch] Left of Fountain"
+          },
+          {
+            "ref": "1-5/Right of Fountain/Switch",
+            "name": "[Switch] Right of Fountain"
+          },
+          {
+            "ref": "1-5/Child Bridges Left Close/Switch",
+            "name": "[Switch] Child Bridges Left Close"
+          },
+          {
+            "ref": "1-5/Child Bridges Left Far/Switch",
+            "name": "[Switch] Child Bridges Left Far"
+          },
+          {
+            "ref": "1-5/Child Bridges Right/Switch",
+            "name": "[Switch] Child Bridges Right"
+          },
+          {
+            "ref": "1-5/Child Area Cage/Rescue Child",
+            "name": "[Rescue Child] Child Area Cage"
+          },
+          {
+            "ref": "1-5/Enemy on Rubble/Raptoid",
+            "name": "[Raptoid] Enemy on Rubble"
+          },
+          {
+            "ref": "1-5/Enemy on Rubble/Endtrail",
+            "name": "[Endtrail] Enemy on Rubble"
+          },
+          {
+            "ref": "1-5/Enemy Child Bridges/Raptoid",
+            "name": "[Raptoid] Enemy Child Bridges"
+          },
+          {
+            "ref": "1-5/Enemy by Cage/Endtrail",
+            "name": "[Endtrail] Enemy by Cage"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 70,
+            "y": 30
+          }
+        ],
+        "chest_unopened_img": "images/icons/LF1.png",
+        "chest_opened_img": "images/icons/LF1_gray.png"
+      },
+      {
+        "name": "1-6",
+        "sections": [
+          {
+            "ref": "1-6/In Archery House Between Beds/Clip",
+            "name": "[Clip] In Archery House Between Beds"
+          },
+          {
+            "ref": "1-6/Behind Archery House/Arrows",
+            "name": "[Arrows] Behind Archery House"
+          },
+          {
+            "ref": "1-6/Trail to Connecting Hallway/LF1",
+            "name": "[LF1] Trail to Connecting Hallway"
+          },
+          {
+            "ref": "1-6/Before Hallway Corner/Clip",
+            "name": "[Clip] Before Hallway Corner"
+          },
+          {
+            "ref": "1-6/Bridge House Lower Armory/Silver Health",
+            "name": "[Silver Health] Bridge House Lower Armory"
+          },
+          {
+            "ref": "1-6/Left Exploded Wall in Bridge Room/Blue Health",
+            "name": "[Blue Health] Left Exploded Wall in Bridge Room"
+          },
+          {
+            "ref": "1-6/Exploded Corner in Bridge Room/Clip",
+            "name": "[Clip] Exploded Corner in Bridge Room"
+          },
+          {
+            "ref": "1-6/Right Exploded Wall in Bridge Room/LF10",
+            "name": "[LF10] Right Exploded Wall in Bridge Room"
+          },
+          {
+            "ref": "1-6/Right Exploded Wall in Bridge Room/LF1",
+            "name": "[LF1] Right Exploded Wall in Bridge Room"
+          },
+          {
+            "ref": "1-6/Bridge House Upper Corner/Box of Shells",
+            "name": "[Box of Shells] Bridge House Upper Corner"
+          },
+          {
+            "ref": "1-6/On Rubble Pile/Box of Bullets",
+            "name": "[Box of Bullets] On Rubble Pile"
+          },
+          {
+            "ref": "1-6/On Fallen Pillar/Explosive Shells",
+            "name": "[Explosive Shells] On Fallen Pillar"
+          },
+          {
+            "ref": "1-6/Trail to Bridge/LF1",
+            "name": "[LF1] Trail to Bridge"
+          },
+          {
+            "ref": "1-6/In Archery House/Switch",
+            "name": "[Switch] In Archery House"
+          },
+          {
+            "ref": "1-6/Bridge House Lower Room/Switch",
+            "name": "[Switch] Bridge House Lower Room"
+          },
+          {
+            "ref": "1-6/Enemy in Hallway/Raptoid",
+            "name": "[Raptoid] Enemy in Hallway"
+          },
+          {
+            "ref": "1-6/Enemy in Wall/Raptoid",
+            "name": "[Raptoid] Enemy in Wall"
+          },
+          {
+            "ref": "1-6/Enemy Before Bridge/Endtrail",
+            "name": "[Endtrail] Enemy Before Bridge"
+          },
+          {
+            "ref": "1-6/Enemy After Bridge/Endtrail",
+            "name": "[Endtrail] Enemy After Bridge"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 80,
+            "y": 30
+          }
+        ],
+        "chest_unopened_img": "images/icons/LF1.png",
+        "chest_opened_img": "images/icons/LF1_gray.png"
+      },
+      {
+        "name": "1-7",
+        "sections": [
+          {
+            "ref": "1-7/Entrance Trail/LF1",
+            "name": "[LF1] Entrance Trail"
+          },
+          {
+            "ref": "1-7/In Exploded Wall/Clip",
+            "name": "[Clip] In Exploded Wall"
+          },
+          {
+            "ref": "1-7/On First Roof/Tek Arrows",
+            "name": "[Tek Arrows] On First Roof"
+          },
+          {
+            "ref": "1-7/On Second Roof Center/Full Health",
+            "name": "[Full Health] On Second Roof Center"
+          },
+          {
+            "ref": "1-7/On Second Roof Back/Silver Health",
+            "name": "[Silver Health] On Second Roof Back"
+          },
+          {
+            "ref": "1-7/Inside Second House/Clip",
+            "name": "[Clip] Inside Second House"
+          },
+          {
+            "ref": "1-7/Between Boxes Near Hidden Door/LF10",
+            "name": "[LF10] Between Boxes Near Hidden Door"
+          },
+          {
+            "ref": "1-7/On Crate Near Hidden Door/Shells",
+            "name": "[Shells] On Crate Near Hidden Door"
+          },
+          {
+            "ref": "1-7/Between Center Pillars/Clip",
+            "name": "[Clip] Between Center Pillars"
+          },
+          {
+            "ref": "1-7/In Right Alcove/Shells",
+            "name": "[Shells] In Right Alcove"
+          },
+          {
+            "ref": "1-7/In Upwards Path Gate/Blue Health",
+            "name": "[Blue Health] In Upwards Path Gate"
+          },
+          {
+            "ref": "1-7/On Dead-end Ledge/Blue Health",
+            "name": "[Blue Health] On Dead-end Ledge"
+          },
+          {
+            "ref": "1-7/Along Upwards Path/LF1",
+            "name": "[LF1] Along Upwards Path"
+          },
+          {
+            "ref": "1-7/In Hallway Corner/Clip",
+            "name": "[Clip] In Hallway Corner"
+          },
+          {
+            "ref": "1-7/Behind Right Rubble/Arrows",
+            "name": "[Arrows] Behind Right Rubble"
+          },
+          {
+            "ref": "1-7/Behind Ramp/Clip",
+            "name": "[Clip] Behind Ramp"
+          },
+          {
+            "ref": "1-7/Below Central Rubble Arch/Blue Health",
+            "name": "[Blue Health] Below Central Rubble Arch"
+          },
+          {
+            "ref": "1-7/Behind Central Rubble Pillar/Clip",
+            "name": "[Clip] Behind Central Rubble Pillar"
+          },
+          {
+            "ref": "1-7/After Jump From Roof/Switch",
+            "name": "[Switch] After Jump From Roof"
+          },
+          {
+            "ref": "1-7/Double Switch Room Right/Switch",
+            "name": "[Switch] Double Switch Room Right"
+          },
+          {
+            "ref": "1-7/Double Switch Room Left/Switch",
+            "name": "[Switch] Double Switch Room Left"
+          },
+          {
+            "ref": "1-7/On Boxes Near Hidden Door/Switch",
+            "name": "[Switch] On Boxes Near Hidden Door"
+          },
+          {
+            "ref": "1-7/Above Child Cage/Switch",
+            "name": "[Switch] Above Child Cage"
+          },
+          {
+            "ref": "1-7/On Middle Platform/Rescue Child",
+            "name": "[Rescue Child] On Middle Platform"
+          },
+          {
+            "ref": "1-7/By Hallway Gate/Switch",
+            "name": "[Switch] By Hallway Gate"
+          },
+          {
+            "ref": "1-7/In Room Up Ramp/Switch",
+            "name": "[Switch] In Room Up Ramp"
+          },
+          {
+            "ref": "1-7/Enemy in Wall/Raptoid",
+            "name": "[Raptoid] Enemy in Wall"
+          },
+          {
+            "ref": "1-7/Enemy on Boxes/Endtrail",
+            "name": "[Endtrail] Enemy on Boxes"
+          },
+          {
+            "ref": "1-7/Enemy by Connecting Hallway/Endtrail",
+            "name": "[Endtrail] Enemy by Connecting Hallway"
+          },
+          {
+            "ref": "1-7/Enemy in Switch Room 1/Raptor",
+            "name": "[Raptor] Enemy in Switch Room 1"
+          },
+          {
+            "ref": "1-7/Enemy in Switch Room 2/Raptor",
+            "name": "[Raptor] Enemy in Switch Room 2"
+          },
+          {
+            "ref": "1-7/Enemy on Child Ground/Endtrail",
+            "name": "[Endtrail] Enemy on Child Ground"
+          },
+          {
+            "ref": "1-7/Enemy Before Child Ladder/Endtrail",
+            "name": "[Endtrail] Enemy Before Child Ladder"
+          },
+          {
+            "ref": "1-7/Enemy by Child Switch/Endtrail",
+            "name": "[Endtrail] Enemy by Child Switch"
+          },
+          {
+            "ref": "1-7/Enemy in Connecting Hallway/Raptoid",
+            "name": "[Raptoid] Enemy in Connecting Hallway"
+          },
+          {
+            "ref": "1-7/Enemy by Gate/Endtrail",
+            "name": "[Endtrail] Enemy by Gate"
+          },
+          {
+            "ref": "1-7/Enemy After Gate/Raptoid",
+            "name": "[Raptoid] Enemy After Gate"
+          },
+          {
+            "ref": "1-7/Enemy up Ramp/Endtrail",
+            "name": "[Endtrail] Enemy up Ramp"
+          },
+          {
+            "ref": "1-7/Enemy by Exit Portal/Raptoid",
+            "name": "[Raptoid] Enemy by Exit Portal"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 90,
+            "y": 30
+          }
+        ],
+        "chest_unopened_img": "images/icons/LF1.png",
+        "chest_opened_img": "images/icons/LF1_gray.png"
+      },
+      {
+        "name": "1-8",
+        "sections": [
+          {
+            "ref": "1-8/Up Ladder Before Gate/Box of Shells",
+            "name": "[Box of Shells] Up Ladder Before Gate"
+          },
+          {
+            "ref": "1-8/Up Ladder Before Gate/Box of Bullets",
+            "name": "[Box of Bullets] Up Ladder Before Gate"
+          },
+          {
+            "ref": "1-8/Behind Right Door/Clip",
+            "name": "[Clip] Behind Right Door"
+          },
+          {
+            "ref": "1-8/By Back Entrance Arch/Clip",
+            "name": "[Clip] By Back Entrance Arch"
+          },
+          {
+            "ref": "1-8/Under Back Entrance Arch/Quiver",
+            "name": "[Quiver] Under Back Entrance Arch"
+          },
+          {
+            "ref": "1-8/In Right Exploded Wall/Clip",
+            "name": "[Clip] In Right Exploded Wall"
+          },
+          {
+            "ref": "1-8/In Left Exploded Wall/Blue Health",
+            "name": "[Blue Health] In Left Exploded Wall"
+          },
+          {
+            "ref": "1-8/In Exploded Corner/Shells",
+            "name": "[Shells] In Exploded Corner"
+          },
+          {
+            "ref": "1-8/In House Bottom Floor/Silver Health",
+            "name": "[Silver Health] In House Bottom Floor"
+          },
+          {
+            "ref": "1-8/Up Ladder Left/Silver Health",
+            "name": "[Silver Health] Up Ladder Left"
+          },
+          {
+            "ref": "1-8/Up Ladder Straight/Level Key",
+            "name": "[Level Key] Up Ladder Straight"
+          },
+          {
+            "ref": "1-8/By Ladder Room Before Gate/Switch",
+            "name": "[Switch] By Ladder Room Before Gate"
+          },
+          {
+            "ref": "1-8/By Gate/Switch",
+            "name": "[Switch] By Gate"
+          },
+          {
+            "ref": "1-8/In Room After Arches/Switch",
+            "name": "[Switch] In Room After Arches"
+          },
+          {
+            "ref": "1-8/In Room Behind Bookshelves/Switch",
+            "name": "[Switch] In Room Behind Bookshelves"
+          },
+          {
+            "ref": "1-8/In Top Floor Room/Switch",
+            "name": "[Switch] In Top Floor Room"
+          },
+          {
+            "ref": "1-8/Enemy at Start/Endtrail",
+            "name": "[Endtrail] Enemy at Start"
+          },
+          {
+            "ref": "1-8/Enemy up Ladder/Endtrail",
+            "name": "[Endtrail] Enemy up Ladder"
+          },
+          {
+            "ref": "1-8/Enemy by Open Gate/Raptoid",
+            "name": "[Raptoid] Enemy by Open Gate"
+          },
+          {
+            "ref": "1-8/Enemy by Exit Gate/Endtrail",
+            "name": "[Endtrail] Enemy by Exit Gate"
+          },
+          {
+            "ref": "1-8/Enemy on Bottom Floor/Endtrail",
+            "name": "[Endtrail] Enemy on Bottom Floor"
+          },
+          {
+            "ref": "1-8/Enemy up Building Ladder/Endtrail",
+            "name": "[Endtrail] Enemy up Building Ladder"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 100,
+            "y": 30
+          }
+        ],
+        "chest_unopened_img": "images/icons/LF1.png",
+        "chest_opened_img": "images/icons/LF1_gray.png"
+      },
+      {
+        "name": "1-9",
+        "sections": [
+          {
+            "ref": "1-9C/Near Boxes at Start/Box of Bullets",
+            "name": "[Box of Bullets] Near Boxes at Start"
+          },
+          {
+            "ref": "1-9C/Near Boxes at Start/Blue Health",
+            "name": "[Blue Health] Near Boxes at Start"
+          },
+          {
+            "ref": "1-9C/Near Boxes Before Checkpoint/Clip",
+            "name": "[Clip] Near Boxes Before Checkpoint"
+          },
+          {
+            "ref": "1-9C/In Hallway After Checkpoint/Tek Arrows",
+            "name": "[Tek Arrows] In Hallway After Checkpoint"
+          },
+          {
+            "ref": "1-9C/Lower Catwalk Left of Start/Blue Health",
+            "name": "[Blue Health] Lower Catwalk Left of Start"
+          },
+          {
+            "ref": "1-9C/Right of Start/LF1",
+            "name": "[LF1] Right of Start"
+          },
+          {
+            "ref": "1-9C/Before Drop/LF1",
+            "name": "[LF1] Before Drop"
+          },
+          {
+            "ref": "1-9C/After Drop Close/LF1",
+            "name": "[LF1] After Drop Close"
+          },
+          {
+            "ref": "1-9C/After Drop Far/LF1",
+            "name": "[LF1] After Drop Far"
+          },
+          {
+            "ref": "1-9C/By Lower Hallway Entrance/Clip",
+            "name": "[Clip] By Lower Hallway Entrance"
+          },
+          {
+            "ref": "1-9C/Lower Hallway First Bend/LF1",
+            "name": "[LF1] Lower Hallway First Bend"
+          },
+          {
+            "ref": "1-9C/Lower Hallway Mid Corner/Clip",
+            "name": "[Clip] Lower Hallway Mid Corner"
+          },
+          {
+            "ref": "1-9C/Lower Hallway Far Corner/Clip",
+            "name": "[Clip] Lower Hallway Far Corner"
+          },
+          {
+            "ref": "1-9C/Lower Hallway Exit Doorway/Tek Quiver",
+            "name": "[Tek Quiver] Lower Hallway Exit Doorway"
+          },
+          {
+            "ref": "1-9C/Up First Ladder Near Snipers/Pistol",
+            "name": "[Pistol] Up First Ladder Near Snipers"
+          },
+          {
+            "ref": "1-9C/Behind Gate After Killing Endtrail/Ultra Health",
+            "name": "[Ultra Health] Behind Gate After Killing Endtrail"
+          },
+          {
+            "ref": "1-9C/In Post Sniper Hallway 1/LF1",
+            "name": "[LF1] In Post Sniper Hallway 1"
+          },
+          {
+            "ref": "1-9C/On Catwalk Edge Between Hallways/Blue Health",
+            "name": "[Blue Health] On Catwalk Edge Between Hallways"
+          },
+          {
+            "ref": "1-9C/In Post Sniper Hallway 2/LF1",
+            "name": "[LF1] In Post Sniper Hallway 2"
+          },
+          {
+            "ref": "1-9C/Near Upper Hallway Ladder/Clip",
+            "name": "[Clip] Near Upper Hallway Ladder"
+          },
+          {
+            "ref": "1-9C/Along Upper Hallway/LF1",
+            "name": "[LF1] Along Upper Hallway"
+          },
+          {
+            "ref": "1-9C/Upper Hallway Near Exit/Tek Quiver",
+            "name": "[Tek Quiver] Upper Hallway Near Exit"
+          },
+          {
+            "ref": "1-9C/By Short Hall Entrance/Blue Health",
+            "name": "[Blue Health] By Short Hall Entrance"
+          },
+          {
+            "ref": "1-9C/On Start Room Catwalks/LF1",
+            "name": "[LF1] On Start Room Catwalks"
+          },
+          {
+            "ref": "1-9C/Start Room Catwalks Exit/Pistol",
+            "name": "[Pistol] Start Room Catwalks Exit"
+          },
+          {
+            "ref": "1-9C/In Top Exit Doorway/Tek Quiver",
+            "name": "[Tek Quiver] In Top Exit Doorway"
+          },
+          {
+            "ref": "1-9C/On Top Exit Catwalk/Blue Health",
+            "name": "[Blue Health] On Top Exit Catwalk"
+          },
+          {
+            "ref": "1-9C/In Bottom Return Hallway/LF10",
+            "name": "[LF10] In Bottom Return Hallway"
+          },
+          {
+            "ref": "1-9C/Behind Rubble/Box of Bullets",
+            "name": "[Box of Bullets] Behind Rubble"
+          },
+          {
+            "ref": "1-9C/On Rubble/Full Health",
+            "name": "[Full Health] On Rubble"
+          },
+          {
+            "ref": "1-9C/Up Ladder Behind Wall/Level Key",
+            "name": "[Level Key] Up Ladder Behind Wall"
+          },
+          {
+            "ref": "1-9C/In Hallway to Bridge Area/Clip",
+            "name": "[Clip] In Hallway to Bridge Area"
+          },
+          {
+            "ref": "1-9C/Up Hall to Bridge/Clip",
+            "name": "[Clip] Up Hall to Bridge"
+          },
+          {
+            "ref": "1-9C/On Bridge Center/Shotgun",
+            "name": "[Shotgun] On Bridge Center"
+          },
+          {
+            "ref": "1-9C/In Canal Start/Tek Bow",
+            "name": "[Tek Bow] In Canal Start"
+          },
+          {
+            "ref": "1-9C/In Canal Start/LF1",
+            "name": "[LF1] In Canal Start"
+          },
+          {
+            "ref": "1-9C/In Canal End Doors Room/Full Health",
+            "name": "[Full Health] In Canal End Doors Room"
+          },
+          {
+            "ref": "1-9C/In Canal End Doors Room/LF10",
+            "name": "[LF10] In Canal End Doors Room"
+          },
+          {
+            "ref": "1-9C/Up Ladder Near End/Tek Bow",
+            "name": "[Tek Bow] Up Ladder Near End"
+          },
+          {
+            "ref": "1-9C/In Fountain/LF10",
+            "name": "[LF10] In Fountain"
+          },
+          {
+            "ref": "1-9C/Between Building Ramps/Shotgun",
+            "name": "[Shotgun] Between Building Ramps"
+          },
+          {
+            "ref": "1-9C/Between Building Ramps/Blue Health",
+            "name": "[Blue Health] Between Building Ramps"
+          },
+          {
+            "ref": "1-9C/Left Room Near Bookshelf/Shells",
+            "name": "[Shells] Left Room Near Bookshelf"
+          },
+          {
+            "ref": "1-9C/Right Room on Bed/Shells",
+            "name": "[Shells] Right Room on Bed"
+          },
+          {
+            "ref": "1-9C/Right Room Right of Furnace/Clip",
+            "name": "[Clip] Right Room Right of Furnace"
+          },
+          {
+            "ref": "1-9C/Left Room Between Pillars/Clip",
+            "name": "[Clip] Left Room Between Pillars"
+          },
+          {
+            "ref": "1-9C/Left Room Inside Pillar/Clip",
+            "name": "[Clip] Left Room Inside Pillar"
+          },
+          {
+            "ref": "1-9C/Right Room Between Beds/Shells",
+            "name": "[Shells] Right Room Between Beds"
+          },
+          {
+            "ref": "1-9C/On Outside Center Platform/Level Key",
+            "name": "[Level Key] On Outside Center Platform"
+          },
+          {
+            "ref": "1-9C/Along Hall to Oblivion Portal/LF1",
+            "name": "[LF1] Along Hall to Oblivion Portal"
+          },
+          {
+            "ref": "1-9C/Catwalk with Oblivion Switch/Blue Health",
+            "name": "[Blue Health] Catwalk with Oblivion Switch"
+          },
+          {
+            "ref": "1-9C/End Portal Left Wall/Blue Health",
+            "name": "[Blue Health] End Portal Left Wall"
+          },
+          {
+            "ref": "1-9C/End Portal Right Wall/Quiver",
+            "name": "[Quiver] End Portal Right Wall"
+          },
+          {
+            "ref": "1-9C/End Portal Right Wall/Box of Shells",
+            "name": "[Box of Shells] End Portal Right Wall"
+          },
+          {
+            "ref": "1-9C/End Portal Right Wall/Box of Bullets",
+            "name": "[Box of Bullets] End Portal Right Wall"
+          },
+          {
+            "ref": "1-9C/End Portal Right Wall/Explosive Shells",
+            "name": "[Explosive Shells] End Portal Right Wall"
+          },
+          {
+            "ref": "1-9C/End Portal Right Wall/Tek Quiver",
+            "name": "[Tek Quiver] End Portal Right Wall"
+          },
+          {
+            "ref": "1-9C/On Left Boxes at Start/Switch",
+            "name": "[Switch] On Left Boxes at Start"
+          },
+          {
+            "ref": "1-9C/Up Ladder Across from Rubble/Switch",
+            "name": "[Switch] Up Ladder Across from Rubble"
+          },
+          {
+            "ref": "1-9C/Up Ladder Near Compy Bridge/Switch",
+            "name": "[Switch] Up Ladder Near Compy Bridge"
+          },
+          {
+            "ref": "1-9C/Behind Left End Door/Switch",
+            "name": "[Switch] Behind Left End Door"
+          },
+          {
+            "ref": "1-9C/Behind Right End Door/Switch",
+            "name": "[Switch] Behind Right End Door"
+          },
+          {
+            "ref": "1-9C/In Left Room Corner/Switch",
+            "name": "[Switch] In Left Room Corner"
+          },
+          {
+            "ref": "1-9C/Right Room Left of Furnace/Switch",
+            "name": "[Switch] Right Room Left of Furnace"
+          },
+          {
+            "ref": "1-9C/Left Room by Table/Switch",
+            "name": "[Switch] Left Room by Table"
+          },
+          {
+            "ref": "1-9C/Right Room in Corner/Switch",
+            "name": "[Switch] Right Room in Corner"
+          },
+          {
+            "ref": "1-9C/On Catwalk Under Portal/Oblivion Portal Switch",
+            "name": "[Oblivion Portal Switch] On Catwalk Under Portal"
+          },
+          {
+            "ref": "1-9C/Enemy At Start/Endtrail",
+            "name": "[Endtrail] Enemy At Start"
+          },
+          {
+            "ref": "1-9C/Enemy by Checkpoint/Raptor",
+            "name": "[Raptor] Enemy by Checkpoint"
+          },
+          {
+            "ref": "1-9C/Enemy by Checkpoint/Endtrail",
+            "name": "[Endtrail] Enemy by Checkpoint"
+          },
+          {
+            "ref": "1-9C/Enemy by Checkpoint/Raptoid",
+            "name": "[Raptoid] Enemy by Checkpoint"
+          },
+          {
+            "ref": "1-9C/Enemy at Upper Catwalk/Endtrail",
+            "name": "[Endtrail] Enemy at Upper Catwalk"
+          },
+          {
+            "ref": "1-9C/Enemy Before Catwalk Hallway/Endtrail",
+            "name": "[Endtrail] Enemy Before Catwalk Hallway"
+          },
+          {
+            "ref": "1-9C/Enemy in Catwalk Hallway/Endtrail",
+            "name": "[Endtrail] Enemy in Catwalk Hallway"
+          },
+          {
+            "ref": "1-9C/Enemy in Catwalk Hallway/Raptoid",
+            "name": "[Raptoid] Enemy in Catwalk Hallway"
+          },
+          {
+            "ref": "1-9C/Enemy Sniper Start/Endtrail",
+            "name": "[Endtrail] Enemy Sniper Start"
+          },
+          {
+            "ref": "1-9C/Enemy Sniper End/Endtrail",
+            "name": "[Endtrail] Enemy Sniper End"
+          },
+          {
+            "ref": "1-9C/Enemy by Catwalk Ladders/Raptoid",
+            "name": "[Raptoid] Enemy by Catwalk Ladders"
+          },
+          {
+            "ref": "1-9C/Enemy by Catwalk Snipers Exit/Endtrail",
+            "name": "[Endtrail] Enemy by Catwalk Snipers Exit"
+          },
+          {
+            "ref": "1-9C/Enemy After Catwalk Snipers/Endtrail",
+            "name": "[Endtrail] Enemy After Catwalk Snipers"
+          },
+          {
+            "ref": "1-9C/Enemy by Catwalk Hallway Ladder/Endtrail",
+            "name": "[Endtrail] Enemy by Catwalk Hallway Ladder"
+          },
+          {
+            "ref": "1-9C/Enemy Sniper Door Trigger/Endtrail",
+            "name": "[Endtrail] Enemy Sniper Door Trigger"
+          },
+          {
+            "ref": "1-9C/Enemy by Catwalk End/Endtrail",
+            "name": "[Endtrail] Enemy by Catwalk End"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 110,
+            "y": 30
+          }
+        ],
+        "chest_unopened_img": "images/icons/LF1.png",
+        "chest_opened_img": "images/icons/LF1_gray.png"
       }
     ]
   }
