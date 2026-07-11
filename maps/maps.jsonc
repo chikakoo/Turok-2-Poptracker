@@ -79,6 +79,12 @@
     "img": "images/maps/1-9E.png"
   },
   {
+    "name": "1-O",
+    "location_size": 15,
+    "location_border_thickness": 2,
+    "img": "images/maps/1-O.png"
+  },
+  {
     "name": "2-1",
     "location_size": 50,
     "location_border_thickness": 4,

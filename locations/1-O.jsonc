@@ -1,0 +1,29 @@
+[
+    {
+        "name": "1-O",
+        "access_rules": [],
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+            {
+                "name": "At End",
+                "sections": [
+                    {
+                        "name": "Nuke Part",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|78000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-O",
+                        "x": 215,
+                        "y": 123
+                    }
+                ]
+            }
+        ]
+    }
+]

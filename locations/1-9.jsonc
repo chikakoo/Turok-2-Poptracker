@@ -1183,6 +1183,25 @@
                 ]
             },
             {
+                "name": "At Oblivion End",
+                "sections": [
+                    {
+                        "name": "Nuke Part",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|78000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-O",
+                        "x": 215,
+                        "y": 123
+                    }
+                ]
+            },
+            {
                 "name": "Enemy At Start",
                 "sections": [
                     {
