@@ -422,8 +422,14 @@ function AutoFill(slot_data)
         weapon_barrier_level_6_end = { code = "weapon_barrier_level_6_end" },
         weapon_barrier_primagen = { code = "weapon_barrier_primagen" },
         
-        --TODO still
-        --tricks
+        -- Tricks
+        level_3_river_ledge_jump = { code = "level_3_river_ledge_jump" },
+        level_3_bridge_jump = { code = "level_3_bridge_jump" },
+        level_3_eye_of_truth_skip = { code = "level_3_eye_of_truth_skip" },
+        level_4_skip_torpedo_launcher = { code = "level_4_skip_torpedo_launcher" },
+        level_6_eye_of_truth_skip = { code = "level_6_eye_of_truth_skip" },
+        river_of_souls_death_jumps = { code = "river_of_souls_death_jumps" },
+        jump_through_lava = { code = "jump_through_lava" }
     }
 
     for settings_name, settings_value in pairs(slot_data) do

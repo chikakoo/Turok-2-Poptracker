@@ -54,7 +54,7 @@
                 "name": "In Hallway After Checkpoint",
                 "sections": [
                     {
-                        "name": "Arrows",
+                        "name": "Tek Arrows",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|59004"
@@ -358,7 +358,7 @@
                 "name": "Near Upper Hallway Ladder",
                 "sections": [
                     {
-                        "name": "LF1",
+                        "name": "Clip",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|59037"
@@ -463,8 +463,8 @@
                 "map_locations": [
                     {
                         "map": "1-9C",
-                        "x": 101,
-                        "y": 187
+                        "x": 210,
+                        "y": 300
                     }
                 ]
             },
@@ -484,6 +484,287 @@
                         "map": "1-9C",
                         "x": 210,
                         "y": 225
+                    }
+                ]
+            },
+            {
+                "name": "Enemy At Start",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59138|59139"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 290,
+                        "y": 255
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Checkpoint",
+                "sections": [
+                    {
+                        "name": "Raptor",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59140|59141"
+                        ]
+                    },
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59142"
+                        ]
+                    },
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59143"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 412,
+                        "y": 28
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Upper Catwalk",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59144|59145"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 601,
+                        "y": 287
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Catwalk Hallway",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59146"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 542,
+                        "y": 435
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Catwalk Hallway",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59147"
+                        ]
+                    },
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59148|59149"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 448,
+                        "y": 444
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Sniper Start",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59150"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 877,
+                        "y": 554
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Sniper End",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|59151|59152|59153|59154"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 845,
+                        "y": 253
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Catwalk Ladders",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59155|59157"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 869,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Catwalk Snipers Exit",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59156"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 809,
+                        "y": 321
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Catwalk Snipers",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59158"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 732,
+                        "y": 291
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Catwalk Hallway Ladder",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59159"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 701,
+                        "y": 449
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Sniper Door Trigger",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59160|59161"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 490,
+                        "y": 294
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Catwalk End",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59162"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 184,
+                        "y": 266
                     }
                 ]
             }

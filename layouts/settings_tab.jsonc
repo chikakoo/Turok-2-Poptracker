@@ -103,6 +103,56 @@
       },
       {
         "type": "group",
+        "header": "Tricks",
+        "description": "Tricks to include in logic",
+        "header_background": "#3e4b57",
+        "orientation": "horizontal",
+        "content": [
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "content": [
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "level_3_river_ledge_jump"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "level_3_bridge_jump"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "level_3_eye_of_truth_skip"
+              },
+              {
+                "type": "item",
+                "max_width": "64",
+                "item": "level_4_skip_torpedo_launcher"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "level_6_eye_of_truth_skip"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "river_of_souls_death_jumps"
+              },
+              {
+                "type": "item",
+                "max_width": "32",
+                "item": "jump_through_lava"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "group",
         "header": "Tracker",
         "description": "Tracker-related settings",
         "header_background": "#3e4b57",

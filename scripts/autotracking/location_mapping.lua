@@ -490,4 +490,168 @@ LOCATION_MAPPING = {
 	[58023] = {"@1-8/Enemy by Exit Gate/Endtrail"},
 	[58024] = {"@1-8/Enemy on Bottom Floor/Endtrail"},
 	[58025] = {"@1-8/Enemy up Building Ladder/Endtrail"},
+	[59000] = {"@1-9C/Near Boxes at Start/Box of Bullets"},
+	[59001] = {"@1-9C/Near Boxes at Start/Blue Health"},
+	[59002] = {"@1-9C/Near Boxes Before Checkpoint/Clip"},
+	[59003] = {"@1-9C/Near Boxes Before Checkpoint/Clip"},
+	[59004] = {"@1-9C/In Hallway After Checkpoint/Tek Arrows"},
+	[59005] = {"@1-9C/Lower Catwalk Left of Start/Blue Health"},
+	[59006] = {"@1-9C/Right of Start/LF1"},
+	[59007] = {"@1-9C/Right of Start/LF1"},
+	[59008] = {"@1-9C/Right of Start/LF1"},
+	[59009] = {"@1-9C/Right of Start/LF1"},
+	[59010] = {"@1-9C/Before Drop/LF1"},
+	[59011] = {"@1-9C/After Drop Close/LF1"},
+	[59012] = {"@1-9C/After Drop Close/LF1"},
+	[59013] = {"@1-9C/After Drop Close/LF1"},
+	[59014] = {"@1-9C/After Drop Close/LF1"},
+	[59015] = {"@1-9C/After Drop Far/LF1"},
+	[59016] = {"@1-9C/After Drop Far/LF1"},
+	[59017] = {"@1-9C/After Drop Far/LF1"},
+	[59018] = {"@1-9C/By Lower Hallway Entrance/Clip"},
+	[59019] = {"@1-9C/Lower Hallway First Bend/LF1"},
+	[59020] = {"@1-9C/Lower Hallway First Bend/LF1"},
+	[59021] = {"@1-9C/Lower Hallway First Bend/LF1"},
+	[59022] = {"@1-9C/Lower Hallway Mid Corner/Clip"},
+	[59023] = {"@1-9C/Lower Hallway Far Corner/Clip"},
+	[59024] = {"@1-9C/Lower Hallway Exit Doorway/Tek Quiver"},
+	[59025] = {"@1-9C/Up First Ladder Near Snipers/Pistol"},
+	[59026] = {"@1-9C/Behind Gate After Killing Endtrail/Ultra Health"},
+	[59027] = {"@1-9C/In Post Sniper Hallway 1/LF1"},
+	[59028] = {"@1-9C/In Post Sniper Hallway 1/LF1"},
+	[59029] = {"@1-9C/In Post Sniper Hallway 1/LF1"},
+	[59030] = {"@1-9C/In Post Sniper Hallway 1/LF1"},
+	[59031] = {"@1-9C/In Post Sniper Hallway 1/LF1"},
+	[59032] = {"@1-9C/On Catwalk Edge Between Hallways/Blue Health"},
+	[59033] = {"@1-9C/In Post Sniper Hallway 2/LF1"},
+	[59034] = {"@1-9C/In Post Sniper Hallway 2/LF1"},
+	[59035] = {"@1-9C/In Post Sniper Hallway 2/LF1"},
+	[59036] = {"@1-9C/In Post Sniper Hallway 2/LF1"},
+	[59037] = {"@1-9C/Near Upper Hallway Ladder/Clip"},
+	[59038] = {"@1-9C/Along Upper Hallway/LF1"},
+	[59039] = {"@1-9C/Along Upper Hallway/LF1"},
+	[59040] = {"@1-9C/Along Upper Hallway/LF1"},
+	[59041] = {"@1-9C/Along Upper Hallway/LF1"},
+	[59042] = {"@1-9C/Along Upper Hallway/LF1"},
+	[59043] = {"@1-9C/Along Upper Hallway/LF1"},
+	[59044] = {"@1-9C/Along Upper Hallway/LF1"},
+	[59045] = {"@1-9C/Along Upper Hallway/LF1"},
+	[59046] = {"@1-9C/Along Upper Hallway/LF1"},
+	[59047] = {"@1-9C/Along Upper Hallway/LF1"},
+	[59048] = {"@1-9C/Along Upper Hallway/LF1"},
+	[59049] = {"@1-9C/Upper Hallway Near Exit/Tek Quiver"},
+	[59050] = {"@1-9C/By Short Hall Entrance/Blue Health"},
+	[59051] = {"@1-9C/On Start Room Catwalks/LF1"},
+	[59052] = {"@1-9C/On Start Room Catwalks/LF1"},
+	[59053] = {"@1-9C/On Start Room Catwalks/LF1"},
+	[59054] = {"@1-9C/On Start Room Catwalks/LF1"},
+	[59055] = {"@1-9C/In Top Exit Doorway/Pistol"},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	[59128] = {"@1-9C/On Left Boxes at Start/Switch"},
+
+
+
+
+
+
+
+
+
+
+	[59138] = {"@1-9C/Enemy At Start/Endtrail"},
+	[59139] = {"@1-9C/Enemy At Start/Endtrail"},
+	[59140] = {"@1-9C/Enemy by Checkpoint/Raptor"},
+	[59141] = {"@1-9C/Enemy by Checkpoint/Raptor"},
+	[59142] = {"@1-9C/Enemy by Checkpoint/Endtrail"},
+	[59143] = {"@1-9C/Enemy by Checkpoint/Raptoid"},
+	[59144] = {"@1-9C/Enemy at Upper Catwalk/Endtrail"},
+	[59145] = {"@1-9C/Enemy at Upper Catwalk/Endtrail"},
+	[59146] = {"@1-9C/Enemy Before Catwalk Hallway/Endtrail"},
+	[59147] = {"@1-9C/Enemy in Catwalk Hallway/Endtrail"},
+	[59148] = {"@1-9C/Enemy in Catwalk Hallway/Raptoid"},
+	[59149] = {"@1-9C/Enemy in Catwalk Hallway/Raptoid"},
+	[59150] = {"@1-9C/Enemy Sniper Start/Endtrail"},
+	[59151] = {"@1-9C/Enemy Sniper End/Endtrail"},
+	[59152] = {"@1-9C/Enemy Sniper End/Endtrail"},
+	[59153] = {"@1-9C/Enemy Sniper End/Endtrail"},
+	[59154] = {"@1-9C/Enemy Sniper End/Endtrail"},
+	[59155] = {"@1-9C/Enemy by Catwalk Ladders/Raptoid"},
+	[59156] = {"@1-9C/Enemy by Catwalk Snipers Exit/Endtrail"},
+	[59157] = {"@1-9C/Enemy by Catwalk Ladders/Raptoid"},
+	[59158] = {"@1-9C/Enemy After Catwalk Snipers/Endtrail"},
+	[59159] = {"@1-9C/Enemy by Catwalk Hallway Ladder/Endtrail"},
+	[59160] = {"@1-9C/Enemy Sniper Door Trigger/Endtrail"},
+	[59161] = {"@1-9C/Enemy Sniper Door Trigger/Endtrail"},
+	[59162] = {"@1-9C/Enemy by Catwalk End/Endtrail"},
 }
