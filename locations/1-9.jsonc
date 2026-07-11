@@ -1,0 +1,492 @@
+[
+    {
+        "name": "1-9C",
+        "access_rules": [],
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+            {
+                "name": "Near Boxes at Start",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59000"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 311,
+                        "y": 252
+                    }
+                ]
+            },
+            {
+                "name": "Near Boxes Before Checkpoint",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59002|59003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 391,
+                        "y": 143
+                    }
+                ]
+            },
+            {
+                "name": "In Hallway After Checkpoint",
+                "sections": [
+                    {
+                        "name": "Arrows",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 640,
+                        "y": 147
+                    }
+                ]
+            },
+            {
+                "name": "Lower Catwalk Left of Start",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 714,
+                        "y": 291
+                    }
+                ]
+            },
+            {
+                "name": "Right of Start",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|59006|59007|59008|59009"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 601,
+                        "y": 305
+                    }
+                ]
+            },
+            {
+                "name": "Before Drop",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 511,
+                        "y": 321
+                    }
+                ]
+            },
+            {
+                "name": "After Drop Close",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|59011|59012|59013|59014"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 474,
+                        "y": 321
+                    }
+                ]
+            },
+            {
+                "name": "After Drop Far",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|59015|59016|59017"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 539,
+                        "y": 389
+                    }
+                ]
+            },
+            {
+                "name": "By Lower Hallway Entrance",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59018"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 540,
+                        "y": 452
+                    }
+                ]
+            },
+            {
+                "name": "Lower Hallway First Bend",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|59019|59020|59021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 428,
+                        "y": 493
+                    }
+                ]
+            },
+            {
+                "name": "Lower Hallway Mid Corner",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 545,
+                        "y": 568
+                    }
+                ]
+            },
+            {
+                "name": "Lower Hallway Far Corner",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59023"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 665,
+                        "y": 533
+                    }
+                ]
+            },
+            {
+                "name": "Lower Hallway Exit Doorway",
+                "sections": [
+                    {
+                        "name": "Tek Quiver",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59024"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 802,
+                        "y": 535
+                    }
+                ]
+            },
+            {
+                "name": "Up First Ladder Near Snipers",
+                "sections": [
+                    {
+                        "name": "Pistol",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59025"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 868,
+                        "y": 498
+                    }
+                ]
+            },
+            {
+                "name": "Behind Gate After Killing Endtrail",
+                "sections": [
+                    {
+                        "name": "Ultra Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59026"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 816,
+                        "y": 383
+                    }
+                ]
+            },
+            {
+                "name": "In Post Sniper Hallway 1",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|59027|59028|59029|59030|59031"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 771,
+                        "y": 327
+                    }
+                ]
+            },
+            {
+                "name": "On Catwalk Edge Between Hallways",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 631,
+                        "y": 331
+                    }
+                ]
+            },
+            {
+                "name": "In Post Sniper Hallway 2",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|59033|59034|59035|59036"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 668,
+                        "y": 371
+                    }
+                ]
+            },
+            {
+                "name": "Near Upper Hallway Ladder",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59037"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 625,
+                        "y": 453
+                    }
+                ]
+            },
+            {
+                "name": "Along Upper Hallway",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "$id_exists|59038|59039|59040|59041|59042|59043|59044|59045|59046|59047|59048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 636,
+                        "y": 495
+                    }
+                ]
+            },
+            {
+                "name": "Upper Hallway Near Exit",
+                "sections": [
+                    {
+                        "name": "Tek Quiver",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59049"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 488,
+                        "y": 475
+                    }
+                ]
+            },
+            {
+                "name": "By Short Hall Entrance",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 452,
+                        "y": 335
+                    }
+                ]
+            },
+            {
+                "name": "On Start Room Catwalks",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|59051|59052|59053|59054"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 211,
+                        "y": 246
+                    }
+                ]
+            },
+            {
+                "name": "In Top Exit Doorway",
+                "sections": [
+                    {
+                        "name": "Pistol",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59055"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 101,
+                        "y": 187
+                    }
+                ]
+            },
+            {
+                "name": "On Left Boxes at Start",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59128"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 210,
+                        "y": 225
+                    }
+                ]
+            }
+        ]
+    }
+]
