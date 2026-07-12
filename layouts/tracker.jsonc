@@ -22,7 +22,6 @@
             },
             {
               "title": "Level 1",
-              "type": "dock",
               "content": {
                 "type": "layout",
                 "key": "level_1"
@@ -30,7 +29,6 @@
             },
             {
               "title": "Level 2",
-              "type": "dock",
               "content": {
                 "type": "layout",
                 "key": "level_2"

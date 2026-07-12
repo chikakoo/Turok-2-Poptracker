@@ -6,7 +6,6 @@
       {
         "type": "group",
         "header": "Goal",
-        "description": "Goal-related settings",
         "header_background": "#3e4b57",
         "content": [
           {
@@ -15,13 +14,13 @@
             "content": [
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "level_goal"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "primagen_goal"
               }
@@ -32,7 +31,6 @@
       {
         "type": "group",
         "header": "Included levels",
-        "description": "What levels are included",
         "header_background": "#3e4b57",
         "content": [
           {
@@ -41,37 +39,37 @@
             "content": [
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "include_level_1"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "include_level_2"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "include_level_3"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "include_level_4"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "include_level_5"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "include_level_6"
               }
@@ -82,9 +80,7 @@
       {
         "type": "group",
         "header": "Progression",
-        "description": "Progression-related settings",
         "header_background": "#3e4b57",
-        "orientation": "horizontal",
         "content": [
           {
             "type": "array",
@@ -92,19 +88,19 @@
             "content": [
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "progressive_warps"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "level_unlock_method"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "progressive_weapon_ammo_upgrades"
               }
@@ -115,9 +111,7 @@
       {
         "type": "group",
         "header": "Tricks",
-        "description": "Tricks to include in logic",
         "header_background": "#3e4b57",
-        "orientation": "horizontal",
         "content": [
           {
             "type": "array",
@@ -125,43 +119,43 @@
             "content": [
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "level_3_river_ledge_jump"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "level_3_bridge_jump"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "level_3_eye_of_truth_skip"
               },
               {
                 "type": "item",
-                "max_width": "128",
+                "max_width": 128,
                 "margin": "2,0",
                 "item": "level_4_skip_torpedo_launcher"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "level_6_eye_of_truth_skip"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "river_of_souls_death_jumps"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": 64,
                 "margin": "2,0",
                 "item": "jump_through_lava"
               }
@@ -172,9 +166,7 @@
       {
         "type": "group",
         "header": "Tracker",
-        "description": "Tracker-related settings",
         "header_background": "#3e4b57",
-        "orientation": "horizontal",
         "content": [
           {
             "type": "array",
@@ -182,12 +174,18 @@
             "content": [
               {
                 "type": "item",
-                "max_width": "80",
+                "max_width": 80,
                 "item": "autofill_settings"
               }
             ]
           }
         ]
+      },
+
+      // Not sure how else to resize the popup to the right size...
+      {
+        "type": "canvas",
+        "width": 535
       }
     ]
   }
