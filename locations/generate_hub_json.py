@@ -17,6 +17,7 @@ INPUT_FILES = [
     "1-7.jsonc",
     "1-8.jsonc",
     "1-9.jsonc",
+    "1-O.jsonc",
 ]
 
 # Where each map should go on the hub
@@ -31,6 +32,7 @@ HUB_MAP_POSITIONS = {
     "1-7": (90, 30),
     "1-8": (100, 30),
     "1-9": (110, 30),
+    "1-O": (150, 60),
 }
 
 # The output file name
@@ -64,7 +66,7 @@ for filename in INPUT_FILES:
         map_name = source["name"]
 
         # Strip one uppercase suffix for hub grouping
-        hub_name = re.sub(r"[A-Z]$", "", map_name)
+        hub_name = re.sub(r"^(\d+-\d+)[A-Z]$", r"\1", map_name)
 
         if hub_name not in hub_children:
             hub_children[hub_name] = {

@@ -572,88 +572,89 @@ LOCATIONS_1_9 = {
 	[59052] = {"@1-9C/On Start Room Catwalks/LF1"},
 	[59053] = {"@1-9C/On Start Room Catwalks/LF1"},
 	[59054] = {"@1-9C/On Start Room Catwalks/LF1"},
-	[59055] = {"@1-9C/In Top Exit Doorway/Pistol"},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	[59055] = {"@1-9C/Start Room Catwalks Exit/Pistol"},
+	[59056] = {"@1-9C/In Top Exit Doorway/Tek Quiver"},
+	[59057] = {"@1-9E/On Top Exit Catwalk/Blue Health"},
+	[59058] = {"@1-9E/On Top Exit Catwalk/Blue Health"},
+	[59059] = {"@1-9C/In Bottom Return Hallway/LF10"},
+	[59060] = {"@1-9C/In Bottom Return Hallway/LF10"},
+	[59061] = {"@1-9C/In Bottom Return Hallway/LF10"},
+	[59062] = {"@1-9C/In Bottom Return Hallway/LF10"},
+	[59063] = {"@1-9C/In Bottom Return Hallway/LF10"},
+	[59064] = {"@1-9E/Behind Rubble/Box of Bullets"},
+	[59065] = {"@1-9E/On Rubble/Full Health"},
+	[59066] = {"@1-9E/Up Ladder Behind Wall/Level Key"},
+	[59067] = {"@1-9E/In Hallway to Bridge Area/Clip"},
+	[59068] = {"@1-9E/Up Hall to Bridge/Blue Health"},
+	[59069] = {"@1-9E/On Bridge Center/Shotgun"},
+	[59070] = {"@1-9E/In Canal Start/LF1"},
+	[59071] = {"@1-9E/In Canal Start/LF1"},
+	[59072] = {"@1-9E/In Canal Start/LF1"},
+	[59073] = {"@1-9E/In Canal Start/LF1"},
+	[59074] = {"@1-9E/In Canal Start/LF1"},
+	[59075] = {"@1-9E/In Canal Start/LF1"},
+	[59076] = {"@1-9E/In Canal Start/LF1"},
+	[59077] = {"@1-9E/In Canal Start/LF1"},
+	[59078] = {"@1-9E/In Canal Start/Tek Bow"},
+	[59079] = {"@1-9E/In Canal End Doors Room/LF10"},
+	[59080] = {"@1-9E/In Canal End Doors Room/LF10"},
+	[59081] = {"@1-9E/In Canal End Doors Room/LF10"},
+	[59082] = {"@1-9E/In Canal End Doors Room/LF10"},
+	[59083] = {"@1-9E/In Canal End Doors Room/Full Health"},
+	[59084] = {"@1-9E/Up Ladder Near End/Tek Bow"},
+	[59085] = {"@1-9E/In Fountain/LF10"},
+	[59086] = {"@1-9E/In Fountain/LF10"},
+	[59087] = {"@1-9E/In Fountain/LF10"},
+	[59088] = {"@1-9E/In Fountain/LF10"},
+	[59089] = {"@1-9E/Between Building Ramps/Blue Health"},
+	[59090] = {"@1-9E/Between Building Ramps/Blue Health"},
+	[59091] = {"@1-9E/Between Building Ramps/Shotgun"},
+	[59092] = {"@1-9E/Left Room Near Bookshelf/Shells"},
+	[59093] = {"@1-9E/Right Room on Bed/Shells"},
+	[59094] = {"@1-9E/Right Room Right of Furnace/Clip"},
+	[59095] = {"@1-9E/Left Room Between Pillars/Clip"},
+	[59096] = {"@1-9E/Left Room Between Pillars/Clip"},
+	[59097] = {"@1-9E/Left Room Inside Pillar/Clip"},
+	[59098] = {"@1-9E/Right Room Between Beds/Shells"},
+	[59099] = {"@1-9E/On Outside Center Platform/Level Key"},
+	[59100] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59101] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59102] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59103] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59104] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59105] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59106] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59107] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59108] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59109] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59110] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59111] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59112] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59113] = {"@1-9E/Along Hall to Oblivion Portal/LF1"},
+	[59114] = {"@1-9E/Catwalk with Oblivion Switch/Blue Health"},
+	[59115] = {"@1-9E/Catwalk with Oblivion Switch/Blue Health"},
+	[59116] = {"@1-9E/Catwalk with Oblivion Switch/Blue Health"},
+	[59117] = {"@1-9E/Catwalk with Oblivion Switch/Blue Health"},
+	[59118] = {"@1-9E/End Portal Left Wall/Blue Health"},
+	[59119] = {"@1-9E/End Portal Left Wall/Blue Health"},
+	[59120] = {"@1-9E/End Portal Left Wall/Blue Health"},
+	[59121] = {"@1-9E/End Portal Left Wall/Blue Health"},
+	[59122] = {"@1-9E/End Portal Left Wall/Blue Health"},
+	[59123] = {"@1-9E/End Portal Right Wall/Quiver"},
+	[59124] = {"@1-9E/End Portal Right Wall/Box of Shells"},
+	[59125] = {"@1-9E/End Portal Right Wall/Box of Bullets"},
+	[59126] = {"@1-9E/End Portal Right Wall/Explosive Shells"},
+	[59127] = {"@1-9E/End Portal Right Wall/Tek Quiver"},
 	[59128] = {"@1-9C/On Left Boxes at Start/Switch"},
-
-
-
-
-
-
-
-
-
-
+	[59129] = {"@1-9E/Up Ladder Across from Rubble/Switch"},
+	[59130] = {"@1-9E/Up Ladder Near Compy Bridge/Switch"},
+	[59131] = {"@1-9E/Behind Left End Door/Switch"},
+	[59132] = {"@1-9E/Behind Right End Door/Switch"},
+	[59133] = {"@1-9E/In Left Room Corner/Switch"},
+	[59134] = {"@1-9E/Right Room Left of Furnace/Switch"},
+	[59135] = {"@1-9E/Left Room by Table/Switch"},
+	[59136] = {"@1-9E/Right Room in Corner/Switch"},
+	[59137] = {"@1-9E/On Catwalk Under Portal/Oblivion Portal Switch"},
 	[59138] = {"@1-9C/Enemy At Start/Endtrail"},
 	[59139] = {"@1-9C/Enemy At Start/Endtrail"},
 	[59140] = {"@1-9C/Enemy by Checkpoint/Raptor"},
@@ -679,4 +680,38 @@ LOCATIONS_1_9 = {
 	[59160] = {"@1-9C/Enemy Sniper Door Trigger/Endtrail"},
 	[59161] = {"@1-9C/Enemy Sniper Door Trigger/Endtrail"},
 	[59162] = {"@1-9C/Enemy by Catwalk End/Endtrail"},
+	[59163] = {"@1-9E/Enemy by Return Hallway/Endtrail"},
+	[59164] = {"@1-9E/Enemy by Oblivion Portal/Endtrail"},
+	[59165] = {"@1-9E/Enemy in Level Key Room/Endtrail"},
+	[59166] = {"@1-9E/Enemy Before Bridge Room/Raptoid"},
+	[59167] = {"@1-9E/Enemy Before Bridge Room/Raptoid"},
+	[59168] = {"@1-9E/Enemy Below Bridge/Compy"},
+	[59169] = {"@1-9E/Enemy Below Bridge/Compy"},
+	[59170] = {"@1-9E/Enemy Below Bridge/Compy"},
+	[59171] = {"@1-9E/Enemy Below Bridge/Compy"},
+	[59172] = {"@1-9E/Enemy Below Bridge/Compy"},
+	[59173] = {"@1-9E/Enemy Before Bridge/Endtrail"},
+	[59174] = {"@1-9E/Enemy in Hallway After Bridge/Raptoid"},
+	[59175] = {"@1-9E/Enemy in Hallway After Bridge/Raptoid"},
+	[59176] = {"@1-9E/Enemy in Hallway After Bridge/Raptoid"},
+	[59177] = {"@1-9E/Enemy in Hallway After Bridge/Endtrail"},
+	[59178] = {"@1-9E/Enemy Below Fountain/Endtrail"},
+	[59179] = {"@1-9E/Enemy Below Fountain/Endtrail"},
+	[59180] = {"@1-9E/Enemy in F1 Left/Endtrail"},
+	[59181] = {"@1-9E/Enemy in F1 Right/Endtrail"},
+	[59182] = {"@1-9E/Enemy in F2 Left/Endtrail"},
+	[59183] = {"@1-9E/Enemy in F2 Center/Endtrail"},
+	[59184] = {"@1-9E/Enemy in F2 Right/Endtrail"},
+	[59185] = {"@1-9E/Enemy in B1 Left/Endtrail"},
+	[59186] = {"@1-9E/Enemy in B1 Right/Endtrail"},
+	[59187] = {"@1-9E/Enemy in Oblivion Portal Hall/Endtrail"},
+	[59188] = {"@1-9E/Enemy by Exit Portal/Endtrail"}
+}
+
+LOCATIONS_1_O = {
+	[78000] = {"@1-O/At End/Nuke Part"},
+	[78001] = {"@1-O/Enemy Wave 1/Sentinel"},
+	[78002] = {"@1-O/Enemy Wave 1/Sentinel"},
+	[78003] = {"@1-O/Enemy Wave 2/Death Guard"},
+	[78004] = {"@1-O/Enemy Wave 2/Death Guard"}
 }

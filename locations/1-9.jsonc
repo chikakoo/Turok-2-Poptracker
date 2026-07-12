@@ -1,5 +1,5 @@
 [
-    {
+    { //1-9C
         "name": "1-9C",
         "access_rules": [],
         "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
@@ -488,25 +488,6 @@
                 ]
             },
             {
-                "name": "On Top Exit Catwalk",
-                "sections": [
-                    {
-                        "name": "Blue Health",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$id_exists|59057|59058"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "1-9E",
-                        "x": 822,
-                        "y": 515
-                    }
-                ]
-            },
-            {
                 "name": "In Bottom Return Hallway",
                 "sections": [
                     {
@@ -522,6 +503,333 @@
                         "map": "1-9C",
                         "x": 165,
                         "y": 125
+                    }
+                ]
+            },
+            {
+                "name": "On Left Boxes at Start",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59128"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "x": 210,
+                        "y": 225
+                    }
+                ]
+            },
+            {
+                "name": "Enemy At Start",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59138|59139"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 290,
+                        "y": 255
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Checkpoint",
+                "sections": [
+                    {
+                        "name": "Raptor",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59140|59141"
+                        ]
+                    },
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59142"
+                        ]
+                    },
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59143"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 412,
+                        "y": 28
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Upper Catwalk",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59144|59145"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 601,
+                        "y": 287
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Catwalk Hallway",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59146"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 542,
+                        "y": 435
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Catwalk Hallway",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59147"
+                        ]
+                    },
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59148|59149"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 448,
+                        "y": 444
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Sniper Start",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59150"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 877,
+                        "y": 554
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Sniper End",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|59151|59152|59153|59154"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 845,
+                        "y": 253
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Catwalk Ladders",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59155|59157"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 869,
+                        "y": 380
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Catwalk Snipers Exit",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59156"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 809,
+                        "y": 321
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Catwalk Snipers",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59158"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 732,
+                        "y": 291
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Catwalk Hallway Ladder",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59159"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 701,
+                        "y": 449
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Sniper Door Trigger",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59160|59161"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 490,
+                        "y": 294
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Catwalk End",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59162"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9C",
+                        "shape": "diamond",
+                        "x": 184,
+                        "y": 266
+                    }
+                ]
+            }
+        ]
+    },
+    { //1-9E
+        "name": "1-9E",
+        "access_rules": [],
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "children": [
+            {
+                "name": "On Top Exit Catwalk",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|59057|59058"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "x": 822,
+                        "y": 515
                     }
                 ]
             },
@@ -605,7 +913,7 @@
                 "name": "Up Hall to Bridge",
                 "sections": [
                     {
-                        "name": "Clip",
+                        "name": "Blue Health",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|59068"
@@ -993,25 +1301,6 @@
                 ]
             },
             {
-                "name": "On Left Boxes at Start",
-                "sections": [
-                    {
-                        "name": "Switch",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|59128"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "1-9C",
-                        "x": 210,
-                        "y": 225
-                    }
-                ]
-            },
-            {
                 "name": "Up Ladder Across from Rubble",
                 "sections": [
                     {
@@ -1183,302 +1472,349 @@
                 ]
             },
             {
-                "name": "At Oblivion End",
-                "sections": [
-                    {
-                        "name": "Nuke Part",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|78000"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "1-O",
-                        "x": 215,
-                        "y": 123
-                    }
-                ]
-            },
-            {
-                "name": "Enemy At Start",
+                "name": "Enemy by Return Hallway",
                 "sections": [
                     {
                         "name": "Endtrail",
-                        "item_count": 2,
+                        "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|59138|59139"
+                            "$id_exists|59163"
                         ]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "1-9C",
+                        "map": "1-9E",
                         "shape": "diamond",
-                        "x": 290,
-                        "y": 255
+                        "x": 790,
+                        "y": 515
                     }
                 ]
             },
             {
-                "name": "Enemy by Checkpoint",
+                "name": "Enemy by Oblivion Portal",
                 "sections": [
                     {
-                        "name": "Raptor",
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59164"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "shape": "diamond",
+                        "x": 544,
+                        "y": 491
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Level Key Room",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59165"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "shape": "diamond",
+                        "x": 804,
+                        "y": 603
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Bridge Room",
+                "sections": [
+                    {
+                        "name": "Raptoid",
                         "item_count": 2,
                         "visibility_rules": [
-                            "$id_exists|59140|59141"
+                            "$id_exists|59166|59167"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "shape": "diamond",
+                        "x": 792,
+                        "y": 365
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Below Bridge",
+                "sections": [
+                    {
+                        "name": "Compy",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|59168|59169|59170|59171|59172"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "shape": "diamond",
+                        "x": 801,
+                        "y": 277
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Bridge",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59173"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "shape": "diamond",
+                        "x": 914,
+                        "y": 242
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Hallway After Bridge",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|59174|59175|59176"
                         ]
                     },
                     {
                         "name": "Endtrail",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|59142"
-                        ]
-                    },
-                    {
-                        "name": "Raptoid",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|59143"
+                            "$id_exists|59177"
                         ]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "1-9C",
+                        "map": "1-9E",
                         "shape": "diamond",
-                        "x": 412,
-                        "y": 28
+                        "x": 667,
+                        "y": 245
                     }
                 ]
             },
             {
-                "name": "Enemy at Upper Catwalk",
+                "name": "Enemy Below Fountain",
                 "sections": [
                     {
                         "name": "Endtrail",
                         "item_count": 2,
                         "visibility_rules": [
-                            "$id_exists|59144|59145"
+                            "$id_exists|59178|59179"
                         ]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "1-9C",
+                        "map": "1-9E",
                         "shape": "diamond",
-                        "x": 601,
-                        "y": 287
+                        "x": 377,
+                        "y": 306
                     }
                 ]
             },
             {
-                "name": "Enemy Before Catwalk Hallway",
+                "name": "Enemy in F1 Left",
                 "sections": [
                     {
                         "name": "Endtrail",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|59146"
+                            "$id_exists|59180"
                         ]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "1-9C",
+                        "map": "1-9E",
                         "shape": "diamond",
-                        "x": 542,
-                        "y": 435
+                        "x": 295,
+                        "y": 117
                     }
                 ]
             },
             {
-                "name": "Enemy in Catwalk Hallway",
+                "name": "Enemy in F1 Right",
                 "sections": [
                     {
                         "name": "Endtrail",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|59147"
-                        ]
-                    },
-                    {
-                        "name": "Raptoid",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$id_exists|59148|59149"
+                            "$id_exists|59181"
                         ]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "1-9C",
+                        "map": "1-9E",
                         "shape": "diamond",
-                        "x": 448,
-                        "y": 444
+                        "x": 467,
+                        "y": 117
                     }
                 ]
             },
             {
-                "name": "Enemy Sniper Start",
+                "name": "Enemy in F2 Left",
                 "sections": [
                     {
                         "name": "Endtrail",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|59150"
+                            "$id_exists|59182"
                         ]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "1-9C",
+                        "map": "1-9E",
                         "shape": "diamond",
-                        "x": 877,
-                        "y": 554
+                        "x": 547,
+                        "y": 93
                     }
                 ]
             },
             {
-                "name": "Enemy Sniper End",
-                "sections": [
-                    {
-                        "name": "Endtrail",
-                        "item_count": 4,
-                        "visibility_rules": [
-                            "$id_exists|59151|59152|59153|59154"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "1-9C",
-                        "shape": "diamond",
-                        "x": 845,
-                        "y": 253
-                    }
-                ]
-            },
-            {
-                "name": "Enemy by Catwalk Ladders",
-                "sections": [
-                    {
-                        "name": "Raptoid",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$id_exists|59155|59157"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "1-9C",
-                        "shape": "diamond",
-                        "x": 869,
-                        "y": 380
-                    }
-                ]
-            },
-            {
-                "name": "Enemy by Catwalk Snipers Exit",
+                "name": "Enemy in F2 Center",
                 "sections": [
                     {
                         "name": "Endtrail",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|59156"
+                            "$id_exists|59183"
                         ]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "1-9C",
+                        "map": "1-9E",
                         "shape": "diamond",
-                        "x": 809,
-                        "y": 321
+                        "x": 630,
+                        "y": 72
                     }
                 ]
             },
             {
-                "name": "Enemy After Catwalk Snipers",
+                "name": "Enemy in F2 Right",
                 "sections": [
                     {
                         "name": "Endtrail",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|59158"
+                            "$id_exists|59184"
                         ]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "1-9C",
+                        "map": "1-9E",
                         "shape": "diamond",
-                        "x": 732,
-                        "y": 291
+                        "x": 713,
+                        "y": 93
                     }
                 ]
             },
             {
-                "name": "Enemy by Catwalk Hallway Ladder",
+                "name": "Enemy in B1 Left",
                 "sections": [
                     {
                         "name": "Endtrail",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|59159"
+                            "$id_exists|59185"
                         ]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "1-9C",
+                        "map": "1-9E",
                         "shape": "diamond",
-                        "x": 701,
-                        "y": 449
+                        "x": 49,
+                        "y": 74
                     }
                 ]
             },
             {
-                "name": "Enemy Sniper Door Trigger",
-                "sections": [
-                    {
-                        "name": "Endtrail",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$id_exists|59160|59161"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "1-9C",
-                        "shape": "diamond",
-                        "x": 490,
-                        "y": 294
-                    }
-                ]
-            },
-            {
-                "name": "Enemy by Catwalk End",
+                "name": "Enemy in B1 Right",
                 "sections": [
                     {
                         "name": "Endtrail",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|59162"
+                            "$id_exists|59186"
                         ]
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "1-9C",
+                        "map": "1-9E",
                         "shape": "diamond",
-                        "x": 184,
-                        "y": 266
+                        "x": 194,
+                        "y": 74
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Oblivion Portal Hall",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59187"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "shape": "diamond",
+                        "x": 371,
+                        "y": 390
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Exit Portal",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59188"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-9E",
+                        "shape": "diamond",
+                        "x": 54,
+                        "y": 272
                     }
                 ]
             }

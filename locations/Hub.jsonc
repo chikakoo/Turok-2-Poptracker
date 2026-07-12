@@ -1392,168 +1392,12 @@
             "name": "[Tek Quiver] In Top Exit Doorway"
           },
           {
-            "ref": "1-9C/On Top Exit Catwalk/Blue Health",
-            "name": "[Blue Health] On Top Exit Catwalk"
-          },
-          {
             "ref": "1-9C/In Bottom Return Hallway/LF10",
             "name": "[LF10] In Bottom Return Hallway"
           },
           {
-            "ref": "1-9C/Behind Rubble/Box of Bullets",
-            "name": "[Box of Bullets] Behind Rubble"
-          },
-          {
-            "ref": "1-9C/On Rubble/Full Health",
-            "name": "[Full Health] On Rubble"
-          },
-          {
-            "ref": "1-9C/Up Ladder Behind Wall/Level Key",
-            "name": "[Level Key] Up Ladder Behind Wall"
-          },
-          {
-            "ref": "1-9C/In Hallway to Bridge Area/Clip",
-            "name": "[Clip] In Hallway to Bridge Area"
-          },
-          {
-            "ref": "1-9C/Up Hall to Bridge/Clip",
-            "name": "[Clip] Up Hall to Bridge"
-          },
-          {
-            "ref": "1-9C/On Bridge Center/Shotgun",
-            "name": "[Shotgun] On Bridge Center"
-          },
-          {
-            "ref": "1-9C/In Canal Start/Tek Bow",
-            "name": "[Tek Bow] In Canal Start"
-          },
-          {
-            "ref": "1-9C/In Canal Start/LF1",
-            "name": "[LF1] In Canal Start"
-          },
-          {
-            "ref": "1-9C/In Canal End Doors Room/Full Health",
-            "name": "[Full Health] In Canal End Doors Room"
-          },
-          {
-            "ref": "1-9C/In Canal End Doors Room/LF10",
-            "name": "[LF10] In Canal End Doors Room"
-          },
-          {
-            "ref": "1-9C/Up Ladder Near End/Tek Bow",
-            "name": "[Tek Bow] Up Ladder Near End"
-          },
-          {
-            "ref": "1-9C/In Fountain/LF10",
-            "name": "[LF10] In Fountain"
-          },
-          {
-            "ref": "1-9C/Between Building Ramps/Shotgun",
-            "name": "[Shotgun] Between Building Ramps"
-          },
-          {
-            "ref": "1-9C/Between Building Ramps/Blue Health",
-            "name": "[Blue Health] Between Building Ramps"
-          },
-          {
-            "ref": "1-9C/Left Room Near Bookshelf/Shells",
-            "name": "[Shells] Left Room Near Bookshelf"
-          },
-          {
-            "ref": "1-9C/Right Room on Bed/Shells",
-            "name": "[Shells] Right Room on Bed"
-          },
-          {
-            "ref": "1-9C/Right Room Right of Furnace/Clip",
-            "name": "[Clip] Right Room Right of Furnace"
-          },
-          {
-            "ref": "1-9C/Left Room Between Pillars/Clip",
-            "name": "[Clip] Left Room Between Pillars"
-          },
-          {
-            "ref": "1-9C/Left Room Inside Pillar/Clip",
-            "name": "[Clip] Left Room Inside Pillar"
-          },
-          {
-            "ref": "1-9C/Right Room Between Beds/Shells",
-            "name": "[Shells] Right Room Between Beds"
-          },
-          {
-            "ref": "1-9C/On Outside Center Platform/Level Key",
-            "name": "[Level Key] On Outside Center Platform"
-          },
-          {
-            "ref": "1-9C/Along Hall to Oblivion Portal/LF1",
-            "name": "[LF1] Along Hall to Oblivion Portal"
-          },
-          {
-            "ref": "1-9C/Catwalk with Oblivion Switch/Blue Health",
-            "name": "[Blue Health] Catwalk with Oblivion Switch"
-          },
-          {
-            "ref": "1-9C/End Portal Left Wall/Blue Health",
-            "name": "[Blue Health] End Portal Left Wall"
-          },
-          {
-            "ref": "1-9C/End Portal Right Wall/Quiver",
-            "name": "[Quiver] End Portal Right Wall"
-          },
-          {
-            "ref": "1-9C/End Portal Right Wall/Box of Shells",
-            "name": "[Box of Shells] End Portal Right Wall"
-          },
-          {
-            "ref": "1-9C/End Portal Right Wall/Box of Bullets",
-            "name": "[Box of Bullets] End Portal Right Wall"
-          },
-          {
-            "ref": "1-9C/End Portal Right Wall/Explosive Shells",
-            "name": "[Explosive Shells] End Portal Right Wall"
-          },
-          {
-            "ref": "1-9C/End Portal Right Wall/Tek Quiver",
-            "name": "[Tek Quiver] End Portal Right Wall"
-          },
-          {
             "ref": "1-9C/On Left Boxes at Start/Switch",
             "name": "[Switch] On Left Boxes at Start"
-          },
-          {
-            "ref": "1-9C/Up Ladder Across from Rubble/Switch",
-            "name": "[Switch] Up Ladder Across from Rubble"
-          },
-          {
-            "ref": "1-9C/Up Ladder Near Compy Bridge/Switch",
-            "name": "[Switch] Up Ladder Near Compy Bridge"
-          },
-          {
-            "ref": "1-9C/Behind Left End Door/Switch",
-            "name": "[Switch] Behind Left End Door"
-          },
-          {
-            "ref": "1-9C/Behind Right End Door/Switch",
-            "name": "[Switch] Behind Right End Door"
-          },
-          {
-            "ref": "1-9C/In Left Room Corner/Switch",
-            "name": "[Switch] In Left Room Corner"
-          },
-          {
-            "ref": "1-9C/Right Room Left of Furnace/Switch",
-            "name": "[Switch] Right Room Left of Furnace"
-          },
-          {
-            "ref": "1-9C/Left Room by Table/Switch",
-            "name": "[Switch] Left Room by Table"
-          },
-          {
-            "ref": "1-9C/Right Room in Corner/Switch",
-            "name": "[Switch] Right Room in Corner"
-          },
-          {
-            "ref": "1-9C/On Catwalk Under Portal/Oblivion Portal Switch",
-            "name": "[Oblivion Portal Switch] On Catwalk Under Portal"
           },
           {
             "ref": "1-9C/Enemy At Start/Endtrail",
@@ -1618,6 +1462,234 @@
           {
             "ref": "1-9C/Enemy by Catwalk End/Endtrail",
             "name": "[Endtrail] Enemy by Catwalk End"
+          },
+          {
+            "ref": "1-9E/On Top Exit Catwalk/Blue Health",
+            "name": "[Blue Health] On Top Exit Catwalk"
+          },
+          {
+            "ref": "1-9E/Behind Rubble/Box of Bullets",
+            "name": "[Box of Bullets] Behind Rubble"
+          },
+          {
+            "ref": "1-9E/On Rubble/Full Health",
+            "name": "[Full Health] On Rubble"
+          },
+          {
+            "ref": "1-9E/Up Ladder Behind Wall/Level Key",
+            "name": "[Level Key] Up Ladder Behind Wall"
+          },
+          {
+            "ref": "1-9E/In Hallway to Bridge Area/Clip",
+            "name": "[Clip] In Hallway to Bridge Area"
+          },
+          {
+            "ref": "1-9E/Up Hall to Bridge/Blue Health",
+            "name": "[Blue Health] Up Hall to Bridge"
+          },
+          {
+            "ref": "1-9E/On Bridge Center/Shotgun",
+            "name": "[Shotgun] On Bridge Center"
+          },
+          {
+            "ref": "1-9E/In Canal Start/Tek Bow",
+            "name": "[Tek Bow] In Canal Start"
+          },
+          {
+            "ref": "1-9E/In Canal Start/LF1",
+            "name": "[LF1] In Canal Start"
+          },
+          {
+            "ref": "1-9E/In Canal End Doors Room/Full Health",
+            "name": "[Full Health] In Canal End Doors Room"
+          },
+          {
+            "ref": "1-9E/In Canal End Doors Room/LF10",
+            "name": "[LF10] In Canal End Doors Room"
+          },
+          {
+            "ref": "1-9E/Up Ladder Near End/Tek Bow",
+            "name": "[Tek Bow] Up Ladder Near End"
+          },
+          {
+            "ref": "1-9E/In Fountain/LF10",
+            "name": "[LF10] In Fountain"
+          },
+          {
+            "ref": "1-9E/Between Building Ramps/Shotgun",
+            "name": "[Shotgun] Between Building Ramps"
+          },
+          {
+            "ref": "1-9E/Between Building Ramps/Blue Health",
+            "name": "[Blue Health] Between Building Ramps"
+          },
+          {
+            "ref": "1-9E/Left Room Near Bookshelf/Shells",
+            "name": "[Shells] Left Room Near Bookshelf"
+          },
+          {
+            "ref": "1-9E/Right Room on Bed/Shells",
+            "name": "[Shells] Right Room on Bed"
+          },
+          {
+            "ref": "1-9E/Right Room Right of Furnace/Clip",
+            "name": "[Clip] Right Room Right of Furnace"
+          },
+          {
+            "ref": "1-9E/Left Room Between Pillars/Clip",
+            "name": "[Clip] Left Room Between Pillars"
+          },
+          {
+            "ref": "1-9E/Left Room Inside Pillar/Clip",
+            "name": "[Clip] Left Room Inside Pillar"
+          },
+          {
+            "ref": "1-9E/Right Room Between Beds/Shells",
+            "name": "[Shells] Right Room Between Beds"
+          },
+          {
+            "ref": "1-9E/On Outside Center Platform/Level Key",
+            "name": "[Level Key] On Outside Center Platform"
+          },
+          {
+            "ref": "1-9E/Along Hall to Oblivion Portal/LF1",
+            "name": "[LF1] Along Hall to Oblivion Portal"
+          },
+          {
+            "ref": "1-9E/Catwalk with Oblivion Switch/Blue Health",
+            "name": "[Blue Health] Catwalk with Oblivion Switch"
+          },
+          {
+            "ref": "1-9E/End Portal Left Wall/Blue Health",
+            "name": "[Blue Health] End Portal Left Wall"
+          },
+          {
+            "ref": "1-9E/End Portal Right Wall/Quiver",
+            "name": "[Quiver] End Portal Right Wall"
+          },
+          {
+            "ref": "1-9E/End Portal Right Wall/Box of Shells",
+            "name": "[Box of Shells] End Portal Right Wall"
+          },
+          {
+            "ref": "1-9E/End Portal Right Wall/Box of Bullets",
+            "name": "[Box of Bullets] End Portal Right Wall"
+          },
+          {
+            "ref": "1-9E/End Portal Right Wall/Explosive Shells",
+            "name": "[Explosive Shells] End Portal Right Wall"
+          },
+          {
+            "ref": "1-9E/End Portal Right Wall/Tek Quiver",
+            "name": "[Tek Quiver] End Portal Right Wall"
+          },
+          {
+            "ref": "1-9E/Up Ladder Across from Rubble/Switch",
+            "name": "[Switch] Up Ladder Across from Rubble"
+          },
+          {
+            "ref": "1-9E/Up Ladder Near Compy Bridge/Switch",
+            "name": "[Switch] Up Ladder Near Compy Bridge"
+          },
+          {
+            "ref": "1-9E/Behind Left End Door/Switch",
+            "name": "[Switch] Behind Left End Door"
+          },
+          {
+            "ref": "1-9E/Behind Right End Door/Switch",
+            "name": "[Switch] Behind Right End Door"
+          },
+          {
+            "ref": "1-9E/In Left Room Corner/Switch",
+            "name": "[Switch] In Left Room Corner"
+          },
+          {
+            "ref": "1-9E/Right Room Left of Furnace/Switch",
+            "name": "[Switch] Right Room Left of Furnace"
+          },
+          {
+            "ref": "1-9E/Left Room by Table/Switch",
+            "name": "[Switch] Left Room by Table"
+          },
+          {
+            "ref": "1-9E/Right Room in Corner/Switch",
+            "name": "[Switch] Right Room in Corner"
+          },
+          {
+            "ref": "1-9E/On Catwalk Under Portal/Oblivion Portal Switch",
+            "name": "[Oblivion Portal Switch] On Catwalk Under Portal"
+          },
+          {
+            "ref": "1-9E/Enemy by Return Hallway/Endtrail",
+            "name": "[Endtrail] Enemy by Return Hallway"
+          },
+          {
+            "ref": "1-9E/Enemy by Oblivion Portal/Endtrail",
+            "name": "[Endtrail] Enemy by Oblivion Portal"
+          },
+          {
+            "ref": "1-9E/Enemy in Level Key Room/Endtrail",
+            "name": "[Endtrail] Enemy in Level Key Room"
+          },
+          {
+            "ref": "1-9E/Enemy Before Bridge Room/Raptoid",
+            "name": "[Raptoid] Enemy Before Bridge Room"
+          },
+          {
+            "ref": "1-9E/Enemy Below Bridge/Compy",
+            "name": "[Compy] Enemy Below Bridge"
+          },
+          {
+            "ref": "1-9E/Enemy Before Bridge/Endtrail",
+            "name": "[Endtrail] Enemy Before Bridge"
+          },
+          {
+            "ref": "1-9E/Enemy in Hallway After Bridge/Raptoid",
+            "name": "[Raptoid] Enemy in Hallway After Bridge"
+          },
+          {
+            "ref": "1-9E/Enemy in Hallway After Bridge/Endtrail",
+            "name": "[Endtrail] Enemy in Hallway After Bridge"
+          },
+          {
+            "ref": "1-9E/Enemy Below Fountain/Endtrail",
+            "name": "[Endtrail] Enemy Below Fountain"
+          },
+          {
+            "ref": "1-9E/Enemy in F1 Left/Endtrail",
+            "name": "[Endtrail] Enemy in F1 Left"
+          },
+          {
+            "ref": "1-9E/Enemy in F1 Right/Endtrail",
+            "name": "[Endtrail] Enemy in F1 Right"
+          },
+          {
+            "ref": "1-9E/Enemy in F2 Left/Endtrail",
+            "name": "[Endtrail] Enemy in F2 Left"
+          },
+          {
+            "ref": "1-9E/Enemy in F2 Center/Endtrail",
+            "name": "[Endtrail] Enemy in F2 Center"
+          },
+          {
+            "ref": "1-9E/Enemy in F2 Right/Endtrail",
+            "name": "[Endtrail] Enemy in F2 Right"
+          },
+          {
+            "ref": "1-9E/Enemy in B1 Left/Endtrail",
+            "name": "[Endtrail] Enemy in B1 Left"
+          },
+          {
+            "ref": "1-9E/Enemy in B1 Right/Endtrail",
+            "name": "[Endtrail] Enemy in B1 Right"
+          },
+          {
+            "ref": "1-9E/Enemy in Oblivion Portal Hall/Endtrail",
+            "name": "[Endtrail] Enemy in Oblivion Portal Hall"
+          },
+          {
+            "ref": "1-9E/Enemy by Exit Portal/Endtrail",
+            "name": "[Endtrail] Enemy by Exit Portal"
           }
         ],
         "map_locations": [
@@ -1625,6 +1697,32 @@
             "map": "Hub",
             "x": 110,
             "y": 30
+          }
+        ],
+        "chest_unopened_img": "images/icons/LF1.png",
+        "chest_opened_img": "images/icons/LF1_gray.png"
+      },
+      {
+        "name": "1-O",
+        "sections": [
+          {
+            "ref": "1-O/At End/Nuke Part",
+            "name": "[Nuke Part] At End"
+          },
+          {
+            "ref": "1-O/Enemy Wave 1/Sentinel",
+            "name": "[Sentinel] Enemy Wave 1"
+          },
+          {
+            "ref": "1-O/Enemy Wave 2/Death Guard",
+            "name": "[Death Guard] Enemy Wave 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 150,
+            "y": 60
           }
         ],
         "chest_unopened_img": "images/icons/LF1.png",

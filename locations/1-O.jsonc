@@ -23,6 +23,44 @@
                         "y": 123
                     }
                 ]
+            },
+            {
+                "name": "Enemy Wave 1",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|78001|78002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-O",
+                        "x": 270,
+                        "y": 121
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Wave 2",
+                "sections": [
+                    {
+                        "name": "Death Guard",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|78003|78004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "1-O",
+                        "x": 411,
+                        "y": 121
+                    }
+                ]
             }
         ]
     }
