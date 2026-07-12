@@ -15,7 +15,9 @@
             "type": "itemgrid",
             "item_margin": "1, 1",
             "h_alignment": "left",
-            "item_size": "64,32",
+            "item_h_alignment": "center",
+            "item_v_alignment": "center",
+            "item_size": "48,32",
             "rows": [
               [
                 "talon",
