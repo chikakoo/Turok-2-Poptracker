@@ -12,42 +12,42 @@
   {
     "name": "Level 1 Key",
     "type": "consumable",
-    "img": "images/items/level_1_key.png",
+    "img": "images/items/keys/level_1_key.png",
     "max_quantity": 3,
     "codes": "level_1_key"
   },
   {
     "name": "Level 2 Key",
     "type": "consumable",
-    "img": "images/items/level_2_key.png",
+    "img": "images/items/keys/level_2_key.png",
     "max_quantity": 3,
     "codes": "level_2_key"
   },
   {
     "name": "Level 3 Key",
     "type": "consumable",
-    "img": "images/items/level_3_key.png",
+    "img": "images/items/keys/level_3_key.png",
     "max_quantity": 3,
     "codes": "level_3_key"
   },
   {
     "name": "Level 4 Key",
     "type": "consumable",
-    "img": "images/items/level_4_key.png",
+    "img": "images/items/keys/level_4_key.png",
     "max_quantity": 3,
     "codes": "level_4_key"
   },
   {
     "name": "Level 5 Key",
     "type": "consumable",
-    "img": "images/items/level_5_key.png",
+    "img": "images/items/keys/level_5_key.png",
     "max_quantity": 3,
     "codes": "level_5_key"
   },
   {
     "name": "Level 6 Key",
     "type": "consumable",
-    "img": "images/items/level_6_key.png",
+    "img": "images/items/keys/level_6_key.png",
     "max_quantity": 6,
     "codes": "level_6_key"
   },
@@ -55,42 +55,42 @@
   {
     "name": "Progressive Warp Level 1",
     "type": "consumable",
-    "img": "images/items/progressive_warp_l1.png",
+    "img": "images/items/keys/progressive_warp_l1.png",
     "max_quantity": 9,
     "codes": "progressive_warp_l1"
   },
   {
     "name": "Progressive Warp Level 2",
     "type": "consumable",
-    "img": "images/items/progressive_warp_l2.png",
+    "img": "images/items/keys/progressive_warp_l2.png",
     "max_quantity": 11,
     "codes": "progressive_warp_l2"
   },
   {
     "name": "Progressive Warp Level 3",
     "type": "consumable",
-    "img": "images/items/progressive_warp_l3.png",
+    "img": "images/items/keys/progressive_warp_l3.png",
     "max_quantity": 8,
     "codes": "progressive_warp_l3"
   },
   {
     "name": "Progressive Warp Level 4",
     "type": "consumable",
-    "img": "images/items/progressive_warp_l4.png",
+    "img": "images/items/keys/progressive_warp_l4.png",
     "max_quantity": 10,
     "codes": "progressive_warp_l4"
   },
   {
     "name": "Progressive Warp Level 5",
     "type": "consumable",
-    "img": "images/items/progressive_warp_l5.png",
+    "img": "images/items/keys/progressive_warp_l5.png",
     "max_quantity": 10,
     "codes": "progressive_warp_l5"
   },
   {
     "name": "Progressive Warp Level 6",
     "type": "consumable",
-    "img": "images/items/progressive_warp_l6.png",
+    "img": "images/items/keys/progressive_warp_l6.png",
     "max_quantity": 13,
     "codes": "progressive_warp_l6"
   },
@@ -98,169 +98,169 @@
   {
     "name": "Level 2 Eagle Feather",
     "type": "toggle",
-    "img": "images/items/level_2_eagle_feather.png",
+    "img": "images/items/talismans/level_2_eagle_feather.png",
     "codes": "level_2_eagle_feather"
   },
   {
     "name": "Level 3 Eagle Feather",
     "type": "toggle",
-    "img": "images/items/level_3_eagle_feather.png",
+    "img": "images/items/talismans/level_3_eagle_feather.png",
     "codes": "level_3_eagle_feather"
   },
   {
     "name": "Level 4 Eagle Feather",
     "type": "toggle",
-    "img": "images/items/level_4_eagle_feather.png",
+    "img": "images/items/talismans/level_4_eagle_feather.png",
     "codes": "level_4_eagle_feather"
   },
   {
     "name": "Level 5 Eagle Feather",
     "type": "toggle",
-    "img": "images/items/level_5_eagle_feather.png",
+    "img": "images/items/talismans/level_5_eagle_feather.png",
     "codes": "level_5_eagle_feather"
   },
   {
     "name": "Level 6 Eagle Feather",
     "type": "toggle",
-    "img": "images/items/level_6_eagle_feather.png",
+    "img": "images/items/talismans/level_6_eagle_feather.png",
     "codes": "level_6_eagle_feather"
   },
 
   {
     "name": "Primagen Key 1",
     "type": "toggle",
-    "img": "images/items/primagen_key_1.png",
+    "img": "images/items/keys/primagen_key_1.png",
     "codes": "primagen_key_1"
   },
   {
     "name": "Primagen Key 2",
     "type": "toggle",
-    "img": "images/items/primagen_key_2.png",
+    "img": "images/items/keys/primagen_key_2.png",
     "codes": "primagen_key_2"
   },
   {
     "name": "Primagen Key 3",
     "type": "toggle",
-    "img": "images/items/primagen_key_3.png",
+    "img": "images/items/keys/primagen_key_3.png",
     "codes": "primagen_key_3"
   },
   {
     "name": "Primagen Key 4",
     "type": "toggle",
-    "img": "images/items/primagen_key_4.png",
+    "img": "images/items/keys/primagen_key_4.png",
     "codes": "primagen_key_4"
   },
   {
     "name": "Primagen Key 5",
     "type": "toggle",
-    "img": "images/items/primagen_key_5.png",
+    "img": "images/items/keys/primagen_key_5.png",
     "codes": "primagen_key_5"
   },
   {
     "name": "Primagen Key 6",
     "type": "toggle",
-    "img": "images/items/primagen_key_6.png",
+    "img": "images/items/keys/primagen_key_6.png",
     "codes": "primagen_key_6"
   },
 
   {
     "name": "Leap of Faith",
     "type": "toggle",
-    "img": "images/items/leap_of_faith.png",
+    "img": "images/items/talismans/leap_of_faith.png",
     "codes": "leap_of_faith"
   },
   {
     "name": "Breath of Life",
     "type": "toggle",
-    "img": "images/items/breath_of_life.png",
+    "img": "images/items/talismans/breath_of_life.png",
     "codes": "breath_of_life"
   },
   {
     "name": "Heart of Fire",
     "type": "toggle",
-    "img": "images/items/heart_of_fire.png",
+    "img": "images/items/talismans/heart_of_fire.png",
     "codes": "heart_of_fire"
   },
   {
     "name": "Whispers",
     "type": "toggle",
-    "img": "images/items/whispers.png",
+    "img": "images/items/talismans/whispers.png",
     "codes": "whispers"
   },
   {
     "name": "Eye of Truth",
     "type": "toggle",
-    "img": "images/items/eye_of_truth.png",
+    "img": "images/items/talismans/eye_of_truth.png",
     "codes": "eye_of_truth"
   },
 
   {
     "name": "Power Cell",
     "type": "consumable",
-    "img": "images/items/power_cell.png",
+    "img": "images/items/mission/power_cell.png",
     "max_quantity": 3,
     "codes": "power_cell"
   },
   {
     "name": "Gate Key",
     "type": "consumable",
-    "img": "images/items/gate_key.png",
+    "img": "images/items/mission/gate_key.png",
     "max_quantity": 2,
     "codes": "gate_key"
   },
   {
     "name": "Graveyard Key",
     "type": "consumable",
-    "img": "images/items/graveyard_key.png",
+    "img": "images/items/mission/graveyard_key.png",
     "max_quantity": 2,
     "codes": "graveyard_key"
   },
   {
     "name": "Level 3 Satchel Charge",
     "type": "consumable",
-    "img": "images/items/l3_satchel_charge.png",
+    "img": "images/items/mission/l3_satchel_charge.png",
     "max_quantity": 3,
     "codes": "l3_satchel_charge"
   },
   {
     "name": "Cave Door Key",
     "type": "consumable",
-    "img": "images/items/cave_door_key.png",
+    "img": "images/items/mission/cave_door_key.png",
     "max_quantity": 7,
     "codes": "cave_door_key"
   },
   {
     "name": "Level 4 Satchel Charge",
     "type": "consumable",
-    "img": "images/items/l4_satchel_charge.png",
+    "img": "images/items/mission/l4_satchel_charge.png",
     "max_quantity": 3,
     "codes": "l4_satchel_charge"
   },
   {
     "name": "Level 5 Satchel Charge",
     "type": "consumable",
-    "img": "images/items/l5_satchel_charge.png",
+    "img": "images/items/mission/l5_satchel_charge.png",
     "max_quantity": 4,
     "codes": "l5_satchel_charge"
   },
   {
     "name": "Ion Capacitor",
     "type": "consumable",
-    "img": "images/items/ion_capacitor.png",
+    "img": "images/items/mission/ion_capacitor.png",
     "max_quantity": 16,
     "codes": "ion_capacitor"
   },
   {
     "name": "Blue Laser Cell",
     "type": "consumable",
-    "img": "images/items/blue_laser_cell.png",
+    "img": "images/items/mission/blue_laser_cell.png",
     "max_quantity": 2,
     "codes": "blue_laser_cell"
   },
   {
     "name": "Red Laser Cell",
     "type": "consumable",
-    "img": "images/items/red_laser_cell.png",
+    "img": "images/items/mission/red_laser_cell.png",
     "max_quantity": 2,
     "codes": "red_laser_cell"
   },
@@ -268,7 +268,7 @@
   {
     "name": "Nuke Parts",
     "type": "consumable",
-    "img": "images/items/nuke_parts.png",
+    "img": "images/items/weapons/nuke_parts.png",
     "max_quantity": 6,
     "codes": "nuke_parts"
   },

@@ -1,8 +1,8 @@
 [
   { //1-2a
     "name": "1-2a",
-    "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
-    "chest_opened_img": "images/icons/LF1_gray.png",
+    "chest_unopened_img": "images/items/life_forces/lf1.png",
+    "chest_opened_img": "images/items/life_forces/lf1_bw.png",
     "access_rules": [
       "$map_access|1|1"
     ],
@@ -85,8 +85,11 @@
       },
       {
         "name": "In Crawlspace",
+        "chest_unopened_img": "images/items/health/blue_health.png",
+        "chest_opened_img": "images/items/health/blue_health_bw.png",
         "sections": [
           {
+
             "name": "Blue Health",
             "item_count": 7,
             "visibility_rules": [
@@ -126,6 +129,8 @@
         "sections": [
           {
             "name": "Silver Health",
+            "chest_unopened_img": "images/items/health/silver_health.png",
+            "chest_opened_img": "images/items/health/silver_health_bw.png",
             "item_count": 4,
             "visibility_rules": [
               "$id_exists|52021|52022|52023|52024"
@@ -320,6 +325,8 @@
       },
       {
         "name": "Child Area Bottom Around Cage",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -377,6 +384,8 @@
       },
       {
         "name": "Child Area Top After Switch",
+        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
         "sections": [
           {
             "name": "Box of Bullets",
@@ -510,6 +519,8 @@
       },
       {
         "name": "Enemy in Level Key Room",
+        "chest_unopened_img": "images/enemies/raptoid.png",
+        "chest_opened_img": "images/enemies/raptoid_bw.png",
         "sections": [
           {
             "name": "Raptoid",
@@ -692,8 +703,8 @@
   },
   { //1-2b
     "name": "1-2b",
-    "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
-    "chest_opened_img": "images/icons/LF1_gray.png",
+    "chest_unopened_img": "images/items/life_forces/lf1.png",
+    "chest_opened_img": "images/items/life_forces/lf1_bw.png",
     "access_rules": [
       "$map_access|1|3|start"
     ],

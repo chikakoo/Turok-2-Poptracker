@@ -1,8 +1,8 @@
 [
   {
     "name": "1-1",
-    "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
-    "chest_opened_img": "images/icons/LF1_gray.png",
+    "chest_unopened_img": "images/items/life_forces/lf1.png",
+    "chest_opened_img": "images/items/life_forces/lf1_bw.png",
     "access_rules": [
       "$map_access|1"
     ],
@@ -38,6 +38,8 @@
           },
           {
             "name": "LF10",
+            "chest_unopened_img": "images/items/life_forces/lf10.png",
+            "chest_opened_img": "images/items/life_forces/lf10_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|51007"
@@ -168,6 +170,8 @@
       },
       {
         "name": "On Long Boxes",
+        "chest_unopened_img": "images/items/ammo/arrows.png",
+        "chest_opened_img": "images/items/ammo/arrows_bw.png",
         "sections": [
           {
             "name": "Arrows",
@@ -187,8 +191,8 @@
       },
       {
         "name": "Power Cell Room",
-        "chest_unopened_img": "images/icons/power_cell.png",
-        "chest_opened_img": "images/icons/power_cell_gray.png",
+        "chest_unopened_img": "images/items/mission/power_cell.png",
+        "chest_opened_img": "images/items/mission/power_cell_bw.png",
         "sections": [
           {
             "name": "Power Cell",
@@ -246,8 +250,8 @@
       },
       {
         "name": "Beacon Room",
-        "chest_unopened_img": "images/icons/power_cell.png",
-        "chest_opened_img": "images/icons/power_cell_gray.png",
+        "chest_unopened_img": "images/items/mission/power_cell.png",
+        "chest_opened_img": "images/items/mission/power_cell_bw.png",
         "sections": [
           {
             "name": "Activate Beacon",
