@@ -1,9 +1,11 @@
 [
     { //1-9C
         "name": "1-9C",
-        "access_rules": [],
         "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
         "chest_opened_img": "images/icons/LF1_gray.png",
+        "access_rules": [
+            "$map_access|1|9|mid"
+        ],
         "children": [
             {
                 "name": "Near Boxes at Start",
@@ -810,9 +812,11 @@
     },
     { //1-9E
         "name": "1-9E",
-        "access_rules": [],
         "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
         "chest_opened_img": "images/icons/LF1_gray.png",
+        "access_rules": [
+            "$map_access|1|9|mid"
+        ],
         "children": [
             {
                 "name": "On Top Exit Catwalk",

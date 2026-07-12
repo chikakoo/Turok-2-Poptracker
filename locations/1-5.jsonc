@@ -1,9 +1,11 @@
 [
   {
     "name": "1-5",
-    "access_rules": [],
     "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
     "chest_opened_img": "images/icons/LF1_gray.png",
+    "access_rules": [
+      "$map_access|1|5|mid"
+    ],
     "children": [
       {
         "name": "In Entrance Hall",

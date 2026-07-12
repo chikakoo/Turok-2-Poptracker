@@ -457,23 +457,12 @@ end
 ---Sets the progressive warp max counts according to the value here
 function OnProgressiveWarps()
     local default_max_values = { 9, 11, 8, 10, 10, 13 }
-    local progressive_warp_strength = Tracker:FindObjectForCode("progressive_warps").AcquiredCount
     local progressive_warp_settings = {
         "progressive_warp_l1", "progressive_warp_l2", "progressive_warp_l3", 
         "progressive_warp_l4", "progressive_warp_l5", "progressive_warp_l6"
     }
     for i, value in ipairs(progressive_warp_settings) do
-        if progressive_warp_strength == 0 then
-            Tracker:FindObjectForCode(value).MaxCount = 0
-        else
-            local max_progressive_warps
-            if progressive_warp_strength == 0 then
-                max_progressive_warps = 0
-            else
-                max_progressive_warps = math.ceil(default_max_values[i] / progressive_warp_strength)
-            end
-            Tracker:FindObjectForCode(value).MaxCount = max_progressive_warps
-        end
+        Tracker:FindObjectForCode(value).MaxCount = get_progressive_warps_needed(default_max_values[i])
     end
 end
 

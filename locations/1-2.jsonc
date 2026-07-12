@@ -1,13 +1,11 @@
 [
   { //1-2a
     "name": "1-2a",
-    //TODO: Add a prog warp function to handle this: 
-    // like: $has_progressive_warp|1|1 (level, and strength needed)
-    //"access_rules": [
-    //  "progressive_warp_l1"
-    //],
     "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
     "chest_opened_img": "images/icons/LF1_gray.png",
+    "access_rules": [
+      "$map_access|1|1"
+    ],
     "children": [
       {
         "name": "On Close Catwalks",
@@ -694,9 +692,11 @@
   },
   { //1-2b
     "name": "1-2b",
-    "access_rules": [],
     "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
     "chest_opened_img": "images/icons/LF1_gray.png",
+    "access_rules": [
+      "$map_access|1|3|start"
+    ],
     "children": [
       {
         "name": "In Corner Up Ladder",

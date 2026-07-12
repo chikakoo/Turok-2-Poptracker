@@ -1,9 +1,11 @@
 [
   {
     "name": "1-4",
-    "access_rules": [],
     "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
     "chest_opened_img": "images/icons/LF1_gray.png",
+    "access_rules": [
+      "$map_access|1|4|start"
+    ],
     "children": [
       {
         "name": "On Ground Near Ledge",
@@ -459,6 +461,9 @@
             "item_count": 5,
             "visibility_rules": [
               "$id_exists|55049|55050|55051|55052|55053"
+            ],
+            "access_rules": [
+              "leap_of_faith"
             ]
           }
         ],
@@ -478,6 +483,9 @@
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55054"
+            ],
+            "access_rules": [
+              "leap_of_faith"
             ]
           }
         ],

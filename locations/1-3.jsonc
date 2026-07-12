@@ -1,9 +1,11 @@
 [
   { //1-3F
     "name": "1-3F",
-    "access_rules": [],
     "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
     "chest_opened_img": "images/icons/LF1_gray.png",
+    "access_rules": [
+      "$map_access|1|2|start"
+    ],
     "children": [
       {
         "name": "Near Portal Behind Left Pillar",
@@ -405,9 +407,11 @@
   },
   { //1-3B
     "name": "1-3B",
-    "access_rules": [],
     "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
     "chest_opened_img": "images/icons/LF1_gray.png",
+    "access_rules": [
+      "$map_access|1|2|start"
+    ],
     "children": [
       {
         "name": "Ladder Near Barrel Tower",
@@ -1020,6 +1024,9 @@
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|53091"
+            ],
+            "access_rules": [
+              "[power_cell:3],$has_unused_power_cell"
             ]
           }
         ],
@@ -1039,6 +1046,9 @@
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|53092"
+            ],
+            "access_rules": [
+              "[power_cell:3],$has_unused_power_cell"
             ]
           }
         ],
