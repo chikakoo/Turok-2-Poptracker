@@ -491,6 +491,8 @@
       },
       {
         "name": "Barrel Room",
+        "chest_unopened_img": "images/icons/power_cell.png",
+        "chest_opened_img": "images/icons/power_cell_gray.png",
         "sections": [
           {
             "name": "Power Cell",
@@ -738,6 +740,8 @@
       },
       {
         "name": "In Power Cell Alcove",
+        "chest_unopened_img": "images/icons/power_cell.png",
+        "chest_opened_img": "images/icons/power_cell_gray.png",
         "sections": [
           {
             "name": "Power Cell",
@@ -1018,6 +1022,8 @@
       },
       {
         "name": "Ladder After Box Jumps",
+        "chest_unopened_img": "images/icons/power_cell.png",
+        "chest_opened_img": "images/icons/power_cell_gray.png",
         "sections": [
           {
             "name": "Activate Beacon",
@@ -1040,6 +1046,8 @@
       },
       {
         "name": "Bottom Right Near Boxes",
+        "chest_unopened_img": "images/icons/power_cell.png",
+        "chest_opened_img": "images/icons/power_cell_gray.png",
         "sections": [
           {
             "name": "Activate Beacon",

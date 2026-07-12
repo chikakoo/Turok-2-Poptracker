@@ -1,0 +1,16 @@
+{
+    "level_2": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "2-1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-1"
+                    ]
+                }
+            }
+        ]
+    }
+}

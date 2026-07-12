@@ -1,0 +1,13 @@
+[
+    {
+        "name": "2-1",
+        "chest_unopened_img": "images/icons/LF1.png", // default if children do not override
+        "chest_opened_img": "images/icons/LF1_gray.png",
+        "access_rules": [
+            "$map_access|2"
+        ],
+        "children": [
+            {}
+        ]
+    }
+]
