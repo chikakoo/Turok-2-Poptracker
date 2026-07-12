@@ -15,12 +15,14 @@
             "content": [
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "level_goal"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "primagen_goal"
               }
             ]
@@ -39,32 +41,38 @@
             "content": [
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "include_level_1"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "include_level_2"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "include_level_3"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "include_level_4"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "include_level_5"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "include_level_6"
               }
             ]
@@ -84,17 +92,20 @@
             "content": [
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "progressive_warps"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "level_unlock_method"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "progressive_weapon_ammo_upgrades"
               }
             ]
@@ -114,37 +125,44 @@
             "content": [
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "level_3_river_ledge_jump"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "level_3_bridge_jump"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "level_3_eye_of_truth_skip"
               },
               {
                 "type": "item",
-                "max_width": "64",
+                "max_width": "128",
+                "margin": "2,0",
                 "item": "level_4_skip_torpedo_launcher"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "level_6_eye_of_truth_skip"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "river_of_souls_death_jumps"
               },
               {
                 "type": "item",
-                "max_width": "32",
+                "max_width": "64",
+                "margin": "2,0",
                 "item": "jump_through_lava"
               }
             ]

@@ -1,25 +1,21 @@
 {
   "settings_popup": {
-    "type": "dock",
-    "content": {
-      "type": "tabbed",
-      "dock": "left",
-      "tabs": [
-        {
-          "title": "Settings",
-          "content": {
-            "type": "layout",
-            "key": "settings_tab"
-          }
-        },
-        {
-          "title": "Weapon Barrier Settings",
-          "content": {
-            "type": "layout",
-            "key": "weapon_barrier_settings_tab"
-          }
+    "type": "tabbed",
+    "tabs": [
+      {
+        "title": "Settings",
+        "content": {
+          "type": "layout",
+          "key": "settings_tab"
         }
-      ]
-    }
+      },
+      {
+        "title": "Weapon Barrier Settings",
+        "content": {
+          "type": "layout",
+          "key": "weapon_barrier_settings_tab"
+        }
+      }
+    ]
   }
 }

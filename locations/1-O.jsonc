@@ -40,8 +40,9 @@
                 "map_locations": [
                     {
                         "map": "1-O",
+                        "shape": "diamond",
                         "x": 270,
-                        "y": 121
+                        "y": 123
                     }
                 ]
             },
@@ -59,8 +60,9 @@
                 "map_locations": [
                     {
                         "map": "1-O",
+                        "shape": "diamond",
                         "x": 411,
-                        "y": 121
+                        "y": 123
                     }
                 ]
             }
