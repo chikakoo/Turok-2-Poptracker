@@ -1024,8 +1024,8 @@
       },
       {
         "name": "Ladder After Box Jumps",
-        "chest_unopened_img": "images/items/mission/power_cell.png",
-        "chest_opened_img": "images/items/mission/power_cell_bw.png",
+        "chest_unopened_img": "images/interactables/beacon_switch.png",
+        "chest_opened_img": "images/interactables/beacon_switch_bw.png",
         "sections": [
           {
             "name": "Activate Beacon",
@@ -1048,8 +1048,8 @@
       },
       {
         "name": "Bottom Right Near Boxes",
-        "chest_unopened_img": "images/items/mission/power_cell.png",
-        "chest_opened_img": "images/items/mission/power_cell_bw.png",
+        "chest_unopened_img": "images/interactables/beacon_switch.png",
+        "chest_opened_img": "images/interactables/beacon_switch_bw.png",
         "sections": [
           {
             "name": "Activate Beacon",
@@ -1129,6 +1129,8 @@
       },
       {
         "name": "Room After Jump to Pipe",
+        "chest_unopened_img": "images/interactables/child.png",
+        "chest_opened_img": "images/interactables/child_bw.png",
         "sections": [
           {
             "name": "Rescue Child",

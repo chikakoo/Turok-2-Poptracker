@@ -448,6 +448,8 @@
       },
       {
         "name": "On Middle Platform",
+        "chest_unopened_img": "images/interactables/child.png",
+        "chest_opened_img": "images/interactables/child_bw.png",
         "sections": [
           {
             "name": "Rescue Child",
