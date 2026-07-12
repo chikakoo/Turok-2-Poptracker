@@ -368,6 +368,7 @@ function OnBounce(json)
     local data = json["data"]
     if data then
         if data["type"] == "MapUpdate" then
+            Tracker:UiHint("ActivateTab", data["level"])
             Tracker:UiHint("ActivateTab", data["map"])
             Tracker:UiHint("ActivateTab", data["section"])
         end
