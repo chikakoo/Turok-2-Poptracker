@@ -9,6 +9,8 @@
     "children": [
       {
         "name": "In Archery House Between Beds",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -28,6 +30,8 @@
       },
       {
         "name": "Behind Archery House",
+        "chest_unopened_img": "images/items/ammo/arrows.png",
+        "chest_opened_img": "images/items/ammo/arrows_bw.png",
         "sections": [
           {
             "name": "Arrows",
@@ -66,6 +70,8 @@
       },
       {
         "name": "Before Hallway Corner",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -85,6 +91,8 @@
       },
       {
         "name": "Bridge House Lower Armory",
+        "chest_unopened_img": "images/items/health/silver_health.png",
+        "chest_opened_img": "images/items/health/silver_health_bw.png",
         "sections": [
           {
             "name": "Silver Health",
@@ -104,6 +112,8 @@
       },
       {
         "name": "Left Exploded Wall in Bridge Room",
+        "chest_unopened_img": "images/items/health/blue_health.png",
+        "chest_opened_img": "images/items/health/blue_health_bw.png",
         "sections": [
           {
             "name": "Blue Health",
@@ -123,6 +133,8 @@
       },
       {
         "name": "Exploded Corner in Bridge Room",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -145,6 +157,8 @@
         "sections": [
           {
             "name": "LF10",
+            "chest_unopened_img": "images/items/life_forces/lf10.png",
+            "chest_opened_img": "images/items/life_forces/lf10_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|56020"
@@ -168,6 +182,8 @@
       },
       {
         "name": "Bridge House Upper Corner",
+        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
         "sections": [
           {
             "name": "Box of Shells",
@@ -187,6 +203,8 @@
       },
       {
         "name": "On Rubble Pile",
+        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
         "sections": [
           {
             "name": "Box of Bullets",
@@ -206,6 +224,8 @@
       },
       {
         "name": "On Fallen Pillar",
+        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
         "sections": [
           {
             "name": "Explosive Shells",
@@ -244,6 +264,8 @@
       },
       {
         "name": "In Archery House",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -263,6 +285,8 @@
       },
       {
         "name": "Bridge House Lower Room",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -282,6 +306,8 @@
       },
       {
         "name": "Enemy in Hallway",
+        "chest_unopened_img": "images/enemies/raptoid.png",
+        "chest_opened_img": "images/enemies/raptoid_bw.png",
         "sections": [
           {
             "name": "Raptoid",
@@ -302,6 +328,8 @@
       },
       {
         "name": "Enemy in Wall",
+        "chest_unopened_img": "images/enemies/raptoid.png",
+        "chest_opened_img": "images/enemies/raptoid_bw.png",
         "sections": [
           {
             "name": "Raptoid",
@@ -322,6 +350,8 @@
       },
       {
         "name": "Enemy Before Bridge",
+        "chest_unopened_img": "images/enemies/endtrail.png",
+        "chest_opened_img": "images/enemies/endtrail_bw.png",
         "sections": [
           {
             "name": "Endtrail",
@@ -342,6 +372,8 @@
       },
       {
         "name": "Enemy After Bridge",
+        "chest_unopened_img": "images/enemies/endtrail.png",
+        "chest_opened_img": "images/enemies/endtrail_bw.png",
         "sections": [
           {
             "name": "Endtrail",

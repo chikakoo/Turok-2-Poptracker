@@ -12,6 +12,8 @@
                 "sections": [
                     {
                         "name": "Nuke Part",
+                        "chest_unopened_img": "images/items/weapons/nuke_parts.png",
+                        "chest_opened_img": "images/items/weapons/nuke_parts_bw.png",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|78000"
@@ -28,6 +30,8 @@
             },
             {
                 "name": "Enemy Wave 1",
+                "chest_unopened_img": "images/enemies/sentinel_oblivion.png",
+                "chest_opened_img": "images/enemies/sentinel_oblivion_bw.png",
                 "sections": [
                     {
                         "name": "Sentinel",
@@ -48,6 +52,8 @@
             },
             {
                 "name": "Enemy Wave 2",
+                "chest_unopened_img": "images/enemies/death_guard.png",
+                "chest_opened_img": "images/enemies/death_guard_bw.png",
                 "sections": [
                     {
                         "name": "Death Guard",

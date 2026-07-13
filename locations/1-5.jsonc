@@ -9,6 +9,8 @@
     "children": [
       {
         "name": "In Entrance Hall",
+        "chest_unopened_img": "images/items/weapons/tek_bow.png",
+        "chest_opened_img": "images/items/weapons/tek_bow_bw.png",
         "sections": [
           {
             "name": "Tek Bow",
@@ -28,6 +30,8 @@
       },
       {
         "name": "Left of Rubble",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -47,6 +51,8 @@
       },
       {
         "name": "Right of Rubble",
+        "chest_unopened_img": "images/items/ammo/arrows.png",
+        "chest_opened_img": "images/items/ammo/arrows_bw.png",
         "sections": [
           {
             "name": "Arrows",
@@ -69,6 +75,8 @@
         "sections": [
           {
             "name": "LF10",
+            "chest_unopened_img": "images/items/life_forces/lf10.png",
+            "chest_opened_img": "images/items/life_forces/lf10_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|54007"
@@ -111,6 +119,8 @@
       },
       {
         "name": "On Top of Rubble",
+        "chest_unopened_img": "images/items/health/blue_health.png",
+        "chest_opened_img": "images/items/health/blue_health_bw.png",
         "sections": [
           {
             "name": "Blue Health",
@@ -130,6 +140,8 @@
       },
       {
         "name": "Trail to Child Area",
+        "chest_unopened_img": "images/items/health/silver_health.png",
+        "chest_opened_img": "images/items/health/silver_health_bw.png",
         "sections": [
           {
             "name": "Silver Health",
@@ -152,6 +164,8 @@
         "sections": [
           {
             "name": "Shotgun",
+            "chest_unopened_img": "images/items/weapons/shotgun.png",
+            "chest_opened_img": "images/items/weapons/shotgun_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|54019"
@@ -171,6 +185,8 @@
         "sections": [
           {
             "name": "Switch",
+            "chest_unopened_img": "images/interactables/switch_standard.png",
+            "chest_opened_img": "images/interactables/switch_standard_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|54029"
@@ -178,6 +194,8 @@
           },
           {
             "name": "Shells",
+            "chest_unopened_img": "images/items/ammo/shells.png",
+            "chest_opened_img": "images/items/ammo/shells_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|54020"
@@ -197,6 +215,8 @@
         "sections": [
           {
             "name": "Blue Health",
+            "chest_unopened_img": "images/items/health/blue_health.png",
+            "chest_opened_img": "images/items/health/blue_health_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|54021"
@@ -216,6 +236,8 @@
         "sections": [
           {
             "name": "Blue Health",
+            "chest_unopened_img": "images/items/health/blue_health.png",
+            "chest_opened_img": "images/items/health/blue_health_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|54022"
@@ -235,6 +257,8 @@
         "sections": [
           {
             "name": "Switch",
+            "chest_unopened_img": "images/interactables/switch_standard.png",
+            "chest_opened_img": "images/interactables/switch_standard_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|54032"
@@ -242,6 +266,8 @@
           },
           {
             "name": "Blue Health",
+            "chest_unopened_img": "images/items/health/blue_health.png",
+            "chest_opened_img": "images/items/health/blue_health_bw.png",
             "item_count": 2,
             "visibility_rules": [
               "$id_exists|54023|54024"
@@ -258,6 +284,8 @@
       },
       {
         "name": "Up Ladder Rubble Jump",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -277,6 +305,8 @@
       },
       {
         "name": "Left of Fountain",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -296,6 +326,8 @@
       },
       {
         "name": "Right of Fountain",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -315,6 +347,8 @@
       },
       {
         "name": "Child Bridges Left Close",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -334,6 +368,8 @@
       },
       {
         "name": "Child Bridges Left Far",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -353,6 +389,8 @@
       },
       {
         "name": "Child Bridges Right",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -396,6 +434,8 @@
         "sections": [
           {
             "name": "Raptoid",
+            "chest_unopened_img": "images/enemies/raptoid.png",
+            "chest_opened_img": "images/enemies/raptoid_bw.png",
             "item_count": 2,
             "visibility_rules": [
               "$id_exists|54034|54035"
@@ -403,6 +443,8 @@
           },
           {
             "name": "Endtrail",
+            "chest_unopened_img": "images/enemies/endtrail.png",
+            "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|54036"
@@ -423,6 +465,8 @@
         "sections": [
           {
             "name": "Raptoid",
+            "chest_unopened_img": "images/enemies/raptoid.png",
+            "chest_opened_img": "images/enemies/raptoid_bw.png",
             "item_count": 6,
             "visibility_rules": [
               "$id_exists|54037|54038|54039|54040|54041|54042"
@@ -443,6 +487,8 @@
         "sections": [
           {
             "name": "Endtrail",
+            "chest_unopened_img": "images/enemies/endtrail.png",
+            "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 2,
             "visibility_rules": [
               "$id_exists|54043|54044"

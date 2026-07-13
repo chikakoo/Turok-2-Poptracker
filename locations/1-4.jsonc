@@ -9,6 +9,8 @@
     "children": [
       {
         "name": "On Ground Near Ledge",
+        "chest_unopened_img": "images/items/ammo/arrows.png",
+        "chest_opened_img": "images/items/ammo/arrows_bw.png",
         "sections": [
           {
             "name": "Arrows",
@@ -28,6 +30,8 @@
       },
       {
         "name": "On Ground Near Left House",
+        "chest_unopened_img": "images/items/ammo/arrows.png",
+        "chest_opened_img": "images/items/ammo/arrows_bw.png",
         "sections": [
           {
             "name": "Arrows",
@@ -66,6 +70,8 @@
       },
       {
         "name": "Right House Lower",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -85,6 +91,8 @@
       },
       {
         "name": "In Alley by Right House",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -104,6 +112,8 @@
       },
       {
         "name": "In Waterfall Basin",
+        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
         "sections": [
           {
             "name": "Explosive Shells",
@@ -123,6 +133,8 @@
       },
       {
         "name": "Behind Waterfall",
+        "chest_unopened_img": "images/items/keys/level_3_key.png",
+        "chest_opened_img": "images/items/keys/level_3_key_bw.png",
         "sections": [
           {
             "name": "Level Key",
@@ -164,6 +176,8 @@
         "sections": [
           {
             "name": "Ultra Health",
+            "chest_unopened_img": "images/items/health/ultra_health.png",
+            "chest_opened_img": "images/items/health/ultra_health_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55019"
@@ -171,6 +185,8 @@
           },
           {
             "name": "LF10",
+            "chest_unopened_img": "images/items/life_forces/lf10.png",
+            "chest_opened_img": "images/items/life_forces/lf10_bw.png",
             "item_count": 8,
             "visibility_rules": [
               "$id_exists|55020|55021|55022|55023|55024|55025|55026|55027"
@@ -187,6 +203,8 @@
       },
       {
         "name": "First Hall by Talisman Portal",
+        "chest_unopened_img": "images/items/ammo/arrows.png",
+        "chest_opened_img": "images/items/ammo/arrows_bw.png",
         "sections": [
           {
             "name": "Arrows",
@@ -206,6 +224,8 @@
       },
       {
         "name": "Left Corner near Portal",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -225,6 +245,8 @@
       },
       {
         "name": "Right Corner near Portal",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -247,6 +269,8 @@
         "sections": [
           {
             "name": "Talisman Portal Switch",
+            "chest_unopened_img": "images/interactables/switch_portal.png",
+            "chest_opened_img": "images/interactables/switch_portal_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55073"
@@ -254,6 +278,8 @@
           },
           {
             "name": "Blue Health",
+            "chest_unopened_img": "images/items/health/blue_health.png",
+            "chest_opened_img": "images/items/health/blue_health_bw.png",
             "item_count": 2,
             "visibility_rules": [
               "$id_exists|55031|55032"
@@ -270,6 +296,8 @@
       },
       {
         "name": "Second Hall near Talisman Portal",
+        "chest_unopened_img": "images/items/ammo/shells.png",
+        "chest_opened_img": "images/items/ammo/shells_bw.png",
         "sections": [
           {
             "name": "Shells",
@@ -289,6 +317,8 @@
       },
       {
         "name": "Behind First Upper Building",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -308,6 +338,8 @@
       },
       {
         "name": "By Boxes",
+        "chest_unopened_img": "images/items/ammo/shells.png",
+        "chest_opened_img": "images/items/ammo/shells_bw.png",
         "sections": [
           {
             "name": "Shells",
@@ -330,6 +362,8 @@
         "sections": [
           {
             "name": "Blue Health",
+            "chest_unopened_img": "images/items/health/blue_health.png",
+            "chest_opened_img": "images/items/health/blue_health_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55042"
@@ -337,6 +371,8 @@
           },
           {
             "name": "LF10",
+            "chest_unopened_img": "images/items/life_forces/lf10.png",
+            "chest_opened_img": "images/items/life_forces/lf10_bw.png",
             "item_count": 4,
             "visibility_rules": [
               "$id_exists|55038|55039|55040|55041"
@@ -353,6 +389,8 @@
       },
       {
         "name": "Primagen Key Room Entrance",
+        "chest_unopened_img": "images/items/weapons/tek_bow.png",
+        "chest_opened_img": "images/items/weapons/tek_bow_bw.png",
         "sections": [
           {
             "name": "Tek Bow",
@@ -393,6 +431,8 @@
       },
       {
         "name": "On Ground Below Leap Trail",
+        "chest_unopened_img": "images/items/ammo/tek_arrows.png",
+        "chest_opened_img": "images/items/ammo/tek_arrows_bw.png",
         "sections": [
           {
             "name": "Tek Arrows",
@@ -412,6 +452,8 @@
       },
       {
         "name": "Near Leap Pad",
+        "chest_unopened_img": "images/items/ammo/tek_arrows.png",
+        "chest_opened_img": "images/items/ammo/tek_arrows_bw.png",
         "sections": [
           {
             "name": "Tek Arrows",
@@ -431,6 +473,8 @@
       },
       {
         "name": "Below Door-Triggering Enemy",
+        "chest_unopened_img": "images/items/ammo/tek_arrows.png",
+        "chest_opened_img": "images/items/ammo/tek_arrows_bw.png",
         "sections": [
           {
             "name": "Tek Arrows",
@@ -450,6 +494,8 @@
       },
       {
         "name": "Primagen Key Leap",
+        "chest_unopened_img": "images/items/life_forces/lf10.png",
+        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
         "sections": [
           {
             "name": "LF10 (Jumpable)",
@@ -479,6 +525,8 @@
       },
       {
         "name": "Primagen Key Leap Platform",
+        "chest_unopened_img": "images/items/keys/primagen_key_1.png",
+        "chest_opened_img": "images/items/keys/primagen_key_1_bw.png",
         "sections": [
           {
             "name": "Primagen Key",
@@ -520,6 +568,8 @@
       },
       {
         "name": "Inside Upper Building 2",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -558,6 +608,8 @@
       },
       {
         "name": "On Ledge",
+        "chest_unopened_img": "images/items/health/blue_health.png",
+        "chest_opened_img": "images/items/health/blue_health_bw.png",
         "sections": [
           {
             "name": "Blue Health",
@@ -580,6 +632,8 @@
         "sections": [
           {
             "name": "Explosive Shells",
+            "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+            "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55071"
@@ -587,6 +641,8 @@
           },
           {
             "name": "Silver Health",
+            "chest_unopened_img": "images/items/health/silver_health.png",
+            "chest_opened_img": "images/items/health/silver_health_bw.png",
             "item_count": 4,
             "visibility_rules": [
               "$id_exists|55067|55068|55069|55070"
@@ -606,6 +662,8 @@
         "sections": [
           {
             "name": "Switch",
+            "chest_unopened_img": "images/interactables/switch_standard.png",
+            "chest_opened_img": "images/interactables/switch_standard_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55074"
@@ -625,6 +683,8 @@
         "sections": [
           {
             "name": "Switch",
+            "chest_unopened_img": "images/interactables/switch_standard.png",
+            "chest_opened_img": "images/interactables/switch_standard_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55072"
@@ -644,6 +704,8 @@
         "sections": [
           {
             "name": "Endtrail",
+            "chest_unopened_img": "images/enemies/endtrail.png",
+            "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55075"
@@ -664,6 +726,8 @@
         "sections": [
           {
             "name": "Endtrail",
+            "chest_unopened_img": "images/enemies/endtrail.png",
+            "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 2,
             "visibility_rules": [
               "$id_exists|55076|55077"
@@ -684,6 +748,8 @@
         "sections": [
           {
             "name": "Raptoid",
+            "chest_unopened_img": "images/enemies/raptoid.png",
+            "chest_opened_img": "images/enemies/raptoid_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55078"
@@ -704,6 +770,8 @@
         "sections": [
           {
             "name": "Raptoid",
+            "chest_unopened_img": "images/enemies/raptoid.png",
+            "chest_opened_img": "images/enemies/raptoid_bw.png",
             "item_count": 2,
             "visibility_rules": [
               "$id_exists|55079|55080"
@@ -724,6 +792,8 @@
         "sections": [
           {
             "name": "Endtrail",
+            "chest_unopened_img": "images/enemies/endtrail.png",
+            "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55081"
@@ -744,6 +814,8 @@
         "sections": [
           {
             "name": "Endtrail",
+            "chest_unopened_img": "images/enemies/endtrail.png",
+            "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55082"
@@ -764,6 +836,8 @@
         "sections": [
           {
             "name": "Endtrail",
+            "chest_unopened_img": "images/enemies/endtrail.png",
+            "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55083"
@@ -784,6 +858,8 @@
         "sections": [
           {
             "name": "Endtrail",
+            "chest_unopened_img": "images/enemies/endtrail.png",
+            "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55084"
@@ -804,6 +880,8 @@
         "sections": [
           {
             "name": "Endtrail",
+            "chest_unopened_img": "images/enemies/endtrail.png",
+            "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55085"
@@ -824,6 +902,8 @@
         "sections": [
           {
             "name": "Raptoid",
+            "chest_unopened_img": "images/enemies/raptoid.png",
+            "chest_opened_img": "images/enemies/raptoid_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55086"
@@ -844,6 +924,8 @@
         "sections": [
           {
             "name": "Endtrail",
+            "chest_unopened_img": "images/enemies/endtrail.png",
+            "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|55087"

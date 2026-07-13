@@ -12,6 +12,8 @@
         "sections": [
           {
             "name": "Box of Shells",
+            "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+            "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|58000"
@@ -19,6 +21,8 @@
           },
           {
             "name": "Box of Bullets",
+            "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+            "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|58001"
@@ -35,6 +39,8 @@
       },
       {
         "name": "Behind Right Door",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -54,6 +60,8 @@
       },
       {
         "name": "By Back Entrance Arch",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -73,6 +81,8 @@
       },
       {
         "name": "Under Back Entrance Arch",
+        "chest_unopened_img": "images/items/ammo/quiver_of_arrows.png",
+        "chest_opened_img": "images/items/ammo/quiver_of_arrows_bw.png",
         "sections": [
           {
             "name": "Quiver",
@@ -92,6 +102,8 @@
       },
       {
         "name": "In Right Exploded Wall",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "sections": [
           {
             "name": "Clip",
@@ -111,6 +123,8 @@
       },
       {
         "name": "In Left Exploded Wall",
+        "chest_unopened_img": "images/items/health/blue_health.png",
+        "chest_opened_img": "images/items/health/blue_health_bw.png",
         "sections": [
           {
             "name": "Blue Health",
@@ -130,6 +144,8 @@
       },
       {
         "name": "In Exploded Corner",
+        "chest_unopened_img": "images/items/ammo/shells.png",
+        "chest_opened_img": "images/items/ammo/shells_bw.png",
         "sections": [
           {
             "name": "Shells",
@@ -149,6 +165,8 @@
       },
       {
         "name": "In House Bottom Floor",
+        "chest_unopened_img": "images/items/health/silver_health.png",
+        "chest_opened_img": "images/items/health/silver_health_bw.png",
         "sections": [
           {
             "name": "Silver Health",
@@ -168,6 +186,8 @@
       },
       {
         "name": "Up Ladder Left",
+        "chest_unopened_img": "images/items/health/silver_health.png",
+        "chest_opened_img": "images/items/health/silver_health_bw.png",
         "sections": [
           {
             "name": "Silver Health",
@@ -187,6 +207,8 @@
       },
       {
         "name": "Up Ladder Straight",
+        "chest_unopened_img": "images/items/keys/level_2_key.png",
+        "chest_opened_img": "images/items/keys/level_2_key_bw.png",
         "sections": [
           {
             "name": "Level Key",
@@ -206,6 +228,8 @@
       },
       {
         "name": "By Ladder Room Before Gate",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -225,6 +249,8 @@
       },
       {
         "name": "By Gate",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -244,6 +270,8 @@
       },
       {
         "name": "In Room After Arches",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -263,6 +291,8 @@
       },
       {
         "name": "In Room Behind Bookshelves",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -282,6 +312,8 @@
       },
       {
         "name": "In Top Floor Room",
+        "chest_unopened_img": "images/interactables/switch_standard.png",
+        "chest_opened_img": "images/interactables/switch_standard_bw.png",
         "sections": [
           {
             "name": "Switch",
@@ -301,6 +333,8 @@
       },
       {
         "name": "Enemy at Start",
+        "chest_unopened_img": "images/enemies/endtrail.png",
+        "chest_opened_img": "images/enemies/endtrail_bw.png",
         "sections": [
           {
             "name": "Endtrail",
@@ -321,6 +355,8 @@
       },
       {
         "name": "Enemy up Ladder",
+        "chest_unopened_img": "images/enemies/endtrail.png",
+        "chest_opened_img": "images/enemies/endtrail_bw.png",
         "sections": [
           {
             "name": "Endtrail",
@@ -341,6 +377,8 @@
       },
       {
         "name": "Enemy by Open Gate",
+        "chest_unopened_img": "images/enemies/raptoid.png",
+        "chest_opened_img": "images/enemies/raptoid_bw.png",
         "sections": [
           {
             "name": "Raptoid",
@@ -361,6 +399,8 @@
       },
       {
         "name": "Enemy by Exit Gate",
+        "chest_unopened_img": "images/enemies/endtrail.png",
+        "chest_opened_img": "images/enemies/endtrail_bw.png",
         "sections": [
           {
             "name": "Endtrail",
@@ -381,6 +421,8 @@
       },
       {
         "name": "Enemy on Bottom Floor",
+        "chest_unopened_img": "images/enemies/endtrail.png",
+        "chest_opened_img": "images/enemies/endtrail_bw.png",
         "sections": [
           {
             "name": "Endtrail",
@@ -401,6 +443,8 @@
       },
       {
         "name": "Enemy up Building Ladder",
+        "chest_unopened_img": "images/enemies/endtrail.png",
+        "chest_opened_img": "images/enemies/endtrail_bw.png",
         "sections": [
           {
             "name": "Endtrail",
