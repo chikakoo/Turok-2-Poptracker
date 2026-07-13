@@ -110,8 +110,8 @@
       },
       {
         "name": "Lower Water Room Doorway",
-        "chest_unopened_img": "images/items/weapons/pistol.png",
-        "chest_opened_img": "images/items/weapons/pistol_bw.png",
+        "chest_unopened_img": "images/items/weapons_small/pistol.png",
+        "chest_opened_img": "images/items/weapons_small/pistol_bw.png",
         "sections": [
           {
             "name": "Pistol",

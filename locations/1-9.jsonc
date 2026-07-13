@@ -281,8 +281,8 @@
             },
             {
                 "name": "Up First Ladder Near Snipers",
-                "chest_unopened_img": "images/items/weapons/pistol.png",
-                "chest_opened_img": "images/items/weapons/pistol_bw.png",
+                "chest_unopened_img": "images/items/weapons_small/pistol.png",
+                "chest_opened_img": "images/items/weapons_small/pistol_bw.png",
                 "sections": [
                     {
                         "name": "Pistol",
@@ -483,8 +483,8 @@
             },
             {
                 "name": "Start Room Catwalks Exit",
-                "chest_unopened_img": "images/items/weapons/pistol.png",
-                "chest_opened_img": "images/items/weapons/pistol_bw.png",
+                "chest_unopened_img": "images/items/weapons_small/pistol.png",
+                "chest_opened_img": "images/items/weapons_small/pistol_bw.png",
                 "sections": [
                     {
                         "name": "Pistol",
@@ -1016,8 +1016,8 @@
             },
             {
                 "name": "On Bridge Center",
-                "chest_unopened_img": "images/items/weapons/shotgun.png",
-                "chest_opened_img": "images/items/weapons/shotgun_bw.png",
+                "chest_unopened_img": "images/items/weapons_small/shotgun.png",
+                "chest_opened_img": "images/items/weapons_small/shotgun_bw.png",
                 "sections": [
                     {
                         "name": "Shotgun",
@@ -1040,8 +1040,8 @@
                 "sections": [
                     {
                         "name": "Tek Bow",
-                        "chest_unopened_img": "images/items/weapons/tek_bow.png",
-                        "chest_opened_img": "images/items/weapons/tek_bow_bw.png",
+                        "chest_unopened_img": "images/items/weapons_small/tek_bow.png",
+                        "chest_opened_img": "images/items/weapons_small/tek_bow_bw.png",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|59078"
@@ -1095,8 +1095,8 @@
             },
             {
                 "name": "Up Ladder Near End",
-                "chest_unopened_img": "images/items/weapons/tek_bow.png",
-                "chest_opened_img": "images/items/weapons/tek_bow_bw.png",
+                "chest_unopened_img": "images/items/weapons_small/tek_bow.png",
+                "chest_opened_img": "images/items/weapons_small/tek_bow_bw.png",
                 "sections": [
                     {
                         "name": "Tek Bow",
@@ -1140,8 +1140,8 @@
                 "sections": [
                     {
                         "name": "Shotgun",
-                        "chest_unopened_img": "images/items/weapons/shotgun.png",
-                        "chest_opened_img": "images/items/weapons/shotgun_bw.png",
+                        "chest_unopened_img": "images/items/weapons_small/shotgun.png",
+                        "chest_opened_img": "images/items/weapons_small/shotgun_bw.png",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|59091"

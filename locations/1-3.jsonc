@@ -238,8 +238,8 @@
         "sections": [
           {
             "name": "Pistol",
-            "chest_unopened_img": "images/items/weapons/pistol.png",
-            "chest_opened_img": "images/items/weapons/pistol_bw.png",
+            "chest_unopened_img": "images/items/weapons_small/pistol.png",
+            "chest_opened_img": "images/items/weapons_small/pistol_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|53023"
@@ -606,8 +606,8 @@
       },
       {
         "name": "Room Between Ships Center",
-        "chest_unopened_img": "images/items/weapons/shotgun.png",
-        "chest_opened_img": "images/items/weapons/shotgun_bw.png",
+        "chest_unopened_img": "images/items/weapons_small/shotgun.png",
+        "chest_opened_img": "images/items/weapons_small/shotgun_bw.png",
         "sections": [
           {
             "name": "Shotgun",
@@ -627,8 +627,8 @@
       },
       {
         "name": "Behind Left Boxes",
-        "chest_unopened_img": "images/items/weapons/pistol.png",
-        "chest_opened_img": "images/items/weapons/pistol_bw.png",
+        "chest_unopened_img": "images/items/weapons_small/pistol.png",
+        "chest_opened_img": "images/items/weapons_small/pistol_bw.png",
         "sections": [
           {
             "name": "Pistol",

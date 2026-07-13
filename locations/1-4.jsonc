@@ -389,8 +389,8 @@
       },
       {
         "name": "Primagen Key Room Entrance",
-        "chest_unopened_img": "images/items/weapons/tek_bow.png",
-        "chest_opened_img": "images/items/weapons/tek_bow_bw.png",
+        "chest_unopened_img": "images/items/weapons_small/tek_bow.png",
+        "chest_opened_img": "images/items/weapons_small/tek_bow_bw.png",
         "sections": [
           {
             "name": "Tek Bow",
