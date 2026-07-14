@@ -6,34 +6,50 @@ from pathlib import Path
 Generates the Hub.jsonc file so the hub locations can be references to the real locations
 """
 
-# Input files - add to this list when a new map is added
-INPUT_FILES = [
-    "1-1.jsonc",
-    "1-2.jsonc",
-    "1-3.jsonc",
-    "1-4.jsonc",
-    "1-5.jsonc",
-    "1-6.jsonc",
-    "1-7.jsonc",
-    "1-8.jsonc",
-    "1-9.jsonc",
-    "1-O.jsonc",
-]
+# Items are placed vertically for this many rows before starting a new column
+ROWS = 4
+X_OFFSET = 60
+Y_OFFSET = 30
 
-# Where each map should go on the hub
-HUB_MAP_POSITIONS = {
-    "1-1": (674, 812),
-    "1-2a": (674, 842),
-    "1-3": (674, 872),
-    "1-2b": (674, 902),
-    "1-4": (734, 812),
-    "1-5": (734, 842),
-    "1-6": (734, 872),
-    "1-7": (734, 902),
-    "1-8": (793, 812),
-    "1-9": (793, 842),
-    "1-O": (793, 872),
-}
+MAP_DATA = [
+    {
+        "level_name": "level_1",
+        "initial_position": (674, 812),
+        "maps": [
+            "1-1",
+            "1-2a",
+            "1-3",
+            "1-2b",
+            "1-4",
+            "1-5",
+            "1-6",
+            "1-7",
+            "1-8",
+            "1-9",
+            "1-O"
+        ]
+    },
+    {
+        "level_name": "level_2",
+        "initial_position": (837, 606),
+        "maps": [
+            "2-1",
+            "2-2",
+            "2-3",
+            "2-4",
+            "2-O",
+            "2-5",
+            "2-6a",
+            "2-6b",
+            "2-GY1",
+            "2-6c",
+            "2-7",
+            "2-GY2",
+            "2-8",
+            "2-GY3"
+        ]
+    }
+]
 
 # The output file name
 OUTPUT_FILE = "Hub.jsonc"
@@ -50,55 +66,55 @@ def load_jsonc(path: Path):
 hub = [
     {
         "name": "Hub",
+        "chest_unopened_img": "images/items/life_forces/lf1.png",
+        "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "children": []
     }
 ]
 
 # Loop through the json and format it so that each tab has all the references
-# Maps with lowercase letters (a, b, etc.) go in a separate location
-# Maps with uppercase Letters (B, F, etc.)
 # These are named as: [Section Name] Location Name are in the same map, and should be in the same location
 hub_children = {}
-for filename in INPUT_FILES:
-    data = load_jsonc(Path(filename))
+for map_data in MAP_DATA:
+    level_name = map_data["level_name"]
+    initial_position = map_data["initial_position"]
+    for index, map_string in enumerate(map_data["maps"]):
+        file_name = f"{level_name}/{map_string}.jsonc"
+        x = initial_position[0] + ((index // ROWS) * X_OFFSET)
+        y = initial_position[1] + ((index % ROWS) * Y_OFFSET)
 
-    for source in data:
-        map_name = source["name"]
+        data = load_jsonc(Path(file_name))
+        for source in data:
+            map_name = source["name"]
 
-        # Strip one uppercase suffix for hub grouping
-        hub_name = re.sub(r"^(\d+-\d+)[A-Z]$", r"\1", map_name)
+            # Strip one uppercase suffix for hub grouping
+            hub_name = re.sub(r"^(\d+-\d+)[A-Z]$", r"\1", map_name)
 
-        if hub_name not in hub_children:
-            hub_children[hub_name] = {
-                "name": hub_name,
-                "sections": [],
-                "map_locations": [
-                    {
-                        "map": "Hub",
-                        "x": HUB_MAP_POSITIONS[hub_name][0],
-                        "y": HUB_MAP_POSITIONS[hub_name][1],
-                    }
-                ],
-            }
+            if hub_name not in hub_children:
+                hub_children[hub_name] = {
+                    "name": hub_name,
+                    "sections": [],
+                    "map_locations": [
+                        {
+                            "map": "Hub",
+                            "x": x,
+                            "y": y
+                        }
+                    ],
+                }
 
-        child = hub_children[hub_name]
+            child = hub_children[hub_name]
 
-        if "chest_unopened_img" in source:
-            child["chest_unopened_img"] = source["chest_unopened_img"]
+            for location in source["children"]:
+                location_name = location["name"]
 
-        if "chest_opened_img" in source:
-            child["chest_opened_img"] = source["chest_opened_img"]
+                for section in location["sections"]:
+                    section_name = section["name"]
 
-        for location in source["children"]:
-            location_name = location["name"]
-
-            for section in location["sections"]:
-                section_name = section["name"]
-
-                child["sections"].append({
-                    "ref": f"{map_name}/{location_name}/{section_name}",
-                    "name": f"[{section_name}] {location_name}",
-                })
+                    child["sections"].append({
+                        "ref": f"{map_name}/{location_name}/{section_name}",
+                        "name": f"[{section_name}] {location_name}",
+                    })
 
 hub[0]["children"] = list(hub_children.values())
 

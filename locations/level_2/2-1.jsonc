@@ -7,7 +7,15 @@
             "$map_access|2"
         ],
         "children": [
-            {}
+            {
+                "name": "TEMP",
+                "sections": [
+                    {
+                        "name": "DELETE ME",
+                        "item_count": 1
+                    }
+                ]
+            }
         ]
     }
 ]

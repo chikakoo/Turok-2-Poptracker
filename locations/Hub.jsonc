@@ -1,6 +1,8 @@
 [
   {
     "name": "Hub",
+    "chest_unopened_img": "images/items/life_forces/lf1.png",
+    "chest_opened_img": "images/items/life_forces/lf1_bw.png",
     "children": [
       {
         "name": "1-1",
@@ -68,9 +70,7 @@
             "x": 674,
             "y": 812
           }
-        ],
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png"
+        ]
       },
       {
         "name": "1-2a",
@@ -226,55 +226,7 @@
             "x": 674,
             "y": 842
           }
-        ],
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png"
-      },
-      {
-        "name": "1-2b",
-        "sections": [
-          {
-            "ref": "1-2b/In Corner Up Ladder/Clip",
-            "name": "[Clip] In Corner Up Ladder"
-          },
-          {
-            "ref": "1-2b/Up Ladder/Level Key",
-            "name": "[Level Key] Up Ladder"
-          },
-          {
-            "ref": "1-2b/End of Pipe/Explosive Shells",
-            "name": "[Explosive Shells] End of Pipe"
-          },
-          {
-            "ref": "1-2b/Behind Exit Door/Clip",
-            "name": "[Clip] Behind Exit Door"
-          },
-          {
-            "ref": "1-2b/Behind Left Portal Pillar/Arrows",
-            "name": "[Arrows] Behind Left Portal Pillar"
-          },
-          {
-            "ref": "1-2b/Behind Right Portal Pillar/Quiver",
-            "name": "[Quiver] Behind Right Portal Pillar"
-          },
-          {
-            "ref": "1-2b/Enemy up Ladder/Raptoid",
-            "name": "[Raptoid] Enemy up Ladder"
-          },
-          {
-            "ref": "1-2b/Enemy Behind Exit Door/Endtrail",
-            "name": "[Endtrail] Enemy Behind Exit Door"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Hub",
-            "x": 674,
-            "y": 902
-          }
-        ],
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png"
+        ]
       },
       {
         "name": "1-3",
@@ -598,9 +550,51 @@
             "x": 674,
             "y": 872
           }
+        ]
+      },
+      {
+        "name": "1-2b",
+        "sections": [
+          {
+            "ref": "1-2b/In Corner Up Ladder/Clip",
+            "name": "[Clip] In Corner Up Ladder"
+          },
+          {
+            "ref": "1-2b/Up Ladder/Level Key",
+            "name": "[Level Key] Up Ladder"
+          },
+          {
+            "ref": "1-2b/End of Pipe/Explosive Shells",
+            "name": "[Explosive Shells] End of Pipe"
+          },
+          {
+            "ref": "1-2b/Behind Exit Door/Clip",
+            "name": "[Clip] Behind Exit Door"
+          },
+          {
+            "ref": "1-2b/Behind Left Portal Pillar/Arrows",
+            "name": "[Arrows] Behind Left Portal Pillar"
+          },
+          {
+            "ref": "1-2b/Behind Right Portal Pillar/Quiver",
+            "name": "[Quiver] Behind Right Portal Pillar"
+          },
+          {
+            "ref": "1-2b/Enemy up Ladder/Raptoid",
+            "name": "[Raptoid] Enemy up Ladder"
+          },
+          {
+            "ref": "1-2b/Enemy Behind Exit Door/Endtrail",
+            "name": "[Endtrail] Enemy Behind Exit Door"
+          }
         ],
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png"
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 674,
+            "y": 902
+          }
+        ]
       },
       {
         "name": "1-4",
@@ -800,9 +794,7 @@
             "x": 734,
             "y": 812
           }
-        ],
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png"
+        ]
       },
       {
         "name": "1-5",
@@ -918,9 +910,7 @@
             "x": 734,
             "y": 842
           }
-        ],
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png"
+        ]
       },
       {
         "name": "1-6",
@@ -1008,9 +998,7 @@
             "x": 734,
             "y": 872
           }
-        ],
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png"
+        ]
       },
       {
         "name": "1-7",
@@ -1178,9 +1166,7 @@
             "x": 734,
             "y": 902
           }
-        ],
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png"
+        ]
       },
       {
         "name": "1-8",
@@ -1277,12 +1263,10 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 793,
+            "x": 794,
             "y": 812
           }
-        ],
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png"
+        ]
       },
       {
         "name": "1-9",
@@ -1695,12 +1679,10 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 793,
+            "x": 794,
             "y": 842
           }
-        ],
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png"
+        ]
       },
       {
         "name": "1-O",
@@ -1721,12 +1703,234 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 793,
+            "x": 794,
             "y": 872
           }
+        ]
+      },
+      {
+        "name": "2-1",
+        "sections": [
+          {
+            "ref": "2-1/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
         ],
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png"
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 837,
+            "y": 606
+          }
+        ]
+      },
+      {
+        "name": "2-2",
+        "sections": [
+          {
+            "ref": "2-2/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 837,
+            "y": 636
+          }
+        ]
+      },
+      {
+        "name": "2-3",
+        "sections": [
+          {
+            "ref": "2-3/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 837,
+            "y": 666
+          }
+        ]
+      },
+      {
+        "name": "2-4",
+        "sections": [
+          {
+            "ref": "2-4/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 837,
+            "y": 696
+          }
+        ]
+      },
+      {
+        "name": "2-O",
+        "sections": [
+          {
+            "ref": "2-O/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 897,
+            "y": 606
+          }
+        ]
+      },
+      {
+        "name": "2-5",
+        "sections": [
+          {
+            "ref": "2-5/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 897,
+            "y": 636
+          }
+        ]
+      },
+      {
+        "name": "2-6a",
+        "sections": [
+          {
+            "ref": "2-6a/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 897,
+            "y": 666
+          }
+        ]
+      },
+      {
+        "name": "2-6b",
+        "sections": [
+          {
+            "ref": "2-6b/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 897,
+            "y": 696
+          }
+        ]
+      },
+      {
+        "name": "2-GY1",
+        "sections": [
+          {
+            "ref": "2-GY1/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 957,
+            "y": 606
+          }
+        ]
+      },
+      {
+        "name": "2-6c",
+        "sections": [
+          {
+            "ref": "2-6c/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 957,
+            "y": 636
+          }
+        ]
+      },
+      {
+        "name": "2-7",
+        "sections": [
+          {
+            "ref": "2-7/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 957,
+            "y": 666
+          }
+        ]
+      },
+      {
+        "name": "2-GY2",
+        "sections": [
+          {
+            "ref": "2-GY2/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 957,
+            "y": 696
+          }
+        ]
+      },
+      {
+        "name": "2-8",
+        "sections": [
+          {
+            "ref": "2-8/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 1017,
+            "y": 606
+          }
+        ]
+      },
+      {
+        "name": "2-GY3",
+        "sections": [
+          {
+            "ref": "2-GY3/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 1017,
+            "y": 636
+          }
+        ]
       }
     ]
   }

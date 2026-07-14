@@ -103,19 +103,6 @@ LOCATIONS_1_2a = {
 	[52078] = {"@1-2a/Enemy By Portal/Raptoid"}
 }
 
-LOCATIONS_1_2b = {
-	[52079] = {"@1-2b/In Corner Up Ladder/Clip"},
-	[52080] = {"@1-2b/In Corner Up Ladder/Clip"},
-	[52081] = {"@1-2b/In Corner Up Ladder/Clip"},
-	[52082] = {"@1-2b/Up Ladder/Level Key"},
-	[52083] = {"@1-2b/End of Pipe/Explosive Shells"},
-	[52084] = {"@1-2b/Behind Exit Door/Clip"},
-	[52085] = {"@1-2b/Behind Left Portal Pillar/Arrows"},
-	[52086] = {"@1-2b/Behind Right Portal Pillar/Quiver"},
-	[52087] = {"@1-2b/Enemy up Ladder/Raptoid"},
-	[52088] = {"@1-2b/Enemy Behind Exit Door/Endtrail"}
-}
-
 LOCATIONS_1_3 = {
 	[53000] = {"@1-3F/Near Portal Behind Left Pillar/Clip"},
 	[53001] = {"@1-3F/Behind Right Pillar/Clip"},
@@ -247,6 +234,19 @@ LOCATIONS_1_3 = {
 	[53127] = {"@1-3B/Enemy in Water Room/Raptoid"},
 	[53128] = {"@1-3B/Enemy by Cage/Endtrail"},
 	[53129] = {"@1-3B/Enemy by Cage/Endtrail"}
+}
+
+LOCATIONS_1_2b = {
+	[52079] = {"@1-2b/In Corner Up Ladder/Clip"},
+	[52080] = {"@1-2b/In Corner Up Ladder/Clip"},
+	[52081] = {"@1-2b/In Corner Up Ladder/Clip"},
+	[52082] = {"@1-2b/Up Ladder/Level Key"},
+	[52083] = {"@1-2b/End of Pipe/Explosive Shells"},
+	[52084] = {"@1-2b/Behind Exit Door/Clip"},
+	[52085] = {"@1-2b/Behind Left Portal Pillar/Arrows"},
+	[52086] = {"@1-2b/Behind Right Portal Pillar/Quiver"},
+	[52087] = {"@1-2b/Enemy up Ladder/Raptoid"},
+	[52088] = {"@1-2b/Enemy Behind Exit Door/Endtrail"}
 }
 
 LOCATIONS_1_4 = {
