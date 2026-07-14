@@ -135,20 +135,58 @@ function has_weapon_requirement(level, weapon_barrier_suffix)
     return unique_weapons_owned >= weapon_setting.AcquiredCount
 end
 
+---Returns whether the player has unused items, given the item and all locations it's used
+---@param mission_item string code for the item
+---@param mission_item_locations array of strings of the locations the item is used
+function has_unused_mission_item(mission_item, mission_item_locations)
+    local used_items = 0
+    for _, location in pairs(mission_item_locations) do
+        if Tracker:FindObjectForCode(location).AvailableChestCount == 0 then
+            used_items = used_items + 1
+        end
+    end
+
+    return Tracker:ProviderCountForCode(mission_item) - used_items > 0
+end
+
 ---Returns whether the player has an unused power cell
 function has_unused_power_cell()
-    local used_power_cells = 0
-    if Tracker:FindObjectForCode("@1-1/Beacon Room/Activate Beacon").AvailableChestCount == 0 then
-        used_power_cells = used_power_cells + 1
+    return has_unused_mission_item(
+        "power_cell",
+        {
+            "@1-1/Beacon Room/Activate Beacon",
+            "@1-3B/Ladder After Box Jumps/Activate Beacon",
+            "@1-3B/Bottom Right Near Boxes/Activate Beacon"
+        }
+    )
+end
+
+---Returns whether the player has an level 3 satchel charge
+---TODO: add the locations when they are real
+function has_unused_l3_satchel_charge()
+    return has_unused_mission_item(
+        "l3_satchel_charge",
+        {
+            
+        }
+    )
+end
+
+-- Accessibility for map 3-4b, as a glitch can be used to get here early
+---Returns whether the player can do the level 3 brdige jump to get to 3-4b, skipping a warp
+---Includes whether the map can be accessed at all
+function level_3_4b_access()
+    if map_access(3, 4, "mid") then
+        return AccessibilityLevel.Normal
     end
 
-    if Tracker:FindObjectForCode("@1-3B/Ladder After Box Jumps/Activate Beacon").AvailableChestCount == 0 then
-        used_power_cells = used_power_cells + 1
+    if map_access(3, 3, "mid") then
+        if has("level_3_bridge_jump") then
+            return AccessibilityLevel.Normal
+        else
+            return AccessibilityLevel.SequenceBreak
+        end
     end
 
-    if Tracker:FindObjectForCode("@1-3B/Bottom Right Near Boxes/Activate Beacon").AvailableChestCount == 0 then
-        used_power_cells = used_power_cells + 1
-    end
-
-    return Tracker:ProviderCountForCode("power_cell") - used_power_cells > 0
+    return AccessibilityLevel.None
 end

@@ -1,0 +1,21 @@
+[
+    {
+        "name": "3-A3",
+        "chest_unopened_img": "images/items/life_forces/lf1.png",
+        "chest_opened_img": "images/items/life_forces/lf1_bw.png",
+        "access_rules": [
+            "$map_access|3|1,[l3_satchel_charge:3],$has_unused_l3_satchel_charge"
+        ],
+        "children": [
+            {
+                "name": "TEMP",
+                "sections": [
+                    {
+                        "name": "DELETE ME",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]
