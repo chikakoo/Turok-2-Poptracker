@@ -1,0 +1,142 @@
+{
+    "level_5": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "5-1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-1"
+                    ]
+                }
+            },
+            {
+                "title": "5-2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-2"
+                    ]
+                }
+            },
+            {
+                "title": "5-3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-3"
+                    ]
+                }
+            },
+            {
+                "title": "5-4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-4"
+                    ]
+                }
+            },
+            {
+                "title": "5-5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-5"
+                    ]
+                }
+            },
+            {
+                "title": "5-O",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-O"
+                    ]
+                }
+            },
+            {
+                "title": "5-6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-6"
+                    ]
+                }
+            },
+            {
+                "title": "5-7",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-7"
+                    ]
+                }
+            },
+            {
+                "title": "5-8",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-8"
+                    ]
+                }
+            },
+            {
+                "title": "5-E1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-E1"
+                    ]
+                }
+            },
+            {
+                "title": "5-9",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-9"
+                    ]
+                }
+            },
+            {
+                "title": "5-E2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-E2"
+                    ]
+                }
+            },
+            {
+                "title": "5-E3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-E3"
+                    ]
+                }
+            },
+            {
+                "title": "5-MC",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-MC"
+                    ]
+                }
+            },
+            {
+                "title": "5-10",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "5-10"
+                    ]
+                }
+            }
+        ]
+    }
+}

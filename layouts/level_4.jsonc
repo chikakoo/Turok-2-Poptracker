@@ -1,0 +1,133 @@
+{
+    "level_4": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "4-1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-1"
+                    ]
+                }
+            },
+            {
+                "title": "4-2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-2"
+                    ]
+                }
+            },
+            {
+                "title": "4-3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-3"
+                    ]
+                }
+            },
+            {
+                "title": "4-4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-4"
+                    ]
+                }
+            },
+            {
+                "title": "4-V1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-V1"
+                    ]
+                }
+            },
+            {
+                "title": "4-5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-5"
+                    ]
+                }
+            },
+            {
+                "title": "4-V2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-V2"
+                    ]
+                }
+            },
+            {
+                "title": "4-6a",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-6a"
+                    ]
+                }
+            },
+            {
+                "title": "4-O",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-O"
+                    ]
+                }
+            },
+            {
+                "title": "4-7",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-7"
+                    ]
+                }
+            },
+            {
+                "title": "4-8a",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-8a"
+                    ]
+                }
+            },
+            {
+                "title": "4-V3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-V3"
+                    ]
+                }
+            },
+            {
+                "title": "4-8b",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-8b"
+                    ]
+                }
+            },
+            {
+                "title": "4-6b",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "4-6b"
+                    ]
+                }
+            }
+        ]
+    }
+}

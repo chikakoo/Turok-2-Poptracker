@@ -33,6 +33,34 @@
                 "type": "layout",
                 "key": "level_2"
               }
+            },
+            {
+              "title": "Level 3",
+              "content": {
+                "type": "layout",
+                "key": "level_3"
+              }
+            },
+            {
+              "title": "Level 4",
+              "content": {
+                "type": "layout",
+                "key": "level_4"
+              }
+            },
+            {
+              "title": "Level 5",
+              "content": {
+                "type": "layout",
+                "key": "level_5"
+              }
+            },
+            {
+              "title": "Level 6",
+              "content": {
+                "type": "layout",
+                "key": "level_6"
+              }
             }
           ]
         },

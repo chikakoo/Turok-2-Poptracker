@@ -1,0 +1,106 @@
+{
+    "level_6": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "6-Hub",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "6-Hub"
+                    ]
+                }
+            },
+            {
+                "title": "6-1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "6-1"
+                    ]
+                }
+            },
+            {
+                "title": "6-2a",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "6-2a"
+                    ]
+                }
+            },
+            {
+                "title": "6-2b",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "6-2b"
+                    ]
+                }
+            },
+            {
+                "title": "6-3a",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "6-3a"
+                    ]
+                }
+            },
+            {
+                "title": "6-3b",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "6-3b"
+                    ]
+                }
+            },
+            {
+                "title": "6-4a",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "6-4a"
+                    ]
+                }
+            },
+            {
+                "title": "6-4b",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "6-4b"
+                    ]
+                }
+            },
+            {
+                "title": "6-4c",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "6-4c"
+                    ]
+                }
+            },
+            {
+                "title": "6-4d",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "6-4d"
+                    ]
+                }
+            },
+            {
+                "title": "6-O",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "6-O"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,115 @@
+{
+    "level_3": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "3-1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-1"
+                    ]
+                }
+            },
+            {
+                "title": "3-A1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-A1"
+                    ]
+                }
+            },
+            {
+                "title": "3-2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-2"
+                    ]
+                }
+            },
+            {
+                "title": "3-3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-3"
+                    ]
+                }
+            },
+            {
+                "title": "3-O",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-O"
+                    ]
+                }
+            },
+            {
+                "title": "3-4a",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-4a"
+                    ]
+                }
+            },
+            {
+                "title": "3-A2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-A2"
+                    ]
+                }
+            },
+            {
+                "title": "3-5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-5"
+                    ]
+                }
+            },
+            {
+                "title": "3-6",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-6"
+                    ]
+                }
+            },
+            {
+                "title": "3-7",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-7"
+                    ]
+                }
+            },
+            {
+                "title": "3-A3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-A3"
+                    ]
+                }
+            },
+            {
+                "title": "3-8",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-8"
+                    ]
+                }
+            }
+        ]
+    }
+}
