@@ -12,8 +12,8 @@
                 "sections": [
                     {
                         "name": "Nuke Part",
-                        "chest_unopened_img": "images/items/weapons_small/nuke_parts.png",
-                        "chest_opened_img": "images/items/weapons_small/nuke_parts_bw.png",
+                        "chest_unopened_img": "images/items/weapons/nuke_parts.png",
+                        "chest_opened_img": "images/items/weapons/nuke_parts_bw.png",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|78000"

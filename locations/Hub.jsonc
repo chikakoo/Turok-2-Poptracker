@@ -65,8 +65,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 30,
-            "y": 30
+            "x": 674,
+            "y": 812
           }
         ],
         "chest_unopened_img": "images/items/life_forces/lf1.png",
@@ -223,8 +223,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 40,
-            "y": 30
+            "x": 674,
+            "y": 842
           }
         ],
         "chest_unopened_img": "images/items/life_forces/lf1.png",
@@ -269,8 +269,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 40,
-            "y": 40
+            "x": 674,
+            "y": 902
           }
         ],
         "chest_unopened_img": "images/items/life_forces/lf1.png",
@@ -595,8 +595,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 200,
-            "y": 30
+            "x": 674,
+            "y": 872
           }
         ],
         "chest_unopened_img": "images/items/life_forces/lf1.png",
@@ -797,8 +797,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 60,
-            "y": 30
+            "x": 734,
+            "y": 812
           }
         ],
         "chest_unopened_img": "images/items/life_forces/lf1.png",
@@ -915,8 +915,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 70,
-            "y": 30
+            "x": 734,
+            "y": 842
           }
         ],
         "chest_unopened_img": "images/items/life_forces/lf1.png",
@@ -1005,8 +1005,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 80,
-            "y": 30
+            "x": 734,
+            "y": 872
           }
         ],
         "chest_unopened_img": "images/items/life_forces/lf1.png",
@@ -1175,8 +1175,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 90,
-            "y": 30
+            "x": 734,
+            "y": 902
           }
         ],
         "chest_unopened_img": "images/items/life_forces/lf1.png",
@@ -1277,8 +1277,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 100,
-            "y": 30
+            "x": 793,
+            "y": 812
           }
         ],
         "chest_unopened_img": "images/items/life_forces/lf1.png",
@@ -1695,8 +1695,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 110,
-            "y": 30
+            "x": 793,
+            "y": 842
           }
         ],
         "chest_unopened_img": "images/items/life_forces/lf1.png",
@@ -1721,8 +1721,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 150,
-            "y": 60
+            "x": 793,
+            "y": 872
           }
         ],
         "chest_unopened_img": "images/items/life_forces/lf1.png",
