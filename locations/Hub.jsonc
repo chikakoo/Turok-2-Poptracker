@@ -2603,6 +2603,182 @@
             "y": 411
           }
         ]
+      },
+      {
+        "name": "6-Hub",
+        "sections": [
+          {
+            "ref": "6-Hub/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 733,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "6-1",
+        "sections": [
+          {
+            "ref": "6-1/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 733,
+            "y": 138
+          }
+        ]
+      },
+      {
+        "name": "6-2a",
+        "sections": [
+          {
+            "ref": "6-2a/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 733,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "6-2b",
+        "sections": [
+          {
+            "ref": "6-2b/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 733,
+            "y": 198
+          }
+        ]
+      },
+      {
+        "name": "6-3a",
+        "sections": [
+          {
+            "ref": "6-3a/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 793,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "6-3b",
+        "sections": [
+          {
+            "ref": "6-3b/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 793,
+            "y": 138
+          }
+        ]
+      },
+      {
+        "name": "6-4a",
+        "sections": [
+          {
+            "ref": "6-4a/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 793,
+            "y": 168
+          }
+        ]
+      },
+      {
+        "name": "6-4b",
+        "sections": [
+          {
+            "ref": "6-4b/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 793,
+            "y": 198
+          }
+        ]
+      },
+      {
+        "name": "6-4c",
+        "sections": [
+          {
+            "ref": "6-4c/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 853,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "6-4d",
+        "sections": [
+          {
+            "ref": "6-4d/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 853,
+            "y": 138
+          }
+        ]
+      },
+      {
+        "name": "6-O",
+        "sections": [
+          {
+            "ref": "6-O/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 853,
+            "y": 168
+          }
+        ]
       }
     ]
   }

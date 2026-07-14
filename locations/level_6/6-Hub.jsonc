@@ -1,0 +1,25 @@
+[
+    {
+        "name": "6-Hub",
+        "chest_unopened_img": "images/items/life_forces/lf1.png",
+        "chest_opened_img": "images/items/life_forces/lf1_bw.png",
+        // 6-Hub after wing 1 warps: 2 ("start" weapon req)
+        // 6-Hub after wing 2 warps: 5 ("start" weapon req)
+        // 6-Hub after wing 3 warps: 8 ("mid" weapon req)
+        // 6-Hub after wing 4 warps: 13 ("mid" weapon req)
+        "access_rules": [
+            "$map_access|6"
+        ],
+        "children": [
+            {
+                "name": "TEMP",
+                "sections": [
+                    {
+                        "name": "DELETE ME",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]

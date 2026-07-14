@@ -67,7 +67,7 @@ function level_access(level)
     if has("level_unlock_method_all_level_keys") then
         -- Levels 1-5 need 3 keys, level 6 needs 6 keys
         local key_requirement = 3
-        if level == 6 then
+        if tonumber(level) == 6 then
             key_requirement = 6
         end
         return has("level_" .. level .. "_key", key_requirement)
