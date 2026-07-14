@@ -98,6 +98,13 @@
         ]
     },
     {
+        "name": "Randomize Weapons",
+        "type": "toggle",
+        "img": "/images/settings/randomize_weapons.png",
+        "initial_active_state": true,
+        "codes": "randomize_weapons"
+    },
+    {
         "name": "Progressive Weapon Ammo Upgrades",
         "type": "consumable",
         "img": "/images/settings/progressive_weapon_ammo_upgrades.png",

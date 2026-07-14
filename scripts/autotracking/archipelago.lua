@@ -400,6 +400,7 @@ function AutoFill(slot_data)
         -- Progressions
         progressive_warps = { code = "progressive_warps" },
         level_unlock_method = { code = "level_unlock_method" },
+        randomize_weapons = { code = "randomize_weapons" },
         progressive_weapon_ammo_upgrades = {  code = "level_unlock_method" },
 
         -- Weapon Barriers

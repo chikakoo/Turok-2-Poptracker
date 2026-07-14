@@ -102,6 +102,12 @@
                 "type": "item",
                 "max_width": 64,
                 "margin": "2,0",
+                "item": "randomize_weapons"
+              },
+              {
+                "type": "item",
+                "max_width": 64,
+                "margin": "2,0",
                 "item": "progressive_weapon_ammo_upgrades"
               }
             ]

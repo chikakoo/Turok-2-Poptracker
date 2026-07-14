@@ -2139,6 +2139,230 @@
             "y": 608
           }
         ]
+      },
+      {
+        "name": "4-1",
+        "sections": [
+          {
+            "ref": "4-1/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 900,
+            "y": 382
+          }
+        ]
+      },
+      {
+        "name": "4-2",
+        "sections": [
+          {
+            "ref": "4-2/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 900,
+            "y": 412
+          }
+        ]
+      },
+      {
+        "name": "4-3",
+        "sections": [
+          {
+            "ref": "4-3/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 900,
+            "y": 442
+          }
+        ]
+      },
+      {
+        "name": "4-4",
+        "sections": [
+          {
+            "ref": "4-4/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 900,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "4-V1",
+        "sections": [
+          {
+            "ref": "4-V1/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 960,
+            "y": 382
+          }
+        ]
+      },
+      {
+        "name": "4-5",
+        "sections": [
+          {
+            "ref": "4-5/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 960,
+            "y": 412
+          }
+        ]
+      },
+      {
+        "name": "4-V2",
+        "sections": [
+          {
+            "ref": "4-V2/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 960,
+            "y": 442
+          }
+        ]
+      },
+      {
+        "name": "4-6a",
+        "sections": [
+          {
+            "ref": "4-6a/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 960,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "4-O",
+        "sections": [
+          {
+            "ref": "4-O/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 1020,
+            "y": 382
+          }
+        ]
+      },
+      {
+        "name": "4-7",
+        "sections": [
+          {
+            "ref": "4-7/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 1020,
+            "y": 412
+          }
+        ]
+      },
+      {
+        "name": "4-8a",
+        "sections": [
+          {
+            "ref": "4-8a/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 1020,
+            "y": 442
+          }
+        ]
+      },
+      {
+        "name": "4-V3",
+        "sections": [
+          {
+            "ref": "4-V3/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 1020,
+            "y": 472
+          }
+        ]
+      },
+      {
+        "name": "4-8b",
+        "sections": [
+          {
+            "ref": "4-8b/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 1080,
+            "y": 382
+          }
+        ]
+      },
+      {
+        "name": "4-6b",
+        "sections": [
+          {
+            "ref": "4-6b/TEMP/DELETE ME",
+            "name": "[DELETE ME] TEMP"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "Hub",
+            "x": 1080,
+            "y": 412
+          }
+        ]
       }
     ]
   }

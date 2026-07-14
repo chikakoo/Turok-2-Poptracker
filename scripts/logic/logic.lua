@@ -172,7 +172,7 @@ function has_unused_l3_satchel_charge()
     )
 end
 
--- Accessibility for map 3-4b, as a glitch can be used to get here early
+---Accessibility for map 3-4b, as a glitch can be used to get here early
 ---Returns whether the player can do the level 3 brdige jump to get to 3-4b, skipping a warp
 ---Includes whether the map can be accessed at all
 function level_3_4b_access()
@@ -189,4 +189,11 @@ function level_3_4b_access()
     end
 
     return AccessibilityLevel.None
+end
+
+---Checks the torpedo launcher requirement
+---If not randomizing weapons, a vanilla torpedo launcher is available
+---Else, check for either the weapon or the trick to skip it
+function has_torpedo_launcher()
+    return not has("randomize_weapons") or has("torpedo_launcher") or has("level_4_skip_torpedo_launcher")
 end

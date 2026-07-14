@@ -1,0 +1,22 @@
+[
+    {
+        "name": "4-8a",
+        "chest_unopened_img": "images/items/life_forces/lf1.png",
+        "chest_opened_img": "images/items/life_forces/lf1_bw.png",
+        // The post-cave door key checks should be: Min: 3, Max: 5
+        "access_rules": [
+            "$map_access|4|7|mid,cave_door_key:2,[cave_door_key:4],[$has_torpedo_launcher]"
+        ],
+        "children": [
+            {
+                "name": "TEMP",
+                "sections": [
+                    {
+                        "name": "DELETE ME",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]
