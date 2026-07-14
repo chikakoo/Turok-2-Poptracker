@@ -10,6 +10,123 @@
                         "2-1"
                     ]
                 }
+            },
+            {
+                "title": "2-2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-2"
+                    ]
+                }
+            },
+            {
+                "title": "2-3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-3"
+                    ]
+                }
+            },
+            {
+                "title": "2-4",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-4"
+                    ]
+                }
+            },
+            {
+                "title": "2-O",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-O"
+                    ]
+                }
+            },
+            {
+                "title": "2-5",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-5"
+                    ]
+                }
+            },
+            {
+                "title": "2-6a",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-6a"
+                    ]
+                }
+            },
+            {
+                "title": "2-6b",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-6b"
+                    ]
+                }
+            },
+            {
+                "title": "2-GY1",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-GY1"
+                    ]
+                }
+            },
+            {
+                "title": "2-6c",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-6c"
+                    ]
+                }
+            },
+            {
+                "title": "2-7",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-7"
+                    ]
+                }
+            },
+            {
+                "title": "2-GY2",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-GY2"
+                    ]
+                }
+            },
+            {
+                "title": "2-8",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-8"
+                    ]
+                }
+            },
+            {
+                "title": "2-GY3",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "2-GY3"
+                    ]
+                }
             }
         ]
     }
