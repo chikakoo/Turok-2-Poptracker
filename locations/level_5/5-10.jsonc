@@ -1,0 +1,22 @@
+[
+    {
+        "name": "5-10",
+        "chest_unopened_img": "images/items/life_forces/lf1.png",
+        "chest_opened_img": "images/items/life_forces/lf1_bw.png",
+        // TODO: when the setting for skipping breath of life is set, make it optional with the trick
+        "access_rules": [
+            "$map_access|5|10|mid,breath_of_life"
+        ],
+        "children": [
+            {
+                "name": "TEMP",
+                "sections": [
+                    {
+                        "name": "DELETE ME",
+                        "item_count": 1
+                    }
+                ]
+            }
+        ]
+    }
+]
