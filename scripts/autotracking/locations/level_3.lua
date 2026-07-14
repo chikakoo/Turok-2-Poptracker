@@ -1,0 +1,51 @@
+LOCATIONS_3_1 = {
+
+}
+
+LOCATIONS_3_A1 = {
+
+}
+
+LOCATIONS_3_2 = {
+
+}
+
+LOCATIONS_3_3 = {
+
+}
+
+LOCATIONS_3_O = {
+
+}
+
+LOCATIONS_3_4a = {
+
+}
+
+LOCATIONS_3_A2 = {
+
+}
+
+LOCATIONS_3_4b = {
+
+}
+
+LOCATIONS_3_5 = {
+
+}
+
+LOCATIONS_3_6 = {
+
+}
+
+LOCATIONS_3_7 = {
+
+}
+
+LOCATIONS_3_A3 = {
+
+}
+
+LOCATIONS_3_8 = {
+
+}

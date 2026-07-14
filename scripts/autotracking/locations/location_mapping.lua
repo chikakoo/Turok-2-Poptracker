@@ -1,9 +1,9 @@
 require("scripts.autotracking.locations.level_1")
 require("scripts.autotracking.locations.level_2")
---require("scripts.autotracking.locations.level_3")
---require("scripts.autotracking.locations.level_4")
---require("scripts.autotracking.locations.level_5")
---require("scripts.autotracking.locations.level_6")
+require("scripts.autotracking.locations.level_3")
+require("scripts.autotracking.locations.level_4")
+require("scripts.autotracking.locations.level_5")
+require("scripts.autotracking.locations.level_6")
 
 LOCATION_MAPPING = concat_tables(
 	-- Level 1
@@ -33,5 +33,66 @@ LOCATION_MAPPING = concat_tables(
 	LOCATIONS_2_7,
 	LOCATIONS_2_GY2,
 	LOCATIONS_2_8,
-	LOCATIONS_2_GY3
+	LOCATIONS_2_GY3,
+
+	-- Level 3
+	LOCATIONS_3_1,
+	LOCATIONS_3_A1,
+	LOCATIONS_3_2,
+	LOCATIONS_3_3,
+	LOCATIONS_3_O,
+	LOCATIONS_3_4a,
+	LOCATIONS_3_A2,
+	LOCATIONS_3_4b,
+	LOCATIONS_3_5,
+	LOCATIONS_3_6,
+	LOCATIONS_3_7,
+	LOCATIONS_3_A3,
+	LOCATIONS_3_8,
+
+	-- Level 4
+	LOCATIONS_4_1,
+	LOCATIONS_4_2,
+	LOCATIONS_4_3,
+	LOCATIONS_4_4,
+	LOCATIONS_4_V1,
+	LOCATIONS_4_5,
+	LOCATIONS_4_V2,
+	LOCATIONS_4_6a,
+	LOCATIONS_4_O,
+	LOCATIONS_4_7,
+	LOCATIONS_4_8a,
+	LOCATIONS_4_V3,
+	LOCATIONS_4_8b,
+	LOCATIONS_4_6b,
+
+	-- Level 5
+	LOCATIONS_5_1,
+	LOCATIONS_5_2,
+	LOCATIONS_5_3,
+	LOCATIONS_5_4,
+	LOCATIONS_5_5,
+	LOCATIONS_5_O,
+	LOCATIONS_5_6,
+	LOCATIONS_5_7,
+	LOCATIONS_5_8,
+	LOCATIONS_5_E1,
+	LOCATIONS_5_9,
+	LOCATIONS_5_E2,
+	LOCATIONS_5_E3,
+	LOCATIONS_5_MC,
+	LOCATIONS_5_10,
+
+	-- Level 6
+	LOCATIONS_6_Hub,
+	LOCATIONS_6_1,
+	LOCATIONS_6_2a,
+	LOCATIONS_6_2b,
+	LOCATIONS_6_3a,
+	LOCATIONS_6_3b,
+	LOCATIONS_6_4a,
+	LOCATIONS_6_4b,
+	LOCATIONS_6_4c,
+	LOCATIONS_6_4d,
+	LOCATIONS_6_O
 )
