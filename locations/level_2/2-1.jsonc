@@ -875,6 +875,8 @@
             },
             {
                 "name": "Enemy by Buildings",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -895,6 +897,8 @@
             },
             {
                 "name": "Enemy in Right Path Start",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -915,6 +919,8 @@
             },
             {
                 "name": "Enemy in Right Path End",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -935,6 +941,8 @@
             },
             {
                 "name": "Enemy in Left Path Start",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -958,6 +966,8 @@
                 "sections": [
                     {
                         "name": "Endtrail",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|125075"
@@ -975,6 +985,8 @@
             },
             {
                 "name": "Enemy After Left Path Exploded Wall",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -995,6 +1007,8 @@
             },
             {
                 "name": "Enemy at Left Path End",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -1015,6 +1029,8 @@
             },
             {
                 "name": "Enemy Sniper After First Gate",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -1035,6 +1051,8 @@
             },
             {
                 "name": "Enemy in First Gate Tunnel",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -1055,6 +1073,8 @@
             },
             {
                 "name": "Enemy by Second Gate",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -1075,6 +1095,8 @@
             },
             {
                 "name": "Enemy After Second Gate",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -1095,6 +1117,8 @@
             },
             {
                 "name": "Enemy After Third Gate",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -1115,6 +1139,8 @@
             },
             {
                 "name": "Enemy After Fences",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -1135,6 +1161,8 @@
             },
             {
                 "name": "Enemy Tunnel",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -1155,6 +1183,8 @@
             },
             {
                 "name": "Enemy Behind Barrier",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -1175,6 +1205,8 @@
             },
             {
                 "name": "Enemy After Upper Bridge",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -1195,6 +1227,8 @@
             },
             {
                 "name": "Enemy Spawned From Standing Here",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -1215,6 +1249,8 @@
             },
             {
                 "name": "Enemy in Exploded Wall Loop",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -1235,6 +1271,8 @@
             },
             {
                 "name": "Enemy by Ultra Health Gate",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -1258,6 +1296,8 @@
                 "sections": [
                     {
                         "name": "Endtrail",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|125105"
@@ -1265,6 +1305,8 @@
                     },
                     {
                         "name": "Raptoid",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
                         "item_count": 5,
                         "visibility_rules": [
                             "$id_exists|125106|125107|125108|125109|125110"
