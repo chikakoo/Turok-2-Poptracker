@@ -1902,6 +1902,90 @@
           {
             "ref": "2-1/Right After End Bridge/Box of Bullets",
             "name": "[Box of Bullets] Right After End Bridge"
+          },
+          {
+            "ref": "2-1/Enemy by Buildings/Raptoid",
+            "name": "[Raptoid] Enemy by Buildings"
+          },
+          {
+            "ref": "2-1/Enemy in Right Path Start/Raptoid",
+            "name": "[Raptoid] Enemy in Right Path Start"
+          },
+          {
+            "ref": "2-1/Enemy in Right Path End/Raptoid",
+            "name": "[Raptoid] Enemy in Right Path End"
+          },
+          {
+            "ref": "2-1/Enemy in Left Path Start/Raptoid",
+            "name": "[Raptoid] Enemy in Left Path Start"
+          },
+          {
+            "ref": "2-1/Enemy by Left Path Exploded Wall/Endtrail",
+            "name": "[Endtrail] Enemy by Left Path Exploded Wall"
+          },
+          {
+            "ref": "2-1/Enemy After Left Path Exploded Wall/Raptoid",
+            "name": "[Raptoid] Enemy After Left Path Exploded Wall"
+          },
+          {
+            "ref": "2-1/Enemy at Left Path End/Endtrail",
+            "name": "[Endtrail] Enemy at Left Path End"
+          },
+          {
+            "ref": "2-1/Enemy Sniper After First Gate/Endtrail",
+            "name": "[Endtrail] Enemy Sniper After First Gate"
+          },
+          {
+            "ref": "2-1/Enemy in First Gate Tunnel/Endtrail",
+            "name": "[Endtrail] Enemy in First Gate Tunnel"
+          },
+          {
+            "ref": "2-1/Enemy by Second Gate/Endtrail",
+            "name": "[Endtrail] Enemy by Second Gate"
+          },
+          {
+            "ref": "2-1/Enemy After Second Gate/Endtrail",
+            "name": "[Endtrail] Enemy After Second Gate"
+          },
+          {
+            "ref": "2-1/Enemy After Third Gate/Raptoid",
+            "name": "[Raptoid] Enemy After Third Gate"
+          },
+          {
+            "ref": "2-1/Enemy After Fences/Raptoid",
+            "name": "[Raptoid] Enemy After Fences"
+          },
+          {
+            "ref": "2-1/Enemy Tunnel/Endtrail",
+            "name": "[Endtrail] Enemy Tunnel"
+          },
+          {
+            "ref": "2-1/Enemy Behind Barrier/Endtrail",
+            "name": "[Endtrail] Enemy Behind Barrier"
+          },
+          {
+            "ref": "2-1/Enemy After Upper Bridge/Raptoid",
+            "name": "[Raptoid] Enemy After Upper Bridge"
+          },
+          {
+            "ref": "2-1/Enemy Spawned From Standing Here/Raptoid",
+            "name": "[Raptoid] Enemy Spawned From Standing Here"
+          },
+          {
+            "ref": "2-1/Enemy in Exploded Wall Loop/Endtrail",
+            "name": "[Endtrail] Enemy in Exploded Wall Loop"
+          },
+          {
+            "ref": "2-1/Enemy by Ultra Health Gate/Endtrail",
+            "name": "[Endtrail] Enemy by Ultra Health Gate"
+          },
+          {
+            "ref": "2-1/Enemy in End Tunnel/Endtrail",
+            "name": "[Endtrail] Enemy in End Tunnel"
+          },
+          {
+            "ref": "2-1/Enemy in End Tunnel/Raptoid",
+            "name": "[Raptoid] Enemy in End Tunnel"
           }
         ],
         "map_locations": [

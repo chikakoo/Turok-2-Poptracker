@@ -4,6 +4,7 @@ from pathlib import Path
 
 """
 Generates the Hub.jsonc file so the hub locations can be references to the real locations
+It also validates the files to ensure that ids are unique/correct
 """
 
 # Items are placed vertically for this many rows before starting a new column
@@ -131,6 +132,11 @@ MAP_DATA = [
 # The output file name
 OUTPUT_FILE = "Hub.jsonc"
 
+# Validation state
+id_locations = {} # id -> first location where it appeared
+validation_errors = []
+ID_EXISTS_RE = re.compile(r"^\$id_exists\|(.+)$")
+
 def load_jsonc(path: Path):
     """
     Loads the jsonc file, removing the comments so that the library can parse it.
@@ -158,6 +164,7 @@ def add_locations(hub_child, map_name, node, path):
             display_name = f"{location_name}"
 
         for section in node["sections"]:
+            validate_section(map_name, current_path, section)
             hub_child["sections"].append({
                 "ref": f"{ref_path}/{section['name']}",
                 "name": f"[{section['name']}] {display_name}"
@@ -165,6 +172,42 @@ def add_locations(hub_child, map_name, node, path):
 
     for child in node.get("children", []):
         add_locations(hub_child, map_name, child, current_path)
+
+def validate_section(map_name, path, section):
+    """
+    Validates a single section.
+
+    path is a list of parent names, e.g.
+    ["Land", "On Box"]
+    """
+    full_location = f"{map_name}/{'/'.join(path)}/{section['name']}"
+
+    expected_count = section["item_count"]
+
+    for rule in section.get("visibility_rules", []):
+        match = ID_EXISTS_RE.match(rule)
+        if not match:
+            continue
+
+        ids = match.group(1).split("|")
+
+        # Count validation
+        if len(ids) != expected_count:
+            validation_errors.append(
+                f"{full_location}: item_count={expected_count}, "
+                f"but $id_exists has {len(ids)} ids ({', '.join(ids)})"
+            )
+
+        # Duplicate validation
+        for id_string in ids:
+            if id_string in id_locations:
+                validation_errors.append(
+                    f"Duplicate id {id_string}\n"
+                    f"  First: {id_locations[id_string]}\n"
+                    f"  Again: {full_location}"
+                )
+            else:
+                id_locations[id_string] = full_location
 
 # Skeleton of the hub object
 hub = [
@@ -213,6 +256,23 @@ for map_data in MAP_DATA:
                 add_locations(child, map_name, location, [])
 
 hub[0]["children"] = list(hub_children.values())
+
+# Write any validation errrs
+if validation_errors:
+    print()
+    print("=================")
+    print("VALIDATION ERRORS")
+    print("=================")
+
+    for error in validation_errors:
+        print(error)
+
+    print()
+    print(f"{len(validation_errors)} error(s) found.")
+
+    raise SystemExit(1)
+else:
+    print("Validation passed.")
 
 # Write the file
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:

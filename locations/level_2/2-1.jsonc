@@ -777,7 +777,7 @@
                         "chest_opened_img": "images/items/life_forces/lf10_bw.png",
                         "item_count": 10,
                         "visibility_rules": [
-                            "$id_exists|125053|125054|125055|125056|125057|125058|1250590|125061|125062"
+                            "$id_exists|125053|125054|125055|125056|125057|125058|125059|125060|125061|125062"
                         ]
                     }
                 ],
@@ -870,6 +870,413 @@
                         "map": "2-1",
                         "x": 407,
                         "y": 83
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Buildings",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|125067|125068"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 216,
+                        "y": 655
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Path Start",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|125069|125070"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 327,
+                        "y": 713
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Path End",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125071"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 303,
+                        "y": 749
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Path Start",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|125072|125073|125074"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 121,
+                        "y": 696
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Left Path Exploded Wall",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125075"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 75,
+                        "y": 574
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Left Path Exploded Wall",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|125076|125077"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 75,
+                        "y": 529
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Left Path End",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|125078|125079|125080"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 185,
+                        "y": 403
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Sniper After First Gate",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125081"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 188,
+                        "y": 528
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in First Gate Tunnel",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125082"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 182,
+                        "y": 483
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Second Gate",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125083"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 251,
+                        "y": 453
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Second Gate",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125084"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 280,
+                        "y": 437
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Third Gate",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|125085|125086"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 332,
+                        "y": 512
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Fences",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125087"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 373,
+                        "y": 561
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Tunnel",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|125088|125089|125090"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 405,
+                        "y": 463
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Behind Barrier",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|125091|125092|125093|125094"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 482,
+                        "y": 287
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Upper Bridge",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|125095|125096"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 336,
+                        "y": 269
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Standing Here",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|125097|125103"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 296,
+                        "y": 267
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Exploded Wall Loop",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|125098|125099|125100|125101|125102"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 191,
+                        "y": 252
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Ultra Health Gate",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125104"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 232,
+                        "y": 145
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in End Tunnel",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125105"
+                        ]
+                    },
+                    {
+                        "name": "Raptoid",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|125106|125107|125108|125109|125110"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "shape": "diamond",
+                        "x": 248,
+                        "y": 71
                     }
                 ]
             }
