@@ -191,9 +191,24 @@ function level_3_4b_access()
     return AccessibilityLevel.None
 end
 
+---TODO: replace this function with the below, as it actually tracks the places the keys are used!
 ---Returns whether the player has an unused cave door key, based on events
 function has_unused_cave_door_key()
     return Tracker:ProviderCountForCode("cave_door_key") - Tracker:ProviderCountForCode("cave_door_key_used") > 0
+end
+
+---TODO: this is what we need to use, not the above function...
+--- We probably DO want to place the location for this if this is how we're computing it
+function can_enter_cave_door(cave_door_name, min_keys, max_keys)
+    if Tracker:FindObjectForCode(cave_door_name).AvailableChestCount == 0 or has("cave_door_key", max_keys) then
+        return AccessibilityLevel.Normal
+    end
+
+    if has("cave_door_key", min_keys) then
+        return AccessibilityLevel.SequenceBreak
+    end
+
+    return AccessibilityLevel.None
 end
 
 ---Checks the torpedo launcher requirement

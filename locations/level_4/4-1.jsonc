@@ -5,8 +5,8 @@
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         // Note that level 4 in general will need to check that the "use key" locations are received 
         // to know which maps are actually accessible
-        // ... that and a min value for when you definitely can go to a map without checking the "use keys"
         //   - CURRENTLY USING KEYS WILL MAKE MAPS SHOW UP RED, THIS NEEDS TO BE FIXED
+        //   - To fix this, replace has_unused_cave_door_key with can_enter_cave_door (and remove the item tracking...)
         //
         // 4-1 Whispers cave door key range is:
         // Min: 1, Max: 7 (all of them)
