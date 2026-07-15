@@ -424,20 +424,5 @@
     "type": "toggle",
     "img": "images/items/weapons/nuke.png",
     "codes": "nuke"
-  },
-
-  {
-    "name": "Cave Door Key Used",
-    "type": "consumable",
-    //"img": "images/items/interactables/cave_door_key_used.png",
-    "max_quantity": 7,
-    "codes": "cave_door_key_used"
-  },
-  {
-    "name": "Primagen Key Switch Pressed",
-    "type": "consumable",
-    //"img": "images/items/interactables/primagen_key_switch_pressed.png",
-    "max_quantity": 4,
-    "codes": "primagen_key_switch_pressed"
   }
 ]

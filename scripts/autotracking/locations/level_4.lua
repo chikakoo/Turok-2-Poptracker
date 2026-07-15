@@ -1,5 +1,5 @@
 LOCATIONS_4_1 = {
-
+    [98063] = {"@4-1/Whispers Drop/Unlock Cave Door"},
 }
 
 LOCATIONS_4_2 = {

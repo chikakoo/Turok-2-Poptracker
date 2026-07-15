@@ -194,7 +194,7 @@ end
 ---TODO: replace this function with the below, as it actually tracks the places the keys are used!
 ---Returns whether the player has an unused cave door key, based on events
 function has_unused_cave_door_key()
-    return Tracker:ProviderCountForCode("cave_door_key") - Tracker:ProviderCountForCode("cave_door_key_used") > 0
+    return true --Tracker:ProviderCountForCode("cave_door_key") - Tracker:ProviderCountForCode("cave_door_key_used") > 0
 end
 
 ---TODO: this is what we need to use, not the above function...

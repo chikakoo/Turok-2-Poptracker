@@ -1712,8 +1712,196 @@
         "name": "2-1",
         "sections": [
           {
-            "ref": "2-1/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-1/By Entrance/Clip",
+            "name": "[Clip] By Entrance"
+          },
+          {
+            "ref": "2-1/By Checkpoint/Shells",
+            "name": "[Shells] By Checkpoint"
+          },
+          {
+            "ref": "2-1/Behind Right Building/Clip",
+            "name": "[Clip] Behind Right Building"
+          },
+          {
+            "ref": "2-1/By Left Building/Shells",
+            "name": "[Shells] By Left Building"
+          },
+          {
+            "ref": "2-1/After Right Wall at Start/Full Health",
+            "name": "[Full Health] After Right Wall at Start"
+          },
+          {
+            "ref": "2-1/After Right Wall at Start/Box of Bullets",
+            "name": "[Box of Bullets] After Right Wall at Start"
+          },
+          {
+            "ref": "2-1/After Right Wall at Start/Shells",
+            "name": "[Shells] After Right Wall at Start"
+          },
+          {
+            "ref": "2-1/Left Path Turret Buildings/Shells",
+            "name": "[Shells] Left Path Turret Buildings"
+          },
+          {
+            "ref": "2-1/Left Path Exploded Wall/Full Health",
+            "name": "[Full Health] Left Path Exploded Wall"
+          },
+          {
+            "ref": "2-1/Left Path Exploded Wall/Box of Bullets",
+            "name": "[Box of Bullets] Left Path Exploded Wall"
+          },
+          {
+            "ref": "2-1/Left Path Exploded Wall/Box of Shells",
+            "name": "[Box of Shells] Left Path Exploded Wall"
+          },
+          {
+            "ref": "2-1/Left Path Corner/Clip",
+            "name": "[Clip] Left Path Corner"
+          },
+          {
+            "ref": "2-1/In Shortcut Wall/Full Health",
+            "name": "[Full Health] In Shortcut Wall"
+          },
+          {
+            "ref": "2-1/In Shortcut Wall/Shells",
+            "name": "[Shells] In Shortcut Wall"
+          },
+          {
+            "ref": "2-1/Before Second Gate/Box of Shells",
+            "name": "[Box of Shells] Before Second Gate"
+          },
+          {
+            "ref": "2-1/Behind First Barrier/Clip",
+            "name": "[Clip] Behind First Barrier"
+          },
+          {
+            "ref": "2-1/Behind Second Barrier/Blue Health",
+            "name": "[Blue Health] Behind Second Barrier"
+          },
+          {
+            "ref": "2-1/Behind Third Gate/Explosive Shells",
+            "name": "[Explosive Shells] Behind Third Gate"
+          },
+          {
+            "ref": "2-1/Behind Fourth Gate/Box of Bullets",
+            "name": "[Box of Bullets] Behind Fourth Gate"
+          },
+          {
+            "ref": "2-1/Turret Slope Front Left/Clip",
+            "name": "[Clip] Turret Slope Front Left"
+          },
+          {
+            "ref": "2-1/Turret Slope Mid Right/Clip",
+            "name": "[Clip] Turret Slope Mid Right"
+          },
+          {
+            "ref": "2-1/Turret Slope Back Left/Blue Health",
+            "name": "[Blue Health] Turret Slope Back Left"
+          },
+          {
+            "ref": "2-1/Left Grass After Tunnel/Clip",
+            "name": "[Clip] Left Grass After Tunnel"
+          },
+          {
+            "ref": "2-1/Right Alcove After Tunnel/Blue Health",
+            "name": "[Blue Health] Right Alcove After Tunnel"
+          },
+          {
+            "ref": "2-1/Right Alcove After Tunnel/Explosive Shells",
+            "name": "[Explosive Shells] Right Alcove After Tunnel"
+          },
+          {
+            "ref": "2-1/Left Before Turret Bridge/Blue Health",
+            "name": "[Blue Health] Left Before Turret Bridge"
+          },
+          {
+            "ref": "2-1/Right Before Turret Bridge/Box of Shells",
+            "name": "[Box of Shells] Right Before Turret Bridge"
+          },
+          {
+            "ref": "2-1/Right Before Turret Bridge/Box of Bullets",
+            "name": "[Box of Bullets] Right Before Turret Bridge"
+          },
+          {
+            "ref": "2-1/Left Before Doorway/Clip",
+            "name": "[Clip] Left Before Doorway"
+          },
+          {
+            "ref": "2-1/Right Before Doorway/Clip",
+            "name": "[Clip] Right Before Doorway"
+          },
+          {
+            "ref": "2-1/Behind Barrier/Clip",
+            "name": "[Clip] Behind Barrier"
+          },
+          {
+            "ref": "2-1/Before Upper Bridge/Explosive Shells",
+            "name": "[Explosive Shells] Before Upper Bridge"
+          },
+          {
+            "ref": "2-1/Exploded Wall Loop Start/Explosive Shells",
+            "name": "[Explosive Shells] Exploded Wall Loop Start"
+          },
+          {
+            "ref": "2-1/Exploded Wall Loop Left/Clip",
+            "name": "[Clip] Exploded Wall Loop Left"
+          },
+          {
+            "ref": "2-1/Exploded Wall Loop Near Shacks/Full Health",
+            "name": "[Full Health] Exploded Wall Loop Near Shacks"
+          },
+          {
+            "ref": "2-1/Exploded Wall Loop Near Shacks/Clip",
+            "name": "[Clip] Exploded Wall Loop Near Shacks"
+          },
+          {
+            "ref": "2-1/Left Before Barriers/Clip",
+            "name": "[Clip] Left Before Barriers"
+          },
+          {
+            "ref": "2-1/Right Before Barriers/Clip",
+            "name": "[Clip] Right Before Barriers"
+          },
+          {
+            "ref": "2-1/Left After Barriers/Clip",
+            "name": "[Clip] Left After Barriers"
+          },
+          {
+            "ref": "2-1/Right After Barriers/Clip",
+            "name": "[Clip] Right After Barriers"
+          },
+          {
+            "ref": "2-1/Before Broken Wall/Clip",
+            "name": "[Clip] Before Broken Wall"
+          },
+          {
+            "ref": "2-1/After Broken Wall/Explosive Shells",
+            "name": "[Explosive Shells] After Broken Wall"
+          },
+          {
+            "ref": "2-1/In Room Gated by Destroying Towers/Ultra Health",
+            "name": "[Ultra Health] In Room Gated by Destroying Towers"
+          },
+          {
+            "ref": "2-1/In Room Gated by Destroying Towers/LF10",
+            "name": "[LF10] In Room Gated by Destroying Towers"
+          },
+          {
+            "ref": "2-1/Left Before End Bridge/Blue Health",
+            "name": "[Blue Health] Left Before End Bridge"
+          },
+          {
+            "ref": "2-1/Right Before End Bridge/Blue Health",
+            "name": "[Blue Health] Right Before End Bridge"
+          },
+          {
+            "ref": "2-1/Left After End Bridge/Box of Shells",
+            "name": "[Box of Shells] Left After End Bridge"
+          },
+          {
+            "ref": "2-1/Right After End Bridge/Box of Bullets",
+            "name": "[Box of Bullets] Right After End Bridge"
           }
         ],
         "map_locations": [

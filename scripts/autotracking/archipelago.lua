@@ -401,7 +401,7 @@ function AutoFill(slot_data)
         progressive_warps = { code = "progressive_warps" },
         level_unlock_method = { code = "level_unlock_method" },
         randomize_weapons = { code = "randomize_weapons" },
-        progressive_weapon_ammo_upgrades = {  code = "level_unlock_method" },
+        progressive_weapon_ammo_upgrades = {  code = "progressive_weapon_ammo_upgrades" },
 
         -- Weapon Barriers
         weapon_barrier_level_1_start = { code = "weapon_barrier_level_1_start" },
@@ -472,7 +472,7 @@ function OnLevelUnlockMethod()
     local level_key_settings = {
         "level_1_key", "level_2_key", "level_3_key", "level_4_key", "level_5_key", "level_6_key"
     }
-
+    
     -- Set the vanilla counts
     if has("level_unlock_method_all_level_keys") then
         for _, value in pairs(level_key_settings) do

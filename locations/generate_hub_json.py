@@ -139,6 +139,33 @@ def load_jsonc(path: Path):
     text = re.sub(r"//.*?$", "", text, flags=re.MULTILINE)
     return json.loads(text)
 
+def add_locations(hub_child, map_name, node, path):
+    """
+    Recursively walks the tree to create all hub references.
+
+    Names are in the format:
+    - [section_name] Path/To/Location/location_name
+    """
+    location_name = node["name"]
+    current_path = path + [location_name]
+
+    if "sections" in node:
+        ref_path = "/".join([map_name] + current_path)
+
+        if path:
+            display_name = f"{'/'.join(path)}/{location_name}"
+        else:
+            display_name = f"{location_name}"
+
+        for section in node["sections"]:
+            hub_child["sections"].append({
+                "ref": f"{ref_path}/{section['name']}",
+                "name": f"[{section['name']}] {display_name}"
+            })
+
+    for child in node.get("children", []):
+        add_locations(hub_child, map_name, child, current_path)
+
 # Skeleton of the hub object
 hub = [
     {
@@ -183,15 +210,7 @@ for map_data in MAP_DATA:
             child = hub_children[hub_name]
 
             for location in source["children"]:
-                location_name = location["name"]
-
-                for section in location["sections"]:
-                    section_name = section["name"]
-
-                    child["sections"].append({
-                        "ref": f"{map_name}/{location_name}/{section_name}",
-                        "name": f"[{section_name}] {location_name}",
-                    })
+                add_locations(child, map_name, location, [])
 
 hub[0]["children"] = list(hub_children.values())
 
