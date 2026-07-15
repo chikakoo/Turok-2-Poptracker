@@ -9,11 +9,21 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Cave Door",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Unlock Cave Door",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|100088"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 100,
+                        "y": 100
                     }
                 ]
             }

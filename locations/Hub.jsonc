@@ -2332,8 +2332,8 @@
         "name": "4-1",
         "sections": [
           {
-            "ref": "4-1/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-1/Whispers Drop/Unlock Cave Door",
+            "name": "[Unlock Cave Door] Whispers Drop"
           }
         ],
         "map_locations": [
@@ -2364,8 +2364,8 @@
         "name": "4-3",
         "sections": [
           {
-            "ref": "4-3/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-3/Cave Door/Unlock Cave Door",
+            "name": "[Unlock Cave Door] Cave Door"
           }
         ],
         "map_locations": [

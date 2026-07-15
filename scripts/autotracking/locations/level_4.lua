@@ -7,7 +7,7 @@ LOCATIONS_4_2 = {
 }
 
 LOCATIONS_4_3 = {
-
+    [100088] = {"@4-3/Cave Door/Unlock Cave Door"},
 }
 
 LOCATIONS_4_4 = {
