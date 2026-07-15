@@ -4,7 +4,7 @@
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
-            "$map_access|4|4|mid,cave_door_key:1,[cave_door_key:7]"
+            "$map_access|4|4|mid,$has_unused_cave_door_key,cave_door_key:1,[cave_door_key:7]"
         ],
         "children": [
             {

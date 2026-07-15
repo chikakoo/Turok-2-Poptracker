@@ -64,5 +64,8 @@ ITEM_MAPPING = {
 	[300016] = {{"razor_wind", "toggle"}},
 	[300017] = {{"harpoon_gun", "consumable"}},
 	[300018] = {{"torpedo_launcher", "consumable"}},
-	[300019] = {{"nuke", "toggle"}}
+	[300019] = {{"nuke", "toggle"}},
+
+	[1000000] = {{"cave_door_key_used", "consumable"}},
+	[1000001] = {{"primagen_key_switch_pressed", "consumable"}}
 }

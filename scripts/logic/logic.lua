@@ -191,6 +191,11 @@ function level_3_4b_access()
     return AccessibilityLevel.None
 end
 
+---Returns whether the player has an unused cave door key, based on events
+function has_unused_cave_door_key()
+    return Tracker:ProviderCountForCode("cave_door_key") - Tracker:ProviderCountForCode("cave_door_key_used") > 0
+end
+
 ---Checks the torpedo launcher requirement
 ---If not randomizing weapons, a vanilla torpedo launcher is available
 ---Else, check for either the weapon or the trick to skip it
