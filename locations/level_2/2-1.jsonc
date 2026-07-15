@@ -1,18 +1,875 @@
 [
     {
         "name": "2-1",
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png",
+        "chest_unopened_img": "images/items/ammo/clip.png",
+        "chest_opened_img": "images/items/ammo/clip_bw.png",
         "access_rules": [
             "$map_access|2"
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "By Entrance",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 219,
+                        "y": 788
+                    }
+                ]
+            },
+            {
+                "name": "By Checkpoint",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 230,
+                        "y": 753
+                    }
+                ]
+            },
+            {
+                "name": "Behind Right Building",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 233,
+                        "y": 668
+                    }
+                ]
+            },
+            {
+                "name": "By Left Building",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 213,
+                        "y": 605
+                    }
+                ]
+            },
+            {
+                "name": "After Right Wall at Start",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "chest_unopened_img": "images/items/health/full_health.png",
+                        "chest_opened_img": "images/items/health/full_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125007"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125004"
+                        ]
+                    },
+                    {
+                        "name": "Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|125005|125006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 297,
+                        "y": 731
+                    }
+                ]
+            },
+            {
+                "name": "Left Path Turret Buildings",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125008"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 57,
+                        "y": 618
+                    }
+                ]
+            },
+            {
+                "name": "Left Path Exploded Wall",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "chest_unopened_img": "images/items/health/full_health.png",
+                        "chest_opened_img": "images/items/health/full_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125011"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125009"
+                        ]
+                    },
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 101,
+                        "y": 574
+                    }
+                ]
+            },
+            {
+                "name": "Left Path Corner",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125012"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 99,
+                        "y": 531
+                    }
+                ]
+            },
+            {
+                "name": "In Shortcut Wall",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "chest_unopened_img": "images/items/health/full_health.png",
+                        "chest_opened_img": "images/items/health/full_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125017"
+                        ]
+                    },
+                    {
+                        "name": "Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|125013|125014|125015|125016"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 214,
+                        "y": 505
+                    }
+                ]
+            },
+            {
+                "name": "Before Second Gate",
+                "sections": [
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125018"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 251,
+                        "y": 485
+                    }
+                ]
+            },
+            {
+                "name": "Behind First Barrier",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125019"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 270,
+                        "y": 430
+                    }
+                ]
+            },
+            {
+                "name": "Behind Second Barrier",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125020"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 304,
+                        "y": 446
+                    }
+                ]
+            },
+            {
+                "name": "Behind Third Gate",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 323,
+                        "y": 486
+                    }
+                ]
+            },
+            {
+                "name": "Behind Fourth Gate",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 341,
+                        "y": 540
+                    }
+                ]
+            },
+            {
+                "name": "Turret Slope Front Left",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125023"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 382,
+                        "y": 547
+                    }
+                ]
+            },
+            {
+                "name": "Turret Slope Mid Right",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125024"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 413,
+                        "y": 577
+                    }
+                ]
+            },
+            {
+                "name": "Turret Slope Back Left",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125025"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 425,
+                        "y": 546
+                    }
+                ]
+            },
+            {
+                "name": "Left Grass After Tunnel",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|125026|125027"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 393,
+                        "y": 436
+                    }
+                ]
+            },
+            {
+                "name": "Right Alcove After Tunnel",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125028"
+                        ]
+                    },
+                    {
+                        "name": "Explosive Shells",
+                        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125029"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 427,
+                        "y": 450
+                    }
+                ]
+            },
+            {
+                "name": "Left Before Turret Bridge",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125030"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 393,
+                        "y": 393
+                    }
+                ]
+            },
+            {
+                "name": "Right Before Turret Bridge",
+                "sections": [
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125031"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 427,
+                        "y": 405
+                    }
+                ]
+            },
+            {
+                "name": "Left Before Doorway",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|125033|125034"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 388,
+                        "y": 321
+                    }
+                ]
+            },
+            {
+                "name": "Right Before Doorway",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|125035|125036"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 433,
+                        "y": 321
+                    }
+                ]
+            },
+            {
+                "name": "Behind Barrier",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|125037|125038|125039"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 412,
+                        "y": 258
+                    }
+                ]
+            },
+            {
+                "name": "Before Upper Bridge",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125040"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 439,
+                        "y": 287
+                    }
+                ]
+            },
+            {
+                "name": "Exploded Wall Loop Start",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125041"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 204,
+                        "y": 263
+                    }
+                ]
+            },
+            {
+                "name": "Exploded Wall Loop Left",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125042"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 179,
+                        "y": 266
+                    }
+                ]
+            },
+            {
+                "name": "Exploded Wall Loop Near Shacks",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "chest_unopened_img": "images/items/health/full_health.png",
+                        "chest_opened_img": "images/items/health/full_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125045"
+                        ]
+                    },
+                    {
+                        "name": "Clip",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|125043|125044"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 171,
+                        "y": 225
+                    }
+                ]
+            },
+            {
+                "name": "Left Before Barriers",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 245,
+                        "y": 235
+                    }
+                ]
+            },
+            {
+                "name": "Right Before Barriers",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 293,
+                        "y": 235
+                    }
+                ]
+            },
+            {
+                "name": "Left After Barriers",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 245,
+                        "y": 202
+                    }
+                ]
+            },
+            {
+                "name": "Right After Barriers",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125049"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 293,
+                        "y": 202
+                    }
+                ]
+            },
+            {
+                "name": "Before Broken Wall",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 221,
+                        "y": 169
+                    }
+                ]
+            },
+            {
+                "name": "After Broken Wall",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 197,
+                        "y": 169
+                    }
+                ]
+            },
+            {
+                "name": "In Room Gated by Destroying Towers",
+                "sections": [
+                    {
+                        "name": "Ultra Health",
+                        "chest_unopened_img": "images/items/health/ultra_health.png",
+                        "chest_opened_img": "images/items/health/ultra_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125052"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 10,
+                        "visibility_rules": [
+                            "$id_exists|125053|125054|125055|125056|125057|125058|1250590|125061|125062"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 247,
+                        "y": 119
+                    }
+                ]
+            },
+            {
+                "name": "Left Before End Bridge",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125063"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 333,
+                        "y": 40
+                    }
+                ]
+            },
+            {
+                "name": "Right Before End Bridge",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125064"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 333,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "Left After End Bridge",
+                "sections": [
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125065"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 407,
+                        "y": 26
+                    }
+                ]
+            },
+            {
+                "name": "Right After End Bridge",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|125066"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-1",
+                        "x": 407,
+                        "y": 83
                     }
                 ]
             }
