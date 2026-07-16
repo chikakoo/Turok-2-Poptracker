@@ -8,11 +8,892 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Left Path Corner",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|127000|127001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Back of Loop",
+                "chest_unopened_img": "images/items/keys/level_4_key.png",
+                "chest_opened_img": "images/items/keys/level_4_key_bw.png",
+                "sections": [
+                    {
+                        "name": "Level Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Path First Corner",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Path Second Corner",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Path Hall Start",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|127005|127006|127007|127008|127009"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Path Hall",
+                "chest_unopened_img": "images/items/ammo/tek_arrows.png",
+                "chest_opened_img": "images/items/ammo/tek_arrows_bw.png",
+                "sections": [
+                    {
+                        "name": "Tek Arrows",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Path After Hall",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Path Hall Start",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|127012|127013|127014|127015|127016"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Path Hall",
+                "chest_unopened_img": "images/items/ammo/tek_arrows.png",
+                "chest_opened_img": "images/items/ammo/tek_arrows_bw.png",
+                "sections": [
+                    {
+                        "name": "Tek Arrows",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127017"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Path After Hall",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127018"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Bridge Right Corner",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127019"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Bridge Left Corner",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127020"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Bridge Left Platform",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Bridge Right Platform",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Broken Wall",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127023"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left After Bridge",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|127024|127025"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Near River Bridge",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127026"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right After Bridge",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|127027|127028|127029"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After River Compy",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127035"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Switch Hall Start",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127036"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Across River Bridge",
+                "sections": [
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127042"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127043"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Exploded Wall by Bridge",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127044"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Above River Bridge",
+                "chest_unopened_img": "images/interactables/switch_shootable.png",
+                "chest_opened_img": "images/interactables/switch_shootable_bw.png",
+                "sections": [
+                    {
+                        "name": "Shootable Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127045"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "x": 125,
+                        "y": 125
+                    }
+                ]
+            },
+            {
+                "name": "In River",
+                "access_rules": [
+                    "breath_of_life"
+                ],
+                "children": [
+                    {
+                        "name": "In River Tunnel",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 5,
+                                "visibility_rules": [
+                                    "$id_exists|127030|127031|127032|127033|127034"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-3",
+                                "x": 100,
+                                "y": 100
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In River by Bridge",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 5,
+                                "visibility_rules": [
+                                    "$id_exists|127037|127038|127039|127040|127041"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-3",
+                                "x": 100,
+                                "y": 200
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Level Key",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Path Corner",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Path",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|127048|127049|127050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Path",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|127051|127052|127053"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in First Right Room",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127054"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Hall",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127055"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Hall",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127056"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Bridge Platform Right",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|127057|127058"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Bridge",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127059"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Left After Bridge",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127060"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Near River Bridge",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127061"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Right After Bridge",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|127062|127063"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by River",
+                "chest_unopened_img": "images/enemies/compy.png",
+                "chest_opened_img": "images/enemies/compy_bw.png",
+                "sections": [
+                    {
+                        "name": "Compy",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|127064|127065|127066|127067"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Switch Hall",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127068"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Switch Hall",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|127069"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Exit Portal",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|127070|127071"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

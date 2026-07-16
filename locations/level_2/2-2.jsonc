@@ -414,11 +414,11 @@
             },
             {
                 "name": "On Left Wall",
-                "chest_unopened_img": "images/interactables/switch_standard.png",
-                "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                "chest_unopened_img": "images/interactables/switch_shootable.png",
+                "chest_opened_img": "images/interactables/switch_shootable_bw.png",
                 "sections": [
                     {
-                        "name": "Switch",
+                        "name": "Shootable Switch",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|126053"
@@ -435,11 +435,11 @@
             },
             {
                 "name": "On Right Wall",
-                "chest_unopened_img": "images/interactables/switch_standard.png",
-                "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                "chest_unopened_img": "images/interactables/switch_shootable.png",
+                "chest_opened_img": "images/interactables/switch_shootable_bw.png",
                 "sections": [
                     {
-                        "name": "Switch",
+                        "name": "Shootable Switch",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|126054"
@@ -456,11 +456,11 @@
             },
             {
                 "name": "On Big Bridge Wall",
-                "chest_unopened_img": "images/interactables/switch_standard.png",
-                "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                "chest_unopened_img": "images/interactables/switch_shootable.png",
+                "chest_opened_img": "images/interactables/switch_shootable_bw.png",
                 "sections": [
                     {
-                        "name": "Switch",
+                        "name": "Shooable Switch",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|126055"

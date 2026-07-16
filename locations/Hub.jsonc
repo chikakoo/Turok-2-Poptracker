@@ -2000,8 +2000,144 @@
         "name": "2-2",
         "sections": [
           {
-            "ref": "2-2/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-2/At Start/Tek Bow",
+            "name": "[Tek Bow] At Start"
+          },
+          {
+            "ref": "2-2/Small Bridge Right/Blue Health",
+            "name": "[Blue Health] Small Bridge Right"
+          },
+          {
+            "ref": "2-2/Small Bridge Left Ladder/Silver Health",
+            "name": "[Silver Health] Small Bridge Left Ladder"
+          },
+          {
+            "ref": "2-2/Small Bridge Left/LF1",
+            "name": "[LF1] Small Bridge Left"
+          },
+          {
+            "ref": "2-2/Small Bridge Left/War Blade",
+            "name": "[War Blade] Small Bridge Left"
+          },
+          {
+            "ref": "2-2/Small Bridge Left/Clip",
+            "name": "[Clip] Small Bridge Left"
+          },
+          {
+            "ref": "2-2/Small Bridge Left/Explosive Shells",
+            "name": "[Explosive Shells] Small Bridge Left"
+          },
+          {
+            "ref": "2-2/Close Left Alcove/Silver Health",
+            "name": "[Silver Health] Close Left Alcove"
+          },
+          {
+            "ref": "2-2/Far Left Alcove/Silver Health",
+            "name": "[Silver Health] Far Left Alcove"
+          },
+          {
+            "ref": "2-2/Left Corner/Clip",
+            "name": "[Clip] Left Corner"
+          },
+          {
+            "ref": "2-2/Center Ladder Loop/LF1",
+            "name": "[LF1] Center Ladder Loop"
+          },
+          {
+            "ref": "2-2/Center Ladder Loop/LF10",
+            "name": "[LF10] Center Ladder Loop"
+          },
+          {
+            "ref": "2-2/In Exploded Wall/Blue Health",
+            "name": "[Blue Health] In Exploded Wall"
+          },
+          {
+            "ref": "2-2/Right Corner/Arrows",
+            "name": "[Arrows] Right Corner"
+          },
+          {
+            "ref": "2-2/Behind Cart/Arrows",
+            "name": "[Arrows] Behind Cart"
+          },
+          {
+            "ref": "2-2/In Hall/Clip",
+            "name": "[Clip] In Hall"
+          },
+          {
+            "ref": "2-2/In Hall/Pistol",
+            "name": "[Pistol] In Hall"
+          },
+          {
+            "ref": "2-2/Left Bridge Platform/Blue Health",
+            "name": "[Blue Health] Left Bridge Platform"
+          },
+          {
+            "ref": "2-2/Right Bridge Platform/Blue Health",
+            "name": "[Blue Health] Right Bridge Platform"
+          },
+          {
+            "ref": "2-2/Up Left Ladder/Shotgun",
+            "name": "[Shotgun] Up Left Ladder"
+          },
+          {
+            "ref": "2-2/Up Left Ladder/LF1",
+            "name": "[LF1] Up Left Ladder"
+          },
+          {
+            "ref": "2-2/Up Right Ladder/Silver Health",
+            "name": "[Silver Health] Up Right Ladder"
+          },
+          {
+            "ref": "2-2/On Broken Wall/LF10",
+            "name": "[LF10] On Broken Wall"
+          },
+          {
+            "ref": "2-2/On Left Wall/Shootable Switch",
+            "name": "[Shootable Switch] On Left Wall"
+          },
+          {
+            "ref": "2-2/On Right Wall/Shootable Switch",
+            "name": "[Shootable Switch] On Right Wall"
+          },
+          {
+            "ref": "2-2/On Big Bridge Wall/Shooable Switch",
+            "name": "[Shooable Switch] On Big Bridge Wall"
+          },
+          {
+            "ref": "2-2/Enemy Above Tunnel/Endtrail",
+            "name": "[Endtrail] Enemy Above Tunnel"
+          },
+          {
+            "ref": "2-2/Enemy on Left Wall/Endtrail",
+            "name": "[Endtrail] Enemy on Left Wall"
+          },
+          {
+            "ref": "2-2/Enemy Close Left/Compy",
+            "name": "[Compy] Enemy Close Left"
+          },
+          {
+            "ref": "2-2/Enemy Far Left/Compy",
+            "name": "[Compy] Enemy Far Left"
+          },
+          {
+            "ref": "2-2/Enemy Spawned From Standing Here/Raptor",
+            "name": "[Raptor] Enemy Spawned From Standing Here"
+          },
+          {
+            "ref": "2-2/Enemy in Tunnel/Raptor",
+            "name": "[Raptor] Enemy in Tunnel"
+          },
+          {
+            "ref": "2-2/Enemy by Big Bridge/Compy",
+            "name": "[Compy] Enemy by Big Bridge"
+          },
+          {
+            "ref": "2-2/Enemy After Collecting Pistol/Raptor",
+            "name": "[Raptor] Enemy After Collecting Pistol"
+          },
+          {
+            "ref": "2-2/Enemy After Big Bridge/Raptoid",
+            "name": "[Raptoid] Enemy After Big Bridge"
           }
         ],
         "map_locations": [
@@ -2016,8 +2152,172 @@
         "name": "2-3",
         "sections": [
           {
-            "ref": "2-3/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-3/Left Path Corner/Blue Health",
+            "name": "[Blue Health] Left Path Corner"
+          },
+          {
+            "ref": "2-3/Back of Loop/Level Key",
+            "name": "[Level Key] Back of Loop"
+          },
+          {
+            "ref": "2-3/Right Path First Corner/Box of Bullets",
+            "name": "[Box of Bullets] Right Path First Corner"
+          },
+          {
+            "ref": "2-3/Right Path Second Corner/Clip",
+            "name": "[Clip] Right Path Second Corner"
+          },
+          {
+            "ref": "2-3/Left Path Hall Start/LF1",
+            "name": "[LF1] Left Path Hall Start"
+          },
+          {
+            "ref": "2-3/Left Path Hall/Tek Arrows",
+            "name": "[Tek Arrows] Left Path Hall"
+          },
+          {
+            "ref": "2-3/Left Path After Hall/Blue Health",
+            "name": "[Blue Health] Left Path After Hall"
+          },
+          {
+            "ref": "2-3/Right Path Hall Start/LF1",
+            "name": "[LF1] Right Path Hall Start"
+          },
+          {
+            "ref": "2-3/Right Path Hall/Tek Arrows",
+            "name": "[Tek Arrows] Right Path Hall"
+          },
+          {
+            "ref": "2-3/Right Path After Hall/Blue Health",
+            "name": "[Blue Health] Right Path After Hall"
+          },
+          {
+            "ref": "2-3/Bridge Right Corner/Clip",
+            "name": "[Clip] Bridge Right Corner"
+          },
+          {
+            "ref": "2-3/Bridge Left Corner/Clip",
+            "name": "[Clip] Bridge Left Corner"
+          },
+          {
+            "ref": "2-3/Bridge Left Platform/Blue Health",
+            "name": "[Blue Health] Bridge Left Platform"
+          },
+          {
+            "ref": "2-3/Bridge Right Platform/Blue Health",
+            "name": "[Blue Health] Bridge Right Platform"
+          },
+          {
+            "ref": "2-3/On Broken Wall/LF10",
+            "name": "[LF10] On Broken Wall"
+          },
+          {
+            "ref": "2-3/Left After Bridge/Blue Health",
+            "name": "[Blue Health] Left After Bridge"
+          },
+          {
+            "ref": "2-3/Near River Bridge/Clip",
+            "name": "[Clip] Near River Bridge"
+          },
+          {
+            "ref": "2-3/Right After Bridge/Silver Health",
+            "name": "[Silver Health] Right After Bridge"
+          },
+          {
+            "ref": "2-3/After River Compy/Full Health",
+            "name": "[Full Health] After River Compy"
+          },
+          {
+            "ref": "2-3/Switch Hall Start/Blue Health",
+            "name": "[Blue Health] Switch Hall Start"
+          },
+          {
+            "ref": "2-3/Across River Bridge/Box of Shells",
+            "name": "[Box of Shells] Across River Bridge"
+          },
+          {
+            "ref": "2-3/Across River Bridge/Box of Bullets",
+            "name": "[Box of Bullets] Across River Bridge"
+          },
+          {
+            "ref": "2-3/In Exploded Wall by Bridge/Switch",
+            "name": "[Switch] In Exploded Wall by Bridge"
+          },
+          {
+            "ref": "2-3/Above River Bridge/Shootable Switch",
+            "name": "[Shootable Switch] Above River Bridge"
+          },
+          {
+            "ref": "2-3/In River/In River Tunnel/LF10",
+            "name": "[LF10] In River/In River Tunnel"
+          },
+          {
+            "ref": "2-3/In River/In River by Bridge/LF10",
+            "name": "[LF10] In River/In River by Bridge"
+          },
+          {
+            "ref": "2-3/Enemy by Level Key/Endtrail",
+            "name": "[Endtrail] Enemy by Level Key"
+          },
+          {
+            "ref": "2-3/Enemy in Left Path Corner/Endtrail",
+            "name": "[Endtrail] Enemy in Left Path Corner"
+          },
+          {
+            "ref": "2-3/Enemy in Left Path/Raptoid",
+            "name": "[Raptoid] Enemy in Left Path"
+          },
+          {
+            "ref": "2-3/Enemy in Right Path/Raptoid",
+            "name": "[Raptoid] Enemy in Right Path"
+          },
+          {
+            "ref": "2-3/Enemy in First Right Room/Endtrail",
+            "name": "[Endtrail] Enemy in First Right Room"
+          },
+          {
+            "ref": "2-3/Enemy in Left Hall/Raptoid",
+            "name": "[Raptoid] Enemy in Left Hall"
+          },
+          {
+            "ref": "2-3/Enemy in Right Hall/Raptoid",
+            "name": "[Raptoid] Enemy in Right Hall"
+          },
+          {
+            "ref": "2-3/Enemy Bridge Platform Right/Endtrail",
+            "name": "[Endtrail] Enemy Bridge Platform Right"
+          },
+          {
+            "ref": "2-3/Enemy After Bridge/Raptoid",
+            "name": "[Raptoid] Enemy After Bridge"
+          },
+          {
+            "ref": "2-3/Enemy Left After Bridge/Endtrail",
+            "name": "[Endtrail] Enemy Left After Bridge"
+          },
+          {
+            "ref": "2-3/Enemy Near River Bridge/Endtrail",
+            "name": "[Endtrail] Enemy Near River Bridge"
+          },
+          {
+            "ref": "2-3/Enemy Right After Bridge/Endtrail",
+            "name": "[Endtrail] Enemy Right After Bridge"
+          },
+          {
+            "ref": "2-3/Enemy by River/Compy",
+            "name": "[Compy] Enemy by River"
+          },
+          {
+            "ref": "2-3/Enemy in Switch Hall/Endtrail",
+            "name": "[Endtrail] Enemy in Switch Hall"
+          },
+          {
+            "ref": "2-3/Enemy After Switch Hall/Endtrail",
+            "name": "[Endtrail] Enemy After Switch Hall"
+          },
+          {
+            "ref": "2-3/Enemy by Exit Portal/Raptoid",
+            "name": "[Raptoid] Enemy by Exit Portal"
           }
         ],
         "map_locations": [
