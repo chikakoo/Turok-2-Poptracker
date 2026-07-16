@@ -8,11 +8,668 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Start",
+                "chest_unopened_img": "images/items/weapons_small/tek_bow.png",
+                "chest_opened_img": "images/items/weapons_small/tek_bow_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Tek Bow",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Small Bridge Right",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|126001|126002|126003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Small Bridge Left Ladder",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|126004|126005|126006|126007|126008"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Small Bridge Left",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|126009|126010|126011|126012"
+                        ]
+                    },
+                    {
+                        "name": "War Blade",
+                        "chest_unopened_img": "images/items/weapons_small/war_blade.png",
+                        "chest_opened_img": "images/items/weapons_small/war_blade_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126013"
+                        ]
+                    },
+                    {
+                        "name": "Clip",
+                        "chest_unopened_img": "images/items/ammo/clip.png",
+                        "chest_opened_img": "images/items/ammo/clip_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|126014|126015"
+                        ]
+                    },
+                    {
+                        "name": "Explosive Shells",
+                        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126016"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Close Left Alcove",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|126017|126018|126019"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Far Left Alcove",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|126020|126021|126022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Corner",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126023"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Center Ladder Loop",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 8,
+                        "visibility_rules": [
+                            "$id_exists|126024|126025|126026|126027|126028|126029|126030|126031"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Exploded Wall",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126033"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Corner",
+                "chest_unopened_img": "images/items/ammo/arrows.png",
+                "chest_opened_img": "images/items/ammo/arrows_bw.png",
+                "sections": [
+                    {
+                        "name": "Arrows",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126034"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Cart",
+                "chest_unopened_img": "images/items/ammo/arrows.png",
+                "chest_opened_img": "images/items/ammo/arrows_bw.png",
+                "sections": [
+                    {
+                        "name": "Arrows",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126035"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Hall",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "chest_unopened_img": "images/items/ammo/clip.png",
+                        "chest_opened_img": "images/items/ammo/clip_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|126036|126037"
+                        ]
+                    },
+                    {
+                        "name": "Pistol",
+                        "chest_unopened_img": "images/items/weapons_small/pistol.png",
+                        "chest_opened_img": "images/items/weapons_small/pistol_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126038"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Bridge Platform",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126039"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Bridge Platform",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126040"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Left Ladder",
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "chest_unopened_img": "images/items/weapons_small/shotgun.png",
+                        "chest_opened_img": "images/items/weapons_small/shotgun_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126041"
+                        ]
+                    },
+                    {
+                        "name": "LF1",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|126042|126043|126044|126045|126046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Right Ladder",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|126047|126048|126049|126050|126051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Broken Wall",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126052"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Left Wall",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126053"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Right Wall",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126054"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Big Bridge Wall",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126055"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Above Tunnel",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126056"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Left Wall",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126057"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Close Left",
+                "chest_unopened_img": "images/enemies/compy.png",
+                "chest_opened_img": "images/enemies/compy_bw.png",
+                "sections": [
+                    {
+                        "name": "Compy",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|126058|126059|126060|126061"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Far Left",
+                "chest_unopened_img": "images/enemies/compy.png",
+                "chest_opened_img": "images/enemies/compy_bw.png",
+                "sections": [
+                    {
+                        "name": "Compy",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|126062|126063|126064"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Standing Here",
+                "chest_unopened_img": "images/enemies/raptor.png",
+                "chest_opened_img": "images/enemies/raptor_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptor",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126065"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Tunnel",
+                "chest_unopened_img": "images/enemies/raptor.png",
+                "chest_opened_img": "images/enemies/raptor_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptor",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126066"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Big Bridge",
+                "chest_unopened_img": "images/enemies/compy.png",
+                "chest_opened_img": "images/enemies/compy_bw.png",
+                "sections": [
+                    {
+                        "name": "Compy",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|126067|126068|126069"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Collecting Pistol",
+                "chest_unopened_img": "images/enemies/raptor.png",
+                "chest_opened_img": "images/enemies/raptor_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptor",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|126070"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Big Bridge",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|126071|126072|126073"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }
