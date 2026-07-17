@@ -2100,8 +2100,8 @@
             "name": "[Shootable Switch] On Right Wall"
           },
           {
-            "ref": "2-2/On Big Bridge Wall/Shooable Switch",
-            "name": "[Shooable Switch] On Big Bridge Wall"
+            "ref": "2-2/On Big Bridge Wall/Shootable Switch",
+            "name": "[Shootable Switch] On Big Bridge Wall"
           },
           {
             "ref": "2-2/Enemy Above Tunnel/Endtrail",
@@ -2132,8 +2132,8 @@
             "name": "[Compy] Enemy by Big Bridge"
           },
           {
-            "ref": "2-2/Enemy After Collecting Pistol/Raptor",
-            "name": "[Raptor] Enemy After Collecting Pistol"
+            "ref": "2-2/Enemy Ambush/Raptor",
+            "name": "[Raptor] Enemy Ambush"
           },
           {
             "ref": "2-2/Enemy After Big Bridge/Raptoid",
@@ -2260,20 +2260,20 @@
             "name": "[Endtrail] Enemy by Level Key"
           },
           {
-            "ref": "2-3/Enemy in Left Path Corner/Endtrail",
-            "name": "[Endtrail] Enemy in Left Path Corner"
-          },
-          {
-            "ref": "2-3/Enemy in Left Path/Raptoid",
-            "name": "[Raptoid] Enemy in Left Path"
+            "ref": "2-3/Enemy in Right Room/Endtrail",
+            "name": "[Endtrail] Enemy in Right Room"
           },
           {
             "ref": "2-3/Enemy in Right Path/Raptoid",
             "name": "[Raptoid] Enemy in Right Path"
           },
           {
-            "ref": "2-3/Enemy in First Right Room/Endtrail",
-            "name": "[Endtrail] Enemy in First Right Room"
+            "ref": "2-3/Enemy in Left Path/Raptoid",
+            "name": "[Raptoid] Enemy in Left Path"
+          },
+          {
+            "ref": "2-3/Enemy in Left Path Corner/Endtrail",
+            "name": "[Endtrail] Enemy in Left Path Corner"
           },
           {
             "ref": "2-3/Enemy in Left Hall/Raptoid",
@@ -2286,6 +2286,10 @@
           {
             "ref": "2-3/Enemy Bridge Platform Right/Endtrail",
             "name": "[Endtrail] Enemy Bridge Platform Right"
+          },
+          {
+            "ref": "2-3/Enemy Bridge Platform Left/Endtrail",
+            "name": "[Endtrail] Enemy Bridge Platform Left"
           },
           {
             "ref": "2-3/Enemy After Bridge/Raptoid",

@@ -23,8 +23,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 734,
+                        "y": 158
                     }
                 ]
             },
@@ -44,8 +44,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 691,
+                        "y": 98
                     }
                 ]
             },
@@ -65,8 +65,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 690,
+                        "y": 240
                     }
                 ]
             },
@@ -111,8 +111,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 650,
+                        "y": 216
                     }
                 ]
             },
@@ -132,8 +132,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 549,
+                        "y": 217
                     }
                 ]
             },
@@ -153,8 +153,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 525,
+                        "y": 287
                     }
                 ]
             },
@@ -174,8 +174,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 407,
+                        "y": 263
                     }
                 ]
             },
@@ -202,8 +202,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 408,
+                        "y": 160
                     }
                 ]
             },
@@ -223,8 +223,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 459,
+                        "y": 106
                     }
                 ]
             },
@@ -244,8 +244,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 521,
+                        "y": 27
                     }
                 ]
             },
@@ -265,8 +265,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 420,
+                        "y": 36
                     }
                 ]
             },
@@ -295,8 +295,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 382,
+                        "y": 277
                     }
                 ]
             },
@@ -316,8 +316,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 175,
+                        "y": 219
                     }
                 ]
             },
@@ -337,8 +337,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 175,
+                        "y": 104
                     }
                 ]
             },
@@ -365,8 +365,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 238,
+                        "y": 214
                     }
                 ]
             },
@@ -386,8 +386,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 238,
+                        "y": 109
                     }
                 ]
             },
@@ -407,8 +407,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 235,
+                        "y": 137
                     }
                 ]
             },
@@ -428,8 +428,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 610,
+                        "y": 189
                     }
                 ]
             },
@@ -449,8 +449,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 610,
+                        "y": 129
                     }
                 ]
             },
@@ -460,7 +460,7 @@
                 "chest_opened_img": "images/interactables/switch_shootable_bw.png",
                 "sections": [
                     {
-                        "name": "Shooable Switch",
+                        "name": "Shootable Switch",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|126055"
@@ -470,8 +470,8 @@
                 "map_locations": [
                     {
                         "map": "2-2",
-                        "x": 0,
-                        "y": 0
+                        "x": 165,
+                        "y": 186
                     }
                 ]
             },
@@ -492,8 +492,8 @@
                     {
                         "map": "2-2",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 570,
+                        "y": 152
                     }
                 ]
             },
@@ -514,8 +514,8 @@
                     {
                         "map": "2-2",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 677,
+                        "y": 219
                     }
                 ]
             },
@@ -536,8 +536,8 @@
                     {
                         "map": "2-2",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 500,
+                        "y": 195
                     }
                 ]
             },
@@ -558,8 +558,8 @@
                     {
                         "map": "2-2",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 410,
+                        "y": 276
                     }
                 ]
             },
@@ -580,8 +580,8 @@
                     {
                         "map": "2-2",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 408,
+                        "y": 149
                     }
                 ]
             },
@@ -602,8 +602,8 @@
                     {
                         "map": "2-2",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 346,
+                        "y": 89
                     }
                 ]
             },
@@ -624,13 +624,13 @@
                     {
                         "map": "2-2",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 263,
+                        "y": 175
                     }
                 ]
             },
             {
-                "name": "Enemy After Collecting Pistol",
+                "name": "Enemy Ambush",
                 "chest_unopened_img": "images/enemies/raptor.png",
                 "chest_opened_img": "images/enemies/raptor_bw.png",
                 "sections": [
@@ -646,8 +646,8 @@
                     {
                         "map": "2-2",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 343,
+                        "y": 243
                     }
                 ]
             },
@@ -668,8 +668,8 @@
                     {
                         "map": "2-2",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 71,
+                        "y": 231
                     }
                 ]
             }

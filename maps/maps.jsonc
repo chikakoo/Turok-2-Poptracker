@@ -99,15 +99,13 @@
     "name": "2-2",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_2/2-2.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_2/2-2.png"
   },
   {
     "name": "2-3",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_2/2-3.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_2/2-3.png"
   },
   {
     "name": "2-4",
