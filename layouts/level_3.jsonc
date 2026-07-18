@@ -66,6 +66,15 @@
                 }
             },
             {
+                "title": "3-4b",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "3-4b"
+                    ]
+                }
+            },
+            {
                 "title": "3-5",
                 "content": {
                     "type": "map",
