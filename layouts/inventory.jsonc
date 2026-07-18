@@ -1,7 +1,6 @@
 {
-  // sets layouts for shadred items grids
-  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
   "inventory": {
+    // Non-mission items
     "type": "array",
     "orientation": "horizontal",
     "margin": "0,0",
@@ -9,7 +8,7 @@
       {
         "type": "array",
         "orientation": "horizontal",
-        "margin": "4,0",
+        "margin": "0,0",
         "content": [
           {
             "type": "itemgrid",
@@ -20,58 +19,99 @@
                 "level_1_key",
                 "progressive_warp_l1",
                 "",
-                "primagen_key_1",
-                "",
-                "",
-                "",
-                "power_cell"
+                "primagen_key_1"
               ],
               [
                 "level_2_key",
                 "progressive_warp_l2",
                 "level_2_eagle_feather",
                 "primagen_key_2",
-                "leap_of_faith",
-                "",
-                "gate_key",
-                "graveyard_key"
+                "leap_of_faith"
               ],
               [
                 "level_3_key",
                 "progressive_warp_l3",
                 "level_3_eagle_feather",
                 "primagen_key_3",
-                "breath_of_life",
-                "",
-                "",
-                "l3_satchel_charge"
+                "breath_of_life"
               ],
               [
                 "level_4_key",
                 "progressive_warp_l4",
                 "level_4_eagle_feather",
                 "primagen_key_4",
-                "heart_of_fire",
-                "",
-                "cave_door_key",
-                "l4_satchel_charge"
+                "heart_of_fire"
               ],
               [
                 "level_5_key",
                 "progressive_warp_l5",
                 "level_5_eagle_feather",
                 "primagen_key_5",
-                "whispers",
-                "",
-                "",
-                "l5_satchel_charge"
+                "whispers"
               ],
               [
                 "level_6_key",
                 "progressive_warp_l6",
                 "level_6_eagle_feather",
                 "primagen_key_6",
-                "eye_of_truth",
+                "eye_of_truth"
+              ]
+            ]
+          }
+        ]
+      },
+
+      // Mission Items
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0,0,0",
+        "content": [
+          // Levels 1-5
+          {
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "itemgrid",
+                "item_margin": "1, 1",
+                "h_alignment": "left",
+                "rows": [
+                  [
+                    "",
+                    "power_cell"
+                  ],
+                  [
+                    "gate_key",
+                    "graveyard_key"
+                  ],
+                  [
+                    "",
+                    "l3_satchel_charge"
+                  ],
+                  [
+                    "cave_door_key",
+                    "l4_satchel_charge"
+                  ],
+                  [
+                    "",
+                    "l5_satchel_charge"
+                  ]
+                ]
+              }
+            ]
+          },
+
+          // Level 6
+          {
+            "type": "itemgrid",
+            "item_margin": "1, 1",
+            "margin": "0,0,0,0",
+            "h_alignment": "left",
+            "item_size": "21, 32",
+            "rows": [
+              [
                 "ion_capacitor",
                 "blue_laser_cell",
                 "red_laser_cell"

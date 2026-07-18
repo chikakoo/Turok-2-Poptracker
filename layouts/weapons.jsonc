@@ -1,6 +1,4 @@
 {
-  // sets layouts for shadred items grids
-  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
   "weapons": {
     "type": "array",
     "orientation": "horizontal",
