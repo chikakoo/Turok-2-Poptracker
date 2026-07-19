@@ -2372,6 +2372,10 @@
             "name": "[LF10] Right Open Alcove"
           },
           {
+            "ref": "2-4/Right Catwalks/Full Health",
+            "name": "[Full Health] Right Catwalks"
+          },
+          {
             "ref": "2-4/Right Switch Alcove/Gate Key",
             "name": "[Gate Key] Right Switch Alcove"
           },
@@ -2444,6 +2448,10 @@
             "name": "[LF1] Gate Key/Back Right Boxes"
           },
           {
+            "ref": "2-4/Gate Key/Back Right Boxes/Oblivion Portal Switch",
+            "name": "[Oblivion Portal Switch] Gate Key/Back Right Boxes"
+          },
+          {
             "ref": "2-4/Gate Key/Back Right Corner/Quiver",
             "name": "[Quiver] Gate Key/Back Right Corner"
           },
@@ -2466,6 +2474,14 @@
           {
             "ref": "2-4/Gate Key/Back Boxes/Shotgun",
             "name": "[Shotgun] Gate Key/Back Boxes"
+          },
+          {
+            "ref": "2-4/Gate Key/In Water/Switch",
+            "name": "[Switch] Gate Key/In Water"
+          },
+          {
+            "ref": "2-4/Gate Key/By Left Door/Switch",
+            "name": "[Switch] Gate Key/By Left Door"
           },
           {
             "ref": "2-4/Gate Key/Enemy by Door/Endtrail",
