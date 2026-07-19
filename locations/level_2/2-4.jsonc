@@ -8,11 +8,664 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "In River",
+                "access_rules": [
+                    "breath_of_life"
+                ],
+                "children": [
+                    {
+                        "name": "Left in River",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 5,
+                                "visibility_rules": [
+                                    "$id_exists|128000|128001|128002|128003|128004"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-4",
+                                "x": 100,
+                                "y": 100
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Right in River",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 5,
+                                "visibility_rules": [
+                                    "$id_exists|128005|128006|128007|128008|128009"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-4",
+                                "x": 100,
+                                "y": 100
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Center of River",
+                        "sections": [
+                            {
+                                "name": "Grenade Launcher",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|128010"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-4",
+                                "x": 100,
+                                "y": 100
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Right Path",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|128011|128012|128013"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 50,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "By Ladder",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|128014|128015|128016|128017|128018"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 50,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "Left Open Alcove",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|128019|128020"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 50,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "Right Open Alcove",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|128022|128023"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128024"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 50,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "Right Switch Alcove",
+                "sections": [
+                    {
+                        "name": "Gate Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128026"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 50,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "Left Switch Alcove",
+                "sections": [
+                    {
+                        "name": "Gate Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128027"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 50,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "Left Catwalks",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128038"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 50,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "By Oblivion Portal",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128039"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "x": 50,
+                        "y": 50
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Checkpoint",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128043"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "shape": "diamond",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Left Path",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128044"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "shape": "diamond",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Ladder",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128045"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "shape": "diamond",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Right Path",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "shape": "diamond",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Center",
+                "sections": [
+                    {
+                        "name": "Raptor",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "shape": "diamond",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Alcove",
+                "sections": [
+                    {
+                        "name": "Raptor",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "shape": "diamond",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Alcove",
+                "sections": [
+                    {
+                        "name": "Raptor",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128049"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "shape": "diamond",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Left Catwalks",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "shape": "diamond",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Switch Path",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "shape": "diamond",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Switch Path",
+                "sections": [
+                    {
+                        "name": "Spider",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|128052|128053|128054|128055|128056"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "shape": "diamond",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Oblivion Portal",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|128057"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-4",
+                        "shape": "diamond",
+                        "x": 120,
+                        "y": 120
+                    }
+                ]
+            },
+            {
+                "name": "Gate Key",
+                "access_rules": [
+                    "gate_key:2"
+                ],
+                "children": [
+                    {
+                        "name": "Front Left Boxes",
+                        "sections": [
+                            {
+                                "name": "Clip",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|128028|128029"
+                                ]
+                            },
+                            {
+                                "name": "Arrows",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|128030"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-4",
+                                "x": 50,
+                                "y": 50
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Back Right Boxes",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|128031"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-4",
+                                "x": 50,
+                                "y": 50
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Back Right Corner",
+                        "sections": [
+                            {
+                                "name": "Quiver",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|128032"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-4",
+                                "x": 50,
+                                "y": 50
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Front Boxes",
+                        "sections": [
+                            {
+                                "name": "Clip",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|128033"
+                                ]
+                            },
+                            {
+                                "name": "LF1",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|128035"
+                                ]
+                            },
+                            {
+                                "name": "Blue Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|128036"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-4",
+                                "x": 50,
+                                "y": 50
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Back Boxes",
+                        "sections": [
+                            {
+                                "name": "Clip",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|128034"
+                                ]
+                            },
+                            {
+                                "name": "Shotgun",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|128037"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-4",
+                                "x": 50,
+                                "y": 50
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Door",
+                        "sections": [
+                            {
+                                "name": "Endtrail",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|128058|128059"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-4",
+                                "shape": "diamond",
+                                "x": 120,
+                                "y": 120
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Left Room",
+                        "sections": [
+                            {
+                                "name": "Endtrail",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|128060"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-4",
+                                "shape": "diamond",
+                                "x": 120,
+                                "y": 120
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Right Room",
+                        "sections": [
+                            {
+                                "name": "Endtrail",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|128061"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-4",
+                                "shape": "diamond",
+                                "x": 120,
+                                "y": 120
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy Spawned From Standing Here",
+                        "sections": [
+                            {
+                                "name": "Endtrail",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|128062"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-4",
+                                "shape": "diamond",
+                                "x": 120,
+                                "y": 120
+                            }
+                        ]
                     }
                 ]
             }

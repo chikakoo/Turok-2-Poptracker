@@ -2336,8 +2336,152 @@
         "name": "2-4",
         "sections": [
           {
-            "ref": "2-4/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-4/In River/Left in River/LF10",
+            "name": "[LF10] In River/Left in River"
+          },
+          {
+            "ref": "2-4/In River/Right in River/LF10",
+            "name": "[LF10] In River/Right in River"
+          },
+          {
+            "ref": "2-4/In River/Center of River/Grenade Launcher",
+            "name": "[Grenade Launcher] In River/Center of River"
+          },
+          {
+            "ref": "2-4/Right Path/Silver Health",
+            "name": "[Silver Health] Right Path"
+          },
+          {
+            "ref": "2-4/By Ladder/LF1",
+            "name": "[LF1] By Ladder"
+          },
+          {
+            "ref": "2-4/Left Open Alcove/LF1",
+            "name": "[LF1] Left Open Alcove"
+          },
+          {
+            "ref": "2-4/Left Open Alcove/LF10",
+            "name": "[LF10] Left Open Alcove"
+          },
+          {
+            "ref": "2-4/Right Open Alcove/LF1",
+            "name": "[LF1] Right Open Alcove"
+          },
+          {
+            "ref": "2-4/Right Open Alcove/LF10",
+            "name": "[LF10] Right Open Alcove"
+          },
+          {
+            "ref": "2-4/Right Switch Alcove/Gate Key",
+            "name": "[Gate Key] Right Switch Alcove"
+          },
+          {
+            "ref": "2-4/Left Switch Alcove/Gate Key",
+            "name": "[Gate Key] Left Switch Alcove"
+          },
+          {
+            "ref": "2-4/Left Catwalks/Switch",
+            "name": "[Switch] Left Catwalks"
+          },
+          {
+            "ref": "2-4/By Oblivion Portal/Switch",
+            "name": "[Switch] By Oblivion Portal"
+          },
+          {
+            "ref": "2-4/Enemy by Checkpoint/Endtrail",
+            "name": "[Endtrail] Enemy by Checkpoint"
+          },
+          {
+            "ref": "2-4/Enemy on Left Path/Endtrail",
+            "name": "[Endtrail] Enemy on Left Path"
+          },
+          {
+            "ref": "2-4/Enemy by Ladder/Endtrail",
+            "name": "[Endtrail] Enemy by Ladder"
+          },
+          {
+            "ref": "2-4/Enemy on Right Path/Raptoid",
+            "name": "[Raptoid] Enemy on Right Path"
+          },
+          {
+            "ref": "2-4/Enemy in Center/Raptor",
+            "name": "[Raptor] Enemy in Center"
+          },
+          {
+            "ref": "2-4/Enemy in Left Alcove/Raptor",
+            "name": "[Raptor] Enemy in Left Alcove"
+          },
+          {
+            "ref": "2-4/Enemy in Right Alcove/Raptor",
+            "name": "[Raptor] Enemy in Right Alcove"
+          },
+          {
+            "ref": "2-4/Enemy on Left Catwalks/Endtrail",
+            "name": "[Endtrail] Enemy on Left Catwalks"
+          },
+          {
+            "ref": "2-4/Enemy by Switch Path/Endtrail",
+            "name": "[Endtrail] Enemy by Switch Path"
+          },
+          {
+            "ref": "2-4/Enemy in Switch Path/Spider",
+            "name": "[Spider] Enemy in Switch Path"
+          },
+          {
+            "ref": "2-4/Enemy by Oblivion Portal/Endtrail",
+            "name": "[Endtrail] Enemy by Oblivion Portal"
+          },
+          {
+            "ref": "2-4/Gate Key/Front Left Boxes/Clip",
+            "name": "[Clip] Gate Key/Front Left Boxes"
+          },
+          {
+            "ref": "2-4/Gate Key/Front Left Boxes/Arrows",
+            "name": "[Arrows] Gate Key/Front Left Boxes"
+          },
+          {
+            "ref": "2-4/Gate Key/Back Right Boxes/LF1",
+            "name": "[LF1] Gate Key/Back Right Boxes"
+          },
+          {
+            "ref": "2-4/Gate Key/Back Right Corner/Quiver",
+            "name": "[Quiver] Gate Key/Back Right Corner"
+          },
+          {
+            "ref": "2-4/Gate Key/Front Boxes/Clip",
+            "name": "[Clip] Gate Key/Front Boxes"
+          },
+          {
+            "ref": "2-4/Gate Key/Front Boxes/LF1",
+            "name": "[LF1] Gate Key/Front Boxes"
+          },
+          {
+            "ref": "2-4/Gate Key/Front Boxes/Blue Health",
+            "name": "[Blue Health] Gate Key/Front Boxes"
+          },
+          {
+            "ref": "2-4/Gate Key/Back Boxes/Clip",
+            "name": "[Clip] Gate Key/Back Boxes"
+          },
+          {
+            "ref": "2-4/Gate Key/Back Boxes/Shotgun",
+            "name": "[Shotgun] Gate Key/Back Boxes"
+          },
+          {
+            "ref": "2-4/Gate Key/Enemy by Door/Endtrail",
+            "name": "[Endtrail] Gate Key/Enemy by Door"
+          },
+          {
+            "ref": "2-4/Gate Key/Enemy in Left Room/Endtrail",
+            "name": "[Endtrail] Gate Key/Enemy in Left Room"
+          },
+          {
+            "ref": "2-4/Gate Key/Enemy in Right Room/Endtrail",
+            "name": "[Endtrail] Gate Key/Enemy in Right Room"
+          },
+          {
+            "ref": "2-4/Gate Key/Enemy Spawned From Standing Here/Endtrail",
+            "name": "[Endtrail] Gate Key/Enemy Spawned From Standing Here"
           }
         ],
         "map_locations": [
