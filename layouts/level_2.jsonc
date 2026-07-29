@@ -50,9 +50,26 @@
             {
                 "title": "2-5",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "2-5"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Main",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "2-5M"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Back",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "2-5R"
+                                ]
+                            }
+                        }
                     ]
                 }
             },

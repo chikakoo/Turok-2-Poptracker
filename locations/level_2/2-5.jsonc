@@ -1,6 +1,794 @@
 [
     {
-        "name": "2-5",
+        "name": "2-5M",
+        "chest_unopened_img": "images/items/life_forces/lf1.png",
+        "chest_opened_img": "images/items/life_forces/lf1_bw.png",
+        "access_rules": [
+            "gate_key:2,$map_access|2|4|mid"
+        ],
+        "children": [
+            {
+                "name": "On Starting Roof",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Water",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Switch Bridge",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Switch Bridge",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Stacked Boxes",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Trail to Catwalk",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|129005|129006|129007|129008|129009"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Stacked Boxes",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Catwalks",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Switch",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129012"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Building",
+                "sections": [
+                    {
+                        "name": "Arrows",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129080"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Building",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 10,
+                        "visibility_rules": [
+                            "$id_exists|129081|129082|129083|129084|129085|129086|129087|129088|129089|129090"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129117"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Ledge",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129091"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Roof Below Ledge",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|129092|129093|129094"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Ledges",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|129095|129096|129097"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Soul Gate Start",
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129098"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Soul Gate",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|129099|129100|129101|129102"
+                        ]
+                    },
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129103"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Portal",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 8,
+                        "visibility_rules": [
+                            "$id_exists|129104|129105|129106|129107|129108|129109|129110|129111"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Door",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129112"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Wall",
+                "sections": [
+                    {
+                        "name": "Shootable Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129113"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Hall After Bridge",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129114"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Hall After Catwalk",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129115"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Across Building Bridge",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129116"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Soul Gate Back",
+                "sections": [
+                    {
+                        "name": "Destroy Soul Gate",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129118"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Start Right",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|129119|129120"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Start Left",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129121"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Start Left",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|129122|129123"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Island",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129124"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Door",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|129125|129126"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Bridge",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129127"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Bridge",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129128"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Behind Door",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129129"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Below Catwalk",
+                "sections": [
+                    {
+                        "name": "Compy",
+                        "item_count": 9,
+                        "visibility_rules": [
+                            "$id_exists|129130|129131|129132|129133|129134|129135|129136|129137|129138"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Hall After Catwalk",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|129139|129140|129141|129142"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Right Path",
+                "sections": [
+                    {
+                        "name": "Compy",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|129143|129144|129145|129146"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Right Path",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|129160|129161"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Left Path",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|129162|129163"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Soul Gate",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|129164|129165"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Building",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129166"
+                        ]
+                    },
+                    {
+                        "name": "Raptoid After Switch",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|129167|129168"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Soul Gate",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129169"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5M",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "2-5R",
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [

@@ -120,10 +120,16 @@
     "img": "images/maps/level_2/2-O.png"
   },
   {
-    "name": "2-5",
+    "name": "2-5M",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_2/2-5.png",
+    "img": "images/maps/level_2/2-5M.png"
+  },
+  {
+    "name": "2-5R",
+    "location_size": 15,
+    "location_border_thickness": 2,
+    //"img": "images/maps/level_2/2-5R.png",
     "img": "images/maps/maplol.png"
   },
   {
