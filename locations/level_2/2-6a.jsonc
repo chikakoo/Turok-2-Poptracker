@@ -8,11 +8,890 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "By Starting Warp",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|130000|130001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 827,
+                        "y": 171
+                    }
+                ]
+            },
+            {
+                "name": "Starting Room",
+                "chest_unopened_img": "images/items/weapons_small/tek_bow.png",
+                "chest_opened_img": "images/items/weapons_small/tek_bow_bw.png",
+                "sections": [
+                    {
+                        "name": "Tek Bow",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 761,
+                        "y": 154
+                    }
+                ]
+            },
+            {
+                "name": "Pagoda Center",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 567,
+                        "y": 156
+                    }
+                ]
+            },
+            {
+                "name": "In Left Wall",
+                "sections": [
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130004"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 517,
+                        "y": 231
+                    }
+                ]
+            },
+            {
+                "name": "Behind Pagoda",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|130006|130007|130008"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 505,
+                        "y": 155
+                    }
+                ]
+            },
+            {
+                "name": "Behind Crate",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130009"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 348,
+                        "y": 164
+                    }
+                ]
+            },
+            {
+                "name": "Up Ladder",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 253,
+                        "y": 173
+                    }
+                ]
+            },
+            {
+                "name": "Under Ladder Pagoda",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|130011|130012|130013|130014"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 184,
+                        "y": 240
+                    }
+                ]
+            },
+            {
+                "name": "Under Left Pagoda",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|130015|130016|130017"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 169,
+                        "y": 392
+                    }
+                ]
+            },
+            {
+                "name": "Middle of Pagodas",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|130018|130019|130020|130021"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 133,
+                        "y": 308
+                    }
+                ]
+            },
+            {
+                "name": "Back Left Pagoda",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|130023|130024|130025|130026"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 78,
+                        "y": 340
+                    }
+                ]
+            },
+            {
+                "name": "Back Right Pagoda",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|130027|130028|130029|130030"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 78,
+                        "y": 277
+                    }
+                ]
+            },
+            {
+                "name": "Tunnel First Room",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|130031|130032|130033|130034"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 37,
+                        "y": 186
+                    }
+                ]
+            },
+            {
+                "name": "Tunnel Path",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 9,
+                        "visibility_rules": [
+                            "$id_exists|130035|130036|130037|130038|130039|130040|130041|130042|130043"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 74,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Tunnel End",
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "chest_unopened_img": "images/items/weapons_small/shotgun.png",
+                        "chest_opened_img": "images/items/weapons_small/shotgun_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130044"
+                        ]
+                    },
+                    {
+                        "name": "Tranquilizer",
+                        "chest_unopened_img": "images/items/weapons_small/tranquilizer_gun.png",
+                        "chest_opened_img": "images/items/weapons_small/tranquilizer_gun_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130045"
+                        ]
+                    },
+                    {
+                        "name": "Tek Bow",
+                        "chest_unopened_img": "images/items/weapons_small/tek_bow.png",
+                        "chest_opened_img": "images/items/weapons_small/tek_bow_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130046"
+                        ]
+                    },
+                    {
+                        "name": "Mag 60",
+                        "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                        "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 200,
+                        "y": 91
+                    }
+                ]
+            },
+            {
+                "name": "Path End",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|130048|130049"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 367,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "Up Stairs in Corner",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 355,
+                        "y": 549
+                    }
+                ]
+            },
+            {
+                "name": "In First Fountain",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 312,
+                        "y": 508
+                    }
+                ]
+            },
+            {
+                "name": "In Second Fountain",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130052"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 312,
+                        "y": 467
+                    }
+                ]
+            },
+            {
+                "name": "By Left Wall",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|130053|130054|130055"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 328,
+                        "y": 349
+                    }
+                ]
+            },
+            {
+                "name": "By Right Wall",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|130056|130057|130058"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 458,
+                        "y": 349
+                    }
+                ]
+            },
+            {
+                "name": "On Catwalks",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130059"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 494,
+                        "y": 215
+                    }
+                ]
+            },
+            {
+                "name": "Behind Pagodas",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130060"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 49,
+                        "y": 308
+                    }
+                ]
+            },
+            {
+                "name": "On Left Wall",
+                "chest_unopened_img": "images/interactables/switch_shootable.png",
+                "chest_opened_img": "images/interactables/switch_shootable_bw.png",
+                "sections": [
+                    {
+                        "name": "Shootable Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130061"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 324,
+                        "y": 327
+                    }
+                ]
+            },
+            {
+                "name": "On Right Wall",
+                "chest_unopened_img": "images/interactables/switch_shootable.png",
+                "chest_opened_img": "images/interactables/switch_shootable_bw.png",
+                "sections": [
+                    {
+                        "name": "Shootable Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130062"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "x": 462,
+                        "y": 368
+                    }
+                ]
+            },
+            {
+                "name": "Enemy First Pagoda Left",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130063"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 523,
+                        "y": 203
+                    }
+                ]
+            },
+            {
+                "name": "Enemy First Pagoda Right",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130064"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 522,
+                        "y": 101
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by First Pagoda",
+                "chest_unopened_img": "images/enemies/raptor.png",
+                "chest_opened_img": "images/enemies/raptor_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptor",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130065"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 610,
+                        "y": 196
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Full Health",
+                "chest_unopened_img": "images/enemies/raptor.png",
+                "chest_opened_img": "images/enemies/raptor_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptor",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|130066|130067"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 582,
+                        "y": 113
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Catwalks",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130068"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 454,
+                        "y": 81
+                    }
+                ]
+            },
+            {
+                "name": "Enemy At Path Start",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|130069|130070"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 463,
+                        "y": 155
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Ladder",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|130071|130072|130073"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 234,
+                        "y": 157
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned by Standing Here",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130074"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 177,
+                        "y": 325
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Broken Bridge",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Either Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130075"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 146,
+                        "y": 307
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Next to Pagodas",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Left or Right Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130076"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 108,
+                        "y": 231
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Path End",
+                "chest_unopened_img": "images/enemies/compy.png",
+                "chest_opened_img": "images/enemies/compy_bw.png",
+                "sections": [
+                    {
+                        "name": "Compy",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "$id_exists|130077|130078|130079|130080|130081|130082|130083|130084|130085|130086|130087"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 276,
+                        "y": 584
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Between Fountains",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130088"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 311,
+                        "y": 493
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Fountains",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|130089|130090"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 351,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Left Staircase",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130092"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 434,
+                        "y": 314
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Right Staircase",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130091"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6a",
+                        "shape": "diamond",
+                        "x": 358,
+                        "y": 390
                     }
                 ]
             }

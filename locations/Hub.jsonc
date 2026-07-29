@@ -2576,8 +2576,184 @@
         "name": "2-6a",
         "sections": [
           {
-            "ref": "2-6a/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-6a/By Starting Warp/Blue Health",
+            "name": "[Blue Health] By Starting Warp"
+          },
+          {
+            "ref": "2-6a/Starting Room/Tek Bow",
+            "name": "[Tek Bow] Starting Room"
+          },
+          {
+            "ref": "2-6a/Pagoda Center/Full Health",
+            "name": "[Full Health] Pagoda Center"
+          },
+          {
+            "ref": "2-6a/In Left Wall/Box of Shells",
+            "name": "[Box of Shells] In Left Wall"
+          },
+          {
+            "ref": "2-6a/In Left Wall/Box of Bullets",
+            "name": "[Box of Bullets] In Left Wall"
+          },
+          {
+            "ref": "2-6a/Behind Pagoda/LF1",
+            "name": "[LF1] Behind Pagoda"
+          },
+          {
+            "ref": "2-6a/Behind Crate/Blue Health",
+            "name": "[Blue Health] Behind Crate"
+          },
+          {
+            "ref": "2-6a/Up Ladder/Blue Health",
+            "name": "[Blue Health] Up Ladder"
+          },
+          {
+            "ref": "2-6a/Under Ladder Pagoda/LF1",
+            "name": "[LF1] Under Ladder Pagoda"
+          },
+          {
+            "ref": "2-6a/Under Left Pagoda/LF1",
+            "name": "[LF1] Under Left Pagoda"
+          },
+          {
+            "ref": "2-6a/Middle of Pagodas/LF10",
+            "name": "[LF10] Middle of Pagodas"
+          },
+          {
+            "ref": "2-6a/Middle of Pagodas/Blue Health",
+            "name": "[Blue Health] Middle of Pagodas"
+          },
+          {
+            "ref": "2-6a/Back Left Pagoda/LF1",
+            "name": "[LF1] Back Left Pagoda"
+          },
+          {
+            "ref": "2-6a/Back Right Pagoda/LF1",
+            "name": "[LF1] Back Right Pagoda"
+          },
+          {
+            "ref": "2-6a/Tunnel First Room/LF10",
+            "name": "[LF10] Tunnel First Room"
+          },
+          {
+            "ref": "2-6a/Tunnel Path/LF1",
+            "name": "[LF1] Tunnel Path"
+          },
+          {
+            "ref": "2-6a/Tunnel End/Shotgun",
+            "name": "[Shotgun] Tunnel End"
+          },
+          {
+            "ref": "2-6a/Tunnel End/Tranquilizer",
+            "name": "[Tranquilizer] Tunnel End"
+          },
+          {
+            "ref": "2-6a/Tunnel End/Tek Bow",
+            "name": "[Tek Bow] Tunnel End"
+          },
+          {
+            "ref": "2-6a/Tunnel End/Mag 60",
+            "name": "[Mag 60] Tunnel End"
+          },
+          {
+            "ref": "2-6a/Path End/Blue Health",
+            "name": "[Blue Health] Path End"
+          },
+          {
+            "ref": "2-6a/Up Stairs in Corner/Box of Bullets",
+            "name": "[Box of Bullets] Up Stairs in Corner"
+          },
+          {
+            "ref": "2-6a/In First Fountain/Shells",
+            "name": "[Shells] In First Fountain"
+          },
+          {
+            "ref": "2-6a/In Second Fountain/Shells",
+            "name": "[Shells] In Second Fountain"
+          },
+          {
+            "ref": "2-6a/By Left Wall/Silver Health",
+            "name": "[Silver Health] By Left Wall"
+          },
+          {
+            "ref": "2-6a/By Right Wall/Silver Health",
+            "name": "[Silver Health] By Right Wall"
+          },
+          {
+            "ref": "2-6a/On Catwalks/Switch",
+            "name": "[Switch] On Catwalks"
+          },
+          {
+            "ref": "2-6a/Behind Pagodas/Switch",
+            "name": "[Switch] Behind Pagodas"
+          },
+          {
+            "ref": "2-6a/On Left Wall/Shootable Switch",
+            "name": "[Shootable Switch] On Left Wall"
+          },
+          {
+            "ref": "2-6a/On Right Wall/Shootable Switch",
+            "name": "[Shootable Switch] On Right Wall"
+          },
+          {
+            "ref": "2-6a/Enemy First Pagoda Left/Endtrail",
+            "name": "[Endtrail] Enemy First Pagoda Left"
+          },
+          {
+            "ref": "2-6a/Enemy First Pagoda Right/Endtrail",
+            "name": "[Endtrail] Enemy First Pagoda Right"
+          },
+          {
+            "ref": "2-6a/Enemy by First Pagoda/Raptor",
+            "name": "[Raptor] Enemy by First Pagoda"
+          },
+          {
+            "ref": "2-6a/Enemy Spawned From Full Health/Raptor",
+            "name": "[Raptor] Enemy Spawned From Full Health"
+          },
+          {
+            "ref": "2-6a/Enemy Before Catwalks/Endtrail",
+            "name": "[Endtrail] Enemy Before Catwalks"
+          },
+          {
+            "ref": "2-6a/Enemy At Path Start/Raptoid",
+            "name": "[Raptoid] Enemy At Path Start"
+          },
+          {
+            "ref": "2-6a/Enemy Before Ladder/Endtrail",
+            "name": "[Endtrail] Enemy Before Ladder"
+          },
+          {
+            "ref": "2-6a/Enemy Spawned by Standing Here/Endtrail",
+            "name": "[Endtrail] Enemy Spawned by Standing Here"
+          },
+          {
+            "ref": "2-6a/Enemy by Broken Bridge/Either Endtrail",
+            "name": "[Either Endtrail] Enemy by Broken Bridge"
+          },
+          {
+            "ref": "2-6a/Enemy Next to Pagodas/Left or Right Raptoid",
+            "name": "[Left or Right Raptoid] Enemy Next to Pagodas"
+          },
+          {
+            "ref": "2-6a/Enemy at Path End/Compy",
+            "name": "[Compy] Enemy at Path End"
+          },
+          {
+            "ref": "2-6a/Enemy Between Fountains/Endtrail",
+            "name": "[Endtrail] Enemy Between Fountains"
+          },
+          {
+            "ref": "2-6a/Enemy After Fountains/Raptoid",
+            "name": "[Raptoid] Enemy After Fountains"
+          },
+          {
+            "ref": "2-6a/Enemy up Left Staircase/Endtrail",
+            "name": "[Endtrail] Enemy up Left Staircase"
+          },
+          {
+            "ref": "2-6a/Enemy up Right Staircase/Endtrail",
+            "name": "[Endtrail] Enemy up Right Staircase"
           }
         ],
         "map_locations": [
