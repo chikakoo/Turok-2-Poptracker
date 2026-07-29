@@ -331,7 +331,17 @@ LOCATIONS_2_4 = {
 }
 
 LOCATIONS_2_O = {
-    
+    [79000] = {"@2-O/Exit/Nuke Part"},
+    [79001] = {"@2-O/Left/Valve"},
+    [79002] = {"@2-O/Right/Valve"},
+    [79003] = {"@2-O/Enemy by Left Valve/Sentinel"},
+    [79004] = {"@2-O/Enemy by Right Valve/Sentinel"},
+    [79005] = {"@2-O/Enemy in Front Doors/Sentinel"},
+    [79006] = {"@2-O/Enemy in Front Doors/Sentinel"},
+    [79007] = {"@2-O/Enemy in Back Doors/Death Guard"},
+    [79008] = {"@2-O/Enemy in Back Doors/Death Guard"},
+    [79009] = {"@2-O/Enemy in Lava Room/Lord of the Flesh"},
+    [79010] = {"@2-O/Enemy After Lava Room/Lord of the Flesh"}
 }
 
 LOCATIONS_2_5 = {

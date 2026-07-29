@@ -8,11 +8,197 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Exit",
+                "chest_unopened_img": "images/items/weapons/nuke_parts.png",
+                "chest_opened_img": "images/items/weapons/nuke_parts_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Nuke Part",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|79000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-O",
+                        "x": 645,
+                        "y": 217
+                    }
+                ]
+            },
+            {
+                "name": "Left",
+                "chest_unopened_img": "images/interactables/valve.png",
+                "chest_opened_img": "images/interactables/valve_bw.png",
+                "sections": [
+                    {
+                        "name": "Valve",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|79001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-O",
+                        "x": 198,
+                        "y": 26
+                    }
+                ]
+            },
+            {
+                "name": "Right",
+                "chest_unopened_img": "images/interactables/valve.png",
+                "chest_opened_img": "images/interactables/valve_bw.png",
+                "sections": [
+                    {
+                        "name": "Valve",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|79002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-O",
+                        "x": 198,
+                        "y": 404
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Left Valve",
+                "chest_unopened_img": "images/enemies/sentinel_oblivion.png",
+                "chest_opened_img": "images/enemies/sentinel_oblivion_bw.png",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|79003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-O",
+                        "shape": "diamond",
+                        "x": 198,
+                        "y": 66
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Right Valve",
+                "chest_unopened_img": "images/enemies/sentinel_oblivion.png",
+                "chest_opened_img": "images/enemies/sentinel_oblivion_bw.png",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|79004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-O",
+                        "shape": "diamond",
+                        "x": 198,
+                        "y": 367
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Front Doors",
+                "chest_unopened_img": "images/enemies/sentinel_oblivion.png",
+                "chest_opened_img": "images/enemies/sentinel_oblivion_bw.png",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|79005|79006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-O",
+                        "shape": "diamond",
+                        "x": 334,
+                        "y": 216
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Back Doors",
+                "chest_unopened_img": "images/enemies/death_guard.png",
+                "chest_opened_img": "images/enemies/death_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Death Guard",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|79007|79008"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-O",
+                        "shape": "diamond",
+                        "x": 267,
+                        "y": 216
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Lava Room",
+                "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
+                "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Flesh",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|79009"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-O",
+                        "shape": "diamond",
+                        "x": 523,
+                        "y": 217
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Lava Room",
+                "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
+                "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Flesh",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|79010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-O",
+                        "shape": "diamond",
+                        "x": 619,
+                        "y": 217
                     }
                 ]
             }

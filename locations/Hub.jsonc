@@ -2512,8 +2512,40 @@
         "name": "2-O",
         "sections": [
           {
-            "ref": "2-O/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-O/Exit/Nuke Part",
+            "name": "[Nuke Part] Exit"
+          },
+          {
+            "ref": "2-O/Left/Valve",
+            "name": "[Valve] Left"
+          },
+          {
+            "ref": "2-O/Right/Valve",
+            "name": "[Valve] Right"
+          },
+          {
+            "ref": "2-O/Enemy by Left Valve/Sentinel",
+            "name": "[Sentinel] Enemy by Left Valve"
+          },
+          {
+            "ref": "2-O/Enemy by Right Valve/Sentinel",
+            "name": "[Sentinel] Enemy by Right Valve"
+          },
+          {
+            "ref": "2-O/Enemy in Front Doors/Sentinel",
+            "name": "[Sentinel] Enemy in Front Doors"
+          },
+          {
+            "ref": "2-O/Enemy in Back Doors/Death Guard",
+            "name": "[Death Guard] Enemy in Back Doors"
+          },
+          {
+            "ref": "2-O/Enemy in Lava Room/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy in Lava Room"
+          },
+          {
+            "ref": "2-O/Enemy After Lava Room/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy After Lava Room"
           }
         ],
         "map_locations": [
