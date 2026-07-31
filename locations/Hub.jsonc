@@ -2560,7 +2560,175 @@
         "name": "2-5",
         "sections": [
           {
-            "ref": "2-5/TEMP/DELETE ME",
+            "ref": "2-5M/On Starting Roof/Blue Health",
+            "name": "[Blue Health] On Starting Roof"
+          },
+          {
+            "ref": "2-5M/By Water/Shells",
+            "name": "[Shells] By Water"
+          },
+          {
+            "ref": "2-5M/Before Switch Bridge/Clip",
+            "name": "[Clip] Before Switch Bridge"
+          },
+          {
+            "ref": "2-5M/After Switch Bridge/Box of Bullets",
+            "name": "[Box of Bullets] After Switch Bridge"
+          },
+          {
+            "ref": "2-5M/After Stacked Boxes/Shells",
+            "name": "[Shells] After Stacked Boxes"
+          },
+          {
+            "ref": "2-5M/Trail to Catwalk/LF1",
+            "name": "[LF1] Trail to Catwalk"
+          },
+          {
+            "ref": "2-5M/On Stacked Boxes/Full Health",
+            "name": "[Full Health] On Stacked Boxes"
+          },
+          {
+            "ref": "2-5M/After Catwalks/Shells",
+            "name": "[Shells] After Catwalks"
+          },
+          {
+            "ref": "2-5M/Before Switch/Shells",
+            "name": "[Shells] Before Switch"
+          },
+          {
+            "ref": "2-5M/Behind Building/Arrows",
+            "name": "[Arrows] Behind Building"
+          },
+          {
+            "ref": "2-5M/In Building/LF1",
+            "name": "[LF1] In Building"
+          },
+          {
+            "ref": "2-5M/In Building/Switch",
+            "name": "[Switch] In Building"
+          },
+          {
+            "ref": "2-5M/On Ledge/LF1",
+            "name": "[LF1] On Ledge"
+          },
+          {
+            "ref": "2-5M/On Roof Below Ledge/LF10",
+            "name": "[LF10] On Roof Below Ledge"
+          },
+          {
+            "ref": "2-5M/On Ledges/LF10",
+            "name": "[LF10] On Ledges"
+          },
+          {
+            "ref": "2-5M/Soul Gate Start/Shotgun",
+            "name": "[Shotgun] Soul Gate Start"
+          },
+          {
+            "ref": "2-5M/After Soul Gate/LF10",
+            "name": "[LF10] After Soul Gate"
+          },
+          {
+            "ref": "2-5M/After Soul Gate/Full Health",
+            "name": "[Full Health] After Soul Gate"
+          },
+          {
+            "ref": "2-5M/By Portal/LF1",
+            "name": "[LF1] By Portal"
+          },
+          {
+            "ref": "2-5M/By Door/Switch",
+            "name": "[Switch] By Door"
+          },
+          {
+            "ref": "2-5M/On Wall/Shootable Switch",
+            "name": "[Shootable Switch] On Wall"
+          },
+          {
+            "ref": "2-5M/Hall After Bridge/Switch",
+            "name": "[Switch] Hall After Bridge"
+          },
+          {
+            "ref": "2-5M/Hall After Catwalk/Switch",
+            "name": "[Switch] Hall After Catwalk"
+          },
+          {
+            "ref": "2-5M/Across Building Bridge/Switch",
+            "name": "[Switch] Across Building Bridge"
+          },
+          {
+            "ref": "2-5M/Soul Gate Back/Destroy Soul Gate",
+            "name": "[Destroy Soul Gate] Soul Gate Back"
+          },
+          {
+            "ref": "2-5M/Enemy Start Right/Endtrail",
+            "name": "[Endtrail] Enemy Start Right"
+          },
+          {
+            "ref": "2-5M/Enemy Start Left/Endtrail",
+            "name": "[Endtrail] Enemy Start Left"
+          },
+          {
+            "ref": "2-5M/Enemy Spawned From Start Left/Endtrail",
+            "name": "[Endtrail] Enemy Spawned From Start Left"
+          },
+          {
+            "ref": "2-5M/Enemy on Island/Endtrail",
+            "name": "[Endtrail] Enemy on Island"
+          },
+          {
+            "ref": "2-5M/Enemy by Door/Endtrail",
+            "name": "[Endtrail] Enemy by Door"
+          },
+          {
+            "ref": "2-5M/Enemy Before Bridge/Raptoid",
+            "name": "[Raptoid] Enemy Before Bridge"
+          },
+          {
+            "ref": "2-5M/Enemy After Bridge/Raptoid",
+            "name": "[Raptoid] Enemy After Bridge"
+          },
+          {
+            "ref": "2-5M/Enemy Behind Door/Endtrail",
+            "name": "[Endtrail] Enemy Behind Door"
+          },
+          {
+            "ref": "2-5M/Enemy Below Catwalk/Compy",
+            "name": "[Compy] Enemy Below Catwalk"
+          },
+          {
+            "ref": "2-5M/Enemy in Hall After Catwalk/Raptoid",
+            "name": "[Raptoid] Enemy in Hall After Catwalk"
+          },
+          {
+            "ref": "2-5M/Enemy After Right Path/Compy",
+            "name": "[Compy] Enemy After Right Path"
+          },
+          {
+            "ref": "2-5M/Enemy Spawned From Right Path/Raptoid",
+            "name": "[Raptoid] Enemy Spawned From Right Path"
+          },
+          {
+            "ref": "2-5M/Enemy Spawned From Left Path/Raptoid",
+            "name": "[Raptoid] Enemy Spawned From Left Path"
+          },
+          {
+            "ref": "2-5M/Enemy by Soul Gate/Endtrail",
+            "name": "[Endtrail] Enemy by Soul Gate"
+          },
+          {
+            "ref": "2-5M/Enemy in Building/Endtrail",
+            "name": "[Endtrail] Enemy in Building"
+          },
+          {
+            "ref": "2-5M/Enemy in Building/Raptoid After Switch",
+            "name": "[Raptoid After Switch] Enemy in Building"
+          },
+          {
+            "ref": "2-5M/Enemy After Soul Gate/Raptoid",
+            "name": "[Raptoid] Enemy After Soul Gate"
+          },
+          {
+            "ref": "2-5R/TEMP/DELETE ME",
             "name": "[DELETE ME] TEMP"
           }
         ],

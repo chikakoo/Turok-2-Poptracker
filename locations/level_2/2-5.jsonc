@@ -9,6 +9,8 @@
         "children": [
             {
                 "name": "On Starting Roof",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
                 "sections": [
                     {
                         "name": "Blue Health",
@@ -21,13 +23,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 461,
+                        "y": 466
                     }
                 ]
             },
             {
                 "name": "By Water",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
                 "sections": [
                     {
                         "name": "Shells",
@@ -40,13 +44,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 440,
+                        "y": 405
                     }
                 ]
             },
             {
                 "name": "Before Switch Bridge",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
                 "sections": [
                     {
                         "name": "Clip",
@@ -59,13 +65,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 345,
+                        "y": 624
                     }
                 ]
             },
             {
                 "name": "After Switch Bridge",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
                 "sections": [
                     {
                         "name": "Box of Bullets",
@@ -78,13 +86,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 323,
+                        "y": 553
                     }
                 ]
             },
             {
                 "name": "After Stacked Boxes",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
                 "sections": [
                     {
                         "name": "Shells",
@@ -97,8 +107,8 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 364,
+                        "y": 289
                     }
                 ]
             },
@@ -116,13 +126,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 393,
+                        "y": 216
                     }
                 ]
             },
             {
                 "name": "On Stacked Boxes",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
                 "sections": [
                     {
                         "name": "Full Health",
@@ -135,13 +147,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 378,
+                        "y": 281
                     }
                 ]
             },
             {
                 "name": "After Catwalks",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
                 "sections": [
                     {
                         "name": "Shells",
@@ -154,13 +168,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 361,
+                        "y": 250
                     }
                 ]
             },
             {
                 "name": "Before Switch",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
                 "sections": [
                     {
                         "name": "Shells",
@@ -173,13 +189,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 281,
+                        "y": 235
                     }
                 ]
             },
             {
                 "name": "Behind Building",
+                "chest_unopened_img": "images/items/ammo/arrows.png",
+                "chest_opened_img": "images/items/ammo/arrows_bw.png",
                 "sections": [
                     {
                         "name": "Arrows",
@@ -192,8 +210,8 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 288,
+                        "y": 446
                     }
                 ]
             },
@@ -209,6 +227,8 @@
                     },
                     {
                         "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_standard.png",
+                        "chest_opened_img": "images/interactables/switch_standard_bw.png",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|129117"
@@ -218,8 +238,8 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 300,
+                        "y": 428
                     }
                 ]
             },
@@ -237,13 +257,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 386,
+                        "y": 466
                     }
                 ]
             },
             {
                 "name": "On Roof Below Ledge",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
                 "sections": [
                     {
                         "name": "LF10",
@@ -256,13 +278,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 398,
+                        "y": 486
                     }
                 ]
             },
             {
                 "name": "On Ledges",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
                 "sections": [
                     {
                         "name": "LF10",
@@ -275,13 +299,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 249,
+                        "y": 409
                     }
                 ]
             },
             {
                 "name": "Soul Gate Start",
+                "chest_unopened_img": "images/items/weapons_small/shotgun.png",
+                "chest_opened_img": "images/items/weapons_small/shotgun_bw.png",
                 "sections": [
                     {
                         "name": "Shotgun",
@@ -294,8 +320,8 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 218,
+                        "y": 168
                     }
                 ]
             },
@@ -304,6 +330,8 @@
                 "sections": [
                     {
                         "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
                         "item_count": 4,
                         "visibility_rules": [
                             "$id_exists|129099|129100|129101|129102"
@@ -311,6 +339,8 @@
                     },
                     {
                         "name": "Full Health",
+                        "chest_unopened_img": "images/items/health/full_health.png",
+                        "chest_opened_img": "images/items/health/full_health_bw.png",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|129103"
@@ -320,8 +350,8 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 170,
+                        "y": 61
                     }
                 ]
             },
@@ -339,13 +369,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 60,
+                        "y": 45
                     }
                 ]
             },
             {
                 "name": "By Door",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
                 "sections": [
                     {
                         "name": "Switch",
@@ -358,13 +390,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 374,
+                        "y": 330
                     }
                 ]
             },
             {
                 "name": "On Wall",
+                "chest_unopened_img": "images/interactables/switch_shootable.png",
+                "chest_opened_img": "images/interactables/switch_shootable_bw.png",
                 "sections": [
                     {
                         "name": "Shootable Switch",
@@ -377,13 +411,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 323,
+                        "y": 540
                     }
                 ]
             },
             {
                 "name": "Hall After Bridge",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
                 "sections": [
                     {
                         "name": "Switch",
@@ -396,13 +432,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 220,
+                        "y": 524
                     }
                 ]
             },
             {
                 "name": "Hall After Catwalk",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
                 "sections": [
                     {
                         "name": "Switch",
@@ -415,13 +453,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 259,
+                        "y": 274
                     }
                 ]
             },
             {
                 "name": "Across Building Bridge",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
                 "sections": [
                     {
                         "name": "Switch",
@@ -434,13 +474,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 485,
+                        "y": 430
                     }
                 ]
             },
             {
                 "name": "Soul Gate Back",
+                "chest_unopened_img": "images/interactables/soul_gate.png",
+                "chest_opened_img": "images/interactables/soul_gate_bw.png",
                 "sections": [
                     {
                         "name": "Destroy Soul Gate",
@@ -453,13 +495,15 @@
                 "map_locations": [
                     {
                         "map": "2-5M",
-                        "x": 0,
-                        "y": 0
+                        "x": 218,
+                        "y": 73
                     }
                 ]
             },
             {
                 "name": "Enemy Start Right",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -473,13 +517,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 509,
+                        "y": 347
                     }
                 ]
             },
             {
                 "name": "Enemy Start Left",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -493,13 +539,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 519,
+                        "y": 467
                     }
                 ]
             },
             {
                 "name": "Enemy Spawned From Start Left",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -513,13 +561,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 478,
+                        "y": 469
                     }
                 ]
             },
             {
                 "name": "Enemy on Island",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -533,13 +583,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 421,
+                        "y": 428
                     }
                 ]
             },
             {
                 "name": "Enemy by Door",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -553,13 +605,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 380,
+                        "y": 352
                     }
                 ]
             },
             {
                 "name": "Enemy Before Bridge",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -573,13 +627,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 345,
+                        "y": 651
                     }
                 ]
             },
             {
                 "name": "Enemy After Bridge",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -593,13 +649,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 262,
+                        "y": 565
                     }
                 ]
             },
             {
                 "name": "Enemy Behind Door",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -613,13 +671,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 453,
+                        "y": 332
                     }
                 ]
             },
             {
                 "name": "Enemy Below Catwalk",
+                "chest_unopened_img": "images/enemies/compy.png",
+                "chest_opened_img": "images/enemies/compy_bw.png",
                 "sections": [
                     {
                         "name": "Compy",
@@ -633,13 +693,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 406,
+                        "y": 280
                     }
                 ]
             },
             {
                 "name": "Enemy in Hall After Catwalk",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -653,13 +715,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 285,
+                        "y": 274
                     }
                 ]
             },
             {
                 "name": "Enemy After Right Path",
+                "chest_unopened_img": "images/enemies/compy.png",
+                "chest_opened_img": "images/enemies/compy_bw.png",
                 "sections": [
                     {
                         "name": "Compy",
@@ -673,13 +737,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 333,
+                        "y": 361
                     }
                 ]
             },
             {
                 "name": "Enemy Spawned From Right Path",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -693,13 +759,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 293,
+                        "y": 370
                     }
                 ]
             },
             {
                 "name": "Enemy Spawned From Left Path",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -713,13 +781,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 266,
+                        "y": 505
                     }
                 ]
             },
             {
                 "name": "Enemy by Soul Gate",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
@@ -733,8 +803,8 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 224,
+                        "y": 334
                     }
                 ]
             },
@@ -743,6 +813,8 @@
                 "sections": [
                     {
                         "name": "Endtrail",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|129166"
@@ -750,6 +822,8 @@
                     },
                     {
                         "name": "Raptoid After Switch",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
                         "item_count": 2,
                         "visibility_rules": [
                             "$id_exists|129167|129168"
@@ -760,13 +834,15 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 357,
+                        "y": 428
                     }
                 ]
             },
             {
                 "name": "Enemy After Soul Gate",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
                 "sections": [
                     {
                         "name": "Raptoid",
@@ -780,8 +856,8 @@
                     {
                         "map": "2-5M",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 64,
+                        "y": 85
                     }
                 ]
             }
