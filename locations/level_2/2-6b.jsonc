@@ -8,11 +8,485 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Trail to Water",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|130093|130094|130095"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Water Path",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130096"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Path",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 9,
+                        "visibility_rules": [
+                            "$id_exists|130097|130098|130099|130100|130101|130102|130103|130104|130105"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Front Left Corner",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130106"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Back Left Corner",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130107"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Back Right Corner",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130108"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Front Right Corner",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130109"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Center",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130110"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Leaper Room",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130111"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Water Room",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 6,
+                        "visibility_rules": [
+                            "$id_exists|130112|130113|130114|130115|130116|130117"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Exit Portal",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130118"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Return Ladder 1",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130119"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Hall by Long Ladder",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 7,
+                        "visibility_rules": [
+                            "$id_exists|130120|130121|130122|130123|130124|130125|130126"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Return Ladder 2",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130127"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Wall",
+                "chest_unopened_img": "images/interactables/switch_shootable.png",
+                "chest_opened_img": "images/interactables/switch_shootable_bw.png",
+                "sections": [
+                    {
+                        "name": "Shootable Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130128"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy In Starting Halls",
+                "chest_unopened_img": "images/enemies/spider.png",
+                "chest_opened_img": "images/enemies/spider_bw.png",
+                "sections": [
+                    {
+                        "name": "Spider",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|130129|130130|130131"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Above Right Ladder",
+                "chest_unopened_img": "images/enemies/spider.png",
+                "chest_opened_img": "images/enemies/spider_bw.png",
+                "sections": [
+                    {
+                        "name": "Spider",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130132"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Above Left Ladder",
+                "chest_unopened_img": "images/enemies/spider.png",
+                "chest_opened_img": "images/enemies/spider_bw.png",
+                "sections": [
+                    {
+                        "name": "Spider",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130133"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Water Path",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130134"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Swimming Here",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130135"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Shootable Switch",
+                "chest_unopened_img": "images/enemies/leaper.png",
+                "chest_opened_img": "images/enemies/leaper_bw.png",
+                "sections": [
+                    {
+                        "name": "Leaper",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|130136|130137"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Water Room Exit",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130138"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Path to Exit",
+                "chest_unopened_img": "images/enemies/spider.png",
+                "chest_opened_img": "images/enemies/spider_bw.png",
+                "sections": [
+                    {
+                        "name": "Spider",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|130139|130140|130141|130142|130143"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

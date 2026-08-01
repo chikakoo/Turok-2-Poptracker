@@ -8,11 +8,221 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Underwater Path",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|130144|130145"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Bridge Center",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Lower Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130146"
+                        ]
+                    },
+                    {
+                        "name": "Upper Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130148"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Upper Bridge Start",
+                "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130147"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Across Upper Bridge",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130149"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Exit Portal",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|130150|130151"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Center Pillar",
+                "chest_unopened_img": "images/interactables/switch_block.png",
+                "chest_opened_img": "images/interactables/switch_block_bw.png",
+                "sections": [
+                    {
+                        "name": "Block Switch",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|130152|130153|130154|130155"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Bottom",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|130156|130157"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6c",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Lower Bridge",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130158"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6c",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Upper Bridge",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|130159"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6c",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Exit Portal",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|130160|130161"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-6c",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

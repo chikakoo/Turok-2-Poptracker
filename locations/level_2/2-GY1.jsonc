@@ -8,11 +8,298 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "By Portal",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|133000|133001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Gate",
+                "chest_unopened_img": "images/items/weapons_small/shotgun.png",
+                "chest_opened_img": "images/items/weapons_small/shotgun_bw.png",
+                "sections": [
+                    {
+                        "name": "Shotgun",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|133002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Ledge",
+                "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                "sections": [
+                    {
+                        "name": "Mag 60",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|133003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Pillar",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|133004|133005|133006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Pillars",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|133007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Gate",
+                "chest_unopened_img": "images/enemies/deadman.png",
+                "chest_opened_img": "images/enemies/deadman_bw.png",
+                "sections": [
+                    {
+                        "name": "Deadman",
+                        "item_count": 6,
+                        "visibility_rules": [
+                            "$id_exists|133009|133010|133011|133012|133013|133014"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Gate",
+                "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|133015"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Ladder",
+                "chest_unopened_img": "images/enemies/spider.png",
+                "chest_opened_img": "images/enemies/spider_bw.png",
+                "sections": [
+                    {
+                        "name": "Spider",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|133016|133017|133018|133019|133020"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Main Room Gate",
+                "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|133021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Behind Building",
+                "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|133023"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Main Room",
+                "chest_unopened_img": "images/enemies/deadman.png",
+                "chest_opened_img": "images/enemies/deadman_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                        "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|133022"
+                        ]
+                    },
+                    {
+                        "name": "Deadman",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|133024|133025"
+                        ]
+                    },
+                    {
+                        "name": "Deadman Spawned From Lord of the Dead by Gate",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|133026"
+                        ]
+                    },
+                    {
+                        "name": "Deadman Spawned From Lord of the Dead in Main Room",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|133027"
+                        ]
+                    },
+                    {
+                        "name": "Deadman Spawned From Lord of the Dead Behind Building",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|133028"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Center Building",
+                "chest_unopened_img": "images/enemies/sister_of_despair.png",
+                "chest_opened_img": "images/enemies/sister_of_despair_bw.png",
+                "sections": [
+                    {
+                        "name": "Banish Sister of Despair",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|133008"
+                        ]
+                    },
+                    {
+                        "name": "Sister of Despair",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|133029"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

@@ -3024,8 +3024,96 @@
         "name": "2-6b",
         "sections": [
           {
-            "ref": "2-6b/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-6b/Trail to Water/LF1",
+            "name": "[LF1] Trail to Water"
+          },
+          {
+            "ref": "2-6b/Behind Water Path/Blue Health",
+            "name": "[Blue Health] Behind Water Path"
+          },
+          {
+            "ref": "2-6b/Water Path/LF1",
+            "name": "[LF1] Water Path"
+          },
+          {
+            "ref": "2-6b/Front Left Corner/LF10",
+            "name": "[LF10] Front Left Corner"
+          },
+          {
+            "ref": "2-6b/Back Left Corner/LF10",
+            "name": "[LF10] Back Left Corner"
+          },
+          {
+            "ref": "2-6b/Back Right Corner/LF10",
+            "name": "[LF10] Back Right Corner"
+          },
+          {
+            "ref": "2-6b/Front Right Corner/LF10",
+            "name": "[LF10] Front Right Corner"
+          },
+          {
+            "ref": "2-6b/In Center/LF10",
+            "name": "[LF10] In Center"
+          },
+          {
+            "ref": "2-6b/Leaper Room/Full Health",
+            "name": "[Full Health] Leaper Room"
+          },
+          {
+            "ref": "2-6b/After Water Room/LF1",
+            "name": "[LF1] After Water Room"
+          },
+          {
+            "ref": "2-6b/By Exit Portal/Blue Health",
+            "name": "[Blue Health] By Exit Portal"
+          },
+          {
+            "ref": "2-6b/By Return Ladder 1/LF10",
+            "name": "[LF10] By Return Ladder 1"
+          },
+          {
+            "ref": "2-6b/Hall by Long Ladder/LF1",
+            "name": "[LF1] Hall by Long Ladder"
+          },
+          {
+            "ref": "2-6b/By Return Ladder 2/LF10",
+            "name": "[LF10] By Return Ladder 2"
+          },
+          {
+            "ref": "2-6b/On Wall/Shootable Switch",
+            "name": "[Shootable Switch] On Wall"
+          },
+          {
+            "ref": "2-6b/Enemy In Starting Halls/Spider",
+            "name": "[Spider] Enemy In Starting Halls"
+          },
+          {
+            "ref": "2-6b/Enemy Above Right Ladder/Spider",
+            "name": "[Spider] Enemy Above Right Ladder"
+          },
+          {
+            "ref": "2-6b/Enemy Above Left Ladder/Spider",
+            "name": "[Spider] Enemy Above Left Ladder"
+          },
+          {
+            "ref": "2-6b/Enemy by Water Path/Endtrail",
+            "name": "[Endtrail] Enemy by Water Path"
+          },
+          {
+            "ref": "2-6b/Enemy Spawned From Swimming Here/Endtrail",
+            "name": "[Endtrail] Enemy Spawned From Swimming Here"
+          },
+          {
+            "ref": "2-6b/Enemy Spawned From Shootable Switch/Leaper",
+            "name": "[Leaper] Enemy Spawned From Shootable Switch"
+          },
+          {
+            "ref": "2-6b/Enemy by Water Room Exit/Endtrail",
+            "name": "[Endtrail] Enemy by Water Room Exit"
+          },
+          {
+            "ref": "2-6b/Enemy on Path to Exit/Spider",
+            "name": "[Spider] Enemy on Path to Exit"
           }
         ],
         "map_locations": [
@@ -3040,8 +3128,72 @@
         "name": "2-GY1",
         "sections": [
           {
-            "ref": "2-GY1/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-GY1/By Portal/Blue Health",
+            "name": "[Blue Health] By Portal"
+          },
+          {
+            "ref": "2-GY1/Before Gate/Shotgun",
+            "name": "[Shotgun] Before Gate"
+          },
+          {
+            "ref": "2-GY1/On Ledge/Mag 60",
+            "name": "[Mag 60] On Ledge"
+          },
+          {
+            "ref": "2-GY1/On Pillar/LF10",
+            "name": "[LF10] On Pillar"
+          },
+          {
+            "ref": "2-GY1/By Pillars/LF10",
+            "name": "[LF10] By Pillars"
+          },
+          {
+            "ref": "2-GY1/Enemy by Gate/Deadman",
+            "name": "[Deadman] Enemy by Gate"
+          },
+          {
+            "ref": "2-GY1/Enemy After Gate/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy After Gate"
+          },
+          {
+            "ref": "2-GY1/Enemy up Ladder/Spider",
+            "name": "[Spider] Enemy up Ladder"
+          },
+          {
+            "ref": "2-GY1/Enemy by Main Room Gate/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy by Main Room Gate"
+          },
+          {
+            "ref": "2-GY1/Enemy Behind Building/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy Behind Building"
+          },
+          {
+            "ref": "2-GY1/Enemy in Main Room/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy in Main Room"
+          },
+          {
+            "ref": "2-GY1/Enemy in Main Room/Deadman",
+            "name": "[Deadman] Enemy in Main Room"
+          },
+          {
+            "ref": "2-GY1/Enemy in Main Room/Deadman Spawned From Lord of the Dead by Gate",
+            "name": "[Deadman Spawned From Lord of the Dead by Gate] Enemy in Main Room"
+          },
+          {
+            "ref": "2-GY1/Enemy in Main Room/Deadman Spawned From Lord of the Dead in Main Room",
+            "name": "[Deadman Spawned From Lord of the Dead in Main Room] Enemy in Main Room"
+          },
+          {
+            "ref": "2-GY1/Enemy in Main Room/Deadman Spawned From Lord of the Dead Behind Building",
+            "name": "[Deadman Spawned From Lord of the Dead Behind Building] Enemy in Main Room"
+          },
+          {
+            "ref": "2-GY1/In Center Building/Banish Sister of Despair",
+            "name": "[Banish Sister of Despair] In Center Building"
+          },
+          {
+            "ref": "2-GY1/In Center Building/Sister of Despair",
+            "name": "[Sister of Despair] In Center Building"
           }
         ],
         "map_locations": [
@@ -3056,8 +3208,48 @@
         "name": "2-6c",
         "sections": [
           {
-            "ref": "2-6c/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-6c/Underwater Path/LF1",
+            "name": "[LF1] Underwater Path"
+          },
+          {
+            "ref": "2-6c/On Bridge Center/Lower Blue Health",
+            "name": "[Lower Blue Health] On Bridge Center"
+          },
+          {
+            "ref": "2-6c/On Bridge Center/Upper Blue Health",
+            "name": "[Upper Blue Health] On Bridge Center"
+          },
+          {
+            "ref": "2-6c/Upper Bridge Start/Box of Shells",
+            "name": "[Box of Shells] Upper Bridge Start"
+          },
+          {
+            "ref": "2-6c/Across Upper Bridge/Box of Bullets",
+            "name": "[Box of Bullets] Across Upper Bridge"
+          },
+          {
+            "ref": "2-6c/By Exit Portal/Silver Health",
+            "name": "[Silver Health] By Exit Portal"
+          },
+          {
+            "ref": "2-6c/On Center Pillar/Block Switch",
+            "name": "[Block Switch] On Center Pillar"
+          },
+          {
+            "ref": "2-6c/Enemy on Bottom/Raptoid",
+            "name": "[Raptoid] Enemy on Bottom"
+          },
+          {
+            "ref": "2-6c/Enemy After Lower Bridge/Endtrail",
+            "name": "[Endtrail] Enemy After Lower Bridge"
+          },
+          {
+            "ref": "2-6c/Enemy at Upper Bridge/Endtrail",
+            "name": "[Endtrail] Enemy at Upper Bridge"
+          },
+          {
+            "ref": "2-6c/Enemy by Exit Portal/Endtrail",
+            "name": "[Endtrail] Enemy by Exit Portal"
           }
         ],
         "map_locations": [
