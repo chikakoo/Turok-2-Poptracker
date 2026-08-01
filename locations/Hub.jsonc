@@ -2728,8 +2728,96 @@
             "name": "[Raptoid] Enemy After Soul Gate"
           },
           {
-            "ref": "2-5R/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-5R/Alcove Above Start/LF1",
+            "name": "[LF1] Alcove Above Start"
+          },
+          {
+            "ref": "2-5R/Alcove Above Start/LF10",
+            "name": "[LF10] Alcove Above Start"
+          },
+          {
+            "ref": "2-5R/Alcove Above Start/Mag 60",
+            "name": "[Mag 60] Alcove Above Start"
+          },
+          {
+            "ref": "2-5R/Alcove Above Start/Clip",
+            "name": "[Clip] Alcove Above Start"
+          },
+          {
+            "ref": "2-5R/Enemy on Bottom Bridge/Endtrail",
+            "name": "[Endtrail] Enemy on Bottom Bridge"
+          },
+          {
+            "ref": "2-5R/Enemy in Corner Room/Raptoid",
+            "name": "[Raptoid] Enemy in Corner Room"
+          },
+          {
+            "ref": "2-5R/Enemy in Corner Room/Endtrail",
+            "name": "[Endtrail] Enemy in Corner Room"
+          },
+          {
+            "ref": "2-5R/Enemy in Corner Room/Raptoid Spawned Behind",
+            "name": "[Raptoid Spawned Behind] Enemy in Corner Room"
+          },
+          {
+            "ref": "2-5R/Enemy by Return Hall/Raptoid",
+            "name": "[Raptoid] Enemy by Return Hall"
+          },
+          {
+            "ref": "2-5R/Enemy on Upper Bridge/Endtrail",
+            "name": "[Endtrail] Enemy on Upper Bridge"
+          },
+          {
+            "ref": "2-5R/Enemy Spawned After Alcove Jump/Endtrail",
+            "name": "[Endtrail] Enemy Spawned After Alcove Jump"
+          },
+          {
+            "ref": "2-5R/River/Enemy on Upper Ledge/Close Endtrail",
+            "name": "[Close Endtrail] River/Enemy on Upper Ledge"
+          },
+          {
+            "ref": "2-5R/River/Enemy on Upper Ledge/Far Endtrail",
+            "name": "[Far Endtrail] River/Enemy on Upper Ledge"
+          },
+          {
+            "ref": "2-5R/River/Enemy on Lower Ledge/Close Endtrail",
+            "name": "[Close Endtrail] River/Enemy on Lower Ledge"
+          },
+          {
+            "ref": "2-5R/River/Enemy on Lower Ledge/Far Endtrail",
+            "name": "[Far Endtrail] River/Enemy on Lower Ledge"
+          },
+          {
+            "ref": "2-5R/River Leaps/Leap of Faith/LF1",
+            "name": "[LF1] River Leaps/Leap of Faith"
+          },
+          {
+            "ref": "2-5R/River Leaps/Leap of Faith/LF10",
+            "name": "[LF10] River Leaps/Leap of Faith"
+          },
+          {
+            "ref": "2-5R/River Leaps/Drop Down Room/Silver Health",
+            "name": "[Silver Health] River Leaps/Drop Down Room"
+          },
+          {
+            "ref": "2-5R/River Leaps/In Corner/Blue Health",
+            "name": "[Blue Health] River Leaps/In Corner"
+          },
+          {
+            "ref": "2-5R/River Leaps/In Corner/Plasma Pak",
+            "name": "[Plasma Pak] River Leaps/In Corner"
+          },
+          {
+            "ref": "2-5R/River Leaps/On Ledge/Grenade Launcher",
+            "name": "[Grenade Launcher] River Leaps/On Ledge"
+          },
+          {
+            "ref": "2-5R/River Leaps/Enemy in Return Hall/Raptoid",
+            "name": "[Raptoid] River Leaps/Enemy in Return Hall"
+          },
+          {
+            "ref": "2-5R/River Leaps/Enemy Spawned After Return Hall/Raptoid",
+            "name": "[Raptoid] River Leaps/Enemy Spawned After Return Hall"
           }
         ],
         "map_locations": [

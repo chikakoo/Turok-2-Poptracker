@@ -872,11 +872,400 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Alcove Above Start",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|129013|129015"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129014"
+                        ]
+                    },
+                    {
+                        "name": "Mag 60",
+                        "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                        "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129016"
+                        ]
+                    },
+                    {
+                        "name": "Clip",
+                        "chest_unopened_img": "images/items/ammo/clip.png",
+                        "chest_opened_img": "images/items/ammo/clip_bw.png",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|129017|129018|129019|129020|129021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5R",
+                        "x": 125,
+                        "y": 25
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Bottom Bridge",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129147"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5R",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Corner Room",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129148"
+                        ]
+                    },
+                    {
+                        "name": "Endtrail",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129149"
+                        ]
+                    },
+                    {
+                        "name": "Raptoid Spawned Behind",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129151"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5R",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Return Hall",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129150"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5R",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Upper Bridge",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129152"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5R",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned After Alcove Jump",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129153"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-5R",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "River",
+                "access_rules": [
+                    "breath_of_life"
+                ],
+                "children": [
+                    {
+                        "name": "Enemy on Upper Ledge",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
+                        "sections": [
+                            {
+                                "name": "Close Endtrail",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|129154"
+                                ]
+                            },
+                            {
+                                "name": "Far Endtrail",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "leap_of_faith"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|129155"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-5R",
+                                "shape": "diamond",
+                                "x": 100,
+                                "y": 100
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Lower Ledge",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
+                        "sections": [
+                            {
+                                "name": "Close Endtrail",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|129156"
+                                ]
+                            },
+                            {
+                                "name": "Far Endtrail",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "leap_of_faith"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|129157"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-5R",
+                                "shape": "diamond",
+                                "x": 50,
+                                "y": 50
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "River Leaps",
+                "access_rules": [
+                    "breath_of_life,leap_of_faith"
+                ],
+                "children": [
+                    {
+                        "name": "Leap of Faith",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 21,
+                                "visibility_rules": [
+                                    "$id_exists|129022|129023|129024|129026|129027|129028|129029|129030|129032|129033|129034|129035|129036|129038|129039|129040|129041|129042|129046|129047|129048"
+                                ]
+                            },
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 6,
+                                "visibility_rules": [
+                                    "$id_exists|129025|129031|129037|129043|129044|129045"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-5R",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Drop Down Room",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Silver Health",
+                                "item_count": 25,
+                                "visibility_rules": [
+                                    "$id_exists|129049|129050|129051|129052|129053|129054|129055|129056|129057|129058|129059|129060|129061|129062|129063|129064|129065|129066|129067|129068|129069|129070|129071|129072|129073"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-5R",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Corner",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|129074|129075|129076|129077"
+                                ]
+                            },
+                            {
+                                "name": "Plasma Pak",
+                                "chest_unopened_img": "images/items/ammo/plasma_pak.png",
+                                "chest_opened_img": "images/items/ammo/plasma_pak_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|129078"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-5R",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "On Ledge",
+                        "chest_unopened_img": "images/items/weapons_small/grenade_launcher.png",
+                        "chest_opened_img": "images/items/weapons_small/grenade_launcher_bw.png",
+                        "sections": [
+                            {
+                                "name": "Grenade Launcher",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|Grenade Launcher"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-5R",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Return Hall",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "sections": [
+                            {
+                                "name": "Raptoid",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|129158"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-O",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy Spawned After Return Hall",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "sections": [
+                            {
+                                "name": "Raptoid",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|129159"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-O",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }
