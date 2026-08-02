@@ -16,116 +16,116 @@ MAP_DATA = [
     {
         "level_name": "level_1",
         "initial_position": (674, 812),
-        "maps": [
-            "1-1",
-            "1-2a",
-            "1-3",
-            "1-2b",
-            "1-4",
-            "1-5",
-            "1-6",
-            "1-7",
-            "1-8",
-            "1-9",
-            "1-O"
-        ]
+        "maps": {
+            "1-1": { "starting_id": 51000 },
+            "1-2a": { "starting_id": 52000 },
+            "1-3": { "starting_id": 53000 },
+            "1-2b": { "starting_id": 52000 },
+            "1-4": { "starting_id": 55000 },
+            "1-5": { "starting_id": 54000 },
+            "1-6": { "starting_id": 56000 },
+            "1-7": { "starting_id": 57000 },
+            "1-8": { "starting_id": 58000 },
+            "1-9": { "starting_id": 59000 },
+            "1-O": { "starting_id": 78000 },
+        }
     },
     {
         "level_name": "level_2",
         "initial_position": (837, 606),
-        "maps": [
-            "2-1",
-            "2-2",
-            "2-3",
-            "2-4",
-            "2-O",
-            "2-5",
-            "2-6a",
-            "2-6b",
-            "2-GY1",
-            "2-6c",
-            "2-7",
-            "2-GY2",
-            "2-8",
-            "2-GY3"
-        ]
+        "maps": {
+            "2-1": { "starting_id": 125000 },
+            "2-2": { "starting_id": 126000 },
+            "2-3": { "starting_id": 127000 },
+            "2-4": { "starting_id": 128000 },
+            "2-O": { "starting_id": 79000 },
+            "2-5": { "starting_id": 129000 },
+            "2-6a": { "starting_id": 130000 },
+            "2-6b": { "starting_id": 130000 },
+            "2-GY1": { "starting_id": 133000 },
+            "2-6c": { "starting_id": 130000 },
+            "2-7": { "starting_id": 131000 },
+            "2-GY2": { "starting_id": 134000 },
+            "2-8": { "starting_id": 132000, "extra_ids": [73000] },
+            "2-GY3": { "starting_id": 135000 }
+        }
     },
     {
         "level_name": "level_3",
         "initial_position": (109, 608),
-        "maps": [
-           "3-1",
-           "3-A1",
-           "3-2",
-           "3-3",
-           "3-O",
-           "3-4a",
-           "3-A2",
-           "3-4b",
-           "3-5",
-           "3-6",
-           "3-7",
-           "3-A3",
-           "3-8"
-        ]
+        "maps": {
+           "3-1": { "starting_id": 61000 },
+           "3-A1": { "starting_id": 69000 },
+           "3-2": { "starting_id": 62000 },
+           "3-3": { "starting_id": 63000 },
+           "3-O": { "starting_id": 80000 },
+           "3-4a": { "starting_id": 64000 },
+           "3-A2": { "starting_id": 70000 },
+           "3-4b": { "starting_id": 64000 },
+           "3-5": { "starting_id": 65000 },
+           "3-6": { "starting_id": 66000, "extra_ids": [74000] },
+           "3-7": { "starting_id": 67000 },
+           "3-A3": { "starting_id": 71000 },
+           "3-8": { "starting_id": 68000 }
+        }
     },
     {
         "level_name": "level_4",
         "initial_position": (900, 382),
-        "maps": [
-           "4-1",
-           "4-2",
-           "4-3",
-           "4-4",
-           "4-V1",
-           "4-5",
-           "4-V2",
-           "4-6a",
-           "4-O",
-           "4-7",
-           "4-8a",
-           "4-V3",
-           "4-8b",
-           "4-6b"
-        ]
+        "maps": {
+           "4-1": { "starting_id": 98000 },
+           "4-2": { "starting_id": 99000, "extra_ids": [75000] },
+           "4-3": { "starting_id": 100000 },
+           "4-4": { "starting_id": 101000 },
+           "4-V1": { "starting_id": 106000 },
+           "4-5": { "starting_id": 102000 },
+           "4-V2": { "starting_id": 107000 },
+           "4-6a": { "starting_id": 103000 },
+           "4-O": { "starting_id": 81000 },
+           "4-7": { "starting_id": 104000 },
+           "4-8a": { "starting_id": 105000 },
+           "4-V3": { "starting_id": 108000 },
+           "4-8b": { "starting_id": 105000 },
+           "4-6b": { "starting_id": 103000 }
+        }
     },
     {
         "level_name": "level_5",
         "initial_position": (114, 351),
-        "maps": [
-           "5-1",
-           "5-2",
-           "5-3",
-           "5-4",
-           "5-5",
-           "5-O",
-           "5-6",
-           "5-7",
-           "5-8",
-           "5-E1",
-           "5-9",
-           "5-E2",
-           "5-E3",
-           "5-MC",
-           "5-10"
-        ]
+        "maps": {
+           "5-1": { "starting_id": 124000 },
+           "5-2": { "starting_id": 84000 },
+           "5-3": { "starting_id": 85000 },
+           "5-4": { "starting_id": 86000 },
+           "5-5": { "starting_id": 87000 },
+           "5-O": { "starting_id": 82000 },
+           "5-6": { "starting_id": 88000, "extra_ids": [76000] },
+           "5-7": { "starting_id": 89000 },
+           "5-8": { "starting_id": 90000 },
+           "5-E1": { "starting_id": 94000 },
+           "5-9": { "starting_id": 91000 },
+           "5-E2": { "starting_id": 95000 },
+           "5-E3": { "starting_id": 96000 },
+           "5-MC": { "starting_id": 93000 },
+           "5-10": { "starting_id": 92000 }
+        }
     },
     {
         "level_name": "level_6",
         "initial_position": (733, 108),
-        "maps": [
-           "6-Hub",
-           "6-1",
-           "6-2a",
-           "6-2b",
-           "6-3a",
-           "6-3b",
-           "6-4a",
-           "6-4b",
-           "6-4c",
-           "6-4d",
-           "6-O"
-        ]
+        "maps": {
+           "6-Hub": { "starting_id": 114000 },
+           "6-1": { "starting_id": 115000 },
+           "6-2a": { "starting_id": 116000 },
+           "6-2b": { "starting_id": 117000 },
+           "6-3a": { "starting_id": 118000 },
+           "6-3b": { "starting_id": 119000 },
+           "6-4a": { "starting_id": 120000 },
+           "6-4b": { "starting_id": 121000, "extra_ids": [77000] },
+           "6-4c": { "starting_id": 122000 },
+           "6-4d": { "starting_id": 123000 },
+           "6-O": { "starting_id": 83000 }
+        }
     }
 ]
 
@@ -145,7 +145,7 @@ def load_jsonc(path: Path):
     text = re.sub(r"//.*?$", "", text, flags=re.MULTILINE)
     return json.loads(text)
 
-def add_locations(hub_child, map_name, node, path):
+def add_locations(hub_child, map_name, starting_id, node, path):
     """
     Recursively walks the tree to create all hub references.
 
@@ -164,16 +164,16 @@ def add_locations(hub_child, map_name, node, path):
             display_name = f"{location_name}"
 
         for section in node["sections"]:
-            validate_section(map_name, current_path, section)
+            validate_section(map_name, starting_id, current_path, section)
             hub_child["sections"].append({
                 "ref": f"{ref_path}/{section['name']}",
                 "name": f"[{section['name']}] {display_name}"
             })
 
     for child in node.get("children", []):
-        add_locations(hub_child, map_name, child, current_path)
+        add_locations(hub_child, map_name, starting_id, child, current_path)
 
-def validate_section(map_name, path, section):
+def validate_section(map_name, starting_id, path, section):
     """
     Validates a single section.
 
@@ -183,6 +183,10 @@ def validate_section(map_name, path, section):
     full_location = f"{map_name}/{'/'.join(path)}/{section['name']}"
 
     expected_count = section["item_count"]
+
+    ranges = [(starting_id, starting_id + 999)]
+    for extra_id in map_info.get("extra_ids", []):
+        ranges.append((extra_id, extra_id))
 
     for rule in section.get("visibility_rules", []):
         match = ID_EXISTS_RE.match(rule)
@@ -198,16 +202,33 @@ def validate_section(map_name, path, section):
                 f"but $id_exists has {len(ids)} ids ({', '.join(ids)})"
             )
 
-        # Duplicate validation
         for id_string in ids:
-            if id_string in id_locations:
+            # Valid id check
+            try:
+                location_id = int(id_string)
+            except ValueError:
                 validation_errors.append(
-                    f"Duplicate id {id_string}\n"
-                    f"  First: {id_locations[id_string]}\n"
+                    f"{full_location}: invalid location ID '{id_string}' "
+                    f"(expected an integer)"
+                )
+                continue
+
+            # Duplicate check
+            if location_id in id_locations:
+                validation_errors.append(
+                    f"Duplicate ID {location_id}\n"
+                    f"  First: {id_locations[location_id]}\n"
                     f"  Again: {full_location}"
                 )
             else:
-                id_locations[id_string] = full_location
+                id_locations[location_id] = full_location
+
+            # Range check
+            if not any(start <= location_id <= end for start, end in ranges):
+                validation_errors.append(
+                    f"{full_location}: ID {location_id} is outside the valid range "
+                    f"({starting_id}-{starting_id + 999})"
+                )
 
 # Skeleton of the hub object
 hub = [
@@ -225,7 +246,8 @@ hub_children = {}
 for map_data in MAP_DATA:
     level_name = map_data["level_name"]
     initial_position = map_data["initial_position"]
-    for index, map_string in enumerate(map_data["maps"]):
+    for index, (map_string, map_info) in enumerate(map_data["maps"].items()):
+        starting_id = map_info["starting_id"]
         file_name = f"{level_name}/{map_string}.jsonc"
         x = initial_position[0] + ((index // ROWS) * X_OFFSET)
         y = initial_position[1] + ((index % ROWS) * Y_OFFSET)
@@ -253,7 +275,7 @@ for map_data in MAP_DATA:
             child = hub_children[hub_name]
 
             for location in source["children"]:
-                add_locations(child, map_name, location, [])
+                add_locations(child, map_name, starting_id, location, [])
 
 hub[0]["children"] = list(hub_children.values())
 

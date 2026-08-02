@@ -3264,8 +3264,280 @@
         "name": "2-7",
         "sections": [
           {
-            "ref": "2-7/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-7/Up Ladder/Quiver",
+            "name": "[Quiver] Up Ladder"
+          },
+          {
+            "ref": "2-7/Jump From Top/LF1",
+            "name": "[LF1] Jump From Top"
+          },
+          {
+            "ref": "2-7/Bottom Right Corner/Clip",
+            "name": "[Clip] Bottom Right Corner"
+          },
+          {
+            "ref": "2-7/On Right Ledge/Silver Health",
+            "name": "[Silver Health] On Right Ledge"
+          },
+          {
+            "ref": "2-7/On Right Ledge/Tranquilizer",
+            "name": "[Tranquilizer] On Right Ledge"
+          },
+          {
+            "ref": "2-7/Leap of Faith/LF1",
+            "name": "[LF1] Leap of Faith"
+          },
+          {
+            "ref": "2-7/Leap of Faith Ledge/Full Health",
+            "name": "[Full Health] Leap of Faith Ledge"
+          },
+          {
+            "ref": "2-7/Leap of Faith Ledge/LF10",
+            "name": "[LF10] Leap of Faith Ledge"
+          },
+          {
+            "ref": "2-7/Right of Hall/Shotgun",
+            "name": "[Shotgun] Right of Hall"
+          },
+          {
+            "ref": "2-7/Behind Left Boxes/Blue Health",
+            "name": "[Blue Health] Behind Left Boxes"
+          },
+          {
+            "ref": "2-7/Behind Left Boxes/Tek Arrows",
+            "name": "[Tek Arrows] Behind Left Boxes"
+          },
+          {
+            "ref": "2-7/In Corner by Exit/Clip",
+            "name": "[Clip] In Corner by Exit"
+          },
+          {
+            "ref": "2-7/Up Ladder on Roof/LF1",
+            "name": "[LF1] Up Ladder on Roof"
+          },
+          {
+            "ref": "2-7/Up Ladder on Roof/Mag 60",
+            "name": "[Mag 60] Up Ladder on Roof"
+          },
+          {
+            "ref": "2-7/Hall Between Courtyards/Tek Bow",
+            "name": "[Tek Bow] Hall Between Courtyards"
+          },
+          {
+            "ref": "2-7/By Left Box/Shells",
+            "name": "[Shells] By Left Box"
+          },
+          {
+            "ref": "2-7/Behind Right Boxes/Box of Bullets",
+            "name": "[Box of Bullets] Behind Right Boxes"
+          },
+          {
+            "ref": "2-7/Upper Spider Path/Tek Bow",
+            "name": "[Tek Bow] Upper Spider Path"
+          },
+          {
+            "ref": "2-7/Spider Path/LF1",
+            "name": "[LF1] Spider Path"
+          },
+          {
+            "ref": "2-7/In River/LF10",
+            "name": "[LF10] In River"
+          },
+          {
+            "ref": "2-7/On Roof/Full Health",
+            "name": "[Full Health] On Roof"
+          },
+          {
+            "ref": "2-7/Trail to Graveyard/LF1",
+            "name": "[LF1] Trail to Graveyard"
+          },
+          {
+            "ref": "2-7/At End of Bridge/Tranquilizer",
+            "name": "[Tranquilizer] At End of Bridge"
+          },
+          {
+            "ref": "2-7/Bridge Jump Ledge/LF10",
+            "name": "[LF10] Bridge Jump Ledge"
+          },
+          {
+            "ref": "2-7/Bridge Jump Ledge/Full Health",
+            "name": "[Full Health] Bridge Jump Ledge"
+          },
+          {
+            "ref": "2-7/By Graveyard Portal/Blue Health",
+            "name": "[Blue Health] By Graveyard Portal"
+          },
+          {
+            "ref": "2-7/Hall After Courtyards/LF1",
+            "name": "[LF1] Hall After Courtyards"
+          },
+          {
+            "ref": "2-7/Fountain Room/Explosive Shells",
+            "name": "[Explosive Shells] Fountain Room"
+          },
+          {
+            "ref": "2-7/Fountain Room/Shells",
+            "name": "[Shells] Fountain Room"
+          },
+          {
+            "ref": "2-7/Fountain Room/Box of Bullets",
+            "name": "[Box of Bullets] Fountain Room"
+          },
+          {
+            "ref": "2-7/Underwater Path/LF1",
+            "name": "[LF1] Underwater Path"
+          },
+          {
+            "ref": "2-7/On Ledge/Level Key",
+            "name": "[Level Key] On Ledge"
+          },
+          {
+            "ref": "2-7/On Ledge/Blue Health",
+            "name": "[Blue Health] On Ledge"
+          },
+          {
+            "ref": "2-7/Fall Left of Ledge/LF10",
+            "name": "[LF10] Fall Left of Ledge"
+          },
+          {
+            "ref": "2-7/Fall Right of Ledge/LF10",
+            "name": "[LF10] Fall Right of Ledge"
+          },
+          {
+            "ref": "2-7/Ledge After Halls/Blue Health",
+            "name": "[Blue Health] Ledge After Halls"
+          },
+          {
+            "ref": "2-7/On Boxes/Tranq Darts Pak",
+            "name": "[Tranq Darts Pak] On Boxes"
+          },
+          {
+            "ref": "2-7/After Door/LF1",
+            "name": "[LF1] After Door"
+          },
+          {
+            "ref": "2-7/End of Spider Path On Wall/Shootable Switch",
+            "name": "[Shootable Switch] End of Spider Path On Wall"
+          },
+          {
+            "ref": "2-7/Right Fork/Switch",
+            "name": "[Switch] Right Fork"
+          },
+          {
+            "ref": "2-7/On Wall After Bridge Jump/Switch",
+            "name": "[Switch] On Wall After Bridge Jump"
+          },
+          {
+            "ref": "2-7/Next to Door/Switch",
+            "name": "[Switch] Next to Door"
+          },
+          {
+            "ref": "2-7/Enemy on Bottom/Raptor",
+            "name": "[Raptor] Enemy on Bottom"
+          },
+          {
+            "ref": "2-7/Enemy Before Hall/Raptor",
+            "name": "[Raptor] Enemy Before Hall"
+          },
+          {
+            "ref": "2-7/Enemy Right of Hall Entrance/Endtrail",
+            "name": "[Endtrail] Enemy Right of Hall Entrance"
+          },
+          {
+            "ref": "2-7/Enemy in First Hall/Endtrail",
+            "name": "[Endtrail] Enemy in First Hall"
+          },
+          {
+            "ref": "2-7/Enemy on Courtyard 1 Ground/Endtrail",
+            "name": "[Endtrail] Enemy on Courtyard 1 Ground"
+          },
+          {
+            "ref": "2-7/Enemy up Ladder/Endtrail",
+            "name": "[Endtrail] Enemy up Ladder"
+          },
+          {
+            "ref": "2-7/Enemy on Roof by Start/Endtrail",
+            "name": "[Endtrail] Enemy on Roof by Start"
+          },
+          {
+            "ref": "2-7/Enemy in Hall Between Courtyards/Raptoid",
+            "name": "[Raptoid] Enemy in Hall Between Courtyards"
+          },
+          {
+            "ref": "2-7/Enemy on Left Roof/Endtrail",
+            "name": "[Endtrail] Enemy on Left Roof"
+          },
+          {
+            "ref": "2-7/Enemy on Courtyard 2 Ground/Endtrail",
+            "name": "[Endtrail] Enemy on Courtyard 2 Ground"
+          },
+          {
+            "ref": "2-7/Enemy in Hall After Barrel/Spider",
+            "name": "[Spider] Enemy in Hall After Barrel"
+          },
+          {
+            "ref": "2-7/Enemy by River/Raptoid",
+            "name": "[Raptoid] Enemy by River"
+          },
+          {
+            "ref": "2-7/Enemy by Right Path Switch/Leaper",
+            "name": "[Leaper] Enemy by Right Path Switch"
+          },
+          {
+            "ref": "2-7/Enemy by Right Path Switch/Leaper After Switch",
+            "name": "[Leaper After Switch] Enemy by Right Path Switch"
+          },
+          {
+            "ref": "2-7/Enemy by Graveyard Portal/Spider",
+            "name": "[Spider] Enemy by Graveyard Portal"
+          },
+          {
+            "ref": "2-7/Enemy by Ladder/Spider",
+            "name": "[Spider] Enemy by Ladder"
+          },
+          {
+            "ref": "2-7/Enemy on Bridge/Raptoid",
+            "name": "[Raptoid] Enemy on Bridge"
+          },
+          {
+            "ref": "2-7/Enemy on Ledge by Bridge/Endtrail",
+            "name": "[Endtrail] Enemy on Ledge by Bridge"
+          },
+          {
+            "ref": "2-7/Enemy at End of Hall/Endtrail",
+            "name": "[Endtrail] Enemy at End of Hall"
+          },
+          {
+            "ref": "2-7/Enemy After Courtyards/Leaper",
+            "name": "[Leaper] Enemy After Courtyards"
+          },
+          {
+            "ref": "2-7/Enemy in Fountain Room/Spider",
+            "name": "[Spider] Enemy in Fountain Room"
+          },
+          {
+            "ref": "2-7/Enemy on Ledge/Endtrail",
+            "name": "[Endtrail] Enemy on Ledge"
+          },
+          {
+            "ref": "2-7/Enemy Spawned From Upper Hall/Endtrail",
+            "name": "[Endtrail] Enemy Spawned From Upper Hall"
+          },
+          {
+            "ref": "2-7/Enemy by Door/Endtrail",
+            "name": "[Endtrail] Enemy by Door"
+          },
+          {
+            "ref": "2-7/Enemy After Doors/Compy",
+            "name": "[Compy] Enemy After Doors"
+          },
+          {
+            "ref": "2-7/Enemy Before Exit Portal/Compy",
+            "name": "[Compy] Enemy Before Exit Portal"
+          },
+          {
+            "ref": "2-7/Enemy Before Exit Portal/Endtrail",
+            "name": "[Endtrail] Enemy Before Exit Portal"
           }
         ],
         "map_locations": [

@@ -1211,7 +1211,7 @@
                                 "name": "Grenade Launcher",
                                 "item_count": 1,
                                 "visibility_rules": [
-                                    "$id_exists|Grenade Launcher"
+                                    "$id_exists|129079"
                                 ]
                             }
                         ],
