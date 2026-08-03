@@ -3568,8 +3568,264 @@
         "name": "2-8",
         "sections": [
           {
-            "ref": "2-8/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-8/Talisman/Leap of Faith",
+            "name": "[Leap of Faith] Talisman"
+          },
+          {
+            "ref": "2-8/In Empty Water/Blue Health",
+            "name": "[Blue Health] In Empty Water"
+          },
+          {
+            "ref": "2-8/In Empty Water/Shotgun",
+            "name": "[Shotgun] In Empty Water"
+          },
+          {
+            "ref": "2-8/By Empty Water/Tranq Darts Pak",
+            "name": "[Tranq Darts Pak] By Empty Water"
+          },
+          {
+            "ref": "2-8/In Back Right Water/LF1",
+            "name": "[LF1] In Back Right Water"
+          },
+          {
+            "ref": "2-8/In Back Right Water/LF10",
+            "name": "[LF10] In Back Right Water"
+          },
+          {
+            "ref": "2-8/In Back Left Water/LF1",
+            "name": "[LF1] In Back Left Water"
+          },
+          {
+            "ref": "2-8/In Back Left Water/LF10",
+            "name": "[LF10] In Back Left Water"
+          },
+          {
+            "ref": "2-8/Across Water/LF1",
+            "name": "[LF1] Across Water"
+          },
+          {
+            "ref": "2-8/Feather Ledge/Eagle Feather",
+            "name": "[Eagle Feather] Feather Ledge"
+          },
+          {
+            "ref": "2-8/Feather Ledge/LF1",
+            "name": "[LF1] Feather Ledge"
+          },
+          {
+            "ref": "2-8/Lower Ramp/Clip",
+            "name": "[Clip] Lower Ramp"
+          },
+          {
+            "ref": "2-8/Upper Ramp/Clip",
+            "name": "[Clip] Upper Ramp"
+          },
+          {
+            "ref": "2-8/By Graveyard Portal/LF10",
+            "name": "[LF10] By Graveyard Portal"
+          },
+          {
+            "ref": "2-8/By Graveyard Portal/Blue Health",
+            "name": "[Blue Health] By Graveyard Portal"
+          },
+          {
+            "ref": "2-8/Behind Boxes/Box of Shells",
+            "name": "[Box of Shells] Behind Boxes"
+          },
+          {
+            "ref": "2-8/Behind Boxes/Box of Bullets",
+            "name": "[Box of Bullets] Behind Boxes"
+          },
+          {
+            "ref": "2-8/Behind Boxes/Blue Health",
+            "name": "[Blue Health] Behind Boxes"
+          },
+          {
+            "ref": "2-8/Behind Boxes/Tek Quiver",
+            "name": "[Tek Quiver] Behind Boxes"
+          },
+          {
+            "ref": "2-8/Above Graveyard Portal/Clip",
+            "name": "[Clip] Above Graveyard Portal"
+          },
+          {
+            "ref": "2-8/Above Graveyard Portal/Tranq Darts Pak",
+            "name": "[Tranq Darts Pak] Above Graveyard Portal"
+          },
+          {
+            "ref": "2-8/Level Key Building/Blue Health",
+            "name": "[Blue Health] Level Key Building"
+          },
+          {
+            "ref": "2-8/Level Key Building/Level Key",
+            "name": "[Level Key] Level Key Building"
+          },
+          {
+            "ref": "2-8/Level Key Building/Switch",
+            "name": "[Switch] Level Key Building"
+          },
+          {
+            "ref": "2-8/After Soul Gate/LF10",
+            "name": "[LF10] After Soul Gate"
+          },
+          {
+            "ref": "2-8/After Soul Gate/Full Health",
+            "name": "[Full Health] After Soul Gate"
+          },
+          {
+            "ref": "2-8/On Wall/Talisman Portal Switch",
+            "name": "[Talisman Portal Switch] On Wall"
+          },
+          {
+            "ref": "2-8/On Wall After Jump/Switch",
+            "name": "[Switch] On Wall After Jump"
+          },
+          {
+            "ref": "2-8/Soul Gate Back/Destroy Soul Gate",
+            "name": "[Destroy Soul Gate] Soul Gate Back"
+          },
+          {
+            "ref": "2-8/Enemy by Talisman Portal/Endtrail",
+            "name": "[Endtrail] Enemy by Talisman Portal"
+          },
+          {
+            "ref": "2-8/Enemy by Portal Switch/Endtrail",
+            "name": "[Endtrail] Enemy by Portal Switch"
+          },
+          {
+            "ref": "2-8/Enemy Before Checkpoint Hall/Leaper",
+            "name": "[Leaper] Enemy Before Checkpoint Hall"
+          },
+          {
+            "ref": "2-8/Enemy on Feather Ledge/Endtrail",
+            "name": "[Endtrail] Enemy on Feather Ledge"
+          },
+          {
+            "ref": "2-8/Enemy by Checkpoint/Endtrail",
+            "name": "[Endtrail] Enemy by Checkpoint"
+          },
+          {
+            "ref": "2-8/Enemy After Checkpoint/Spider",
+            "name": "[Spider] Enemy After Checkpoint"
+          },
+          {
+            "ref": "2-8/Enemy at Ramp Bottom/Endtrail",
+            "name": "[Endtrail] Enemy at Ramp Bottom"
+          },
+          {
+            "ref": "2-8/Enemy by Water/Compy",
+            "name": "[Compy] Enemy by Water"
+          },
+          {
+            "ref": "2-8/Enemy at Ramp Top/Endtrail",
+            "name": "[Endtrail] Enemy at Ramp Top"
+          },
+          {
+            "ref": "2-8/Enemy by Boxes/Endtrail",
+            "name": "[Endtrail] Enemy by Boxes"
+          },
+          {
+            "ref": "2-8/Enemy by Boxes/Raptoid",
+            "name": "[Raptoid] Enemy by Boxes"
+          },
+          {
+            "ref": "2-8/Enemy Above Graveyard Portal/Raptoid",
+            "name": "[Raptoid] Enemy Above Graveyard Portal"
+          },
+          {
+            "ref": "2-8/Enemy Above Graveyard Portal/Endtrail",
+            "name": "[Endtrail] Enemy Above Graveyard Portal"
+          },
+          {
+            "ref": "2-8/Enemy by First Door/Endtrail",
+            "name": "[Endtrail] Enemy by First Door"
+          },
+          {
+            "ref": "2-8/Enemy by Second Door/Endtrail",
+            "name": "[Endtrail] Enemy by Second Door"
+          },
+          {
+            "ref": "2-8/Enemy by Building/Endtrail",
+            "name": "[Endtrail] Enemy by Building"
+          },
+          {
+            "ref": "2-8/Enemy After Touching Level Key/Raptoid",
+            "name": "[Raptoid] Enemy After Touching Level Key"
+          },
+          {
+            "ref": "2-8/Enemy by Soul Gate/Leaper",
+            "name": "[Leaper] Enemy by Soul Gate"
+          },
+          {
+            "ref": "2-8/Enemy by Soul Gate/Endtrail",
+            "name": "[Endtrail] Enemy by Soul Gate"
+          },
+          {
+            "ref": "2-8/Enemy After Exploded Wall/Endtrail",
+            "name": "[Endtrail] Enemy After Exploded Wall"
+          },
+          {
+            "ref": "2-8/Enemy by Exit Portal/Leaper",
+            "name": "[Leaper] Enemy by Exit Portal"
+          },
+          {
+            "ref": "2-8/In River/Alcove Before Tunnel/LF1",
+            "name": "[LF1] In River/Alcove Before Tunnel"
+          },
+          {
+            "ref": "2-8/In River/Alcove Before Tunnel/LF10",
+            "name": "[LF10] In River/Alcove Before Tunnel"
+          },
+          {
+            "ref": "2-8/In River/In Tunnel/Ultra Health",
+            "name": "[Ultra Health] In River/In Tunnel"
+          },
+          {
+            "ref": "2-8/In River/Alcove After Tunnel/LF1",
+            "name": "[LF1] In River/Alcove After Tunnel"
+          },
+          {
+            "ref": "2-8/In River/Alcove After Tunnel/LF10",
+            "name": "[LF10] In River/Alcove After Tunnel"
+          },
+          {
+            "ref": "2-8/In River/Enemy Before Tunnel/Endtrail",
+            "name": "[Endtrail] In River/Enemy Before Tunnel"
+          },
+          {
+            "ref": "2-8/In River/Enemy in Tunnel/Leaper",
+            "name": "[Leaper] In River/Enemy in Tunnel"
+          },
+          {
+            "ref": "2-8/In River/Enemy After Tunnel/Endtrail",
+            "name": "[Endtrail] In River/Enemy After Tunnel"
+          },
+          {
+            "ref": "2-8/River Leaps/First Leap/Blue Health",
+            "name": "[Blue Health] River Leaps/First Leap"
+          },
+          {
+            "ref": "2-8/River Leaps/First Leap/LF10",
+            "name": "[LF10] River Leaps/First Leap"
+          },
+          {
+            "ref": "2-8/River Leaps/Second Leap/Silver Health",
+            "name": "[Silver Health] River Leaps/Second Leap"
+          },
+          {
+            "ref": "2-8/River Leaps/On Ending Ledge/Primagen Key",
+            "name": "[Primagen Key] River Leaps/On Ending Ledge"
+          },
+          {
+            "ref": "2-8/River Leaps/Enemy After First Leap/Raptoid",
+            "name": "[Raptoid] River Leaps/Enemy After First Leap"
+          },
+          {
+            "ref": "2-8/River Leaps/Enemy Before Ending Ledge/Endtrail",
+            "name": "[Endtrail] River Leaps/Enemy Before Ending Ledge"
+          },
+          {
+            "ref": "2-8/River Leaps/Enemy Before Ending Ledge/Raptoid",
+            "name": "[Raptoid] River Leaps/Enemy Before Ending Ledge"
           }
         ],
         "map_locations": [
