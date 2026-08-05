@@ -316,14 +316,54 @@
     },
     {
         "name": "River of Souls Death Jumps",
-        "type": "toggle",
-        "img": "/images/settings/tricks/river_of_souls_death_jumps.png",
-        "codes": "river_of_souls_death_jumps"
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "River of Souls Death Jumps (Out of Logic)",
+                "img": "/images/settings/tricks/river_of_souls_death_jumps_out_of_logic.png",
+                "codes": "river_of_souls_death_jumps,river_of_souls_death_jumps_out_of_logic",
+                "inherit_codes": false
+            },
+            {
+                "name": "River of Souls Death Jumps (In Logic)",
+                "img": "/images/settings/tricks/river_of_souls_death_jumps_in_logic.png",
+                "codes": "river_of_souls_death_jumps,river_of_souls_death_jumps_in_logic",
+                "inherit_codes": false
+            },
+            {
+                "name": "River of Souls Death Jumps (Prevent Collection)",
+                "img": "/images/settings/tricks/river_of_souls_death_jumps_prevent_collection.png",
+                "codes": "river_of_souls_death_jumps,river_of_souls_death_jumps_prevent_collection",
+                "inherit_codes": false
+            }
+        ]
     },
     {
         "name": "Jump Through Lava",
-        "type": "toggle",
-        "img": "/images/settings/tricks/jump_through_lava.png",
-        "codes": "jump_through_lava"
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Jump Through Lava (Out of Logic)",
+                "img": "/images/settings/tricks/jump_through_lava_out_of_logic.png",
+                "codes": "jump_through_lava,jump_through_lava_out_of_logic",
+                "inherit_codes": false
+            },
+            {
+                "name": "Jump Through Lava (In Logic)",
+                "img": "/images/settings/tricks/jump_through_lava_in_logic.png",
+                "codes": "jump_through_lava,jump_through_lava_in_logic",
+                "inherit_codes": false
+            },
+            {
+                "name": "Jump Through Lava (Prevent Collection)",
+                "img": "/images/settings/tricks/jump_through_lava_prevent_collection.png",
+                "codes": "jump_through_lava,jump_through_lava_prevent_collection",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

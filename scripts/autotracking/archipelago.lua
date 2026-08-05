@@ -387,7 +387,7 @@ function AutoFill(slot_data)
     slotCodes = {
         -- Goals
         level_goal = { code = "level_goal" },
-        primagen_goal = { code = "primagen_goal", mapping = { [0]=false, [1]=true, [2]=true} },
+        primagen_goal = { code = "primagen_goal", mapping = { [0]=false, [1]=true, [2]=true } },
 
         -- Included levels
         include_level_1 = { code=  "include_level_1" },
