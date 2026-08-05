@@ -3552,8 +3552,28 @@
         "name": "2-GY2",
         "sections": [
           {
-            "ref": "2-GY2/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-GY2/Start/Mag 60",
+            "name": "[Mag 60] Start"
+          },
+          {
+            "ref": "2-GY2/In Building/Banish Sister of Despair",
+            "name": "[Banish Sister of Despair] In Building"
+          },
+          {
+            "ref": "2-GY2/In Building/Sister of Despair",
+            "name": "[Sister of Despair] In Building"
+          },
+          {
+            "ref": "2-GY2/Left/Lord of the Dead",
+            "name": "[Lord of the Dead] Left"
+          },
+          {
+            "ref": "2-GY2/Right/Lord of the Dead",
+            "name": "[Lord of the Dead] Right"
+          },
+          {
+            "ref": "2-GY2/Behind Building/Lord of the Dead",
+            "name": "[Lord of the Dead] Behind Building"
           }
         ],
         "map_locations": [
@@ -3840,8 +3860,264 @@
         "name": "2-GY3",
         "sections": [
           {
-            "ref": "2-GY3/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "2-GY3/Start Gate/Shotgun",
+            "name": "[Shotgun] Start Gate"
+          },
+          {
+            "ref": "2-GY3/Area 2 Start/Blue Health",
+            "name": "[Blue Health] Area 2 Start"
+          },
+          {
+            "ref": "2-GY3/Area 2 Front Left/Blue Health",
+            "name": "[Blue Health] Area 2 Front Left"
+          },
+          {
+            "ref": "2-GY3/Area 2 Back Left/Blue Health",
+            "name": "[Blue Health] Area 2 Back Left"
+          },
+          {
+            "ref": "2-GY3/Area 2 Back Left/Switch",
+            "name": "[Switch] Area 2 Back Left"
+          },
+          {
+            "ref": "2-GY3/Area 2 Close Right/Blue Health",
+            "name": "[Blue Health] Area 2 Close Right"
+          },
+          {
+            "ref": "2-GY3/Area 2 Close Right/Switch",
+            "name": "[Switch] Area 2 Close Right"
+          },
+          {
+            "ref": "2-GY3/Area 2 Back Right/Blue Health",
+            "name": "[Blue Health] Area 2 Back Right"
+          },
+          {
+            "ref": "2-GY3/Area 2 Front Right/Blue Health",
+            "name": "[Blue Health] Area 2 Front Right"
+          },
+          {
+            "ref": "2-GY3/Area 2 Front Right/Switch",
+            "name": "[Switch] Area 2 Front Right"
+          },
+          {
+            "ref": "2-GY3/Area 3 Start/Blue Health",
+            "name": "[Blue Health] Area 3 Start"
+          },
+          {
+            "ref": "2-GY3/Area 3 Front Left/Blue Health",
+            "name": "[Blue Health] Area 3 Front Left"
+          },
+          {
+            "ref": "2-GY3/Area 3 Front Left/Switch",
+            "name": "[Switch] Area 3 Front Left"
+          },
+          {
+            "ref": "2-GY3/Area 3 Back Left/Blue Health",
+            "name": "[Blue Health] Area 3 Back Left"
+          },
+          {
+            "ref": "2-GY3/Area 3 Back Left/Switch",
+            "name": "[Switch] Area 3 Back Left"
+          },
+          {
+            "ref": "2-GY3/Area 3 Front Right/Blue Health",
+            "name": "[Blue Health] Area 3 Front Right"
+          },
+          {
+            "ref": "2-GY3/Area 3 Front Right/Switch",
+            "name": "[Switch] Area 3 Front Right"
+          },
+          {
+            "ref": "2-GY3/Area 3 Back Right/Blue Health",
+            "name": "[Blue Health] Area 3 Back Right"
+          },
+          {
+            "ref": "2-GY3/Area 3 Back Right/Switch",
+            "name": "[Switch] Area 3 Back Right"
+          },
+          {
+            "ref": "2-GY3/Across Water Right/Blue Health",
+            "name": "[Blue Health] Across Water Right"
+          },
+          {
+            "ref": "2-GY3/Across Water Left/Blue Health",
+            "name": "[Blue Health] Across Water Left"
+          },
+          {
+            "ref": "2-GY3/Area 3 Right Building/Blue Health",
+            "name": "[Blue Health] Area 3 Right Building"
+          },
+          {
+            "ref": "2-GY3/Area 3 Right Building Alcove/Graveyard Key",
+            "name": "[Graveyard Key] Area 3 Right Building Alcove"
+          },
+          {
+            "ref": "2-GY3/Area 3 Left Building/Blue Health",
+            "name": "[Blue Health] Area 3 Left Building"
+          },
+          {
+            "ref": "2-GY3/Area 3 Left Building Alcove/Graveyard Key",
+            "name": "[Graveyard Key] Area 3 Left Building Alcove"
+          },
+          {
+            "ref": "2-GY3/Left by River/Switch",
+            "name": "[Switch] Left by River"
+          },
+          {
+            "ref": "2-GY3/Right by River/Switch",
+            "name": "[Switch] Right by River"
+          },
+          {
+            "ref": "2-GY3/In River Left/LF10",
+            "name": "[LF10] In River Left"
+          },
+          {
+            "ref": "2-GY3/In River Right/LF10",
+            "name": "[LF10] In River Right"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 1/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy in Area 1"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 2 Left/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy in Area 2 Left"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 2 Right/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy in Area 2 Right"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 2 Back Left/Deadman",
+            "name": "[Deadman] Enemy in Area 2 Back Left"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 2 Back Left/Deadman After Switch",
+            "name": "[Deadman After Switch] Enemy in Area 2 Back Left"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 2 Front Left/Deadman",
+            "name": "[Deadman] Enemy in Area 2 Front Left"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 2 Close Right/Deadman",
+            "name": "[Deadman] Enemy in Area 2 Close Right"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 2 Back Right/Deadman",
+            "name": "[Deadman] Enemy in Area 2 Back Right"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 2 Front Right/Deadman",
+            "name": "[Deadman] Enemy in Area 2 Front Right"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 2 Front Right/Deadman After Switch",
+            "name": "[Deadman After Switch] Enemy in Area 2 Front Right"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Outside Front Right/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy in Area 3 Outside Front Right"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Outside Front Left/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy in Area 3 Outside Front Left"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Outside Back Right/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy in Area 3 Outside Back Right"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Outside Back Left/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy in Area 3 Outside Back Left"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Front Right/Deadman",
+            "name": "[Deadman] Enemy in Area 3 Front Right"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Front Right/Deadman After Switch",
+            "name": "[Deadman After Switch] Enemy in Area 3 Front Right"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Front Left/Deadman",
+            "name": "[Deadman] Enemy in Area 3 Front Left"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Front Left/Deadman After Switch",
+            "name": "[Deadman After Switch] Enemy in Area 3 Front Left"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Back Right/Deadman",
+            "name": "[Deadman] Enemy in Area 3 Back Right"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Back Right/Deadman After Switch",
+            "name": "[Deadman After Switch] Enemy in Area 3 Back Right"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Back Left/Deadman",
+            "name": "[Deadman] Enemy in Area 3 Back Left"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Back Left/Deadman After Switch",
+            "name": "[Deadman After Switch] Enemy in Area 3 Back Left"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Right Building/Deadman",
+            "name": "[Deadman] Enemy in Area 3 Right Building"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Right Building/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy in Area 3 Right Building"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Left Building/Deadman",
+            "name": "[Deadman] Enemy in Area 3 Left Building"
+          },
+          {
+            "ref": "2-GY3/Enemy in Area 3 Left Building/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy in Area 3 Left Building"
+          },
+          {
+            "ref": "2-GY3/Graveyard Keys/After Sister of Despair/LF1",
+            "name": "[LF1] Graveyard Keys/After Sister of Despair"
+          },
+          {
+            "ref": "2-GY3/Graveyard Keys/End of Catwalks/LF10",
+            "name": "[LF10] Graveyard Keys/End of Catwalks"
+          },
+          {
+            "ref": "2-GY3/Graveyard Keys/End of Catwalks/Ultra Health",
+            "name": "[Ultra Health] Graveyard Keys/End of Catwalks"
+          },
+          {
+            "ref": "2-GY3/Graveyard Keys/After Gate Key Bridge/Banish Sister of Despair",
+            "name": "[Banish Sister of Despair] Graveyard Keys/After Gate Key Bridge"
+          },
+          {
+            "ref": "2-GY3/Graveyard Keys/After Gate Key Bridge/Sister of Despair",
+            "name": "[Sister of Despair] Graveyard Keys/After Gate Key Bridge"
+          },
+          {
+            "ref": "2-GY3/Graveyard Keys/After Gate Key Bridge/Lord of the Dead",
+            "name": "[Lord of the Dead] Graveyard Keys/After Gate Key Bridge"
+          },
+          {
+            "ref": "2-GY3/Graveyard Keys/Enemy After Sister of Despair/Deadman",
+            "name": "[Deadman] Graveyard Keys/Enemy After Sister of Despair"
+          },
+          {
+            "ref": "2-GY3/Graveyard Keys/Enemy After Sister of Despair/Deadman Spawned From Ultra Health",
+            "name": "[Deadman Spawned From Ultra Health] Graveyard Keys/Enemy After Sister of Despair"
+          },
+          {
+            "ref": "2-GY3/Graveyard Keys/Enemy Before Catwalks/Lord of the Dead",
+            "name": "[Lord of the Dead] Graveyard Keys/Enemy Before Catwalks"
+          },
+          {
+            "ref": "2-GY3/Graveyard Keys/Enemy Before Catwalks/Lord of the Dead Spawned From Ultra Health",
+            "name": "[Lord of the Dead Spawned From Ultra Health] Graveyard Keys/Enemy Before Catwalks"
           }
         ],
         "map_locations": [

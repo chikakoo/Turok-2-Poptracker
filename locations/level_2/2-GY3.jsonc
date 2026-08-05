@@ -1,18 +1,1117 @@
 [
     {
         "name": "2-GY3",
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png",
+        "chest_unopened_img": "images/items/health/blue_health.png",
+        "chest_opened_img": "images/items/health/blue_health_bw.png",
         "access_rules": [
             "gate_key:2,$map_access|2|11|mid"
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Start Gate",
+                "chest_unopened_img": "images/items/weapons_small/shotgun.png",
+                "chest_opened_img": "images/items/weapons_small/shotgun_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Shotgun",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 2 Start",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 2 Front Left",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 2 Back Left",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135003"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_standard.png",
+                        "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135049"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 2 Close Right",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135004"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_standard.png",
+                        "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 2 Back Right",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 2 Front Right",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135006"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_standard.png",
+                        "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 3 Start",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 3 Front Left",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135008"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_standard.png",
+                        "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135052"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 3 Back Left",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135009"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_standard.png",
+                        "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135053"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 3 Front Right",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135011"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_standard.png",
+                        "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135054"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 3 Back Right",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135010"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_standard.png",
+                        "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135055"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Across Water Right",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|135012|135013|135014"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Across Water Left",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|135015|135016|135017"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 3 Right Building",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|135022|135023|135024"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 3 Right Building Alcove",
+                "chest_unopened_img": "images/items/mission/graveyard_key.png",
+                "chest_opened_img": "images/items/mission/graveyard_key_bw.png",
+                "sections": [
+                    {
+                        "name": "Graveyard Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 3 Left Building",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|135018|135019|135020"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Area 3 Left Building Alcove",
+                "chest_unopened_img": "images/items/mission/graveyard_key.png",
+                "chest_opened_img": "images/items/mission/graveyard_key_bw.png",
+                "sections": [
+                    {
+                        "name": "Graveyard Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135025"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left by River",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135056"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right by River",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135057"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In River Left",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "access_rules": [
+                    "breath_of_life"
+                ],
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|135043|135044|135045"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In River Right",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "access_rules": [
+                    "breath_of_life"
+                ],
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|135046|135047|135048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 1",
+                "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|135059|135060"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 2 Left",
+                "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135061"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 2 Right",
+                "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|135062|135063"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 2 Back Left",
+                "chest_unopened_img": "images/enemies/deadman.png",
+                "chest_opened_img": "images/enemies/deadman_bw.png",
+                "sections": [
+                    {
+                        "name": "Deadman",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135064"
+                        ]
+                    },
+                    {
+                        "name": "Deadman After Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135065"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 2 Front Left",
+                "chest_unopened_img": "images/enemies/deadman.png",
+                "chest_opened_img": "images/enemies/deadman_bw.png",
+                "sections": [
+                    {
+                        "name": "Deadman",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|135066|135067"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 2 Close Right",
+                "chest_unopened_img": "images/enemies/deadman.png",
+                "chest_opened_img": "images/enemies/deadman_bw.png",
+                "sections": [
+                    {
+                        "name": "Deadman",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135068"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 2 Back Right",
+                "chest_unopened_img": "images/enemies/deadman.png",
+                "chest_opened_img": "images/enemies/deadman_bw.png",
+                "sections": [
+                    {
+                        "name": "Deadman",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|135069|135070"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 2 Front Right",
+                "chest_unopened_img": "images/enemies/deadman.png",
+                "chest_opened_img": "images/enemies/deadman_bw.png",
+                "sections": [
+                    {
+                        "name": "Deadman",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135071"
+                        ]
+                    },
+                    {
+                        "name": "Deadman After Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135072"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 3 Outside Front Right",
+                "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135073"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 3 Outside Front Left",
+                "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135074"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 3 Outside Back Right",
+                "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135075"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 3 Outside Back Left",
+                "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135076"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 3 Front Right",
+                "chest_unopened_img": "images/enemies/deadman.png",
+                "chest_opened_img": "images/enemies/deadman_bw.png",
+                "sections": [
+                    {
+                        "name": "Deadman",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135077"
+                        ]
+                    },
+                    {
+                        "name": "Deadman After Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135078"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 3 Front Left",
+                "chest_unopened_img": "images/enemies/deadman.png",
+                "chest_opened_img": "images/enemies/deadman_bw.png",
+                "sections": [
+                    {
+                        "name": "Deadman",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135079"
+                        ]
+                    },
+                    {
+                        "name": "Deadman After Switch",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|135080|135081"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 3 Back Right",
+                "chest_unopened_img": "images/enemies/deadman.png",
+                "chest_opened_img": "images/enemies/deadman_bw.png",
+                "sections": [
+                    {
+                        "name": "Deadman",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135082"
+                        ]
+                    },
+                    {
+                        "name": "Deadman After Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135083"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 3 Back Left",
+                "chest_unopened_img": "images/enemies/deadman.png",
+                "chest_opened_img": "images/enemies/deadman_bw.png",
+                "sections": [
+                    {
+                        "name": "Deadman",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135084"
+                        ]
+                    },
+                    {
+                        "name": "Deadman After Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135085"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 3 Right Building",
+                "sections": [
+                    {
+                        "name": "Deadman",
+                        "chest_unopened_img": "images/enemies/deadman.png",
+                        "chest_opened_img": "images/enemies/deadman_bw.png",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|135086|135087|135088"
+                        ]
+                    },
+                    {
+                        "name": "Lord of the Dead",
+                        "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                        "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135089"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Area 3 Left Building",
+                "sections": [
+                    {
+                        "name": "Deadman",
+                        "chest_unopened_img": "images/enemies/deadman.png",
+                        "chest_opened_img": "images/enemies/deadman_bw.png",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|135090|135091|135092"
+                        ]
+                    },
+                    {
+                        "name": "Lord of the Dead",
+                        "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                        "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|135093"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Graveyard Keys",
+                "children": [
+                    {
+                        "name": "After Sister of Despair",
+                        "chest_unopened_img": "images/items/life_forces/lf1.png",
+                        "chest_opened_img": "images/items/life_forces/lf1_bw.png",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 12,
+                                "visibility_rules": [
+                                    "$id_exists|135026|135027|135028|135029|135030|135031|135032|135033|135034|135035|135036|135037"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-GY3",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "End of Catwalks",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|135038|135039|135040|135041"
+                                ]
+                            },
+                            {
+                                "name": "Ultra Health",
+                                "chest_unopened_img": "images/items/health/ultra_health.png",
+                                "chest_opened_img": "images/items/health/ultra_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|135042"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-GY3",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Gate Key Bridge",
+                        "chest_unopened_img": "images/enemies/sister_of_despair.png",
+                        "chest_opened_img": "images/enemies/sister_of_despair_bw.png",
+                        "sections": [
+                            {
+                                "name": "Banish Sister of Despair",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|135058"
+                                ]
+                            },
+                            {
+                                "name": "Sister of Despair",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|135094"
+                                ]
+                            },
+                            {
+                                "name": "Lord of the Dead",
+                                "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                                "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|135102"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-GY3",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy After Sister of Despair",
+                        "chest_unopened_img": "images/enemies/deadman.png",
+                        "chest_opened_img": "images/enemies/deadman_bw.png",
+                        "sections": [
+                            {
+                                "name": "Deadman",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|135095|135096|135097"
+                                ]
+                            },
+                            {
+                                "name": "Deadman Spawned From Ultra Health",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|135100|135101"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-GY3",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy Before Catwalks",
+                        "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+                        "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
+                        "sections": [
+                            {
+                                "name": "Lord of the Dead",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|135098"
+                                ]
+                            },
+                            {
+                                "name": "Lord of the Dead Spawned From Ultra Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|135099"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-GY3",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }

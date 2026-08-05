@@ -1,18 +1,119 @@
 [
     {
         "name": "2-GY2",
-        "chest_unopened_img": "images/items/life_forces/lf1.png",
-        "chest_opened_img": "images/items/life_forces/lf1_bw.png",
+        "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
+        "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
         "access_rules": [
             "gate_key:2,$map_access|2|10|mid"
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Start",
+                "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Mag 60",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|134000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Building",
+                "chest_unopened_img": "images/enemies/sister_of_despair.png",
+                "chest_opened_img": "images/enemies/sister_of_despair_bw.png",
+                "sections": [
+                    {
+                        "name": "Banish Sister of Despair",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|134001"
+                        ]
+                    },
+                    {
+                        "name": "Sister of Despair",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|134005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|134002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|134003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Building",
+                "sections": [
+                    {
+                        "name": "Lord of the Dead",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|134004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "2-GY2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }
