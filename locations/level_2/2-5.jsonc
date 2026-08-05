@@ -71,7 +71,7 @@
                 ]
             },
             {
-                "name": "After Switch Bridge",
+                "name": "Across Bridge",
                 "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
                 "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
                 "sections": [
@@ -81,13 +81,22 @@
                         "visibility_rules": [
                             "$id_exists|129003"
                         ]
+                    },
+                    {
+                        "name": "Shootable Switch",
+                        "chest_unopened_img": "images/interactables/switch_shootable.png",
+                        "chest_opened_img": "images/interactables/switch_shootable_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129113"
+                        ]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "2-5M",
                         "x": 323,
-                        "y": 553
+                        "y": 545
                     }
                 ]
             },
@@ -392,27 +401,6 @@
                         "map": "2-5M",
                         "x": 374,
                         "y": 330
-                    }
-                ]
-            },
-            {
-                "name": "On Wall",
-                "chest_unopened_img": "images/interactables/switch_shootable.png",
-                "chest_opened_img": "images/interactables/switch_shootable_bw.png",
-                "sections": [
-                    {
-                        "name": "Shootable Switch",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|129113"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "2-5M",
-                        "x": 323,
-                        "y": 540
                     }
                 ]
             },
@@ -753,6 +741,13 @@
                         "visibility_rules": [
                             "$id_exists|129160|129161"
                         ]
+                    },
+                    {
+                        "name": "Endtrail by Soul Gate",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|129164"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -793,9 +788,9 @@
                 "sections": [
                     {
                         "name": "Endtrail",
-                        "item_count": 2,
+                        "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|129164|129165"
+                            "$id_exists|129165"
                         ]
                     }
                 ],
@@ -912,8 +907,8 @@
                 "map_locations": [
                     {
                         "map": "2-5R",
-                        "x": 125,
-                        "y": 25
+                        "x": 75,
+                        "y": 691
                     }
                 ]
             },
@@ -934,8 +929,8 @@
                     {
                         "map": "2-5R",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 241,
+                        "y": 334
                     }
                 ]
             },
@@ -974,8 +969,8 @@
                     {
                         "map": "2-5R",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 149,
+                        "y": 438
                     }
                 ]
             },
@@ -996,8 +991,8 @@
                     {
                         "map": "2-5R",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 467,
+                        "y": 409
                     }
                 ]
             },
@@ -1018,8 +1013,8 @@
                     {
                         "map": "2-5R",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 289,
+                        "y": 545
                     }
                 ]
             },
@@ -1040,8 +1035,8 @@
                     {
                         "map": "2-5R",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 179,
+                        "y": 581
                     }
                 ]
             },
@@ -1070,7 +1065,7 @@
                                     "leap_of_faith"
                                 ],
                                 "visibility_rules": [
-                                    "$id_exists|129155"
+                                    "$id_exists|129156"
                                 ]
                             }
                         ],
@@ -1078,8 +1073,8 @@
                             {
                                 "map": "2-5R",
                                 "shape": "diamond",
-                                "x": 100,
-                                "y": 100
+                                "x": 572,
+                                "y": 122
                             }
                         ]
                     },
@@ -1092,7 +1087,7 @@
                                 "name": "Close Endtrail",
                                 "item_count": 1,
                                 "visibility_rules": [
-                                    "$id_exists|129156"
+                                    "$id_exists|129155"
                                 ]
                             },
                             {
@@ -1110,8 +1105,8 @@
                             {
                                 "map": "2-5R",
                                 "shape": "diamond",
-                                "x": 50,
-                                "y": 50
+                                "x": 643,
+                                "y": 122
                             }
                         ]
                     }
@@ -1146,8 +1141,8 @@
                         "map_locations": [
                             {
                                 "map": "2-5R",
-                                "x": 0,
-                                "y": 0
+                                "x": 562,
+                                "y": 192
                             }
                         ]
                     },
@@ -1167,8 +1162,8 @@
                         "map_locations": [
                             {
                                 "map": "2-5R",
-                                "x": 0,
-                                "y": 0
+                                "x": 573,
+                                "y": 263
                             }
                         ]
                     },
@@ -1197,8 +1192,8 @@
                         "map_locations": [
                             {
                                 "map": "2-5R",
-                                "x": 0,
-                                "y": 0
+                                "x": 545,
+                                "y": 447
                             }
                         ]
                     },
@@ -1218,8 +1213,8 @@
                         "map_locations": [
                             {
                                 "map": "2-5R",
-                                "x": 0,
-                                "y": 0
+                                "x": 494,
+                                "y": 441
                             }
                         ]
                     },
@@ -1238,10 +1233,10 @@
                         ],
                         "map_locations": [
                             {
-                                "map": "2-O",
+                                "map": "2-5R",
                                 "shape": "diamond",
-                                "x": 0,
-                                "y": 0
+                                "x": 538,
+                                "y": 389
                             }
                         ]
                     },
@@ -1260,10 +1255,10 @@
                         ],
                         "map_locations": [
                             {
-                                "map": "2-O",
+                                "map": "2-5R",
                                 "shape": "diamond",
-                                "x": 0,
-                                "y": 0
+                                "x": 401,
+                                "y": 333
                             }
                         ]
                     }

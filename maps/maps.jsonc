@@ -129,8 +129,7 @@
     "name": "2-5R",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_2/2-5R.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_2/2-5R.png"
   },
   {
     "name": "2-6a",
