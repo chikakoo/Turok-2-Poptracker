@@ -217,3 +217,37 @@ end
 function has_torpedo_launcher()
     return not has("randomize_weapons") or has("torpedo_launcher") or has("level_4_skip_torpedo_launcher")
 end
+
+---Returns whether the player can do the river of souls death jumps
+---Normal: Has Breath of Life, or death jumps are in logic
+---SequenceBreak: Out of logic (it's possible to get them still)
+---None: Collection is impossible as the mod prevents it
+function can_do_river_of_souls_death_jumps()
+    if has("breath_of_life") or has("river_of_souls_death_jumps_in_logic") then
+        return AccessibilityLevel.Normal
+    end
+
+    if has("river_of_souls_death_jumps_out_of_logic") then
+        return AccessibilityLevel.SequenceBreak
+    end
+
+    -- Covers prevent collection
+    return AccessibilityLevel.None
+end
+
+---Returns whether the player can do the jump through lava trick
+---Normal: Has Heart of Fire, or can do the trick
+---SequenceBreak: Out of logic (it's possible to get them still)
+---None: Collection is impossible as the mod prevents it
+function can_jump_through_lava()
+    if has("heart_of_fire") or has("jump_through_lava_in_logic") then
+        return AccessibilityLevel.Normal
+    end
+
+    if has("jump_through_lava_out_of_logic") then
+        return AccessibilityLevel.SequenceBreak
+    end
+
+    -- Covers prevent collection
+    return AccessibilityLevel.None
+end

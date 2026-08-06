@@ -2572,8 +2572,12 @@
             "name": "[Clip] Before Switch Bridge"
           },
           {
-            "ref": "2-5M/After Switch Bridge/Box of Bullets",
-            "name": "[Box of Bullets] After Switch Bridge"
+            "ref": "2-5M/Across Bridge/Box of Bullets",
+            "name": "[Box of Bullets] Across Bridge"
+          },
+          {
+            "ref": "2-5M/Across Bridge/Shootable Switch",
+            "name": "[Shootable Switch] Across Bridge"
           },
           {
             "ref": "2-5M/After Stacked Boxes/Shells",
@@ -2640,10 +2644,6 @@
             "name": "[Switch] By Door"
           },
           {
-            "ref": "2-5M/On Wall/Shootable Switch",
-            "name": "[Shootable Switch] On Wall"
-          },
-          {
             "ref": "2-5M/Hall After Bridge/Switch",
             "name": "[Switch] Hall After Bridge"
           },
@@ -2706,6 +2706,10 @@
           {
             "ref": "2-5M/Enemy Spawned From Right Path/Raptoid",
             "name": "[Raptoid] Enemy Spawned From Right Path"
+          },
+          {
+            "ref": "2-5M/Enemy Spawned From Right Path/Endtrail by Soul Gate",
+            "name": "[Endtrail by Soul Gate] Enemy Spawned From Right Path"
           },
           {
             "ref": "2-5M/Enemy Spawned From Left Path/Raptoid",
@@ -4132,8 +4136,276 @@
         "name": "3-1",
         "sections": [
           {
-            "ref": "3-1/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-1/Behind Tree/Clip",
+            "name": "[Clip] Behind Tree"
+          },
+          {
+            "ref": "3-1/Down Ladder/Silver Health",
+            "name": "[Silver Health] Down Ladder"
+          },
+          {
+            "ref": "3-1/Down Ladder/Tek Quiver",
+            "name": "[Tek Quiver] Down Ladder"
+          },
+          {
+            "ref": "3-1/Before First Bridge/Shotgun",
+            "name": "[Shotgun] Before First Bridge"
+          },
+          {
+            "ref": "3-1/Under Broken Bridge/Clip",
+            "name": "[Clip] Under Broken Bridge"
+          },
+          {
+            "ref": "3-1/On Platforms/LF1",
+            "name": "[LF1] On Platforms"
+          },
+          {
+            "ref": "3-1/Left After Platforms/Blue Health",
+            "name": "[Blue Health] Left After Platforms"
+          },
+          {
+            "ref": "3-1/Left After Platforms/Box of Shells",
+            "name": "[Box of Shells] Left After Platforms"
+          },
+          {
+            "ref": "3-1/Right After Platforms/LF1",
+            "name": "[LF1] Right After Platforms"
+          },
+          {
+            "ref": "3-1/By Rock/Clip",
+            "name": "[Clip] By Rock"
+          },
+          {
+            "ref": "3-1/By Tree/Blue Health",
+            "name": "[Blue Health] By Tree"
+          },
+          {
+            "ref": "3-1/End of Loop/Mag 60",
+            "name": "[Mag 60] End of Loop"
+          },
+          {
+            "ref": "3-1/Below Wasp Nest/LF10",
+            "name": "[LF10] Below Wasp Nest"
+          },
+          {
+            "ref": "3-1/Trail by Wasp Nest/LF1",
+            "name": "[LF1] Trail by Wasp Nest"
+          },
+          {
+            "ref": "3-1/Start Single River Log/Quiver",
+            "name": "[Quiver] Start Single River Log"
+          },
+          {
+            "ref": "3-1/Start Single River Log/Blue Health",
+            "name": "[Blue Health] Start Single River Log"
+          },
+          {
+            "ref": "3-1/By Single River Log/LF1",
+            "name": "[LF1] By Single River Log"
+          },
+          {
+            "ref": "3-1/Across Single River Log Corner/Quiver",
+            "name": "[Quiver] Across Single River Log Corner"
+          },
+          {
+            "ref": "3-1/By Double River Logs/LF1",
+            "name": "[LF1] By Double River Logs"
+          },
+          {
+            "ref": "3-1/Across Double River Logs/Level Key",
+            "name": "[Level Key] Across Double River Logs"
+          },
+          {
+            "ref": "3-1/In War Club Hole/Box of Bullets",
+            "name": "[Box of Bullets] In War Club Hole"
+          },
+          {
+            "ref": "3-1/In Bush/Clip",
+            "name": "[Clip] In Bush"
+          },
+          {
+            "ref": "3-1/On River Platforms/LF1",
+            "name": "[LF1] On River Platforms"
+          },
+          {
+            "ref": "3-1/Behind Building/Explosive Shells",
+            "name": "[Explosive Shells] Behind Building"
+          },
+          {
+            "ref": "3-1/In Swamp Corner/Tek Arrows",
+            "name": "[Tek Arrows] In Swamp Corner"
+          },
+          {
+            "ref": "3-1/Swamp Trail/LF10",
+            "name": "[LF10] Swamp Trail"
+          },
+          {
+            "ref": "3-1/Swamp Alcove/Blue Health",
+            "name": "[Blue Health] Swamp Alcove"
+          },
+          {
+            "ref": "3-1/Swamp Alcove/Tek Quiver",
+            "name": "[Tek Quiver] Swamp Alcove"
+          },
+          {
+            "ref": "3-1/By Prisoner/LF1",
+            "name": "[LF1] By Prisoner"
+          },
+          {
+            "ref": "3-1/Behind Cell/Box of Bullets",
+            "name": "[Box of Bullets] Behind Cell"
+          },
+          {
+            "ref": "3-1/Below Exit Portal/Satchel Charge",
+            "name": "[Satchel Charge] Below Exit Portal"
+          },
+          {
+            "ref": "3-1/On River Platform/LF10",
+            "name": "[LF10] On River Platform"
+          },
+          {
+            "ref": "3-1/In Cell/Rescue Prisoner",
+            "name": "[Rescue Prisoner] In Cell"
+          },
+          {
+            "ref": "3-1/Enemy Bridge Ambush/War Club",
+            "name": "[War Club] Enemy Bridge Ambush"
+          },
+          {
+            "ref": "3-1/Enemy Left After Platforms/Gunner",
+            "name": "[Gunner] Enemy Left After Platforms"
+          },
+          {
+            "ref": "3-1/Enemy Right After Platforms/Raptoid",
+            "name": "[Raptoid] Enemy Right After Platforms"
+          },
+          {
+            "ref": "3-1/Enemy up Ladder/Gunner",
+            "name": "[Gunner] Enemy up Ladder"
+          },
+          {
+            "ref": "3-1/Enemy Spawned From Mag 60/War Club",
+            "name": "[War Club] Enemy Spawned From Mag 60"
+          },
+          {
+            "ref": "3-1/Enemy Before Broken Bridge/Gunner",
+            "name": "[Gunner] Enemy Before Broken Bridge"
+          },
+          {
+            "ref": "3-1/Enemy Across Broken Bridge/War Club",
+            "name": "[War Club] Enemy Across Broken Bridge"
+          },
+          {
+            "ref": "3-1/Enemy From Destroying Platform Nest/Wasp",
+            "name": "[Wasp] Enemy From Destroying Platform Nest"
+          },
+          {
+            "ref": "3-1/Enemy by Single River Log/War Club",
+            "name": "[War Club] Enemy by Single River Log"
+          },
+          {
+            "ref": "3-1/Enemy Across Single River Log/Gunner",
+            "name": "[Gunner] Enemy Across Single River Log"
+          },
+          {
+            "ref": "3-1/Enemy Ambush/War Club",
+            "name": "[War Club] Enemy Ambush"
+          },
+          {
+            "ref": "3-1/Enemy at Marsh Path/Cave Worm",
+            "name": "[Cave Worm] Enemy at Marsh Path"
+          },
+          {
+            "ref": "3-1/Enemy Left of River Jumps/Endtrail",
+            "name": "[Endtrail] Enemy Left of River Jumps"
+          },
+          {
+            "ref": "3-1/Enemy Right of River Jumps/Gunner",
+            "name": "[Gunner] Enemy Right of River Jumps"
+          },
+          {
+            "ref": "3-1/Enemy From Destroying River Jumps Nest/Wasp",
+            "name": "[Wasp] Enemy From Destroying River Jumps Nest"
+          },
+          {
+            "ref": "3-1/Enemy in Building/Endtrail",
+            "name": "[Endtrail] Enemy in Building"
+          },
+          {
+            "ref": "3-1/Enemy in Swamp Corner/Cave Worm",
+            "name": "[Cave Worm] Enemy in Swamp Corner"
+          },
+          {
+            "ref": "3-1/Enemy in Swamp Alcove/Cave Worm",
+            "name": "[Cave Worm] Enemy in Swamp Alcove"
+          },
+          {
+            "ref": "3-1/Enemy by Prisoner/Endtrail",
+            "name": "[Endtrail] Enemy by Prisoner"
+          },
+          {
+            "ref": "3-1/Enemy by Ammo Storage/War Club",
+            "name": "[War Club] Enemy by Ammo Storage"
+          },
+          {
+            "ref": "3-1/Above River/Jump Into River/LF1",
+            "name": "[LF1] Above River/Jump Into River"
+          },
+          {
+            "ref": "3-1/Above River/Trail Into River/LF1",
+            "name": "[LF1] Above River/Trail Into River"
+          },
+          {
+            "ref": "3-1/In River/In River Right of Platforms/Explosive Shells",
+            "name": "[Explosive Shells] In River/In River Right of Platforms"
+          },
+          {
+            "ref": "3-1/In River/In River by Hanging Net/Blue Health",
+            "name": "[Blue Health] In River/In River by Hanging Net"
+          },
+          {
+            "ref": "3-1/In River/In River Left of Platforms/Clip",
+            "name": "[Clip] In River/In River Left of Platforms"
+          },
+          {
+            "ref": "3-1/In River/In River Alcove/Blue Health",
+            "name": "[Blue Health] In River/In River Alcove"
+          },
+          {
+            "ref": "3-1/In River/On River Platform/Grenade Launcher",
+            "name": "[Grenade Launcher] In River/On River Platform"
+          },
+          {
+            "ref": "3-1/In River/In River Start Left Corner/Clip",
+            "name": "[Clip] In River/In River Start Left Corner"
+          },
+          {
+            "ref": "3-1/In River/In River Start Left Corner/Shells",
+            "name": "[Shells] In River/In River Start Left Corner"
+          },
+          {
+            "ref": "3-1/In River/In River by Platforms/Blue Health",
+            "name": "[Blue Health] In River/In River by Platforms"
+          },
+          {
+            "ref": "3-1/In River/In River Corner/Clip",
+            "name": "[Clip] In River/In River Corner"
+          },
+          {
+            "ref": "3-1/In River/In River by Broken Bridge/Blue Health",
+            "name": "[Blue Health] In River/In River by Broken Bridge"
+          },
+          {
+            "ref": "3-1/In River/In River by Single Log/Shells",
+            "name": "[Shells] In River/In River by Single Log"
+          },
+          {
+            "ref": "3-1/In River/In River Left of Single Log/Blue Health",
+            "name": "[Blue Health] In River/In River Left of Single Log"
+          },
+          {
+            "ref": "3-1/In River/In River by Double Logs/Blue Health",
+            "name": "[Blue Health] In River/In River by Double Logs"
           }
         ],
         "map_locations": [
