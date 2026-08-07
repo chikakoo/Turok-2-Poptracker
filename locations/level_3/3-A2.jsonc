@@ -4,15 +4,55 @@
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
-            "$map_access|3|1,[l3_satchel_charge:3],$has_unused_l3_satchel_charge"
+            "$map_access|3|3|mid"
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Dead End",
+                "access_rules": [
+                    "[l3_satchel_charge:3],$has_unused_l3_satchel_charge",
+                    "$has_check|@3-A2/Back Room/Destroy Facility"
+                ],
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Full Health",
+                        "chest_unopened_img": "images/items/health/full_health.png",
+                        "chest_opened_img": "images/items/health/full_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|70000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-A2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Back Room",
+                "access_rules": [
+                    "[l3_satchel_charge:3],$has_unused_l3_satchel_charge"
+                ],
+                "chest_unopened_img": "images/interactables/ammo_facility.png",
+                "chest_opened_img": "images/interactables/ammo_facility_bw.png",
+                "sections": [
+                    {
+                        "name": "Destroy Facility",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|70001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-A2",
+                        "x": 50,
+                        "y": 50
                     }
                 ]
             }

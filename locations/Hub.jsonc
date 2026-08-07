@@ -4420,8 +4420,12 @@
         "name": "3-A1",
         "sections": [
           {
-            "ref": "3-A1/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-A1/Dead End/Full Health",
+            "name": "[Full Health] Dead End"
+          },
+          {
+            "ref": "3-A1/Back Room/Destroy Facility",
+            "name": "[Destroy Facility] Back Room"
           }
         ],
         "map_locations": [
@@ -4500,8 +4504,12 @@
         "name": "3-A2",
         "sections": [
           {
-            "ref": "3-A2/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-A2/Dead End/Full Health",
+            "name": "[Full Health] Dead End"
+          },
+          {
+            "ref": "3-A2/Back Room/Destroy Facility",
+            "name": "[Destroy Facility] Back Room"
           }
         ],
         "map_locations": [
@@ -4580,8 +4588,8 @@
         "name": "3-A3",
         "sections": [
           {
-            "ref": "3-A3/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-A3/Back Room/Destroy Facility",
+            "name": "[Destroy Facility] Back Room"
           }
         ],
         "map_locations": [

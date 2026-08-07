@@ -135,6 +135,12 @@ function has_weapon_requirement(level, weapon_barrier_suffix)
     return unique_weapons_owned >= weapon_setting.AcquiredCount
 end
 
+---Returns whether the player has fully cleared the given location
+---@param checked_location string of the location to check
+function has_check(checked_location)
+    return Tracker:FindObjectForCode(checked_location).AvailableChestCount == 0
+end
+
 ---Returns whether the player has unused items, given the item and all locations it's used
 ---@param mission_item string code for the item
 ---@param mission_item_locations array of strings of the locations the item is used
@@ -162,12 +168,13 @@ function has_unused_power_cell()
 end
 
 ---Returns whether the player has an level 3 satchel charge
----TODO: add the locations when they are real
 function has_unused_l3_satchel_charge()
     return has_unused_mission_item(
         "l3_satchel_charge",
         {
-            
+            "@3-A1/Back Room/Destroy Facility",
+            "@3-A2/Back Room/Destroy Facility",
+            "@3-A3/Back Room/Destroy Facility"
         }
     )
 end

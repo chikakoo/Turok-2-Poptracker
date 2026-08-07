@@ -4,15 +4,27 @@
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
-            "$map_access|3|1,[l3_satchel_charge:3],$has_unused_l3_satchel_charge"
+            "$map_access|3|7|mid,[l3_satchel_charge:3],$has_unused_l3_satchel_charge"
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Back Room",
+                "chest_unopened_img": "images/interactables/ammo_facility.png",
+                "chest_opened_img": "images/interactables/ammo_facility_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Destroy Facility",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|71000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-A3",
+                        "x": 50,
+                        "y": 50
                     }
                 ]
             }
