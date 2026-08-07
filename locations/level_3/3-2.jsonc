@@ -8,11 +8,659 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "By Start Portal",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Swamp Logs",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Swamp Logs",
+                "sections": [
+                    {
+                        "name": "Mag 60",
+                        "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                        "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62002"
+                        ]
+                    },
+                    {
+                        "name": "Clip",
+                        "chest_unopened_img": "images/items/ammo/clip.png",
+                        "chest_opened_img": "images/items/ammo/clip_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In First Building",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|62004|62005|62006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Marsh Path Start",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|62007|62008|62009"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Shells in Swamp",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Marsh Path",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|62011|62012|62013|62014|62015"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Marsh Path Right",
+                "chest_unopened_img": "images/items/ammo/quiver_of_tek_arrows.png",
+                "chest_opened_img": "images/items/ammo/quiver_of_tek_arrows_bw.png",
+                "sections": [
+                    {
+                        "name": "Tek Quiver",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62016"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Marsh Building",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|62017|62018|62019|62020"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Grass Ramp",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|62021|62022|62023|62024"
+                        ]
+                    },
+                    {
+                        "name": "Tek Arrows",
+                        "chest_unopened_img": "images/items/ammo/tek_arrows.png",
+                        "chest_opened_img": "images/items/ammo/tek_arrows_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62025"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Bush",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|62026|62027"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Path Before Ledge",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|62028|62029|62030|62031"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Ledge Jump",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62032"
+                        ]
+                    },
+                    {
+                        "name": "Shredder",
+                        "chest_unopened_img": "images/items/weapons_small/shredder.png",
+                        "chest_opened_img": "images/items/weapons_small/shredder_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62033"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Marsh Path",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62034"
+                        ]
+                    },
+                    {
+                        "name": "Level Key",
+                        "chest_unopened_img": "images/items/keys/level_5_key.png",
+                        "chest_opened_img": "images/items/keys/level_5_key_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62035"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Left Building",
+                "sections": [
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62036"
+                        ]
+                    },
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|62037|62038|62039"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Left Corner",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62040"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Back Corner",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62041"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Alcove",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62042"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Alcove",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62043"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Swamp Logs",
+                "chest_unopened_img": "images/enemies/war_club.png",
+                "chest_opened_img": "images/enemies/war_club_bw.png",
+                "sections": [
+                    {
+                        "name": "War Club",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|62044|62045|62046"
+                        ]
+                    },
+                    {
+                        "name": "War Club Spawned From Ledge Jump Item",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62055"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Sniper Tower",
+                "chest_unopened_img": "images/enemies/juggernaut.png",
+                "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                "sections": [
+                    {
+                        "name": "Juggernaut",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Behind Swamp Building",
+                "chest_unopened_img": "images/enemies/cave_worm.png",
+                "chest_opened_img": "images/enemies/cave_worm_bw.png",
+                "sections": [
+                    {
+                        "name": "Cave Worm",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Wasp Nest",
+                "sections": [
+                    {
+                        "name": "Gunner",
+                        "chest_unopened_img": "images/enemies/gunner.png",
+                        "chest_opened_img": "images/enemies/gunner_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62049"
+                        ]
+                    },
+                    {
+                        "name": "Endtrail",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy From Destorying Wasp Nest",
+                "chest_unopened_img": "images/enemies/wasp.png",
+                "chest_opened_img": "images/enemies/wasp_bw.png",
+                "sections": [
+                    {
+                        "name": "Wasp",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|62051|62052"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Wasp Nest",
+                "sections": [
+                    {
+                        "name": "Gunner",
+                        "chest_unopened_img": "images/enemies/gunner.png",
+                        "chest_opened_img": "images/enemies/gunner_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62053"
+                        ]
+                    },
+                    {
+                        "name": "Endtrail",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62054"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Ambush",
+                "chest_unopened_img": "images/enemies/juggernaut.png",
+                "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                "sections": [
+                    {
+                        "name": "Juggernaut",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62056"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Building",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62057"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Full Health",
+                "chest_unopened_img": "images/enemies/war_club.png",
+                "chest_opened_img": "images/enemies/war_club_bw.png",
+                "sections": [
+                    {
+                        "name": "War Club",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|62058"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

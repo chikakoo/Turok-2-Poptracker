@@ -128,11 +128,70 @@ LOCATIONS_3_1 = {
 }
 
 LOCATIONS_3_A1 = {
-
+    [69000] = {"@3-A1/Dead End/Full Health"},
+    [69001] = {"@3-A1/Back Room/Destroy Facility"}
 }
 
 LOCATIONS_3_2 = {
-
+    [62000] = {"@3-2/By Start Portal/Clip"},
+    [62001] = {"@3-2/Before Swamp Logs/LF1"},
+    [62002] = {"@3-2/After Swamp Logs/Mag 60"},
+    [62003] = {"@3-2/After Swamp Logs/Clip"},
+    [62004] = {"@3-2/In First Building/Blue Health"},
+    [62005] = {"@3-2/In First Building/Blue Health"},
+    [62006] = {"@3-2/In First Building/Blue Health"},
+    [62007] = {"@3-2/Marsh Path Start/LF1"},
+    [62008] = {"@3-2/Marsh Path Start/LF1"},
+    [62009] = {"@3-2/Marsh Path Start/LF1"},
+    [62010] = {"@3-2/Shells in Swamp/Shells"},
+    [62011] = {"@3-2/On Marsh Path/LF1"},
+    [62012] = {"@3-2/On Marsh Path/LF1"},
+    [62013] = {"@3-2/On Marsh Path/LF1"},
+    [62014] = {"@3-2/On Marsh Path/LF1"},
+    [62015] = {"@3-2/On Marsh Path/LF1"},
+    [62016] = {"@3-2/Marsh Path Right/Tek Quiver"},
+    [62017] = {"@3-2/Behind Marsh Building/Silver Health"},
+    [62018] = {"@3-2/Behind Marsh Building/Silver Health"},
+    [62019] = {"@3-2/Behind Marsh Building/Silver Health"},
+    [62020] = {"@3-2/Behind Marsh Building/Silver Health"},
+    [62021] = {"@3-2/Before Grass Ramp/Silver Health"},
+    [62022] = {"@3-2/Before Grass Ramp/Silver Health"},
+    [62023] = {"@3-2/Before Grass Ramp/Silver Health"},
+    [62024] = {"@3-2/Before Grass Ramp/Silver Health"},
+    [62025] = {"@3-2/Before Grass Ramp/Tek Arrows"},
+    [62026] = {"@3-2/In Bush/Clip"},
+    [62027] = {"@3-2/In Bush/Clip"},
+    [62028] = {"@3-2/Path Before Ledge/LF1"},
+    [62029] = {"@3-2/Path Before Ledge/LF1"},
+    [62030] = {"@3-2/Path Before Ledge/LF1"},
+    [62031] = {"@3-2/Path Before Ledge/LF1"},
+    [62032] = {"@3-2/Ledge Jump/LF10"},
+    [62033] = {"@3-2/Ledge Jump/Shredder"},
+    [62034] = {"@3-2/After Marsh Path/Shells"},
+    [62035] = {"@3-2/After Marsh Path/Level Key"},
+    [62036] = {"@3-2/In Left Building/Box of Shells"},
+    [62037] = {"@3-2/In Left Building/LF1"},
+    [62038] = {"@3-2/In Left Building/LF1"},
+    [62039] = {"@3-2/In Left Building/LF1"},
+    [62040] = {"@3-2/In Left Corner/Clip"},
+    [62041] = {"@3-2/In Back Corner/Full Health"},
+    [62042] = {"@3-2/Right Alcove/Clip"},
+    [62043] = {"@3-2/Left Alcove/Clip"},
+    [62044] = {"@3-2/Enemy After Swamp Logs/War Club"},
+    [62045] = {"@3-2/Enemy After Swamp Logs/War Club"},
+    [62046] = {"@3-2/Enemy After Swamp Logs/War Club"},
+    [62047] = {"@3-2/Enemy in Sniper Tower/Juggernaut"},
+    [62048] = {"@3-2/Enemy Behind Swamp Building/Cave Worm"},
+    [62049] = {"@3-2/Enemy by Wasp Nest/Gunner"},
+    [62050] = {"@3-2/Enemy by Wasp Nest/Endtrail"},
+    [62051] = {"@3-2/Enemy From Destorying Wasp Nest/Wasp"},
+    [62052] = {"@3-2/Enemy From Destorying Wasp Nest/Wasp"},
+    [62053] = {"@3-2/Enemy After Wasp Nest/Gunner"},
+    [62054] = {"@3-2/Enemy After Wasp Nest/Endtrail"},
+    [62055] = {"@3-2/Enemy After Swamp Logs/War Club Spawned From Ledge Jump Item"},
+    [62056] = {"@3-2/Enemy Ambush/Juggernaut"},
+    [62057] = {"@3-2/Enemy in Left Building/Endtrail"},
+    [62058] = {"@3-2/Enemy Spawned From Full Health/War Club"}
 }
 
 LOCATIONS_3_3 = {
@@ -148,7 +207,8 @@ LOCATIONS_3_4a = {
 }
 
 LOCATIONS_3_A2 = {
-
+    [70000] = {"@3-A2/Dead End/Full Health"},
+    [70001] = {"@3-A2/Back Room/Destroy Facility"}
 }
 
 LOCATIONS_3_4b = {
@@ -168,7 +228,7 @@ LOCATIONS_3_7 = {
 }
 
 LOCATIONS_3_A3 = {
-
+    [71000] = {"@3-A3/Back Room/Destroy Facility"}
 }
 
 LOCATIONS_3_8 = {

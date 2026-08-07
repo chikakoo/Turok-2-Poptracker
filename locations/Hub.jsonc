@@ -4440,8 +4440,148 @@
         "name": "3-2",
         "sections": [
           {
-            "ref": "3-2/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-2/By Start Portal/Clip",
+            "name": "[Clip] By Start Portal"
+          },
+          {
+            "ref": "3-2/Before Swamp Logs/LF1",
+            "name": "[LF1] Before Swamp Logs"
+          },
+          {
+            "ref": "3-2/After Swamp Logs/Mag 60",
+            "name": "[Mag 60] After Swamp Logs"
+          },
+          {
+            "ref": "3-2/After Swamp Logs/Clip",
+            "name": "[Clip] After Swamp Logs"
+          },
+          {
+            "ref": "3-2/In First Building/Blue Health",
+            "name": "[Blue Health] In First Building"
+          },
+          {
+            "ref": "3-2/Marsh Path Start/LF1",
+            "name": "[LF1] Marsh Path Start"
+          },
+          {
+            "ref": "3-2/Shells in Swamp/Shells",
+            "name": "[Shells] Shells in Swamp"
+          },
+          {
+            "ref": "3-2/On Marsh Path/LF1",
+            "name": "[LF1] On Marsh Path"
+          },
+          {
+            "ref": "3-2/Marsh Path Right/Tek Quiver",
+            "name": "[Tek Quiver] Marsh Path Right"
+          },
+          {
+            "ref": "3-2/Behind Marsh Building/Silver Health",
+            "name": "[Silver Health] Behind Marsh Building"
+          },
+          {
+            "ref": "3-2/Before Grass Ramp/Silver Health",
+            "name": "[Silver Health] Before Grass Ramp"
+          },
+          {
+            "ref": "3-2/Before Grass Ramp/Tek Arrows",
+            "name": "[Tek Arrows] Before Grass Ramp"
+          },
+          {
+            "ref": "3-2/In Bush/Clip",
+            "name": "[Clip] In Bush"
+          },
+          {
+            "ref": "3-2/Path Before Ledge/LF1",
+            "name": "[LF1] Path Before Ledge"
+          },
+          {
+            "ref": "3-2/Ledge Jump/LF10",
+            "name": "[LF10] Ledge Jump"
+          },
+          {
+            "ref": "3-2/Ledge Jump/Shredder",
+            "name": "[Shredder] Ledge Jump"
+          },
+          {
+            "ref": "3-2/After Marsh Path/Shells",
+            "name": "[Shells] After Marsh Path"
+          },
+          {
+            "ref": "3-2/After Marsh Path/Level Key",
+            "name": "[Level Key] After Marsh Path"
+          },
+          {
+            "ref": "3-2/In Left Building/Box of Shells",
+            "name": "[Box of Shells] In Left Building"
+          },
+          {
+            "ref": "3-2/In Left Building/LF1",
+            "name": "[LF1] In Left Building"
+          },
+          {
+            "ref": "3-2/In Left Corner/Clip",
+            "name": "[Clip] In Left Corner"
+          },
+          {
+            "ref": "3-2/In Back Corner/Full Health",
+            "name": "[Full Health] In Back Corner"
+          },
+          {
+            "ref": "3-2/Right Alcove/Clip",
+            "name": "[Clip] Right Alcove"
+          },
+          {
+            "ref": "3-2/Left Alcove/Clip",
+            "name": "[Clip] Left Alcove"
+          },
+          {
+            "ref": "3-2/Enemy After Swamp Logs/War Club",
+            "name": "[War Club] Enemy After Swamp Logs"
+          },
+          {
+            "ref": "3-2/Enemy After Swamp Logs/War Club Spawned From Ledge Jump Item",
+            "name": "[War Club Spawned From Ledge Jump Item] Enemy After Swamp Logs"
+          },
+          {
+            "ref": "3-2/Enemy in Sniper Tower/Juggernaut",
+            "name": "[Juggernaut] Enemy in Sniper Tower"
+          },
+          {
+            "ref": "3-2/Enemy Behind Swamp Building/Cave Worm",
+            "name": "[Cave Worm] Enemy Behind Swamp Building"
+          },
+          {
+            "ref": "3-2/Enemy by Wasp Nest/Gunner",
+            "name": "[Gunner] Enemy by Wasp Nest"
+          },
+          {
+            "ref": "3-2/Enemy by Wasp Nest/Endtrail",
+            "name": "[Endtrail] Enemy by Wasp Nest"
+          },
+          {
+            "ref": "3-2/Enemy From Destorying Wasp Nest/Wasp",
+            "name": "[Wasp] Enemy From Destorying Wasp Nest"
+          },
+          {
+            "ref": "3-2/Enemy After Wasp Nest/Gunner",
+            "name": "[Gunner] Enemy After Wasp Nest"
+          },
+          {
+            "ref": "3-2/Enemy After Wasp Nest/Endtrail",
+            "name": "[Endtrail] Enemy After Wasp Nest"
+          },
+          {
+            "ref": "3-2/Enemy Ambush/Juggernaut",
+            "name": "[Juggernaut] Enemy Ambush"
+          },
+          {
+            "ref": "3-2/Enemy in Left Building/Endtrail",
+            "name": "[Endtrail] Enemy in Left Building"
+          },
+          {
+            "ref": "3-2/Enemy Spawned From Full Health/War Club",
+            "name": "[War Club] Enemy Spawned From Full Health"
           }
         ],
         "map_locations": [
