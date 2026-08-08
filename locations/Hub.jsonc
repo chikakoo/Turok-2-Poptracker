@@ -4936,8 +4936,108 @@
         "name": "3-4a",
         "sections": [
           {
-            "ref": "3-4a/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-4a/Starting Path/LF1",
+            "name": "[LF1] Starting Path"
+          },
+          {
+            "ref": "3-4a/On Wall/Clip",
+            "name": "[Clip] On Wall"
+          },
+          {
+            "ref": "3-4a/Enclosed Area/Blue Health",
+            "name": "[Blue Health] Enclosed Area"
+          },
+          {
+            "ref": "3-4a/Enclosed Area/Satchel Charge",
+            "name": "[Satchel Charge] Enclosed Area"
+          },
+          {
+            "ref": "3-4a/By Facility Ladder/LF10",
+            "name": "[LF10] By Facility Ladder"
+          },
+          {
+            "ref": "3-4a/On Log Bridge/LF1",
+            "name": "[LF1] On Log Bridge"
+          },
+          {
+            "ref": "3-4a/Behind Facility/LF10",
+            "name": "[LF10] Behind Facility"
+          },
+          {
+            "ref": "3-4a/Behind Facility/Tek Quiver",
+            "name": "[Tek Quiver] Behind Facility"
+          },
+          {
+            "ref": "3-4a/Behind Watchtower/LF1",
+            "name": "[LF1] Behind Watchtower"
+          },
+          {
+            "ref": "3-4a/Before Swamp Logs/LF1",
+            "name": "[LF1] Before Swamp Logs"
+          },
+          {
+            "ref": "3-4a/After Swamp Logs/LF1",
+            "name": "[LF1] After Swamp Logs"
+          },
+          {
+            "ref": "3-4a/In Bush/Clip",
+            "name": "[Clip] In Bush"
+          },
+          {
+            "ref": "3-4a/Left of Building/Clip",
+            "name": "[Clip] Left of Building"
+          },
+          {
+            "ref": "3-4a/Left of Building/Shells",
+            "name": "[Shells] Left of Building"
+          },
+          {
+            "ref": "3-4a/Behind Building/LF10",
+            "name": "[LF10] Behind Building"
+          },
+          {
+            "ref": "3-4a/Behind Building/Plasma Rifle",
+            "name": "[Plasma Rifle] Behind Building"
+          },
+          {
+            "ref": "3-4a/In Building/LF1",
+            "name": "[LF1] In Building"
+          },
+          {
+            "ref": "3-4a/In Building/Full Health",
+            "name": "[Full Health] In Building"
+          },
+          {
+            "ref": "3-4a/By Exit Portal/Shells",
+            "name": "[Shells] By Exit Portal"
+          },
+          {
+            "ref": "3-4a/Enemy at Start/War Club",
+            "name": "[War Club] Enemy at Start"
+          },
+          {
+            "ref": "3-4a/Enemy on Starting Bridge/Gunner",
+            "name": "[Gunner] Enemy on Starting Bridge"
+          },
+          {
+            "ref": "3-4a/Enemy Ambush/War Club",
+            "name": "[War Club] Enemy Ambush"
+          },
+          {
+            "ref": "3-4a/Enemy by Facility/War Club",
+            "name": "[War Club] Enemy by Facility"
+          },
+          {
+            "ref": "3-4a/Enemy Before Ladder/Juggernaut",
+            "name": "[Juggernaut] Enemy Before Ladder"
+          },
+          {
+            "ref": "3-4a/Enemy on Watchtower/Gunner",
+            "name": "[Gunner] Enemy on Watchtower"
+          },
+          {
+            "ref": "3-4a/Enemy by Exit Portal/Juggernaut",
+            "name": "[Juggernaut] Enemy by Exit Portal"
           }
         ],
         "map_locations": [
