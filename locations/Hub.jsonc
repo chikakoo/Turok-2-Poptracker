@@ -4612,8 +4612,36 @@
         "name": "3-O",
         "sections": [
           {
-            "ref": "3-O/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-O/Exit/Nuke Part",
+            "name": "[Nuke Part] Exit"
+          },
+          {
+            "ref": "3-O/Enemy in Left Room/Sentinel",
+            "name": "[Sentinel] Enemy in Left Room"
+          },
+          {
+            "ref": "3-O/Enemy in Left Room/Death Guard",
+            "name": "[Death Guard] Enemy in Left Room"
+          },
+          {
+            "ref": "3-O/Enemy in Right Room/Sentinel",
+            "name": "[Sentinel] Enemy in Right Room"
+          },
+          {
+            "ref": "3-O/Enemy in Right Room/Death Guard",
+            "name": "[Death Guard] Enemy in Right Room"
+          },
+          {
+            "ref": "3-O/Enemy in Forward Room/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy in Forward Room"
+          },
+          {
+            "ref": "3-O/Enemy in Forward Room/Death Guard",
+            "name": "[Death Guard] Enemy in Forward Room"
+          },
+          {
+            "ref": "3-O/Enemy by Exit/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy by Exit"
           }
         ],
         "map_locations": [

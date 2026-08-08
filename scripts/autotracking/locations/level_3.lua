@@ -199,7 +199,15 @@ LOCATIONS_3_3 = {
 }
 
 LOCATIONS_3_O = {
-
+    [80000] = {"@3-O/Exit/Nuke Part"},
+    [80001] = {"@3-O/Left/Sentinel"},
+    [80002] = {"@3-O/Left/Death Guard"},
+    [80003] = {"@3-O/Right/Sentinel"},
+    [80004] = {"@3-O/Right/Death Guard"},
+    [80005] = {"@3-O/Forward/Lord of the Flesh"},
+    [80006] = {"@3-O/Forward/Death Guard"},
+    [80007] = {"@3-O/Forward/Death Guard"},
+    [80008] = {"@3-O/Exit/Lord of the Flesh"}
 }
 
 LOCATIONS_3_4a = {
