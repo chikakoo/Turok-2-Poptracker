@@ -4596,8 +4596,288 @@
         "name": "3-3",
         "sections": [
           {
-            "ref": "3-3/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-3/Shells/By Start Portal",
+            "name": "[By Start Portal] Shells"
+          },
+          {
+            "ref": "3-3/Near Start Portal/Clip",
+            "name": "[Clip] Near Start Portal"
+          },
+          {
+            "ref": "3-3/On Marsh Wall Left/Blue Health",
+            "name": "[Blue Health] On Marsh Wall Left"
+          },
+          {
+            "ref": "3-3/By Broken Wall/LF1",
+            "name": "[LF1] By Broken Wall"
+          },
+          {
+            "ref": "3-3/By Marsh Tower/Clip",
+            "name": "[Clip] By Marsh Tower"
+          },
+          {
+            "ref": "3-3/Marsh Wall Corner/Blue Health",
+            "name": "[Blue Health] Marsh Wall Corner"
+          },
+          {
+            "ref": "3-3/On Marsh Wall Right/Box of Shells",
+            "name": "[Box of Shells] On Marsh Wall Right"
+          },
+          {
+            "ref": "3-3/In Bush/Box of Bullets",
+            "name": "[Box of Bullets] In Bush"
+          },
+          {
+            "ref": "3-3/In Building Alcove/Blue Health",
+            "name": "[Blue Health] In Building Alcove"
+          },
+          {
+            "ref": "3-3/Hall Dead End/Box of Shells",
+            "name": "[Box of Shells] Hall Dead End"
+          },
+          {
+            "ref": "3-3/Between Buildings/Silver Health",
+            "name": "[Silver Health] Between Buildings"
+          },
+          {
+            "ref": "3-3/In Building/LF1",
+            "name": "[LF1] In Building"
+          },
+          {
+            "ref": "3-3/In Building/Blue Health",
+            "name": "[Blue Health] In Building"
+          },
+          {
+            "ref": "3-3/By Checkpoint/LF1",
+            "name": "[LF1] By Checkpoint"
+          },
+          {
+            "ref": "3-3/By Checkpoint/Clip",
+            "name": "[Clip] By Checkpoint"
+          },
+          {
+            "ref": "3-3/By Checkpoint/Shells",
+            "name": "[Shells] By Checkpoint"
+          },
+          {
+            "ref": "3-3/Down Ladder/Blue Health",
+            "name": "[Blue Health] Down Ladder"
+          },
+          {
+            "ref": "3-3/Below Watchtower/LF1",
+            "name": "[LF1] Below Watchtower"
+          },
+          {
+            "ref": "3-3/On Watchtower/Tranq Darts Pak",
+            "name": "[Tranq Darts Pak] On Watchtower"
+          },
+          {
+            "ref": "3-3/On Roof/LF10",
+            "name": "[LF10] On Roof"
+          },
+          {
+            "ref": "3-3/On Roof/Full Health",
+            "name": "[Full Health] On Roof"
+          },
+          {
+            "ref": "3-3/On Roof Bridge/LF1",
+            "name": "[LF1] On Roof Bridge"
+          },
+          {
+            "ref": "3-3/Before Marsh/LF1",
+            "name": "[LF1] Before Marsh"
+          },
+          {
+            "ref": "3-3/Final Marsh Wall Right/Blue Health",
+            "name": "[Blue Health] Final Marsh Wall Right"
+          },
+          {
+            "ref": "3-3/Final Marsh Wall Left/Blue Health",
+            "name": "[Blue Health] Final Marsh Wall Left"
+          },
+          {
+            "ref": "3-3/Close Marsh Corner/Clip",
+            "name": "[Clip] Close Marsh Corner"
+          },
+          {
+            "ref": "3-3/Far Marsh Corner/Blue Health",
+            "name": "[Blue Health] Far Marsh Corner"
+          },
+          {
+            "ref": "3-3/Behind Building/Explosive Shells",
+            "name": "[Explosive Shells] Behind Building"
+          },
+          {
+            "ref": "3-3/Alcove Near Exit/Oblivion Portal Switch",
+            "name": "[Oblivion Portal Switch] Alcove Near Exit"
+          },
+          {
+            "ref": "3-3/Enemy at Start/Gunner",
+            "name": "[Gunner] Enemy at Start"
+          },
+          {
+            "ref": "3-3/Enemy on Starting Wall/Endtrail",
+            "name": "[Endtrail] Enemy on Starting Wall"
+          },
+          {
+            "ref": "3-3/Enemy at Marsh End/Endtrail",
+            "name": "[Endtrail] Enemy at Marsh End"
+          },
+          {
+            "ref": "3-3/Enemy Behind Marsh Tower/Cave Worm",
+            "name": "[Cave Worm] Enemy Behind Marsh Tower"
+          },
+          {
+            "ref": "3-3/Enemy in Marsh Wall Corner/Cave Worm",
+            "name": "[Cave Worm] Enemy in Marsh Wall Corner"
+          },
+          {
+            "ref": "3-3/Enemy in Transition Building/War Club",
+            "name": "[War Club] Enemy in Transition Building"
+          },
+          {
+            "ref": "3-3/Enemy Ambush/Juggernaut",
+            "name": "[Juggernaut] Enemy Ambush"
+          },
+          {
+            "ref": "3-3/Enemy Spawned From Box of Shells/War Club",
+            "name": "[War Club] Enemy Spawned From Box of Shells"
+          },
+          {
+            "ref": "3-3/Enemy in Checkpoint Building/Juggernaut",
+            "name": "[Juggernaut] Enemy in Checkpoint Building"
+          },
+          {
+            "ref": "3-3/Enemy in Watchtower/Gunner",
+            "name": "[Gunner] Enemy in Watchtower"
+          },
+          {
+            "ref": "3-3/Enemy by Oblivion Portal/Raptor",
+            "name": "[Raptor] Enemy by Oblivion Portal"
+          },
+          {
+            "ref": "3-3/Enemy on Final Marsh Wall/Endtrail",
+            "name": "[Endtrail] Enemy on Final Marsh Wall"
+          },
+          {
+            "ref": "3-3/Enemy First Bridge Ambush/War Club",
+            "name": "[War Club] Enemy First Bridge Ambush"
+          },
+          {
+            "ref": "3-3/Enemy Second Bridge Ambush/War Club",
+            "name": "[War Club] Enemy Second Bridge Ambush"
+          },
+          {
+            "ref": "3-3/Enemy Spawned From Blue Health/Cave Worm",
+            "name": "[Cave Worm] Enemy Spawned From Blue Health"
+          },
+          {
+            "ref": "3-3/Enemy Spawned From Blue Health/Cave Worm Spawned From Other Cave Worm",
+            "name": "[Cave Worm Spawned From Other Cave Worm] Enemy Spawned From Blue Health"
+          },
+          {
+            "ref": "3-3/Enemy in Alcove Near Exit/Gunner Spawned From Second Bridge Ambush",
+            "name": "[Gunner Spawned From Second Bridge Ambush] Enemy in Alcove Near Exit"
+          },
+          {
+            "ref": "3-3/Above River/Above River Jumpable/LF1",
+            "name": "[LF1] Above River/Above River Jumpable"
+          },
+          {
+            "ref": "3-3/Above River/In River by Ladder/LF1",
+            "name": "[LF1] Above River/In River by Ladder"
+          },
+          {
+            "ref": "3-3/In River/In River Start/LF1",
+            "name": "[LF1] In River/In River Start"
+          },
+          {
+            "ref": "3-3/In River/In River Start/Plasma Rounds",
+            "name": "[Plasma Rounds] In River/In River Start"
+          },
+          {
+            "ref": "3-3/In River/In River Start Left Corner/Blue Health",
+            "name": "[Blue Health] In River/In River Start Left Corner"
+          },
+          {
+            "ref": "3-3/In River/In River by Marsh Wall/Shells",
+            "name": "[Shells] In River/In River by Marsh Wall"
+          },
+          {
+            "ref": "3-3/In River/In River by Watchtower/Explosive Shells",
+            "name": "[Explosive Shells] In River/In River by Watchtower"
+          },
+          {
+            "ref": "3-3/In River/In River by Watchtower/Clip",
+            "name": "[Clip] In River/In River by Watchtower"
+          },
+          {
+            "ref": "3-3/In River/In River by Ladder/Clip",
+            "name": "[Clip] In River/In River by Ladder"
+          },
+          {
+            "ref": "3-3/In River/In River by Final Marsh Wall/Plasma Rounds",
+            "name": "[Plasma Rounds] In River/In River by Final Marsh Wall"
+          },
+          {
+            "ref": "3-3/In River/In River by Checkpoint/Blue Health",
+            "name": "[Blue Health] In River/In River by Checkpoint"
+          },
+          {
+            "ref": "3-3/In River/In River After Surfacing/LF10",
+            "name": "[LF10] In River/In River After Surfacing"
+          },
+          {
+            "ref": "3-3/In River/On Side Platform/Grenade Launcher",
+            "name": "[Grenade Launcher] In River/On Side Platform"
+          },
+          {
+            "ref": "3-3/In River/In River Left of Ladder/LF10",
+            "name": "[LF10] In River/In River Left of Ladder"
+          },
+          {
+            "ref": "3-3/In River/By Lower Ladder/LF10",
+            "name": "[LF10] In River/By Lower Ladder"
+          },
+          {
+            "ref": "3-3/In River/By Upper Ladder/LF10",
+            "name": "[LF10] In River/By Upper Ladder"
+          },
+          {
+            "ref": "3-3/In River/Behind Rock/Box of Shells",
+            "name": "[Box of Shells] In River/Behind Rock"
+          },
+          {
+            "ref": "3-3/In River/Upper Platform/Primagen Key",
+            "name": "[Primagen Key] In River/Upper Platform"
+          },
+          {
+            "ref": "3-3/In River/In Bush/Box of Bullets",
+            "name": "[Box of Bullets] In River/In Bush"
+          },
+          {
+            "ref": "3-3/In River/In River End/LF1",
+            "name": "[LF1] In River/In River End"
+          },
+          {
+            "ref": "3-3/In River/In River End/Ultra Health",
+            "name": "[Ultra Health] In River/In River End"
+          },
+          {
+            "ref": "3-3/In River/Enemy on Side Platform/Gunner",
+            "name": "[Gunner] In River/Enemy on Side Platform"
+          },
+          {
+            "ref": "3-3/In River/Enemy by Lower Ladder/War Club",
+            "name": "[War Club] In River/Enemy by Lower Ladder"
+          },
+          {
+            "ref": "3-3/In River/Enemy up Lower Ladder/Gunner",
+            "name": "[Gunner] In River/Enemy up Lower Ladder"
+          },
+          {
+            "ref": "3-3/In River/Enemy on Upper Platform/Juggernaut",
+            "name": "[Juggernaut] In River/Enemy on Upper Platform"
           }
         ],
         "map_locations": [
