@@ -141,8 +141,7 @@
     "name": "2-6b",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_2/2-6b.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_2/2-6b.png"
   },
   {
     "name": "2-GY1",
@@ -155,8 +154,7 @@
     "name": "2-6c",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_2/2-6c.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_2/2-6c.png"
   },
   {
     "name": "2-7",

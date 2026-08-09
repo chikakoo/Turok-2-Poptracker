@@ -323,14 +323,14 @@ LOCATIONS_3_3 = {
 
 LOCATIONS_3_O = {
     [80000] = {"@3-O/Exit/Nuke Part"},
-    [80001] = {"@3-O/Left/Sentinel"},
-    [80002] = {"@3-O/Left/Death Guard"},
-    [80003] = {"@3-O/Right/Sentinel"},
-    [80004] = {"@3-O/Right/Death Guard"},
-    [80005] = {"@3-O/Forward/Lord of the Flesh"},
-    [80006] = {"@3-O/Forward/Death Guard"},
-    [80007] = {"@3-O/Forward/Death Guard"},
-    [80008] = {"@3-O/Exit/Lord of the Flesh"}
+    [80001] = {"@3-O/Enemy in Left Room/Sentinel"},
+    [80002] = {"@3-O/Enemy in Left Room/Death Guard"},
+    [80003] = {"@3-O/Enemy in Right Room/Sentinel"},
+    [80004] = {"@3-O/Enemy in Right Room/Death Guard"},
+    [80005] = {"@3-O/Enemy in Forward Room/Lord of the Flesh"},
+    [80006] = {"@3-O/Enemy in Forward Room/Death Guard"},
+    [80007] = {"@3-O/Enemy in Forward Room/Death Guard"},
+    [80008] = {"@3-O/Enemy by Exit/Lord of the Flesh"}
 }
 
 LOCATIONS_3_4a = {
@@ -342,10 +342,10 @@ LOCATIONS_3_4a = {
     [64005] = {"@3-4a/On Wall/Clip"},
     [64006] = {"@3-4a/On Wall/Clip"},
     [64007] = {"@3-4a/On Wall/Clip"},
-    [64008] = {"@3-4a/In Enclosed Area/Blue Health"},
-    [64009] = {"@3-4a/In Enclosed Area/Blue Health"},
-    [64010] = {"@3-4a/In Enclosed Area/Blue Health"},
-    [64011] = {"@3-4a/In Enclosed Area/Satchel Charge"},
+    [64008] = {"@3-4a/Enclosed Area/Blue Health"},
+    [64009] = {"@3-4a/Enclosed Area/Blue Health"},
+    [64010] = {"@3-4a/Enclosed Area/Blue Health"},
+    [64011] = {"@3-4a/Enclosed Area/Satchel Charge"},
     [64012] = {"@3-4a/By Facility Ladder/LF10"},
     [64013] = {"@3-4a/On Log Bridge/LF1"},
     [64014] = {"@3-4a/On Log Bridge/LF1"},

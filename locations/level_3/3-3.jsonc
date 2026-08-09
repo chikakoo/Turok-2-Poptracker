@@ -8,12 +8,12 @@
         ],
         "children": [
             {
-                "name": "Shells",
+                "name": "By Start Portal",
                 "chest_unopened_img": "images/items/ammo/shells.png",
                 "chest_opened_img": "images/items/ammo/shells_bw.png",
                 "sections": [
                     {
-                        "name": "By Start Portal",
+                        "name": "Shells",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|63000"
@@ -1161,6 +1161,27 @@
                                 "item_count": 1,
                                 "visibility_rules": [
                                     "$id_exists|63079"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-3",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In River Dead End",
+                        "chest_unopened_img": "images/items/ammo/box_of_grenades.png",
+                        "chest_opened_img": "images/items/ammo/box_of_grenades_bw.png",
+                        "sections": [
+                            {
+                                "name": "Box of Grenades",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|63080"
                                 ]
                             }
                         ],

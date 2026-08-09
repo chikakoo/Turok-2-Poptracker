@@ -3072,16 +3072,16 @@
             "name": "[Blue Health] By Exit Portal"
           },
           {
-            "ref": "2-6b/By Return Ladder 1/LF10",
-            "name": "[LF10] By Return Ladder 1"
+            "ref": "2-6b/By Left Return Ladder/LF10",
+            "name": "[LF10] By Left Return Ladder"
           },
           {
             "ref": "2-6b/Hall by Long Ladder/LF1",
             "name": "[LF1] Hall by Long Ladder"
           },
           {
-            "ref": "2-6b/By Return Ladder 2/LF10",
-            "name": "[LF10] By Return Ladder 2"
+            "ref": "2-6b/By Right Return Ladder/LF10",
+            "name": "[LF10] By Right Return Ladder"
           },
           {
             "ref": "2-6b/On Wall/Shootable Switch",
@@ -3242,10 +3242,6 @@
           {
             "ref": "2-6c/Enemy on Bottom/Raptoid",
             "name": "[Raptoid] Enemy on Bottom"
-          },
-          {
-            "ref": "2-6c/Enemy After Lower Bridge/Endtrail",
-            "name": "[Endtrail] Enemy After Lower Bridge"
           },
           {
             "ref": "2-6c/Enemy at Upper Bridge/Endtrail",
@@ -4596,8 +4592,8 @@
         "name": "3-3",
         "sections": [
           {
-            "ref": "3-3/Shells/By Start Portal",
-            "name": "[By Start Portal] Shells"
+            "ref": "3-3/By Start Portal/Shells",
+            "name": "[Shells] By Start Portal"
           },
           {
             "ref": "3-3/Near Start Portal/Clip",
@@ -4830,6 +4826,10 @@
           {
             "ref": "3-3/In River/On Side Platform/Grenade Launcher",
             "name": "[Grenade Launcher] In River/On Side Platform"
+          },
+          {
+            "ref": "3-3/In River/In River Dead End/Box of Grenades",
+            "name": "[Box of Grenades] In River/In River Dead End"
           },
           {
             "ref": "3-3/In River/In River Left of Ladder/LF10",
