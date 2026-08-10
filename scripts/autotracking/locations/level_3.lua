@@ -433,7 +433,41 @@ LOCATIONS_3_4b = {
 }
 
 LOCATIONS_3_5 = {
-
+    [65000] = {"@3-5/At Start/Full Health"},
+    [65001] = {"@3-5/At Start/Box of Bullets"},
+    [65002] = {"@3-5/Left of Bridge/Plasma Pak"},
+    [65003] = {"@3-5/Left of Bridge/Plasma Pak"},
+    [65004] = {"@3-5/Left of Bridge/Plasma Pak"},
+    [65005] = {"@3-5/By Left Tower/Shredder"},
+    [65006] = {"@3-5/By Left Tower/LF10"},
+    [65007] = {"@3-5/By Left Tower/LF10"},
+    [65008] = {"@3-5/By Left Tower/LF10"},
+    [65009] = {"@3-5/By Left Tower/LF10"},
+    [65010] = {"@3-5/Ladder by Cell/LF1"},
+    [65011] = {"@3-5/On Cell/Full Health"},
+    [65012] = {"@3-5/Ladder by Cell/LF1"},
+    [65013] = {"@3-5/Ladder by Cell/LF1"},
+    [65014] = {"@3-5/Ladder by Cell/LF1"},
+    [65015] = {"@3-5/Ladder by Cell/LF1"},
+    [65016] = {"@3-5/By Cell/Grenade Launcher"},
+    [65017] = {"@3-5/By Cell/LF10"},
+    [65018] = {"@3-5/By Cell/LF10"},
+    [65019] = {"@3-5/By Exit Portal/Mag 60"},
+    [65020] = {"@3-5/In Cell/Rescue Prisoner"},
+    [65021] = {"@3-5/Enemy Ambush/War Club"},
+    [65022] = {"@3-5/Eneny in Watchtower/Gunner"},
+    [65023] = {"@3-5/Enemy on Bridge/Raptoid"},
+    [65024] = {"@3-5/Enemy on Bridge/Raptoid"},
+    [65025] = {"@3-5/Enemy on Bridge/Raptoid"},
+    [65026] = {"@3-5/Enemy on Bridge/Gunner"},
+    [65027] = {"@3-5/Enemy on Bridge/Gunner"},
+    [65028] = {"@3-5/Enemy on Bridge/War Club"},
+    [65029] = {"@3-5/Enemy on Bridge/War Club"},
+    [65030] = {"@3-5/Enemy on Bridge/War Club"},
+    [65031] = {"@3-5/Enemy on Bridge/Juggernaut"},
+    [65032] = {"@3-5/Enemy in Left Watchtower/Juggernaut"},
+    [65033] = {"@3-5/Enemy in Right Watchtower/Juggernaut"},
+    [65034] = {"@3-5/Enemy by Cell/Gunner"}
 }
 
 LOCATIONS_3_6 = {

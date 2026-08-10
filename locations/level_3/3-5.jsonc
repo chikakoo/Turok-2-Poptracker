@@ -8,11 +8,353 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Start",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Full Health",
+                        "chest_unopened_img": "images/items/health/full_health.png",
+                        "chest_opened_img": "images/items/health/full_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65000"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left of Bridge",
+                "chest_unopened_img": "images/items/ammo/plasma_pak.png",
+                "chest_opened_img": "images/items/ammo/plasma_pak_bw.png",
+                "sections": [
+                    {
+                        "name": "Plasma Pak",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|65002|65003|65004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Left Tower",
+                "sections": [
+                    {
+                        "name": "Shredder",
+                        "chest_unopened_img": "images/items/weapons_small/shredder.png",
+                        "chest_opened_img": "images/items/weapons_small/shredder_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65005"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|65006|65007|65008|65009"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Ladder by Cell",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|65010|65012|65013|65014|65015"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Cell",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Cell",
+                "sections": [
+                    {
+                        "name": "Grenade Launcher",
+                        "chest_unopened_img": "images/items/weapons_small/grenade_launcher.png",
+                        "chest_opened_img": "images/items/weapons_small/grenade_launcher_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65016"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|65017|65018"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Exit Portal",
+                "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                "sections": [
+                    {
+                        "name": "Mag 60",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65019"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Rescue Prisoner",
+                "chest_unopened_img": "images/interactables/prisoner.png",
+                "chest_opened_img": "images/interactables/prisoner_bw.png",
+                "sections": [
+                    {
+                        "name": "In Cell",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65020"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Ambush",
+                "chest_unopened_img": "images/enemies/war_club.png",
+                "chest_opened_img": "images/enemies/war_club_bw.png",
+                "sections": [
+                    {
+                        "name": "War Club",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Eneny in Watchtower",
+                "chest_unopened_img": "images/enemies/gunner.png",
+                "chest_opened_img": "images/enemies/gunner_bw.png",
+                "sections": [
+                    {
+                        "name": "Gunner",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Bridge",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|65023|65024|65025"
+                        ]
+                    },
+                    {
+                        "name": "Gunner",
+                        "chest_unopened_img": "images/enemies/gunner.png",
+                        "chest_opened_img": "images/enemies/gunner_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|65026|65027"
+                        ]
+                    },
+                    {
+                        "name": "War Club",
+                        "chest_unopened_img": "images/enemies/war_club.png",
+                        "chest_opened_img": "images/enemies/war_club_bw.png",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|65028|65029|65030"
+                        ]
+                    },
+                    {
+                        "name": "Juggernaut",
+                        "chest_unopened_img": "images/enemies/juggernaut.png",
+                        "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65031"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Watchtower",
+                "chest_unopened_img": "images/enemies/juggernaut.png",
+                "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                "sections": [
+                    {
+                        "name": "Juggernaut",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Watchtower",
+                "chest_unopened_img": "images/enemies/juggernaut.png",
+                "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                "sections": [
+                    {
+                        "name": "Juggernaut",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65033"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Cell",
+                "chest_unopened_img": "images/enemies/gunner.png",
+                "chest_opened_img": "images/enemies/gunner_bw.png",
+                "sections": [
+                    {
+                        "name": "Gunner",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|65034"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

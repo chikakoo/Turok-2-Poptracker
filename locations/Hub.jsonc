@@ -5156,8 +5156,84 @@
         "name": "3-5",
         "sections": [
           {
-            "ref": "3-5/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-5/At Start/Full Health",
+            "name": "[Full Health] At Start"
+          },
+          {
+            "ref": "3-5/At Start/Box of Bullets",
+            "name": "[Box of Bullets] At Start"
+          },
+          {
+            "ref": "3-5/Left of Bridge/Plasma Pak",
+            "name": "[Plasma Pak] Left of Bridge"
+          },
+          {
+            "ref": "3-5/By Left Tower/Shredder",
+            "name": "[Shredder] By Left Tower"
+          },
+          {
+            "ref": "3-5/By Left Tower/LF10",
+            "name": "[LF10] By Left Tower"
+          },
+          {
+            "ref": "3-5/Ladder by Cell/LF1",
+            "name": "[LF1] Ladder by Cell"
+          },
+          {
+            "ref": "3-5/On Cell/Full Health",
+            "name": "[Full Health] On Cell"
+          },
+          {
+            "ref": "3-5/By Cell/Grenade Launcher",
+            "name": "[Grenade Launcher] By Cell"
+          },
+          {
+            "ref": "3-5/By Cell/LF10",
+            "name": "[LF10] By Cell"
+          },
+          {
+            "ref": "3-5/By Exit Portal/Mag 60",
+            "name": "[Mag 60] By Exit Portal"
+          },
+          {
+            "ref": "3-5/Rescue Prisoner/In Cell",
+            "name": "[In Cell] Rescue Prisoner"
+          },
+          {
+            "ref": "3-5/Enemy Ambush/War Club",
+            "name": "[War Club] Enemy Ambush"
+          },
+          {
+            "ref": "3-5/Eneny in Watchtower/Gunner",
+            "name": "[Gunner] Eneny in Watchtower"
+          },
+          {
+            "ref": "3-5/Enemy on Bridge/Raptoid",
+            "name": "[Raptoid] Enemy on Bridge"
+          },
+          {
+            "ref": "3-5/Enemy on Bridge/Gunner",
+            "name": "[Gunner] Enemy on Bridge"
+          },
+          {
+            "ref": "3-5/Enemy on Bridge/War Club",
+            "name": "[War Club] Enemy on Bridge"
+          },
+          {
+            "ref": "3-5/Enemy on Bridge/Juggernaut",
+            "name": "[Juggernaut] Enemy on Bridge"
+          },
+          {
+            "ref": "3-5/Enemy in Left Watchtower/Juggernaut",
+            "name": "[Juggernaut] Enemy in Left Watchtower"
+          },
+          {
+            "ref": "3-5/Enemy in Right Watchtower/Juggernaut",
+            "name": "[Juggernaut] Enemy in Right Watchtower"
+          },
+          {
+            "ref": "3-5/Enemy by Cell/Gunner",
+            "name": "[Gunner] Enemy by Cell"
           }
         ],
         "map_locations": [
