@@ -600,5 +600,26 @@ LOCATIONS_3_A3 = {
 }
 
 LOCATIONS_3_8 = {
-
+    [68000] = {"@3-8/Behind Tree/Grenade"},
+    [68001] = {"@3-8/Behind Tree/Grenade"},
+    [68002] = {"@3-8/In Arena/Level Key"},
+    [68003] = {"@3-8/Front Left Room/Blue Health"},
+    [68004] = {"@3-8/Front Left Room/Blue Health"},
+    [68005] = {"@3-8/Back Left Room/Blue Health"},
+    [68006] = {"@3-8/Back Left Room/Blue Health"},
+    [68007] = {"@3-8/Back Right Room/Blue Health"},
+    [68008] = {"@3-8/Back Right Room/Blue Health"},
+    [68009] = {"@3-8/Front Right Room/Blue Health"},
+    [68010] = {"@3-8/Front Right Room/Blue Health"},
+    [68011] = {"@3-8/Front Left Room/Plasma Pak"},
+    [68012] = {"@3-8/Back Left Room/Box of Shells"},
+    [68013] = {"@3-8/Back Right Room/Box of Bullets"},
+    [68014] = {"@3-8/Front Right Room/Tek Quiver"},
+    [68015] = {"@3-8/Enemy Ambush/Raptor"},
+    [68016] = {"@3-8/Enemy Ambush/Raptor"},
+    [68017] = {"@3-8/Enemy Ambush/Raptor"},
+    [68018] = {"@3-8/Enemy Ambush/Raptor"},
+    [68019] = {"@3-8/Either Enemy on Ground/Juggernaut"},
+    [68020] = {"@3-8/Enemy on Left Tower/Juggernaut"},
+    [68021] = {"@3-8/Enemy on Right Tower/Juggernaut"}
 }

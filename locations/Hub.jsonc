@@ -5528,8 +5528,60 @@
         "name": "3-8",
         "sections": [
           {
-            "ref": "3-8/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-8/Behind Tree/Grenade",
+            "name": "[Grenade] Behind Tree"
+          },
+          {
+            "ref": "3-8/In Arena/Level Key",
+            "name": "[Level Key] In Arena"
+          },
+          {
+            "ref": "3-8/Front Left Room/Blue Health",
+            "name": "[Blue Health] Front Left Room"
+          },
+          {
+            "ref": "3-8/Front Left Room/Plasma Pak",
+            "name": "[Plasma Pak] Front Left Room"
+          },
+          {
+            "ref": "3-8/Front Right Room/Blue Health",
+            "name": "[Blue Health] Front Right Room"
+          },
+          {
+            "ref": "3-8/Front Right Room/Tek Quiver",
+            "name": "[Tek Quiver] Front Right Room"
+          },
+          {
+            "ref": "3-8/Back Left Room/Blue Health",
+            "name": "[Blue Health] Back Left Room"
+          },
+          {
+            "ref": "3-8/Back Left Room/Box of Shells",
+            "name": "[Box of Shells] Back Left Room"
+          },
+          {
+            "ref": "3-8/Back Right Room/Blue Health",
+            "name": "[Blue Health] Back Right Room"
+          },
+          {
+            "ref": "3-8/Back Right Room/Box of Bullets",
+            "name": "[Box of Bullets] Back Right Room"
+          },
+          {
+            "ref": "3-8/Enemy Ambush/Raptor",
+            "name": "[Raptor] Enemy Ambush"
+          },
+          {
+            "ref": "3-8/Either Enemy on Ground/Juggernaut",
+            "name": "[Juggernaut] Either Enemy on Ground"
+          },
+          {
+            "ref": "3-8/Enemy on Left Tower/Juggernaut",
+            "name": "[Juggernaut] Enemy on Left Tower"
+          },
+          {
+            "ref": "3-8/Enemy on Right Tower/Juggernaut",
+            "name": "[Juggernaut] Enemy on Right Tower"
           }
         ],
         "map_locations": [

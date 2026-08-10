@@ -8,11 +8,252 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Behind Tree",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Grenade",
+                        "chest_unopened_img": "images/items/ammo/grenade.png",
+                        "chest_opened_img": "images/items/ammo/grenade_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|68000|68001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Arena",
+                "chest_unopened_img": "images/items/keys/primagen_key_5.png",
+                "chest_opened_img": "images/items/keys/primagen_key_5_bw.png",
+                "sections": [
+                    {
+                        "name": "Level Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|68002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Front Left Room",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|68003|68004"
+                        ]
+                    },
+                    {
+                        "name": "Plasma Pak",
+                        "chest_unopened_img": "images/items/ammo/plasma_pak.png",
+                        "chest_opened_img": "images/items/ammo/plasma_pak_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|68011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Front Right Room",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|68009|68010"
+                        ]
+                    },
+                    {
+                        "name": "Tek Quiver",
+                        "chest_unopened_img": "images/items/ammo/quiver_of_tek_arrows.png",
+                        "chest_opened_img": "images/items/ammo/quiver_of_tek_arrows_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|68014"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Back Left Room",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|68005|68006"
+                        ]
+                    },
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|68012"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Back Right Room",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|68007|68008"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|68013"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Ambush",
+                "chest_unopened_img": "images/enemies/raptor.png",
+                "chest_opened_img": "images/enemies/raptor_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptor",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|68015|68016|68017|68018"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Either Enemy on Ground",
+                "chest_unopened_img": "images/enemies/juggernaut.png",
+                "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                "sections": [
+                    {
+                        "name": "Juggernaut",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|68019"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Left Tower",
+                "chest_unopened_img": "images/enemies/juggernaut.png",
+                "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                "sections": [
+                    {
+                        "name": "Juggernaut",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|68020"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Right Tower",
+                "chest_unopened_img": "images/enemies/juggernaut.png",
+                "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                "sections": [
+                    {
+                        "name": "Juggernaut",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|68021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }
