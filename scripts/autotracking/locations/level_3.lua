@@ -398,7 +398,38 @@ LOCATIONS_3_A2 = {
 }
 
 LOCATIONS_3_4b = {
-
+    [64056] = {"@3-4b/Left of Portal/Clip"},
+    [64057] = {"@3-4b/Left of Portal/Clip"},
+    [64058] = {"@3-4b/Left of Portal/Shells"},
+    [64059] = {"@3-4b/Behind Tree/Blue Health"},
+    [64060] = {"@3-4b/Behind Tower/LF1"},
+    [64061] = {"@3-4b/Behind Tower/LF1"},
+    [64062] = {"@3-4b/Behind Tower/LF1"},
+    [64063] = {"@3-4b/Behind Tower/LF1"},
+    [64064] = {"@3-4b/Behind Tower/Shredder"},
+    [64065] = {"@3-4b/By Tower/LF1"},
+    [64066] = {"@3-4b/By Tower/LF1"},
+    [64067] = {"@3-4b/By Tower/LF1"},
+    [64068] = {"@3-4b/By Tower/LF1"},
+    [64069] = {"@3-4b/By Tower/LF1"},
+    [64070] = {"@3-4b/By Tower/LF1"},
+    [64071] = {"@3-4b/By Tower/LF1"},
+    [64072] = {"@3-4b/By Tower/LF1"},
+    [64073] = {"@3-4b/On Watchtower Roof/Plasma Rifle"},
+    [64074] = {"@3-4b/Behind Building/Clip"},
+    [64075] = {"@3-4b/By Ramp/Explosive Shells"},
+    [64076] = {"@3-4b/By Exit Portal/Blue Health"},
+    [64077] = {"@3-4b/By Exit Portal/Blue Health"},
+    [64078] = {"@3-4b/By Exit Portal/Blue Health"},
+    [64079] = {"@3-4b/Enemy on First Bridge Watchtower/Gunner"},
+    [64080] = {"@3-4b/Enemy on Bridge/Juggernaut"},
+    [64081] = {"@3-4b/Enemy on Second Bridge Watchtower/Gunner"},
+    [64082] = {"@3-4b/Enemy After Bridge/Juggernaut"},
+    [64083] = {"@3-4b/Enemy After Bridge/Wasp Spawned From Destroying Nest"},
+    [64084] = {"@3-4b/Enemy After Bridge/Wasp Spawned From Destroying Nest"},
+    [64085] = {"@3-4b/Enemy Ambush/Juggernaut"},
+    [64086] = {"@3-4b/Enemy by Checkpoint/Gunner"},
+    [64087] = {"@3-4b/Enemy by Checkpoint/Juggernaut"}
 }
 
 LOCATIONS_3_5 = {

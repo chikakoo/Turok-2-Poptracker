@@ -5072,8 +5072,76 @@
         "name": "3-4b",
         "sections": [
           {
-            "ref": "3-4b/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-4b/Left of Portal/Clip",
+            "name": "[Clip] Left of Portal"
+          },
+          {
+            "ref": "3-4b/Left of Portal/Shells",
+            "name": "[Shells] Left of Portal"
+          },
+          {
+            "ref": "3-4b/Behind Tree/Blue Health",
+            "name": "[Blue Health] Behind Tree"
+          },
+          {
+            "ref": "3-4b/Behind Tower/LF1",
+            "name": "[LF1] Behind Tower"
+          },
+          {
+            "ref": "3-4b/Behind Tower/Shredder",
+            "name": "[Shredder] Behind Tower"
+          },
+          {
+            "ref": "3-4b/By Tower/LF1",
+            "name": "[LF1] By Tower"
+          },
+          {
+            "ref": "3-4b/On Watchtower Roof/Plasma Rifle",
+            "name": "[Plasma Rifle] On Watchtower Roof"
+          },
+          {
+            "ref": "3-4b/Behind Building/Clip",
+            "name": "[Clip] Behind Building"
+          },
+          {
+            "ref": "3-4b/By Ramp/Explosive Shells",
+            "name": "[Explosive Shells] By Ramp"
+          },
+          {
+            "ref": "3-4b/By Exit Portal/Blue Health",
+            "name": "[Blue Health] By Exit Portal"
+          },
+          {
+            "ref": "3-4b/Enemy on First Bridge Watchtower/Gunner",
+            "name": "[Gunner] Enemy on First Bridge Watchtower"
+          },
+          {
+            "ref": "3-4b/Enemy on Bridge/Juggernaut",
+            "name": "[Juggernaut] Enemy on Bridge"
+          },
+          {
+            "ref": "3-4b/Enemy on Second Bridge Watchtower/Gunner",
+            "name": "[Gunner] Enemy on Second Bridge Watchtower"
+          },
+          {
+            "ref": "3-4b/Enemy After Bridge/Juggernaut",
+            "name": "[Juggernaut] Enemy After Bridge"
+          },
+          {
+            "ref": "3-4b/Enemy After Bridge/Wasp Spawned From Destroying Nest",
+            "name": "[Wasp Spawned From Destroying Nest] Enemy After Bridge"
+          },
+          {
+            "ref": "3-4b/Enemy Ambush/Juggernaut",
+            "name": "[Juggernaut] Enemy Ambush"
+          },
+          {
+            "ref": "3-4b/Enemy by Checkpoint/Gunner",
+            "name": "[Gunner] Enemy by Checkpoint"
+          },
+          {
+            "ref": "3-4b/Enemy by Checkpoint/Juggernaut",
+            "name": "[Juggernaut] Enemy by Checkpoint"
           }
         ],
         "map_locations": [
