@@ -8,11 +8,679 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Left From Start",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Tek Arrows",
+                        "chest_unopened_img": "images/items/ammo/tek_arrows.png",
+                        "chest_opened_img": "images/items/ammo/tek_arrows_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66000"
+                        ]
+                    },
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|66001|66002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Start Right Trail",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 11,
+                        "visibility_rules": [
+                            "$id_exists|66004|66005|66006|66007|66008|66009|66010|66011|66012|66013|66014"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Start Right Alcove",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66015"
+                        ]
+                    },
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|66016|66017|66018"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Cells",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|66019|66020|66021|66022|66023"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Bush",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66024"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Below Ladder",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|66025|66026|66027"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Trail up Wall",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 10,
+                        "visibility_rules": [
+                            "$id_exists|66028|66029|66030|66031|66032|66033|66034|66035|66036|66037"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Behind Wall",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66038"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Behind Wall",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|66039|66040|66041|66042"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Ledge by Wall",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|66043|66044"
+                        ]
+                    },
+                    {
+                        "name": "Box of Grenades",
+                        "chest_unopened_img": "images/items/ammo/box_of_grenades.png",
+                        "chest_opened_img": "images/items/ammo/box_of_grenades_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66045"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Bush Before Cell",
+                "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Bush by Exit Portal",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Above Cell",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|66048|66049|66050"
+                        ]
+                    },
+                    {
+                        "name": "Ultra Health",
+                        "chest_unopened_img": "images/items/health/ultra_health.png",
+                        "chest_opened_img": "images/items/health/ultra_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Cell",
+                "chest_unopened_img": "images/items/mission/l3_satchel_charge.png",
+                "chest_opened_img": "images/items/mission/l3_satchel_charge_bw.png",
+                "sections": [
+                    {
+                        "name": "Satchel Charge",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66052"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Broken Wall",
+                "chest_unopened_img": "images/items/talismans/level_3_eagle_feather.png",
+                "chest_opened_img": "images/items/talismans/level_3_eagle_feather_bw.png",
+                "sections": [
+                    {
+                        "name": "Eagle Feather",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66053"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Wall",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|66054|66055|66056"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Broken Wall Steps",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|66057|66058|66059"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Right Cell",
+                "chest_unopened_img": "images/interactables/prisoner.png",
+                "chest_opened_img": "images/interactables/prisoner_bw.png",
+                "sections": [
+                    {
+                        "name": "Rescue Prisoner",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66060"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Left Cell",
+                "chest_unopened_img": "images/interactables/prisoner.png",
+                "chest_opened_img": "images/interactables/prisoner_bw.png",
+                "sections": [
+                    {
+                        "name": "Rescue Prisoner",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66061"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Cell",
+                "chest_unopened_img": "images/interactables/prisoner.png",
+                "chest_opened_img": "images/interactables/prisoner_bw.png",
+                "sections": [
+                    {
+                        "name": "Rescue Prisoner",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66062"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Broken Wall",
+                "chest_unopened_img": "images/interactables/switch_portal.png",
+                "chest_opened_img": "images/interactables/switch_portal_bw.png",
+                "sections": [
+                    {
+                        "name": "Talisman Portal Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66063"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Talisman",
+                "chest_unopened_img": "images/items/talismans/breath_of_life.png",
+                "chest_opened_img": "images/items/talismans/breath_of_life_bw.png",
+                "access_rules": [
+                    "level_3_eagle_feather"
+                ],
+                "sections": [
+                    {
+                        "name": "Breath of Life",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|74000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Between Cells",
+                "sections": [
+                    {
+                        "name": "War Club",
+                        "chest_unopened_img": "images/enemies/war_club.png",
+                        "chest_opened_img": "images/enemies/war_club_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66064"
+                        ]
+                    },
+                    {
+                        "name": "Juggernaut",
+                        "chest_unopened_img": "images/enemies/juggernaut.png",
+                        "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66065"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Behind Left Cell",
+                "sections": [
+                    {
+                        "name": "Gunner",
+                        "chest_unopened_img": "images/enemies/gunner.png",
+                        "chest_opened_img": "images/enemies/gunner_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66066"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Cells",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66067"
+                        ]
+                    },
+                    {
+                        "name": "War Club",
+                        "chest_unopened_img": "images/enemies/war_club.png",
+                        "chest_opened_img": "images/enemies/war_club_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66068"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy From Destroying Wasp Nest",
+                "chest_unopened_img": "images/enemies/wasp.png",
+                "chest_opened_img": "images/enemies/wasp_bw.png",
+                "sections": [
+                    {
+                        "name": "Wasp",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|66069|66070"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Cell",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66071"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Cell",
+                "chest_unopened_img": "images/enemies/war_club.png",
+                "chest_opened_img": "images/enemies/war_club_bw.png",
+                "sections": [
+                    {
+                        "name": "War Club",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|66072|66073|66074"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Exit Portal",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|66075|66076"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Wall Spawned From Standing Here",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|66077|66078"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

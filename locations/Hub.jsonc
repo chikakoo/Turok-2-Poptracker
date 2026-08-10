@@ -5248,8 +5248,148 @@
         "name": "3-6",
         "sections": [
           {
-            "ref": "3-6/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-6/Left From Start/Tek Arrows",
+            "name": "[Tek Arrows] Left From Start"
+          },
+          {
+            "ref": "3-6/Left From Start/LF1",
+            "name": "[LF1] Left From Start"
+          },
+          {
+            "ref": "3-6/Start Right Trail/LF1",
+            "name": "[LF1] Start Right Trail"
+          },
+          {
+            "ref": "3-6/Start Right Alcove/Box of Bullets",
+            "name": "[Box of Bullets] Start Right Alcove"
+          },
+          {
+            "ref": "3-6/Start Right Alcove/LF1",
+            "name": "[LF1] Start Right Alcove"
+          },
+          {
+            "ref": "3-6/By Cells/LF1",
+            "name": "[LF1] By Cells"
+          },
+          {
+            "ref": "3-6/In Bush/Box of Bullets",
+            "name": "[Box of Bullets] In Bush"
+          },
+          {
+            "ref": "3-6/Below Ladder/LF1",
+            "name": "[LF1] Below Ladder"
+          },
+          {
+            "ref": "3-6/Trail up Wall/LF1",
+            "name": "[LF1] Trail up Wall"
+          },
+          {
+            "ref": "3-6/Right Behind Wall/Blue Health",
+            "name": "[Blue Health] Right Behind Wall"
+          },
+          {
+            "ref": "3-6/Left Behind Wall/LF1",
+            "name": "[LF1] Left Behind Wall"
+          },
+          {
+            "ref": "3-6/Ledge by Wall/LF10",
+            "name": "[LF10] Ledge by Wall"
+          },
+          {
+            "ref": "3-6/Ledge by Wall/Box of Grenades",
+            "name": "[Box of Grenades] Ledge by Wall"
+          },
+          {
+            "ref": "3-6/In Bush Before Cell/Explosive Shells",
+            "name": "[Explosive Shells] In Bush Before Cell"
+          },
+          {
+            "ref": "3-6/In Bush by Exit Portal/Blue Health",
+            "name": "[Blue Health] In Bush by Exit Portal"
+          },
+          {
+            "ref": "3-6/Above Cell/LF10",
+            "name": "[LF10] Above Cell"
+          },
+          {
+            "ref": "3-6/Above Cell/Ultra Health",
+            "name": "[Ultra Health] Above Cell"
+          },
+          {
+            "ref": "3-6/On Cell/Satchel Charge",
+            "name": "[Satchel Charge] On Cell"
+          },
+          {
+            "ref": "3-6/On Broken Wall/Eagle Feather",
+            "name": "[Eagle Feather] On Broken Wall"
+          },
+          {
+            "ref": "3-6/On Wall/LF1",
+            "name": "[LF1] On Wall"
+          },
+          {
+            "ref": "3-6/On Broken Wall Steps/LF1",
+            "name": "[LF1] On Broken Wall Steps"
+          },
+          {
+            "ref": "3-6/In Right Cell/Rescue Prisoner",
+            "name": "[Rescue Prisoner] In Right Cell"
+          },
+          {
+            "ref": "3-6/In Left Cell/Rescue Prisoner",
+            "name": "[Rescue Prisoner] In Left Cell"
+          },
+          {
+            "ref": "3-6/In Cell/Rescue Prisoner",
+            "name": "[Rescue Prisoner] In Cell"
+          },
+          {
+            "ref": "3-6/Up Broken Wall/Talisman Portal Switch",
+            "name": "[Talisman Portal Switch] Up Broken Wall"
+          },
+          {
+            "ref": "3-6/Talisman/Breath of Life",
+            "name": "[Breath of Life] Talisman"
+          },
+          {
+            "ref": "3-6/Enemy Between Cells/War Club",
+            "name": "[War Club] Enemy Between Cells"
+          },
+          {
+            "ref": "3-6/Enemy Between Cells/Juggernaut",
+            "name": "[Juggernaut] Enemy Between Cells"
+          },
+          {
+            "ref": "3-6/Enemy Behind Left Cell/Gunner",
+            "name": "[Gunner] Enemy Behind Left Cell"
+          },
+          {
+            "ref": "3-6/Enemy After Cells/Endtrail",
+            "name": "[Endtrail] Enemy After Cells"
+          },
+          {
+            "ref": "3-6/Enemy After Cells/War Club",
+            "name": "[War Club] Enemy After Cells"
+          },
+          {
+            "ref": "3-6/Enemy From Destroying Wasp Nest/Wasp",
+            "name": "[Wasp] Enemy From Destroying Wasp Nest"
+          },
+          {
+            "ref": "3-6/Enemy Before Cell/Endtrail",
+            "name": "[Endtrail] Enemy Before Cell"
+          },
+          {
+            "ref": "3-6/Enemy by Cell/War Club",
+            "name": "[War Club] Enemy by Cell"
+          },
+          {
+            "ref": "3-6/Enemy by Exit Portal/Endtrail",
+            "name": "[Endtrail] Enemy by Exit Portal"
+          },
+          {
+            "ref": "3-6/Enemy on Wall Spawned From Standing Here/Endtrail",
+            "name": "[Endtrail] Enemy on Wall Spawned From Standing Here"
           }
         ],
         "map_locations": [
