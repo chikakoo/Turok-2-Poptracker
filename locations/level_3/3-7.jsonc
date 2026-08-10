@@ -8,11 +8,455 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Start",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|67000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Wall",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|67001|67002|67003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Ammo Storage",
+                "chest_unopened_img": "images/items/ammo/quiver_of_arrows.png",
+                "chest_opened_img": "images/items/ammo/quiver_of_arrows_bw.png",
+                "sections": [
+                    {
+                        "name": "Quiver",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|67004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Jumpable Eye of Truth Bridge",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|67005|67006|67007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Start",
+                "sections": [
+                    {
+                        "name": "Juggernaut",
+                        "chest_unopened_img": "images/enemies/juggernaut.png",
+                        "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|67031"
+                        ]
+                    },
+                    {
+                        "name": "War Club",
+                        "chest_unopened_img": "images/enemies/war_club.png",
+                        "chest_opened_img": "images/enemies/war_club_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|67032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-7",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy From Destroying Wasp Nest",
+                "chest_unopened_img": "images/enemies/wasp.png",
+                "chest_opened_img": "images/enemies/wasp_bw.png",
+                "sections": [
+                    {
+                        "name": "Wasp",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|67033|67034"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-7",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Building",
+                "chest_unopened_img": "images/enemies/gunner.png",
+                "chest_opened_img": "images/enemies/gunner_bw.png",
+                "sections": [
+                    {
+                        "name": "Gunner",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|67035"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-7",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Across Eye Bridge",
+                "access_rules": [
+                    "eye_of_truth",
+                    "[level_3_eye_of_truth_skip]"
+                ],
+                "children": [
+                    {
+                        "name": "On Eye of Truth Bridge",
+                        "sections": [
+                            {
+                                "name": "Silver Health",
+                                "chest_unopened_img": "images/items/health/silver_health.png",
+                                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                                "item_count": 6,
+                                "visibility_rules": [
+                                    "$id_exists|67008|67009|67010|67011|67012|67013"
+                                ]
+                            },
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67014"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Below Cells",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67015"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Right Cell",
+                        "sections": [
+                            {
+                                "name": "Firestorm Cannon",
+                                "chest_unopened_img": "images/items/weapons_small/firestorm_cannon.png",
+                                "chest_opened_img": "images/items/weapons_small/firestorm_cannon_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67016"
+                                ]
+                            },
+                            {
+                                "name": "Flame Thrower",
+                                "chest_unopened_img": "images/items/weapons_small/flame_thrower.png",
+                                "chest_opened_img": "images/items/weapons_small/flame_thrower_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67017"
+                                ]
+                            },
+                            {
+                                "name": "Charge Dart Rifle",
+                                "chest_unopened_img": "images/items/weapons_small/charge_dart_rifle.png",
+                                "chest_opened_img": "images/items/weapons_small/charge_dart_rifle_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67018"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Left Cell",
+                        "sections": [
+                            {
+                                "name": "P.F.M. Layer",
+                                "chest_unopened_img": "images/items/weapons_small/pfm_layer.png",
+                                "chest_opened_img": "images/items/weapons_small/pfm_layer_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67019"
+                                ]
+                            },
+                            {
+                                "name": "Grenade Launcher",
+                                "chest_unopened_img": "images/items/weapons_small/grenade_launcher.png",
+                                "chest_opened_img": "images/items/weapons_small/grenade_launcher_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67020"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Cage",
+                        "chest_unopened_img": "images/items/health/full_health.png",
+                        "chest_opened_img": "images/items/health/full_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Full Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67021"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "On Wall",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67022"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Behind Wall",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67023"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Swamp Logs",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 6,
+                                "visibility_rules": [
+                                    "$id_exists|67024|67025|67026|67027|67028|67029"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Dead End Cage",
+                        "chest_unopened_img": "images/items/weapons_small/scorpion_launcher.png",
+                        "chest_opened_img": "images/items/weapons_small/scorpion_launcher_bw.png",
+                        "sections": [
+                            {
+                                "name": "Scorpion Launcher",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67030"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Cells",
+                        "chest_unopened_img": "images/enemies/gunner.png",
+                        "chest_opened_img": "images/enemies/gunner_bw.png",
+                        "sections": [
+                            {
+                                "name": "Gunner",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67036"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-7",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Wall",
+                        "chest_unopened_img": "images/enemies/gunner.png",
+                        "chest_opened_img": "images/enemies/gunner_bw.png",
+                        "sections": [
+                            {
+                                "name": "Gunner",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67037"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-7",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Dead End Cage",
+                        "chest_unopened_img": "images/enemies/gunner.png",
+                        "chest_opened_img": "images/enemies/gunner_bw.png",
+                        "sections": [
+                            {
+                                "name": "Gunner",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|67038"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-7",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }

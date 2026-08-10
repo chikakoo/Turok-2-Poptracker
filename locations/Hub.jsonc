@@ -5404,8 +5404,100 @@
         "name": "3-7",
         "sections": [
           {
-            "ref": "3-7/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "3-7/At Start/Box of Bullets",
+            "name": "[Box of Bullets] At Start"
+          },
+          {
+            "ref": "3-7/On Wall/LF1",
+            "name": "[LF1] On Wall"
+          },
+          {
+            "ref": "3-7/By Ammo Storage/Quiver",
+            "name": "[Quiver] By Ammo Storage"
+          },
+          {
+            "ref": "3-7/On Jumpable Eye of Truth Bridge/Silver Health",
+            "name": "[Silver Health] On Jumpable Eye of Truth Bridge"
+          },
+          {
+            "ref": "3-7/Enemy at Start/Juggernaut",
+            "name": "[Juggernaut] Enemy at Start"
+          },
+          {
+            "ref": "3-7/Enemy at Start/War Club",
+            "name": "[War Club] Enemy at Start"
+          },
+          {
+            "ref": "3-7/Enemy From Destroying Wasp Nest/Wasp",
+            "name": "[Wasp] Enemy From Destroying Wasp Nest"
+          },
+          {
+            "ref": "3-7/Enemy in Building/Gunner",
+            "name": "[Gunner] Enemy in Building"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/On Eye of Truth Bridge/Silver Health",
+            "name": "[Silver Health] Across Eye Bridge/On Eye of Truth Bridge"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/On Eye of Truth Bridge/LF10",
+            "name": "[LF10] Across Eye Bridge/On Eye of Truth Bridge"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/Below Cells/LF10",
+            "name": "[LF10] Across Eye Bridge/Below Cells"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/In Right Cell/Firestorm Cannon",
+            "name": "[Firestorm Cannon] Across Eye Bridge/In Right Cell"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/In Right Cell/Flame Thrower",
+            "name": "[Flame Thrower] Across Eye Bridge/In Right Cell"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/In Right Cell/Charge Dart Rifle",
+            "name": "[Charge Dart Rifle] Across Eye Bridge/In Right Cell"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/In Left Cell/P.F.M. Layer",
+            "name": "[P.F.M. Layer] Across Eye Bridge/In Left Cell"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/In Left Cell/Grenade Launcher",
+            "name": "[Grenade Launcher] Across Eye Bridge/In Left Cell"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/In Cage/Full Health",
+            "name": "[Full Health] Across Eye Bridge/In Cage"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/On Wall/LF10",
+            "name": "[LF10] Across Eye Bridge/On Wall"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/Behind Wall/LF10",
+            "name": "[LF10] Across Eye Bridge/Behind Wall"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/After Swamp Logs/LF1",
+            "name": "[LF1] Across Eye Bridge/After Swamp Logs"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/In Dead End Cage/Scorpion Launcher",
+            "name": "[Scorpion Launcher] Across Eye Bridge/In Dead End Cage"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/Enemy by Cells/Gunner",
+            "name": "[Gunner] Across Eye Bridge/Enemy by Cells"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/Enemy on Wall/Gunner",
+            "name": "[Gunner] Across Eye Bridge/Enemy on Wall"
+          },
+          {
+            "ref": "3-7/Across Eye Bridge/Enemy by Dead End Cage/Gunner",
+            "name": "[Gunner] Across Eye Bridge/Enemy by Dead End Cage"
           }
         ],
         "map_locations": [

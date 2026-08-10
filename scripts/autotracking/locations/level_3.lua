@@ -554,7 +554,45 @@ LOCATIONS_3_6 = {
 }
 
 LOCATIONS_3_7 = {
-
+    [67000] = {"@3-7/At Start/Box of Bullets"},
+    [67001] = {"@3-7/On Wall/LF1"},
+    [67002] = {"@3-7/On Wall/LF1"},
+    [67003] = {"@3-7/On Wall/LF1"},
+    [67004] = {"@3-7/By Ammo Storage/Quiver"},
+    [67005] = {"@3-7/On Jumpable Eye of Truth Bridge/Silver Health"},
+    [67006] = {"@3-7/On Jumpable Eye of Truth Bridge/Silver Health"},
+    [67007] = {"@3-7/On Jumpable Eye of Truth Bridge/Silver Health"},
+    [67008] = {"@3-7/Across Eye Bridge/On Eye of Truth Bridge/Silver Health"},
+    [67009] = {"@3-7/Across Eye Bridge/On Eye of Truth Bridge/Silver Health"},
+    [67010] = {"@3-7/Across Eye Bridge/On Eye of Truth Bridge/Silver Health"},
+    [67011] = {"@3-7/Across Eye Bridge/On Eye of Truth Bridge/Silver Health"},
+    [67012] = {"@3-7/Across Eye Bridge/On Eye of Truth Bridge/Silver Health"},
+    [67013] = {"@3-7/Across Eye Bridge/On Eye of Truth Bridge/Silver Health"},
+    [67014] = {"@3-7/Across Eye Bridge/On Eye of Truth Bridge/LF10"},
+    [67015] = {"@3-7/Across Eye Bridge/Below Cells/LF10"},
+    [67016] = {"@3-7/Across Eye Bridge/In Right Cell/Firestorm Cannon"},
+    [67017] = {"@3-7/Across Eye Bridge/In Right Cell/Flame Thrower"},
+    [67018] = {"@3-7/Across Eye Bridge/In Right Cell/Charge Dart Rifle"},
+    [67019] = {"@3-7/Across Eye Bridge/In Left Cell/P.F.M. Layer"},
+    [67020] = {"@3-7/Across Eye Bridge/In Left Cell/Grenade Launcher"},
+    [67021] = {"@3-7/Across Eye Bridge/In Cage/Full Health"},
+    [67022] = {"@3-7/Across Eye Bridge/On Wall/LF10"},
+    [67023] = {"@3-7/Across Eye Bridge/Behind Wall/LF10"},
+    [67024] = {"@3-7/Across Eye Bridge/After Swamp Logs/LF1"},
+    [67025] = {"@3-7/Across Eye Bridge/After Swamp Logs/LF1"},
+    [67026] = {"@3-7/Across Eye Bridge/After Swamp Logs/LF1"},
+    [67027] = {"@3-7/Across Eye Bridge/After Swamp Logs/LF1"},
+    [67028] = {"@3-7/Across Eye Bridge/After Swamp Logs/LF1"},
+    [67029] = {"@3-7/Across Eye Bridge/After Swamp Logs/LF1"},
+    [67030] = {"@3-7/Across Eye Bridge/In Dead End Cage/Scorpion Launcher"},
+    [67031] = {"@3-7/Enemy at Start/Juggernaut"},
+    [67032] = {"@3-7/Enemy at Start/War Club"},
+    [67033] = {"@3-7/Enemy From Destroying Wasp Nest/Wasp"},
+    [67034] = {"@3-7/Enemy From Destroying Wasp Nest/Wasp"},
+    [67035] = {"@3-7/Enemy in Building/Gunner"},
+    [67036] = {"@3-7/Across Eye Bridge/Enemy by Cells/Gunner"},
+    [67037] = {"@3-7/Across Eye Bridge/Enemy on Wall/Gunner"},
+    [67038] = {"@3-7/Across Eye Bridge/Enemy by Dead End Cage/Gunner"}
 }
 
 LOCATIONS_3_A3 = {
