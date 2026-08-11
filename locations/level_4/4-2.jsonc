@@ -8,11 +8,1018 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Start",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|99000|99001|99002|99003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Room Before Water",
+                "sections": [
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99004"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Left Ledge",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Trail",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|99007|99008|99009"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Water Start",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Water Middle",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Water Back",
+                "chest_unopened_img": "images/items/weapons_small/harpoon_gun.png",
+                "chest_opened_img": "images/items/weapons_small/harpoon_gun_bw.png",
+                "sections": [
+                    {
+                        "name": "Harpoon Gun",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99012"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Tunnel",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|99013|99014"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Log Bridge",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|99015|99016|99017"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Wall",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|99018|99019|99020"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Wall",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Corner Behind Trees",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99022"
+                        ]
+                    },
+                    {
+                        "name": "Clip",
+                        "chest_unopened_img": "images/items/ammo/clip.png",
+                        "chest_opened_img": "images/items/ammo/clip_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99023"
+                        ]
+                    },
+                    {
+                        "name": "Plasma Rounds",
+                        "chest_unopened_img": "images/items/ammo/plasma_rounds.png",
+                        "chest_opened_img": "images/items/ammo/plasma_rounds_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99024"
+                        ]
+                    },
+                    {
+                        "name": "Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99025"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Spider Caves",
+                "sections": [
+                    {
+                        "name": "Tranquilizer",
+                        "chest_unopened_img": "images/items/weapons_small/tranquilizer_gun.png",
+                        "chest_opened_img": "images/items/weapons_small/tranquilizer_gun_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99026"
+                        ]
+                    },
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|99027|99028"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Climbable Ledge",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99029"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Water",
+                "sections": [
+                    {
+                        "name": "Tek Arrows",
+                        "chest_unopened_img": "images/items/ammo/tek_arrows.png",
+                        "chest_opened_img": "images/items/ammo/tek_arrows_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99030"
+                        ]
+                    },
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|99031|99032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Ledge Start Right",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99033"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Ledge End Right",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99034"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Ledge Before Talisman Portal",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99035"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Water Corner",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99036"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Water by Wall",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|99037|99038|99039"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Water Before Ramp",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99040"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Water on Ramp",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|99041|99042|99043|99044|99045"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Land",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|99046|99047|99048|99049"
+                        ]
+                    },
+                    {
+                        "name": "Shredder",
+                        "chest_unopened_img": "images/items/weapons_small/shredder.png",
+                        "chest_opened_img": "images/items/weapons_small/shredder_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Exit Drop",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Talisman",
+                "chest_unopened_img": "images/items/talismans/heart_of_fire.png",
+                "chest_opened_img": "images/items/talismans/heart_of_fire_bw.png",
+                "access_rules": [
+                    "level_4_eagle_feather"
+                ],
+                "sections": [
+                    {
+                        "name": "Heart of Fire",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|75000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Water Cave",
+                "chest_unopened_img": "images/interactables/switch_portal.png",
+                "chest_opened_img": "images/interactables/switch_portal_bw.png",
+                "sections": [
+                    {
+                        "name": "Talisman Portal Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99058"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Switch on Land",
+                "chest_unopened_img": "images/interactables/switch_wooden.png",
+                "chest_opened_img": "images/interactables/switch_wooden_bw.png",
+                "sections": [
+                    {
+                        "name": "Wooden Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99059"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Water",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99060"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Water",
+                "chest_unopened_img": "images/enemies/leaper.png",
+                "chest_opened_img": "images/enemies/leaper_bw.png",
+                "sections": [
+                    {
+                        "name": "Leaper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99061"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Upper Path",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99062"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Pit Room Start",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99063"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Climbable Wall",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99064"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Pit Room",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99065"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Drop",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99066"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in First Spider Cave",
+                "chest_unopened_img": "images/enemies/spider.png",
+                "chest_opened_img": "images/enemies/spider_bw.png",
+                "sections": [
+                    {
+                        "name": "Spider",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99067"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Second Spider Cave",
+                "sections": [
+                    {
+                        "name": "Spider",
+                        "chest_unopened_img": "images/enemies/spider.png",
+                        "chest_opened_img": "images/enemies/spider_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99068"
+                        ]
+                    },
+                    {
+                        "name": "Raptoid",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99069"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Spider Caves",
+                "chest_unopened_img": "images/enemies/sentinel.png",
+                "chest_opened_img": "images/enemies/sentinel_bw.png",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99070"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Water Ledges",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99071"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Water Ledges",
+                "chest_unopened_img": "images/enemies/sentinel.png",
+                "chest_opened_img": "images/enemies/sentinel_bw.png",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|99072|99073"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Standing Here",
+                "sections": [
+                    {
+                        "name": "Leaper in Second Water Room",
+                        "chest_unopened_img": "images/enemies/leaper.png",
+                        "chest_opened_img": "images/enemies/leaper_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99074"
+                        ]
+                    },
+                    {
+                        "name": "Endtrail in Second Water Room",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99075"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Climbable Wall",
+                "chest_unopened_img": "images/enemies/cave_worm.png",
+                "chest_opened_img": "images/enemies/cave_worm_bw.png",
+                "sections": [
+                    {
+                        "name": "Cave Worm",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99076"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Exit Drop",
+                "chest_unopened_img": "images/enemies/spider.png",
+                "chest_opened_img": "images/enemies/spider_bw.png",
+                "sections": [
+                    {
+                        "name": "Spider",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|99077"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-2",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Return Room",
+                "access_rules": [
+                    "$map_access|4|2|start"
+                ],
+                "children": [
+                    {
+                        "name": "In Return Room",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Silver Health",
+                                "item_count": 6,
+                                "visibility_rules": [
+                                    "$id_exists|99052|99053|99054|99055|99056|99057"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-2",
+                                "x": 50,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy After Return Room",
+                        "chest_unopened_img": "images/enemies/guardian.png",
+                        "chest_opened_img": "images/enemies/guardian_bw.png",
+                        "sections": [
+                            {
+                                "name": "Guardian",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|99078"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-2",
+                                "shape": "diamond",
+                                "x": 25,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }

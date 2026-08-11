@@ -5772,8 +5772,216 @@
         "name": "4-2",
         "sections": [
           {
-            "ref": "4-2/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-2/At Start/LF1",
+            "name": "[LF1] At Start"
+          },
+          {
+            "ref": "4-2/Room Before Water/Box of Shells",
+            "name": "[Box of Shells] Room Before Water"
+          },
+          {
+            "ref": "4-2/Room Before Water/Box of Bullets",
+            "name": "[Box of Bullets] Room Before Water"
+          },
+          {
+            "ref": "4-2/On Left Ledge/Full Health",
+            "name": "[Full Health] On Left Ledge"
+          },
+          {
+            "ref": "4-2/Right Trail/LF1",
+            "name": "[LF1] Right Trail"
+          },
+          {
+            "ref": "4-2/In Water Start/Clip",
+            "name": "[Clip] In Water Start"
+          },
+          {
+            "ref": "4-2/In Water Middle/Clip",
+            "name": "[Clip] In Water Middle"
+          },
+          {
+            "ref": "4-2/In Water Back/Harpoon Gun",
+            "name": "[Harpoon Gun] In Water Back"
+          },
+          {
+            "ref": "4-2/Water Tunnel/LF1",
+            "name": "[LF1] Water Tunnel"
+          },
+          {
+            "ref": "4-2/On Log Bridge/Silver Health",
+            "name": "[Silver Health] On Log Bridge"
+          },
+          {
+            "ref": "4-2/On Wall/LF1",
+            "name": "[LF1] On Wall"
+          },
+          {
+            "ref": "4-2/Up Wall/Shells",
+            "name": "[Shells] Up Wall"
+          },
+          {
+            "ref": "4-2/In Corner Behind Trees/Blue Health",
+            "name": "[Blue Health] In Corner Behind Trees"
+          },
+          {
+            "ref": "4-2/In Corner Behind Trees/Clip",
+            "name": "[Clip] In Corner Behind Trees"
+          },
+          {
+            "ref": "4-2/In Corner Behind Trees/Plasma Rounds",
+            "name": "[Plasma Rounds] In Corner Behind Trees"
+          },
+          {
+            "ref": "4-2/In Corner Behind Trees/Shells",
+            "name": "[Shells] In Corner Behind Trees"
+          },
+          {
+            "ref": "4-2/After Spider Caves/Tranquilizer",
+            "name": "[Tranquilizer] After Spider Caves"
+          },
+          {
+            "ref": "4-2/After Spider Caves/LF1",
+            "name": "[LF1] After Spider Caves"
+          },
+          {
+            "ref": "4-2/On Climbable Ledge/Full Health",
+            "name": "[Full Health] On Climbable Ledge"
+          },
+          {
+            "ref": "4-2/Before Water/Tek Arrows",
+            "name": "[Tek Arrows] Before Water"
+          },
+          {
+            "ref": "4-2/Before Water/LF1",
+            "name": "[LF1] Before Water"
+          },
+          {
+            "ref": "4-2/Ledge Start Right/Blue Health",
+            "name": "[Blue Health] Ledge Start Right"
+          },
+          {
+            "ref": "4-2/Ledge End Right/Shells",
+            "name": "[Shells] Ledge End Right"
+          },
+          {
+            "ref": "4-2/Ledge Before Talisman Portal/Clip",
+            "name": "[Clip] Ledge Before Talisman Portal"
+          },
+          {
+            "ref": "4-2/In Water Corner/Clip",
+            "name": "[Clip] In Water Corner"
+          },
+          {
+            "ref": "4-2/In Water by Wall/Silver Health",
+            "name": "[Silver Health] In Water by Wall"
+          },
+          {
+            "ref": "4-2/In Water Before Ramp/Shells",
+            "name": "[Shells] In Water Before Ramp"
+          },
+          {
+            "ref": "4-2/In Water on Ramp/LF1",
+            "name": "[LF1] In Water on Ramp"
+          },
+          {
+            "ref": "4-2/On Land/Blue Health",
+            "name": "[Blue Health] On Land"
+          },
+          {
+            "ref": "4-2/On Land/Shredder",
+            "name": "[Shredder] On Land"
+          },
+          {
+            "ref": "4-2/By Exit Drop/LF1",
+            "name": "[LF1] By Exit Drop"
+          },
+          {
+            "ref": "4-2/Talisman/Heart of Fire",
+            "name": "[Heart of Fire] Talisman"
+          },
+          {
+            "ref": "4-2/In Water Cave/Talisman Portal Switch",
+            "name": "[Talisman Portal Switch] In Water Cave"
+          },
+          {
+            "ref": "4-2/Switch on Land/Wooden Switch",
+            "name": "[Wooden Switch] Switch on Land"
+          },
+          {
+            "ref": "4-2/Enemy Before Water/Endtrail",
+            "name": "[Endtrail] Enemy Before Water"
+          },
+          {
+            "ref": "4-2/Enemy in Water/Leaper",
+            "name": "[Leaper] Enemy in Water"
+          },
+          {
+            "ref": "4-2/Enemy in Upper Path/Raptoid",
+            "name": "[Raptoid] Enemy in Upper Path"
+          },
+          {
+            "ref": "4-2/Enemy in Pit Room Start/Endtrail",
+            "name": "[Endtrail] Enemy in Pit Room Start"
+          },
+          {
+            "ref": "4-2/Enemy by Climbable Wall/Endtrail",
+            "name": "[Endtrail] Enemy by Climbable Wall"
+          },
+          {
+            "ref": "4-2/Enemy After Pit Room/Endtrail",
+            "name": "[Endtrail] Enemy After Pit Room"
+          },
+          {
+            "ref": "4-2/Enemy After Drop/Endtrail",
+            "name": "[Endtrail] Enemy After Drop"
+          },
+          {
+            "ref": "4-2/Enemy in First Spider Cave/Spider",
+            "name": "[Spider] Enemy in First Spider Cave"
+          },
+          {
+            "ref": "4-2/Enemy in Second Spider Cave/Spider",
+            "name": "[Spider] Enemy in Second Spider Cave"
+          },
+          {
+            "ref": "4-2/Enemy in Second Spider Cave/Raptoid",
+            "name": "[Raptoid] Enemy in Second Spider Cave"
+          },
+          {
+            "ref": "4-2/Enemy After Spider Caves/Sentinel",
+            "name": "[Sentinel] Enemy After Spider Caves"
+          },
+          {
+            "ref": "4-2/Enemy Before Water Ledges/Raptoid",
+            "name": "[Raptoid] Enemy Before Water Ledges"
+          },
+          {
+            "ref": "4-2/Enemy on Water Ledges/Sentinel",
+            "name": "[Sentinel] Enemy on Water Ledges"
+          },
+          {
+            "ref": "4-2/Enemy Spawned From Standing Here/Leaper in Second Water Room",
+            "name": "[Leaper in Second Water Room] Enemy Spawned From Standing Here"
+          },
+          {
+            "ref": "4-2/Enemy Spawned From Standing Here/Endtrail in Second Water Room",
+            "name": "[Endtrail in Second Water Room] Enemy Spawned From Standing Here"
+          },
+          {
+            "ref": "4-2/Enemy After Climbable Wall/Cave Worm",
+            "name": "[Cave Worm] Enemy After Climbable Wall"
+          },
+          {
+            "ref": "4-2/Enemy by Exit Drop/Spider",
+            "name": "[Spider] Enemy by Exit Drop"
+          },
+          {
+            "ref": "4-2/Return Room/In Return Room/Silver Health",
+            "name": "[Silver Health] Return Room/In Return Room"
+          },
+          {
+            "ref": "4-2/Return Room/Enemy After Return Room/Guardian",
+            "name": "[Guardian] Return Room/Enemy After Return Room"
           }
         ],
         "map_locations": [
