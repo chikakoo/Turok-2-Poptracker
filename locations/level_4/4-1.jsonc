@@ -604,7 +604,7 @@
                         "chest_unopened_img": "images/interactables/cave_door.png",
                         "chest_opened_img": "images/interactables/cave_door_bw.png",
                         "access_rules": [
-                            "^$can_enter_cave_door|1|7"
+                            "^$can_enter_cave_door_on_4_1"
                         ],
                         "sections": [
                             {
@@ -726,7 +726,7 @@
             {
                 "name": "Cave Door",
                 "access_rules": [
-                    "whispers,^$can_enter_cave_door|1|7|1"
+                    "whispers,^$can_enter_cave_door_on_4_1"
                 ],
                 "children": [
                     {

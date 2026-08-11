@@ -204,34 +204,31 @@ function has_unused_cave_door_key()
     return true --Tracker:ProviderCountForCode("cave_door_key") - Tracker:ProviderCountForCode("cave_door_key_used") > 0
 end
 
----TODO: this is what we need to use, not the above function...
----Returns whether the cave door can be entered or opened. Handles whether door has been opened already.
----@param cave_door_name string indicating the location name of the cave door being checked
+---Returns whether the 4-1 cave door can be entered or opened.
+function can_enter_cave_door_on_4_1()
+    return can_enter_cave_door(1, 7, "@4-1/Whispers/Whispers Drop/Unlock Cave Door")
+end
+
+---Returns whether the 4-3 cave door can be entered or opened.
+function can_enter_cave_door_on_4_3()
+    return can_enter_cave_door(1, 2, "@4-3/Cave Door/Unlock Cave Door")
+end
+
+--TODO: add locations for...
+-- 4-V1
+-- 4-6a
+-- 4-8a
+-- 4-V3 (1)
+-- 4-V3 (2)
+
+---Returns whether the cave door can be entered or opened.
+---Also handles whether door has been opened already.
 ---@param max_keys number of keys to consider the door always able to be opened
 ---@param min_keys number of keys to consider the door to be openable, but not in logic
-function can_enter_cave_door(min_keys, max_keys, cave_door_number)
-    ---TODO: add the other locations
-    local cave_door_locations = {
-        "@4-1/Whispers/Whispers Drop/Unlock Cave Door",
-        "@4-3/Cave Door/Unlock Cave Door"
-        -- 4-V1
-        -- 4-6a
-        -- 4-8a
-        -- 4-V3 (1)
-        -- 4-V3 (2)
-    }
-
-    local door_number = cave_door_number and tonumber(cave_door_number)
-    if door_number then
-        local cave_door_location = cave_door_locations[door_number]
-        if cave_door_location == nil then
-            print("Unknown cave door number: " .. tostring(door_number))
-            return AccessibilityLevel.None
-        end
-
-        if Tracker:FindObjectForCode(cave_door_location).AvailableChestCount == 0 then
-            return AccessibilityLevel.Normal
-        end
+---@param cave_door_name string indicating the location name of the cave door being checked
+function can_enter_cave_door(min_keys, max_keys, cave_door_name)
+    if cave_door_name ~= nil and Tracker:FindObjectForCode(cave_door_name).AvailableChestCount == 0 then
+        return AccessibilityLevel.Normal
     end
 
     if has("cave_door_key", max_keys) then

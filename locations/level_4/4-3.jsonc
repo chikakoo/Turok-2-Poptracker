@@ -11,7 +11,7 @@
             {
                 "name": "Cave Door",
                 "access_rules": [
-                    "^$can_enter_cave_door|1|2"
+                    "^$can_enter_cave_door_on_4_3"
                 ],
                 "sections": [
                     {
