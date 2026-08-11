@@ -5596,8 +5596,168 @@
         "name": "4-1",
         "sections": [
           {
-            "ref": "4-1/Whispers Drop/Unlock Cave Door",
-            "name": "[Unlock Cave Door] Whispers Drop"
+            "ref": "4-1/Start Left Corner/Tek Quiver",
+            "name": "[Tek Quiver] Start Left Corner"
+          },
+          {
+            "ref": "4-1/Start Right Corner/Explosive Shells",
+            "name": "[Explosive Shells] Start Right Corner"
+          },
+          {
+            "ref": "4-1/Start Right Corner/Shells",
+            "name": "[Shells] Start Right Corner"
+          },
+          {
+            "ref": "4-1/By Tree Trunk/Clip",
+            "name": "[Clip] By Tree Trunk"
+          },
+          {
+            "ref": "4-1/By Fallen Log/Plasma Pak",
+            "name": "[Plasma Pak] By Fallen Log"
+          },
+          {
+            "ref": "4-1/On Stump/Full Health",
+            "name": "[Full Health] On Stump"
+          },
+          {
+            "ref": "4-1/After Start Room/Plasma Rifle",
+            "name": "[Plasma Rifle] After Start Room"
+          },
+          {
+            "ref": "4-1/By Whispers Path/Blue Health",
+            "name": "[Blue Health] By Whispers Path"
+          },
+          {
+            "ref": "4-1/By Checkpoint/Shells",
+            "name": "[Shells] By Checkpoint"
+          },
+          {
+            "ref": "4-1/Right of Entrance/Tranq Dark Pak",
+            "name": "[Tranq Dark Pak] Right of Entrance"
+          },
+          {
+            "ref": "4-1/Behind Tree Trunk/Clip",
+            "name": "[Clip] Behind Tree Trunk"
+          },
+          {
+            "ref": "4-1/In Bush/Box of Bullets",
+            "name": "[Box of Bullets] In Bush"
+          },
+          {
+            "ref": "4-1/Wall Climb/LF1",
+            "name": "[LF1] Wall Climb"
+          },
+          {
+            "ref": "4-1/Wall Climb Jump/Plasma Rifle",
+            "name": "[Plasma Rifle] Wall Climb Jump"
+          },
+          {
+            "ref": "4-1/Up Wall/Blue Health",
+            "name": "[Blue Health] Up Wall"
+          },
+          {
+            "ref": "4-1/Exit Path/LF1",
+            "name": "[LF1] Exit Path"
+          },
+          {
+            "ref": "4-1/Exit Side Path/Blue Health",
+            "name": "[Blue Health] Exit Side Path"
+          },
+          {
+            "ref": "4-1/Enemy by Whispers Path/Endtrail",
+            "name": "[Endtrail] Enemy by Whispers Path"
+          },
+          {
+            "ref": "4-1/Enemy on Ledge/Endtrail",
+            "name": "[Endtrail] Enemy on Ledge"
+          },
+          {
+            "ref": "4-1/Enemy Before Drop/Leaper",
+            "name": "[Leaper] Enemy Before Drop"
+          },
+          {
+            "ref": "4-1/Enemy in Tunnel/Raptoid",
+            "name": "[Raptoid] Enemy in Tunnel"
+          },
+          {
+            "ref": "4-1/Enemy by Climbable Wall/Endtrail",
+            "name": "[Endtrail] Enemy by Climbable Wall"
+          },
+          {
+            "ref": "4-1/Whispers/After Jumps/Firestorm Cannon",
+            "name": "[Firestorm Cannon] Whispers/After Jumps"
+          },
+          {
+            "ref": "4-1/Whispers/On Pillar/Missiles",
+            "name": "[Missiles] Whispers/On Pillar"
+          },
+          {
+            "ref": "4-1/Whispers/Columns Near Pillar/Mine",
+            "name": "[Mine] Whispers/Columns Near Pillar"
+          },
+          {
+            "ref": "4-1/Whispers/Columns in Darkness/Mine",
+            "name": "[Mine] Whispers/Columns in Darkness"
+          },
+          {
+            "ref": "4-1/Whispers/Columns in Darkness/Plasma Pak",
+            "name": "[Plasma Pak] Whispers/Columns in Darkness"
+          },
+          {
+            "ref": "4-1/Whispers/In Switch Wall/Cave Door Key",
+            "name": "[Cave Door Key] Whispers/In Switch Wall"
+          },
+          {
+            "ref": "4-1/Whispers/In Darkness/Skull Switch",
+            "name": "[Skull Switch] Whispers/In Darkness"
+          },
+          {
+            "ref": "4-1/Whispers/Whispers Drop/Unlock Cave Door",
+            "name": "[Unlock Cave Door] Whispers/Whispers Drop"
+          },
+          {
+            "ref": "4-1/Whispers/Enemy on Whispers Ledge/Guardian",
+            "name": "[Guardian] Whispers/Enemy on Whispers Ledge"
+          },
+          {
+            "ref": "4-1/Whispers/Enemy by Fallen Pillar/Guardian",
+            "name": "[Guardian] Whispers/Enemy by Fallen Pillar"
+          },
+          {
+            "ref": "4-1/Whispers/Enemy by Fallen Pillar/Sentinel",
+            "name": "[Sentinel] Whispers/Enemy by Fallen Pillar"
+          },
+          {
+            "ref": "4-1/Whispers/Enemy in Darkness/Guradian",
+            "name": "[Guradian] Whispers/Enemy in Darkness"
+          },
+          {
+            "ref": "4-1/Whispers/Enemy in Switch Wall/Spider",
+            "name": "[Spider] Whispers/Enemy in Switch Wall"
+          },
+          {
+            "ref": "4-1/Cave Door/By Portal/LF10",
+            "name": "[LF10] Cave Door/By Portal"
+          },
+          {
+            "ref": "4-1/Cave Door/By Portal/Ultra Health",
+            "name": "[Ultra Health] Cave Door/By Portal"
+          },
+          {
+            "ref": "4-1/Cave Door/Through Whispers Portal/Primagen Key",
+            "name": "[Primagen Key] Cave Door/Through Whispers Portal"
+          },
+          {
+            "ref": "4-1/Cave Door/Enemy in First Room/Spider",
+            "name": "[Spider] Cave Door/Enemy in First Room"
+          },
+          {
+            "ref": "4-1/Cave Door/Enemy in First Room/Cave Spider",
+            "name": "[Cave Spider] Cave Door/Enemy in First Room"
+          },
+          {
+            "ref": "4-1/Cave Door/Enemy in Second Room/Cave Spider",
+            "name": "[Cave Spider] Cave Door/Enemy in Second Room"
           }
         ],
         "map_locations": [

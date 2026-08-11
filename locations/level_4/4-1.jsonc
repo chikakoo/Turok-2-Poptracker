@@ -3,27 +3,20 @@
         "name": "4-1",
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
-        // Note that level 4 in general will need to check that the "use key" locations are received 
-        // to know which maps are actually accessible
-        //   - CURRENTLY USING KEYS WILL MAKE MAPS SHOW UP RED, THIS NEEDS TO BE FIXED
-        //   - To fix this, replace has_unused_cave_door_key with can_enter_cave_door (and remove the item tracking...)
-        //
-        // 4-1 Whispers cave door key range is:
-        // Min: 1, Max: 7 (all of them)
         "access_rules": [
             "$map_access|4"
         ],
         "children": [
             {
-                "name": "Whispers Drop",
-                "chest_unopened_img": "images/interactables/cave_door.png",
-                "chest_opened_img": "images/interactables/cave_door_bw.png",
+                "name": "Start Left Corner",
+                "chest_unopened_img": "images/items/ammo/quiver_of_tek_arrows.png",
+                "chest_opened_img": "images/items/ammo/quiver_of_tek_arrows_bw.png",
                 "sections": [
                     {
-                        "name": "Unlock Cave Door",
+                        "name": "Tek Quiver",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|98063"
+                            "$id_exists|98000"
                         ]
                     }
                 ],
@@ -31,7 +24,815 @@
                     {
                         "map": "4-1",
                         "x": 100,
-                        "y": 100
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Start Right Corner",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98001"
+                        ]
+                    },
+                    {
+                        "name": "Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Tree Trunk",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|98003|98004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Fallen Log",
+                "chest_unopened_img": "images/items/ammo/plasma_pak.png",
+                "chest_opened_img": "images/items/ammo/plasma_pak_bw.png",
+                "sections": [
+                    {
+                        "name": "Plasma Pak",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Stump",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Start Room",
+                "chest_unopened_img": "images/items/weapons_small/plasma_rifle.png",
+                "chest_opened_img": "images/items/weapons_small/plasma_rifle_bw.png",
+                "sections": [
+                    {
+                        "name": "Plasma Rifle",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Whispers Path",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98008"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Checkpoint",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98009"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right of Entrance",
+                "chest_unopened_img": "images/items/ammo/tranq_darts_pak.png",
+                "chest_opened_img": "images/items/ammo/tranq_darts_pak_bw.png",
+                "sections": [
+                    {
+                        "name": "Tranq Dark Pak",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Tree Trunk",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Bush",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98012"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Wall Climb",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|98013|98014|98015"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Wall Climb Jump",
+                "chest_unopened_img": "images/items/weapons_small/plasma_rifle.png",
+                "chest_opened_img": "images/items/weapons_small/plasma_rifle_bw.png",
+                "sections": [
+                    {
+                        "name": "Plasma Rifle",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98016"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Wall",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|98017|98018"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Exit Path",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 7,
+                        "visibility_rules": [
+                            "$id_exists|98019|98020|98021|98022|98023|98024|98025"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Exit Side Path",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98026"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Whispers Path",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98043"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Ledge",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98044"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Drop",
+                "chest_unopened_img": "images/enemies/leaper.png",
+                "chest_opened_img": "images/enemies/leaper_bw.png",
+                "sections": [
+                    {
+                        "name": "Leaper",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|98045|98046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Tunnel",
+                "chest_unopened_img": "images/enemies/raptoid.png",
+                "chest_opened_img": "images/enemies/raptoid_bw.png",
+                "sections": [
+                    {
+                        "name": "Raptoid",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Climbable Wall",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|98048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Whispers",
+                "access_rules": [
+                    "whispers"
+                ],
+                "children": [
+                    {
+                        "name": "After Jumps",
+                        "chest_unopened_img": "images/items/weapons_small/firestorm_cannon.png",
+                        "chest_opened_img": "images/items/weapons_small/firestorm_cannon_bw.png",
+                        "sections": [
+                            {
+                                "name": "Firestorm Cannon",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98027"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "On Pillar",
+                        "chest_unopened_img": "images/items/ammo/missiles.png",
+                        "chest_opened_img": "images/items/ammo/missiles_bw.png",
+                        "sections": [
+                            {
+                                "name": "Missiles",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|98028|98029|98030"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Columns Near Pillar",
+                        "chest_unopened_img": "images/items/ammo/mine.png",
+                        "chest_opened_img": "images/items/ammo/mine_bw.png",
+                        "sections": [
+                            {
+                                "name": "Mine",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|98031|98032"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Columns in Darkness",
+                        "sections": [
+                            {
+                                "name": "Mine",
+                                "chest_unopened_img": "images/items/ammo/mine.png",
+                                "chest_opened_img": "images/items/ammo/mine_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98033"
+                                ]
+                            },
+                            {
+                                "name": "Plasma Pak",
+                                "chest_unopened_img": "images/items/ammo/plasma_pak.png",
+                                "chest_opened_img": "images/items/ammo/plasma_pak_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98034"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Switch Wall",
+                        "chest_unopened_img": "images/items/mission/cave_door_key.png",
+                        "chest_opened_img": "images/items/mission/cave_door_key_bw.png",
+                        "sections": [
+                            {
+                                "name": "Cave Door Key",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98035"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Darkness",
+                        "chest_unopened_img": "images/interactables/switch_skull.png",
+                        "chest_opened_img": "images/interactables/switch_skull_bw.png",
+                        "sections": [
+                            {
+                                "name": "Skull Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98042"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Whispers Drop",
+                        "chest_unopened_img": "images/interactables/cave_door.png",
+                        "chest_opened_img": "images/interactables/cave_door_bw.png",
+                        "access_rules": [
+                            "^$can_enter_cave_door|1|7"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Unlock Cave Door",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98063"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "shape": "trapezoid",
+                                "x": 100,
+                                "y": 75
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Whispers Ledge",
+                        "chest_unopened_img": "images/enemies/guardian.png",
+                        "chest_opened_img": "images/enemies/guardian_bw.png",
+                        "sections": [
+                            {
+                                "name": "Guardian",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98049"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "shape": "diamond",
+                                "x": 125,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Fallen Pillar",
+                        "sections": [
+                            {
+                                "name": "Guardian",
+                                "chest_unopened_img": "images/enemies/guardian.png",
+                                "chest_opened_img": "images/enemies/guardian_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98050"
+                                ]
+                            },
+                            {
+                                "name": "Sentinel",
+                                "chest_unopened_img": "images/enemies/sentinel.png",
+                                "chest_opened_img": "images/enemies/sentinel_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98051"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Darkness",
+                        "chest_unopened_img": "images/enemies/guardian.png",
+                        "chest_opened_img": "images/enemies/guardian_bw.png",
+                        "sections": [
+                            {
+                                "name": "Guradian",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98052"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Switch Wall",
+                        "chest_unopened_img": "images/enemies/spider.png",
+                        "chest_opened_img": "images/enemies/spider_bw.png",
+                        "sections": [
+                            {
+                                "name": "Spider",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|98053|98054|98055"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cave Door",
+                "access_rules": [
+                    "whispers,^$can_enter_cave_door|1|7|1"
+                ],
+                "children": [
+                    {
+                        "name": "By Portal",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|98036|98037|98038|98039"
+                                ]
+                            },
+                            {
+                                "name": "Ultra Health",
+                                "chest_unopened_img": "images/items/health/ultra_health.png",
+                                "chest_opened_img": "images/items/health/ultra_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98040"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "x": 25,
+                                "y": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Through Whispers Portal",
+                        "access_rules": [
+                            "$map_access|4|1"
+                        ],
+                        "chest_unopened_img": "images/items/keys/primagen_key_4.png",
+                        "chest_opened_img": "images/items/keys/primagen_key_4_bw.png",
+                        "sections": [
+                            {
+                                "name": "Primagen Key",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98041"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "x": 50,
+                                "y": 50
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in First Room",
+                        "sections": [
+                            {
+                                "name": "Spider",
+                                "chest_unopened_img": "images/enemies/spider.png",
+                                "chest_opened_img": "images/enemies/spider_bw.png",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|98056|98057|98058|98059"
+                                ]
+                            },
+                            {
+                                "name": "Cave Spider",
+                                "chest_unopened_img": "images/enemies/cave_spider.png",
+                                "chest_opened_img": "images/enemies/cave_spider_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|98060"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Second Room",
+                        "chest_unopened_img": "images/enemies/cave_spider.png",
+                        "chest_opened_img": "images/enemies/cave_spider_bw.png",
+                        "sections": [
+                            {
+                                "name": "Cave Spider",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|98061|98062"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }

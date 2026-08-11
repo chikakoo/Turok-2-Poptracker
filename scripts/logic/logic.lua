@@ -205,9 +205,36 @@ function has_unused_cave_door_key()
 end
 
 ---TODO: this is what we need to use, not the above function...
---- We probably DO want to place the location for this if this is how we're computing it
-function can_enter_cave_door(cave_door_name, min_keys, max_keys)
-    if Tracker:FindObjectForCode(cave_door_name).AvailableChestCount == 0 or has("cave_door_key", max_keys) then
+---Returns whether the cave door can be entered or opened. Handles whether door has been opened already.
+---@param cave_door_name string indicating the location name of the cave door being checked
+---@param max_keys number of keys to consider the door always able to be opened
+---@param min_keys number of keys to consider the door to be openable, but not in logic
+function can_enter_cave_door(min_keys, max_keys, cave_door_number)
+    ---TODO: add the other locations
+    local cave_door_locations = {
+        "@4-1/Whispers/Whispers Drop/Unlock Cave Door",
+        "@4-3/Cave Door/Unlock Cave Door"
+        -- 4-V1
+        -- 4-6a
+        -- 4-8a
+        -- 4-V3 (1)
+        -- 4-V3 (2)
+    }
+
+    local door_number = cave_door_number and tonumber(cave_door_number)
+    if door_number then
+        local cave_door_location = cave_door_locations[door_number]
+        if cave_door_location == nil then
+            print("Unknown cave door number: " .. tostring(door_number))
+            return AccessibilityLevel.None
+        end
+
+        if Tracker:FindObjectForCode(cave_door_location).AvailableChestCount == 0 then
+            return AccessibilityLevel.Normal
+        end
+    end
+
+    if has("cave_door_key", max_keys) then
         return AccessibilityLevel.Normal
     end
 

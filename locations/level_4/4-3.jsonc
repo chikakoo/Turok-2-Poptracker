@@ -10,6 +10,9 @@
         "children": [
             {
                 "name": "Cave Door",
+                "access_rules": [
+                    "^$can_enter_cave_door|1|2"
+                ],
                 "sections": [
                     {
                         "name": "Unlock Cave Door",
@@ -21,7 +24,8 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "4-1",
+                        "map": "4-3",
+                        "shape": "trapezoid",
                         "x": 100,
                         "y": 100
                     }
