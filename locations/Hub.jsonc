@@ -5996,8 +5996,256 @@
         "name": "4-3",
         "sections": [
           {
-            "ref": "4-3/Cave Door/Unlock Cave Door",
-            "name": "[Unlock Cave Door] Cave Door"
+            "ref": "4-3/By Return Portal/Shells",
+            "name": "[Shells] By Return Portal"
+          },
+          {
+            "ref": "4-3/By Return Portal/Clip",
+            "name": "[Clip] By Return Portal"
+          },
+          {
+            "ref": "4-3/Before Spider Cave/Mag 60",
+            "name": "[Mag 60] Before Spider Cave"
+          },
+          {
+            "ref": "4-3/Left Loop/Blue Health",
+            "name": "[Blue Health] Left Loop"
+          },
+          {
+            "ref": "4-3/Behind Stalagmite/Quiver",
+            "name": "[Quiver] Behind Stalagmite"
+          },
+          {
+            "ref": "4-3/In Cave Spider Alcove/Grenade Launcher",
+            "name": "[Grenade Launcher] In Cave Spider Alcove"
+          },
+          {
+            "ref": "4-3/After Cave Spider/Blue Health",
+            "name": "[Blue Health] After Cave Spider"
+          },
+          {
+            "ref": "4-3/Left Path Start/LF1",
+            "name": "[LF1] Left Path Start"
+          },
+          {
+            "ref": "4-3/Left Path Start/Blue Health",
+            "name": "[Blue Health] Left Path Start"
+          },
+          {
+            "ref": "4-3/Right Path Start/LF1",
+            "name": "[LF1] Right Path Start"
+          },
+          {
+            "ref": "4-3/Right Path Start/Blue Health",
+            "name": "[Blue Health] Right Path Start"
+          },
+          {
+            "ref": "4-3/In Water/Blue Health",
+            "name": "[Blue Health] In Water"
+          },
+          {
+            "ref": "4-3/By Left Ladder/LF1",
+            "name": "[LF1] By Left Ladder"
+          },
+          {
+            "ref": "4-3/By Left Ladder/Shootable Switch",
+            "name": "[Shootable Switch] By Left Ladder"
+          },
+          {
+            "ref": "4-3/By Right Ladder/LF1",
+            "name": "[LF1] By Right Ladder"
+          },
+          {
+            "ref": "4-3/By Right Ladder/Shootable Switch",
+            "name": "[Shootable Switch] By Right Ladder"
+          },
+          {
+            "ref": "4-3/Up Ladder/Charge Dart Rifle",
+            "name": "[Charge Dart Rifle] Up Ladder"
+          },
+          {
+            "ref": "4-3/Water Path End/Cave Door Key",
+            "name": "[Cave Door Key] Water Path End"
+          },
+          {
+            "ref": "4-3/By Wall/Skull Switch",
+            "name": "[Skull Switch] By Wall"
+          },
+          {
+            "ref": "4-3/Cave Door Room/Unlock Cave Door",
+            "name": "[Unlock Cave Door] Cave Door Room"
+          },
+          {
+            "ref": "4-3/Enemy Spawned From Blue Health/Cave Worm",
+            "name": "[Cave Worm] Enemy Spawned From Blue Health"
+          },
+          {
+            "ref": "4-3/Enemy in First Cave/Cave Spider",
+            "name": "[Cave Spider] Enemy in First Cave"
+          },
+          {
+            "ref": "4-3/Enemy by Cave Door/Endtrail",
+            "name": "[Endtrail] Enemy by Cave Door"
+          },
+          {
+            "ref": "4-3/Enemy in Left Path/Leaper",
+            "name": "[Leaper] Enemy in Left Path"
+          },
+          {
+            "ref": "4-3/Enemy in Right Path/Leaper",
+            "name": "[Leaper] Enemy in Right Path"
+          },
+          {
+            "ref": "4-3/Enemy at Water Path End/Sentinel",
+            "name": "[Sentinel] Enemy at Water Path End"
+          },
+          {
+            "ref": "4-3/Cave Door/Across Fallen Bridge/Blue Health",
+            "name": "[Blue Health] Cave Door/Across Fallen Bridge"
+          },
+          {
+            "ref": "4-3/Cave Door/On Lower Bridge/Mag 60",
+            "name": "[Mag 60] Cave Door/On Lower Bridge"
+          },
+          {
+            "ref": "4-3/Cave Door/On Lower Bridge/Explosive Shells",
+            "name": "[Explosive Shells] Cave Door/On Lower Bridge"
+          },
+          {
+            "ref": "4-3/Cave Door/On Ledge/Tek Quiver",
+            "name": "[Tek Quiver] Cave Door/On Ledge"
+          },
+          {
+            "ref": "4-3/Cave Door/In Alcove/Flame Thrower",
+            "name": "[Flame Thrower] Cave Door/In Alcove"
+          },
+          {
+            "ref": "4-3/Cave Door/Level Key Room/Level Key",
+            "name": "[Level Key] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-3/Cave Door/Level Key Room/Box of Bullets",
+            "name": "[Box of Bullets] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-3/Cave Door/Level Key Room/Plasma Pak",
+            "name": "[Plasma Pak] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-3/Cave Door/Level Key Room/Box of Shells",
+            "name": "[Box of Shells] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-3/Cave Door/Level Key Room/Charge Dart Rifle",
+            "name": "[Charge Dart Rifle] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-3/Cave Door/Level Key Room/Full Health",
+            "name": "[Full Health] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-3/Cave Door/Behind Rock/Quiver",
+            "name": "[Quiver] Cave Door/Behind Rock"
+          },
+          {
+            "ref": "4-3/Cave Door/In Bush/Box of Bullets",
+            "name": "[Box of Bullets] Cave Door/In Bush"
+          },
+          {
+            "ref": "4-3/Cave Door/By Checkpoint/Mag 60",
+            "name": "[Mag 60] Cave Door/By Checkpoint"
+          },
+          {
+            "ref": "4-3/Cave Door/After Switch Gate/Full Health",
+            "name": "[Full Health] Cave Door/After Switch Gate"
+          },
+          {
+            "ref": "4-3/Cave Door/By Exit Drop/LF1",
+            "name": "[LF1] Cave Door/By Exit Drop"
+          },
+          {
+            "ref": "4-3/Cave Door/On Bottom Wall/Shootable Switch",
+            "name": "[Shootable Switch] Cave Door/On Bottom Wall"
+          },
+          {
+            "ref": "4-3/Cave Door/On Top Wall/Shootable Switch",
+            "name": "[Shootable Switch] Cave Door/On Top Wall"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy After Cave Door/Guardian",
+            "name": "[Guardian] Cave Door/Enemy After Cave Door"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy After Lower Bridge/Raptoid",
+            "name": "[Raptoid] Cave Door/Enemy After Lower Bridge"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy on First Upper Bridge/Sentinel",
+            "name": "[Sentinel] Cave Door/Enemy on First Upper Bridge"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy on Second Upper Bridge/Guardian",
+            "name": "[Guardian] Cave Door/Enemy on Second Upper Bridge"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy at Open Cave Start/Endtrail",
+            "name": "[Endtrail] Cave Door/Enemy at Open Cave Start"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy on Open Cave Ledge/Spider",
+            "name": "[Spider] Cave Door/Enemy on Open Cave Ledge"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy in Alcove/Spider",
+            "name": "[Spider] Cave Door/Enemy in Alcove"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy in Alcove/Cave Spider",
+            "name": "[Cave Spider] Cave Door/Enemy in Alcove"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy in Level Key Room/Nala",
+            "name": "[Nala] Cave Door/Enemy in Level Key Room"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy Across Bridge/Guardian",
+            "name": "[Guardian] Cave Door/Enemy Across Bridge"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy by Falling Bridge/Spider",
+            "name": "[Spider] Cave Door/Enemy by Falling Bridge"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy by Falling Bridge/Guardian",
+            "name": "[Guardian] Cave Door/Enemy by Falling Bridge"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy Across Falling Bridge/Cave Spider",
+            "name": "[Cave Spider] Cave Door/Enemy Across Falling Bridge"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy by Checkpoint/Guardian",
+            "name": "[Guardian] Cave Door/Enemy by Checkpoint"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy After First Switch/Leaper",
+            "name": "[Leaper] Cave Door/Enemy After First Switch"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy Above Checkpoint/Sentinel",
+            "name": "[Sentinel] Cave Door/Enemy Above Checkpoint"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy by Upper Switch/Sentinel",
+            "name": "[Sentinel] Cave Door/Enemy by Upper Switch"
+          },
+          {
+            "ref": "4-3/Cave Door/Enemy Before Exit Drop/Leaper",
+            "name": "[Leaper] Cave Door/Enemy Before Exit Drop"
+          },
+          {
+            "ref": "4-3/Return Room/In Return Room/Blue Health",
+            "name": "[Blue Health] Return Room/In Return Room"
           }
         ],
         "map_locations": [

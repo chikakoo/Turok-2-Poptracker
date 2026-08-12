@@ -211,7 +211,7 @@ end
 
 ---Returns whether the 4-3 cave door can be entered or opened.
 function can_enter_cave_door_on_4_3()
-    return can_enter_cave_door(1, 2, "@4-3/Cave Door/Unlock Cave Door")
+    return can_enter_cave_door(1, 2, "@4-3/Cave Door Room/Unlock Cave Door")
 end
 
 --TODO: add locations for...
@@ -227,18 +227,39 @@ end
 ---@param min_keys number of keys to consider the door to be openable, but not in logic
 ---@param cave_door_name string indicating the location name of the cave door being checked
 function can_enter_cave_door(min_keys, max_keys, cave_door_name)
+    -- If the door is open, you can go in it no matter what
     if cave_door_name ~= nil and Tracker:FindObjectForCode(cave_door_name).AvailableChestCount == 0 then
         return AccessibilityLevel.Normal
     end
 
+    -- If you have no more keys left, you can't open another one
+    if not has_unused_mission_item(
+        "cave_door_key",
+        {
+            "@4-1/Whispers/Whispers Drop/Unlock Cave Door",
+            "@4-3/Cave Door Room/Unlock Cave Door"
+            --TODO: add locations for...
+            -- 4-V1
+            -- 4-6a
+            -- 4-8a
+            -- 4-V3 (1)
+            -- 4-V3 (2)
+        }
+    ) then
+        return AccessibilityLevel.None
+    end
+
+    -- If you have the max keys, then you can definitely go in
     if has("cave_door_key", max_keys) then
         return AccessibilityLevel.Normal
     end
 
+    -- If you have the min keys, then you can potentially use them elsewhere
     if has("cave_door_key", min_keys) then
         return AccessibilityLevel.SequenceBreak
     end
 
+    -- Else, you can't enter (fallback)
     return AccessibilityLevel.None
 end
 
