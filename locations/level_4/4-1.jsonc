@@ -660,8 +660,8 @@
                             },
                             {
                                 "name": "Sentinel",
-                                "chest_unopened_img": "images/enemies/sentinel.png",
-                                "chest_opened_img": "images/enemies/sentinel_bw.png",
+                                "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
                                 "item_count": 1,
                                 "visibility_rules": [
                                     "$id_exists|98051"

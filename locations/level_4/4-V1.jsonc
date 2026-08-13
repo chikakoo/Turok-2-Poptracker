@@ -4,15 +4,126 @@
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
-            "$map_access|4|4|mid,$has_unused_cave_door_key,cave_door_key:1,[cave_door_key:7]"
+            "$map_access|4|4|mid,^$can_enter_cave_door_on_4_3"
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "By Cave Door",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|106000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Cave Door Room",
+                "chest_unopened_img": "images/interactables/cave_door.png",
+                "chest_opened_img": "images/interactables/cave_door_bw.png",
+                "access_rules": [
+                    "^$can_enter_cave_door_on_4_V1"
+                ],
+                "sections": [
+                    {
+                        "name": "Unlock Cave Door",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|106004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V1",
+                        "x": 25,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Cave Door",
+                "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|106003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Cave Door",
+                "access_rules": [
+                    "^$can_enter_cave_door_on_4_V1"
+                ],
+                "children": [
+                    {
+                        "name": "After Cave Door",
+                        "chest_unopened_img": "images/items/weapons_small/plasma_rifle.png",
+                        "chest_opened_img": "images/items/weapons_small/plasma_rifle_bw.png",
+                        "sections": [
+                            {
+                                "name": "Plasma Rifle",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|106001"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-V1",
+                                "x": 50,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "On Top Platform",
+                        "chest_unopened_img": "images/interactables/thermal_vent.png",
+                        "chest_opened_img": "images/interactables/thermal_vent_bw.png",
+                        "access_rules": [
+                            "[l4_satchel_charge:3],$has_unused_l4_satchel_charge"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Seal Vent",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|106002"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-V1",
+                                "x": 75,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }

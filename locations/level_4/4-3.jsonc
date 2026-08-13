@@ -473,8 +473,8 @@
             },
             {
                 "name": "Enemy at Water Path End",
-                "chest_unopened_img": "images/enemies/sentinel.png",
-                "chest_opened_img": "images/enemies/sentinel_bw.png",
+                "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
                 "sections": [
                     {
                         "name": "Sentinel",
@@ -847,8 +847,8 @@
                     },
                     {
                         "name": "Enemy on First Upper Bridge",
-                        "chest_unopened_img": "images/enemies/sentinel.png",
-                        "chest_opened_img": "images/enemies/sentinel_bw.png",
+                        "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                        "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
                         "sections": [
                             {
                                 "name": "Sentinel",
@@ -1104,8 +1104,8 @@
                     },
                     {
                         "name": "Enemy Above Checkpoint",
-                        "chest_unopened_img": "images/enemies/sentinel.png",
-                        "chest_opened_img": "images/enemies/sentinel_bw.png",
+                        "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                        "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
                         "sections": [
                             {
                                 "name": "Sentinel",
@@ -1126,8 +1126,8 @@
                     },
                     {
                         "name": "Enemy by Upper Switch",
-                        "chest_unopened_img": "images/enemies/sentinel.png",
-                        "chest_opened_img": "images/enemies/sentinel_bw.png",
+                        "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                        "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
                         "sections": [
                             {
                                 "name": "Sentinel",

@@ -6260,8 +6260,172 @@
         "name": "4-4",
         "sections": [
           {
-            "ref": "4-4/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-4/On Floating Platform/Eagle Feather",
+            "name": "[Eagle Feather] On Floating Platform"
+          },
+          {
+            "ref": "4-4/After Drop/Flame Thrower",
+            "name": "[Flame Thrower] After Drop"
+          },
+          {
+            "ref": "4-4/In Water Alcove/Harpoon Gun",
+            "name": "[Harpoon Gun] In Water Alcove"
+          },
+          {
+            "ref": "4-4/In Water Alcove/Blue Health",
+            "name": "[Blue Health] In Water Alcove"
+          },
+          {
+            "ref": "4-4/By Underwater Tunnel/LF1",
+            "name": "[LF1] By Underwater Tunnel"
+          },
+          {
+            "ref": "4-4/By Underwater Tunnel/Shootable Switch",
+            "name": "[Shootable Switch] By Underwater Tunnel"
+          },
+          {
+            "ref": "4-4/Tunnel Entrance/Charge Dart Rifle",
+            "name": "[Charge Dart Rifle] Tunnel Entrance"
+          },
+          {
+            "ref": "4-4/On First Wooden Bridge/Explosive Shells",
+            "name": "[Explosive Shells] On First Wooden Bridge"
+          },
+          {
+            "ref": "4-4/On First Wooden Bridge/Blue Health",
+            "name": "[Blue Health] On First Wooden Bridge"
+          },
+          {
+            "ref": "4-4/On Second Wooden Bridge/Explosive Shells",
+            "name": "[Explosive Shells] On Second Wooden Bridge"
+          },
+          {
+            "ref": "4-4/On Second Wooden Bridge/Blue Health",
+            "name": "[Blue Health] On Second Wooden Bridge"
+          },
+          {
+            "ref": "4-4/In Spider Cave/Tek Bow",
+            "name": "[Tek Bow] In Spider Cave"
+          },
+          {
+            "ref": "4-4/After Spider Cave/Flame Thrower",
+            "name": "[Flame Thrower] After Spider Cave"
+          },
+          {
+            "ref": "4-4/Before Lowered Bridge/Blue Health",
+            "name": "[Blue Health] Before Lowered Bridge"
+          },
+          {
+            "ref": "4-4/On Switch Platform/Cave Door Key",
+            "name": "[Cave Door Key] On Switch Platform"
+          },
+          {
+            "ref": "4-4/On Switch Platform/Skull Switch",
+            "name": "[Skull Switch] On Switch Platform"
+          },
+          {
+            "ref": "4-4/Cave After Switch/Box of Bullets",
+            "name": "[Box of Bullets] Cave After Switch"
+          },
+          {
+            "ref": "4-4/On Satchel Platform/LF10",
+            "name": "[LF10] On Satchel Platform"
+          },
+          {
+            "ref": "4-4/On Satchel Platform/Satchel Charge",
+            "name": "[Satchel Charge] On Satchel Platform"
+          },
+          {
+            "ref": "4-4/Enemy by Return Portal/Spider",
+            "name": "[Spider] Enemy by Return Portal"
+          },
+          {
+            "ref": "4-4/Enemy Before Water/Endtrail",
+            "name": "[Endtrail] Enemy Before Water"
+          },
+          {
+            "ref": "4-4/Enemy in Tunnel After Jumps/Spider",
+            "name": "[Spider] Enemy in Tunnel After Jumps"
+          },
+          {
+            "ref": "4-4/Enemy in Tunnel After Jumps/Endtrail",
+            "name": "[Endtrail] Enemy in Tunnel After Jumps"
+          },
+          {
+            "ref": "4-4/Enemy by Feather Platform/Leaper",
+            "name": "[Leaper] Enemy by Feather Platform"
+          },
+          {
+            "ref": "4-4/Enemy After Drop/Leaper",
+            "name": "[Leaper] Enemy After Drop"
+          },
+          {
+            "ref": "4-4/Enemy After Water Switch/Leaper",
+            "name": "[Leaper] Enemy After Water Switch"
+          },
+          {
+            "ref": "4-4/Enemy on First Wooden Bridge/Endtrail",
+            "name": "[Endtrail] Enemy on First Wooden Bridge"
+          },
+          {
+            "ref": "4-4/Enemy on Second Wooden Bridge/Endtrail",
+            "name": "[Endtrail] Enemy on Second Wooden Bridge"
+          },
+          {
+            "ref": "4-4/Enemy in Spider Cave/Cave Spider",
+            "name": "[Cave Spider] Enemy in Spider Cave"
+          },
+          {
+            "ref": "4-4/Enemy After Spider Cave/Guardian",
+            "name": "[Guardian] Enemy After Spider Cave"
+          },
+          {
+            "ref": "4-4/Enemy After Spider Cave/Spider",
+            "name": "[Spider] Enemy After Spider Cave"
+          },
+          {
+            "ref": "4-4/Enemy After Lowered Bridge/Sentinel",
+            "name": "[Sentinel] Enemy After Lowered Bridge"
+          },
+          {
+            "ref": "4-4/Enemy in Cave After Switch/Sentinel",
+            "name": "[Sentinel] Enemy in Cave After Switch"
+          },
+          {
+            "ref": "4-4/Enemy in Cave After Switch/Nala",
+            "name": "[Nala] Enemy in Cave After Switch"
+          },
+          {
+            "ref": "4-4/Enemy by Satchel Platform/Guardian",
+            "name": "[Guardian] Enemy by Satchel Platform"
+          },
+          {
+            "ref": "4-4/Enemy on First Upper Bridge/Guardian",
+            "name": "[Guardian] Enemy on First Upper Bridge"
+          },
+          {
+            "ref": "4-4/Enemy on Second Upper Bridge/Guardian",
+            "name": "[Guardian] Enemy on Second Upper Bridge"
+          },
+          {
+            "ref": "4-4/Enemy on Third Upper Bridge/Sentinel",
+            "name": "[Sentinel] Enemy on Third Upper Bridge"
+          },
+          {
+            "ref": "4-4/Enemy by Exit Drop/Leaper",
+            "name": "[Leaper] Enemy by Exit Drop"
+          },
+          {
+            "ref": "4-4/Enemy by Exit Drop/Spider",
+            "name": "[Spider] Enemy by Exit Drop"
+          },
+          {
+            "ref": "4-4/Enemy by Vent Entrance/Nala",
+            "name": "[Nala] Enemy by Vent Entrance"
+          },
+          {
+            "ref": "4-4/Vent Return Room/In Vent Return Room/Blue Health",
+            "name": "[Blue Health] Vent Return Room/In Vent Return Room"
           }
         ],
         "map_locations": [
@@ -6276,8 +6440,24 @@
         "name": "4-V1",
         "sections": [
           {
-            "ref": "4-V1/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-V1/By Cave Door/Shells",
+            "name": "[Shells] By Cave Door"
+          },
+          {
+            "ref": "4-V1/Cave Door Room/Unlock Cave Door",
+            "name": "[Unlock Cave Door] Cave Door Room"
+          },
+          {
+            "ref": "4-V1/Enemy by Cave Door/Sentinel",
+            "name": "[Sentinel] Enemy by Cave Door"
+          },
+          {
+            "ref": "4-V1/Cave Door/After Cave Door/Plasma Rifle",
+            "name": "[Plasma Rifle] Cave Door/After Cave Door"
+          },
+          {
+            "ref": "4-V1/Cave Door/On Top Platform/Seal Vent",
+            "name": "[Seal Vent] Cave Door/On Top Platform"
           }
         ],
         "map_locations": [

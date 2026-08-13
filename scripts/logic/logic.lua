@@ -167,7 +167,7 @@ function has_unused_power_cell()
     )
 end
 
----Returns whether the player has an level 3 satchel charge
+---Returns whether the player has an unused level 3 satchel charge
 function has_unused_l3_satchel_charge()
     return has_unused_mission_item(
         "l3_satchel_charge",
@@ -198,6 +198,19 @@ function level_3_4b_access()
     return AccessibilityLevel.None
 end
 
+---Returns whether the player has an unused level 4 satchel charge
+---TODO: Add the other locations when they exist
+function has_unused_l4_satchel_charge()
+    return has_unused_mission_item(
+        "l4_satchel_charge",
+        {
+            "@4-V1/Cave Door/On Top Platform/Seal Vent"
+            --"@4-V2/On Top Platform/Seal Vent",
+            --"@4-V3/Cave Door/On Top Platform/Seal Vent"
+        }
+    )
+end
+
 ---TODO: replace this function with the below, as it actually tracks the places the keys are used!
 ---Returns whether the player has an unused cave door key, based on events
 function has_unused_cave_door_key()
@@ -214,8 +227,12 @@ function can_enter_cave_door_on_4_3()
     return can_enter_cave_door(1, 2, "@4-3/Cave Door Room/Unlock Cave Door")
 end
 
+---Returns whether the 4-V1 cave door can be entered or opened.
+function can_enter_cave_door_on_4_V1()
+    return can_enter_cave_door(2, 7, "@4-V1/Cave Door Room/Unlock Cave Door")
+end
+
 --TODO: add locations for...
--- 4-V1
 -- 4-6a
 -- 4-8a
 -- 4-V3 (1)
@@ -237,9 +254,9 @@ function can_enter_cave_door(min_keys, max_keys, cave_door_name)
         "cave_door_key",
         {
             "@4-1/Whispers/Whispers Drop/Unlock Cave Door",
-            "@4-3/Cave Door Room/Unlock Cave Door"
+            "@4-3/Cave Door Room/Unlock Cave Door",
+            "@4-V1/Cave Door Room/Unlock Cave Door"
             --TODO: add locations for...
-            -- 4-V1
             -- 4-6a
             -- 4-8a
             -- 4-V3 (1)
