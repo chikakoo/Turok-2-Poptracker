@@ -8,11 +8,608 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Return Portal",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102000"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "First Water Room",
+                "sections": [
+                    {
+                        "name": "Spears",
+                        "chest_unopened_img": "images/items/ammo/spears.png",
+                        "chest_opened_img": "images/items/ammo/spears_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|102002|102003"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|102004|102005"
+                        ]
+                    },
+                    {
+                        "name": "Torpedo Launcher",
+                        "chest_unopened_img": "images/items/weapons_small/torpedo_launcher.png",
+                        "chest_opened_img": "images/items/weapons_small/torpedo_launcher_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Tunnels Start",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|102007|102008|102009|102010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Second Water Room In Water",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102011"
+                        ]
+                    },
+                    {
+                        "name": "Spears",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102012"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Second Water Room Platform",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102013"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Gate",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102014"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Third Water Room in Water",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102015"
+                        ]
+                    },
+                    {
+                        "name": "Spears",
+                        "chest_unopened_img": "images/items/ammo/spears.png",
+                        "chest_opened_img": "images/items/ammo/spears_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102016"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Third Water Room Platform",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102017"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Tunnel Drop",
+                "sections": [
+                    {
+                        "name": "Satchel Charge",
+                        "chest_unopened_img": "images/items/mission/l4_satchel_charge.png",
+                        "chest_opened_img": "images/items/mission/l4_satchel_charge_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102018"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|102019|102020|102021"
+                        ]
+                    },
+                    {
+                        "name": "Skull Switch",
+                        "chest_unopened_img": "images/interactables/switch_skull.png",
+                        "chest_opened_img": "images/interactables/switch_skull_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102037"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Second Water Room Top",
+                "chest_unopened_img": "images/interactables/switch_skull.png",
+                "chest_opened_img": "images/interactables/switch_skull_bw.png",
+                "sections": [
+                    {
+                        "name": "Skull Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102036"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Start",
+                "sections": [
+                    {
+                        "name": "Spider",
+                        "chest_unopened_img": "images/enemies/spider.png",
+                        "chest_opened_img": "images/enemies/spider_bw.png",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|102038|102039|102040"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Gate",
+                "sections": [
+                    {
+                        "name": "Leaper",
+                        "chest_unopened_img": "images/enemies/leaper.png",
+                        "chest_opened_img": "images/enemies/leaper_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|102041|102043"
+                        ]
+                    },
+                    {
+                        "name": "Raptoid",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|102042"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Torpedo Launcher",
+                "access_rules": [
+                    "[$has_torpedo_launcher]"
+                ],
+                "children": [
+                    {
+                        "name": "By Second Gate",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|102022"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-5",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "At Intersection",
+                        "chest_unopened_img": "images/items/ammo/torpedoes.png",
+                        "chest_opened_img": "images/items/ammo/torpedoes_bw.png",
+                        "sections": [
+                            {
+                                "name": "Torpedoes",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|102023|102024|102025"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-5",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Vent Portal",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|102026|102027|102028"
+                                ]
+                            },
+                            {
+                                "name": "Box of Shells",
+                                "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                                "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|102029"
+                                ]
+                            },
+                            {
+                                "name": "Clip",
+                                "chest_unopened_img": "images/items/ammo/clip.png",
+                                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|102030"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-5",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Under Air Pocket",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|102031"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-5",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exit Path",
+                        "chest_unopened_img": "images/items/ammo/torpedoes.png",
+                        "chest_opened_img": "images/items/ammo/torpedoes_bw.png",
+                        "sections": [
+                            {
+                                "name": "Torpedoes",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|102032|102033|102034"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-5",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "At Dead End",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "sections": [
+                            {
+                                "name": "Shells",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|102035"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-5",
+                                "x": 25,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy at Intersection",
+                        "chest_unopened_img": "images/enemies/leaper.png",
+                        "chest_opened_img": "images/enemies/leaper_bw.png",
+                        "sections": [
+                            {
+                                "name": "Leaper",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|102044|102045"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-5",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Vent Path",
+                        "chest_unopened_img": "images/enemies/leaper.png",
+                        "chest_opened_img": "images/enemies/leaper_bw.png",
+                        "sections": [
+                            {
+                                "name": "Leaper",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|102046"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-5",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy at Vent Portal",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "sections": [
+                            {
+                                "name": "Raptoid",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|102047"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-5",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Intersection",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "sections": [
+                            {
+                                "name": "Raptoid",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|102048"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-5",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy at Dead End",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "sections": [
+                            {
+                                "name": "Raptoid",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|102049"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-5",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Exit Portal",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "sections": [
+                            {
+                                "name": "Raptoid",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|102050"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-5",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }

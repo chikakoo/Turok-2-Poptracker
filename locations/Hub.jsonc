@@ -6472,8 +6472,140 @@
         "name": "4-5",
         "sections": [
           {
-            "ref": "4-5/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-5/At Return Portal/Box of Shells",
+            "name": "[Box of Shells] At Return Portal"
+          },
+          {
+            "ref": "4-5/At Return Portal/Box of Bullets",
+            "name": "[Box of Bullets] At Return Portal"
+          },
+          {
+            "ref": "4-5/First Water Room/Spears",
+            "name": "[Spears] First Water Room"
+          },
+          {
+            "ref": "4-5/First Water Room/Blue Health",
+            "name": "[Blue Health] First Water Room"
+          },
+          {
+            "ref": "4-5/First Water Room/Torpedo Launcher",
+            "name": "[Torpedo Launcher] First Water Room"
+          },
+          {
+            "ref": "4-5/Water Tunnels Start/LF1",
+            "name": "[LF1] Water Tunnels Start"
+          },
+          {
+            "ref": "4-5/Second Water Room In Water/Blue Health",
+            "name": "[Blue Health] Second Water Room In Water"
+          },
+          {
+            "ref": "4-5/Second Water Room In Water/Spears",
+            "name": "[Spears] Second Water Room In Water"
+          },
+          {
+            "ref": "4-5/Second Water Room Platform/Blue Health",
+            "name": "[Blue Health] Second Water Room Platform"
+          },
+          {
+            "ref": "4-5/Behind Gate/Blue Health",
+            "name": "[Blue Health] Behind Gate"
+          },
+          {
+            "ref": "4-5/Third Water Room in Water/Blue Health",
+            "name": "[Blue Health] Third Water Room in Water"
+          },
+          {
+            "ref": "4-5/Third Water Room in Water/Spears",
+            "name": "[Spears] Third Water Room in Water"
+          },
+          {
+            "ref": "4-5/Third Water Room Platform/Blue Health",
+            "name": "[Blue Health] Third Water Room Platform"
+          },
+          {
+            "ref": "4-5/Tunnel Drop/Satchel Charge",
+            "name": "[Satchel Charge] Tunnel Drop"
+          },
+          {
+            "ref": "4-5/Tunnel Drop/LF10",
+            "name": "[LF10] Tunnel Drop"
+          },
+          {
+            "ref": "4-5/Tunnel Drop/Skull Switch",
+            "name": "[Skull Switch] Tunnel Drop"
+          },
+          {
+            "ref": "4-5/Second Water Room Top/Skull Switch",
+            "name": "[Skull Switch] Second Water Room Top"
+          },
+          {
+            "ref": "4-5/At Start/Spider",
+            "name": "[Spider] At Start"
+          },
+          {
+            "ref": "4-5/Enemy After Gate/Leaper",
+            "name": "[Leaper] Enemy After Gate"
+          },
+          {
+            "ref": "4-5/Enemy After Gate/Raptoid",
+            "name": "[Raptoid] Enemy After Gate"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/By Second Gate/Blue Health",
+            "name": "[Blue Health] Torpedo Launcher/By Second Gate"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/At Intersection/Torpedoes",
+            "name": "[Torpedoes] Torpedo Launcher/At Intersection"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/By Vent Portal/Blue Health",
+            "name": "[Blue Health] Torpedo Launcher/By Vent Portal"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/By Vent Portal/Box of Shells",
+            "name": "[Box of Shells] Torpedo Launcher/By Vent Portal"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/By Vent Portal/Clip",
+            "name": "[Clip] Torpedo Launcher/By Vent Portal"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/Under Air Pocket/Blue Health",
+            "name": "[Blue Health] Torpedo Launcher/Under Air Pocket"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/Exit Path/Torpedoes",
+            "name": "[Torpedoes] Torpedo Launcher/Exit Path"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/At Dead End/Shells",
+            "name": "[Shells] Torpedo Launcher/At Dead End"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/Enemy at Intersection/Leaper",
+            "name": "[Leaper] Torpedo Launcher/Enemy at Intersection"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/Enemy on Vent Path/Leaper",
+            "name": "[Leaper] Torpedo Launcher/Enemy on Vent Path"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/Enemy at Vent Portal/Raptoid",
+            "name": "[Raptoid] Torpedo Launcher/Enemy at Vent Portal"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/Enemy by Intersection/Raptoid",
+            "name": "[Raptoid] Torpedo Launcher/Enemy by Intersection"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/Enemy at Dead End/Raptoid",
+            "name": "[Raptoid] Torpedo Launcher/Enemy at Dead End"
+          },
+          {
+            "ref": "4-5/Torpedo Launcher/Enemy by Exit Portal/Raptoid",
+            "name": "[Raptoid] Torpedo Launcher/Enemy by Exit Portal"
           }
         ],
         "map_locations": [
@@ -6488,8 +6620,24 @@
         "name": "4-V2",
         "sections": [
           {
-            "ref": "4-V2/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-V2/At Start/Charge Dart Pak",
+            "name": "[Charge Dart Pak] At Start"
+          },
+          {
+            "ref": "4-V2/At Start/Skull Switch",
+            "name": "[Skull Switch] At Start"
+          },
+          {
+            "ref": "4-V2/By Vent/Shredder",
+            "name": "[Shredder] By Vent"
+          },
+          {
+            "ref": "4-V2/On Top Platform/Cave Door Key",
+            "name": "[Cave Door Key] On Top Platform"
+          },
+          {
+            "ref": "4-V2/On Top Platform/Seal Vent",
+            "name": "[Seal Vent] On Top Platform"
           }
         ],
         "map_locations": [

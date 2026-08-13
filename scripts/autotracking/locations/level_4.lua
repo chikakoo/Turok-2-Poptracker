@@ -313,11 +313,65 @@ LOCATIONS_4_V1 = {
 }
 
 LOCATIONS_4_5 = {
-
+    [102000] = {"@4-5/At Return Portal/Box of Shells"},
+    [102001] = {"@4-5/At Return Portal/Box of Bullets"},
+    [102002] = {"@4-5/First Water Room/Spears"},
+    [102003] = {"@4-5/First Water Room/Spears"},
+    [102004] = {"@4-5/First Water Room/Blue Health"},
+    [102005] = {"@4-5/First Water Room/Blue Health"},
+    [102006] = {"@4-5/First Water Room/Torpedo Launcher"},
+    [102007] = {"@4-5/Water Tunnels Start/LF1"},
+    [102008] = {"@4-5/Water Tunnels Start/LF1"},
+    [102009] = {"@4-5/Water Tunnels Start/LF1"},
+    [102010] = {"@4-5/Water Tunnels Start/LF1"},
+    [102011] = {"@4-5/Second Water Room In Water/Blue Health"},
+    [102012] = {"@4-5/Second Water Room In Water/Spears"},
+    [102013] = {"@4-5/Second Water Room Platform/Blue Health"},
+    [102014] = {"@4-5/Behind Gate/Blue Health"},
+    [102015] = {"@4-5/Third Water Room in Water/Blue Health"},
+    [102016] = {"@4-5/Third Water Room in Water/Spears"},
+    [102017] = {"@4-5/Third Water Room Platform/Blue Health"},
+    [102018] = {"@4-5/Tunnel Drop/Satchel Charge"},
+    [102019] = {"@4-5/Tunnel Drop/LF10"},
+    [102020] = {"@4-5/Tunnel Drop/LF10"},
+    [102021] = {"@4-5/Tunnel Drop/LF10"},
+    [102022] = {"@4-5/Torpedo Launcher/By Second Gate/Blue Health"},
+    [102023] = {"@4-5/Torpedo Launcher/At Intersection/Torpedoes"},
+    [102024] = {"@4-5/Torpedo Launcher/At Intersection/Torpedoes"},
+    [102025] = {"@4-5/Torpedo Launcher/At Intersection/Torpedoes"},
+    [102026] = {"@4-5/Torpedo Launcher/By Vent Portal/Blue Health"},
+    [102027] = {"@4-5/Torpedo Launcher/By Vent Portal/Blue Health"},
+    [102028] = {"@4-5/Torpedo Launcher/By Vent Portal/Blue Health"},
+    [102029] = {"@4-5/Torpedo Launcher/By Vent Portal/Box of Shells"},
+    [102030] = {"@4-5/Torpedo Launcher/By Vent Portal/Clip"},
+    [102031] = {"@4-5/Torpedo Launcher/Under Air Pocket/Blue Health"},
+    [102032] = {"@4-5/Torpedo Launcher/Exit Path/Torpedoes"},
+    [102033] = {"@4-5/Torpedo Launcher/Exit Path/Torpedoes"},
+    [102034] = {"@4-5/Torpedo Launcher/Exit Path/Torpedoes"},
+    [102035] = {"@4-5/Torpedo Launcher/At Dead End/Shells"},
+    [102036] = {"@4-5/Second Water Room Top/Skull Switch"},
+    [102037] = {"@4-5/Tunnel Drop/Skull Switch"},
+    [102038] = {"@4-5/At Start/Spider"},
+    [102039] = {"@4-5/At Start/Spider"},
+    [102040] = {"@4-5/At Start/Spider"},
+    [102041] = {"@4-5/Enemy After Gate/Leaper"},
+    [102042] = {"@4-5/Enemy After Gate/Raptoid"},
+    [102043] = {"@4-5/Enemy After Gate/Leaper"},
+    [102044] = {"@4-5/Torpedo Launcher/Enemy at Intersection/Leaper"},
+    [102045] = {"@4-5/Torpedo Launcher/Enemy at Intersection/Leaper"},
+    [102046] = {"@4-5/Torpedo Launcher/Enemy on Vent Path/Leaper"},
+    [102047] = {"@4-5/Torpedo Launcher/Enemy at Vent Portal/Raptoid"},
+    [102048] = {"@4-5/Torpedo Launcher/Enemy by Intersection/Raptoid"},
+    [102049] = {"@4-5/Torpedo Launcher/Enemy at Dead End/Raptoid"},
+    [102050] = {"@4-5/Torpedo Launcher/Enemy by Exit Portal/Raptoid"}
 }
 
 LOCATIONS_4_V2 = {
-
+    [107000] = {"@4-V2/At Start/Charge Dart Pak"},
+    [107001] = {"@4-V2/By Vent/Shredder"},
+    [107002] = {"@4-V2/On Top Platform/Cave Door Key"},
+    [107003] = {"@4-V2/At Start/Skull Switch"},
+    [107004] = {"@4-V2/On Top Platform/Seal Vent"}
 }
 
 LOCATIONS_4_6a = {

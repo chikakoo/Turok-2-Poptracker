@@ -204,8 +204,8 @@ function has_unused_l4_satchel_charge()
     return has_unused_mission_item(
         "l4_satchel_charge",
         {
-            "@4-V1/Cave Door/On Top Platform/Seal Vent"
-            --"@4-V2/On Top Platform/Seal Vent",
+            "@4-V1/Cave Door/On Top Platform/Seal Vent",
+            "@4-V2/On Top Platform/Seal Vent"
             --"@4-V3/Cave Door/On Top Platform/Seal Vent"
         }
     )
