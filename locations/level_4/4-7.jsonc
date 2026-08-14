@@ -8,11 +8,519 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Start",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|104000|104001|104002|104003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Return Portal",
+                "sections": [
+                    {
+                        "name": "Charge Dart Pak",
+                        "chest_unopened_img": "images/items/ammo/charge_darts_pak.png",
+                        "chest_opened_img": "images/items/ammo/charge_darts_pak_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104004"
+                        ]
+                    },
+                    {
+                        "name": "Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Small Lava Start",
+                "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                "sections": [
+                    {
+                        "name": "Mag 60",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Small Lava Switch",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104013"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Big Lava Start",
+                "sections": [
+                    {
+                        "name": "Plasma Rifle",
+                        "chest_unopened_img": "images/items/weapons_small/plasma_rifle.png",
+                        "chest_opened_img": "images/items/weapons_small/plasma_rifle_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104014"
+                        ]
+                    },
+                    {
+                        "name": "Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104015"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Big Lava Path Start",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Spider Cave",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104033"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Exit Drop",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|104034|104035|104036|104037"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Lava Platform",
+                "chest_unopened_img": "images/items/health/ultra_health.png",
+                "chest_opened_img": "images/items/health/ultra_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Ultra Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104038"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Wall Above Lava",
+                "chest_unopened_img": "images/interactables/switch_wooden.png",
+                "chest_opened_img": "images/interactables/switch_wooden_bw.png",
+                "sections": [
+                    {
+                        "name": "Shootable Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104042"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Lava",
+                "chest_unopened_img": "images/enemies/leaper.png",
+                "chest_opened_img": "images/enemies/leaper_bw.png",
+                "sections": [
+                    {
+                        "name": "Leaper",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|104043|104044|104045"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Gate",
+                "chest_unopened_img": "images/enemies/fireborn.png",
+                "chest_opened_img": "images/enemies/fireborn_bw.png",
+                "sections": [
+                    {
+                        "name": "Fireborn",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Big Lava Start",
+                "chest_unopened_img": "images/enemies/fireborn.png",
+                "chest_opened_img": "images/enemies/fireborn_bw.png",
+                "sections": [
+                    {
+                        "name": "Fireborn",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on First Bridge",
+                "chest_unopened_img": "images/enemies/fireborn.png",
+                "chest_opened_img": "images/enemies/fireborn_bw.png",
+                "sections": [
+                    {
+                        "name": "Fireborn",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Spider Cave",
+                "sections": [
+                    {
+                        "name": "Spider",
+                        "chest_unopened_img": "images/enemies/spider.png",
+                        "chest_opened_img": "images/enemies/spider_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|104049|104050|104051|104052"
+                        ]
+                    },
+                    {
+                        "name": "Cave Spider",
+                        "chest_unopened_img": "images/enemies/cave_spider.png",
+                        "chest_opened_img": "images/enemies/cave_spider_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|104053|104054"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Upper Bridges",
+                "chest_unopened_img": "images/enemies/fireborn.png",
+                "chest_opened_img": "images/enemies/fireborn_bw.png",
+                "sections": [
+                    {
+                        "name": "Fireborn",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|104055|104056"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Above Lava Platforms",
+                "chest_unopened_img": "images/enemies/fireborn.png",
+                "chest_opened_img": "images/enemies/fireborn_bw.png",
+                "sections": [
+                    {
+                        "name": "Fireborn",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|104057"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-7",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Lava",
+                "access_rules": [
+                    "^$can_jump_through_lava"
+                ],
+                "children": [
+                    {
+                        "name": "In Small Lava",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 6,
+                                "visibility_rules": [
+                                    "$id_exists|104007|104008|104009|104010|104011|104012"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Front Left Lava",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 7,
+                                "visibility_rules": [
+                                    "$id_exists|104016|104017|104018|104019|104020|104021|104022"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Back Left Lava",
+                        "chest_unopened_img": "images/items/ammo/bores.png",
+                        "chest_opened_img": "images/items/ammo/bores_bw.png",
+                        "sections": [
+                            {
+                                "name": "Bores",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|104023|104024|104025|104026"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Back Lava",
+                        "chest_unopened_img": "images/items/ammo/grenade.png",
+                        "chest_opened_img": "images/items/ammo/grenade_bw.png",
+                        "sections": [
+                            {
+                                "name": "Grenade",
+                                "item_count": 5,
+                                "visibility_rules": [
+                                    "$id_exists|104027|104028|104029|104030|104031"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-7",
+                                "x": 25,
+                                "y": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Return Room",
+                "access_rules": [
+                    "$map_access|4|7|mid"
+                ],
+                "children": [
+                    {
+                        "name": "In Return Room",
+                        "sections": [
+                            {
+                                "name": "Plasma Rounds",
+                                "chest_unopened_img": "images/items/ammo/plasma_rounds.png",
+                                "chest_opened_img": "images/items/ammo/plasma_rounds_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|104039"
+                                ]
+                            },
+                            {
+                                "name": "Clip",
+                                "chest_unopened_img": "images/items/ammo/clip.png",
+                                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|104040|104041"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-7",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }

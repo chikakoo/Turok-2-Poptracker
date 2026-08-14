@@ -6892,8 +6892,108 @@
         "name": "4-7",
         "sections": [
           {
-            "ref": "4-7/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-7/At Start/LF1",
+            "name": "[LF1] At Start"
+          },
+          {
+            "ref": "4-7/By Return Portal/Charge Dart Pak",
+            "name": "[Charge Dart Pak] By Return Portal"
+          },
+          {
+            "ref": "4-7/By Return Portal/Shells",
+            "name": "[Shells] By Return Portal"
+          },
+          {
+            "ref": "4-7/Small Lava Start/Mag 60",
+            "name": "[Mag 60] Small Lava Start"
+          },
+          {
+            "ref": "4-7/After Small Lava Switch/Full Health",
+            "name": "[Full Health] After Small Lava Switch"
+          },
+          {
+            "ref": "4-7/Big Lava Start/Plasma Rifle",
+            "name": "[Plasma Rifle] Big Lava Start"
+          },
+          {
+            "ref": "4-7/Big Lava Start/Shells",
+            "name": "[Shells] Big Lava Start"
+          },
+          {
+            "ref": "4-7/Big Lava Path Start/Shells",
+            "name": "[Shells] Big Lava Path Start"
+          },
+          {
+            "ref": "4-7/After Spider Cave/Blue Health",
+            "name": "[Blue Health] After Spider Cave"
+          },
+          {
+            "ref": "4-7/By Exit Drop/LF10",
+            "name": "[LF10] By Exit Drop"
+          },
+          {
+            "ref": "4-7/On Lava Platform/Ultra Health",
+            "name": "[Ultra Health] On Lava Platform"
+          },
+          {
+            "ref": "4-7/On Wall Above Lava/Shootable Switch",
+            "name": "[Shootable Switch] On Wall Above Lava"
+          },
+          {
+            "ref": "4-7/Enemy Before Lava/Leaper",
+            "name": "[Leaper] Enemy Before Lava"
+          },
+          {
+            "ref": "4-7/Enemy by Gate/Fireborn",
+            "name": "[Fireborn] Enemy by Gate"
+          },
+          {
+            "ref": "4-7/Enemy at Big Lava Start/Fireborn",
+            "name": "[Fireborn] Enemy at Big Lava Start"
+          },
+          {
+            "ref": "4-7/Enemy on First Bridge/Fireborn",
+            "name": "[Fireborn] Enemy on First Bridge"
+          },
+          {
+            "ref": "4-7/Enemy in Spider Cave/Spider",
+            "name": "[Spider] Enemy in Spider Cave"
+          },
+          {
+            "ref": "4-7/Enemy in Spider Cave/Cave Spider",
+            "name": "[Cave Spider] Enemy in Spider Cave"
+          },
+          {
+            "ref": "4-7/Enemy on Upper Bridges/Fireborn",
+            "name": "[Fireborn] Enemy on Upper Bridges"
+          },
+          {
+            "ref": "4-7/Enemy Above Lava Platforms/Fireborn",
+            "name": "[Fireborn] Enemy Above Lava Platforms"
+          },
+          {
+            "ref": "4-7/In Lava/In Small Lava/LF10",
+            "name": "[LF10] In Lava/In Small Lava"
+          },
+          {
+            "ref": "4-7/In Lava/In Front Left Lava/LF10",
+            "name": "[LF10] In Lava/In Front Left Lava"
+          },
+          {
+            "ref": "4-7/In Lava/In Back Left Lava/Bores",
+            "name": "[Bores] In Lava/In Back Left Lava"
+          },
+          {
+            "ref": "4-7/In Lava/In Back Lava/Grenade",
+            "name": "[Grenade] In Lava/In Back Lava"
+          },
+          {
+            "ref": "4-7/Return Room/In Return Room/Plasma Rounds",
+            "name": "[Plasma Rounds] Return Room/In Return Room"
+          },
+          {
+            "ref": "4-7/Return Room/In Return Room/Clip",
+            "name": "[Clip] Return Room/In Return Room"
           }
         ],
         "map_locations": [
