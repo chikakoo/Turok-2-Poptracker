@@ -4,15 +4,209 @@
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
-            "$map_access|4|5|mid,$has_unused_cave_door_key,cave_door_key:2,[cave_door_key:4],[$has_torpedo_launcher]"
+            "$map_access|4|5|mid,^$can_enter_cave_door_on_4_6a,[$has_torpedo_launcher]"
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Exit",
+                "chest_unopened_img": "images/items/weapons/nuke_parts.png",
+                "chest_opened_img": "images/items/weapons/nuke_parts_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Nuke Part",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|81000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-O",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Ladder Front",
+                "chest_unopened_img": "images/interactables/valve.png",
+                "chest_opened_img": "images/interactables/valve_bw.png",
+                "sections": [
+                    {
+                        "name": "Valve",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|81001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-O",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Ladder Back",
+                "chest_unopened_img": "images/interactables/valve.png",
+                "chest_opened_img": "images/interactables/valve_bw.png",
+                "sections": [
+                    {
+                        "name": "Valve",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|81002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-O",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Circular Room",
+                "chest_unopened_img": "images/interactables/valve.png",
+                "chest_opened_img": "images/interactables/valve_bw.png",
+                "sections": [
+                    {
+                        "name": "Valve",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|81003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-O",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Start",
+                "chest_unopened_img": "images/enemies/sentinel_oblivion.png",
+                "chest_opened_img": "images/enemies/sentinel_oblivion_bw.png",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|81004|81005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-O",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Ladder",
+                "chest_unopened_img": "images/enemies/death_guard.png",
+                "chest_opened_img": "images/enemies/death_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Death Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|81006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-O",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Ladder",
+                "chest_unopened_img": "images/enemies/death_guard.png",
+                "chest_opened_img": "images/enemies/death_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Death Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|81007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-O",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Circular Room",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "chest_unopened_img": "images/enemies/sentinel_oblivion.png",
+                        "chest_opened_img": "images/enemies/sentinel_oblivion_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|81008|81009"
+                        ]
+                    },
+                    {
+                        "name": "Death Guard",
+                        "chest_unopened_img": "images/enemies/death_guard.png",
+                        "chest_opened_img": "images/enemies/death_guard_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|81010|81011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-O",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Exit",
+                "sections": [
+                    {
+                        "name": "Lord of the Flesh",
+                        "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
+                        "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|81012"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-O",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

@@ -3,17 +3,822 @@
         "name": "4-6a",
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
-        // The cave door key at the start of this map should be: Min = 2, Max = 4
         "access_rules": [
-            "$map_access|4|5|mid,$has_unused_cave_door_key,cave_door_key:1,[cave_door_key:3],[$has_torpedo_launcher]"
+            "$map_access|4|5|mid,^$can_enter_cave_door_on_4_3,[$has_torpedo_launcher]"
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Cave Door Room",
+                "chest_unopened_img": "images/interactables/cave_door.png",
+                "chest_opened_img": "images/interactables/cave_door_bw.png",
+                "access_rules": [
+                    "^$can_enter_cave_door_on_4_6a"
+                ],
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Unlock Cave Door",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103069"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6a",
+                        "x": 50,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Start",
+                "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103035"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6a",
+                        "shape": "diamond",
+                        "x": 25,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Cave Door",
+                "access_rules": [
+                    "^$can_enter_cave_door_on_4_6a"
+                ],
+                "children": [
+                    {
+                        "name": "After Switch",
+                        "chest_unopened_img": "images/items/weapons_small/tek_bow.png",
+                        "chest_opened_img": "images/items/weapons_small/tek_bow_bw.png",
+                        "sections": [
+                            {
+                                "name": "Tek Bow",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103000"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 25,
+                                "y": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Behind Rock",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|103001|103002|103003|103004"
+                                ]
+                            },
+                            {
+                                "name": "Box of Grenades",
+                                "chest_unopened_img": "images/items/ammo/box_of_grenades.png",
+                                "chest_opened_img": "images/items/ammo/box_of_grenades_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103005"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "On Path to Bottom",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 5,
+                                "visibility_rules": [
+                                    "$id_exists|103006|103007|103008|103009|103010"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Bottom Alcove",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103011"
+                                ]
+                            },
+                            {
+                                "name": "Skull Switch",
+                                "chest_unopened_img": "images/interactables/switch_skull.png",
+                                "chest_opened_img": "images/interactables/switch_skull_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103033"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Spinning Platforms",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|103012|103013"
+                                ]
+                            },
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|103014|103015|103016"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Before Lava",
+                        "chest_unopened_img": "images/items/weapons_small/plasma_rifle.png",
+                        "chest_opened_img": "images/items/weapons_small/plasma_rifle_bw.png",
+                        "sections": [
+                            {
+                                "name": "Plasma Rifle",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103017"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Across Lava Platforms",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|103018|103019"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Lava",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "sections": [
+                            {
+                                "name": "Box of Bullets",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103020"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Up Wall",
+                        "sections": [
+                            {
+                                "name": "Quiver",
+                                "chest_unopened_img": "images/items/ammo/quiver_of_arrows.png",
+                                "chest_opened_img": "images/items/ammo/quiver_of_arrows_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103021"
+                                ]
+                            },
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103022"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Oblivion Portal Corner",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103023"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Oblivion Portal Between Rocks",
+                        "sections": [
+                            {
+                                "name": "Sunfire Pod",
+                                "chest_unopened_img": "images/items/weapons_small/sunfire_pod.png",
+                                "chest_opened_img": "images/items/weapons_small/sunfire_pod_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103024"
+                                ]
+                            },
+                            {
+                                "name": "LF1",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|103025|103026"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Spinning Platforms",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103027"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "On Bridge",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|103028|103029"
+                                ]
+                            },
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103030"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "End of Bridge",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "sections": [
+                            {
+                                "name": "Shells",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103031"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Cave Door",
+                        "chest_unopened_img": "images/interactables/switch_skull.png",
+                        "chest_opened_img": "images/interactables/switch_skull_bw.png",
+                        "sections": [
+                            {
+                                "name": "Skull Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103032"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Alcove",
+                        "chest_unopened_img": "images/interactables/switch_portal.png",
+                        "chest_opened_img": "images/interactables/switch_portal_bw.png",
+                        "sections": [
+                            {
+                                "name": "Oblivion Portal Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103034"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy After Cave Door",
+                        "chest_unopened_img": "images/enemies/nala.png",
+                        "chest_opened_img": "images/enemies/nala_bw.png",
+                        "sections": [
+                            {
+                                "name": "Nala",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|103036|103037|103038|103039"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Light Beams",
+                        "sections": [
+                            {
+                                "name": "Sentinel",
+                                "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103040"
+                                ]
+                            },
+                            {
+                                "name": "Guardian",
+                                "chest_unopened_img": "images/enemies/guardian.png",
+                                "chest_opened_img": "images/enemies/guardian_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103041"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy Sniper on Bridge",
+                        "chest_unopened_img": "images/enemies/guardian.png",
+                        "chest_opened_img": "images/enemies/guardian_bw.png",
+                        "sections": [
+                            {
+                                "name": "Guardian",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103042"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Lava Pools",
+                        "sections": [
+                            {
+                                "name": "Sentinel",
+                                "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103043"
+                                ]
+                            },
+                            {
+                                "name": "Guardian",
+                                "chest_unopened_img": "images/enemies/guardian.png",
+                                "chest_opened_img": "images/enemies/guardian_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103044"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Bottom Alcove",
+                        "chest_unopened_img": "images/enemies/cave_spider.png",
+                        "chest_opened_img": "images/enemies/cave_spider_bw.png",
+                        "sections": [
+                            {
+                                "name": "Cave Spider",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103045"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy Before Lava",
+                        "chest_unopened_img": "images/enemies/fireborn.png",
+                        "chest_opened_img": "images/enemies/fireborn_bw.png",
+                        "sections": [
+                            {
+                                "name": "Fireborn",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|103046|103047"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy Across Lava Platforms on Right",
+                        "chest_unopened_img": "images/enemies/fireborn.png",
+                        "chest_opened_img": "images/enemies/fireborn_bw.png",
+                        "sections": [
+                            {
+                                "name": "Fireborn",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103048"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy Across Lava Platforms on Left",
+                        "chest_unopened_img": "images/enemies/fireborn.png",
+                        "chest_opened_img": "images/enemies/fireborn_bw.png",
+                        "sections": [
+                            {
+                                "name": "Fireborn",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103049"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy After Lava",
+                        "chest_unopened_img": "images/enemies/nala.png",
+                        "chest_opened_img": "images/enemies/nala_bw.png",
+                        "sections": [
+                            {
+                                "name": "Nala",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|103050|103051"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Upper Lava Bridge",
+                        "chest_unopened_img": "images/enemies/fireborn.png",
+                        "chest_opened_img": "images/enemies/fireborn_bw.png",
+                        "sections": [
+                            {
+                                "name": "Fireborn",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103052"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy After Lava Caves",
+                        "sections": [
+                            {
+                                "name": "Spider",
+                                "chest_unopened_img": "images/enemies/spider.png",
+                                "chest_opened_img": "images/enemies/spider_bw.png",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|103053|103054|103055"
+                                ]
+                            },
+                            {
+                                "name": "Guardian",
+                                "chest_unopened_img": "images/enemies/guardian.png",
+                                "chest_opened_img": "images/enemies/guardian_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103056"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy Spawned From Blue Health",
+                        "chest_unopened_img": "images/enemies/cave_worm.png",
+                        "chest_opened_img": "images/enemies/cave_worm_bw.png",
+                        "sections": [
+                            {
+                                "name": "Cave Worm",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|103057|103058"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy Before Oblivion Portal Room",
+                        "chest_unopened_img": "images/enemies/nala.png",
+                        "chest_opened_img": "images/enemies/nala_bw.png",
+                        "sections": [
+                            {
+                                "name": "Nala",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|103059|103060|103061|103062"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Oblivion Portal",
+                        "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                        "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                        "sections": [
+                            {
+                                "name": "Sentinel",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103063"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Bridge Spawned From Standing Here",
+                        "sections": [
+                            {
+                                "name": "Spider",
+                                "chest_unopened_img": "images/enemies/spider.png",
+                                "chest_opened_img": "images/enemies/spider_bw.png",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|103064|103065|103066"
+                                ]
+                            },
+                            {
+                                "name": "Sentinel",
+                                "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103067"
+                                ]
+                            },
+                            {
+                                "name": "Guardian",
+                                "chest_unopened_img": "images/enemies/guardian.png",
+                                "chest_opened_img": "images/enemies/guardian_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|103068"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-6a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }

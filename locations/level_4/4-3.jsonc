@@ -340,6 +340,8 @@
             },
             {
                 "name": "Cave Door Room",
+                "chest_unopened_img": "images/interactables/cave_door.png",
+                "chest_opened_img": "images/interactables/cave_door_bw.png",
                 "access_rules": [
                     "^$can_enter_cave_door_on_4_3"
                 ],

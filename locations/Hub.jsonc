@@ -6652,8 +6652,180 @@
         "name": "4-6a",
         "sections": [
           {
-            "ref": "4-6a/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-6a/Cave Door Room/Unlock Cave Door",
+            "name": "[Unlock Cave Door] Cave Door Room"
+          },
+          {
+            "ref": "4-6a/At Start/Sentinel",
+            "name": "[Sentinel] At Start"
+          },
+          {
+            "ref": "4-6a/Cave Door/After Switch/Tek Bow",
+            "name": "[Tek Bow] Cave Door/After Switch"
+          },
+          {
+            "ref": "4-6a/Cave Door/Behind Rock/LF10",
+            "name": "[LF10] Cave Door/Behind Rock"
+          },
+          {
+            "ref": "4-6a/Cave Door/Behind Rock/Box of Grenades",
+            "name": "[Box of Grenades] Cave Door/Behind Rock"
+          },
+          {
+            "ref": "4-6a/Cave Door/On Path to Bottom/LF1",
+            "name": "[LF1] Cave Door/On Path to Bottom"
+          },
+          {
+            "ref": "4-6a/Cave Door/In Bottom Alcove/Blue Health",
+            "name": "[Blue Health] Cave Door/In Bottom Alcove"
+          },
+          {
+            "ref": "4-6a/Cave Door/In Bottom Alcove/Skull Switch",
+            "name": "[Skull Switch] Cave Door/In Bottom Alcove"
+          },
+          {
+            "ref": "4-6a/Cave Door/By Spinning Platforms/Blue Health",
+            "name": "[Blue Health] Cave Door/By Spinning Platforms"
+          },
+          {
+            "ref": "4-6a/Cave Door/By Spinning Platforms/LF10",
+            "name": "[LF10] Cave Door/By Spinning Platforms"
+          },
+          {
+            "ref": "4-6a/Cave Door/Before Lava/Plasma Rifle",
+            "name": "[Plasma Rifle] Cave Door/Before Lava"
+          },
+          {
+            "ref": "4-6a/Cave Door/Across Lava Platforms/Blue Health",
+            "name": "[Blue Health] Cave Door/Across Lava Platforms"
+          },
+          {
+            "ref": "4-6a/Cave Door/By Lava/Box of Bullets",
+            "name": "[Box of Bullets] Cave Door/By Lava"
+          },
+          {
+            "ref": "4-6a/Cave Door/Up Wall/Quiver",
+            "name": "[Quiver] Cave Door/Up Wall"
+          },
+          {
+            "ref": "4-6a/Cave Door/Up Wall/Blue Health",
+            "name": "[Blue Health] Cave Door/Up Wall"
+          },
+          {
+            "ref": "4-6a/Cave Door/Oblivion Portal Corner/Blue Health",
+            "name": "[Blue Health] Cave Door/Oblivion Portal Corner"
+          },
+          {
+            "ref": "4-6a/Cave Door/Oblivion Portal Between Rocks/Sunfire Pod",
+            "name": "[Sunfire Pod] Cave Door/Oblivion Portal Between Rocks"
+          },
+          {
+            "ref": "4-6a/Cave Door/Oblivion Portal Between Rocks/LF1",
+            "name": "[LF1] Cave Door/Oblivion Portal Between Rocks"
+          },
+          {
+            "ref": "4-6a/Cave Door/After Spinning Platforms/Blue Health",
+            "name": "[Blue Health] Cave Door/After Spinning Platforms"
+          },
+          {
+            "ref": "4-6a/Cave Door/On Bridge/LF10",
+            "name": "[LF10] Cave Door/On Bridge"
+          },
+          {
+            "ref": "4-6a/Cave Door/On Bridge/Blue Health",
+            "name": "[Blue Health] Cave Door/On Bridge"
+          },
+          {
+            "ref": "4-6a/Cave Door/End of Bridge/Shells",
+            "name": "[Shells] Cave Door/End of Bridge"
+          },
+          {
+            "ref": "4-6a/Cave Door/After Cave Door/Skull Switch",
+            "name": "[Skull Switch] Cave Door/After Cave Door"
+          },
+          {
+            "ref": "4-6a/Cave Door/In Alcove/Oblivion Portal Switch",
+            "name": "[Oblivion Portal Switch] Cave Door/In Alcove"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy After Cave Door/Nala",
+            "name": "[Nala] Cave Door/Enemy After Cave Door"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy by Light Beams/Sentinel",
+            "name": "[Sentinel] Cave Door/Enemy by Light Beams"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy by Light Beams/Guardian",
+            "name": "[Guardian] Cave Door/Enemy by Light Beams"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy Sniper on Bridge/Guardian",
+            "name": "[Guardian] Cave Door/Enemy Sniper on Bridge"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy by Lava Pools/Sentinel",
+            "name": "[Sentinel] Cave Door/Enemy by Lava Pools"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy by Lava Pools/Guardian",
+            "name": "[Guardian] Cave Door/Enemy by Lava Pools"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy in Bottom Alcove/Cave Spider",
+            "name": "[Cave Spider] Cave Door/Enemy in Bottom Alcove"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy Before Lava/Fireborn",
+            "name": "[Fireborn] Cave Door/Enemy Before Lava"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy Across Lava Platforms on Right/Fireborn",
+            "name": "[Fireborn] Cave Door/Enemy Across Lava Platforms on Right"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy Across Lava Platforms on Left/Fireborn",
+            "name": "[Fireborn] Cave Door/Enemy Across Lava Platforms on Left"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy After Lava/Nala",
+            "name": "[Nala] Cave Door/Enemy After Lava"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy on Upper Lava Bridge/Fireborn",
+            "name": "[Fireborn] Cave Door/Enemy on Upper Lava Bridge"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy After Lava Caves/Spider",
+            "name": "[Spider] Cave Door/Enemy After Lava Caves"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy After Lava Caves/Guardian",
+            "name": "[Guardian] Cave Door/Enemy After Lava Caves"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy Spawned From Blue Health/Cave Worm",
+            "name": "[Cave Worm] Cave Door/Enemy Spawned From Blue Health"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy Before Oblivion Portal Room/Nala",
+            "name": "[Nala] Cave Door/Enemy Before Oblivion Portal Room"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy by Oblivion Portal/Sentinel",
+            "name": "[Sentinel] Cave Door/Enemy by Oblivion Portal"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy on Bridge Spawned From Standing Here/Spider",
+            "name": "[Spider] Cave Door/Enemy on Bridge Spawned From Standing Here"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy on Bridge Spawned From Standing Here/Sentinel",
+            "name": "[Sentinel] Cave Door/Enemy on Bridge Spawned From Standing Here"
+          },
+          {
+            "ref": "4-6a/Cave Door/Enemy on Bridge Spawned From Standing Here/Guardian",
+            "name": "[Guardian] Cave Door/Enemy on Bridge Spawned From Standing Here"
           }
         ],
         "map_locations": [
@@ -6668,8 +6840,44 @@
         "name": "4-O",
         "sections": [
           {
-            "ref": "4-O/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-O/Exit/Nuke Part",
+            "name": "[Nuke Part] Exit"
+          },
+          {
+            "ref": "4-O/Up Ladder Front/Valve",
+            "name": "[Valve] Up Ladder Front"
+          },
+          {
+            "ref": "4-O/Up Ladder Back/Valve",
+            "name": "[Valve] Up Ladder Back"
+          },
+          {
+            "ref": "4-O/Circular Room/Valve",
+            "name": "[Valve] Circular Room"
+          },
+          {
+            "ref": "4-O/Enemy at Start/Sentinel",
+            "name": "[Sentinel] Enemy at Start"
+          },
+          {
+            "ref": "4-O/Enemy by Ladder/Death Guard",
+            "name": "[Death Guard] Enemy by Ladder"
+          },
+          {
+            "ref": "4-O/Enemy up Ladder/Death Guard",
+            "name": "[Death Guard] Enemy up Ladder"
+          },
+          {
+            "ref": "4-O/Enemy in Circular Room/Sentinel",
+            "name": "[Sentinel] Enemy in Circular Room"
+          },
+          {
+            "ref": "4-O/Enemy in Circular Room/Death Guard",
+            "name": "[Death Guard] Enemy in Circular Room"
+          },
+          {
+            "ref": "4-O/Enemy by Exit/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy by Exit"
           }
         ],
         "map_locations": [
