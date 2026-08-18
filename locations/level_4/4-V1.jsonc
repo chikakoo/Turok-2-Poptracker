@@ -47,6 +47,7 @@
                 "map_locations": [
                     {
                         "map": "4-V1",
+                        "shape": "trapezoid",
                         "x": 25,
                         "y": 0
                     }

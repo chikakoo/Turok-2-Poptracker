@@ -243,9 +243,7 @@ end
 ---Min 3: Must open the 4-3/4-6a doors to get here
 ---Max 5: Could open the 4-1/4-V1 doors, but can't progress without this one
 function can_enter_cave_door_on_4_8a()
-    -- TODO: fix use the below when that location actually exists and add it to can_enter_cave_door
-    return false
-    --return can_enter_cave_door(3, 5, "@4-8a/Cave Door Room/Unlock Cave Door")
+    return can_enter_cave_door(3, 5, "@4-8a/Path Bottom/Unlock Cave Door")
 end
 
 --TODO: add locations for...
@@ -270,9 +268,9 @@ function can_enter_cave_door(min_keys, max_keys, cave_door_name)
             "@4-1/Whispers/Whispers Drop/Unlock Cave Door",
             "@4-3/Cave Door Room/Unlock Cave Door",
             "@4-V1/Cave Door Room/Unlock Cave Door",
-            "@4-6a/Cave Door Room/Unlock Cave Door"
+            "@4-6a/Cave Door Room/Unlock Cave Door",
+            "@4-8a/Path Bottom/Unlock Cave Door"
             --TODO: add locations for...
-            -- 4-8a
             -- 4-V3 (1)
             -- 4-V3 (2)
         }

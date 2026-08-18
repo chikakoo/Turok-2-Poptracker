@@ -30,8 +30,8 @@
             },
             {
                 "name": "In Arena",
-                "chest_unopened_img": "images/items/keys/primagen_key_5.png",
-                "chest_opened_img": "images/items/keys/primagen_key_5_bw.png",
+                "chest_unopened_img": "images/items/keys/level_5_key.png",
+                "chest_opened_img": "images/items/keys/level_5_key_bw.png",
                 "sections": [
                     {
                         "name": "Level Key",

@@ -26,6 +26,7 @@
                 "map_locations": [
                     {
                         "map": "4-6a",
+                        "shape": "trapezoid",
                         "x": 50,
                         "y": 0
                     }

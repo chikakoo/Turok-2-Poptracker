@@ -7008,8 +7008,304 @@
         "name": "4-8a",
         "sections": [
           {
-            "ref": "4-8a/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-8a/First Cave/Flame Thrower",
+            "name": "[Flame Thrower] First Cave"
+          },
+          {
+            "ref": "4-8a/Behind Rocks/Tek Bow",
+            "name": "[Tek Bow] Behind Rocks"
+          },
+          {
+            "ref": "4-8a/Bottom Stalagmite/Flame Thrower",
+            "name": "[Flame Thrower] Bottom Stalagmite"
+          },
+          {
+            "ref": "4-8a/In Bottom Cave/Explosive Shells",
+            "name": "[Explosive Shells] In Bottom Cave"
+          },
+          {
+            "ref": "4-8a/In Bottom Cave/Clip",
+            "name": "[Clip] In Bottom Cave"
+          },
+          {
+            "ref": "4-8a/End of Bottom Path/Grenade Launcher",
+            "name": "[Grenade Launcher] End of Bottom Path"
+          },
+          {
+            "ref": "4-8a/Behind Stalagmite/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Behind Stalagmite"
+          },
+          {
+            "ref": "4-8a/Narrow Path Start/Blue Health",
+            "name": "[Blue Health] Narrow Path Start"
+          },
+          {
+            "ref": "4-8a/Narrow Path Top/Flame Thrower",
+            "name": "[Flame Thrower] Narrow Path Top"
+          },
+          {
+            "ref": "4-8a/After Checkpoint Gate/Tek Quiver",
+            "name": "[Tek Quiver] After Checkpoint Gate"
+          },
+          {
+            "ref": "4-8a/Ledge After Checkpoint/Sunfire Pod",
+            "name": "[Sunfire Pod] Ledge After Checkpoint"
+          },
+          {
+            "ref": "4-8a/Path After Jump/Blue Health",
+            "name": "[Blue Health] Path After Jump"
+          },
+          {
+            "ref": "4-8a/Path After Jump/Explosive Shells",
+            "name": "[Explosive Shells] Path After Jump"
+          },
+          {
+            "ref": "4-8a/Tunnel After Path/Shredder",
+            "name": "[Shredder] Tunnel After Path"
+          },
+          {
+            "ref": "4-8a/At Intersection/Shells",
+            "name": "[Shells] At Intersection"
+          },
+          {
+            "ref": "4-8a/By Cave Door/Blue Health",
+            "name": "[Blue Health] By Cave Door"
+          },
+          {
+            "ref": "4-8a/By Cave Door/Plasma Rifle",
+            "name": "[Plasma Rifle] By Cave Door"
+          },
+          {
+            "ref": "4-8a/At Ledge End/Shells",
+            "name": "[Shells] At Ledge End"
+          },
+          {
+            "ref": "4-8a/Ledge Jump/LF10",
+            "name": "[LF10] Ledge Jump"
+          },
+          {
+            "ref": "4-8a/Ledge Jump/Full Health",
+            "name": "[Full Health] Ledge Jump"
+          },
+          {
+            "ref": "4-8a/In Ledge Jump Room/Plasma Rounds",
+            "name": "[Plasma Rounds] In Ledge Jump Room"
+          },
+          {
+            "ref": "4-8a/In Ledge Jump Room/Explosive Shells",
+            "name": "[Explosive Shells] In Ledge Jump Room"
+          },
+          {
+            "ref": "4-8a/Ledge Jump Path End/Cerebral Bore",
+            "name": "[Cerebral Bore] Ledge Jump Path End"
+          },
+          {
+            "ref": "4-8a/Drop Down/Blue Health",
+            "name": "[Blue Health] Drop Down"
+          },
+          {
+            "ref": "4-8a/Drop Down Path End/Cave Door Key",
+            "name": "[Cave Door Key] Drop Down Path End"
+          },
+          {
+            "ref": "4-8a/Path Bottom/Unlock Cave Door",
+            "name": "[Unlock Cave Door] Path Bottom"
+          },
+          {
+            "ref": "4-8a/Enemy in First Cave/Cave Worm",
+            "name": "[Cave Worm] Enemy in First Cave"
+          },
+          {
+            "ref": "4-8a/Enemy After First Cave/Nala",
+            "name": "[Nala] Enemy After First Cave"
+          },
+          {
+            "ref": "4-8a/Enemy at Bottom Cave Start/Guardian",
+            "name": "[Guardian] Enemy at Bottom Cave Start"
+          },
+          {
+            "ref": "4-8a/Enemy in First Bottom Cave/Leaper",
+            "name": "[Leaper] Enemy in First Bottom Cave"
+          },
+          {
+            "ref": "4-8a/Enemy Above First Bottom Cave/Spider",
+            "name": "[Spider] Enemy Above First Bottom Cave"
+          },
+          {
+            "ref": "4-8a/Enemy in Second Bottom Cave/Cave Spider",
+            "name": "[Cave Spider] Enemy in Second Bottom Cave"
+          },
+          {
+            "ref": "4-8a/Enemy Above Second Bottom Cave/Spider",
+            "name": "[Spider] Enemy Above Second Bottom Cave"
+          },
+          {
+            "ref": "4-8a/Enemy After First Cave/Sentinel",
+            "name": "[Sentinel] Enemy After First Cave"
+          },
+          {
+            "ref": "4-8a/Enemy on Narrow Path/Guardian",
+            "name": "[Guardian] Enemy on Narrow Path"
+          },
+          {
+            "ref": "4-8a/Enemy on Narrow Path/Sentinel",
+            "name": "[Sentinel] Enemy on Narrow Path"
+          },
+          {
+            "ref": "4-8a/Enemy on Narrow Path End/Spider",
+            "name": "[Spider] Enemy on Narrow Path End"
+          },
+          {
+            "ref": "4-8a/Enemy by Checkpoint/Cave Spider",
+            "name": "[Cave Spider] Enemy by Checkpoint"
+          },
+          {
+            "ref": "4-8a/Enemy on Ledge After Checkpoint/Endtrail",
+            "name": "[Endtrail] Enemy on Ledge After Checkpoint"
+          },
+          {
+            "ref": "4-8a/Enemy on Path/Endtrail",
+            "name": "[Endtrail] Enemy on Path"
+          },
+          {
+            "ref": "4-8a/Enemy at Tunnel Start/Sentinel",
+            "name": "[Sentinel] Enemy at Tunnel Start"
+          },
+          {
+            "ref": "4-8a/Enemy in Tunnel/Spider",
+            "name": "[Spider] Enemy in Tunnel"
+          },
+          {
+            "ref": "4-8a/Enemy in Tunnel/Guardian",
+            "name": "[Guardian] Enemy in Tunnel"
+          },
+          {
+            "ref": "4-8a/Enemy at Intersection/Guardian",
+            "name": "[Guardian] Enemy at Intersection"
+          },
+          {
+            "ref": "4-8a/Enemy at Back of Path/Guardian",
+            "name": "[Guardian] Enemy at Back of Path"
+          },
+          {
+            "ref": "4-8a/Enemy on Upper Path/Endtrail",
+            "name": "[Endtrail] Enemy on Upper Path"
+          },
+          {
+            "ref": "4-8a/Enemy in Ledge Jump Room/Guardian",
+            "name": "[Guardian] Enemy in Ledge Jump Room"
+          },
+          {
+            "ref": "4-8a/Enemy After Ledge Jump Room/Nala",
+            "name": "[Nala] Enemy After Ledge Jump Room"
+          },
+          {
+            "ref": "4-8a/Enemy After Ledge Jump Room/Endtrail",
+            "name": "[Endtrail] Enemy After Ledge Jump Room"
+          },
+          {
+            "ref": "4-8a/Enemy Spawned From Standing Here/Either Sentinel",
+            "name": "[Either Sentinel] Enemy Spawned From Standing Here"
+          },
+          {
+            "ref": "4-8a/Cave Door/In First Corner/Clip",
+            "name": "[Clip] Cave Door/In First Corner"
+          },
+          {
+            "ref": "4-8a/Cave Door/In Second Corner/Shells",
+            "name": "[Shells] Cave Door/In Second Corner"
+          },
+          {
+            "ref": "4-8a/Cave Door/After Spider Cave/Mag 60",
+            "name": "[Mag 60] Cave Door/After Spider Cave"
+          },
+          {
+            "ref": "4-8a/Cave Door/Level Key Room/Level Key",
+            "name": "[Level Key] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-8a/Cave Door/Level Key Room/Tek Quiver",
+            "name": "[Tek Quiver] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-8a/Cave Door/Level Key Room/Plasma Pak",
+            "name": "[Plasma Pak] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-8a/Cave Door/Level Key Room/Box of Bullets",
+            "name": "[Box of Bullets] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-8a/Cave Door/Level Key Room/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-8a/Cave Door/Level Key Room/Box of Shells",
+            "name": "[Box of Shells] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-8a/Cave Door/Level Key Room/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Cave Door/Level Key Room"
+          },
+          {
+            "ref": "4-8a/Cave Door/After Level Key Room/Full Health",
+            "name": "[Full Health] Cave Door/After Level Key Room"
+          },
+          {
+            "ref": "4-8a/Cave Door/After Last Cave/Mag 60",
+            "name": "[Mag 60] Cave Door/After Last Cave"
+          },
+          {
+            "ref": "4-8a/Cave Door/After Last Cave/Satchel Charge",
+            "name": "[Satchel Charge] Cave Door/After Last Cave"
+          },
+          {
+            "ref": "4-8a/Cave Door/Left Fork/Blue Health",
+            "name": "[Blue Health] Cave Door/Left Fork"
+          },
+          {
+            "ref": "4-8a/Cave Door/At Exit Drop/Blue Health",
+            "name": "[Blue Health] Cave Door/At Exit Drop"
+          },
+          {
+            "ref": "4-8a/Cave Door/Enemy After Cave Door/Spider",
+            "name": "[Spider] Cave Door/Enemy After Cave Door"
+          },
+          {
+            "ref": "4-8a/Cave Door/Enemy After Cave Door/Cave Spider",
+            "name": "[Cave Spider] Cave Door/Enemy After Cave Door"
+          },
+          {
+            "ref": "4-8a/Cave Door/Enemy in Level Key Room/Nala",
+            "name": "[Nala] Cave Door/Enemy in Level Key Room"
+          },
+          {
+            "ref": "4-8a/Cave Door/Enemy in Level Key Room/Guardian",
+            "name": "[Guardian] Cave Door/Enemy in Level Key Room"
+          },
+          {
+            "ref": "4-8a/Cave Door/Enemy in Level Key Room/Sentinel",
+            "name": "[Sentinel] Cave Door/Enemy in Level Key Room"
+          },
+          {
+            "ref": "4-8a/Cave Door/Enemy in Final Cave/Endtrail",
+            "name": "[Endtrail] Cave Door/Enemy in Final Cave"
+          },
+          {
+            "ref": "4-8a/Cave Door/Enemy After Final Cave/Any Raptoid",
+            "name": "[Any Raptoid] Cave Door/Enemy After Final Cave"
+          },
+          {
+            "ref": "4-8a/Cave Door/Enemy Spawned From Blue Health/Cave Worm",
+            "name": "[Cave Worm] Cave Door/Enemy Spawned From Blue Health"
+          },
+          {
+            "ref": "4-8a/Cave Door/Enemy by Exit Drop/Spider",
+            "name": "[Spider] Cave Door/Enemy by Exit Drop"
+          },
+          {
+            "ref": "4-8a/Cave Door/Enemy by Exit Drop/Cave Spider",
+            "name": "[Cave Spider] Cave Door/Enemy by Exit Drop"
           }
         ],
         "map_locations": [
