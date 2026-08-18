@@ -7140,8 +7140,8 @@
             "name": "[Spider] Enemy Above Second Bottom Cave"
           },
           {
-            "ref": "4-8a/Enemy After First Cave/Sentinel",
-            "name": "[Sentinel] Enemy After First Cave"
+            "ref": "4-8a/Enemy Before Narrow Path/Sentinel",
+            "name": "[Sentinel] Enemy Before Narrow Path"
           },
           {
             "ref": "4-8a/Enemy on Narrow Path/Guardian",
@@ -7320,8 +7320,132 @@
         "name": "4-V3",
         "sections": [
           {
-            "ref": "4-V3/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-V3/At Start/Blue Health",
+            "name": "[Blue Health] At Start"
+          },
+          {
+            "ref": "4-V3/At Intersection/Quiver",
+            "name": "[Quiver] At Intersection"
+          },
+          {
+            "ref": "4-V3/By Return Portal/Bores",
+            "name": "[Bores] By Return Portal"
+          },
+          {
+            "ref": "4-V3/By Return Portal/Sunfire Pod",
+            "name": "[Sunfire Pod] By Return Portal"
+          },
+          {
+            "ref": "4-V3/In Bottom Corner/Clip",
+            "name": "[Clip] In Bottom Corner"
+          },
+          {
+            "ref": "4-V3/Bottom Left/Clip",
+            "name": "[Clip] Bottom Left"
+          },
+          {
+            "ref": "4-V3/Bottom Left Under Ramp/Shells",
+            "name": "[Shells] Bottom Left Under Ramp"
+          },
+          {
+            "ref": "4-V3/Bottom Right/Shells",
+            "name": "[Shells] Bottom Right"
+          },
+          {
+            "ref": "4-V3/Bottom Right Under Ramp/LF1",
+            "name": "[LF1] Bottom Right Under Ramp"
+          },
+          {
+            "ref": "4-V3/Bottom Right Under Ramp/Blue Health",
+            "name": "[Blue Health] Bottom Right Under Ramp"
+          },
+          {
+            "ref": "4-V3/Top Left Huts/Grenade",
+            "name": "[Grenade] Top Left Huts"
+          },
+          {
+            "ref": "4-V3/Top Left Huts/Bores",
+            "name": "[Bores] Top Left Huts"
+          },
+          {
+            "ref": "4-V3/Top Left Huts/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Top Left Huts"
+          },
+          {
+            "ref": "4-V3/Top Left Huts/Clip",
+            "name": "[Clip] Top Left Huts"
+          },
+          {
+            "ref": "4-V3/Top Left Huts/Cave Door Key",
+            "name": "[Cave Door Key] Top Left Huts"
+          },
+          {
+            "ref": "4-V3/Top Right Huts/Shells",
+            "name": "[Shells] Top Right Huts"
+          },
+          {
+            "ref": "4-V3/Top Right Huts/Plasma Rounds",
+            "name": "[Plasma Rounds] Top Right Huts"
+          },
+          {
+            "ref": "4-V3/Top Right Huts/Clip",
+            "name": "[Clip] Top Right Huts"
+          },
+          {
+            "ref": "4-V3/Top Right Huts/Bores",
+            "name": "[Bores] Top Right Huts"
+          },
+          {
+            "ref": "4-V3/Top Right Huts/Cave Door Key",
+            "name": "[Cave Door Key] Top Right Huts"
+          },
+          {
+            "ref": "4-V3/At Cave Door/Clip",
+            "name": "[Clip] At Cave Door"
+          },
+          {
+            "ref": "4-V3/At Cave Door/Blue Health",
+            "name": "[Blue Health] At Cave Door"
+          },
+          {
+            "ref": "4-V3/At Cave Door/Grenade Launcher",
+            "name": "[Grenade Launcher] At Cave Door"
+          },
+          {
+            "ref": "4-V3/Cave Door Right/Place Left Key",
+            "name": "[Place Left Key] Cave Door Right"
+          },
+          {
+            "ref": "4-V3/Cave Door Right/Place Right Key",
+            "name": "[Place Right Key] Cave Door Right"
+          },
+          {
+            "ref": "4-V3/Enemy on Bottom/Sentinel",
+            "name": "[Sentinel] Enemy on Bottom"
+          },
+          {
+            "ref": "4-V3/Enemy on Bridge/Guardian",
+            "name": "[Guardian] Enemy on Bridge"
+          },
+          {
+            "ref": "4-V3/Enemy in Left Huts/Guardian",
+            "name": "[Guardian] Enemy in Left Huts"
+          },
+          {
+            "ref": "4-V3/Enemy in Right Huts/Guardian",
+            "name": "[Guardian] Enemy in Right Huts"
+          },
+          {
+            "ref": "4-V3/Enemy at Cave Door/Sentinel",
+            "name": "[Sentinel] Enemy at Cave Door"
+          },
+          {
+            "ref": "4-V3/Cave Door/By Vent/Sunfire Pod",
+            "name": "[Sunfire Pod] Cave Door/By Vent"
+          },
+          {
+            "ref": "4-V3/Cave Door/On Top Platform/Seal Vent",
+            "name": "[Seal Vent] Cave Door/On Top Platform"
           }
         ],
         "map_locations": [

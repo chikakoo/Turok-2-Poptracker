@@ -8,9 +8,8 @@ CAVE_DOOR_4_3 = "@4-3/Cave Door Room/Unlock Cave Door"
 CAVE_DOOR_4_V1 = "@4-V1/Cave Door Room/Unlock Cave Door"
 CAVE_DOOR_4_6a = "@4-6a/Cave Door Room/Unlock Cave Door"
 CAVE_DOOR_4_8a = "@4-8a/Path Bottom/Unlock Cave Door"
---TODO: add locations for...
--- CAVE_DOOR_4_V3_LEFT
--- CAVE_DOOR_4_V3_RIGHT
+CAVE_DOOR_4_V3_LEFT = "@4-V3/Cave Door Right/Place Left Key"
+CAVE_DOOR_4_V3_RIGHT = "@4-V3/Cave Door Right/Place Right Key"
 
 ---Checks whether the id of the given location exists as a location in the seed
 ---Accepts any number of args and returns the number of then that do exist
@@ -153,7 +152,12 @@ end
 ---Returns whether the player has unused items, given the item and all locations it's used
 ---@param mission_item string code for the item
 ---@param mission_item_locations array of strings of the locations the item is used
-function has_unused_mission_item(mission_item, mission_item_locations)
+---@param count_to_check number indicating the number of mission items to check (defaults to 1)
+function has_unused_mission_item(mission_item, mission_item_locations, count_to_check)
+    if count_to_check == nil then
+        count_to_check = 1
+    end
+
     local used_items = 0
     for _, location in pairs(mission_item_locations) do
         if Tracker:FindObjectForCode(location).AvailableChestCount == 0 then
@@ -161,7 +165,7 @@ function has_unused_mission_item(mission_item, mission_item_locations)
         end
     end
 
-    return Tracker:ProviderCountForCode(mission_item) - used_items > 0
+    return Tracker:ProviderCountForCode(mission_item) - used_items >= count_to_check
 end
 
 ---Returns whether the player has an unused power cell
@@ -208,15 +212,36 @@ function level_3_4b_access()
 end
 
 ---Returns whether the player has an unused level 4 satchel charge
----TODO: Add the other locations when they exist
 function has_unused_l4_satchel_charge()
     return has_unused_mission_item(
         "l4_satchel_charge",
         {
             "@4-V1/Cave Door/On Top Platform/Seal Vent",
-            "@4-V2/On Top Platform/Seal Vent"
-            --"@4-V3/Cave Door/On Top Platform/Seal Vent"
+            "@4-V2/On Top Platform/Seal Vent",
+            "@4-V3/Cave Door/On Top Platform/Seal Vent"
         }
+    )
+end
+
+---Returns whether the player has the given number of unused cave door keys
+---@param count number of cave door keys to check for (defaults to 1)
+function has_unused_cave_door_keys(count)
+    if count == nil then
+        count = 1
+    end
+
+    return has_unused_mission_item(
+        "cave_door_key",
+        {
+            CAVE_DOOR_4_1,
+            CAVE_DOOR_4_3,
+            CAVE_DOOR_4_V1,
+            CAVE_DOOR_4_6a,
+            CAVE_DOOR_4_8a,
+            CAVE_DOOR_4_V3_LEFT,
+            CAVE_DOOR_4_V3_RIGHT
+        },
+        count
     )
 end
 
@@ -245,7 +270,7 @@ end
 ---Min 2: Must open the 4-3 door to get here
 ---Max 4: Could open the 4-1/4-V1 doors, but can't progress without this one
 function can_enter_cave_door_on_4_6a()
-    min_keys = 2 + number_of_early_cave_door_keys_used()
+    min_keys = 2 + number_of_cave_door_keys_used({CAVE_DOOR_4_1, CAVE_DOOR_4_V1})
     return can_enter_cave_door(min_keys, 4, CAVE_DOOR_4_6a)
 end
 
@@ -253,26 +278,43 @@ end
 ---Min 3: Must open the 4-3/4-6a doors to get here
 ---Max 5: Could open the 4-1/4-V1 doors, but can't progress without this one
 function can_enter_cave_door_on_4_8a()
-    min_keys = 3 + number_of_early_cave_door_keys_used()
+    min_keys = 3 + number_of_cave_door_keys_used({CAVE_DOOR_4_1, CAVE_DOOR_4_V1})
     return can_enter_cave_door(min_keys, 5, CAVE_DOOR_4_8a)
 end
 
---TODO: add locations for...
--- 4-V3 LEFT
--- 4-V3 RIGHT
+---Returns whether the 4-V3 cave door can be entered.
+---This one assumes that you can get to 4-V3 already, so it just checks whether both keys can be placed.
+function can_enter_cave_door_on_4_v3()
+    -- If you have the max keys, then you can definitely go in
+    if has("cave_door_key", 7) then
+        return AccessibilityLevel.Normal
+    end
+
+    needed_cave_door_keys = 2 - number_of_cave_door_keys_used({CAVE_DOOR_4_V3_LEFT, CAVE_DOOR_4_V3_RIGHT})
+
+    -- No needed keys means both doors are open already
+    if needed_cave_door_keys == 0 then
+        return AccessibilityLevel.Normal
+    end
+
+    -- If the player doesn't have enough keys, then they cannot get here
+    if not has_unused_cave_door_keys(needed_cave_door_keys) then
+        return AccessibilityLevel.None
+    end
+
+    -- Else it means the player has enough, but isn't guaranteed to be able to enter
+    return AccessibilityLevel.SequenceBreak
+end
 
 ---Returns the number of early cave door keys used.
 ---This helps not show too many out of logic location when we know how deep it's possible to go.
----Currently tracks the doors in 4-1 and 4-V1, so this should be used for doors AFTER these locations!
-function number_of_early_cave_door_keys_used()
+function number_of_cave_door_keys_used(cave_door_locations)
     local used_keys = 0
 
-    if Tracker:FindObjectForCode(CAVE_DOOR_4_1).AvailableChestCount == 0 then
-        used_keys = used_keys + 1
-    end
-
-    if Tracker:FindObjectForCode(CAVE_DOOR_4_V1).AvailableChestCount == 0 then
-        used_keys = used_keys + 1
+    for _, location in pairs(cave_door_locations) do
+        if Tracker:FindObjectForCode(location).AvailableChestCount == 0 then
+            used_keys = used_keys + 1
+        end
     end
 
     return used_keys
@@ -290,19 +332,7 @@ function can_enter_cave_door(min_keys, max_keys, cave_door_name)
     end
 
     -- If you have no more keys left, you can't open another one
-    if not has_unused_mission_item(
-        "cave_door_key",
-        {
-            CAVE_DOOR_4_1,
-            CAVE_DOOR_4_3,
-            CAVE_DOOR_4_V1,
-            CAVE_DOOR_4_6a,
-            CAVE_DOOR_4_8a
-            --TODO: add locations for...
-            -- 4-V3 (1)
-            -- 4-V3 (2)
-        }
-    ) then
+    if not has_unused_cave_door_keys() then
         return AccessibilityLevel.None
     end
 

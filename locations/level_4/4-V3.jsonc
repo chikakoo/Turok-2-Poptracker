@@ -3,17 +3,539 @@
         "name": "4-V3",
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
-        // The post-cave door key checks should be: Min: 5, Max: 7
         "access_rules": [
             "$map_access|4|8|mid,^$can_enter_cave_door_on_4_8a,[$has_torpedo_launcher]"
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Start",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Intersection",
+                "chest_unopened_img": "images/items/ammo/quiver_of_arrows.png",
+                "chest_opened_img": "images/items/ammo/quiver_of_arrows_bw.png",
+                "sections": [
+                    {
+                        "name": "Quiver",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Return Portal",
+                "sections": [
+                    {
+                        "name": "Bores",
+                        "chest_unopened_img": "images/items/ammo/bores.png",
+                        "chest_opened_img": "images/items/ammo/bores_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108002"
+                        ]
+                    },
+                    {
+                        "name": "Sunfire Pod",
+                        "chest_unopened_img": "images/items/weapons_small/sunfire_pod.png",
+                        "chest_opened_img": "images/items/weapons_small/sunfire_pod_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Bottom Corner",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Bottom Left",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Bottom Left Under Ramp",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Bottom Right",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Bottom Right Under Ramp",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|108008|108009"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Top Left Huts",
+                "sections": [
+                    {
+                        "name": "Grenade",
+                        "chest_unopened_img": "images/items/ammo/grenade.png",
+                        "chest_opened_img": "images/items/ammo/grenade_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108011"
+                        ]
+                    },
+                    {
+                        "name": "Bores",
+                        "chest_unopened_img": "images/items/ammo/bores.png",
+                        "chest_opened_img": "images/items/ammo/bores_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108012"
+                        ]
+                    },
+                    {
+                        "name": "Charge Dart Pak",
+                        "chest_unopened_img": "images/items/ammo/charge_darts_pak.png",
+                        "chest_opened_img": "images/items/ammo/charge_darts_pak_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108013"
+                        ]
+                    },
+                    {
+                        "name": "Clip",
+                        "chest_unopened_img": "images/items/ammo/clip.png",
+                        "chest_opened_img": "images/items/ammo/clip_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108014"
+                        ]
+                    },
+                    {
+                        "name": "Cave Door Key",
+                        "chest_unopened_img": "images/items/mission/cave_door_key.png",
+                        "chest_opened_img": "images/items/mission/cave_door_key_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108015"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Top Right Huts",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108016"
+                        ]
+                    },
+                    {
+                        "name": "Plasma Rounds",
+                        "chest_unopened_img": "images/items/ammo/plasma_rounds.png",
+                        "chest_opened_img": "images/items/ammo/plasma_rounds_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108017"
+                        ]
+                    },
+                    {
+                        "name": "Clip",
+                        "chest_unopened_img": "images/items/ammo/clip.png",
+                        "chest_opened_img": "images/items/ammo/clip_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108018"
+                        ]
+                    },
+                    {
+                        "name": "Bores",
+                        "chest_unopened_img": "images/items/ammo/bores.png",
+                        "chest_opened_img": "images/items/ammo/bores_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108019"
+                        ]
+                    },
+                    {
+                        "name": "Cave Door Key",
+                        "chest_unopened_img": "images/items/mission/cave_door_key.png",
+                        "chest_opened_img": "images/items/mission/cave_door_key_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108020"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Cave Door",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "chest_unopened_img": "images/items/ammo/clip.png",
+                        "chest_opened_img": "images/items/ammo/clip_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|108021|108022"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108023"
+                        ]
+                    },
+                    {
+                        "name": "Grenade Launcher",
+                        "chest_unopened_img": "images/items/weapons_small/grenade_launcher.png",
+                        "chest_opened_img": "images/items/weapons_small/grenade_launcher_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108024"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Cave Door Right",
+                "chest_unopened_img": "images/interactables/cave_door.png",
+                "chest_opened_img": "images/interactables/cave_door_bw.png",
+                "access_rules": [
+                    "[cave_door_key:7],$has_unused_cave_door_keys"
+                ],
+                "sections": [
+                    {
+                        "name": "Place Left Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108038"
+                        ]
+                    },
+                    {
+                        "name": "Place Right Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108039"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "shape": "trapezoid",
+                        "x": 25,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Bottom",
+                "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108027"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Bridge",
+                "chest_unopened_img": "images/enemies/guardian.png",
+                "chest_opened_img": "images/enemies/guardian_bw.png",
+                "sections": [
+                    {
+                        "name": "Guardian",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108028"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Huts",
+                "chest_unopened_img": "images/enemies/guardian.png",
+                "chest_opened_img": "images/enemies/guardian_bw.png",
+                "sections": [
+                    {
+                        "name": "Guardian",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|108029|108030|108031|108032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Huts",
+                "chest_unopened_img": "images/enemies/guardian.png",
+                "chest_opened_img": "images/enemies/guardian_bw.png",
+                "sections": [
+                    {
+                        "name": "Guardian",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|108033|108034|108035|108036"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Cave Door",
+                "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|108037"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-V3",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Cave Door",
+                "access_rules": [
+                    "^$can_enter_cave_door_on_4_v3"
+                ],
+                "children": [
+                    {
+                        "name": "By Vent",
+                        "chest_unopened_img": "images/items/weapons_small/sunfire_pod.png",
+                        "chest_opened_img": "images/items/weapons_small/sunfire_pod_bw.png",
+                        "sections": [
+                            {
+                                "name": "Sunfire Pod",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|108025"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-V3",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "On Top Platform",
+                        "chest_unopened_img": "images/interactables/thermal_vent.png",
+                        "chest_opened_img": "images/interactables/thermal_vent_bw.png",
+                        "access_rules": [
+                            "[l4_satchel_charge:3],$has_unused_l4_satchel_charge"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Seal Vent",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|108026"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-V3",
+                                "x": 25,
+                                "y": 25
+                            }
+                        ]
                     }
                 ]
             }

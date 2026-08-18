@@ -650,7 +650,46 @@ LOCATIONS_4_8a = {
 }
 
 LOCATIONS_4_V3 = {
-
+    [108000] = {"@4-V3/At Start/Blue Health"},
+    [108001] = {"@4-V3/At Intersection/Quiver"},
+    [108002] = {"@4-V3/By Return Portal/Bores"},
+    [108003] = {"@4-V3/By Return Portal/Sunfire Pod"},
+    [108004] = {"@4-V3/In Bottom Corner/Clip"},
+    [108005] = {"@4-V3/Bottom Left/Clip"},
+    [108006] = {"@4-V3/Bottom Left Under Ramp/Shells"},
+    [108007] = {"@4-V3/Bottom Right/Shells"},
+    [108008] = {"@4-V3/Bottom Right Under Ramp/LF1"},
+    [108009] = {"@4-V3/Bottom Right Under Ramp/LF1"},
+    [108010] = {"@4-V3/Bottom Right Under Ramp/Blue Health"},
+    [108011] = {"@4-V3/Top Left Huts/Grenade"},
+    [108012] = {"@4-V3/Top Left Huts/Bores"},
+    [108013] = {"@4-V3/Top Left Huts/Charge Dart Pak"},
+    [108014] = {"@4-V3/Top Left Huts/Clip"},
+    [108015] = {"@4-V3/Top Left Huts/Cave Door Key"},
+    [108016] = {"@4-V3/Top Right Huts/Shells"},
+    [108017] = {"@4-V3/Top Right Huts/Plasma Rounds"},
+    [108018] = {"@4-V3/Top Right Huts/Clip"},
+    [108019] = {"@4-V3/Top Right Huts/Bores"},
+    [108020] = {"@4-V3/Top Right Huts/Cave Door Key"},
+    [108021] = {"@4-V3/At Cave Door/Clip"},
+    [108022] = {"@4-V3/At Cave Door/Clip"},
+    [108023] = {"@4-V3/At Cave Door/Blue Health"},
+    [108024] = {"@4-V3/At Cave Door/Grenade Launcher"},
+    [108025] = {"@4-V3/Cave Door/By Vent/Sunfire Pod"},
+    [108026] = {"@4-V3/Cave Door/On Top Platform/Seal Vent"},
+    [108027] = {"@4-V3/Enemy on Bottom/Sentinel"},
+    [108028] = {"@4-V3/Enemy on Bridge/Guardian"},
+    [108029] = {"@4-V3/Enemy in Left Huts/Guardian"},
+    [108030] = {"@4-V3/Enemy in Left Huts/Guardian"},
+    [108031] = {"@4-V3/Enemy in Left Huts/Guardian"},
+    [108032] = {"@4-V3/Enemy in Left Huts/Guardian"},
+    [108033] = {"@4-V3/Enemy in Right Huts/Guardian"},
+    [108034] = {"@4-V3/Enemy in Right Huts/Guardian"},
+    [108035] = {"@4-V3/Enemy in Right Huts/Guardian"},
+    [108036] = {"@4-V3/Enemy in Right Huts/Guardian"},
+    [108037] = {"@4-V3/Enemy at Cave Door/Sentinel"},
+    [108038] = {"@4-V3/Cave Door Right/Place Left Key"},
+    [108039] = {"@4-V3/Cave Door Right/Place Right Key"}
 }
 
 LOCATIONS_4_8b = {
