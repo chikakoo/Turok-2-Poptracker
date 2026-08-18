@@ -3,6 +3,15 @@
 -- to see how this function gets called, check: locations/locations.json
 require("scripts.autotracking.archipelago")
 
+CAVE_DOOR_4_1 = "@4-1/Whispers/Whispers Drop/Unlock Cave Door"
+CAVE_DOOR_4_3 = "@4-3/Cave Door Room/Unlock Cave Door"
+CAVE_DOOR_4_V1 = "@4-V1/Cave Door Room/Unlock Cave Door"
+CAVE_DOOR_4_6a = "@4-6a/Cave Door Room/Unlock Cave Door"
+CAVE_DOOR_4_8a = "@4-8a/Path Bottom/Unlock Cave Door"
+--TODO: add locations for...
+-- CAVE_DOOR_4_V3_LEFT
+-- CAVE_DOOR_4_V3_RIGHT
+
 ---Checks whether the id of the given location exists as a location in the seed
 ---Accepts any number of args and returns the number of then that do exist
 function id_exists(...)
@@ -215,40 +224,59 @@ end
 ---Min 1: Can get here from the start
 ---Max 7: All keys; completely optional door
 function can_enter_cave_door_on_4_1()
-    return can_enter_cave_door(1, 7, "@4-1/Whispers/Whispers Drop/Unlock Cave Door")
+    return can_enter_cave_door(1, 7, CAVE_DOOR_4_1)
 end
 
 ---Returns whether the 4-3 cave door can be entered or opened.
 ---Min 1: Can get here from the start
 ---Max 2: Could open the 4-1 door, but can't progress without this one
 function can_enter_cave_door_on_4_3()
-    return can_enter_cave_door(1, 2, "@4-3/Cave Door Room/Unlock Cave Door")
+    return can_enter_cave_door(1, 2, CAVE_DOOR_4_3)
 end
 
 ---Returns whether the 4-V1 cave door can be entered or opened.
 ---Min 2: Must open the 4-3 door to get here
 ---Max 7: All keys; completely optional door
 function can_enter_cave_door_on_4_V1()
-    return can_enter_cave_door(2, 7, "@4-V1/Cave Door Room/Unlock Cave Door")
+    return can_enter_cave_door(2, 7, CAVE_DOOR_4_V1)
 end
 
 ---Returns whether the 4-6a cave door can be entered or opened.
 ---Min 2: Must open the 4-3 door to get here
 ---Max 4: Could open the 4-1/4-V1 doors, but can't progress without this one
 function can_enter_cave_door_on_4_6a()
-    return can_enter_cave_door(2, 4, "@4-6a/Cave Door Room/Unlock Cave Door")
+    min_keys = 2 + number_of_early_cave_door_keys_used()
+    return can_enter_cave_door(min_keys, 4, CAVE_DOOR_4_6a)
 end
 
 ---Returns whether the 4-8a cave door can be entered or opened.
 ---Min 3: Must open the 4-3/4-6a doors to get here
 ---Max 5: Could open the 4-1/4-V1 doors, but can't progress without this one
 function can_enter_cave_door_on_4_8a()
-    return can_enter_cave_door(3, 5, "@4-8a/Path Bottom/Unlock Cave Door")
+    min_keys = 3 + number_of_early_cave_door_keys_used()
+    return can_enter_cave_door(min_keys, 5, CAVE_DOOR_4_8a)
 end
 
 --TODO: add locations for...
--- 4-V3 (1)
--- 4-V3 (2)
+-- 4-V3 LEFT
+-- 4-V3 RIGHT
+
+---Returns the number of early cave door keys used.
+---This helps not show too many out of logic location when we know how deep it's possible to go.
+---Currently tracks the doors in 4-1 and 4-V1, so this should be used for doors AFTER these locations!
+function number_of_early_cave_door_keys_used()
+    local used_keys = 0
+
+    if Tracker:FindObjectForCode(CAVE_DOOR_4_1).AvailableChestCount == 0 then
+        used_keys = used_keys + 1
+    end
+
+    if Tracker:FindObjectForCode(CAVE_DOOR_4_V1).AvailableChestCount == 0 then
+        used_keys = used_keys + 1
+    end
+
+    return used_keys
+end
 
 ---Returns whether the cave door can be entered or opened.
 ---Also handles whether door has been opened already.
@@ -265,11 +293,11 @@ function can_enter_cave_door(min_keys, max_keys, cave_door_name)
     if not has_unused_mission_item(
         "cave_door_key",
         {
-            "@4-1/Whispers/Whispers Drop/Unlock Cave Door",
-            "@4-3/Cave Door Room/Unlock Cave Door",
-            "@4-V1/Cave Door Room/Unlock Cave Door",
-            "@4-6a/Cave Door Room/Unlock Cave Door",
-            "@4-8a/Path Bottom/Unlock Cave Door"
+            CAVE_DOOR_4_1,
+            CAVE_DOOR_4_3,
+            CAVE_DOOR_4_V1,
+            CAVE_DOOR_4_6a,
+            CAVE_DOOR_4_8a
             --TODO: add locations for...
             -- 4-V3 (1)
             -- 4-V3 (2)
