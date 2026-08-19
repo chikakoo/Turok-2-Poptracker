@@ -8,11 +8,154 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Start",
+                "chest_unopened_img": "images/items/weapons_small/plasma_rifle.png",
+                "chest_opened_img": "images/items/weapons_small/plasma_rifle_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Plasma Rifle",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|124000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Destroying Turrets",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|124001|124002|124003|124004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Front Left Turret",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|124005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Front Right Turret",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|124006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Back Left Turret",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|124007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Back Right Turret",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|124008"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Destroying Turrets",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|124009|124010|124011|124012"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

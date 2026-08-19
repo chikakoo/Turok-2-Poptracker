@@ -7588,8 +7588,32 @@
         "name": "5-1",
         "sections": [
           {
-            "ref": "5-1/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "5-1/At Start/Plasma Rifle",
+            "name": "[Plasma Rifle] At Start"
+          },
+          {
+            "ref": "5-1/After Destroying Turrets/LF10",
+            "name": "[LF10] After Destroying Turrets"
+          },
+          {
+            "ref": "5-1/Enemy After Front Left Turret/Drone",
+            "name": "[Drone] Enemy After Front Left Turret"
+          },
+          {
+            "ref": "5-1/Enemy After Front Right Turret/Drone",
+            "name": "[Drone] Enemy After Front Right Turret"
+          },
+          {
+            "ref": "5-1/Enemy After Back Left Turret/Drone",
+            "name": "[Drone] Enemy After Back Left Turret"
+          },
+          {
+            "ref": "5-1/Enemy After Back Right Turret/Drone",
+            "name": "[Drone] Enemy After Back Right Turret"
+          },
+          {
+            "ref": "5-1/Enemy After Destroying Turrets/Drone",
+            "name": "[Drone] Enemy After Destroying Turrets"
           }
         ],
         "map_locations": [
@@ -7604,8 +7628,148 @@
         "name": "5-2",
         "sections": [
           {
-            "ref": "5-2/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "5-2/Back of Starting Room/LF1",
+            "name": "[LF1] Back of Starting Room"
+          },
+          {
+            "ref": "5-2/Back of Starting Room in Wall/Plasma Pak",
+            "name": "[Plasma Pak] Back of Starting Room in Wall"
+          },
+          {
+            "ref": "5-2/At Start/LF1",
+            "name": "[LF1] At Start"
+          },
+          {
+            "ref": "5-2/At Start/Force Field Generator",
+            "name": "[Force Field Generator] At Start"
+          },
+          {
+            "ref": "5-2/At Start by Wall/Shredder",
+            "name": "[Shredder] At Start by Wall"
+          },
+          {
+            "ref": "5-2/At Start by Wall/Mag 60",
+            "name": "[Mag 60] At Start by Wall"
+          },
+          {
+            "ref": "5-2/At Start by Wall/Charge Dart Rifle",
+            "name": "[Charge Dart Rifle] At Start by Wall"
+          },
+          {
+            "ref": "5-2/Start Left Path/Silver Health",
+            "name": "[Silver Health] Start Left Path"
+          },
+          {
+            "ref": "5-2/Left Room After Door/LF1",
+            "name": "[LF1] Left Room After Door"
+          },
+          {
+            "ref": "5-2/Left Room After Door/Blue Health",
+            "name": "[Blue Health] Left Room After Door"
+          },
+          {
+            "ref": "5-2/Start Right Path/Silver Health",
+            "name": "[Silver Health] Start Right Path"
+          },
+          {
+            "ref": "5-2/In Corner/Grenade",
+            "name": "[Grenade] In Corner"
+          },
+          {
+            "ref": "5-2/By Consoles/Blue Health",
+            "name": "[Blue Health] By Consoles"
+          },
+          {
+            "ref": "5-2/On Upper Path/Plasma Rifle",
+            "name": "[Plasma Rifle] On Upper Path"
+          },
+          {
+            "ref": "5-2/In Left Wall/Box of Shells",
+            "name": "[Box of Shells] In Left Wall"
+          },
+          {
+            "ref": "5-2/In Right Wall/Box of Bullets",
+            "name": "[Box of Bullets] In Right Wall"
+          },
+          {
+            "ref": "5-2/Before Level Key Room/LF1",
+            "name": "[LF1] Before Level Key Room"
+          },
+          {
+            "ref": "5-2/Before Level Key Room/Blue Health",
+            "name": "[Blue Health] Before Level Key Room"
+          },
+          {
+            "ref": "5-2/On Raised Platform/Level Key",
+            "name": "[Level Key] On Raised Platform"
+          },
+          {
+            "ref": "5-2/After Level Key Room/Full Health",
+            "name": "[Full Health] After Level Key Room"
+          },
+          {
+            "ref": "5-2/By Exit Portal/Silver Health",
+            "name": "[Silver Health] By Exit Portal"
+          },
+          {
+            "ref": "5-2/In Start Left Room/Force Field Generator",
+            "name": "[Force Field Generator] In Start Left Room"
+          },
+          {
+            "ref": "5-2/On Wall/Switch",
+            "name": "[Switch] On Wall"
+          },
+          {
+            "ref": "5-2/Enemy in Back of Starting Room/Worker",
+            "name": "[Worker] Enemy in Back of Starting Room"
+          },
+          {
+            "ref": "5-2/Enemy in Start Left Room/Worker",
+            "name": "[Worker] Enemy in Start Left Room"
+          },
+          {
+            "ref": "5-2/Enemy in Start Left Room/Drone",
+            "name": "[Drone] Enemy in Start Left Room"
+          },
+          {
+            "ref": "5-2/Enemy in Start Left Door/Worker",
+            "name": "[Worker] Enemy in Start Left Door"
+          },
+          {
+            "ref": "5-2/Enemy in Start Right Room/Worker",
+            "name": "[Worker] Enemy in Start Right Room"
+          },
+          {
+            "ref": "5-2/Enemy up Elevator/Drone",
+            "name": "[Drone] Enemy up Elevator"
+          },
+          {
+            "ref": "5-2/Enemy at Starting Upper Path/Drone",
+            "name": "[Drone] Enemy at Starting Upper Path"
+          },
+          {
+            "ref": "5-2/Enemy in Circular Room/Drone",
+            "name": "[Drone] Enemy in Circular Room"
+          },
+          {
+            "ref": "5-2/Enemy Before Level Key Room/Drone",
+            "name": "[Drone] Enemy Before Level Key Room"
+          },
+          {
+            "ref": "5-2/Enemy Before Level Key Room/Worker",
+            "name": "[Worker] Enemy Before Level Key Room"
+          },
+          {
+            "ref": "5-2/Enemy by Switch/Drone",
+            "name": "[Drone] Enemy by Switch"
+          },
+          {
+            "ref": "5-2/Enemy in Exit Hall/Worker",
+            "name": "[Worker] Enemy in Exit Hall"
+          },
+          {
+            "ref": "5-2/Enemy in Exit Hall/Drone",
+            "name": "[Drone] Enemy in Exit Hall"
           }
         ],
         "map_locations": [
