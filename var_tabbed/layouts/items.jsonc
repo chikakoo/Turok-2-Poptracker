@@ -1,0 +1,21 @@
+{
+    "items": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "Inventory",
+                "content": {
+                    "type": "layout",
+                    "key": "inventory"
+                }
+            },
+            {
+                "title": "Weapons",
+                "content": {
+                    "type": "layout",
+                    "key": "weapons"
+                }
+            }
+        ]
+    }
+}

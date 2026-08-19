@@ -5,6 +5,8 @@ Tracker:AddLayouts("layouts/inventory.jsonc")
 Tracker:AddLayouts("layouts/weapons.jsonc")
 
 Tracker:AddLayouts("layouts/tracker.jsonc")
+Tracker:AddLayouts("layouts/maps.jsonc")
+Tracker:AddLayouts("layouts/items.jsonc")
 Tracker:AddLayouts("layouts/level_1.jsonc")
 Tracker:AddLayouts("layouts/level_2.jsonc")
 Tracker:AddLayouts("layouts/level_3.jsonc")

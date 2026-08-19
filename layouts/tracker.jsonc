@@ -7,85 +7,13 @@
       "dropshadow": true,
       "content": [
         {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Hub",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "Hub"
-                ]
-              }
-            },
-            {
-              "title": "Level 1",
-              "content": {
-                "type": "layout",
-                "key": "level_1"
-              }
-            },
-            {
-              "title": "Level 2",
-              "content": {
-                "type": "layout",
-                "key": "level_2"
-              }
-            },
-            {
-              "title": "Level 3",
-              "content": {
-                "type": "layout",
-                "key": "level_3"
-              }
-            },
-            {
-              "title": "Level 4",
-              "content": {
-                "type": "layout",
-                "key": "level_4"
-              }
-            },
-            {
-              "title": "Level 5",
-              "content": {
-                "type": "layout",
-                "key": "level_5"
-              }
-            },
-            {
-              "title": "Level 6",
-              "content": {
-                "type": "layout",
-                "key": "level_6"
-              }
-            }
-          ]
+          "type": "layout",
+          "key": "maps"
         },
         {
-          "type": "dock",
-          "dock": "bottom",
-          "v_alignment": "stretch",
-          "content": [
-            {
-              "type": "group",
-              "header": "Inventory",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "inventory"
-              }
-            },
-            {
-              "type": "group",
-              "header": "Weapons",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "weapons"
-              }
-            }
-          ]
+          "type": "layout",
+          "key": "items",
+          "dock": "bottom"
         }
       ]
     }
