@@ -693,9 +693,45 @@ LOCATIONS_4_V3 = {
 }
 
 LOCATIONS_4_8b = {
-
+    [105122] = {"@4-8b/At Return Portal After Vent/Silver Health"},
+    [105123] = {"@4-8b/At Return Portal After Vent/Silver Health"},
+    [105124] = {"@4-8b/At Return Portal After Vent/Silver Health"},
+    [105125] = {"@4-8b/At Return Portal After Vent/Tek Arrows"},
+    [105126] = {"@4-8b/On Bridge After Vent/Box of Bullets"},
+    [105127] = {"@4-8b/By Exit Drop After Vent/Sentinel"},
+    [105128] = {"@4-8b/By Exit Drop After Vent/Guardian"}
 }
 
 LOCATIONS_4_6b = {
-
+    [103070] = {"@4-6b/At Start After Vent/Bores"},
+    [103071] = {"@4-6b/At Start After Vent/Bores"},
+    [103072] = {"@4-6b/At Return Portal After Vent/Sunfire Pod"},
+    [103073] = {"@4-6b/At Shortcut Path Opened After Vent/Blue Health"},
+    [103074] = {"@4-6b/At Shortcut Path Opened After Vent/Blue Health"},
+    [103075] = {"@4-6b/At Shortcut Path Opened After Vent/Blue Health"},
+    [103076] = {"@4-6b/At Shortcut Path Opened After Vent/Blue Health"},
+    [103077] = {"@4-6b/At Shortcut Path Opened After Vent/Blue Health"},
+    [103078] = {"@4-6b/At Shortcut Path Portal Opened After Vent/Flame Thrower Tank"},
+    [103079] = {"@4-6b/At Shortcut Path Portal Opened After Vent/Box of Bullets"},
+    [103080] = {"@4-6b/At Shortcut Path Portal Opened After Vent/Box of Shells"},
+    [103081] = {"@4-6b/After Rotating Platforms/Explosive Shells"},
+    [103082] = {"@4-6b/Before Level Key Room/Shredder"},
+    [103083] = {"@4-6b/Level Key Room/Level Key"},
+    [103084] = {"@4-6b/Level Key Room/Cerebral Bore"},
+    [103085] = {"@4-6b/Level Key Room/Plasma Rifle"},
+    [103086] = {"@4-6b/Level Key Room/Tek Bow"},
+    [103087] = {"@4-6b/Level Key Room/Grenade Launcher"},
+    [103088] = {"@4-6b/After Level Key Room/Ultra Health"},
+    [103089] = {"@4-6b/Enemy After Vent Before Rotating Platforms/Endtrail"},
+    [103090] = {"@4-6b/Enemy After Rotating Platforms Bridge Start/Spider"},
+    [103091] = {"@4-6b/Enemy After Rotating Platforms Bridge Start/Spider"},
+    [103092] = {"@4-6b/Enemy After Rotating Platforms Bridge Start/Spider"},
+    [103093] = {"@4-6b/Enemy After Rotating Platforms Across Bridge/Cave Spider"},
+    [103094] = {"@4-6b/Enemy in Level Key Room/Nala"},
+    [103095] = {"@4-6b/Enemy in Level Key Room/Nala"},
+    [103096] = {"@4-6b/Enemy in Level Key Room/Nala"},
+    [103097] = {"@4-6b/Enemy in Level Key Room/Nala"},
+    [103098] = {"@4-6b/Enemy in Level Key Room/Sentinel"},
+    [103099] = {"@4-6b/Enemy After Level Key Room/Sentinel"},
+    [1000] = {"@4-6b/In Tunnel Before Boss/Plasma Rifle"}
 }

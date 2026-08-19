@@ -8,11 +8,367 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Start After Vent",
+                "chest_unopened_img": "images/items/ammo/bores.png",
+                "chest_opened_img": "images/items/ammo/bores_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Bores",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|103070|103071"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Return Portal After Vent",
+                "chest_unopened_img": "images/items/weapons_small/sunfire_pod.png",
+                "chest_opened_img": "images/items/weapons_small/sunfire_pod_bw.png",
+                "sections": [
+                    {
+                        "name": "Sunfire Pod",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103072"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Shortcut Path Opened After Vent",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|103073|103074|103075|103076|103077"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Shortcut Path Portal Opened After Vent",
+                "sections": [
+                    {
+                        "name": "Flame Thrower Tank",
+                        "chest_unopened_img": "images/items/ammo/flame_thrower_tank.png",
+                        "chest_opened_img": "images/items/ammo/flame_thrower_tank_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103078"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103079"
+                        ]
+                    },
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103080"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Rotating Platforms",
+                "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103081"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Level Key Room",
+                "chest_unopened_img": "images/items/weapons_small/shredder.png",
+                "chest_opened_img": "images/items/weapons_small/shredder_bw.png",
+                "sections": [
+                    {
+                        "name": "Shredder",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103082"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Level Key Room",
+                "sections": [
+                    {
+                        "name": "Level Key",
+                        "chest_unopened_img": "images/items/keys/level_6_key.png",
+                        "chest_opened_img": "images/items/keys/level_6_key_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103083"
+                        ]
+                    },
+                    {
+                        "name": "Cerebral Bore",
+                        "chest_unopened_img": "images/items/weapons_small/cerebral_bore.png",
+                        "chest_opened_img": "images/items/weapons_small/cerebral_bore_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103084"
+                        ]
+                    },
+                    {
+                        "name": "Plasma Rifle",
+                        "chest_unopened_img": "images/items/weapons_small/plasma_rifle.png",
+                        "chest_opened_img": "images/items/weapons_small/plasma_rifle_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103085"
+                        ]
+                    },
+                    {
+                        "name": "Tek Bow",
+                        "chest_unopened_img": "images/items/weapons_small/tek_bow.png",
+                        "chest_opened_img": "images/items/weapons_small/tek_bow_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103086"
+                        ]
+                    },
+                    {
+                        "name": "Grenade Launcher",
+                        "chest_unopened_img": "images/items/weapons_small/grenade_launcher.png",
+                        "chest_opened_img": "images/items/weapons_small/grenade_launcher_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103087"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Level Key Room",
+                "chest_unopened_img": "images/items/health/ultra_health.png",
+                "chest_opened_img": "images/items/health/ultra_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Ultra Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103088"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Vent Before Rotating Platforms",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103089"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Rotating Platforms Bridge Start",
+                "chest_unopened_img": "images/enemies/spider.png",
+                "chest_opened_img": "images/enemies/spider_bw.png",
+                "sections": [
+                    {
+                        "name": "Spider",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|103090|103091|103092"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Rotating Platforms Across Bridge",
+                "chest_unopened_img": "images/enemies/cave_spider.png",
+                "chest_opened_img": "images/enemies/cave_spider_bw.png",
+                "sections": [
+                    {
+                        "name": "Cave Spider",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103093"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Level Key Room",
+                "sections": [
+                    {
+                        "name": "Nala",
+                        "chest_unopened_img": "images/enemies/nala.png",
+                        "chest_opened_img": "images/enemies/nala_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|103094|103095|103096|103097"
+                        ]
+                    },
+                    {
+                        "name": "Sentinel",
+                        "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                        "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103098"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Level Key Room",
+                "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|103099"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Tunnel Before Boss",
+                "chest_unopened_img": "images/items/weapons_small/plasma_rifle.png",
+                "chest_opened_img": "images/items/weapons_small/plasma_rifle_bw.png",
+                "access_rules": [
+                    "^$can_enter_4_boss"
+                ],
+                "sections": [
+                    {
+                        "name": "Plasma Rifle",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|1000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-6b",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

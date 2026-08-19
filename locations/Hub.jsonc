@@ -7460,8 +7460,24 @@
         "name": "4-8b",
         "sections": [
           {
-            "ref": "4-8b/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-8b/At Return Portal After Vent/Silver Health",
+            "name": "[Silver Health] At Return Portal After Vent"
+          },
+          {
+            "ref": "4-8b/At Return Portal After Vent/Tek Arrows",
+            "name": "[Tek Arrows] At Return Portal After Vent"
+          },
+          {
+            "ref": "4-8b/On Bridge After Vent/Box of Bullets",
+            "name": "[Box of Bullets] On Bridge After Vent"
+          },
+          {
+            "ref": "4-8b/By Exit Drop After Vent/Sentinel",
+            "name": "[Sentinel] By Exit Drop After Vent"
+          },
+          {
+            "ref": "4-8b/By Exit Drop After Vent/Guardian",
+            "name": "[Guardian] By Exit Drop After Vent"
           }
         ],
         "map_locations": [
@@ -7476,8 +7492,88 @@
         "name": "4-6b",
         "sections": [
           {
-            "ref": "4-6b/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "4-6b/At Start After Vent/Bores",
+            "name": "[Bores] At Start After Vent"
+          },
+          {
+            "ref": "4-6b/At Return Portal After Vent/Sunfire Pod",
+            "name": "[Sunfire Pod] At Return Portal After Vent"
+          },
+          {
+            "ref": "4-6b/At Shortcut Path Opened After Vent/Blue Health",
+            "name": "[Blue Health] At Shortcut Path Opened After Vent"
+          },
+          {
+            "ref": "4-6b/At Shortcut Path Portal Opened After Vent/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] At Shortcut Path Portal Opened After Vent"
+          },
+          {
+            "ref": "4-6b/At Shortcut Path Portal Opened After Vent/Box of Bullets",
+            "name": "[Box of Bullets] At Shortcut Path Portal Opened After Vent"
+          },
+          {
+            "ref": "4-6b/At Shortcut Path Portal Opened After Vent/Box of Shells",
+            "name": "[Box of Shells] At Shortcut Path Portal Opened After Vent"
+          },
+          {
+            "ref": "4-6b/After Rotating Platforms/Explosive Shells",
+            "name": "[Explosive Shells] After Rotating Platforms"
+          },
+          {
+            "ref": "4-6b/Before Level Key Room/Shredder",
+            "name": "[Shredder] Before Level Key Room"
+          },
+          {
+            "ref": "4-6b/Level Key Room/Level Key",
+            "name": "[Level Key] Level Key Room"
+          },
+          {
+            "ref": "4-6b/Level Key Room/Cerebral Bore",
+            "name": "[Cerebral Bore] Level Key Room"
+          },
+          {
+            "ref": "4-6b/Level Key Room/Plasma Rifle",
+            "name": "[Plasma Rifle] Level Key Room"
+          },
+          {
+            "ref": "4-6b/Level Key Room/Tek Bow",
+            "name": "[Tek Bow] Level Key Room"
+          },
+          {
+            "ref": "4-6b/Level Key Room/Grenade Launcher",
+            "name": "[Grenade Launcher] Level Key Room"
+          },
+          {
+            "ref": "4-6b/After Level Key Room/Ultra Health",
+            "name": "[Ultra Health] After Level Key Room"
+          },
+          {
+            "ref": "4-6b/Enemy After Vent Before Rotating Platforms/Endtrail",
+            "name": "[Endtrail] Enemy After Vent Before Rotating Platforms"
+          },
+          {
+            "ref": "4-6b/Enemy After Rotating Platforms Bridge Start/Spider",
+            "name": "[Spider] Enemy After Rotating Platforms Bridge Start"
+          },
+          {
+            "ref": "4-6b/Enemy After Rotating Platforms Across Bridge/Cave Spider",
+            "name": "[Cave Spider] Enemy After Rotating Platforms Across Bridge"
+          },
+          {
+            "ref": "4-6b/Enemy in Level Key Room/Nala",
+            "name": "[Nala] Enemy in Level Key Room"
+          },
+          {
+            "ref": "4-6b/Enemy in Level Key Room/Sentinel",
+            "name": "[Sentinel] Enemy in Level Key Room"
+          },
+          {
+            "ref": "4-6b/Enemy After Level Key Room/Sentinel",
+            "name": "[Sentinel] Enemy After Level Key Room"
+          },
+          {
+            "ref": "4-6b/In Tunnel Before Boss/Plasma Rifle",
+            "name": "[Plasma Rifle] In Tunnel Before Boss"
           }
         ],
         "map_locations": [

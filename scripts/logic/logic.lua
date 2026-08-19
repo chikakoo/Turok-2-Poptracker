@@ -306,7 +306,29 @@ function can_enter_cave_door_on_4_v3()
     return AccessibilityLevel.SequenceBreak
 end
 
----Returns the number of early cave door keys used.
+---Returns whether the boss room can be entered on level 4.
+---This assumes that the boss portal can already be reached and does not include that key/torpedo logic.
+function can_enter_4_boss()
+    -- Ending weapon requirements and all 3 satchel charges are required
+    if not has_weapon_requirement(4, "end") or not has("l4_satchel_charge", 3) then
+        return AccessibilityLevel.None
+    end
+
+    -- All cave door keys means all objectives can be completed
+    if has("cave_door_key", 7) then
+        return AccessibilityLevel.Normal
+    end
+
+    -- If missing one key, it's out of logic unless the one optional door has been opened
+    if has("cave_door_key", 6) and not (number_of_cave_door_keys_used({CAVE_DOOR_4_1}) > 0) then
+        return AccessibilityLevel.SequenceBreak
+    end
+
+    -- Not enough keys (or the one optional one was used)
+    return AccessibilityLevel.None
+end
+
+---Returns the number of the early cave door keys used for the given locations.
 ---This helps not show too many out of logic location when we know how deep it's possible to go.
 function number_of_cave_door_keys_used(cave_door_locations)
     local used_keys = 0

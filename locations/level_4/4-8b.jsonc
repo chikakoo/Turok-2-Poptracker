@@ -8,11 +8,84 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Return Portal After Vent",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|105122|105123|105124"
+                        ]
+                    },
+                    {
+                        "name": "Tek Arrows",
+                        "chest_unopened_img": "images/items/ammo/tek_arrows.png",
+                        "chest_opened_img": "images/items/ammo/tek_arrows_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|105125"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-8b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Bridge After Vent",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|105126"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-8b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Exit Drop After Vent",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                        "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|105127"
+                        ]
+                    },
+                    {
+                        "name": "Guardian",
+                        "chest_unopened_img": "images/enemies/guardian.png",
+                        "chest_opened_img": "images/enemies/guardian_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|105128"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-8b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }
