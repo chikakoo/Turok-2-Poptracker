@@ -7784,8 +7784,260 @@
         "name": "5-3",
         "sections": [
           {
-            "ref": "5-3/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "5-3/In Starting Hall/LF1",
+            "name": "[LF1] In Starting Hall"
+          },
+          {
+            "ref": "5-3/In Starting Hall/Charge Dart Rifle",
+            "name": "[Charge Dart Rifle] In Starting Hall"
+          },
+          {
+            "ref": "5-3/Pit Room Start/Flame Thrower",
+            "name": "[Flame Thrower] Pit Room Start"
+          },
+          {
+            "ref": "5-3/Pit Room Start/Blue Health",
+            "name": "[Blue Health] Pit Room Start"
+          },
+          {
+            "ref": "5-3/Pit Room Before Platform Jumps/Tek Quiver",
+            "name": "[Tek Quiver] Pit Room Before Platform Jumps"
+          },
+          {
+            "ref": "5-3/Pit Room Before Platform Jumps/LF1",
+            "name": "[LF1] Pit Room Before Platform Jumps"
+          },
+          {
+            "ref": "5-3/On First Middle Platform/Blue Health",
+            "name": "[Blue Health] On First Middle Platform"
+          },
+          {
+            "ref": "5-3/On Second Middle Platform/LF10",
+            "name": "[LF10] On Second Middle Platform"
+          },
+          {
+            "ref": "5-3/Behind Left Pillar/Clip",
+            "name": "[Clip] Behind Left Pillar"
+          },
+          {
+            "ref": "5-3/Behind Right Pillar/Clip",
+            "name": "[Clip] Behind Right Pillar"
+          },
+          {
+            "ref": "5-3/Under Turret/LF1",
+            "name": "[LF1] Under Turret"
+          },
+          {
+            "ref": "5-3/By Bottom Door/LF10",
+            "name": "[LF10] By Bottom Door"
+          },
+          {
+            "ref": "5-3/By Bottom Door/Plasma Rifle",
+            "name": "[Plasma Rifle] By Bottom Door"
+          },
+          {
+            "ref": "5-3/Intersection Left/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Intersection Left"
+          },
+          {
+            "ref": "5-3/Intersection Left/Clip",
+            "name": "[Clip] Intersection Left"
+          },
+          {
+            "ref": "5-3/Turret Room Start/Blue Health",
+            "name": "[Blue Health] Turret Room Start"
+          },
+          {
+            "ref": "5-3/Turret Room Start/Plasma Rifle",
+            "name": "[Plasma Rifle] Turret Room Start"
+          },
+          {
+            "ref": "5-3/Turret Room Front Left Corner/Blue Health",
+            "name": "[Blue Health] Turret Room Front Left Corner"
+          },
+          {
+            "ref": "5-3/Turret Room Front Right Corner/Blue Health",
+            "name": "[Blue Health] Turret Room Front Right Corner"
+          },
+          {
+            "ref": "5-3/Turret Room Back Left Corner/Blue Health",
+            "name": "[Blue Health] Turret Room Back Left Corner"
+          },
+          {
+            "ref": "5-3/Turret Room Back Right Corner/Blue Health",
+            "name": "[Blue Health] Turret Room Back Right Corner"
+          },
+          {
+            "ref": "5-3/Turret Room Hall/LF10",
+            "name": "[LF10] Turret Room Hall"
+          },
+          {
+            "ref": "5-3/Turret Room Hall/Full Health",
+            "name": "[Full Health] Turret Room Hall"
+          },
+          {
+            "ref": "5-3/Elevator Switch Room/Blue Health",
+            "name": "[Blue Health] Elevator Switch Room"
+          },
+          {
+            "ref": "5-3/Elevator Switch Room/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] Elevator Switch Room"
+          },
+          {
+            "ref": "5-3/Elevator Switch Room/Switch",
+            "name": "[Switch] Elevator Switch Room"
+          },
+          {
+            "ref": "5-3/First Hall After Elevators/LF1",
+            "name": "[LF1] First Hall After Elevators"
+          },
+          {
+            "ref": "5-3/After Elevator Jumps/Shredder",
+            "name": "[Shredder] After Elevator Jumps"
+          },
+          {
+            "ref": "5-3/Second Hall After Elevators/Silver Health",
+            "name": "[Silver Health] Second Hall After Elevators"
+          },
+          {
+            "ref": "5-3/Above Return Room/Firestorm Cannon",
+            "name": "[Firestorm Cannon] Above Return Room"
+          },
+          {
+            "ref": "5-3/In Return Room/Clip",
+            "name": "[Clip] In Return Room"
+          },
+          {
+            "ref": "5-3/Hall After Forcefield/LF10",
+            "name": "[LF10] Hall After Forcefield"
+          },
+          {
+            "ref": "5-3/Hall After Forcefield/Ultra Health",
+            "name": "[Ultra Health] Hall After Forcefield"
+          },
+          {
+            "ref": "5-3/In Left Wall/Box of Bullets",
+            "name": "[Box of Bullets] In Left Wall"
+          },
+          {
+            "ref": "5-3/In Right Wall/Charge Darts",
+            "name": "[Charge Darts] In Right Wall"
+          },
+          {
+            "ref": "5-3/By Exit Portal/Silver Health",
+            "name": "[Silver Health] By Exit Portal"
+          },
+          {
+            "ref": "5-3/Intersection Forward/Force Field Generator",
+            "name": "[Force Field Generator] Intersection Forward"
+          },
+          {
+            "ref": "5-3/Up First Elevator/Switch",
+            "name": "[Switch] Up First Elevator"
+          },
+          {
+            "ref": "5-3/Enemy in Starting Hall/Drone",
+            "name": "[Drone] Enemy in Starting Hall"
+          },
+          {
+            "ref": "5-3/Enemy at Pit Room Start/Drone",
+            "name": "[Drone] Enemy at Pit Room Start"
+          },
+          {
+            "ref": "5-3/Enemy in Top Right Alcove/Drone",
+            "name": "[Drone] Enemy in Top Right Alcove"
+          },
+          {
+            "ref": "5-3/Enemy in Pit Room Egg/Mite",
+            "name": "[Mite] Enemy in Pit Room Egg"
+          },
+          {
+            "ref": "5-3/Enemy Above Middle Platforms/Drone",
+            "name": "[Drone] Enemy Above Middle Platforms"
+          },
+          {
+            "ref": "5-3/Enemy Above Middle Platforms/Drone Spawned From First Drone",
+            "name": "[Drone Spawned From First Drone] Enemy Above Middle Platforms"
+          },
+          {
+            "ref": "5-3/Enemy on Bottom/Mite",
+            "name": "[Mite] Enemy on Bottom"
+          },
+          {
+            "ref": "5-3/Enemy in Bottom Left Alcove/Drone",
+            "name": "[Drone] Enemy in Bottom Left Alcove"
+          },
+          {
+            "ref": "5-3/Enemy at Intersection/Worker",
+            "name": "[Worker] Enemy at Intersection"
+          },
+          {
+            "ref": "5-3/Enemy at Intersection Left/Mite in Egg",
+            "name": "[Mite in Egg] Enemy at Intersection Left"
+          },
+          {
+            "ref": "5-3/Enemy at Intersection Forward/Drone",
+            "name": "[Drone] Enemy at Intersection Forward"
+          },
+          {
+            "ref": "5-3/Enemy at Intersection Right/Drone",
+            "name": "[Drone] Enemy at Intersection Right"
+          },
+          {
+            "ref": "5-3/Enemy in Turret Room/Soldier",
+            "name": "[Soldier] Enemy in Turret Room"
+          },
+          {
+            "ref": "5-3/Enemy in Turret Room Hall/Worker",
+            "name": "[Worker] Enemy in Turret Room Hall"
+          },
+          {
+            "ref": "5-3/Enemy in Turret Room Hall Wall/Drone",
+            "name": "[Drone] Enemy in Turret Room Hall Wall"
+          },
+          {
+            "ref": "5-3/Enemy in Elevator Room/Drone",
+            "name": "[Drone] Enemy in Elevator Room"
+          },
+          {
+            "ref": "5-3/Enemy in Elevator Room/Worker",
+            "name": "[Worker] Enemy in Elevator Room"
+          },
+          {
+            "ref": "5-3/Enemy in Elevator Switch Room/Soldier",
+            "name": "[Soldier] Enemy in Elevator Switch Room"
+          },
+          {
+            "ref": "5-3/Enemy Spawned From Switch/Mite",
+            "name": "[Mite] Enemy Spawned From Switch"
+          },
+          {
+            "ref": "5-3/Enemy After Elevators/Soldier",
+            "name": "[Soldier] Enemy After Elevators"
+          },
+          {
+            "ref": "5-3/Enemy in Second Hall After Elevators/Drone",
+            "name": "[Drone] Enemy in Second Hall After Elevators"
+          },
+          {
+            "ref": "5-3/Enemy in Return Room Egg/Mite in Egg",
+            "name": "[Mite in Egg] Enemy in Return Room Egg"
+          },
+          {
+            "ref": "5-3/Enemy in Return Room Egg/Drone Spawned From Door",
+            "name": "[Drone Spawned From Door] Enemy in Return Room Egg"
+          },
+          {
+            "ref": "5-3/Enemy After Forcefield/Drone",
+            "name": "[Drone] Enemy After Forcefield"
+          },
+          {
+            "ref": "5-3/Enemy by Exit Door/Mite",
+            "name": "[Mite] Enemy by Exit Door"
+          },
+          {
+            "ref": "5-3/Enemy by Exit Door/Drone Spawned Behind",
+            "name": "[Drone Spawned Behind] Enemy by Exit Door"
           }
         ],
         "map_locations": [
