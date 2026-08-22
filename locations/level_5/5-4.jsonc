@@ -8,11 +8,639 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "In Starting Room",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Silver Health",
+                        "item_count": 8,
+                        "visibility_rules": [
+                            "$id_exists|86000|86001|86002|86003|86004|86005|86006|86007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Start Left Wall",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86008"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Start Right Alcove",
+                "chest_unopened_img": "images/items/weapons_small/grenade_launcher.png",
+                "chest_opened_img": "images/items/weapons_small/grenade_launcher_bw.png",
+                "sections": [
+                    {
+                        "name": "Grenade Launcher",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86009"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Front Switch Room",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|86010|86011|86012|86013"
+                        ]
+                    },
+                    {
+                        "name": "Shredder",
+                        "chest_unopened_img": "images/items/weapons_small/shredder.png",
+                        "chest_opened_img": "images/items/weapons_small/shredder_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86026"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_hive.png",
+                        "chest_opened_img": "images/interactables/switch_hive_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86054"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Switch Room",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|86014|86015|86016|86017"
+                        ]
+                    },
+                    {
+                        "name": "Shredder",
+                        "chest_unopened_img": "images/items/weapons_small/shredder.png",
+                        "chest_opened_img": "images/items/weapons_small/shredder_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86027"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_hive.png",
+                        "chest_opened_img": "images/interactables/switch_hive_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86055"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Back Switch Room",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|86018|86019|86020|86021"
+                        ]
+                    },
+                    {
+                        "name": "Shredder",
+                        "chest_unopened_img": "images/items/weapons_small/shredder.png",
+                        "chest_opened_img": "images/items/weapons_small/shredder_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86028"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_hive.png",
+                        "chest_opened_img": "images/interactables/switch_hive_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86056"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Switch Room",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|86022|86023|86024|86025"
+                        ]
+                    },
+                    {
+                        "name": "Shredder",
+                        "chest_unopened_img": "images/items/weapons_small/shredder.png",
+                        "chest_opened_img": "images/items/weapons_small/shredder_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86029"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_hive.png",
+                        "chest_opened_img": "images/interactables/switch_hive_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86057"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Elevator",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|86030|86031|86032|86033|86034"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Elevator",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86035"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Hall Up Elevator",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 10,
+                        "visibility_rules": [
+                            "$id_exists|86036|86037|86038|86039|86040|86041|86042|86043|86044|86045"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Left Alcove",
+                "chest_unopened_img": "images/items/ammo/flame_thrower_tank.png",
+                "chest_opened_img": "images/items/ammo/flame_thrower_tank_bw.png",
+                "sections": [
+                    {
+                        "name": "Flame Thrower Tank",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Checkpoint",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|86047|86048|86049"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Checkpoint",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|86050|86051|86052"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Right Alcove",
+                "chest_unopened_img": "images/items/ammo/box_of_grenades.png",
+                "chest_opened_img": "images/items/ammo/box_of_grenades_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Grenades",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86053"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Starting Room",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86058"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Starting Room Wall",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86059"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Switch Room Left",
+                "chest_unopened_img": "images/enemies/soldier.png",
+                "chest_opened_img": "images/enemies/soldier_bw.png",
+                "sections": [
+                    {
+                        "name": "Soldier",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86060"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Switch Room Right",
+                "chest_unopened_img": "images/enemies/soldier.png",
+                "chest_opened_img": "images/enemies/soldier_bw.png",
+                "sections": [
+                    {
+                        "name": "Soldier",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86061"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Front Switch",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|86062|86063|86064"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Left Switch",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|86065|86066|86067"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Back Switch",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|86068|86069|86070"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Right Switch",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|86071|86072|86073"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Wall",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86074"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Checkpoint",
+                "sections": [
+                    {
+                        "name": "Worker",
+                        "chest_unopened_img": "images/enemies/worker.png",
+                        "chest_opened_img": "images/enemies/worker_bw.png",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|86075|86076|86077"
+                        ]
+                    },
+                    {
+                        "name": "Drone Spawned Near Door",
+                        "chest_unopened_img": "images/enemies/drone.png",
+                        "chest_opened_img": "images/enemies/drone_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86078"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Checkpoint",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|86079"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Box of Grenades",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|86080|86081|86082|86083"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-4",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

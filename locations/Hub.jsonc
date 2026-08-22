@@ -8052,8 +8052,144 @@
         "name": "5-4",
         "sections": [
           {
-            "ref": "5-4/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "5-4/In Starting Room/Silver Health",
+            "name": "[Silver Health] In Starting Room"
+          },
+          {
+            "ref": "5-4/In Start Left Wall/Box of Bullets",
+            "name": "[Box of Bullets] In Start Left Wall"
+          },
+          {
+            "ref": "5-4/In Start Right Alcove/Grenade Launcher",
+            "name": "[Grenade Launcher] In Start Right Alcove"
+          },
+          {
+            "ref": "5-4/Front Switch Room/Silver Health",
+            "name": "[Silver Health] Front Switch Room"
+          },
+          {
+            "ref": "5-4/Front Switch Room/Shredder",
+            "name": "[Shredder] Front Switch Room"
+          },
+          {
+            "ref": "5-4/Front Switch Room/Switch",
+            "name": "[Switch] Front Switch Room"
+          },
+          {
+            "ref": "5-4/Left Switch Room/Silver Health",
+            "name": "[Silver Health] Left Switch Room"
+          },
+          {
+            "ref": "5-4/Left Switch Room/Shredder",
+            "name": "[Shredder] Left Switch Room"
+          },
+          {
+            "ref": "5-4/Left Switch Room/Switch",
+            "name": "[Switch] Left Switch Room"
+          },
+          {
+            "ref": "5-4/Back Switch Room/Silver Health",
+            "name": "[Silver Health] Back Switch Room"
+          },
+          {
+            "ref": "5-4/Back Switch Room/Shredder",
+            "name": "[Shredder] Back Switch Room"
+          },
+          {
+            "ref": "5-4/Back Switch Room/Switch",
+            "name": "[Switch] Back Switch Room"
+          },
+          {
+            "ref": "5-4/Right Switch Room/Silver Health",
+            "name": "[Silver Health] Right Switch Room"
+          },
+          {
+            "ref": "5-4/Right Switch Room/Shredder",
+            "name": "[Shredder] Right Switch Room"
+          },
+          {
+            "ref": "5-4/Right Switch Room/Switch",
+            "name": "[Switch] Right Switch Room"
+          },
+          {
+            "ref": "5-4/By Elevator/Silver Health",
+            "name": "[Silver Health] By Elevator"
+          },
+          {
+            "ref": "5-4/Up Elevator/LF10",
+            "name": "[LF10] Up Elevator"
+          },
+          {
+            "ref": "5-4/In Hall Up Elevator/LF1",
+            "name": "[LF1] In Hall Up Elevator"
+          },
+          {
+            "ref": "5-4/In Left Alcove/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] In Left Alcove"
+          },
+          {
+            "ref": "5-4/Before Checkpoint/Silver Health",
+            "name": "[Silver Health] Before Checkpoint"
+          },
+          {
+            "ref": "5-4/After Checkpoint/Silver Health",
+            "name": "[Silver Health] After Checkpoint"
+          },
+          {
+            "ref": "5-4/In Right Alcove/Box of Grenades",
+            "name": "[Box of Grenades] In Right Alcove"
+          },
+          {
+            "ref": "5-4/Enemy in Starting Room/Drone",
+            "name": "[Drone] Enemy in Starting Room"
+          },
+          {
+            "ref": "5-4/Enemy in Starting Room Wall/Drone",
+            "name": "[Drone] Enemy in Starting Room Wall"
+          },
+          {
+            "ref": "5-4/Switch Room Left/Soldier",
+            "name": "[Soldier] Switch Room Left"
+          },
+          {
+            "ref": "5-4/Switch Room Right/Soldier",
+            "name": "[Soldier] Switch Room Right"
+          },
+          {
+            "ref": "5-4/After Front Switch/Mite",
+            "name": "[Mite] After Front Switch"
+          },
+          {
+            "ref": "5-4/After Left Switch/Mite",
+            "name": "[Mite] After Left Switch"
+          },
+          {
+            "ref": "5-4/After Back Switch/Mite",
+            "name": "[Mite] After Back Switch"
+          },
+          {
+            "ref": "5-4/After Right Switch/Mite",
+            "name": "[Mite] After Right Switch"
+          },
+          {
+            "ref": "5-4/Enemy in Wall/Drone",
+            "name": "[Drone] Enemy in Wall"
+          },
+          {
+            "ref": "5-4/Enemy Before Checkpoint/Worker",
+            "name": "[Worker] Enemy Before Checkpoint"
+          },
+          {
+            "ref": "5-4/Enemy Before Checkpoint/Drone Spawned Near Door",
+            "name": "[Drone Spawned Near Door] Enemy Before Checkpoint"
+          },
+          {
+            "ref": "5-4/Enemy After Checkpoint/Drone",
+            "name": "[Drone] Enemy After Checkpoint"
+          },
+          {
+            "ref": "5-4/Enemy Spawned From Box of Grenades/Mite",
+            "name": "[Mite] Enemy Spawned From Box of Grenades"
           }
         ],
         "map_locations": [
