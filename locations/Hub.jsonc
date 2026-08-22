@@ -8672,8 +8672,292 @@
         "name": "5-7",
         "sections": [
           {
-            "ref": "5-7/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "5-7/In Starting Hall/Full Health",
+            "name": "[Full Health] In Starting Hall"
+          },
+          {
+            "ref": "5-7/First Room Start/Cerebral Bore",
+            "name": "[Cerebral Bore] First Room Start"
+          },
+          {
+            "ref": "5-7/First Room Left/Plasma Pak",
+            "name": "[Plasma Pak] First Room Left"
+          },
+          {
+            "ref": "5-7/First Room Right/Plasma Pak",
+            "name": "[Plasma Pak] First Room Right"
+          },
+          {
+            "ref": "5-7/Left Water Room/Box of Grenades",
+            "name": "[Box of Grenades] Left Water Room"
+          },
+          {
+            "ref": "5-7/Left Water Room/Plasma Pak",
+            "name": "[Plasma Pak] Left Water Room"
+          },
+          {
+            "ref": "5-7/Left Water Room/Arrows",
+            "name": "[Arrows] Left Water Room"
+          },
+          {
+            "ref": "5-7/Left Water Room/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] Left Water Room"
+          },
+          {
+            "ref": "5-7/Left Water Room/Full Health",
+            "name": "[Full Health] Left Water Room"
+          },
+          {
+            "ref": "5-7/Left Water Room/LF10",
+            "name": "[LF10] Left Water Room"
+          },
+          {
+            "ref": "5-7/Left Water Room/Bores",
+            "name": "[Bores] Left Water Room"
+          },
+          {
+            "ref": "5-7/Right Water Room/LF10",
+            "name": "[LF10] Right Water Room"
+          },
+          {
+            "ref": "5-7/Right Water Room/Tek Quiver",
+            "name": "[Tek Quiver] Right Water Room"
+          },
+          {
+            "ref": "5-7/Right Water Room/Bores",
+            "name": "[Bores] Right Water Room"
+          },
+          {
+            "ref": "5-7/Right Water Room/Explosive Shells",
+            "name": "[Explosive Shells] Right Water Room"
+          },
+          {
+            "ref": "5-7/Right Water Room/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Right Water Room"
+          },
+          {
+            "ref": "5-7/Right Water Room/Box of Shells",
+            "name": "[Box of Shells] Right Water Room"
+          },
+          {
+            "ref": "5-7/Right Water Room/Box of Bullets",
+            "name": "[Box of Bullets] Right Water Room"
+          },
+          {
+            "ref": "5-7/In Left Wall/Mine",
+            "name": "[Mine] In Left Wall"
+          },
+          {
+            "ref": "5-7/In Right Wall/Mine",
+            "name": "[Mine] In Right Wall"
+          },
+          {
+            "ref": "5-7/Front Left Water Room/Blue Health",
+            "name": "[Blue Health] Front Left Water Room"
+          },
+          {
+            "ref": "5-7/Front Left Water Room/Firestorm Cannon",
+            "name": "[Firestorm Cannon] Front Left Water Room"
+          },
+          {
+            "ref": "5-7/Front Right Water Room/Blue Health",
+            "name": "[Blue Health] Front Right Water Room"
+          },
+          {
+            "ref": "5-7/Front Right Water Room/P.F.M. Layer",
+            "name": "[P.F.M. Layer] Front Right Water Room"
+          },
+          {
+            "ref": "5-7/Left of Checkpoint/Box of Bullets",
+            "name": "[Box of Bullets] Left of Checkpoint"
+          },
+          {
+            "ref": "5-7/Right of Checkpoint/Box of Grenades",
+            "name": "[Box of Grenades] Right of Checkpoint"
+          },
+          {
+            "ref": "5-7/Front Left Platform/LF10",
+            "name": "[LF10] Front Left Platform"
+          },
+          {
+            "ref": "5-7/Back Left Platform/LF10",
+            "name": "[LF10] Back Left Platform"
+          },
+          {
+            "ref": "5-7/Back Right Platform/LF10",
+            "name": "[LF10] Back Right Platform"
+          },
+          {
+            "ref": "5-7/Front Right Platform/LF10",
+            "name": "[LF10] Front Right Platform"
+          },
+          {
+            "ref": "5-7/Underwater Room/Blue Health",
+            "name": "[Blue Health] Underwater Room"
+          },
+          {
+            "ref": "5-7/Underwater Room/Force Field Generator",
+            "name": "[Force Field Generator] Underwater Room"
+          },
+          {
+            "ref": "5-7/In Center Room Wall/Bores",
+            "name": "[Bores] In Center Room Wall"
+          },
+          {
+            "ref": "5-7/After Force Field in Wall/Box of Bullets",
+            "name": "[Box of Bullets] After Force Field in Wall"
+          },
+          {
+            "ref": "5-7/Before Elevator/Blue Health",
+            "name": "[Blue Health] Before Elevator"
+          },
+          {
+            "ref": "5-7/After Main Generator/Blue Health",
+            "name": "[Blue Health] After Main Generator"
+          },
+          {
+            "ref": "5-7/After Main Generator/Scorpion Launcher",
+            "name": "[Scorpion Launcher] After Main Generator"
+          },
+          {
+            "ref": "5-7/Level Key Room/Level Key",
+            "name": "[Level Key] Level Key Room"
+          },
+          {
+            "ref": "5-7/By Exit Portal/Silver Health",
+            "name": "[Silver Health] By Exit Portal"
+          },
+          {
+            "ref": "5-7/Before Checkpoint/Switch",
+            "name": "[Switch] Before Checkpoint"
+          },
+          {
+            "ref": "5-7/Main Generator Room/Destroy Generator",
+            "name": "[Destroy Generator] Main Generator Room"
+          },
+          {
+            "ref": "5-7/Enemy in Starting Hall Left/Drone",
+            "name": "[Drone] Enemy in Starting Hall Left"
+          },
+          {
+            "ref": "5-7/Enemy in Starting Hall Right/Drone",
+            "name": "[Drone] Enemy in Starting Hall Right"
+          },
+          {
+            "ref": "5-7/Enemy on Close Platform/Drone",
+            "name": "[Drone] Enemy on Close Platform"
+          },
+          {
+            "ref": "5-7/Enemy on Middle Platform/Drone",
+            "name": "[Drone] Enemy on Middle Platform"
+          },
+          {
+            "ref": "5-7/Enemy on Far Platform/Drone",
+            "name": "[Drone] Enemy on Far Platform"
+          },
+          {
+            "ref": "5-7/Enemy in Left Water Room/Soldier",
+            "name": "[Soldier] Enemy in Left Water Room"
+          },
+          {
+            "ref": "5-7/Enemy in  Right Water Room/Soldier",
+            "name": "[Soldier] Enemy in  Right Water Room"
+          },
+          {
+            "ref": "5-7/Enemy in Hall/Worker",
+            "name": "[Worker] Enemy in Hall"
+          },
+          {
+            "ref": "5-7/Enemy in Front Left Room/Mite",
+            "name": "[Mite] Enemy in Front Left Room"
+          },
+          {
+            "ref": "5-7/Enemy in Front Right Room/Mite",
+            "name": "[Mite] Enemy in Front Right Room"
+          },
+          {
+            "ref": "5-7/Enemy on Upper Ledge/Drone",
+            "name": "[Drone] Enemy on Upper Ledge"
+          },
+          {
+            "ref": "5-7/Enemy by Checkpoint/Drone",
+            "name": "[Drone] Enemy by Checkpoint"
+          },
+          {
+            "ref": "5-7/Enemy on Front Left Platform/Soldier",
+            "name": "[Soldier] Enemy on Front Left Platform"
+          },
+          {
+            "ref": "5-7/Enemy on Front Right Platform/Soldier",
+            "name": "[Soldier] Enemy on Front Right Platform"
+          },
+          {
+            "ref": "5-7/Enemy on Back Left Platform/Soldier",
+            "name": "[Soldier] Enemy on Back Left Platform"
+          },
+          {
+            "ref": "5-7/Enemy on Back Right Platform/Soldier",
+            "name": "[Soldier] Enemy on Back Right Platform"
+          },
+          {
+            "ref": "5-7/Enemy in Underwater Room/Soldier",
+            "name": "[Soldier] Enemy in Underwater Room"
+          },
+          {
+            "ref": "5-7/Enemy in Center Room Front/Drone",
+            "name": "[Drone] Enemy in Center Room Front"
+          },
+          {
+            "ref": "5-7/Enemy in Center Room Side/Drone",
+            "name": "[Drone] Enemy in Center Room Side"
+          },
+          {
+            "ref": "5-7/Enemy After Forcefield in Wall/Drone",
+            "name": "[Drone] Enemy After Forcefield in Wall"
+          },
+          {
+            "ref": "5-7/Enemy by Elevator/Drone",
+            "name": "[Drone] Enemy by Elevator"
+          },
+          {
+            "ref": "5-7/Enemy After Elevator/Drone",
+            "name": "[Drone] Enemy After Elevator"
+          },
+          {
+            "ref": "5-7/Enemy After Elevator/Mite in Egg",
+            "name": "[Mite in Egg] Enemy After Elevator"
+          },
+          {
+            "ref": "5-7/Enemy Above Main Generator/Worker",
+            "name": "[Worker] Enemy Above Main Generator"
+          },
+          {
+            "ref": "5-7/Enemy Above Main Generator/Drone",
+            "name": "[Drone] Enemy Above Main Generator"
+          },
+          {
+            "ref": "5-7/Enemy Spawned From Generator/Drone",
+            "name": "[Drone] Enemy Spawned From Generator"
+          },
+          {
+            "ref": "5-7/Enemy in Corner/Soldier",
+            "name": "[Soldier] Enemy in Corner"
+          },
+          {
+            "ref": "5-7/Enemy Spawned by Door/Drone",
+            "name": "[Drone] Enemy Spawned by Door"
+          },
+          {
+            "ref": "5-7/Enemy in Exit Tunnel/Worker",
+            "name": "[Worker] Enemy in Exit Tunnel"
+          },
+          {
+            "ref": "5-7/Enemy by Exit Portal/Drone",
+            "name": "[Drone] Enemy by Exit Portal"
+          },
+          {
+            "ref": "5-7/Enemy Spawned From Level Key/Worker",
+            "name": "[Worker] Enemy Spawned From Level Key"
           }
         ],
         "map_locations": [
