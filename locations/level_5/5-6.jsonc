@@ -8,11 +8,1250 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "In Starting Room",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Silver Health",
+                        "item_count": 8,
+                        "visibility_rules": [
+                            "$id_exists|88000|88001|88002|88003|88004|88005|88006|88007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Starting Room Wall",
+                "chest_unopened_img": "images/items/weapons_small/firestorm_cannon.png",
+                "chest_opened_img": "images/items/weapons_small/firestorm_cannon_bw.png",
+                "sections": [
+                    {
+                        "name": "Firestorm Cannon",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88008"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Starting Hall End",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88009"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Right Wall",
+                "chest_unopened_img": "images/items/ammo/grenade.png",
+                "chest_opened_img": "images/items/ammo/grenade_bw.png",
+                "sections": [
+                    {
+                        "name": "Grenade",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|88010|88011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Forward Room",
+                "sections": [
+                    {
+                        "name": "Mine",
+                        "chest_unopened_img": "images/items/ammo/mine.png",
+                        "chest_opened_img": "images/items/ammo/mine_bw.png",
+                        "item_count": 6,
+                        "visibility_rules": [
+                            "$id_exists|88012|88013|88014|88015|88016|88017"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_hive.png",
+                        "chest_opened_img": "images/interactables/switch_hive_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88073"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Right Wall",
+                "chest_unopened_img": "images/items/ammo/mine.png",
+                "chest_opened_img": "images/items/ammo/mine_bw.png",
+                "sections": [
+                    {
+                        "name": "Mine",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88018"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Side Room",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|88019|88020|88021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Back Right Corner",
+                "chest_unopened_img": "images/items/ammo/bores.png",
+                "chest_opened_img": "images/items/ammo/bores_bw.png",
+                "sections": [
+                    {
+                        "name": "Bores",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Left Wall",
+                "chest_unopened_img": "images/items/ammo/mine.png",
+                "chest_opened_img": "images/items/ammo/mine_bw.png",
+                "sections": [
+                    {
+                        "name": "Mine",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88023"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Side Room",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|88024|88025|88026"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Back Left Corner",
+                "chest_unopened_img": "images/items/ammo/bores.png",
+                "chest_opened_img": "images/items/ammo/bores_bw.png",
+                "sections": [
+                    {
+                        "name": "Bores",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88027"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Explodable Wall",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|88028|88029|88030|88031"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Switch Room",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 6,
+                        "visibility_rules": [
+                            "$id_exists|88032|88033|88034|88035|88036|88037"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_hive.png",
+                        "chest_opened_img": "images/interactables/switch_hive_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88075"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Path Start",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|88038|88039|88040"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Dead End",
+                "chest_unopened_img": "images/items/weapons_small/cerebral_bore.png",
+                "chest_opened_img": "images/items/weapons_small/cerebral_bore_bw.png",
+                "sections": [
+                    {
+                        "name": "Cerebral Bore",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88041"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Path in Left Wall",
+                "chest_unopened_img": "images/items/ammo/charge_darts_pak.png",
+                "chest_opened_img": "images/items/ammo/charge_darts_pak_bw.png",
+                "sections": [
+                    {
+                        "name": "Charge Dart Pak",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88042"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Path in Right Wall",
+                "chest_unopened_img": "images/items/ammo/mine.png",
+                "chest_opened_img": "images/items/ammo/mine_bw.png",
+                "sections": [
+                    {
+                        "name": "Mine",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88043"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Feather Hall Return",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 7,
+                        "visibility_rules": [
+                            "$id_exists|88044|88045|88046|88047|88048|88049|88050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Elevator",
+                "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                "sections": [
+                    {
+                        "name": "Mag 60",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Elevator Hall",
+                "chest_unopened_img": "images/items/weapons_small/firestorm_cannon.png",
+                "chest_opened_img": "images/items/weapons_small/firestorm_cannon_bw.png",
+                "sections": [
+                    {
+                        "name": "Firestorm Cannon",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88052"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Elevator Circular Room",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88053"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Feather Hall Side Room",
+                "sections": [
+                    {
+                        "name": "Flame Thrower",
+                        "chest_unopened_img": "images/items/weapons_small/flame_thrower.png",
+                        "chest_opened_img": "images/items/weapons_small/flame_thrower_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88054"
+                        ]
+                    },
+                    {
+                        "name": "Bores",
+                        "chest_unopened_img": "images/items/ammo/bores.png",
+                        "chest_opened_img": "images/items/ammo/bores_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|88055|88056|88057|88058"
+                        ]
+                    },
+                    {
+                        "name": "Talisman Portal Switch",
+                        "chest_unopened_img": "images/interactables/switch_portal.png",
+                        "chest_opened_img": "images/interactables/switch_portal_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88076"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Feather Hall First Jump",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88059"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Feather Hall Second Jump",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88060"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Feather Hall Third Jump",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88061"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Feather Hall End",
+                "sections": [
+                    {
+                        "name": "Eagle Feather",
+                        "chest_unopened_img": "images/items/talismans/level_5_eagle_feather.png",
+                        "chest_opened_img": "images/items/talismans/level_5_eagle_feather_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88062"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Talisman Portal Path",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 9,
+                        "visibility_rules": [
+                            "$id_exists|88063|88064|88065|88066|88067|88068|88069|88070|88071"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Pit Room Wall",
+                "chest_unopened_img": "images/interactables/switch_hive.png",
+                "chest_opened_img": "images/interactables/switch_hive_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88072"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Center Room",
+                "chest_unopened_img": "images/interactables/force_field_generator.png",
+                "chest_opened_img": "images/interactables/force_field_generator_bw.png",
+                "sections": [
+                    {
+                        "name": "Force Field Generator",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88074"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Talisman",
+                "chest_unopened_img": "images/items/talismans/whispers.png",
+                "chest_opened_img": "images/items/talismans/whispers_bw.png",
+                "sections": [
+                    {
+                        "name": "Whispers",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|76000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Firestorm Cannon",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88077"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Starting Hall",
+                "chest_unopened_img": "images/enemies/worker.png",
+                "chest_opened_img": "images/enemies/worker_bw.png",
+                "sections": [
+                    {
+                        "name": "Worker",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|88078|88079|88080"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Starting Hall End",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88081"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Center",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88082"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Left Switch",
+                "chest_unopened_img": "images/enemies/soldier.png",
+                "chest_opened_img": "images/enemies/soldier_bw.png",
+                "sections": [
+                    {
+                        "name": "Soldier",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88083"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Right Path Switch",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88084"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Forward Room",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 12,
+                        "visibility_rules": [
+                            "$id_exists|88085|88086|88087|88088|88089|88090|88091|88092|88093|88094|88095|88096"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Right Path Start",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "chest_unopened_img": "images/enemies/drone.png",
+                        "chest_opened_img": "images/enemies/drone_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88097"
+                        ]
+                    },
+                    {
+                        "name": "Worker",
+                        "chest_unopened_img": "images/enemies/worker.png",
+                        "chest_opened_img": "images/enemies/worker_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|88098|88099"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Behind Center Pillar",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88100"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Room",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|88101|88102"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Room",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|88103|88104"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Center Room",
+                "chest_unopened_img": "images/enemies/soldier.png",
+                "chest_opened_img": "images/enemies/soldier_bw.png",
+                "sections": [
+                    {
+                        "name": "Soldier",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88105"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Switch",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|88106|88107|88108|88109"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Standing Here",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88110"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Path",
+                "chest_unopened_img": "images/enemies/worker.png",
+                "chest_opened_img": "images/enemies/worker_bw.png",
+                "sections": [
+                    {
+                        "name": "Worker",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|88111|88112|88113|88114"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Elevator",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88115"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Elevator",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|88116|88117|88118|88119"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Hall Firestorm Cannon",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|88120|88121"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Full Health",
+                "chest_unopened_img": "images/enemies/worker.png",
+                "chest_opened_img": "images/enemies/worker_bw.png",
+                "sections": [
+                    {
+                        "name": "Worker Behind",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|88122|88123|88124"
+                        ]
+                    },
+                    {
+                        "name": "Worker Ahead",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|88125|88126|88127"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Feather Hall Side Room",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite in Egg",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|88128|88129"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Feather Hall Start",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88130"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Platform",
+                "chest_unopened_img": "images/enemies/soldier.png",
+                "chest_opened_img": "images/enemies/soldier_bw.png",
+                "sections": [
+                    {
+                        "name": "Soldier",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88131"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in First Alcove",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88132"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Second Alcove",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88133"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Third Alcove",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88134"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Fourth Alcove",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|88135"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-6",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

@@ -8412,8 +8412,252 @@
         "name": "5-6",
         "sections": [
           {
-            "ref": "5-6/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "5-6/In Starting Room/Silver Health",
+            "name": "[Silver Health] In Starting Room"
+          },
+          {
+            "ref": "5-6/In Starting Room Wall/Firestorm Cannon",
+            "name": "[Firestorm Cannon] In Starting Room Wall"
+          },
+          {
+            "ref": "5-6/Starting Hall End/Full Health",
+            "name": "[Full Health] Starting Hall End"
+          },
+          {
+            "ref": "5-6/On Right Wall/Grenade",
+            "name": "[Grenade] On Right Wall"
+          },
+          {
+            "ref": "5-6/In Forward Room/Mine",
+            "name": "[Mine] In Forward Room"
+          },
+          {
+            "ref": "5-6/In Forward Room/Switch",
+            "name": "[Switch] In Forward Room"
+          },
+          {
+            "ref": "5-6/In Right Wall/Mine",
+            "name": "[Mine] In Right Wall"
+          },
+          {
+            "ref": "5-6/Right Side Room/LF10",
+            "name": "[LF10] Right Side Room"
+          },
+          {
+            "ref": "5-6/In Back Right Corner/Bores",
+            "name": "[Bores] In Back Right Corner"
+          },
+          {
+            "ref": "5-6/In Left Wall/Mine",
+            "name": "[Mine] In Left Wall"
+          },
+          {
+            "ref": "5-6/Left Side Room/LF10",
+            "name": "[LF10] Left Side Room"
+          },
+          {
+            "ref": "5-6/In Back Left Corner/Bores",
+            "name": "[Bores] In Back Left Corner"
+          },
+          {
+            "ref": "5-6/By Explodable Wall/LF1",
+            "name": "[LF1] By Explodable Wall"
+          },
+          {
+            "ref": "5-6/In Switch Room/Silver Health",
+            "name": "[Silver Health] In Switch Room"
+          },
+          {
+            "ref": "5-6/In Switch Room/Switch",
+            "name": "[Switch] In Switch Room"
+          },
+          {
+            "ref": "5-6/Left Path Start/LF10",
+            "name": "[LF10] Left Path Start"
+          },
+          {
+            "ref": "5-6/In Dead End/Cerebral Bore",
+            "name": "[Cerebral Bore] In Dead End"
+          },
+          {
+            "ref": "5-6/Left Path in Left Wall/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Left Path in Left Wall"
+          },
+          {
+            "ref": "5-6/Left Path in Right Wall/Mine",
+            "name": "[Mine] Left Path in Right Wall"
+          },
+          {
+            "ref": "5-6/Feather Hall Return/LF1",
+            "name": "[LF1] Feather Hall Return"
+          },
+          {
+            "ref": "5-6/Up Elevator/Mag 60",
+            "name": "[Mag 60] Up Elevator"
+          },
+          {
+            "ref": "5-6/Elevator Hall/Firestorm Cannon",
+            "name": "[Firestorm Cannon] Elevator Hall"
+          },
+          {
+            "ref": "5-6/Elevator Circular Room/Full Health",
+            "name": "[Full Health] Elevator Circular Room"
+          },
+          {
+            "ref": "5-6/Feather Hall Side Room/Flame Thrower",
+            "name": "[Flame Thrower] Feather Hall Side Room"
+          },
+          {
+            "ref": "5-6/Feather Hall Side Room/Bores",
+            "name": "[Bores] Feather Hall Side Room"
+          },
+          {
+            "ref": "5-6/Feather Hall Side Room/Talisman Portal Switch",
+            "name": "[Talisman Portal Switch] Feather Hall Side Room"
+          },
+          {
+            "ref": "5-6/Feather Hall First Jump/LF10",
+            "name": "[LF10] Feather Hall First Jump"
+          },
+          {
+            "ref": "5-6/Feather Hall Second Jump/LF10",
+            "name": "[LF10] Feather Hall Second Jump"
+          },
+          {
+            "ref": "5-6/Feather Hall Third Jump/LF10",
+            "name": "[LF10] Feather Hall Third Jump"
+          },
+          {
+            "ref": "5-6/Feather Hall End/Eagle Feather",
+            "name": "[Eagle Feather] Feather Hall End"
+          },
+          {
+            "ref": "5-6/Talisman Portal Path/LF1",
+            "name": "[LF1] Talisman Portal Path"
+          },
+          {
+            "ref": "5-6/On Pit Room Wall/Switch",
+            "name": "[Switch] On Pit Room Wall"
+          },
+          {
+            "ref": "5-6/In Center Room/Force Field Generator",
+            "name": "[Force Field Generator] In Center Room"
+          },
+          {
+            "ref": "5-6/Talisman/Whispers",
+            "name": "[Whispers] Talisman"
+          },
+          {
+            "ref": "5-6/Enemy Spawned From Firestorm Cannon/Drone",
+            "name": "[Drone] Enemy Spawned From Firestorm Cannon"
+          },
+          {
+            "ref": "5-6/Enemy in Starting Hall/Worker",
+            "name": "[Worker] Enemy in Starting Hall"
+          },
+          {
+            "ref": "5-6/Enemy at Starting Hall End/Drone",
+            "name": "[Drone] Enemy at Starting Hall End"
+          },
+          {
+            "ref": "5-6/Enemy in Center/Drone",
+            "name": "[Drone] Enemy in Center"
+          },
+          {
+            "ref": "5-6/Enemy by Left Switch/Soldier",
+            "name": "[Soldier] Enemy by Left Switch"
+          },
+          {
+            "ref": "5-6/Enemy Spawned From Right Path Switch/Drone",
+            "name": "[Drone] Enemy Spawned From Right Path Switch"
+          },
+          {
+            "ref": "5-6/Enemy in Forward Room/Mite",
+            "name": "[Mite] Enemy in Forward Room"
+          },
+          {
+            "ref": "5-6/Enemy at Right Path Start/Drone",
+            "name": "[Drone] Enemy at Right Path Start"
+          },
+          {
+            "ref": "5-6/Enemy at Right Path Start/Worker",
+            "name": "[Worker] Enemy at Right Path Start"
+          },
+          {
+            "ref": "5-6/Enemy Behind Center Pillar/Drone",
+            "name": "[Drone] Enemy Behind Center Pillar"
+          },
+          {
+            "ref": "5-6/Enemy in Right Room/Drone",
+            "name": "[Drone] Enemy in Right Room"
+          },
+          {
+            "ref": "5-6/Enemy in Left Room/Drone",
+            "name": "[Drone] Enemy in Left Room"
+          },
+          {
+            "ref": "5-6/Enemy in Center Room/Soldier",
+            "name": "[Soldier] Enemy in Center Room"
+          },
+          {
+            "ref": "5-6/Enemy After Switch/Mite",
+            "name": "[Mite] Enemy After Switch"
+          },
+          {
+            "ref": "5-6/Enemy Spawned From Standing Here/Drone",
+            "name": "[Drone] Enemy Spawned From Standing Here"
+          },
+          {
+            "ref": "5-6/Enemy in Left Path/Worker",
+            "name": "[Worker] Enemy in Left Path"
+          },
+          {
+            "ref": "5-6/Enemy by Elevator/Drone",
+            "name": "[Drone] Enemy by Elevator"
+          },
+          {
+            "ref": "5-6/Enemy up Elevator/Mite",
+            "name": "[Mite] Enemy up Elevator"
+          },
+          {
+            "ref": "5-6/Enemy Spawned From Hall Firestorm Cannon/Drone",
+            "name": "[Drone] Enemy Spawned From Hall Firestorm Cannon"
+          },
+          {
+            "ref": "5-6/Enemy Spawned From Full Health/Worker Behind",
+            "name": "[Worker Behind] Enemy Spawned From Full Health"
+          },
+          {
+            "ref": "5-6/Enemy Spawned From Full Health/Worker Ahead",
+            "name": "[Worker Ahead] Enemy Spawned From Full Health"
+          },
+          {
+            "ref": "5-6/Enemy in Feather Hall Side Room/Mite in Egg",
+            "name": "[Mite in Egg] Enemy in Feather Hall Side Room"
+          },
+          {
+            "ref": "5-6/Enemy at Feather Hall Start/Drone",
+            "name": "[Drone] Enemy at Feather Hall Start"
+          },
+          {
+            "ref": "5-6/Enemy on Platform/Soldier",
+            "name": "[Soldier] Enemy on Platform"
+          },
+          {
+            "ref": "5-6/Enemy in First Alcove/Drone",
+            "name": "[Drone] Enemy in First Alcove"
+          },
+          {
+            "ref": "5-6/Enemy in Second Alcove/Drone",
+            "name": "[Drone] Enemy in Second Alcove"
+          },
+          {
+            "ref": "5-6/Enemy in Third Alcove/Drone",
+            "name": "[Drone] Enemy in Third Alcove"
+          },
+          {
+            "ref": "5-6/Enemy in Fourth Alcove/Drone",
+            "name": "[Drone] Enemy in Fourth Alcove"
           }
         ],
         "map_locations": [
