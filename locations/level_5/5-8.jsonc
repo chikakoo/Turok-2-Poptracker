@@ -8,11 +8,681 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Start",
+                "chest_unopened_img": "images/items/ammo/grenade.png",
+                "chest_opened_img": "images/items/ammo/grenade_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Grenade",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|90000|90001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After First Hall",
+                "chest_unopened_img": "images/items/weapons_small/grenade_launcher.png",
+                "chest_opened_img": "images/items/weapons_small/grenade_launcher_bw.png",
+                "sections": [
+                    {
+                        "name": "Grenade Launcher",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Pillar",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|90003|90004|90005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Corner",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Climbable Wall",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|90007|90008|90009|90010|90011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Fork End",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90012"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Explodable Wall",
+                "chest_unopened_img": "images/items/ammo/grenade.png",
+                "chest_opened_img": "images/items/ammo/grenade_bw.png",
+                "sections": [
+                    {
+                        "name": "Grenade",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|90013|90014|90015|90016|90017"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Second Climbable Wall",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|90018|90019|90020|90021|90022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Path Start",
+                "chest_unopened_img": "images/items/weapons_small/flame_thrower.png",
+                "chest_opened_img": "images/items/weapons_small/flame_thrower_bw.png",
+                "sections": [
+                    {
+                        "name": "Flame Thrower",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90023"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Path Mid",
+                "chest_unopened_img": "images/items/ammo/flame_thrower_tank.png",
+                "chest_opened_img": "images/items/ammo/flame_thrower_tank_bw.png",
+                "sections": [
+                    {
+                        "name": "Flame Thrower Tank",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|90024|90025"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Path End",
+                "chest_unopened_img": "images/items/weapons_small/scorpion_launcher.png",
+                "chest_opened_img": "images/items/weapons_small/scorpion_launcher_bw.png",
+                "sections": [
+                    {
+                        "name": "Scorpion Launcher",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90026"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Path Left",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|90027|90028|90029|90030"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Path Left in Left Wall",
+                "chest_unopened_img": "images/items/ammo/flame_thrower_tank.png",
+                "chest_opened_img": "images/items/ammo/flame_thrower_tank_bw.png",
+                "sections": [
+                    {
+                        "name": "Flame Thrower Tank",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90031"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Path Left in Back Wall",
+                "chest_unopened_img": "images/items/ammo/box_of_grenades.png",
+                "chest_opened_img": "images/items/ammo/box_of_grenades_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Grenades",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Path Left in Right Wall",
+                "chest_unopened_img": "images/items/ammo/plasma_pak.png",
+                "chest_opened_img": "images/items/ammo/plasma_pak_bw.png",
+                "sections": [
+                    {
+                        "name": "Plasma Pak",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90033"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Path Right",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|90034|90035|90036|90037"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Path Right in Left Wall",
+                "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90038"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Path Right in Back Wall",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90039"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Path Right in Right Wall",
+                "chest_unopened_img": "images/items/ammo/charge_darts_pak.png",
+                "chest_opened_img": "images/items/ammo/charge_darts_pak_bw.png",
+                "sections": [
+                    {
+                        "name": "Charge Dart Pak",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90040"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Catwalks First Corner",
+                "chest_unopened_img": "images/items/ammo/grenade.png",
+                "chest_opened_img": "images/items/ammo/grenade_bw.png",
+                "sections": [
+                    {
+                        "name": "Grenade",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|90041|90042"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Catwalks Second Corner",
+                "chest_unopened_img": "images/items/ammo/mine.png",
+                "chest_opened_img": "images/items/ammo/mine_bw.png",
+                "sections": [
+                    {
+                        "name": "Mine",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|90043|90044"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Catwalks Third Corner",
+                "chest_unopened_img": "images/items/ammo/grenade.png",
+                "chest_opened_img": "images/items/ammo/grenade_bw.png",
+                "sections": [
+                    {
+                        "name": "Grenade",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|90045|90046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Catwalks Fourth Corner",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|90047|90048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Starting Hall",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite in Egg",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|90049|90050|90051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Climbable Wall",
+                "chest_unopened_img": "images/enemies/worker.png",
+                "chest_opened_img": "images/enemies/worker_bw.png",
+                "sections": [
+                    {
+                        "name": "Worker",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|90052|90053"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Climbable Wall",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90054"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Left Fork",
+                "chest_unopened_img": "images/enemies/worker.png",
+                "chest_opened_img": "images/enemies/worker_bw.png",
+                "sections": [
+                    {
+                        "name": "Worker",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|90055|90056"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Second Climbable Wall",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90057"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Scorpion Launcher",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|90058|90059|90060"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Catwalks Start",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90061"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Catwalks End",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90062"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Exit Hall Egg",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90063"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

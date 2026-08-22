@@ -8972,8 +8972,132 @@
         "name": "5-8",
         "sections": [
           {
-            "ref": "5-8/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "5-8/At Start/Grenade",
+            "name": "[Grenade] At Start"
+          },
+          {
+            "ref": "5-8/After First Hall/Grenade Launcher",
+            "name": "[Grenade Launcher] After First Hall"
+          },
+          {
+            "ref": "5-8/Behind Pillar/Silver Health",
+            "name": "[Silver Health] Behind Pillar"
+          },
+          {
+            "ref": "5-8/In Corner/Box of Bullets",
+            "name": "[Box of Bullets] In Corner"
+          },
+          {
+            "ref": "5-8/By Climbable Wall/LF1",
+            "name": "[LF1] By Climbable Wall"
+          },
+          {
+            "ref": "5-8/Left Fork End/Full Health",
+            "name": "[Full Health] Left Fork End"
+          },
+          {
+            "ref": "5-8/By Explodable Wall/Grenade",
+            "name": "[Grenade] By Explodable Wall"
+          },
+          {
+            "ref": "5-8/By Second Climbable Wall/Silver Health",
+            "name": "[Silver Health] By Second Climbable Wall"
+          },
+          {
+            "ref": "5-8/Water Path Start/Flame Thrower",
+            "name": "[Flame Thrower] Water Path Start"
+          },
+          {
+            "ref": "5-8/Water Path Mid/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] Water Path Mid"
+          },
+          {
+            "ref": "5-8/Water Path End/Scorpion Launcher",
+            "name": "[Scorpion Launcher] Water Path End"
+          },
+          {
+            "ref": "5-8/Water Path Left/Blue Health",
+            "name": "[Blue Health] Water Path Left"
+          },
+          {
+            "ref": "5-8/Water Path Left in Left Wall/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] Water Path Left in Left Wall"
+          },
+          {
+            "ref": "5-8/Water Path Left in Back Wall/Box of Grenades",
+            "name": "[Box of Grenades] Water Path Left in Back Wall"
+          },
+          {
+            "ref": "5-8/Water Path Left in Right Wall/Plasma Pak",
+            "name": "[Plasma Pak] Water Path Left in Right Wall"
+          },
+          {
+            "ref": "5-8/Water Path Right/Blue Health",
+            "name": "[Blue Health] Water Path Right"
+          },
+          {
+            "ref": "5-8/Water Path Right in Left Wall/Box of Shells",
+            "name": "[Box of Shells] Water Path Right in Left Wall"
+          },
+          {
+            "ref": "5-8/Water Path Right in Back Wall/Box of Bullets",
+            "name": "[Box of Bullets] Water Path Right in Back Wall"
+          },
+          {
+            "ref": "5-8/Water Path Right in Right Wall/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Water Path Right in Right Wall"
+          },
+          {
+            "ref": "5-8/Catwalks First Corner/Grenade",
+            "name": "[Grenade] Catwalks First Corner"
+          },
+          {
+            "ref": "5-8/Catwalks Second Corner/Mine",
+            "name": "[Mine] Catwalks Second Corner"
+          },
+          {
+            "ref": "5-8/Catwalks Third Corner/Grenade",
+            "name": "[Grenade] Catwalks Third Corner"
+          },
+          {
+            "ref": "5-8/Catwalks Fourth Corner/Blue Health",
+            "name": "[Blue Health] Catwalks Fourth Corner"
+          },
+          {
+            "ref": "5-8/Enemy in Starting Hall/Mite in Egg",
+            "name": "[Mite in Egg] Enemy in Starting Hall"
+          },
+          {
+            "ref": "5-8/Enemy by Climbable Wall/Worker",
+            "name": "[Worker] Enemy by Climbable Wall"
+          },
+          {
+            "ref": "5-8/Enemy up Climbable Wall/Drone",
+            "name": "[Drone] Enemy up Climbable Wall"
+          },
+          {
+            "ref": "5-8/Enemy on Left Fork/Worker",
+            "name": "[Worker] Enemy on Left Fork"
+          },
+          {
+            "ref": "5-8/Enemy up Second Climbable Wall/Drone",
+            "name": "[Drone] Enemy up Second Climbable Wall"
+          },
+          {
+            "ref": "5-8/Enemy Spawned From Scorpion Launcher/Mite",
+            "name": "[Mite] Enemy Spawned From Scorpion Launcher"
+          },
+          {
+            "ref": "5-8/Enemy on Catwalks Start/Drone",
+            "name": "[Drone] Enemy on Catwalks Start"
+          },
+          {
+            "ref": "5-8/Enemy on Catwalks End/Drone",
+            "name": "[Drone] Enemy on Catwalks End"
+          },
+          {
+            "ref": "5-8/Enemy in Exit Hall Egg/Mite",
+            "name": "[Mite] Enemy in Exit Hall Egg"
           }
         ],
         "map_locations": [
