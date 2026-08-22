@@ -8,11 +8,715 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Top Left Corner",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|87000|87001|87002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Top Left Hall",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|87003|87004|87005|87006|87007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Cliff Jump",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|87008|87009"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Mid Platform",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|87010|87011|87012|87013"
+                        ]
+                    },
+                    {
+                        "name": "Firestorm Cannon",
+                        "chest_unopened_img": "images/items/weapons_small/firestorm_cannon.png",
+                        "chest_opened_img": "images/items/weapons_small/firestorm_cannon_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87014"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Bottom Ledge",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|87015|87016|87017"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Generator Room",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 10,
+                        "visibility_rules": [
+                            "$id_exists|87018|87019|87020|87021|87022|87023|87024|87025|87026|87027"
+                        ]
+                    },
+                    {
+                        "name": "Force Field Generator",
+                        "chest_unopened_img": "images/interactables/force_field_generator.png",
+                        "chest_opened_img": "images/interactables/force_field_generator_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87058"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Oblivion Portal",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|87028|87029|87030"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Left Wall",
+                "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87031"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Right Wall",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Back Wall",
+                "chest_unopened_img": "images/items/ammo/quiver_of_tek_arrows.png",
+                "chest_opened_img": "images/items/ammo/quiver_of_tek_arrows_bw.png",
+                "sections": [
+                    {
+                        "name": "Tek Quiver",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87033"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Elevator",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|87034|87035|87036"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Elevator Upper Path",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87037"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Elevator Lower Path",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 7,
+                        "visibility_rules": [
+                            "$id_exists|87038|87039|87040|87041|87042|87043|87044"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Hall Left Wall",
+                "chest_unopened_img": "images/items/ammo/grenade.png",
+                "chest_opened_img": "images/items/ammo/grenade_bw.png",
+                "sections": [
+                    {
+                        "name": "Grenade",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|87045|87046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Hall Right Wall",
+                "chest_unopened_img": "images/items/ammo/grenade.png",
+                "chest_opened_img": "images/items/ammo/grenade_bw.png",
+                "sections": [
+                    {
+                        "name": "Grenade",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|87047|87048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Elevator Hall End",
+                "chest_unopened_img": "images/items/weapons_small/pfm_layer.png",
+                "chest_opened_img": "images/items/weapons_small/pfm_layer_bw.png",
+                "sections": [
+                    {
+                        "name": "P.F.M. Layer",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87049"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Level Key Room",
+                "chest_unopened_img": "images/items/keys/level_6_key.png",
+                "chest_opened_img": "images/items/keys/level_6_key_bw.png",
+                "sections": [
+                    {
+                        "name": "Level Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Level Key Left Wall",
+                "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Level Key Right Wall",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|87052|87053|87054"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Exit Hall",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|87055|87056|87057"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Level Key Back Wall",
+                "chest_unopened_img": "images/interactables/switch_portal.png",
+                "chest_opened_img": "images/interactables/switch_portal_bw.png",
+                "sections": [
+                    {
+                        "name": "Oblivion Portal Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87059"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Cliff Jump",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87060"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Top Left",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87061"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Bottom Ledge",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87062"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Generator",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|87063|87064"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Elevator Halls Start",
+                "chest_unopened_img": "images/enemies/worker.png",
+                "chest_opened_img": "images/enemies/worker_bw.png",
+                "sections": [
+                    {
+                        "name": "Worker",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|87065|87066|87067"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Elevator Upper Path",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87068"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Elevator Lower Path",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87069"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Wall",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87070"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Wall",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87071"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Elevator Path",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|87072|87073|87074|87075|87076"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Level Key Room",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|87077"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Exit Hall",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|87078|87079"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-5",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }
