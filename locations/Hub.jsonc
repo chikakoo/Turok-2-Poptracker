@@ -9112,8 +9112,120 @@
         "name": "5-E1",
         "sections": [
           {
-            "ref": "5-E1/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "5-E1/In Right Alcove/LF10",
+            "name": "[LF10] In Right Alcove"
+          },
+          {
+            "ref": "5-E1/In Right Alcove/P.F.M. Layer",
+            "name": "[P.F.M. Layer] In Right Alcove"
+          },
+          {
+            "ref": "5-E1/By Embryo Entrance/Blue Health",
+            "name": "[Blue Health] By Embryo Entrance"
+          },
+          {
+            "ref": "5-E1/By Embryo Entrance/Charge Dart Pak",
+            "name": "[Charge Dart Pak] By Embryo Entrance"
+          },
+          {
+            "ref": "5-E1/In Middle Corner/LF1",
+            "name": "[LF1] In Middle Corner"
+          },
+          {
+            "ref": "5-E1/In Middle Corner/Box of Grenades",
+            "name": "[Box of Grenades] In Middle Corner"
+          },
+          {
+            "ref": "5-E1/In Back Left Alcove/Blue Health",
+            "name": "[Blue Health] In Back Left Alcove"
+          },
+          {
+            "ref": "5-E1/In Back Left Alcove/Flame Thrower",
+            "name": "[Flame Thrower] In Back Left Alcove"
+          },
+          {
+            "ref": "5-E1/After Embryo Start/Mine",
+            "name": "[Mine] After Embryo Start"
+          },
+          {
+            "ref": "5-E1/After Embryo Middle/Shells",
+            "name": "[Shells] After Embryo Middle"
+          },
+          {
+            "ref": "5-E1/By Pillar/Explosive Shells",
+            "name": "[Explosive Shells] By Pillar"
+          },
+          {
+            "ref": "5-E1/After Embryo Right Alcove/LF10",
+            "name": "[LF10] After Embryo Right Alcove"
+          },
+          {
+            "ref": "5-E1/After Embryo Right Alcove/Firestorm Cannon",
+            "name": "[Firestorm Cannon] After Embryo Right Alcove"
+          },
+          {
+            "ref": "5-E1/Pillar by Exit Door/Clip",
+            "name": "[Clip] Pillar by Exit Door"
+          },
+          {
+            "ref": "5-E1/By Exit Door/Blue Health",
+            "name": "[Blue Health] By Exit Door"
+          },
+          {
+            "ref": "5-E1/Embryo Chamber/Destroy Embryo",
+            "name": "[Destroy Embryo] Embryo Chamber"
+          },
+          {
+            "ref": "5-E1/Enemy in Right Alcove/Soldier",
+            "name": "[Soldier] Enemy in Right Alcove"
+          },
+          {
+            "ref": "5-E1/Enemy by Embryo Entrance/Drone",
+            "name": "[Drone] Enemy by Embryo Entrance"
+          },
+          {
+            "ref": "5-E1/Enemy in Embryo Entrance Hall/Mite in Egg",
+            "name": "[Mite in Egg] Enemy in Embryo Entrance Hall"
+          },
+          {
+            "ref": "5-E1/Enemy at Embryo Left/Drone",
+            "name": "[Drone] Enemy at Embryo Left"
+          },
+          {
+            "ref": "5-E1/Enemy at Embryo Left/Mite in Egg",
+            "name": "[Mite in Egg] Enemy at Embryo Left"
+          },
+          {
+            "ref": "5-E1/Enemy in Embryo Chamber Hall/Drone",
+            "name": "[Drone] Enemy in Embryo Chamber Hall"
+          },
+          {
+            "ref": "5-E1/Enemy in Embryo Chamber Hall/Mite in Egg",
+            "name": "[Mite in Egg] Enemy in Embryo Chamber Hall"
+          },
+          {
+            "ref": "5-E1/Enemy at Embryo Right/Mite in Egg",
+            "name": "[Mite in Egg] Enemy at Embryo Right"
+          },
+          {
+            "ref": "5-E1/Enemy by Embryo Exit/Drone",
+            "name": "[Drone] Enemy by Embryo Exit"
+          },
+          {
+            "ref": "5-E1/Enemy by Embryo Exit/Mite in Egg",
+            "name": "[Mite in Egg] Enemy by Embryo Exit"
+          },
+          {
+            "ref": "5-E1/Enemy by Pillar/Drone",
+            "name": "[Drone] Enemy by Pillar"
+          },
+          {
+            "ref": "5-E1/Enemy in Right Alcove After Embryo/Soldier",
+            "name": "[Soldier] Enemy in Right Alcove After Embryo"
+          },
+          {
+            "ref": "5-E1/Enemy by Exit Portal/Worker",
+            "name": "[Worker] Enemy by Exit Portal"
           }
         ],
         "map_locations": [

@@ -8,11 +8,523 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "In Right Alcove",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|94000|94001|94002|94003"
+                        ]
+                    },
+                    {
+                        "name": "P.F.M. Layer",
+                        "chest_unopened_img": "images/items/weapons_small/pfm_layer.png",
+                        "chest_opened_img": "images/items/weapons_small/pfm_layer_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Embryo Entrance",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|94005|94006"
+                        ]
+                    },
+                    {
+                        "name": "Charge Dart Pak",
+                        "chest_unopened_img": "images/items/ammo/charge_darts_pak.png",
+                        "chest_opened_img": "images/items/ammo/charge_darts_pak_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Middle Corner",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|94008|94009"
+                        ]
+                    },
+                    {
+                        "name": "Box of Grenades",
+                        "chest_unopened_img": "images/items/ammo/box_of_grenades.png",
+                        "chest_opened_img": "images/items/ammo/box_of_grenades_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Back Left Alcove",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|94011|94012|94013|94014"
+                        ]
+                    },
+                    {
+                        "name": "Flame Thrower",
+                        "chest_unopened_img": "images/items/weapons_small/flame_thrower.png",
+                        "chest_opened_img": "images/items/weapons_small/flame_thrower_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94015"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Embryo Start",
+                "chest_unopened_img": "images/items/ammo/mine.png",
+                "chest_opened_img": "images/items/ammo/mine_bw.png",
+                "sections": [
+                    {
+                        "name": "Mine",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|94016|94017|94018"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Embryo Middle",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|94019|94020"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Pillar",
+                "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|94021|94022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Embryo Right Alcove",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|94023|94024|94025|94026"
+                        ]
+                    },
+                    {
+                        "name": "Firestorm Cannon",
+                        "chest_unopened_img": "images/items/weapons_small/firestorm_cannon.png",
+                        "chest_opened_img": "images/items/weapons_small/firestorm_cannon_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94027"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Pillar by Exit Door",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|94028|94029|94030"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Exit Door",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94031"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Embryo Chamber",
+                "chest_unopened_img": "images/interactables/embryo.png",
+                "chest_opened_img": "images/interactables/embryo_bw.png",
+                "sections": [
+                    {
+                        "name": "Destroy Embryo",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Alcove",
+                "chest_unopened_img": "images/enemies/soldier.png",
+                "chest_opened_img": "images/enemies/soldier_bw.png",
+                "sections": [
+                    {
+                        "name": "Soldier",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94033"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Embryo Entrance",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|94034|94035"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Embryo Entrance Hall",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite in Egg",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94036"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Embryo Left",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "chest_unopened_img": "images/enemies/drone.png",
+                        "chest_opened_img": "images/enemies/drone_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94037"
+                        ]
+                    },
+                    {
+                        "name": "Mite in Egg",
+                        "chest_unopened_img": "images/enemies/mite.png",
+                        "chest_opened_img": "images/enemies/mite_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94039"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Embryo Chamber Hall",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "chest_unopened_img": "images/enemies/drone.png",
+                        "chest_opened_img": "images/enemies/drone_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94038"
+                        ]
+                    },
+                    {
+                        "name": "Mite in Egg",
+                        "chest_unopened_img": "images/enemies/mite.png",
+                        "chest_opened_img": "images/enemies/mite_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94042"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Embryo Right",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite in Egg",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94040"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Embryo Exit",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "chest_unopened_img": "images/enemies/drone.png",
+                        "chest_opened_img": "images/enemies/drone_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94041"
+                        ]
+                    },
+                    {
+                        "name": "Mite in Egg",
+                        "chest_unopened_img": "images/enemies/mite.png",
+                        "chest_opened_img": "images/enemies/mite_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94043"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Pillar",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|94044|94045"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Alcove After Embryo",
+                "chest_unopened_img": "images/enemies/soldier.png",
+                "chest_opened_img": "images/enemies/soldier_bw.png",
+                "sections": [
+                    {
+                        "name": "Soldier",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|94046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Exit Portal",
+                "chest_unopened_img": "images/enemies/worker.png",
+                "chest_opened_img": "images/enemies/worker_bw.png",
+                "sections": [
+                    {
+                        "name": "Worker",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|94047|94048|94049|94050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-E1",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }
