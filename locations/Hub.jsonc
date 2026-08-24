@@ -9484,8 +9484,156 @@
         "name": "5-E2",
         "sections": [
           {
-            "ref": "5-E2/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "5-E2/Behind Left Pillar/Grenade",
+            "name": "[Grenade] Behind Left Pillar"
+          },
+          {
+            "ref": "5-E2/Near Start Corner/Mine",
+            "name": "[Mine] Near Start Corner"
+          },
+          {
+            "ref": "5-E2/In Right Alcove/Scorpion Launcher",
+            "name": "[Scorpion Launcher] In Right Alcove"
+          },
+          {
+            "ref": "5-E2/By Climbable Wall/LF1",
+            "name": "[LF1] By Climbable Wall"
+          },
+          {
+            "ref": "5-E2/On Climbable Wall Platform/Flame Thrower",
+            "name": "[Flame Thrower] On Climbable Wall Platform"
+          },
+          {
+            "ref": "5-E2/End of Climbable Wall Path/Ultra Health",
+            "name": "[Ultra Health] End of Climbable Wall Path"
+          },
+          {
+            "ref": "5-E2/Right of Embryo Entrance/Blue Health",
+            "name": "[Blue Health] Right of Embryo Entrance"
+          },
+          {
+            "ref": "5-E2/Right of Embryo Entrance/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Right of Embryo Entrance"
+          },
+          {
+            "ref": "5-E2/Left of Embryo Entrance/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] Left of Embryo Entrance"
+          },
+          {
+            "ref": "5-E2/Right Corner by Pit/Box of Grenades",
+            "name": "[Box of Grenades] Right Corner by Pit"
+          },
+          {
+            "ref": "5-E2/First Left Corner/Shells",
+            "name": "[Shells] First Left Corner"
+          },
+          {
+            "ref": "5-E2/In Corner Near Leap of Faith/Shells",
+            "name": "[Shells] In Corner Near Leap of Faith"
+          },
+          {
+            "ref": "5-E2/In Eggs/Explosive Shells",
+            "name": "[Explosive Shells] In Eggs"
+          },
+          {
+            "ref": "5-E2/On Leap of Faith Platform/P.F.M. Layer",
+            "name": "[P.F.M. Layer] On Leap of Faith Platform"
+          },
+          {
+            "ref": "5-E2/On Leap of Faith Platform/Firestorm Cannon",
+            "name": "[Firestorm Cannon] On Leap of Faith Platform"
+          },
+          {
+            "ref": "5-E2/On Leap of Faith Platform/Scorpion Launcher",
+            "name": "[Scorpion Launcher] On Leap of Faith Platform"
+          },
+          {
+            "ref": "5-E2/On Leap of Faith Platform/Grenade Launcher",
+            "name": "[Grenade Launcher] On Leap of Faith Platform"
+          },
+          {
+            "ref": "5-E2/Embryo Chamber/Destroy Embryo",
+            "name": "[Destroy Embryo] Embryo Chamber"
+          },
+          {
+            "ref": "5-E2/Enemy in Room Center/Drone",
+            "name": "[Drone] Enemy in Room Center"
+          },
+          {
+            "ref": "5-E2/Enemy in Right Alcove/Soldier",
+            "name": "[Soldier] Enemy in Right Alcove"
+          },
+          {
+            "ref": "5-E2/Enemy by Embryo Entrance/Soldier",
+            "name": "[Soldier] Enemy by Embryo Entrance"
+          },
+          {
+            "ref": "5-E2/Enemy up Climbable Wall/Drone",
+            "name": "[Drone] Enemy up Climbable Wall"
+          },
+          {
+            "ref": "5-E2/Enemy on Center Platform/Soldier",
+            "name": "[Soldier] Enemy on Center Platform"
+          },
+          {
+            "ref": "5-E2/Enemy on Upper Ledge/Drone",
+            "name": "[Drone] Enemy on Upper Ledge"
+          },
+          {
+            "ref": "5-E2/Enemy in Embryo Entrance Hall/Mite in Egg",
+            "name": "[Mite in Egg] Enemy in Embryo Entrance Hall"
+          },
+          {
+            "ref": "5-E2/Enemy at Embryo Left/Mite in Egg",
+            "name": "[Mite in Egg] Enemy at Embryo Left"
+          },
+          {
+            "ref": "5-E2/Enemy at Embryo Right/Mite in Egg",
+            "name": "[Mite in Egg] Enemy at Embryo Right"
+          },
+          {
+            "ref": "5-E2/Enemy at Embryo Right/Drone",
+            "name": "[Drone] Enemy at Embryo Right"
+          },
+          {
+            "ref": "5-E2/Enemy at Embryo Exit/Drone",
+            "name": "[Drone] Enemy at Embryo Exit"
+          },
+          {
+            "ref": "5-E2/Enemy at Embryo Exit/Mite in Egg",
+            "name": "[Mite in Egg] Enemy at Embryo Exit"
+          },
+          {
+            "ref": "5-E2/Enemy by Embryo Chamber Hall/Drone",
+            "name": "[Drone] Enemy by Embryo Chamber Hall"
+          },
+          {
+            "ref": "5-E2/Enemy by Embryo Chamber Hall/Mite in Egg",
+            "name": "[Mite in Egg] Enemy by Embryo Chamber Hall"
+          },
+          {
+            "ref": "5-E2/Enemy in Embryo Chamber Hall/Mite in Egg",
+            "name": "[Mite in Egg] Enemy in Embryo Chamber Hall"
+          },
+          {
+            "ref": "5-E2/Enemy on Leap of Faith Platform/Soldier",
+            "name": "[Soldier] Enemy on Leap of Faith Platform"
+          },
+          {
+            "ref": "5-E2/Enemy by Exit Portal/Drone",
+            "name": "[Drone] Enemy by Exit Portal"
+          },
+          {
+            "ref": "5-E2/Enemy Spawned From Box of Grenades/Drone",
+            "name": "[Drone] Enemy Spawned From Box of Grenades"
+          },
+          {
+            "ref": "5-E2/Enemy in Egg Left of Exit/Mite",
+            "name": "[Mite] Enemy in Egg Left of Exit"
+          },
+          {
+            "ref": "5-E2/Enemy in Egg Right of Exit/Mite",
+            "name": "[Mite] Enemy in Egg Right of Exit"
           }
         ],
         "map_locations": [
