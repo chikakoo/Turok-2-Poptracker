@@ -8,11 +8,26 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "In Center",
+                "chest_unopened_img": "images/interactables/master_computer.png",
+                "chest_opened_img": "images/interactables/master_computer_bw.png",
+                "access_rules": [
+                    "l5_satchel_charge:4"
+                ],
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Destroy Master Computer",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|93000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-MC",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

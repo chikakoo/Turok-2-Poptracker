@@ -9648,8 +9648,176 @@
         "name": "5-E3",
         "sections": [
           {
-            "ref": "5-E3/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "5-E3/In First Right Corner/Shells",
+            "name": "[Shells] In First Right Corner"
+          },
+          {
+            "ref": "5-E3/In Second Right Corner/Clip",
+            "name": "[Clip] In Second Right Corner"
+          },
+          {
+            "ref": "5-E3/By Pillar/Clip",
+            "name": "[Clip] By Pillar"
+          },
+          {
+            "ref": "5-E3/Left of Lava Entrance/Shells",
+            "name": "[Shells] Left of Lava Entrance"
+          },
+          {
+            "ref": "5-E3/Behind Explodable Wall/Flame Thrower",
+            "name": "[Flame Thrower] Behind Explodable Wall"
+          },
+          {
+            "ref": "5-E3/Behind Explodable Wall/Charge Dart Rifle",
+            "name": "[Charge Dart Rifle] Behind Explodable Wall"
+          },
+          {
+            "ref": "5-E3/Behind Explodable Wall/Firestorm Cannon",
+            "name": "[Firestorm Cannon] Behind Explodable Wall"
+          },
+          {
+            "ref": "5-E3/Behind Explodable Wall/Grenade Launcher",
+            "name": "[Grenade Launcher] Behind Explodable Wall"
+          },
+          {
+            "ref": "5-E3/On Entrance Wall/Mine",
+            "name": "[Mine] On Entrance Wall"
+          },
+          {
+            "ref": "5-E3/On Center Raised Platform/LF10",
+            "name": "[LF10] On Center Raised Platform"
+          },
+          {
+            "ref": "5-E3/On Center Lower Platform/LF10",
+            "name": "[LF10] On Center Lower Platform"
+          },
+          {
+            "ref": "5-E3/By Wall/Blue Health",
+            "name": "[Blue Health] By Wall"
+          },
+          {
+            "ref": "5-E3/By Wall/Switch",
+            "name": "[Switch] By Wall"
+          },
+          {
+            "ref": "5-E3/On Lava Platform/LF10",
+            "name": "[LF10] On Lava Platform"
+          },
+          {
+            "ref": "5-E3/On Lava Platform/Firestorm Cannon",
+            "name": "[Firestorm Cannon] On Lava Platform"
+          },
+          {
+            "ref": "5-E3/On Lava Platform/Scorpion Launcher",
+            "name": "[Scorpion Launcher] On Lava Platform"
+          },
+          {
+            "ref": "5-E3/On Lava Platform/Flame Thrower",
+            "name": "[Flame Thrower] On Lava Platform"
+          },
+          {
+            "ref": "5-E3/On Lava Platform/P.F.M. Layer",
+            "name": "[P.F.M. Layer] On Lava Platform"
+          },
+          {
+            "ref": "5-E3/On Lava Platform/Shredder",
+            "name": "[Shredder] On Lava Platform"
+          },
+          {
+            "ref": "5-E3/In Hall After Switches/Blue Health",
+            "name": "[Blue Health] In Hall After Switches"
+          },
+          {
+            "ref": "5-E3/In Water by Close Wall/Mine",
+            "name": "[Mine] In Water by Close Wall"
+          },
+          {
+            "ref": "5-E3/In Water on Left Wall/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] In Water on Left Wall"
+          },
+          {
+            "ref": "5-E3/In Water Front Right Corner/Box of Grenades",
+            "name": "[Box of Grenades] In Water Front Right Corner"
+          },
+          {
+            "ref": "5-E3/In Water Back Right Corner/Blue Health",
+            "name": "[Blue Health] In Water Back Right Corner"
+          },
+          {
+            "ref": "5-E3/In Water Back Right Corner/Charge Dart Pak",
+            "name": "[Charge Dart Pak] In Water Back Right Corner"
+          },
+          {
+            "ref": "5-E3/At Embryo Entrance/Blue Health",
+            "name": "[Blue Health] At Embryo Entrance"
+          },
+          {
+            "ref": "5-E3/Up Elevator/Switch",
+            "name": "[Switch] Up Elevator"
+          },
+          {
+            "ref": "5-E3/Embryo Chamber/Destroy Embryo",
+            "name": "[Destroy Embryo] Embryo Chamber"
+          },
+          {
+            "ref": "5-E3/Enemy Behind Explodable Wall/Soldier",
+            "name": "[Soldier] Enemy Behind Explodable Wall"
+          },
+          {
+            "ref": "5-E3/Enemy at Lava Room Start/Drone",
+            "name": "[Drone] Enemy at Lava Room Start"
+          },
+          {
+            "ref": "5-E3/Enemy on First Platform Jump/Mite",
+            "name": "[Mite] Enemy on First Platform Jump"
+          },
+          {
+            "ref": "5-E3/Enemy on Center Raised Platform/Drone",
+            "name": "[Drone] Enemy on Center Raised Platform"
+          },
+          {
+            "ref": "5-E3/By Elevator Switch/Soldier",
+            "name": "[Soldier] By Elevator Switch"
+          },
+          {
+            "ref": "5-E3/Enemy up Elevator/Drone",
+            "name": "[Drone] Enemy up Elevator"
+          },
+          {
+            "ref": "5-E3/Enemy After Switches/Worker",
+            "name": "[Worker] Enemy After Switches"
+          },
+          {
+            "ref": "5-E3/Enemy in Water/Soldier",
+            "name": "[Soldier] Enemy in Water"
+          },
+          {
+            "ref": "5-E3/Enemy in Embryo Entrance Hall/Mite in Egg",
+            "name": "[Mite in Egg] Enemy in Embryo Entrance Hall"
+          },
+          {
+            "ref": "5-E3/Enemy at Embryo Left/Mite in Egg",
+            "name": "[Mite in Egg] Enemy at Embryo Left"
+          },
+          {
+            "ref": "5-E3/Enemy at Embryo Left/Drone",
+            "name": "[Drone] Enemy at Embryo Left"
+          },
+          {
+            "ref": "5-E3/Enemy at Embryo Right/Mite in Egg",
+            "name": "[Mite in Egg] Enemy at Embryo Right"
+          },
+          {
+            "ref": "5-E3/Enemy at Embryo Right/Drone",
+            "name": "[Drone] Enemy at Embryo Right"
+          },
+          {
+            "ref": "5-E3/Enemy by Embryo Chamber Hall/Drone",
+            "name": "[Drone] Enemy by Embryo Chamber Hall"
+          },
+          {
+            "ref": "5-E3/Enemy in Enemy Chamber Hall/Mite in Egg",
+            "name": "[Mite in Egg] Enemy in Enemy Chamber Hall"
           }
         ],
         "map_locations": [
@@ -9664,8 +9832,8 @@
         "name": "5-MC",
         "sections": [
           {
-            "ref": "5-MC/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "5-MC/In Center/Destroy Master Computer",
+            "name": "[Destroy Master Computer] In Center"
           }
         ],
         "map_locations": [
@@ -9680,8 +9848,48 @@
         "name": "5-10",
         "sections": [
           {
-            "ref": "5-10/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "5-10/Before Eye of Truth Bridge/Missiles",
+            "name": "[Missiles] Before Eye of Truth Bridge"
+          },
+          {
+            "ref": "5-10/Enemy Before Eye of Truth Bridge/Drone",
+            "name": "[Drone] Enemy Before Eye of Truth Bridge"
+          },
+          {
+            "ref": "5-10/Eye of Truth/Bridge Before Tunnel/Ultra Health",
+            "name": "[Ultra Health] Eye of Truth/Bridge Before Tunnel"
+          },
+          {
+            "ref": "5-10/Eye of Truth/Bridge Before Tunnel/LF10",
+            "name": "[LF10] Eye of Truth/Bridge Before Tunnel"
+          },
+          {
+            "ref": "5-10/Eye of Truth/In Tunnel/LF1",
+            "name": "[LF1] Eye of Truth/In Tunnel"
+          },
+          {
+            "ref": "5-10/Eye of Truth/In Tunnel/Bores",
+            "name": "[Bores] Eye of Truth/In Tunnel"
+          },
+          {
+            "ref": "5-10/Eye of Truth/Bridge After Tunnel/LF1",
+            "name": "[LF1] Eye of Truth/Bridge After Tunnel"
+          },
+          {
+            "ref": "5-10/Eye of Truth/On Ending Platform/Primagen Key",
+            "name": "[Primagen Key] Eye of Truth/On Ending Platform"
+          },
+          {
+            "ref": "5-10/Eye of Truth/Enemy on First Platform/Soldier",
+            "name": "[Soldier] Eye of Truth/Enemy on First Platform"
+          },
+          {
+            "ref": "5-10/Eye of Truth/Enemy on Second Platform/Soldier",
+            "name": "[Soldier] Eye of Truth/Enemy on Second Platform"
+          },
+          {
+            "ref": "5-10/Eye of Truth/Enemy on Third Platform/Soldier",
+            "name": "[Soldier] Eye of Truth/Enemy on Third Platform"
           }
         ],
         "map_locations": [

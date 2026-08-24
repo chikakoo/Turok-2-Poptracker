@@ -8,11 +8,217 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Before Eye of Truth Bridge",
+                "chest_unopened_img": "images/items/ammo/missiles.png",
+                "chest_opened_img": "images/items/ammo/missiles_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Missiles",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|92000|92001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-10",
+                        "x": 50,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Eye of Truth Bridge",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|92022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-10",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Eye of Truth",
+                "access_rules": [
+                    "eye_of_truth"
+                ],
+                "children": [
+                    {
+                        "name": "Bridge Before Tunnel",
+                        "sections": [
+                            {
+                                "name": "Ultra Health",
+                                "chest_unopened_img": "images/items/health/ultra_health.png",
+                                "chest_opened_img": "images/items/health/ultra_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|92002"
+                                ]
+                            },
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 7,
+                                "visibility_rules": [
+                                    "$id_exists|92003|92004|92005|92006|92007|92008|92009"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-10",
+                                "x": 25,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Tunnel",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|92010|92011|92012"
+                                ]
+                            },
+                            {
+                                "name": "Bores",
+                                "chest_unopened_img": "images/items/ammo/bores.png",
+                                "chest_opened_img": "images/items/ammo/bores_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|92019|92020"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-10",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Bridge After Tunnel",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 6,
+                                "visibility_rules": [
+                                    "$id_exists|92013|92014|92015|92016|92017|92018"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-10",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "On Ending Platform",
+                        "chest_unopened_img": "images/items/keys/primagen_key_5.png",
+                        "chest_opened_img": "images/items/keys/primagen_key_5_bw.png",
+                        "sections": [
+                            {
+                                "name": "Primagen Key",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|92021"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-10",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on First Platform",
+                        "chest_unopened_img": "images/enemies/soldier.png",
+                        "chest_opened_img": "images/enemies/soldier_bw.png",
+                        "sections": [
+                            {
+                                "name": "Soldier",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|92023"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-10",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Second Platform",
+                        "chest_unopened_img": "images/enemies/soldier.png",
+                        "chest_opened_img": "images/enemies/soldier_bw.png",
+                        "sections": [
+                            {
+                                "name": "Soldier",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|92024"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-10",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Third Platform",
+                        "chest_unopened_img": "images/enemies/soldier.png",
+                        "chest_opened_img": "images/enemies/soldier_bw.png",
+                        "sections": [
+                            {
+                                "name": "Soldier",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|92025"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-10",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }
