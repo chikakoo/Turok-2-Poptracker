@@ -429,6 +429,7 @@ function AutoFill(slot_data)
         level_3_bridge_jump = { code = "level_3_bridge_jump" },
         level_3_eye_of_truth_skip = { code = "level_3_eye_of_truth_skip" },
         level_4_skip_torpedo_launcher = { code = "level_4_skip_torpedo_launcher" },
+        level_5_jump_to_primagen_key_path = { code = "level_5_jump_to_primagen_key_path" },
         level_6_eye_of_truth_skip = { code = "level_6_eye_of_truth_skip" },
         river_of_souls_death_jumps = { code = "river_of_souls_death_jumps" },
         jump_through_lava = { code = "jump_through_lava" }

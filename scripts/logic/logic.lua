@@ -412,3 +412,14 @@ function can_jump_through_lava()
     -- Covers prevent collection
     return AccessibilityLevel.None
 end
+
+---Returns whether the player can do the level 5 jump to primagen key path trick
+---Normal: Has Breath of Life (gets there normally), or can do the trick
+---SequenceBreak: Out of logic (you can always do the trick, even if the setting is off)
+function can_do_jump_to_primagen_key_path()
+    if has("breath_of_life") or has("level_5_jump_to_primagen_key_path") then
+        return AccessibilityLevel.Normal
+    end
+
+    return AccessibilityLevel.SequenceBreak
+end

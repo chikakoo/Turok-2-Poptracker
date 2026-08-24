@@ -8,11 +8,1080 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Start",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91000"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Starting Hall End",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Starting Platforms",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|91003|91004|91005|91006"
+                        ]
+                    },
+                    {
+                        "name": "Missiles",
+                        "chest_unopened_img": "images/items/ammo/missiles.png",
+                        "chest_opened_img": "images/items/ammo/missiles_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Ground in Right Corner",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91008|91009"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Ground Left of Platforms",
+                "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Ground in Center",
+                "chest_unopened_img": "images/items/weapons_small/pfm_layer.png",
+                "chest_opened_img": "images/items/weapons_small/pfm_layer_bw.png",
+                "sections": [
+                    {
+                        "name": "P.F.M. Layer",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91012"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Catwalks Start",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91013"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Explodable Wall",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|91014|91015|91016|91017"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91018"
+                        ]
+                    },
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91019"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "E2 Return Path",
+                "chest_unopened_img": "images/items/health/full_health.png",
+                "chest_opened_img": "images/items/health/full_health_bw.png",
+                "access_rules": [
+                    "$map_access|5|10|mid"
+                ],
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91020"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Checkpoint",
+                "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                "sections": [
+                    {
+                        "name": "Mag 60",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Explodable Wall",
+                "chest_unopened_img": "images/items/ammo/mine.png",
+                "chest_opened_img": "images/items/ammo/mine_bw.png",
+                "sections": [
+                    {
+                        "name": "Mine",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91022|91023"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At River Start",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91024"
+                        ]
+                    },
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91025"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Center Platform",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|91026|91027|91028|91029"
+                        ]
+                    },
+                    {
+                        "name": "P.F.M. Layer",
+                        "chest_unopened_img": "images/items/weapons_small/pfm_layer.png",
+                        "chest_opened_img": "images/items/weapons_small/pfm_layer_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91030"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Leap of Faith Path",
+                "chest_unopened_img": "images/items/health/ultra_health.png",
+                "chest_opened_img": "images/items/health/ultra_health_bw.png",
+                "access_rules": [
+                    "leap_of_faith"
+                ],
+                "sections": [
+                    {
+                        "name": "Ultra Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91031"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 25,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "River Ground Exit",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Pillar",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91033|91034"
+                        ]
+                    },
+                    {
+                        "name": "Satchel Charge",
+                        "chest_unopened_img": "images/items/mission/l5_satchel_charge.png",
+                        "chest_opened_img": "images/items/mission/l5_satchel_charge_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91035"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Lava",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "access_rules": [
+                    "^$can_jump_through_lava"
+                ],
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 10,
+                        "visibility_rules": [
+                            "$id_exists|91036|91037|91038|91039|91040|91041|91042|91043|91044|91045"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right of Exit Portal",
+                "chest_unopened_img": "images/items/mission/l5_satchel_charge.png",
+                "chest_opened_img": "images/items/mission/l5_satchel_charge_bw.png",
+                "sections": [
+                    {
+                        "name": "Satchel Charge",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left of Exit Portal",
+                "chest_unopened_img": "images/items/mission/l5_satchel_charge.png",
+                "chest_opened_img": "images/items/mission/l5_satchel_charge_bw.png",
+                "sections": [
+                    {
+                        "name": "Satchel Charge",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Warp Room",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91048|91049"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Water Warp Catwalks",
+                "sections": [
+                    {
+                        "name": "Satchel Charge",
+                        "chest_unopened_img": "images/items/mission/l5_satchel_charge.png",
+                        "chest_opened_img": "images/items/mission/l5_satchel_charge_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91050"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91051"
+                        ]
+                    },
+                    {
+                        "name": "Grenade",
+                        "chest_unopened_img": "images/items/ammo/grenade.png",
+                        "chest_opened_img": "images/items/ammo/grenade_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91052|91053"
+                        ]
+                    },
+                    {
+                        "name": "Mine",
+                        "chest_unopened_img": "images/items/ammo/mine.png",
+                        "chest_opened_img": "images/items/ammo/mine_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91054|91055"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Water Warp Exit Portal",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91056|91057"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Left Wall",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91058"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Back Wall",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91059"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Right Wall",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91060"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Starting Hall Egg",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91067"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Top Platform",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91068"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Left of Platforms",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91069"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Back Left Corner",
+                "chest_unopened_img": "images/enemies/soldier.png",
+                "chest_opened_img": "images/enemies/soldier_bw.png",
+                "sections": [
+                    {
+                        "name": "Soldier",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91070"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Catwalks Start",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91071"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Explodable Wall",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91072"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Catwalks End",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91073"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Checkpoint",
+                "sections": [
+                    {
+                        "name": "Worker",
+                        "chest_unopened_img": "images/enemies/worker.png",
+                        "chest_opened_img": "images/enemies/worker_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91074|91075"
+                        ]
+                    },
+                    {
+                        "name": "Drone",
+                        "chest_unopened_img": "images/enemies/drone.png",
+                        "chest_opened_img": "images/enemies/drone_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91076|91077"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Explodable Wall",
+                "sections": [
+                    {
+                        "name": "Worker",
+                        "chest_unopened_img": "images/enemies/worker.png",
+                        "chest_opened_img": "images/enemies/worker_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91078|91079"
+                        ]
+                    },
+                    {
+                        "name": "Drone",
+                        "chest_unopened_img": "images/enemies/drone.png",
+                        "chest_opened_img": "images/enemies/drone_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91080"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on River Platform",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|91081|91082|91083"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Climbable Wall",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91084"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Ground Exit Hall",
+                "chest_unopened_img": "images/enemies/worker.png",
+                "chest_opened_img": "images/enemies/worker_bw.png",
+                "sections": [
+                    {
+                        "name": "Worker",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|91085|91086|91087"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Water Portal",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91088|91089"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Exit Portal",
+                "chest_unopened_img": "images/enemies/soldier.png",
+                "chest_opened_img": "images/enemies/soldier_bw.png",
+                "sections": [
+                    {
+                        "name": "Soldier",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91090"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Water Warp Catwalks",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91091"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by River Top Portal",
+                "chest_unopened_img": "images/enemies/soldier.png",
+                "chest_opened_img": "images/enemies/soldier_bw.png",
+                "sections": [
+                    {
+                        "name": "Soldier",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91092"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Shootable From Water Catwalks",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "chest_unopened_img": "images/enemies/drone.png",
+                        "chest_opened_img": "images/enemies/drone_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91093"
+                        ]
+                    },
+                    {
+                        "name": "Mite in Egg",
+                        "chest_unopened_img": "images/enemies/mite.png",
+                        "chest_opened_img": "images/enemies/mite_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91094|91095"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "River Path",
+                "access_rules": [
+                    "^$can_do_jump_to_primagen_key_path"
+                ],
+                "children": [
+                    {
+                        "name": "After Catwalks",
+                        "chest_unopened_img": "images/items/ammo/missiles.png",
+                        "chest_opened_img": "images/items/ammo/missiles_bw.png",
+                        "sections": [
+                            {
+                                "name": "Missiles",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|91061|91062|91063|91064"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-9",
+                                "x": 50,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Portal",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|91065|91066"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-9",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }
