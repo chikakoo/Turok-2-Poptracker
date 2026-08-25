@@ -3,10 +3,6 @@
         "name": "6-Hub",
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
-        // 6-Hub after wing 1 warps: 2 ("start" weapon req)
-        // 6-Hub after wing 2 warps: 5 ("start" weapon req)
-        // 6-Hub after wing 3 warps: 8 ("mid" weapon req)
-        // 6-Hub after wing 4 warps: 13 ("mid" weapon req)
         "access_rules": [
             "$map_access|6"
         ],
@@ -430,7 +426,216 @@
                         "y": 0
                     }
                 ]
-            }
+            },
+            {
+                "name": "Wing 2",
+                "access_rules": [
+                    "$map_access|6|2|start"
+                ],
+                "children": [
+                    {
+                        "name": "After Wing 1 Hall",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|114032|114033|114034"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wing 2 Loop",
+                        "sections": [
+                            {
+                                "name": "Mag 60",
+                                "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                                "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114035"
+                                ]
+                            },
+                            {
+                                "name": "Firestorm Cannon",
+                                "chest_unopened_img": "images/items/weapons_small/firestorm_cannon.png",
+                                "chest_opened_img": "images/items/weapons_small/firestorm_cannon_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114036"
+                                ]
+                            },
+                            {
+                                "name": "Shredder",
+                                "chest_unopened_img": "images/items/weapons_small/shredder.png",
+                                "chest_opened_img": "images/items/weapons_small/shredder_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114037"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wing 2 Fork",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114038"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wing 1 End",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "sections": [
+                            {
+                                "name": "Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114039"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Wing 2 Portal",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "sections": [
+                            {
+                                "name": "Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114040"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 25,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy After Wing 1 Return",
+                        "sections": [
+                            {
+                                "name": "Bio-Bot",
+                                "chest_unopened_img": "images/enemies/bio_bot.png",
+                                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114041"
+                                ]
+                            },
+                            {
+                                "name": "Trooper",
+                                "chest_unopened_img": "images/enemies/trooper.png",
+                                "chest_opened_img": "images/enemies/trooper_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114042"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Wing 2",
+                        "sections": [
+                            {
+                                "name": "Bio-Bot",
+                                "chest_unopened_img": "images/enemies/bio_bot.png",
+                                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114043"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    }
+                ]
+            }//,
+            // {
+            //     "name": "Wing 3",
+            //     "access_rules": [
+            //         "$map_access|6|5|start"
+            //     ],
+            //     "children": [
+            //         {}
+            //     ]
+            // }//,
+            // {
+            //     "name": "Wing 4",
+            //     "access_rules": [
+            //         "$map_access|6|8|mid"
+            //     ],
+            //     "children": [
+            //         {}
+            //     ]
+            // }//,
+            // {
+            //     "name": "End",
+            //     "access_rules": [
+            //         "$map_access|6|13|mid"
+            //     ],
+            //     "children": [
+            //         {}
+            //     ]
+            // }
         ]
     }
 ]

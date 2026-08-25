@@ -1,4 +1,5 @@
 LOCATIONS_6_Hub = {
+    -- Initial entry (wing 1)
     [114000] = {"@6-Hub/At Start/Blue Health"},
     [114001] = {"@6-Hub/At Start/Blue Health"},
     [114002] = {"@6-Hub/At Start/Scorpion Launcher"},
@@ -30,7 +31,25 @@ LOCATIONS_6_Hub = {
     [114028] = {"@6-Hub/Enemy by Wing 1 Door/Trooper"},
     [114029] = {"@6-Hub/Enemy by Exit Door/Trooper"},
     [114030] = {"@6-Hub/Enemy on Wing 3 Platform/Trooper"},
-    [114031] = {"@6-Hub/Enemy by Wing 1 Turret/Bio-Bot"}
+    [114031] = {"@6-Hub/Enemy by Wing 1 Turret/Bio-Bot"},
+
+    -- Wing 2
+    [114032] = {"@6-Hub/Wing 2/After Wing 1 Hall/LF10"},
+    [114033] = {"@6-Hub/Wing 2/After Wing 1 Hall/LF10"},
+    [114034] = {"@6-Hub/Wing 2/After Wing 1 Hall/LF10"},
+    [114035] = {"@6-Hub/Wing 2/Wing 2 Loop/Mag 60"},
+    [114036] = {"@6-Hub/Wing 2/Wing 2 Loop/Firestorm Cannon"},
+    [114037] = {"@6-Hub/Wing 2/Wing 2 Loop/Shredder"},
+    [114038] = {"@6-Hub/Wing 2/Wing 2 Fork/Blue Health"},
+    [114039] = {"@6-Hub/Wing 2/Wing 1 End/Switch"},
+    [114040] = {"@6-Hub/Wing 2/By Wing 2 Portal/Switch"},
+    [114041] = {"@6-Hub/Wing 2/Enemy After Wing 1 Return/Bio-Bot"},
+    [114042] = {"@6-Hub/Wing 2/Enemy After Wing 1 Return/Trooper"},
+    [114043] = {"@6-Hub/Wing 2/Enemy in Wing 2/Bio-Bot"}
+
+    -- Wing 3
+    -- Wing 4
+    -- End
 }
 
 LOCATIONS_6_1 = {

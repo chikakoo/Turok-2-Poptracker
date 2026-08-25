@@ -9994,6 +9994,46 @@
           {
             "ref": "6-Hub/Enemy by Wing 1 Turret/Bio-Bot",
             "name": "[Bio-Bot] Enemy by Wing 1 Turret"
+          },
+          {
+            "ref": "6-Hub/Wing 2/After Wing 1 Hall/LF10",
+            "name": "[LF10] Wing 2/After Wing 1 Hall"
+          },
+          {
+            "ref": "6-Hub/Wing 2/Wing 2 Loop/Mag 60",
+            "name": "[Mag 60] Wing 2/Wing 2 Loop"
+          },
+          {
+            "ref": "6-Hub/Wing 2/Wing 2 Loop/Firestorm Cannon",
+            "name": "[Firestorm Cannon] Wing 2/Wing 2 Loop"
+          },
+          {
+            "ref": "6-Hub/Wing 2/Wing 2 Loop/Shredder",
+            "name": "[Shredder] Wing 2/Wing 2 Loop"
+          },
+          {
+            "ref": "6-Hub/Wing 2/Wing 2 Fork/Blue Health",
+            "name": "[Blue Health] Wing 2/Wing 2 Fork"
+          },
+          {
+            "ref": "6-Hub/Wing 2/Wing 1 End/Switch",
+            "name": "[Switch] Wing 2/Wing 1 End"
+          },
+          {
+            "ref": "6-Hub/Wing 2/By Wing 2 Portal/Switch",
+            "name": "[Switch] Wing 2/By Wing 2 Portal"
+          },
+          {
+            "ref": "6-Hub/Wing 2/Enemy After Wing 1 Return/Bio-Bot",
+            "name": "[Bio-Bot] Wing 2/Enemy After Wing 1 Return"
+          },
+          {
+            "ref": "6-Hub/Wing 2/Enemy After Wing 1 Return/Trooper",
+            "name": "[Trooper] Wing 2/Enemy After Wing 1 Return"
+          },
+          {
+            "ref": "6-Hub/Wing 2/Enemy in Wing 2/Bio-Bot",
+            "name": "[Bio-Bot] Wing 2/Enemy in Wing 2"
           }
         ],
         "map_locations": [
