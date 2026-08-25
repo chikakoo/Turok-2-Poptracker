@@ -10328,8 +10328,248 @@
         "name": "6-2a",
         "sections": [
           {
-            "ref": "6-2a/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "6-2a/In Starting Hall/Tek Bow",
+            "name": "[Tek Bow] In Starting Hall"
+          },
+          {
+            "ref": "6-2a/Upstairs/Blue Health",
+            "name": "[Blue Health] Upstairs"
+          },
+          {
+            "ref": "6-2a/Left Fork Dead End/Blue Health",
+            "name": "[Blue Health] Left Fork Dead End"
+          },
+          {
+            "ref": "6-2a/Left Fork Dead End/Missiles",
+            "name": "[Missiles] Left Fork Dead End"
+          },
+          {
+            "ref": "6-2a/Straight Fork Dead End/Blue Health",
+            "name": "[Blue Health] Straight Fork Dead End"
+          },
+          {
+            "ref": "6-2a/Straight Fork Dead End/Mine",
+            "name": "[Mine] Straight Fork Dead End"
+          },
+          {
+            "ref": "6-2a/Laser Fans Starting Platforms/Blue Health",
+            "name": "[Blue Health] Laser Fans Starting Platforms"
+          },
+          {
+            "ref": "6-2a/Laser Fans Back Platform/LF10",
+            "name": "[LF10] Laser Fans Back Platform"
+          },
+          {
+            "ref": "6-2a/Laser Fans Return Platforms/Ion Capacitor",
+            "name": "[Ion Capacitor] Laser Fans Return Platforms"
+          },
+          {
+            "ref": "6-2a/Laser Fans Return Platforms/Switch",
+            "name": "[Switch] Laser Fans Return Platforms"
+          },
+          {
+            "ref": "6-2a/After Laser Fans Hall/Clip",
+            "name": "[Clip] After Laser Fans Hall"
+          },
+          {
+            "ref": "6-2a/After Laser Fans Turret/Box of Bullets",
+            "name": "[Box of Bullets] After Laser Fans Turret"
+          },
+          {
+            "ref": "6-2a/After Laser Fans Fork/Blue Health",
+            "name": "[Blue Health] After Laser Fans Fork"
+          },
+          {
+            "ref": "6-2a/After Laser Fans Dead End/Explosive Shells",
+            "name": "[Explosive Shells] After Laser Fans Dead End"
+          },
+          {
+            "ref": "6-2a/After Laser Fans Dead End/Blue Health",
+            "name": "[Blue Health] After Laser Fans Dead End"
+          },
+          {
+            "ref": "6-2a/Checkpoint Hall/Explosive Shells",
+            "name": "[Explosive Shells] Checkpoint Hall"
+          },
+          {
+            "ref": "6-2a/Behind Checkpoint/Tek Quiver",
+            "name": "[Tek Quiver] Behind Checkpoint"
+          },
+          {
+            "ref": "6-2a/Fan Elevator/LF1",
+            "name": "[LF1] Fan Elevator"
+          },
+          {
+            "ref": "6-2a/Sewers Start/Silver Health",
+            "name": "[Silver Health] Sewers Start"
+          },
+          {
+            "ref": "6-2a/Sewers Back Fork/LF1",
+            "name": "[LF1] Sewers Back Fork"
+          },
+          {
+            "ref": "6-2a/Sewers Back Dead End/Razor Wind",
+            "name": "[Razor Wind] Sewers Back Dead End"
+          },
+          {
+            "ref": "6-2a/Sewers Front Fork/LF1",
+            "name": "[LF1] Sewers Front Fork"
+          },
+          {
+            "ref": "6-2a/Sewers Front Fork Dead End/Silver Health",
+            "name": "[Silver Health] Sewers Front Fork Dead End"
+          },
+          {
+            "ref": "6-2a/Sewers Front Fork Left/Clip",
+            "name": "[Clip] Sewers Front Fork Left"
+          },
+          {
+            "ref": "6-2a/Sewers Death Fan Fork/LF1",
+            "name": "[LF1] Sewers Death Fan Fork"
+          },
+          {
+            "ref": "6-2a/Sewers Laser 1/LF10",
+            "name": "[LF10] Sewers Laser 1"
+          },
+          {
+            "ref": "6-2a/Sewers Laser 1/Mag 60",
+            "name": "[Mag 60] Sewers Laser 1"
+          },
+          {
+            "ref": "6-2a/Sewers Laser 1/Shredder",
+            "name": "[Shredder] Sewers Laser 1"
+          },
+          {
+            "ref": "6-2a/Sewers After Laser 1/LF1",
+            "name": "[LF1] Sewers After Laser 1"
+          },
+          {
+            "ref": "6-2a/Sewers Laser 2/LF10",
+            "name": "[LF10] Sewers Laser 2"
+          },
+          {
+            "ref": "6-2a/Sewers Laser 2/P.F.M. Layer",
+            "name": "[P.F.M. Layer] Sewers Laser 2"
+          },
+          {
+            "ref": "6-2a/Sewers Laser 2/Cerebral Bore",
+            "name": "[Cerebral Bore] Sewers Laser 2"
+          },
+          {
+            "ref": "6-2a/Platform After Sewers/Flame Thrower",
+            "name": "[Flame Thrower] Platform After Sewers"
+          },
+          {
+            "ref": "6-2a/Platform After Sewers/Ion Capacitor",
+            "name": "[Ion Capacitor] Platform After Sewers"
+          },
+          {
+            "ref": "6-2a/Platform After Sewers/Blue Health",
+            "name": "[Blue Health] Platform After Sewers"
+          },
+          {
+            "ref": "6-2a/Platform After Sewers/Switch",
+            "name": "[Switch] Platform After Sewers"
+          },
+          {
+            "ref": "6-2a/After Sewers Left Fork/Mine",
+            "name": "[Mine] After Sewers Left Fork"
+          },
+          {
+            "ref": "6-2a/After Sewers Dead End/Box of Grenades",
+            "name": "[Box of Grenades] After Sewers Dead End"
+          },
+          {
+            "ref": "6-2a/After Sewers Dead End/Blue Health",
+            "name": "[Blue Health] After Sewers Dead End"
+          },
+          {
+            "ref": "6-2a/On Bridge/Switch",
+            "name": "[Switch] On Bridge"
+          },
+          {
+            "ref": "6-2a/After Floating Platform/Switch",
+            "name": "[Switch] After Floating Platform"
+          },
+          {
+            "ref": "6-2a/Laser Fans Start/Switch",
+            "name": "[Switch] Laser Fans Start"
+          },
+          {
+            "ref": "6-2a/Before Sewers/Bottom Switch",
+            "name": "[Bottom Switch] Before Sewers"
+          },
+          {
+            "ref": "6-2a/Before Sewers/Top Switch",
+            "name": "[Top Switch] Before Sewers"
+          },
+          {
+            "ref": "6-2a/By Exit Portal/Switch",
+            "name": "[Switch] By Exit Portal"
+          },
+          {
+            "ref": "6-2a/Enemy up Stairs/Trooper",
+            "name": "[Trooper] Enemy up Stairs"
+          },
+          {
+            "ref": "6-2a/Enemy Across Floating Platform/Trooper",
+            "name": "[Trooper] Enemy Across Floating Platform"
+          },
+          {
+            "ref": "6-2a/Enemy Before Laser Fans/Bio-Bot",
+            "name": "[Bio-Bot] Enemy Before Laser Fans"
+          },
+          {
+            "ref": "6-2a/Enemy Before Laser Fans/Trooper Spawned From Switch",
+            "name": "[Trooper Spawned From Switch] Enemy Before Laser Fans"
+          },
+          {
+            "ref": "6-2a/Enemy at Laser Fans Start/Trooper",
+            "name": "[Trooper] Enemy at Laser Fans Start"
+          },
+          {
+            "ref": "6-2a/Enemy After Laser Fans/Elite Guard",
+            "name": "[Elite Guard] Enemy After Laser Fans"
+          },
+          {
+            "ref": "6-2a/Enemy Before Fan Elevator/Bio-Bot",
+            "name": "[Bio-Bot] Enemy Before Fan Elevator"
+          },
+          {
+            "ref": "6-2a/Enemy Across Sewer Room Bridge/Trooper",
+            "name": "[Trooper] Enemy Across Sewer Room Bridge"
+          },
+          {
+            "ref": "6-2a/Enemy After Sewers Switch/Elite Guard",
+            "name": "[Elite Guard] Enemy After Sewers Switch"
+          },
+          {
+            "ref": "6-2a/Enemy at After Sewers Dead End/Bio-Bot",
+            "name": "[Bio-Bot] Enemy at After Sewers Dead End"
+          },
+          {
+            "ref": "6-2a/Eye of Truth/Eye of Truth Bridge Start/Silver Health",
+            "name": "[Silver Health] Eye of Truth/Eye of Truth Bridge Start"
+          },
+          {
+            "ref": "6-2a/Eye of Truth/Eye of Truth Bridge End/Silver Health",
+            "name": "[Silver Health] Eye of Truth/Eye of Truth Bridge End"
+          },
+          {
+            "ref": "6-2a/Eye of Truth/Drop From Eye of Truth Bridge/LF1",
+            "name": "[LF1] Eye of Truth/Drop From Eye of Truth Bridge"
+          },
+          {
+            "ref": "6-2a/Eye of Truth/Drop From Eye of Truth Bridge/LF10",
+            "name": "[LF10] Eye of Truth/Drop From Eye of Truth Bridge"
+          },
+          {
+            "ref": "6-2a/Eye of Truth/Primagen Key Switch/Switch",
+            "name": "[Switch] Eye of Truth/Primagen Key Switch"
+          },
+          {
+            "ref": "6-2a/Eye of Truth/Enemy at Primagen Key Switch/Elite Guard",
+            "name": "[Elite Guard] Eye of Truth/Enemy at Primagen Key Switch"
           }
         ],
         "map_locations": [

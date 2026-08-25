@@ -8,11 +8,1108 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "In Starting Hall",
+                "chest_unopened_img": "images/items/weapons_small/tek_bow.png",
+                "chest_opened_img": "images/items/weapons_small/tek_bow_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Tek Bow",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Upstairs",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|116001|116002|116003|116004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Fork Dead End",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116005"
+                        ]
+                    },
+                    {
+                        "name": "Missiles",
+                        "chest_unopened_img": "images/items/ammo/missiles.png",
+                        "chest_opened_img": "images/items/ammo/missiles_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|116006|116007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Straight Fork Dead End",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116008"
+                        ]
+                    },
+                    {
+                        "name": "Mine",
+                        "chest_unopened_img": "images/items/ammo/mine.png",
+                        "chest_opened_img": "images/items/ammo/mine_bw.png",
+                        "item_count": 6,
+                        "visibility_rules": [
+                            "$id_exists|116009|116010|116011|116012|116013|116014"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Laser Fans Starting Platforms",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|116015|116016"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Laser Fans Back Platform",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 6,
+                        "visibility_rules": [
+                            "$id_exists|116017|116018|116019|116020|116021|116022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Laser Fans Return Platforms",
+                "sections": [
+                    {
+                        "name": "Ion Capacitor",
+                        "chest_unopened_img": "images/items/mission/ion_capacitor.png",
+                        "chest_opened_img": "images/items/mission/ion_capacitor_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116023"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116100"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Laser Fans Hall",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116024"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Laser Fans Turret",
+                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Bullets",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116025"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Laser Fans Fork",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116026"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Laser Fans Dead End",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116027"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|116028|116029"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Checkpoint Hall",
+                "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116030"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Checkpoint",
+                "chest_unopened_img": "images/items/ammo/quiver_of_tek_arrows.png",
+                "chest_opened_img": "images/items/ammo/quiver_of_tek_arrows_bw.png",
+                "sections": [
+                    {
+                        "name": "Tek Quiver",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116031"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Fan Elevator",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 9,
+                        "visibility_rules": [
+                            "$id_exists|116032|116033|116034|116035|116036|116037|116038|116039|116040"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sewers Start",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|116041|116042|116043|116044"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sewers Back Fork",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|116045|116046|116047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sewers Back Dead End",
+                "chest_unopened_img": "images/items/weapons_small/razor_wind.png",
+                "chest_opened_img": "images/items/weapons_small/razor_wind_bw.png",
+                "sections": [
+                    {
+                        "name": "Razor Wind",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sewers Front Fork",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|116049|116050|116051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sewers Front Fork Dead End",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|116052|116053|116054"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sewers Front Fork Left",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|116055|116056|116057|116058"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sewers Death Fan Fork",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|116059|116060|116061"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sewers Laser 1",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|116062|116063"
+                        ]
+                    },
+                    {
+                        "name": "Mag 60",
+                        "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                        "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116064"
+                        ]
+                    },
+                    {
+                        "name": "Shredder",
+                        "chest_unopened_img": "images/items/weapons_small/shredder.png",
+                        "chest_opened_img": "images/items/weapons_small/shredder_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116065"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sewers After Laser 1",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|116066|116067|116068"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Sewers Laser 2",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|116069|116070"
+                        ]
+                    },
+                    {
+                        "name": "P.F.M. Layer",
+                        "chest_unopened_img": "images/items/weapons_small/pfm_layer.png",
+                        "chest_opened_img": "images/items/weapons_small/pfm_layer_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116071"
+                        ]
+                    },
+                    {
+                        "name": "Cerebral Bore",
+                        "chest_unopened_img": "images/items/weapons_small/cerebral_bore.png",
+                        "chest_opened_img": "images/items/weapons_small/cerebral_bore_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116072"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Platform After Sewers",
+                "sections": [
+                    {
+                        "name": "Flame Thrower",
+                        "chest_unopened_img": "images/items/weapons_small/flame_thrower.png",
+                        "chest_opened_img": "images/items/weapons_small/flame_thrower_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116073"
+                        ]
+                    },
+                    {
+                        "name": "Ion Capacitor",
+                        "chest_unopened_img": "images/items/mission/ion_capacitor.png",
+                        "chest_opened_img": "images/items/mission/ion_capacitor_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116074"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116075"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|116103|116104"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Sewers Left Fork",
+                "chest_unopened_img": "images/items/ammo/mine.png",
+                "chest_opened_img": "images/items/ammo/mine_bw.png",
+                "sections": [
+                    {
+                        "name": "Mine",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|116076|116077"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Sewers Dead End",
+                "sections": [
+                    {
+                        "name": "Box of Grenades",
+                        "chest_unopened_img": "images/items/ammo/box_of_grenades.png",
+                        "chest_opened_img": "images/items/ammo/box_of_grenades_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116078"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|116079|116080"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Bridge",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116097"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Floating Platform",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116098"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Laser Fans Start",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116099"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Sewers",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Bottom Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116101"
+                        ]
+                    },
+                    {
+                        "name": "Top Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116102"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Exit Portal",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116105"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Stairs",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116107"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Across Floating Platform",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116108"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Laser Fans",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "chest_unopened_img": "images/enemies/bio_bot.png",
+                        "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116109"
+                        ]
+                    },
+                    {
+                        "name": "Trooper Spawned From Switch",
+                        "chest_unopened_img": "images/enemies/trooper.png",
+                        "chest_opened_img": "images/enemies/trooper_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116111"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Laser Fans Start",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116110"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Laser Fans",
+                "chest_unopened_img": "images/enemies/elite_guard.png",
+                "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Elite Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116112"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Fan Elevator",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116113"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Across Sewer Room Bridge",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116114"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Sewers Switch",
+                "chest_unopened_img": "images/enemies/elite_guard.png",
+                "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Elite Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116115"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at After Sewers Dead End",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|116116"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Eye of Truth",
+                "access_rules": [
+                    "eye_of_truth",
+                    "[level_6_eye_of_truth_skip]"
+                ],
+                "children": [
+                    {
+                        "name": "Eye of Truth Bridge Start",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Silver Health",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|116081|116082|116083"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Eye of Truth Bridge End",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Silver Health",
+                                "item_count": 7,
+                                "visibility_rules": [
+                                    "$id_exists|116084|116085|116086|116087|116088|116089|116090"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Drop From Eye of Truth Bridge",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|116091|116093|116095"
+                                ]
+                            },
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|116092|116094|116096"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2a",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Primagen Key Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "sections": [
+                            {
+                                "name": "Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|116106"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2a",
+                                "x": 25,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy at Primagen Key Switch",
+                        "chest_unopened_img": "images/enemies/elite_guard.png",
+                        "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                        "sections": [
+                            {
+                                "name": "Elite Guard",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|116117"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }
