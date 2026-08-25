@@ -11,6 +11,9 @@ CAVE_DOOR_4_8a = "@4-8a/Path Bottom/Unlock Cave Door"
 CAVE_DOOR_4_V3_LEFT = "@4-V3/Cave Door Right/Place Left Key"
 CAVE_DOOR_4_V3_RIGHT = "@4-V3/Cave Door Right/Place Right Key"
 
+---One of the ion capacitors. Used to see if ion capacitors are shuffled, as either one or all will be.
+ION_CAPACITOR_ID = "115011"
+
 ---Checks whether the id of the given location exists as a location in the seed
 ---Accepts any number of args and returns the number of then that do exist
 function id_exists(...)
@@ -416,10 +419,42 @@ end
 ---Returns whether the player can do the level 5 jump to primagen key path trick
 ---Normal: Has Breath of Life (gets there normally), or can do the trick
 ---SequenceBreak: Out of logic (you can always do the trick, even if the setting is off)
-function can_do_jump_to_primagen_key_path()
+function can_do_l5_jump_to_primagen_key_path()
     if has("breath_of_life") or has("level_5_jump_to_primagen_key_path") then
         return AccessibilityLevel.Normal
     end
 
     return AccessibilityLevel.SequenceBreak
+end
+
+---Whether one of the generators can be purified
+---Normal: 
+---  Has all ion capacitors (16)
+---  Is not shuffling ion capacitors, it's always possible to get them all per map
+---SequenceBreak: 
+---  If not connected to AP (it's hard to know whether ion capacitors are shuffled)
+---  Otherwise, if you have could have enough to place on this generator
+---None: Not enough capacitors
+function can_place_all_ion_capacitors()
+    if has("ion_capacitor", 16) then --or not id_exists(ION_CAPACITOR_ID) then
+        return AccessibilityLevel.Normal
+    end
+
+    -- TODO: uncomment the lines here, as we're simulating being connected to AP for testing
+    -- if Archipelago.PlayerNumber == -1 then
+    --     return AccessibilityLevel.SequenceBreak
+    -- end
+
+    -- if id_exists(ION_CAPACITOR_ID) > 0 then
+    --     return AccessibilityLevel.Normal
+    -- end
+
+    --TODO: add logic here to check how many generators are activated, and raise the min level
+    --So, 0 = 4; 1 = 8; 2 = 12; 3 = 16 (+4 per activation)
+    min_ion_capacitors_needed = 4
+    if has("ion_capacitor", min_ion_capacitors_needed) then
+        return AccessibilityLevel.SequenceBreak
+    end
+
+    return AccessibilityLevel.None
 end

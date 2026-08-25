@@ -9904,8 +9904,96 @@
         "name": "6-Hub",
         "sections": [
           {
-            "ref": "6-Hub/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "6-Hub/At Start/Blue Health",
+            "name": "[Blue Health] At Start"
+          },
+          {
+            "ref": "6-Hub/At Start/Scorpion Launcher",
+            "name": "[Scorpion Launcher] At Start"
+          },
+          {
+            "ref": "6-Hub/Starting Hall/Explosive Shells",
+            "name": "[Explosive Shells] Starting Hall"
+          },
+          {
+            "ref": "6-Hub/By Left Console/LF1",
+            "name": "[LF1] By Left Console"
+          },
+          {
+            "ref": "6-Hub/By Left Console/LF10",
+            "name": "[LF10] By Left Console"
+          },
+          {
+            "ref": "6-Hub/By Back Console/LF1",
+            "name": "[LF1] By Back Console"
+          },
+          {
+            "ref": "6-Hub/By Back Console/LF10",
+            "name": "[LF10] By Back Console"
+          },
+          {
+            "ref": "6-Hub/By Right Console/LF1",
+            "name": "[LF1] By Right Console"
+          },
+          {
+            "ref": "6-Hub/By Right Console/LF10",
+            "name": "[LF10] By Right Console"
+          },
+          {
+            "ref": "6-Hub/By Wing 1 Door/LF10",
+            "name": "[LF10] By Wing 1 Door"
+          },
+          {
+            "ref": "6-Hub/By Wing 2 Door/LF10",
+            "name": "[LF10] By Wing 2 Door"
+          },
+          {
+            "ref": "6-Hub/By Wing 3 Door/LF10",
+            "name": "[LF10] By Wing 3 Door"
+          },
+          {
+            "ref": "6-Hub/By Wing 4 Door/LF10",
+            "name": "[LF10] By Wing 4 Door"
+          },
+          {
+            "ref": "6-Hub/Wing 1 Dead End/LF1",
+            "name": "[LF1] Wing 1 Dead End"
+          },
+          {
+            "ref": "6-Hub/Wing 1 Dead End/LF10",
+            "name": "[LF10] Wing 1 Dead End"
+          },
+          {
+            "ref": "6-Hub/Before Wing 1 Turret/Shells",
+            "name": "[Shells] Before Wing 1 Turret"
+          },
+          {
+            "ref": "6-Hub/By Wing 1 Turret/Blue Health",
+            "name": "[Blue Health] By Wing 1 Turret"
+          },
+          {
+            "ref": "6-Hub/By Wing 1 Portal/Switch",
+            "name": "[Switch] By Wing 1 Portal"
+          },
+          {
+            "ref": "6-Hub/Enemy After Starting Hall/Trooper",
+            "name": "[Trooper] Enemy After Starting Hall"
+          },
+          {
+            "ref": "6-Hub/Enemy by Wing 1 Door/Trooper",
+            "name": "[Trooper] Enemy by Wing 1 Door"
+          },
+          {
+            "ref": "6-Hub/Enemy by Exit Door/Trooper",
+            "name": "[Trooper] Enemy by Exit Door"
+          },
+          {
+            "ref": "6-Hub/Enemy on Wing 3 Platform/Trooper",
+            "name": "[Trooper] Enemy on Wing 3 Platform"
+          },
+          {
+            "ref": "6-Hub/Enemy by Wing 1 Turret/Bio-Bot",
+            "name": "[Bio-Bot] Enemy by Wing 1 Turret"
           }
         ],
         "map_locations": [
@@ -9920,8 +10008,272 @@
         "name": "6-1",
         "sections": [
           {
-            "ref": "6-1/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "6-1/At First Left Dead End/Shredder",
+            "name": "[Shredder] At First Left Dead End"
+          },
+          {
+            "ref": "6-1/At First Left Dead End/Explosive Shells",
+            "name": "[Explosive Shells] At First Left Dead End"
+          },
+          {
+            "ref": "6-1/In Starting Hall/LF10",
+            "name": "[LF10] In Starting Hall"
+          },
+          {
+            "ref": "6-1/At Fork/Blue Health",
+            "name": "[Blue Health] At Fork"
+          },
+          {
+            "ref": "6-1/Right Fork Dead End/Blue Health",
+            "name": "[Blue Health] Right Fork Dead End"
+          },
+          {
+            "ref": "6-1/Right Fork Dead End/Box of Bullets",
+            "name": "[Box of Bullets] Right Fork Dead End"
+          },
+          {
+            "ref": "6-1/Right Fork Dead End/Box of Shells",
+            "name": "[Box of Shells] Right Fork Dead End"
+          },
+          {
+            "ref": "6-1/Fan Room Start/Plasma Rifle",
+            "name": "[Plasma Rifle] Fan Room Start"
+          },
+          {
+            "ref": "6-1/Above Fan/Ion Capacitor",
+            "name": "[Ion Capacitor] Above Fan"
+          },
+          {
+            "ref": "6-1/On Ledge Above Fan/LF10",
+            "name": "[LF10] On Ledge Above Fan"
+          },
+          {
+            "ref": "6-1/On Right Ledge/Blue Health",
+            "name": "[Blue Health] On Right Ledge"
+          },
+          {
+            "ref": "6-1/On Left Ledge/Blue Health",
+            "name": "[Blue Health] On Left Ledge"
+          },
+          {
+            "ref": "6-1/Left Hall Dead End/Firestorm Cannon",
+            "name": "[Firestorm Cannon] Left Hall Dead End"
+          },
+          {
+            "ref": "6-1/Left Hall Dead End/Blue Health",
+            "name": "[Blue Health] Left Hall Dead End"
+          },
+          {
+            "ref": "6-1/Right Hall Fork/Blue Health",
+            "name": "[Blue Health] Right Hall Fork"
+          },
+          {
+            "ref": "6-1/Right Hall Dead End/Blue Health",
+            "name": "[Blue Health] Right Hall Dead End"
+          },
+          {
+            "ref": "6-1/Right Hall Dead End/Mine",
+            "name": "[Mine] Right Hall Dead End"
+          },
+          {
+            "ref": "6-1/By Left Console/Blue Health",
+            "name": "[Blue Health] By Left Console"
+          },
+          {
+            "ref": "6-1/By Left Console/Tek Arrows",
+            "name": "[Tek Arrows] By Left Console"
+          },
+          {
+            "ref": "6-1/By Right Console/Blue Health",
+            "name": "[Blue Health] By Right Console"
+          },
+          {
+            "ref": "6-1/By Right Console/Tek Arrows",
+            "name": "[Tek Arrows] By Right Console"
+          },
+          {
+            "ref": "6-1/In Back Left Corner/Explosive Shells",
+            "name": "[Explosive Shells] In Back Left Corner"
+          },
+          {
+            "ref": "6-1/In Back Right Corner/Clip",
+            "name": "[Clip] In Back Right Corner"
+          },
+          {
+            "ref": "6-1/By Back Wall/Grenade Launcher",
+            "name": "[Grenade Launcher] By Back Wall"
+          },
+          {
+            "ref": "6-1/By Back Wall/Shredder",
+            "name": "[Shredder] By Back Wall"
+          },
+          {
+            "ref": "6-1/Upstairs Left/LF1",
+            "name": "[LF1] Upstairs Left"
+          },
+          {
+            "ref": "6-1/Upstairs Right/LF1",
+            "name": "[LF1] Upstairs Right"
+          },
+          {
+            "ref": "6-1/Drop Onto Front Console/Ion Capacitor",
+            "name": "[Ion Capacitor] Drop Onto Front Console"
+          },
+          {
+            "ref": "6-1/Up Elevator/Tek Arrows",
+            "name": "[Tek Arrows] Up Elevator"
+          },
+          {
+            "ref": "6-1/Up Elevator/LF10",
+            "name": "[LF10] Up Elevator"
+          },
+          {
+            "ref": "6-1/Hall After Switch Door/Blue Health",
+            "name": "[Blue Health] Hall After Switch Door"
+          },
+          {
+            "ref": "6-1/At Checkpoint Fork/Blue Health",
+            "name": "[Blue Health] At Checkpoint Fork"
+          },
+          {
+            "ref": "6-1/Behind Checkpoint/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] Behind Checkpoint"
+          },
+          {
+            "ref": "6-1/Whispers Room Top/Blue Health",
+            "name": "[Blue Health] Whispers Room Top"
+          },
+          {
+            "ref": "6-1/Under Whispers Stairs/LF10",
+            "name": "[LF10] Under Whispers Stairs"
+          },
+          {
+            "ref": "6-1/After Jump Across Lasers/Blue Health",
+            "name": "[Blue Health] After Jump Across Lasers"
+          },
+          {
+            "ref": "6-1/On Laser Bridge/Ion Capacitor",
+            "name": "[Ion Capacitor] On Laser Bridge"
+          },
+          {
+            "ref": "6-1/After Laser Bridge Hall/Box of Shells",
+            "name": "[Box of Shells] After Laser Bridge Hall"
+          },
+          {
+            "ref": "6-1/After Laser Bridge Hall/Box of Bullets",
+            "name": "[Box of Bullets] After Laser Bridge Hall"
+          },
+          {
+            "ref": "6-1/Hall Before Generator/LF1",
+            "name": "[LF1] Hall Before Generator"
+          },
+          {
+            "ref": "6-1/Generator Left Platform/LF10",
+            "name": "[LF10] Generator Left Platform"
+          },
+          {
+            "ref": "6-1/Generator Left Platform/Blue Health",
+            "name": "[Blue Health] Generator Left Platform"
+          },
+          {
+            "ref": "6-1/Generator Right Platform/LF10",
+            "name": "[LF10] Generator Right Platform"
+          },
+          {
+            "ref": "6-1/Generator Right Platform/Blue Health",
+            "name": "[Blue Health] Generator Right Platform"
+          },
+          {
+            "ref": "6-1/Generator/Green Capacitor",
+            "name": "[Green Capacitor] Generator"
+          },
+          {
+            "ref": "6-1/Generator/Recalibrate Generator",
+            "name": "[Recalibrate Generator] Generator"
+          },
+          {
+            "ref": "6-1/Switch Above Catwalks/Switch",
+            "name": "[Switch] Switch Above Catwalks"
+          },
+          {
+            "ref": "6-1/Across Lasers/Switch",
+            "name": "[Switch] Across Lasers"
+          },
+          {
+            "ref": "6-1/By Exit Portal/Switch",
+            "name": "[Switch] By Exit Portal"
+          },
+          {
+            "ref": "6-1/Enemy at Start Right/Bio-Bot",
+            "name": "[Bio-Bot] Enemy at Start Right"
+          },
+          {
+            "ref": "6-1/Enemy Before Fork/Bio-Bot",
+            "name": "[Bio-Bot] Enemy Before Fork"
+          },
+          {
+            "ref": "6-1/Enemy on Right Ledge/Trooper",
+            "name": "[Trooper] Enemy on Right Ledge"
+          },
+          {
+            "ref": "6-1/Enemy in Left Hall/Trooper",
+            "name": "[Trooper] Enemy in Left Hall"
+          },
+          {
+            "ref": "6-1/Enemy in Right Hall/Bio-Bot",
+            "name": "[Bio-Bot] Enemy in Right Hall"
+          },
+          {
+            "ref": "6-1/Enemy at Left Console/Trooper",
+            "name": "[Trooper] Enemy at Left Console"
+          },
+          {
+            "ref": "6-1/Enemy at Right Console/Trooper",
+            "name": "[Trooper] Enemy at Right Console"
+          },
+          {
+            "ref": "6-1/Enemy up Elevator/Bio-Bot",
+            "name": "[Bio-Bot] Enemy up Elevator"
+          },
+          {
+            "ref": "6-1/Enemy After Switch Door/Trooper",
+            "name": "[Trooper] Enemy After Switch Door"
+          },
+          {
+            "ref": "6-1/Enemy After Checkpoint/Bio-Bot",
+            "name": "[Bio-Bot] Enemy After Checkpoint"
+          },
+          {
+            "ref": "6-1/Enemy by Laser Bridge Switch/Trooper",
+            "name": "[Trooper] Enemy by Laser Bridge Switch"
+          },
+          {
+            "ref": "6-1/Enemy by Exit Portal/Bio-Bot",
+            "name": "[Bio-Bot] Enemy by Exit Portal"
+          },
+          {
+            "ref": "6-1/Enemy by Generator/Trooper",
+            "name": "[Trooper] Enemy by Generator"
+          },
+          {
+            "ref": "6-1/Whispers/Primagen Key Switch/Switch",
+            "name": "[Switch] Whispers/Primagen Key Switch"
+          },
+          {
+            "ref": "6-1/Whispers/Enemy After First Leap/Bio-Bot",
+            "name": "[Bio-Bot] Whispers/Enemy After First Leap"
+          },
+          {
+            "ref": "6-1/Whispers/Enemy by Primagen Key Switch/Elite Guard",
+            "name": "[Elite Guard] Whispers/Enemy by Primagen Key Switch"
+          },
+          {
+            "ref": "6-1/In River/Right in River/LF10",
+            "name": "[LF10] In River/Right in River"
+          },
+          {
+            "ref": "6-1/In River/Left in River/LF10",
+            "name": "[LF10] In River/Left in River"
           }
         ],
         "map_locations": [

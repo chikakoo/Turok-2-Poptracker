@@ -1038,7 +1038,7 @@
             {
                 "name": "River Path",
                 "access_rules": [
-                    "^$can_do_jump_to_primagen_key_path"
+                    "^$can_do_l5_jump_to_primagen_key_path"
                 ],
                 "children": [
                     {
