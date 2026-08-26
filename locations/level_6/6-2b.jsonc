@@ -8,11 +8,795 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Loop Front",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117000"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 25
+                    }
+                ]
+            },
+            {
+                "name": "Loop Mid",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117004"
+                        ]
+                    },
+                    {
+                        "name": "Timed Door Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117039"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Loop Back",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117001"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Elevator Left Start",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|117005|117006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Elevator Left End",
+                "chest_unopened_img": "images/items/ammo/mine.png",
+                "chest_opened_img": "images/items/ammo/mine_bw.png",
+                "sections": [
+                    {
+                        "name": "Mine",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|117007|117008"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Laser Pit Console",
+                "sections": [
+                    {
+                        "name": "Missiles",
+                        "chest_unopened_img": "images/items/ammo/missiles.png",
+                        "chest_opened_img": "images/items/ammo/missiles_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|117009|117010"
+                        ]
+                    },
+                    {
+                        "name": "Timed Door Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117040"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Right Timed Door",
+                "chest_unopened_img": "images/items/mission/ion_capacitor.png",
+                "chest_opened_img": "images/items/mission/ion_capacitor_bw.png",
+                "sections": [
+                    {
+                        "name": "Ion Capacitor",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Left Timed Door",
+                "chest_unopened_img": "images/items/mission/ion_capacitor.png",
+                "chest_opened_img": "images/items/mission/ion_capacitor_bw.png",
+                "sections": [
+                    {
+                        "name": "Ion Capacitor",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117012"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "On Back Wall",
+                "chest_unopened_img": "images/items/weapons_small/flame_thrower.png",
+                "chest_opened_img": "images/items/weapons_small/flame_thrower_bw.png",
+                "sections": [
+                    {
+                        "name": "Flame Thrower",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117013"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Central Console",
+                "sections": [
+                    {
+                        "name": "Full Health",
+                        "chest_unopened_img": "images/items/health/full_health.png",
+                        "chest_opened_img": "images/items/health/full_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117014"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|117043|117044"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Generator",
+                "sections": [
+                    {
+                        "name": "Green Capacitor",
+                        "chest_unopened_img": "images/items/mission/green_capacitor.png",
+                        "chest_opened_img": "images/items/mission/green_capacitor_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|117015|117016|117017|117018"
+                        ]
+                    },
+                    {
+                        "name": "Recalibrate Generator",
+                        "chest_unopened_img": "images/interactables/power_generator.png",
+                        "chest_opened_img": "images/interactables/power_generator_bw.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$can_place_all_ion_capacitors"
+                        ],
+                        "visibility_rules": [
+                            "$id_exists|117045"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 75,
+                        "y": 75
+                    }
+                ]
+            },
+            {
+                "name": "Exit Hall Start",
+                "chest_unopened_img": "images/items/ammo/mine.png",
+                "chest_opened_img": "images/items/ammo/mine_bw.png",
+                "sections": [
+                    {
+                        "name": "Mine",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|117034|117035"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Exit Hall Dead End",
+                "sections": [
+                    {
+                        "name": "Firestorm Cannon",
+                        "chest_unopened_img": "images/items/weapons_small/firestorm_cannon.png",
+                        "chest_opened_img": "images/items/weapons_small/firestorm_cannon_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117036"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|117037|117038"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Console",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Timed Door Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117041"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Console",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Timed Door Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117042"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Exit Portal",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Starting Loop",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Elevator Right",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Elevator Left",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117049"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Laser Pit Room",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Laser Pit on Left",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Laser Pit on Right",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117052"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Generator",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117053"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Exit Hall Dead End",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|117057"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-2b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In River",
+                "access_rules": [
+                    "breath_of_life"
+                ],
+                "children": [
+                    {
+                        "name": "Right in River",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|117019|117020|117021"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2b",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Left in River",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|117022|117023|117024"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2b",
+                                "x": 50,
+                                "y": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Place One Capacitor",
+                "access_rules": [
+                    "^$can_place_one_ion_capacitor"
+                ],
+                "children": [
+                    {
+                        "name": "Place One Capacitor Back Wall",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|117025|117026"
+                                ]
+                            },
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|117031"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2b",
+                                "x": 25,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Place One Capacitor Left Wall",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|117027|117028"
+                                ]
+                            },
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|117032"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2b",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Place One Capacitor Right Wall",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|117029|117030"
+                                ]
+                            },
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|117033"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2b",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Back Wall",
+                        "chest_unopened_img": "images/enemies/trooper.png",
+                        "chest_opened_img": "images/enemies/trooper_bw.png",
+                        "sections": [
+                            {
+                                "name": "Trooper After Placing One Capacitor",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|117054"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2b",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Left Wall",
+                        "chest_unopened_img": "images/enemies/bio_bot.png",
+                        "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                        "sections": [
+                            {
+                                "name": "Bio-Bot After Placing One Capacitor",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|117055"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2b",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Right Wall",
+                        "chest_unopened_img": "images/enemies/bio_bot.png",
+                        "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                        "sections": [
+                            {
+                                "name": "Bio-Bot After Placing One Capacitor",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|117056"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-2b",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }

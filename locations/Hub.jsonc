@@ -10584,8 +10584,172 @@
         "name": "6-2b",
         "sections": [
           {
-            "ref": "6-2b/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "6-2b/Loop Front/Blue Health",
+            "name": "[Blue Health] Loop Front"
+          },
+          {
+            "ref": "6-2b/Loop Front/LF10",
+            "name": "[LF10] Loop Front"
+          },
+          {
+            "ref": "6-2b/Loop Mid/Explosive Shells",
+            "name": "[Explosive Shells] Loop Mid"
+          },
+          {
+            "ref": "6-2b/Loop Mid/Timed Door Switch",
+            "name": "[Timed Door Switch] Loop Mid"
+          },
+          {
+            "ref": "6-2b/Loop Back/Blue Health",
+            "name": "[Blue Health] Loop Back"
+          },
+          {
+            "ref": "6-2b/Loop Back/LF10",
+            "name": "[LF10] Loop Back"
+          },
+          {
+            "ref": "6-2b/Up Elevator Left Start/Clip",
+            "name": "[Clip] Up Elevator Left Start"
+          },
+          {
+            "ref": "6-2b/Up Elevator Left End/Mine",
+            "name": "[Mine] Up Elevator Left End"
+          },
+          {
+            "ref": "6-2b/Laser Pit Console/Missiles",
+            "name": "[Missiles] Laser Pit Console"
+          },
+          {
+            "ref": "6-2b/Laser Pit Console/Timed Door Switch",
+            "name": "[Timed Door Switch] Laser Pit Console"
+          },
+          {
+            "ref": "6-2b/Before Right Timed Door/Ion Capacitor",
+            "name": "[Ion Capacitor] Before Right Timed Door"
+          },
+          {
+            "ref": "6-2b/Before Left Timed Door/Ion Capacitor",
+            "name": "[Ion Capacitor] Before Left Timed Door"
+          },
+          {
+            "ref": "6-2b/On Back Wall/Flame Thrower",
+            "name": "[Flame Thrower] On Back Wall"
+          },
+          {
+            "ref": "6-2b/Central Console/Full Health",
+            "name": "[Full Health] Central Console"
+          },
+          {
+            "ref": "6-2b/Central Console/Switch",
+            "name": "[Switch] Central Console"
+          },
+          {
+            "ref": "6-2b/Generator/Green Capacitor",
+            "name": "[Green Capacitor] Generator"
+          },
+          {
+            "ref": "6-2b/Generator/Recalibrate Generator",
+            "name": "[Recalibrate Generator] Generator"
+          },
+          {
+            "ref": "6-2b/Exit Hall Start/Mine",
+            "name": "[Mine] Exit Hall Start"
+          },
+          {
+            "ref": "6-2b/Exit Hall Dead End/Firestorm Cannon",
+            "name": "[Firestorm Cannon] Exit Hall Dead End"
+          },
+          {
+            "ref": "6-2b/Exit Hall Dead End/Blue Health",
+            "name": "[Blue Health] Exit Hall Dead End"
+          },
+          {
+            "ref": "6-2b/Left Console/Timed Door Switch",
+            "name": "[Timed Door Switch] Left Console"
+          },
+          {
+            "ref": "6-2b/Right Console/Timed Door Switch",
+            "name": "[Timed Door Switch] Right Console"
+          },
+          {
+            "ref": "6-2b/By Exit Portal/Switch",
+            "name": "[Switch] By Exit Portal"
+          },
+          {
+            "ref": "6-2b/Enemy in Starting Loop/Trooper",
+            "name": "[Trooper] Enemy in Starting Loop"
+          },
+          {
+            "ref": "6-2b/Enemy up Elevator Right/Bio-Bot",
+            "name": "[Bio-Bot] Enemy up Elevator Right"
+          },
+          {
+            "ref": "6-2b/Enemy up Elevator Left/Bio-Bot",
+            "name": "[Bio-Bot] Enemy up Elevator Left"
+          },
+          {
+            "ref": "6-2b/Enemy in Laser Pit Room/Trooper",
+            "name": "[Trooper] Enemy in Laser Pit Room"
+          },
+          {
+            "ref": "6-2b/Enemy After Laser Pit on Left/Trooper",
+            "name": "[Trooper] Enemy After Laser Pit on Left"
+          },
+          {
+            "ref": "6-2b/Enemy After Laser Pit on Right/Trooper",
+            "name": "[Trooper] Enemy After Laser Pit on Right"
+          },
+          {
+            "ref": "6-2b/Enemy Before Generator/Bio-Bot",
+            "name": "[Bio-Bot] Enemy Before Generator"
+          },
+          {
+            "ref": "6-2b/Enemy in Exit Hall Dead End/Bio-Bot",
+            "name": "[Bio-Bot] Enemy in Exit Hall Dead End"
+          },
+          {
+            "ref": "6-2b/In River/Right in River/LF10",
+            "name": "[LF10] In River/Right in River"
+          },
+          {
+            "ref": "6-2b/In River/Left in River/LF10",
+            "name": "[LF10] In River/Left in River"
+          },
+          {
+            "ref": "6-2b/Place One Capacitor/Place One Capacitor Back Wall/LF10",
+            "name": "[LF10] Place One Capacitor/Place One Capacitor Back Wall"
+          },
+          {
+            "ref": "6-2b/Place One Capacitor/Place One Capacitor Back Wall/Blue Health",
+            "name": "[Blue Health] Place One Capacitor/Place One Capacitor Back Wall"
+          },
+          {
+            "ref": "6-2b/Place One Capacitor/Place One Capacitor Left Wall/LF10",
+            "name": "[LF10] Place One Capacitor/Place One Capacitor Left Wall"
+          },
+          {
+            "ref": "6-2b/Place One Capacitor/Place One Capacitor Left Wall/Blue Health",
+            "name": "[Blue Health] Place One Capacitor/Place One Capacitor Left Wall"
+          },
+          {
+            "ref": "6-2b/Place One Capacitor/Place One Capacitor Right Wall/LF10",
+            "name": "[LF10] Place One Capacitor/Place One Capacitor Right Wall"
+          },
+          {
+            "ref": "6-2b/Place One Capacitor/Place One Capacitor Right Wall/Blue Health",
+            "name": "[Blue Health] Place One Capacitor/Place One Capacitor Right Wall"
+          },
+          {
+            "ref": "6-2b/Place One Capacitor/Enemy in Back Wall/Trooper After Placing One Capacitor",
+            "name": "[Trooper After Placing One Capacitor] Place One Capacitor/Enemy in Back Wall"
+          },
+          {
+            "ref": "6-2b/Place One Capacitor/Enemy in Left Wall/Bio-Bot After Placing One Capacitor",
+            "name": "[Bio-Bot After Placing One Capacitor] Place One Capacitor/Enemy in Left Wall"
+          },
+          {
+            "ref": "6-2b/Place One Capacitor/Enemy in Right Wall/Bio-Bot After Placing One Capacitor",
+            "name": "[Bio-Bot After Placing One Capacitor] Place One Capacitor/Enemy in Right Wall"
           }
         ],
         "map_locations": [

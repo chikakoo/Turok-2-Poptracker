@@ -427,16 +427,38 @@ function can_do_l5_jump_to_primagen_key_path()
     return AccessibilityLevel.SequenceBreak
 end
 
+---Returns the number of unused ion capacitors (returns 0 if it would return negative)
+---We can only know this from generators that are completed recalibrated,
+---so it is possible that there are more than what this reports back
+function get_unused_ion_capacitors()
+    --TODO: fill this in with the missing location names
+    local generator_locations = {
+        "@6-1/Generator/Recalibrate Generator",
+        "@6-2b/Generator/Recalibrate Generator"--,
+        --"",
+        --""
+    }
+
+    local used_items = 0
+    for _, location in pairs(generator_locations) do
+        if Tracker:FindObjectForCode(location).AvailableChestCount == 0 then
+            used_items = used_items + 4 -- Each generator uses 4 capacitors
+        end
+    end
+
+    return math.max(0, Tracker:ProviderCountForCode("ion_capacitor") - used_items)
+end
+
 ---Whether one of the generators can be purified
 ---Normal: 
 ---  Has all ion capacitors (16)
----  Is not shuffling ion capacitors, it's always possible to get them all per map
+---  If not shuffling ion capacitors, it's always possible to get them all per map
 ---SequenceBreak: 
 ---  If not connected to AP (it's hard to know whether ion capacitors are shuffled)
 ---  Otherwise, if you have could have enough to place on this generator
 ---None: Not enough capacitors
 function can_place_all_ion_capacitors()
-    if has("ion_capacitor", 16) then --or not id_exists(ION_CAPACITOR_ID) then
+    if has("ion_capacitor", 16) or not id_exists(ION_CAPACITOR_ID) then
         return AccessibilityLevel.Normal
     end
 
@@ -449,10 +471,29 @@ function can_place_all_ion_capacitors()
     --     return AccessibilityLevel.Normal
     -- end
 
-    --TODO: add logic here to check how many generators are activated, and raise the min level
-    --So, 0 = 4; 1 = 8; 2 = 12; 3 = 16 (+4 per activation)
-    min_ion_capacitors_needed = 4
-    if has("ion_capacitor", min_ion_capacitors_needed) then
+    if get_unused_ion_capacitors() >= 4 then
+        return AccessibilityLevel.SequenceBreak
+    end
+
+    return AccessibilityLevel.None
+end
+
+---Whether a single ion capacitor can be placed (used for 6-2b)
+---Normal: 
+---  Has enough ion capacitors (13) such that you couldn't run out
+---  If not shuffling ion capacitors, it's always possible to get them all per map
+---  The capacitors were already placed (6-2b's generator was already recalibrated)
+---SequenceBreak:
+---  Has any unused ion capacitor, as it could potentially be placed elsewhere
+---None: Not enough capacitors
+function can_place_one_ion_capacitor()
+    if has("ion_capacitor", 13) or 
+        not id_exists(ION_CAPACITOR_ID) or
+        Tracker:FindObjectForCode("@6-2b/Generator/Recalibrate Generator").AvailableChestCount == 0 then
+        return AccessibilityLevel.Normal
+    end
+
+    if get_unused_ion_capacitors() > 0 then
         return AccessibilityLevel.SequenceBreak
     end
 
