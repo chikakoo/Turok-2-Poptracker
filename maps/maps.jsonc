@@ -147,8 +147,7 @@
     "name": "2-GY1",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_2/2-GY1.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_2/2-GY1.png"
   },
   {
     "name": "2-6c",
@@ -167,8 +166,7 @@
     "name": "2-GY2",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_2/2-GY2.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_2/2-GY2.png"
   },
   {
     "name": "2-8",
@@ -179,10 +177,9 @@
   },
   {
     "name": "2-GY3",
-    "location_size": 15,
+    "location_size": 10,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_2/2-GY3.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_2/2-GY3.png"
   },
   // #endregion Level 2
 

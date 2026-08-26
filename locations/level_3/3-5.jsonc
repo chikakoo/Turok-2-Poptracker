@@ -180,12 +180,12 @@
                 ]
             },
             {
-                "name": "Rescue Prisoner",
+                "name": "In Cell",
                 "chest_unopened_img": "images/interactables/prisoner.png",
                 "chest_opened_img": "images/interactables/prisoner_bw.png",
                 "sections": [
                     {
-                        "name": "In Cell",
+                        "name": "Rescue Prisoner",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|65020"

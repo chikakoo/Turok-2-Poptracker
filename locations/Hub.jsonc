@@ -4100,8 +4100,8 @@
             "name": "[Sister of Despair] Graveyard Keys/After Gate Key Bridge"
           },
           {
-            "ref": "2-GY3/Graveyard Keys/After Gate Key Bridge/Lord of the Dead",
-            "name": "[Lord of the Dead] Graveyard Keys/After Gate Key Bridge"
+            "ref": "2-GY3/Graveyard Keys/After Gate Key Bridge/Lord of the Dead Spawned From Ultra Health",
+            "name": "[Lord of the Dead Spawned From Ultra Health] Graveyard Keys/After Gate Key Bridge"
           },
           {
             "ref": "2-GY3/Graveyard Keys/Enemy After Sister of Despair/Deadman",
@@ -5196,8 +5196,8 @@
             "name": "[Mag 60] By Exit Portal"
           },
           {
-            "ref": "3-5/Rescue Prisoner/In Cell",
-            "name": "[In Cell] Rescue Prisoner"
+            "ref": "3-5/In Cell/Rescue Prisoner",
+            "name": "[Rescue Prisoner] In Cell"
           },
           {
             "ref": "3-5/Enemy Ambush/War Club",
@@ -8020,12 +8020,12 @@
             "name": "[Drone] Enemy in Second Hall After Elevators"
           },
           {
-            "ref": "5-3/Enemy in Return Room Egg/Mite in Egg",
-            "name": "[Mite in Egg] Enemy in Return Room Egg"
+            "ref": "5-3/Enemy in Return Room/Mite in Egg",
+            "name": "[Mite in Egg] Enemy in Return Room"
           },
           {
-            "ref": "5-3/Enemy in Return Room Egg/Drone Spawned From Door",
-            "name": "[Drone Spawned From Door] Enemy in Return Room Egg"
+            "ref": "5-3/Enemy in Return Room/Drone Spawned From Door",
+            "name": "[Drone Spawned From Door] Enemy in Return Room"
           },
           {
             "ref": "5-3/Enemy After Forcefield/Drone",

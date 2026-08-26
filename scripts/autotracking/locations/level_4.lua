@@ -25,7 +25,7 @@ LOCATIONS_4_1 = {
     [98023] = {"@4-1/Exit Path/LF1"},
     [98024] = {"@4-1/Exit Path/LF1"},
     [98025] = {"@4-1/Exit Path/LF1"},
-    [98026] = {"@4-1/Whispers/Exit Side Path/Blue Health"},
+    [98026] = {"@4-1/Exit Side Path/Blue Health"},
     [98027] = {"@4-1/Whispers/After Jumps/Firestorm Cannon"},
     [98028] = {"@4-1/Whispers/On Pillar/Missiles"},
     [98029] = {"@4-1/Whispers/On Pillar/Missiles"},
@@ -166,9 +166,9 @@ LOCATIONS_4_3 = {
     [100014] = {"@4-3/Right Path Start/Blue Health"},
     [100015] = {"@4-3/In Water/Blue Health"},
     [100016] = {"@4-3/By Left Ladder/LF1"},
-    [100017] = {"@4-3/By Left Ladder/LF2"},
-    [100018] = {"@4-3/By Right Ladder/LF3"},
-    [100019] = {"@4-3/By Right Ladder/LF4"},
+    [100017] = {"@4-3/By Left Ladder/LF1"},
+    [100018] = {"@4-3/By Right Ladder/LF1"},
+    [100019] = {"@4-3/By Right Ladder/LF1"},
     [100020] = {"@4-3/Up Ladder/Charge Dart Rifle"},
     [100021] = {"@4-3/Water Path End/Cave Door Key"},
     [100022] = {"@4-3/Cave Door/Across Fallen Bridge/Blue Health"},
@@ -448,19 +448,19 @@ LOCATIONS_4_6a = {
 }
 
 LOCATIONS_4_O = {
-    [81000] = {"@4-Oblivion/Exit/Nuke Part"},
-    [81001] = {"@4-Oblivion/Up Ladder Front/Valve"},
-    [81002] = {"@4-Oblivion/Up Ladder Back/Valve"},
-    [81003] = {"@4-Oblivion/Circular Room/Valve"},
-    [81004] = {"@4-Oblivion/Enemy at Start/Sentinel"},
-    [81005] = {"@4-Oblivion/Enemy at Start/Sentinel"},
-    [81006] = {"@4-Oblivion/Enemy by Ladder/Death Guard"},
-    [81007] = {"@4-Oblivion/Enemy up Ladder/Death Guard"},
-    [81008] = {"@4-Oblivion/Enemy in Circular Room/Sentinel"},
-    [81009] = {"@4-Oblivion/Enemy in Circular Room/Sentinel"},
-    [81010] = {"@4-Oblivion/Enemy in Circular Room/Death Guard"},
-    [81011] = {"@4-Oblivion/Enemy in Circular Room/Death Guard"},
-    [81012] = {"@4-Oblivion/Enemy by Exit/Lord of the Flesh"}
+    [81000] = {"@4-O/Exit/Nuke Part"},
+    [81001] = {"@4-O/Up Ladder Front/Valve"},
+    [81002] = {"@4-O/Up Ladder Back/Valve"},
+    [81003] = {"@4-O/Circular Room/Valve"},
+    [81004] = {"@4-O/Enemy at Start/Sentinel"},
+    [81005] = {"@4-O/Enemy at Start/Sentinel"},
+    [81006] = {"@4-O/Enemy by Ladder/Death Guard"},
+    [81007] = {"@4-O/Enemy up Ladder/Death Guard"},
+    [81008] = {"@4-O/Enemy in Circular Room/Sentinel"},
+    [81009] = {"@4-O/Enemy in Circular Room/Sentinel"},
+    [81010] = {"@4-O/Enemy in Circular Room/Death Guard"},
+    [81011] = {"@4-O/Enemy in Circular Room/Death Guard"},
+    [81012] = {"@4-O/Enemy by Exit/Lord of the Flesh"}
 }
 
 LOCATIONS_4_7 = {
@@ -646,7 +646,7 @@ LOCATIONS_4_8a = {
     [105118] = {"@4-8a/Cave Door/Enemy by Exit Drop/Spider"},
     [105119] = {"@4-8a/Cave Door/Enemy by Exit Drop/Spider"},
     [105120] = {"@4-8a/Cave Door/Enemy by Exit Drop/Cave Spider"},
-    [105121] = {"@4-8a/Cave Door/Path Bottom/Unlock Cave Door"}
+    [105121] = {"@4-8a/Path Bottom/Unlock Cave Door"},
 }
 
 LOCATIONS_4_V3 = {

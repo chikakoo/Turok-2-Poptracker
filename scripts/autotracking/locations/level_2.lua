@@ -690,13 +690,13 @@ LOCATIONS_2_GY1 = {
     [133019] = {"@2-GY1/Enemy up Ladder/Spider"},
     [133020] = {"@2-GY1/Enemy up Ladder/Spider"},
     [133021] = {"@2-GY1/Enemy by Main Room Gate/Lord of the Dead"},
-    [133022] = {"@2-GY1/Enemy in Main Room/Lord of the Dead"},
-    [133023] = {"@2-GY1/Enemy Behind Building/Lord of the Dead"},
+    [133022] = {"@2-GY1/Enemy Behind Building/Lord of the Dead"},
+    [133023] = {"@2-GY1/Enemy in Main Room/Lord of the Dead"},
     [133024] = {"@2-GY1/Enemy in Main Room/Deadman"},
     [133025] = {"@2-GY1/Enemy in Main Room/Deadman"},
     [133026] = {"@2-GY1/Enemy in Main Room/Deadman Spawned From Lord of the Dead by Gate"},
-    [133027] = {"@2-GY1/Enemy in Main Room/Deadman Spawned From Lord of the Dead in Main Room"},
-    [133028] = {"@2-GY1/Enemy in Main Room/Deadman Spawned From Lord of the Dead Behind Building"},
+    [133027] = {"@2-GY1/Enemy in Main Room/Deadman Spawned From Lord of the Dead Behind Building"},
+    [133028] = {"@2-GY1/Enemy in Main Room/Deadman Spawned From Lord of the Dead in Main Room"},
     [133029] = {"@2-GY1/In Center Building/Sister of Despair"}
 }
 
@@ -1123,5 +1123,5 @@ LOCATIONS_2_GY3 = {
     [135099] = {"@2-GY3/Graveyard Keys/Enemy Before Catwalks/Lord of the Dead Spawned From Ultra Health"},
     [135100] = {"@2-GY3/Graveyard Keys/Enemy After Sister of Despair/Deadman Spawned From Ultra Health"},
     [135101] = {"@2-GY3/Graveyard Keys/Enemy After Sister of Despair/Deadman Spawned From Ultra Health"},
-    [135102] = {"@2-GY3/Graveyard Keys/After Gate Key Bridge/Lord of the Dead"}
+    [135102] = {"@2-GY3/Graveyard Keys/After Gate Key Bridge/Lord of the Dead Spawned From Ultra Health"},
 }

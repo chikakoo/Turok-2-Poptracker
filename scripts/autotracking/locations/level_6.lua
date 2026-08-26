@@ -48,22 +48,22 @@ LOCATIONS_6_Hub = {
     [114043] = {"@6-Hub/Wing 2/Enemy in Wing 2/Bio-Bot"},
 
     -- Wing 3
-    [114044] = {"@/After Wing 2 Hall/Blue Health"},
-    [114045] = {"@/Wing 2 End/Grenade Launcher"},
-    [114046] = {"@/Wing 3 Hall Start/LF1"},
-    [114047] = {"@/Wing 3 Hall Start/LF1"},
-    [114048] = {"@/Wing 3 Hall Start/LF10"},
-    [114049] = {"@/Wing 3 Hall/Explosive Shells"},
-    [114050] = {"@/Wing 3 Hall/Clip"},
-    [114051] = {"@/Wing 3 Hall/Bores"},
-    [114052] = {"@/Wing 3 Door Trap/LF10"},
-    [114053] = {"@/Wing 3 Door Trap/LF10"},
-    [114054] = {"@/Wing 3 Door Trap/LF10"},
-    [114055] = {"@/Wing 2 End/Switch"},
-    [114056] = {"@/Wing 3 Door Trap/Switch"},
-    [114057] = {"@/By Wing 3 Portal/Switch"},
-    [114058] = {"@/Enemy on Wing 2 Platform/Trooper"},
-    [114059] = {"@/Enemy in Wing 3 Hall/Bio-Bot"}
+    [114044] = {"@6-Hub/Wing 3/After Wing 2 Hall/Blue Health"},
+    [114045] = {"@6-Hub/Wing 3/Wing 2 End/Grenade Launcher"},
+    [114046] = {"@6-Hub/Wing 3/Wing 3 Hall Start/LF1"},
+    [114047] = {"@6-Hub/Wing 3/Wing 3 Hall Start/LF1"},
+    [114048] = {"@6-Hub/Wing 3/Wing 3 Hall Start/LF10"},
+    [114049] = {"@6-Hub/Wing 3/Wing 3 Hall/Explosive Shells"},
+    [114050] = {"@6-Hub/Wing 3/Wing 3 Hall/Clip"},
+    [114051] = {"@6-Hub/Wing 3/Wing 3 Hall/Bores"},
+    [114052] = {"@6-Hub/Wing 3/Wing 3 Door Trap/LF10"},
+    [114053] = {"@6-Hub/Wing 3/Wing 3 Door Trap/LF10"},
+    [114054] = {"@6-Hub/Wing 3/Wing 3 Door Trap/LF10"},
+    [114055] = {"@6-Hub/Wing 3/Wing 2 End/Switch"},
+    [114056] = {"@6-Hub/Wing 3/Wing 3 Door Trap/Switch"},
+    [114057] = {"@6-Hub/Wing 3/By Wing 3 Portal/Switch"},
+    [114058] = {"@6-Hub/Wing 3/Enemy on Wing 2 Platform/Trooper"},
+    [114059] = {"@6-Hub/Wing 3/Enemy in Wing 3 Hall/Bio-Bot"}
 
     -- Wing 4
     -- End

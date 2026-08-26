@@ -23,8 +23,8 @@
                 "map_locations": [
                     {
                         "map": "2-GY1",
-                        "x": 0,
-                        "y": 0
+                        "x": 509,
+                        "y": 494
                     }
                 ]
             },
@@ -44,8 +44,8 @@
                 "map_locations": [
                     {
                         "map": "2-GY1",
-                        "x": 0,
-                        "y": 0
+                        "x": 371,
+                        "y": 470
                     }
                 ]
             },
@@ -65,8 +65,8 @@
                 "map_locations": [
                     {
                         "map": "2-GY1",
-                        "x": 0,
-                        "y": 0
+                        "x": 178,
+                        "y": 307
                     }
                 ]
             },
@@ -86,8 +86,8 @@
                 "map_locations": [
                     {
                         "map": "2-GY1",
-                        "x": 0,
-                        "y": 0
+                        "x": 194,
+                        "y": 249
                     }
                 ]
             },
@@ -107,8 +107,8 @@
                 "map_locations": [
                     {
                         "map": "2-GY1",
-                        "x": 0,
-                        "y": 0
+                        "x": 223,
+                        "y": 199
                     }
                 ]
             },
@@ -129,8 +129,8 @@
                     {
                         "map": "2-GY1",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 307,
+                        "y": 437
                     }
                 ]
             },
@@ -151,8 +151,8 @@
                     {
                         "map": "2-GY1",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 44,
+                        "y": 343
                     }
                 ]
             },
@@ -173,8 +173,8 @@
                     {
                         "map": "2-GY1",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 45,
+                        "y": 288
                     }
                 ]
             },
@@ -195,8 +195,8 @@
                     {
                         "map": "2-GY1",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 144,
+                        "y": 364
                     }
                 ]
             },
@@ -209,7 +209,7 @@
                         "name": "Lord of the Dead",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|133023"
+                            "$id_exists|133022"
                         ]
                     }
                 ],
@@ -217,8 +217,8 @@
                     {
                         "map": "2-GY1",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 292,
+                        "y": 37
                     }
                 ]
             },
@@ -233,7 +233,7 @@
                         "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|133022"
+                            "$id_exists|133023"
                         ]
                     },
                     {
@@ -254,14 +254,14 @@
                         "name": "Deadman Spawned From Lord of the Dead in Main Room",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|133027"
+                            "$id_exists|133028"
                         ]
                     },
                     {
                         "name": "Deadman Spawned From Lord of the Dead Behind Building",
                         "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|133028"
+                            "$id_exists|133027"
                         ]
                     }
                 ],
@@ -269,8 +269,8 @@
                     {
                         "map": "2-GY1",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 291,
+                        "y": 225
                     }
                 ]
             },
@@ -298,8 +298,8 @@
                     {
                         "map": "2-GY1",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 289,
+                        "y": 96
                     }
                 ]
             }
