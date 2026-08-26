@@ -45,9 +45,26 @@ LOCATIONS_6_Hub = {
     [114040] = {"@6-Hub/Wing 2/By Wing 2 Portal/Switch"},
     [114041] = {"@6-Hub/Wing 2/Enemy After Wing 1 Return/Bio-Bot"},
     [114042] = {"@6-Hub/Wing 2/Enemy After Wing 1 Return/Trooper"},
-    [114043] = {"@6-Hub/Wing 2/Enemy in Wing 2/Bio-Bot"}
+    [114043] = {"@6-Hub/Wing 2/Enemy in Wing 2/Bio-Bot"},
 
     -- Wing 3
+    [114044] = {"@/After Wing 2 Hall/Blue Health"},
+    [114045] = {"@/Wing 2 End/Grenade Launcher"},
+    [114046] = {"@/Wing 3 Hall Start/LF1"},
+    [114047] = {"@/Wing 3 Hall Start/LF1"},
+    [114048] = {"@/Wing 3 Hall Start/LF10"},
+    [114049] = {"@/Wing 3 Hall/Explosive Shells"},
+    [114050] = {"@/Wing 3 Hall/Clip"},
+    [114051] = {"@/Wing 3 Hall/Bores"},
+    [114052] = {"@/Wing 3 Door Trap/LF10"},
+    [114053] = {"@/Wing 3 Door Trap/LF10"},
+    [114054] = {"@/Wing 3 Door Trap/LF10"},
+    [114055] = {"@/Wing 2 End/Switch"},
+    [114056] = {"@/Wing 3 Door Trap/Switch"},
+    [114057] = {"@/By Wing 3 Portal/Switch"},
+    [114058] = {"@/Enemy on Wing 2 Platform/Trooper"},
+    [114059] = {"@/Enemy in Wing 3 Hall/Bio-Bot"}
+
     -- Wing 4
     -- End
 }

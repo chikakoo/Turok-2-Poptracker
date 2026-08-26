@@ -10034,6 +10034,58 @@
           {
             "ref": "6-Hub/Wing 2/Enemy in Wing 2/Bio-Bot",
             "name": "[Bio-Bot] Wing 2/Enemy in Wing 2"
+          },
+          {
+            "ref": "6-Hub/Wing 3/After Wing 2 Hall/Blue Health",
+            "name": "[Blue Health] Wing 3/After Wing 2 Hall"
+          },
+          {
+            "ref": "6-Hub/Wing 3/Wing 2 End/Grenade Launcher",
+            "name": "[Grenade Launcher] Wing 3/Wing 2 End"
+          },
+          {
+            "ref": "6-Hub/Wing 3/Wing 2 End/Switch",
+            "name": "[Switch] Wing 3/Wing 2 End"
+          },
+          {
+            "ref": "6-Hub/Wing 3/Wing 3 Hall Start/LF1",
+            "name": "[LF1] Wing 3/Wing 3 Hall Start"
+          },
+          {
+            "ref": "6-Hub/Wing 3/Wing 3 Hall Start/LF10",
+            "name": "[LF10] Wing 3/Wing 3 Hall Start"
+          },
+          {
+            "ref": "6-Hub/Wing 3/Wing 3 Hall/Explosive Shells",
+            "name": "[Explosive Shells] Wing 3/Wing 3 Hall"
+          },
+          {
+            "ref": "6-Hub/Wing 3/Wing 3 Hall/Clip",
+            "name": "[Clip] Wing 3/Wing 3 Hall"
+          },
+          {
+            "ref": "6-Hub/Wing 3/Wing 3 Hall/Bores",
+            "name": "[Bores] Wing 3/Wing 3 Hall"
+          },
+          {
+            "ref": "6-Hub/Wing 3/Wing 3 Door Trap/LF10",
+            "name": "[LF10] Wing 3/Wing 3 Door Trap"
+          },
+          {
+            "ref": "6-Hub/Wing 3/Wing 3 Door Trap/Switch",
+            "name": "[Switch] Wing 3/Wing 3 Door Trap"
+          },
+          {
+            "ref": "6-Hub/Wing 3/By Wing 3 Portal/Switch",
+            "name": "[Switch] Wing 3/By Wing 3 Portal"
+          },
+          {
+            "ref": "6-Hub/Wing 3/Enemy on Wing 2 Platform/Trooper",
+            "name": "[Trooper] Wing 3/Enemy on Wing 2 Platform"
+          },
+          {
+            "ref": "6-Hub/Wing 3/Enemy in Wing 3 Hall/Bio-Bot",
+            "name": "[Bio-Bot] Wing 3/Enemy in Wing 3 Hall"
           }
         ],
         "map_locations": [
