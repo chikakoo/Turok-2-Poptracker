@@ -3484,12 +3484,12 @@
             "name": "[Leaper] Enemy by Right Path Switch"
           },
           {
-            "ref": "2-7/Enemy by Right Path Switch/Leaper After Switch",
-            "name": "[Leaper After Switch] Enemy by Right Path Switch"
-          },
-          {
             "ref": "2-7/Enemy by Graveyard Portal/Spider",
             "name": "[Spider] Enemy by Graveyard Portal"
+          },
+          {
+            "ref": "2-7/Enemy Before Ladder/Leaper",
+            "name": "[Leaper] Enemy Before Ladder"
           },
           {
             "ref": "2-7/Enemy by Ladder/Spider",
