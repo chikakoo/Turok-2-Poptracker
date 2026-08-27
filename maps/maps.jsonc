@@ -157,10 +157,9 @@
   },
   {
     "name": "2-7",
-    "location_size": 15,
+    "location_size": 10,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_2/2-7.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_2/2-7.png"
   },
   {
     "name": "2-GY2",
