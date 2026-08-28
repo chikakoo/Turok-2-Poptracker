@@ -120,9 +120,9 @@ LOCATIONS_3_1 = {
     [61118] = {"@3-1/Enemy Right of River Jumps/Gunner"},
     [61119] = {"@3-1/Enemy From Destroying River Jumps Nest/Wasp"},
     [61120] = {"@3-1/Enemy in Building/Endtrail"},
-    [61121] = {"@3-1/Enemy in Swamp Corner/Cave Worm"},
+    [61121] = {"@3-1/Enemy in Swamp Corner/Cave Worm Spawned From Tek Arrows"},
     [61122] = {"@3-1/Enemy in Swamp Alcove/Cave Worm"},
-    [61123] = {"@3-1/Enemy in Swamp Alcove/Cave Worm"},
+    [61123] = {"@3-1/Enemy in Swamp Alcove/Cave Worm Spawned From Tek Quiver"},
     [61124] = {"@3-1/Enemy by Prisoner/Endtrail"},
     [61125] = {"@3-1/Enemy by Ammo Storage/War Club"}
 }

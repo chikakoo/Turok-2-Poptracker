@@ -4328,12 +4328,16 @@
             "name": "[Endtrail] Enemy in Building"
           },
           {
-            "ref": "3-1/Enemy in Swamp Corner/Cave Worm",
-            "name": "[Cave Worm] Enemy in Swamp Corner"
+            "ref": "3-1/Enemy in Swamp Corner/Cave Worm Spawned From Tek Arrows",
+            "name": "[Cave Worm Spawned From Tek Arrows] Enemy in Swamp Corner"
           },
           {
             "ref": "3-1/Enemy in Swamp Alcove/Cave Worm",
             "name": "[Cave Worm] Enemy in Swamp Alcove"
+          },
+          {
+            "ref": "3-1/Enemy in Swamp Alcove/Cave Worm Spawned From Tek Quiver",
+            "name": "[Cave Worm Spawned From Tek Quiver] Enemy in Swamp Alcove"
           },
           {
             "ref": "3-1/Enemy by Prisoner/Endtrail",
