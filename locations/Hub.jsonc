@@ -1512,20 +1512,24 @@
             "name": "[Shells] Left Room Near Bookshelf"
           },
           {
-            "ref": "1-9E/Right Room on Bed/Shells",
-            "name": "[Shells] Right Room on Bed"
+            "ref": "1-9E/Right Room/Shells",
+            "name": "[Shells] Right Room"
           },
           {
-            "ref": "1-9E/Right Room Right of Furnace/Clip",
-            "name": "[Clip] Right Room Right of Furnace"
+            "ref": "1-9E/Right Room/Clip",
+            "name": "[Clip] Right Room"
           },
           {
-            "ref": "1-9E/Left Room Between Pillars/Clip",
-            "name": "[Clip] Left Room Between Pillars"
+            "ref": "1-9E/Right Room/Switch",
+            "name": "[Switch] Right Room"
           },
           {
-            "ref": "1-9E/Left Room Inside Pillar/Clip",
-            "name": "[Clip] Left Room Inside Pillar"
+            "ref": "1-9E/Left Room Pillars/Clip",
+            "name": "[Clip] Left Room Pillars"
+          },
+          {
+            "ref": "1-9E/Left Room Pillars/Clip Inside Pillar",
+            "name": "[Clip Inside Pillar] Left Room Pillars"
           },
           {
             "ref": "1-9E/Right Room Between Beds/Shells",
@@ -1586,10 +1590,6 @@
           {
             "ref": "1-9E/In Left Room Corner/Switch",
             "name": "[Switch] In Left Room Corner"
-          },
-          {
-            "ref": "1-9E/Right Room Left of Furnace/Switch",
-            "name": "[Switch] Right Room Left of Furnace"
           },
           {
             "ref": "1-9E/Left Room by Table/Switch",

@@ -1187,49 +1187,46 @@
                 ]
             },
             {
-                "name": "Right Room on Bed",
-                "chest_unopened_img": "images/items/ammo/shells.png",
-                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "name": "Right Room",
                 "sections": [
                     {
                         "name": "Shells",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|59093"
                         ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "1-9E",
-                        "x": 455,
-                        "y": 110
-                    }
-                ]
-            },
-            {
-                "name": "Right Room Right of Furnace",
-                "chest_unopened_img": "images/items/ammo/clip.png",
-                "chest_opened_img": "images/items/ammo/clip_bw.png",
-                "sections": [
+                    },
                     {
                         "name": "Clip",
+                        "chest_unopened_img": "images/items/ammo/clip.png",
+                        "chest_opened_img": "images/items/ammo/clip_bw.png",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|59094"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_standard.png",
+                        "chest_opened_img": "images/interactables/switch_standard_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|59134"
                         ]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "1-9E",
-                        "x": 469,
-                        "y": 102
+                        "x": 461,
+                        "y": 103
                     }
                 ]
             },
             {
-                "name": "Left Room Between Pillars",
+                "name": "Left Room Pillars",
                 "chest_unopened_img": "images/items/ammo/clip.png",
                 "chest_opened_img": "images/items/ammo/clip_bw.png",
                 "sections": [
@@ -1239,23 +1236,9 @@
                         "visibility_rules": [
                             "$id_exists|59095|59096"
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "1-9E",
-                        "x": 592,
-                        "y": 73
-                    }
-                ]
-            },
-            {
-                "name": "Left Room Inside Pillar",
-                "chest_unopened_img": "images/items/ammo/clip.png",
-                "chest_opened_img": "images/items/ammo/clip_bw.png",
-                "sections": [
-                    {
-                        "name": "Clip",
+                        "name": "Clip Inside Pillar",
                         "item_count": 1,
                         "visibility_rules": [
                             "$id_exists|59097"
@@ -1266,7 +1249,7 @@
                     {
                         "map": "1-9E",
                         "x": 592,
-                        "y": 85
+                        "y": 76
                     }
                 ]
             },
@@ -1286,8 +1269,8 @@
                 "map_locations": [
                     {
                         "map": "1-9E",
-                        "x": 693,
-                        "y": 40
+                        "x": 701,
+                        "y": 37
                     }
                 ]
             },
@@ -1432,6 +1415,8 @@
             },
             {
                 "name": "Up Ladder Across from Rubble",
+                "chest_unopened_img": "images/interactables/switch_standard.png",
+                "chest_opened_img": "images/interactables/switch_standard_bw.png",
                 "sections": [
                     {
                         "name": "Switch",
@@ -1530,27 +1515,6 @@
                         "map": "1-9E",
                         "x": 291,
                         "y": 97
-                    }
-                ]
-            },
-            {
-                "name": "Right Room Left of Furnace",
-                "chest_unopened_img": "images/interactables/switch_standard.png",
-                "chest_opened_img": "images/interactables/switch_standard_bw.png",
-                "sections": [
-                    {
-                        "name": "Switch",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|59134"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "1-9E",
-                        "x": 461,
-                        "y": 91
                     }
                 ]
             },
