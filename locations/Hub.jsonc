@@ -10820,8 +10820,236 @@
         "name": "6-3a",
         "sections": [
           {
-            "ref": "6-3a/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "6-3a/Left Dead End/Mag 60",
+            "name": "[Mag 60] Left Dead End"
+          },
+          {
+            "ref": "6-3a/Left Dead End/Blue Health",
+            "name": "[Blue Health] Left Dead End"
+          },
+          {
+            "ref": "6-3a/Right Dead End Path Start/Mine",
+            "name": "[Mine] Right Dead End Path Start"
+          },
+          {
+            "ref": "6-3a/Right Dead End Path/LF1",
+            "name": "[LF1] Right Dead End Path"
+          },
+          {
+            "ref": "6-3a/Right Dead End Path/Clip",
+            "name": "[Clip] Right Dead End Path"
+          },
+          {
+            "ref": "6-3a/Right Dead End/Shredder",
+            "name": "[Shredder] Right Dead End"
+          },
+          {
+            "ref": "6-3a/Right Dead End/Blue Health",
+            "name": "[Blue Health] Right Dead End"
+          },
+          {
+            "ref": "6-3a/On Bottom Left/Missiles",
+            "name": "[Missiles] On Bottom Left"
+          },
+          {
+            "ref": "6-3a/On Bottom Right/Explosive Shells",
+            "name": "[Explosive Shells] On Bottom Right"
+          },
+          {
+            "ref": "6-3a/On Left Tiny Bridge/LF1",
+            "name": "[LF1] On Left Tiny Bridge"
+          },
+          {
+            "ref": "6-3a/On Right Tiny Bridge/LF1",
+            "name": "[LF1] On Right Tiny Bridge"
+          },
+          {
+            "ref": "6-3a/Jump From Moving Platform/Ion Capacitor",
+            "name": "[Ion Capacitor] Jump From Moving Platform"
+          },
+          {
+            "ref": "6-3a/Console 1/Blue Health",
+            "name": "[Blue Health] Console 1"
+          },
+          {
+            "ref": "6-3a/Console 1/Timed Door Switch",
+            "name": "[Timed Door Switch] Console 1"
+          },
+          {
+            "ref": "6-3a/Console 2/Blue Health",
+            "name": "[Blue Health] Console 2"
+          },
+          {
+            "ref": "6-3a/Console 2/Timed Door Switch",
+            "name": "[Timed Door Switch] Console 2"
+          },
+          {
+            "ref": "6-3a/Console 3/Blue Health",
+            "name": "[Blue Health] Console 3"
+          },
+          {
+            "ref": "6-3a/Console 3/Timed Door Switch",
+            "name": "[Timed Door Switch] Console 3"
+          },
+          {
+            "ref": "6-3a/Door Trap Dead End/Ion Capacitor",
+            "name": "[Ion Capacitor] Door Trap Dead End"
+          },
+          {
+            "ref": "6-3a/Door Trap Dead End/Firestorm Cannon",
+            "name": "[Firestorm Cannon] Door Trap Dead End"
+          },
+          {
+            "ref": "6-3a/Door Trap Dead End/Mag 60",
+            "name": "[Mag 60] Door Trap Dead End"
+          },
+          {
+            "ref": "6-3a/Door Trap Dead End/Scorpion Launcher",
+            "name": "[Scorpion Launcher] Door Trap Dead End"
+          },
+          {
+            "ref": "6-3a/Door Trap Dead End/Shredder",
+            "name": "[Shredder] Door Trap Dead End"
+          },
+          {
+            "ref": "6-3a/Checkpoint Hall Start/LF1",
+            "name": "[LF1] Checkpoint Hall Start"
+          },
+          {
+            "ref": "6-3a/Checkpoint Hall/LF1",
+            "name": "[LF1] Checkpoint Hall"
+          },
+          {
+            "ref": "6-3a/Checkpoint Hall/Clip",
+            "name": "[Clip] Checkpoint Hall"
+          },
+          {
+            "ref": "6-3a/Before Sewers/LF10",
+            "name": "[LF10] Before Sewers"
+          },
+          {
+            "ref": "6-3a/Sewers Start/Clip",
+            "name": "[Clip] Sewers Start"
+          },
+          {
+            "ref": "6-3a/Sewers Laser 1/LF10",
+            "name": "[LF10] Sewers Laser 1"
+          },
+          {
+            "ref": "6-3a/Sewers Laser 1/Blue Health",
+            "name": "[Blue Health] Sewers Laser 1"
+          },
+          {
+            "ref": "6-3a/Sewers Upper by Start/Flame Thrower",
+            "name": "[Flame Thrower] Sewers Upper by Start"
+          },
+          {
+            "ref": "6-3a/Sewers Upper by Lasers/Clip",
+            "name": "[Clip] Sewers Upper by Lasers"
+          },
+          {
+            "ref": "6-3a/Sewers Laser 2/LF10",
+            "name": "[LF10] Sewers Laser 2"
+          },
+          {
+            "ref": "6-3a/Sewers Laser 2/Blue Health",
+            "name": "[Blue Health] Sewers Laser 2"
+          },
+          {
+            "ref": "6-3a/Sewers Laser 3/LF10",
+            "name": "[LF10] Sewers Laser 3"
+          },
+          {
+            "ref": "6-3a/Sewers Laser 3/Blue Health",
+            "name": "[Blue Health] Sewers Laser 3"
+          },
+          {
+            "ref": "6-3a/Sewers After Laser 3/Clip",
+            "name": "[Clip] Sewers After Laser 3"
+          },
+          {
+            "ref": "6-3a/Sewers Laser 4/LF10",
+            "name": "[LF10] Sewers Laser 4"
+          },
+          {
+            "ref": "6-3a/Sewers Laser 4/Blue Health",
+            "name": "[Blue Health] Sewers Laser 4"
+          },
+          {
+            "ref": "6-3a/Sewers Laser 5/LF10",
+            "name": "[LF10] Sewers Laser 5"
+          },
+          {
+            "ref": "6-3a/Sewers Laser 5/Blue Health",
+            "name": "[Blue Health] Sewers Laser 5"
+          },
+          {
+            "ref": "6-3a/Right After Sewers/Clip",
+            "name": "[Clip] Right After Sewers"
+          },
+          {
+            "ref": "6-3a/Right After Sewers Dead End/Tek Quiver",
+            "name": "[Tek Quiver] Right After Sewers Dead End"
+          },
+          {
+            "ref": "6-3a/Right After Sewers Dead End/Blue Health",
+            "name": "[Blue Health] Right After Sewers Dead End"
+          },
+          {
+            "ref": "6-3a/Left After Sewers/Clip",
+            "name": "[Clip] Left After Sewers"
+          },
+          {
+            "ref": "6-3a/Left After Sewers/LF1",
+            "name": "[LF1] Left After Sewers"
+          },
+          {
+            "ref": "6-3a/On Center Platform/Switch",
+            "name": "[Switch] On Center Platform"
+          },
+          {
+            "ref": "6-3a/Door Trap/Switch",
+            "name": "[Switch] Door Trap"
+          },
+          {
+            "ref": "6-3a/By Exit Portal/Switch",
+            "name": "[Switch] By Exit Portal"
+          },
+          {
+            "ref": "6-3a/Enemy at Start Left/Bio-Bot",
+            "name": "[Bio-Bot] Enemy at Start Left"
+          },
+          {
+            "ref": "6-3a/Enemy in Right Dead End Hall/Bio-Bot Spawned From Turret Spawned From Next Room",
+            "name": "[Bio-Bot Spawned From Turret Spawned From Next Room] Enemy in Right Dead End Hall"
+          },
+          {
+            "ref": "6-3a/Enemy on Center Platform/Elite Guard",
+            "name": "[Elite Guard] Enemy on Center Platform"
+          },
+          {
+            "ref": "6-3a/Enemy in Laser Room/Trooper",
+            "name": "[Trooper] Enemy in Laser Room"
+          },
+          {
+            "ref": "6-3a/Enemy in Laser Room/Trooper Spawned After Door Trap",
+            "name": "[Trooper Spawned After Door Trap] Enemy in Laser Room"
+          },
+          {
+            "ref": "6-3a/Enemy in Door Switch Hall/Bio-Bot",
+            "name": "[Bio-Bot] Enemy in Door Switch Hall"
+          },
+          {
+            "ref": "6-3a/Enemy in Door Trap Dead End/Elite Guard",
+            "name": "[Elite Guard] Enemy in Door Trap Dead End"
+          },
+          {
+            "ref": "6-3a/Enemy in Checkpoint Hall/Bio-Bot",
+            "name": "[Bio-Bot] Enemy in Checkpoint Hall"
+          },
+          {
+            "ref": "6-3a/Enemy Spawned From Right Door/Bio-Bot",
+            "name": "[Bio-Bot] Enemy Spawned From Right Door"
           }
         ],
         "map_locations": [
