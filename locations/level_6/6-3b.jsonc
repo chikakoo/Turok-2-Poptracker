@@ -8,11 +8,716 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Start Fork",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 25,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Start Forward",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|119001|119002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Start Dead End",
+                "sections": [
+                    {
+                        "name": "Mag 60",
+                        "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                        "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119003"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|119004|119005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Start Right Fork",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|119006|119007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Door",
+                "chest_unopened_img": "images/items/weapons_small/cerebral_bore.png",
+                "chest_opened_img": "images/items/weapons_small/cerebral_bore_bw.png",
+                "sections": [
+                    {
+                        "name": "Cerebral Bore",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119020"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Below Catwalks",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|119021|119022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Below Catwalks",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|119023|119024"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Left Stairs",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119025"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119027"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Up Right Stairs",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119026"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119028"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Timed Room",
+                "sections": [
+                    {
+                        "name": "Tek Arrows",
+                        "chest_unopened_img": "images/items/ammo/tek_arrows.png",
+                        "chest_opened_img": "images/items/ammo/tek_arrows_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119029"
+                        ]
+                    },
+                    {
+                        "name": "Ion Capacitor",
+                        "chest_unopened_img": "images/items/mission/ion_capacitor.png",
+                        "chest_opened_img": "images/items/mission/ion_capacitor_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119030"
+                        ]
+                    },
+                    {
+                        "name": "Timed Door Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119045"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Timed Room",
+                "sections": [
+                    {
+                        "name": "Tek Arrows",
+                        "chest_unopened_img": "images/items/ammo/tek_arrows.png",
+                        "chest_opened_img": "images/items/ammo/tek_arrows_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119031"
+                        ]
+                    },
+                    {
+                        "name": "Ion Capacitor",
+                        "chest_unopened_img": "images/items/mission/ion_capacitor.png",
+                        "chest_opened_img": "images/items/mission/ion_capacitor_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119032"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After Timed Doors",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|119033|119034"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Generator Back",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|119035|119036"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|119037|119038"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Generator",
+                "sections": [
+                    {
+                        "name": "Green Capacitor",
+                        "chest_unopened_img": "images/interactables/power_generator.png",
+                        "chest_opened_img": "images/interactables/power_generator_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|119039|119040|119041|119042"
+                        ]
+                    },
+                    {
+                        "name": "Recalibrate Generator",
+                        "chest_unopened_img": "images/interactables/power_generator.png",
+                        "chest_opened_img": "images/interactables/power_generator_bw.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "^$can_place_all_ion_capacitors"
+                        ],
+                        "visibility_rules": [
+                            "$id_exists|119048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 75,
+                        "y": 25
+                    }
+                ]
+            },
+            {
+                "name": "Timed Door Room",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119044"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Exit Portal",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119049"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Start Forward",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119050"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Start Right Fork",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Snipable Across Leap of Faith",
+                "chest_unopened_img": "images/enemies/elite_guard.png",
+                "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                "access_rules": [
+                    "leap_of_faith",
+                    "tek_bow",
+                    "plasma_rifle"
+                ],
+                "sections": [
+                    {
+                        "name": "Elite Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119052"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 25
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned at Door",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119053"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Entrance",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "chest_unopened_img": "images/enemies/trooper.png",
+                        "chest_opened_img": "images/enemies/trooper_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119054"
+                        ]
+                    },
+                    {
+                        "name": "Bio-Bot",
+                        "chest_unopened_img": "images/enemies/bio_bot.png",
+                        "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119055"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Left Stairs",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119056"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Timed Room",
+                "chest_unopened_img": "images/enemies/elite_guard.png",
+                "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Elite Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119057"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Timed Room",
+                "chest_unopened_img": "images/enemies/elite_guard.png",
+                "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Elite Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119058"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Timed Doors",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119059"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Behind Generator",
+                "chest_unopened_img": "images/enemies/elite_guard.png",
+                "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Elite Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|119060"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-3b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Leap of Faith",
+                "access_rules": [
+                    "leap_of_faith"
+                ],
+                "children": [
+                    {
+                        "name": "Leap Over Pit",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 6,
+                                "visibility_rules": [
+                                    "$id_exists|119008|119009|119010|119011|119012|119013"
+                                ]
+                            },
+                            {
+                                "name": "Silver Health",
+                                "chest_unopened_img": "images/items/health/silver_health.png",
+                                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                                "item_count": 6,
+                                "visibility_rules": [
+                                    "$id_exists|119014|119015|119016|119017|119018|119019"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-3b",
+                                "x": 25,
+                                "y": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Primagen Key Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "sections": [
+                            {
+                                "name": "Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|119043"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-3b",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }

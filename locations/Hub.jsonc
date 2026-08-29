@@ -10090,6 +10090,38 @@
           {
             "ref": "6-Hub/Wing 3/Enemy in Wing 3 Hall/Bio-Bot",
             "name": "[Bio-Bot] Wing 3/Enemy in Wing 3 Hall"
+          },
+          {
+            "ref": "6-Hub/Wing 4/After Wing 3 Hall/LF1",
+            "name": "[LF1] Wing 4/After Wing 3 Hall"
+          },
+          {
+            "ref": "6-Hub/Wing 4/Wing 3 End/Scorpion Launcher",
+            "name": "[Scorpion Launcher] Wing 4/Wing 3 End"
+          },
+          {
+            "ref": "6-Hub/Wing 4/Wing 3 End/Switch",
+            "name": "[Switch] Wing 4/Wing 3 End"
+          },
+          {
+            "ref": "6-Hub/Wing 4/Wing 4/Blue Health",
+            "name": "[Blue Health] Wing 4/Wing 4"
+          },
+          {
+            "ref": "6-Hub/Wing 4/By Wing 4 Portal/Switch",
+            "name": "[Switch] Wing 4/By Wing 4 Portal"
+          },
+          {
+            "ref": "6-Hub/Wing 4/Enemy on Wing 3 Platform/Elite Guard",
+            "name": "[Elite Guard] Wing 4/Enemy on Wing 3 Platform"
+          },
+          {
+            "ref": "6-Hub/Wing 4/Enemy at Wing 4 Start/Elite Guard",
+            "name": "[Elite Guard] Wing 4/Enemy at Wing 4 Start"
+          },
+          {
+            "ref": "6-Hub/Wing 4/Enemy at Wing 4 Mid/Trooper",
+            "name": "[Trooper] Wing 4/Enemy at Wing 4 Mid"
           }
         ],
         "map_locations": [
@@ -11064,8 +11096,164 @@
         "name": "6-3b",
         "sections": [
           {
-            "ref": "6-3b/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "6-3b/Start Fork/Blue Health",
+            "name": "[Blue Health] Start Fork"
+          },
+          {
+            "ref": "6-3b/Start Forward/LF1",
+            "name": "[LF1] Start Forward"
+          },
+          {
+            "ref": "6-3b/Start Dead End/Mag 60",
+            "name": "[Mag 60] Start Dead End"
+          },
+          {
+            "ref": "6-3b/Start Dead End/Blue Health",
+            "name": "[Blue Health] Start Dead End"
+          },
+          {
+            "ref": "6-3b/Start Right Fork/LF1",
+            "name": "[LF1] Start Right Fork"
+          },
+          {
+            "ref": "6-3b/Before Door/Cerebral Bore",
+            "name": "[Cerebral Bore] Before Door"
+          },
+          {
+            "ref": "6-3b/Left Below Catwalks/LF10",
+            "name": "[LF10] Left Below Catwalks"
+          },
+          {
+            "ref": "6-3b/Right Below Catwalks/LF10",
+            "name": "[LF10] Right Below Catwalks"
+          },
+          {
+            "ref": "6-3b/Up Left Stairs/Silver Health",
+            "name": "[Silver Health] Up Left Stairs"
+          },
+          {
+            "ref": "6-3b/Up Left Stairs/Blue Health",
+            "name": "[Blue Health] Up Left Stairs"
+          },
+          {
+            "ref": "6-3b/Up Right Stairs/Silver Health",
+            "name": "[Silver Health] Up Right Stairs"
+          },
+          {
+            "ref": "6-3b/Up Right Stairs/Blue Health",
+            "name": "[Blue Health] Up Right Stairs"
+          },
+          {
+            "ref": "6-3b/Right Timed Room/Tek Arrows",
+            "name": "[Tek Arrows] Right Timed Room"
+          },
+          {
+            "ref": "6-3b/Right Timed Room/Ion Capacitor",
+            "name": "[Ion Capacitor] Right Timed Room"
+          },
+          {
+            "ref": "6-3b/Right Timed Room/Timed Door Switch",
+            "name": "[Timed Door Switch] Right Timed Room"
+          },
+          {
+            "ref": "6-3b/Left Timed Room/Tek Arrows",
+            "name": "[Tek Arrows] Left Timed Room"
+          },
+          {
+            "ref": "6-3b/Left Timed Room/Ion Capacitor",
+            "name": "[Ion Capacitor] Left Timed Room"
+          },
+          {
+            "ref": "6-3b/Left Timed Room/Switch",
+            "name": "[Switch] Left Timed Room"
+          },
+          {
+            "ref": "6-3b/After Timed Doors/LF1",
+            "name": "[LF1] After Timed Doors"
+          },
+          {
+            "ref": "6-3b/After Timed Doors/Switch",
+            "name": "[Switch] After Timed Doors"
+          },
+          {
+            "ref": "6-3b/Generator Back/LF10",
+            "name": "[LF10] Generator Back"
+          },
+          {
+            "ref": "6-3b/Generator Back/Blue Health",
+            "name": "[Blue Health] Generator Back"
+          },
+          {
+            "ref": "6-3b/Generator/Green Capacitor",
+            "name": "[Green Capacitor] Generator"
+          },
+          {
+            "ref": "6-3b/Generator/Recalibrate Generator",
+            "name": "[Recalibrate Generator] Generator"
+          },
+          {
+            "ref": "6-3b/Timed Door Room/Switch",
+            "name": "[Switch] Timed Door Room"
+          },
+          {
+            "ref": "6-3b/At Exit Portal/Switch",
+            "name": "[Switch] At Exit Portal"
+          },
+          {
+            "ref": "6-3b/Enemy at Start Forward/Bio-Bot",
+            "name": "[Bio-Bot] Enemy at Start Forward"
+          },
+          {
+            "ref": "6-3b/Enemy at Start Right Fork/Bio-Bot",
+            "name": "[Bio-Bot] Enemy at Start Right Fork"
+          },
+          {
+            "ref": "6-3b/Snipable Across Leap of Faith/Elite Guard",
+            "name": "[Elite Guard] Snipable Across Leap of Faith"
+          },
+          {
+            "ref": "6-3b/Enemy Spawned at Door/Bio-Bot",
+            "name": "[Bio-Bot] Enemy Spawned at Door"
+          },
+          {
+            "ref": "6-3b/Enemy by Entrance/Trooper",
+            "name": "[Trooper] Enemy by Entrance"
+          },
+          {
+            "ref": "6-3b/Enemy by Entrance/Bio-Bot",
+            "name": "[Bio-Bot] Enemy by Entrance"
+          },
+          {
+            "ref": "6-3b/Enemy up Left Stairs/Trooper",
+            "name": "[Trooper] Enemy up Left Stairs"
+          },
+          {
+            "ref": "6-3b/Enemy in Right Timed Room/Elite Guard",
+            "name": "[Elite Guard] Enemy in Right Timed Room"
+          },
+          {
+            "ref": "6-3b/Enemy in Left Timed Room/Elite Guard",
+            "name": "[Elite Guard] Enemy in Left Timed Room"
+          },
+          {
+            "ref": "6-3b/Enemy After Timed Doors/Trooper",
+            "name": "[Trooper] Enemy After Timed Doors"
+          },
+          {
+            "ref": "6-3b/Enemy Behind Generator/Elite Guard",
+            "name": "[Elite Guard] Enemy Behind Generator"
+          },
+          {
+            "ref": "6-3b/Leap of Faith/Leap Over Pit/LF1",
+            "name": "[LF1] Leap of Faith/Leap Over Pit"
+          },
+          {
+            "ref": "6-3b/Leap of Faith/Leap Over Pit/Silver Health",
+            "name": "[Silver Health] Leap of Faith/Leap Over Pit"
+          },
+          {
+            "ref": "6-3b/Leap of Faith/Primagen Key Switch/Switch",
+            "name": "[Switch] Leap of Faith/Primagen Key Switch"
           }
         ],
         "map_locations": [

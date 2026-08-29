@@ -11,6 +11,26 @@ CAVE_DOOR_4_8a = "@4-8a/Path Bottom/Unlock Cave Door"
 CAVE_DOOR_4_V3_LEFT = "@4-V3/Cave Door Right/Place Left Key"
 CAVE_DOOR_4_V3_RIGHT = "@4-V3/Cave Door Right/Place Right Key"
 
+PROGRESSIVE_WEAPONS = {
+    "war_blade",
+    "tek_bow",
+    "pistol",
+    "mag_60",
+    "tranquilizer_gun",
+    "charge_dart_rifle",
+    "shotgun",
+    "shredder",
+    "plasma_rifle",
+    "firestorm_cannon",
+    "sunfire_pod",
+    "cerebral_bore",
+    "pfm_layer",
+    "grenade_launcher",
+    "scorpion_launcher",
+    "flame_thrower",
+    "razor_wind"
+}
+
 ---One of the ion capacitors. Used to see if ion capacitors are shuffled, as either one or all will be.
 ION_CAPACITOR_ID = "115011"
 
@@ -116,28 +136,8 @@ function has_weapon_requirement(level, weapon_barrier_suffix)
         return true
     end
 
-    local progressive_weapons = {
-        "war_blade",
-        "tek_bow",
-        "pistol",
-        "mag_60",
-        "tranquilizer_gun",
-        "charge_dart_rifle",
-        "shotgun",
-        "shredder",
-        "plasma_rifle",
-        "firestorm_cannon",
-        "sunfire_pod",
-        "cerebral_bore",
-        "pfm_layer",
-        "grenade_launcher",
-        "scorpion_launcher",
-        "flame_thrower",
-        "razor_wind"
-    }
-
     local unique_weapons_owned = 0
-    for _, weapon_name in pairs(progressive_weapons) do
+    for _, weapon_name in pairs(PROGRESSIVE_WEAPONS) do
         if has(weapon_name) then
             unique_weapons_owned = unique_weapons_owned + 1
         end
@@ -434,8 +434,8 @@ function get_unused_ion_capacitors()
     --TODO: fill this in with the missing location names
     local generator_locations = {
         "@6-1/Generator/Recalibrate Generator",
-        "@6-2b/Generator/Recalibrate Generator"--,
-        --"",
+        "@6-2b/Generator/Recalibrate Generator",
+        "@6-3b/Generator/Recalibrate Generator"--,
         --""
     }
 

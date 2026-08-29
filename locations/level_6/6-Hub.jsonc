@@ -829,16 +829,169 @@
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Wing 4",
+                "access_rules": [
+                    "$map_access|6|8|mid"
+                ],
+                "children": [
+                    {
+                        "name": "After Wing 3 Hall",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|114060|114061|114062"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wing 3 End",
+                        "sections": [
+                            {
+                                "name": "Scorpion Launcher",
+                                "chest_unopened_img": "images/items/weapons_small/scorpion_launcher.png",
+                                "chest_opened_img": "images/items/weapons_small/scorpion_launcher_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114063"
+                                ]
+                            },
+                            {
+                                "name": "Switch",
+                                "chest_unopened_img": "images/interactables/switch_console.png",
+                                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114067"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 75,
+                                "y": 57
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wing 4",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|114064|114065|114066"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Wing 4 Portal",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "sections": [
+                            {
+                                "name": "Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114068"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Wing 3 Platform",
+                        "chest_unopened_img": "images/enemies/elite_guard.png",
+                        "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                        "sections": [
+                            {
+                                "name": "Elite Guard",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114069"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy at Wing 4 Start",
+                        "chest_unopened_img": "images/enemies/elite_guard.png",
+                        "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                        "sections": [
+                            {
+                                "name": "Elite Guard",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114070"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy at Wing 4 Mid",
+                        "chest_unopened_img": "images/enemies/trooper.png",
+                        "chest_opened_img": "images/enemies/trooper_bw.png",
+                        "sections": [
+                            {
+                                "name": "Trooper",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114071"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    }
+                ]
             } //,
-            // {
-            //     "name": "Wing 4",
-            //     "access_rules": [
-            //         "$map_access|6|8|mid"
-            //     ],
-            //     "children": [
-            //         {}
-            //     ]
-            // }//,
             // {
             //     "name": "End",
             //     "access_rules": [

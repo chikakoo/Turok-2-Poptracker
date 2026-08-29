@@ -63,9 +63,22 @@ LOCATIONS_6_Hub = {
     [114056] = {"@6-Hub/Wing 3/Wing 3 Door Trap/Switch"},
     [114057] = {"@6-Hub/Wing 3/By Wing 3 Portal/Switch"},
     [114058] = {"@6-Hub/Wing 3/Enemy on Wing 2 Platform/Trooper"},
-    [114059] = {"@6-Hub/Wing 3/Enemy in Wing 3 Hall/Bio-Bot"}
+    [114059] = {"@6-Hub/Wing 3/Enemy in Wing 3 Hall/Bio-Bot"},
 
     -- Wing 4
+    [114060] = {"@6-Hub/Wing 4/After Wing 3 Hall/LF1"},
+    [114061] = {"@6-Hub/Wing 4/After Wing 3 Hall/LF1"},
+    [114062] = {"@6-Hub/Wing 4/After Wing 3 Hall/LF1"},
+    [114063] = {"@6-Hub/Wing 4/Wing 3 End/Scorpion Launcher"},
+    [114064] = {"@6-Hub/Wing 4/Wing 4/Blue Health"},
+    [114065] = {"@6-Hub/Wing 4/Wing 4/Blue Health"},
+    [114066] = {"@6-Hub/Wing 4/Wing 4/Blue Health"},
+    [114067] = {"@6-Hub/Wing 4/Wing 3 End/Switch"},
+    [114068] = {"@6-Hub/Wing 4/By Wing 4 Portal/Switch"},
+    [114069] = {"@6-Hub/Wing 4/Enemy on Wing 3 Platform/Elite Guard"},
+    [114070] = {"@6-Hub/Wing 4/Enemy at Wing 4 Start/Elite Guard"},
+    [114071] = {"@6-Hub/Wing 4/Enemy at Wing 4 Mid/Trooper"}
+
     -- End
 }
 
@@ -457,7 +470,67 @@ LOCATIONS_6_3a = {
 }
 
 LOCATIONS_6_3b = {
-
+    [119000] = {"@6-3b/Start Fork/Blue Health"},
+    [119001] = {"@6-3b/Start Forward/LF1"},
+    [119002] = {"@6-3b/Start Forward/LF1"},
+    [119003] = {"@6-3b/Start Dead End/Mag 60"},
+    [119004] = {"@6-3b/Start Dead End/Blue Health"},
+    [119005] = {"@6-3b/Start Dead End/Blue Health"},
+    [119006] = {"@6-3b/Start Right Fork/LF1"},
+    [119007] = {"@6-3b/Start Right Fork/LF1"},
+    [119008] = {"@6-3b/Leap of Faith/Leap Over Pit/LF1"},
+    [119009] = {"@6-3b/Leap of Faith/Leap Over Pit/LF1"},
+    [119010] = {"@6-3b/Leap of Faith/Leap Over Pit/LF1"},
+    [119011] = {"@6-3b/Leap of Faith/Leap Over Pit/LF1"},
+    [119012] = {"@6-3b/Leap of Faith/Leap Over Pit/LF1"},
+    [119013] = {"@6-3b/Leap of Faith/Leap Over Pit/LF1"},
+    [119014] = {"@6-3b/Leap of Faith/Leap Over Pit/Silver Health"},
+    [119015] = {"@6-3b/Leap of Faith/Leap Over Pit/Silver Health"},
+    [119016] = {"@6-3b/Leap of Faith/Leap Over Pit/Silver Health"},
+    [119017] = {"@6-3b/Leap of Faith/Leap Over Pit/Silver Health"},
+    [119018] = {"@6-3b/Leap of Faith/Leap Over Pit/Silver Health"},
+    [119019] = {"@6-3b/Leap of Faith/Leap Over Pit/Silver Health"},
+    [119020] = {"@6-3b/Before Door/Cerebral Bore"},
+    [119021] = {"@6-3b/Left Below Catwalks/LF10"},
+    [119022] = {"@6-3b/Left Below Catwalks/LF10"},
+    [119023] = {"@6-3b/Right Below Catwalks/LF10"},
+    [119024] = {"@6-3b/Right Below Catwalks/LF10"},
+    [119025] = {"@6-3b/Up Left Stairs/Silver Health"},
+    [119026] = {"@6-3b/Up Right Stairs/Silver Health"},
+    [119027] = {"@6-3b/Up Left Stairs/Blue Health"},
+    [119028] = {"@6-3b/Up Right Stairs/Blue Health"},
+    [119029] = {"@6-3b/Right Timed Room/Tek Arrows"},
+    [119030] = {"@6-3b/Right Timed Room/Ion Capacitor"},
+    [119031] = {"@6-3b/Left Timed Room/Tek Arrows"},
+    [119032] = {"@6-3b/Left Timed Room/Ion Capacitor"},
+    [119033] = {"@6-3b/After Timed Doors/LF1"},
+    [119034] = {"@6-3b/After Timed Doors/LF1"},
+    [119035] = {"@6-3b/Generator Back/LF10"},
+    [119036] = {"@6-3b/Generator Back/LF10"},
+    [119037] = {"@6-3b/Generator Back/Blue Health"},
+    [119038] = {"@6-3b/Generator Back/Blue Health"},
+    [119039] = {"@6-3b/Generator/Green Capacitor"},
+    [119040] = {"@6-3b/Generator/Green Capacitor"},
+    [119041] = {"@6-3b/Generator/Green Capacitor"},
+    [119042] = {"@6-3b/Generator/Green Capacitor"},
+    [119043] = {"@6-3b/Leap of Faith/Primagen Key Switch/Switch"},
+    [119044] = {"@6-3b/Timed Door Room/Switch"},
+    [119045] = {"@6-3b/Right Timed Room/Timed Door Switch"},
+    [119046] = {"@6-3b/Left Timed Room/Switch"},
+    [119047] = {"@6-3b/After Timed Doors/Switch"},
+    [119048] = {"@6-3b/Generator/Recalibrate Generator"},
+    [119049] = {"@6-3b/At Exit Portal/Switch"},
+    [119050] = {"@6-3b/Enemy at Start Forward/Bio-Bot"},
+    [119051] = {"@6-3b/Enemy at Start Right Fork/Bio-Bot"},
+    [119052] = {"@6-3b/Snipable Across Leap of Faith/Elite Guard"},
+    [119053] = {"@6-3b/Enemy Spawned at Door/Bio-Bot"},
+    [119054] = {"@6-3b/Enemy by Entrance/Trooper"},
+    [119055] = {"@6-3b/Enemy by Entrance/Bio-Bot"},
+    [119056] = {"@6-3b/Enemy up Left Stairs/Trooper"},
+    [119057] = {"@6-3b/Enemy in Right Timed Room/Elite Guard"},
+    [119058] = {"@6-3b/Enemy in Left Timed Room/Elite Guard"},
+    [119059] = {"@6-3b/Enemy After Timed Doors/Trooper"},
+    [119060] = {"@6-3b/Enemy Behind Generator/Elite Guard"}
 }
 
 LOCATIONS_6_4a = {
