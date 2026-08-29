@@ -199,8 +199,7 @@
     "name": "3-2",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-2.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_3/3-2.png"
   },
   {
     "name": "3-3",
