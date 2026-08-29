@@ -8,11 +8,510 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "In Back Left Room",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|121000|121001|121002|121003"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|121004|121005"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Left Bio-Bot",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Right Bio-Bot",
+                "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Room",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|121008|121009|121010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Room Hall",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|121011|121012|121013"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Hall",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|121014|121015|121016"
+                        ]
+                    },
+                    {
+                        "name": "Timed Door Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121033"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Hall",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|121017|121018|121019"
+                        ]
+                    },
+                    {
+                        "name": "Explosive Shells Behind Bio-Bot",
+                        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121020"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121034"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Before Left Elevator",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|121021|121022|121023"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Top Left Console",
+                "sections": [
+                    {
+                        "name": "Bores",
+                        "chest_unopened_img": "images/items/ammo/bores.png",
+                        "chest_opened_img": "images/items/ammo/bores_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|121024|121025"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121026"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121035"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Above Central Elevator",
+                "chest_unopened_img": "images/items/mission/ion_capacitor.png",
+                "chest_opened_img": "images/items/mission/ion_capacitor_bw.png",
+                "sections": [
+                    {
+                        "name": "Ion Capacitor",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121027"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Top Right Console",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|121028|121029"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121030"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121036"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Wall by Talisman Portal",
+                "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Explosive Shells After Being Near Talisman Portal",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121031"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Top Right",
+                "sections": [
+                    {
+                        "name": "Destroy Assembly Plant",
+                        "chest_unopened_img": "images/interactables/assembly_plant.png",
+                        "chest_opened_img": "images/interactables/assembly_plant_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121037"
+                        ]
+                    },
+                    {
+                        "name": "Talisman Portal Switch",
+                        "chest_unopened_img": "images/interactables/switch_portal.png",
+                        "chest_opened_img": "images/interactables/switch_portal_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121038"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Exit Portal",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121039"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Talisman",
+                "chest_unopened_img": "images/items/talismans/eye_of_truth.png",
+                "chest_opened_img": "images/items/talismans/eye_of_truth_bw.png",
+                "access_rules": [
+                    "level_6_eagle_feather"
+                ],
+                "sections": [
+                    {
+                        "name": "Eye of Truth",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|77000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Back Left Room",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot After Switch",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|121040|121041"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Room",
+                "chest_unopened_img": "images/enemies/elite_guard.png",
+                "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Elite Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121042"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Awoken From Switch",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121043"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Top Right Console",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121044"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Talisman Portal",
+                "sections": [
+                    {
+                        "name": "Bio-Bot Awoken From Standing Here",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|121045"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4b",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }

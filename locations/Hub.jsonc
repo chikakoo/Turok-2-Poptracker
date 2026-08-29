@@ -11268,8 +11268,100 @@
         "name": "6-4a",
         "sections": [
           {
-            "ref": "6-4a/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "6-4a/At Start/Firestorm Cannon",
+            "name": "[Firestorm Cannon] At Start"
+          },
+          {
+            "ref": "6-4a/At Start Left Corner/LF10",
+            "name": "[LF10] At Start Left Corner"
+          },
+          {
+            "ref": "6-4a/At Start Right Corner/LF10",
+            "name": "[LF10] At Start Right Corner"
+          },
+          {
+            "ref": "6-4a/Behind Bio-Bot/Explosive Shells",
+            "name": "[Explosive Shells] Behind Bio-Bot"
+          },
+          {
+            "ref": "6-4a/Left Room by Stairs/Clip",
+            "name": "[Clip] Left Room by Stairs"
+          },
+          {
+            "ref": "6-4a/Left Room Upstairs/Blue Health",
+            "name": "[Blue Health] Left Room Upstairs"
+          },
+          {
+            "ref": "6-4a/Right Room by Stairs/Shells",
+            "name": "[Shells] Right Room by Stairs"
+          },
+          {
+            "ref": "6-4a/Right Room Upstairs/Silver Health",
+            "name": "[Silver Health] Right Room Upstairs"
+          },
+          {
+            "ref": "6-4a/Right Room Upstairs/Blue Health",
+            "name": "[Blue Health] Right Room Upstairs"
+          },
+          {
+            "ref": "6-4a/In Left Corner/LF1",
+            "name": "[LF1] In Left Corner"
+          },
+          {
+            "ref": "6-4a/In Right Corner/LF1",
+            "name": "[LF1] In Right Corner"
+          },
+          {
+            "ref": "6-4a/By Consoles/Ion Capacitor",
+            "name": "[Ion Capacitor] By Consoles"
+          },
+          {
+            "ref": "6-4a/By Consoles/Switch",
+            "name": "[Switch] By Consoles"
+          },
+          {
+            "ref": "6-4a/By Exit Portal/Switch",
+            "name": "[Switch] By Exit Portal"
+          },
+          {
+            "ref": "6-4a/Enemy at Start/Trooper",
+            "name": "[Trooper] Enemy at Start"
+          },
+          {
+            "ref": "6-4a/Enemy on Upper Left Alcove/Trooper",
+            "name": "[Trooper] Enemy on Upper Left Alcove"
+          },
+          {
+            "ref": "6-4a/Enemy in Left Hall/Bio-Bot",
+            "name": "[Bio-Bot] Enemy in Left Hall"
+          },
+          {
+            "ref": "6-4a/Enemy in Left Room/Elite Guard",
+            "name": "[Elite Guard] Enemy in Left Room"
+          },
+          {
+            "ref": "6-4a/Enemy on Upper Right Alcove/Trooper",
+            "name": "[Trooper] Enemy on Upper Right Alcove"
+          },
+          {
+            "ref": "6-4a/Enemy in Right Room Upstairs/Bio-Bot",
+            "name": "[Bio-Bot] Enemy in Right Room Upstairs"
+          },
+          {
+            "ref": "6-4a/Enemy by Consoles/Trooper",
+            "name": "[Trooper] Enemy by Consoles"
+          },
+          {
+            "ref": "6-4a/After 6-4d/Enemy in Left Room Upstairs/Bio-Bot After 6-4d",
+            "name": "[Bio-Bot After 6-4d] After 6-4d/Enemy in Left Room Upstairs"
+          },
+          {
+            "ref": "6-4a/After 6-4d/Enemy in Back Room/Elite Guard After 6-4d",
+            "name": "[Elite Guard After 6-4d] After 6-4d/Enemy in Back Room"
+          },
+          {
+            "ref": "6-4a/After 6-4d/Enemy at Start/Trooper After 6-4d",
+            "name": "[Trooper After 6-4d] After 6-4d/Enemy at Start"
           }
         ],
         "map_locations": [
@@ -11284,8 +11376,124 @@
         "name": "6-4b",
         "sections": [
           {
-            "ref": "6-4b/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "6-4b/In Back Left Room/LF1",
+            "name": "[LF1] In Back Left Room"
+          },
+          {
+            "ref": "6-4b/In Back Left Room/LF10",
+            "name": "[LF10] In Back Left Room"
+          },
+          {
+            "ref": "6-4b/In Back Left Room/Switch",
+            "name": "[Switch] In Back Left Room"
+          },
+          {
+            "ref": "6-4b/Behind Left Bio-Bot/Explosive Shells",
+            "name": "[Explosive Shells] Behind Left Bio-Bot"
+          },
+          {
+            "ref": "6-4b/Behind Right Bio-Bot/Explosive Shells",
+            "name": "[Explosive Shells] Behind Right Bio-Bot"
+          },
+          {
+            "ref": "6-4b/Right Room/Blue Health",
+            "name": "[Blue Health] Right Room"
+          },
+          {
+            "ref": "6-4b/Right Room Hall/LF1",
+            "name": "[LF1] Right Room Hall"
+          },
+          {
+            "ref": "6-4b/Right Hall/Silver Health",
+            "name": "[Silver Health] Right Hall"
+          },
+          {
+            "ref": "6-4b/Right Hall/Timed Door Switch",
+            "name": "[Timed Door Switch] Right Hall"
+          },
+          {
+            "ref": "6-4b/Left Hall/Silver Health",
+            "name": "[Silver Health] Left Hall"
+          },
+          {
+            "ref": "6-4b/Left Hall/Explosive Shells Behind Bio-Bot",
+            "name": "[Explosive Shells Behind Bio-Bot] Left Hall"
+          },
+          {
+            "ref": "6-4b/Left Hall/Switch",
+            "name": "[Switch] Left Hall"
+          },
+          {
+            "ref": "6-4b/Before Left Elevator/LF1",
+            "name": "[LF1] Before Left Elevator"
+          },
+          {
+            "ref": "6-4b/Top Left Console/Bores",
+            "name": "[Bores] Top Left Console"
+          },
+          {
+            "ref": "6-4b/Top Left Console/Blue Health",
+            "name": "[Blue Health] Top Left Console"
+          },
+          {
+            "ref": "6-4b/Top Left Console/Switch",
+            "name": "[Switch] Top Left Console"
+          },
+          {
+            "ref": "6-4b/Above Central Elevator/Ion Capacitor",
+            "name": "[Ion Capacitor] Above Central Elevator"
+          },
+          {
+            "ref": "6-4b/Top Right Console/Silver Health",
+            "name": "[Silver Health] Top Right Console"
+          },
+          {
+            "ref": "6-4b/Top Right Console/LF10",
+            "name": "[LF10] Top Right Console"
+          },
+          {
+            "ref": "6-4b/Top Right Console/Switch",
+            "name": "[Switch] Top Right Console"
+          },
+          {
+            "ref": "6-4b/In Wall by Talisman Portal/Explosive Shells After Being Near Talisman Portal",
+            "name": "[Explosive Shells After Being Near Talisman Portal] In Wall by Talisman Portal"
+          },
+          {
+            "ref": "6-4b/Top Right/Destroy Assembly Plant",
+            "name": "[Destroy Assembly Plant] Top Right"
+          },
+          {
+            "ref": "6-4b/Top Right/Talisman Portal Switch",
+            "name": "[Talisman Portal Switch] Top Right"
+          },
+          {
+            "ref": "6-4b/At Exit Portal/Switch",
+            "name": "[Switch] At Exit Portal"
+          },
+          {
+            "ref": "6-4b/Talisman/Eye of Truth",
+            "name": "[Eye of Truth] Talisman"
+          },
+          {
+            "ref": "6-4b/Enemy in Back Left Room/Bio-Bot After Switch",
+            "name": "[Bio-Bot After Switch] Enemy in Back Left Room"
+          },
+          {
+            "ref": "6-4b/Enemy in Right Room/Elite Guard",
+            "name": "[Elite Guard] Enemy in Right Room"
+          },
+          {
+            "ref": "6-4b/Enemy Awoken From Switch/Bio-Bot",
+            "name": "[Bio-Bot] Enemy Awoken From Switch"
+          },
+          {
+            "ref": "6-4b/Enemy by Top Right Console/Trooper",
+            "name": "[Trooper] Enemy by Top Right Console"
+          },
+          {
+            "ref": "6-4b/Enemy by Talisman Portal/Bio-Bot Awoken From Standing Here",
+            "name": "[Bio-Bot Awoken From Standing Here] Enemy by Talisman Portal"
           }
         ],
         "map_locations": [

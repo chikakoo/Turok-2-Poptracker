@@ -8,11 +8,496 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Start",
+                "chest_unopened_img": "images/items/weapons_small/firestorm_cannon.png",
+                "chest_opened_img": "images/items/weapons_small/firestorm_cannon_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Firestorm Cannon",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Start Left Corner",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120001"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Start Right Corner",
+                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                "sections": [
+                    {
+                        "name": "LF10",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120002"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Behind Bio-Bot",
+                "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Room by Stairs",
+                "chest_unopened_img": "images/items/ammo/clip.png",
+                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                "sections": [
+                    {
+                        "name": "Clip",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Room Upstairs",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|120005|120006"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Room by Stairs",
+                "chest_unopened_img": "images/items/ammo/shells.png",
+                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Shells",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|120007|120008"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Right Room Upstairs",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "chest_unopened_img": "images/items/health/silver_health.png",
+                        "chest_opened_img": "images/items/health/silver_health_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120009"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|120010|120011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Left Corner",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|120012|120013"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Right Corner",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|120014|120015"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Consoles",
+                "sections": [
+                    {
+                        "name": "Ion Capacitor",
+                        "chest_unopened_img": "images/items/mission/ion_capacitor.png",
+                        "chest_opened_img": "images/items/mission/ion_capacitor_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120016"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|120017|120018"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Exit Portal",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120019"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Start",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|120020|120021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Upper Left Alcove",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120022"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Hall",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120023"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Left Room",
+                "chest_unopened_img": "images/enemies/elite_guard.png",
+                "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Elite Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120024"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Upper Right Alcove",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120025"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Right Room Upstairs",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|120026"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Consoles",
+                "chest_unopened_img": "images/enemies/trooper.png",
+                "chest_opened_img": "images/enemies/trooper_bw.png",
+                "sections": [
+                    {
+                        "name": "Trooper",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|120027|120028"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4a",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "After 6-4d",
+                "access_rules": [
+                    "$map_access|6|13|mid"
+                ],
+                "children": [
+                    {
+                        "name": "Enemy in Left Room Upstairs",
+                        "chest_unopened_img": "images/enemies/bio_bot.png",
+                        "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                        "sections": [
+                            {
+                                "name": "Bio-Bot After 6-4d",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|120029"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Back Room",
+                        "chest_unopened_img": "images/enemies/elite_guard.png",
+                        "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                        "sections": [
+                            {
+                                "name": "Elite Guard After 6-4d",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|120030"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4a",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy at Start",
+                        "chest_unopened_img": "images/enemies/trooper.png",
+                        "chest_opened_img": "images/enemies/trooper_bw.png",
+                        "sections": [
+                            {
+                                "name": "Trooper After 6-4d",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|120031"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4a",
+                                "shape": "diamond",
+                                "x": 25,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }
