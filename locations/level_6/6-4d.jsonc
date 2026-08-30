@@ -8,11 +8,567 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "At Start",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "LF1",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|123000|123001|123002|123003"
+                        ]
+                    },
+                    {
+                        "name": "LF10",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|123004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4d",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "In Starting Hall",
+                "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                "sections": [
+                    {
+                        "name": "Explosive Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|123005"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4d",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Fork",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|123006|123007|123008|123009"
+                        ]
+                    },
+                    {
+                        "name": "P.F.M. Layer",
+                        "chest_unopened_img": "images/items/weapons_small/pfm_layer.png",
+                        "chest_opened_img": "images/items/weapons_small/pfm_layer_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|123010"
+                        ]
+                    },
+                    {
+                        "name": "Red Laser Cell",
+                        "chest_unopened_img": "images/items/mission/red_laser_cell.png",
+                        "chest_opened_img": "images/items/mission/red_laser_cell_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|123011|123012"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4d",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Fork Start",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|123013|123014|123015"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4d",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Fork Console",
+                "sections": [
+                    {
+                        "name": "LF1",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|123016|123017|123018"
+                        ]
+                    },
+                    {
+                        "name": "Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|123046"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4d",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Fork End Center",
+                "sections": [
+                    {
+                        "name": "Blue Laser Cell",
+                        "chest_unopened_img": "images/items/mission/blue_laser_cell.png",
+                        "chest_opened_img": "images/items/mission/blue_laser_cell_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|123019|123020"
+                        ]
+                    },
+                    {
+                        "name": "Destroy Assembly Plant",
+                        "chest_unopened_img": "images/interactables/assembly_plant.png",
+                        "chest_opened_img": "images/interactables/assembly_plant_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|123047"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4d",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Fork End Left",
+                "chest_unopened_img": "images/items/ammo/box_of_grenades.png",
+                "chest_opened_img": "images/items/ammo/box_of_grenades_bw.png",
+                "sections": [
+                    {
+                        "name": "Box of Grenades",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|123021"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4d",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Left Fork End Right",
+                "sections": [
+                    {
+                        "name": "Box of Shells",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|123022"
+                        ]
+                    },
+                    {
+                        "name": "Box of Bullets",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|123023"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4d",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "By Exit Portal",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|123051"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4d",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Start",
+                "chest_unopened_img": "images/enemies/elite_guard.png",
+                "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Elite Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|123052"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4d",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Generator",
+                "access_rules": [
+                    "blue_laser_cell:2"
+                ],
+                "children": [
+                    {
+                        "name": "Behind Lasers",
+                        "sections": [
+                            {
+                                "name": "Ion Capacitor",
+                                "chest_unopened_img": "images/items/mission/ion_capacitor.png",
+                                "chest_opened_img": "images/items/mission/ion_capacitor_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|123024"
+                                ]
+                            },
+                            {
+                                "name": "Full Health",
+                                "chest_unopened_img": "images/items/health/full_health.png",
+                                "chest_opened_img": "images/items/health/full_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|123025"
+                                ]
+                            },
+                            {
+                                "name": "Oblivion Portal Switch",
+                                "chest_unopened_img": "images/interactables/switch_portal.png",
+                                "chest_opened_img": "images/interactables/switch_portal_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|123048"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4d",
+                                "x": 25,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Hall",
+                        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                        "sections": [
+                            {
+                                "name": "Explosive Shells",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|123026"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4d",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Generator Left",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|123027|123028"
+                                ]
+                            },
+                            {
+                                "name": "Red Laser Cell",
+                                "chest_unopened_img": "images/items/mission/red_laser_cell.png",
+                                "chest_opened_img": "images/items/mission/red_laser_cell_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|123031"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4d",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Generator Right",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|123029|123030"
+                                ]
+                            },
+                            {
+                                "name": "Red Laser Cell",
+                                "chest_unopened_img": "images/items/mission/red_laser_cell.png",
+                                "chest_opened_img": "images/items/mission/red_laser_cell_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|123032"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4d",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Generator",
+                        "sections": [
+                            {
+                                "name": "Green Capacitor",
+                                "chest_unopened_img": "images/items/mission/green_capacitor.png",
+                                "chest_opened_img": "images/items/mission/green_capacitor_bw.png",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|123033|123034|123035|123036"
+                                ]
+                            },
+                            {
+                                "name": "Recalibrate Generator",
+                                "chest_unopened_img": "images/interactables/power_generator.png",
+                                "chest_opened_img": "images/interactables/power_generator_bw.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "^$can_place_all_ion_capacitors"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|123049"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4d",
+                                "x": 50,
+                                "y": 25
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Generator",
+                        "chest_unopened_img": "images/enemies/elite_guard.png",
+                        "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                        "sections": [
+                            {
+                                "name": "Elite Guard",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|123053"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4d",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "In River",
+                "access_rules": [
+                    "blue_laser_cell:2,breath_of_life"
+                ],
+                "children": [
+                    {
+                        "name": "In River Right",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|123037|123038|123039"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4d",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In River Left",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|123040|123041|123042"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4d",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In River Back",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|123043"
+                                ]
+                            },
+                            {
+                                "name": "Silver Health",
+                                "chest_unopened_img": "images/items/health/silver_health.png",
+                                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|123044|123045"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4d",
+                                "x": 55,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Primagen Key Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "sections": [
+                            {
+                                "name": "Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|123050"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4d",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy Behind Generator",
+                        "chest_unopened_img": "images/enemies/elite_guard.png",
+                        "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                        "sections": [
+                            {
+                                "name": "Elite Guard",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|123054"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-4d",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }

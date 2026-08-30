@@ -11508,8 +11508,76 @@
         "name": "6-4c",
         "sections": [
           {
-            "ref": "6-4c/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "6-4c/Behind Bio-Bot/Explosive Shells",
+            "name": "[Explosive Shells] Behind Bio-Bot"
+          },
+          {
+            "ref": "6-4c/First Corner/Silver Health",
+            "name": "[Silver Health] First Corner"
+          },
+          {
+            "ref": "6-4c/First Hall/Bores",
+            "name": "[Bores] First Hall"
+          },
+          {
+            "ref": "6-4c/Second Corner/Silver Health",
+            "name": "[Silver Health] Second Corner"
+          },
+          {
+            "ref": "6-4c/Third Corner/Silver Health",
+            "name": "[Silver Health] Third Corner"
+          },
+          {
+            "ref": "6-4c/Third Hall/Bores",
+            "name": "[Bores] Third Hall"
+          },
+          {
+            "ref": "6-4c/Fourth Corner/Silver Health",
+            "name": "[Silver Health] Fourth Corner"
+          },
+          {
+            "ref": "6-4c/Path End/Ion Capacitor",
+            "name": "[Ion Capacitor] Path End"
+          },
+          {
+            "ref": "6-4c/Path End/Blue Health",
+            "name": "[Blue Health] Path End"
+          },
+          {
+            "ref": "6-4c/Path End/Eagle Feather",
+            "name": "[Eagle Feather] Path End"
+          },
+          {
+            "ref": "6-4c/Path End/Destroy Assembly Plant",
+            "name": "[Destroy Assembly Plant] Path End"
+          },
+          {
+            "ref": "6-4c/At Stairs/Silver Health",
+            "name": "[Silver Health] At Stairs"
+          },
+          {
+            "ref": "6-4c/Downstairs/Blue Laser Cell",
+            "name": "[Blue Laser Cell] Downstairs"
+          },
+          {
+            "ref": "6-4c/At Exit Portal/Switch",
+            "name": "[Switch] At Exit Portal"
+          },
+          {
+            "ref": "6-4c/Enemy at Start/Bio-Bot",
+            "name": "[Bio-Bot] Enemy at Start"
+          },
+          {
+            "ref": "6-4c/Enemy in Second Hall/Elite Guard",
+            "name": "[Elite Guard] Enemy in Second Hall"
+          },
+          {
+            "ref": "6-4c/Enemy at Path End/Elite Guard",
+            "name": "[Elite Guard] Enemy at Path End"
+          },
+          {
+            "ref": "6-4c/Enemy Spawned From Destroying Assembly Plant/Bio-Bot",
+            "name": "[Bio-Bot] Enemy Spawned From Destroying Assembly Plant"
           }
         ],
         "map_locations": [
@@ -11524,8 +11592,136 @@
         "name": "6-4d",
         "sections": [
           {
-            "ref": "6-4d/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "6-4d/At Start/LF1",
+            "name": "[LF1] At Start"
+          },
+          {
+            "ref": "6-4d/At Start/LF10",
+            "name": "[LF10] At Start"
+          },
+          {
+            "ref": "6-4d/In Starting Hall/Explosive Shells",
+            "name": "[Explosive Shells] In Starting Hall"
+          },
+          {
+            "ref": "6-4d/At Fork/Blue Health",
+            "name": "[Blue Health] At Fork"
+          },
+          {
+            "ref": "6-4d/At Fork/P.F.M. Layer",
+            "name": "[P.F.M. Layer] At Fork"
+          },
+          {
+            "ref": "6-4d/At Fork/Red Laser Cell",
+            "name": "[Red Laser Cell] At Fork"
+          },
+          {
+            "ref": "6-4d/Left Fork Start/LF1",
+            "name": "[LF1] Left Fork Start"
+          },
+          {
+            "ref": "6-4d/Left Fork Console/LF1",
+            "name": "[LF1] Left Fork Console"
+          },
+          {
+            "ref": "6-4d/Left Fork Console/Switch",
+            "name": "[Switch] Left Fork Console"
+          },
+          {
+            "ref": "6-4d/Left Fork End Center/Blue Laser Cell",
+            "name": "[Blue Laser Cell] Left Fork End Center"
+          },
+          {
+            "ref": "6-4d/Left Fork End Center/Destroy Assembly Plant",
+            "name": "[Destroy Assembly Plant] Left Fork End Center"
+          },
+          {
+            "ref": "6-4d/Left Fork End Left/Box of Grenades",
+            "name": "[Box of Grenades] Left Fork End Left"
+          },
+          {
+            "ref": "6-4d/Left Fork End Right/Box of Shells",
+            "name": "[Box of Shells] Left Fork End Right"
+          },
+          {
+            "ref": "6-4d/Left Fork End Right/Box of Bullets",
+            "name": "[Box of Bullets] Left Fork End Right"
+          },
+          {
+            "ref": "6-4d/By Exit Portal/Switch",
+            "name": "[Switch] By Exit Portal"
+          },
+          {
+            "ref": "6-4d/Enemy at Start/Elite Guard",
+            "name": "[Elite Guard] Enemy at Start"
+          },
+          {
+            "ref": "6-4d/Generator/Behind Lasers/Ion Capacitor",
+            "name": "[Ion Capacitor] Generator/Behind Lasers"
+          },
+          {
+            "ref": "6-4d/Generator/Behind Lasers/Full Health",
+            "name": "[Full Health] Generator/Behind Lasers"
+          },
+          {
+            "ref": "6-4d/Generator/Behind Lasers/Oblivion Portal Switch",
+            "name": "[Oblivion Portal Switch] Generator/Behind Lasers"
+          },
+          {
+            "ref": "6-4d/Generator/In Hall/Explosive Shells",
+            "name": "[Explosive Shells] Generator/In Hall"
+          },
+          {
+            "ref": "6-4d/Generator/Generator Left/LF10",
+            "name": "[LF10] Generator/Generator Left"
+          },
+          {
+            "ref": "6-4d/Generator/Generator Left/Red Laser Cell",
+            "name": "[Red Laser Cell] Generator/Generator Left"
+          },
+          {
+            "ref": "6-4d/Generator/Generator Right/LF10",
+            "name": "[LF10] Generator/Generator Right"
+          },
+          {
+            "ref": "6-4d/Generator/Generator Right/Red Laser Cell",
+            "name": "[Red Laser Cell] Generator/Generator Right"
+          },
+          {
+            "ref": "6-4d/Generator/Generator/Green Capacitor",
+            "name": "[Green Capacitor] Generator/Generator"
+          },
+          {
+            "ref": "6-4d/Generator/Generator/Recalibrate Generator",
+            "name": "[Recalibrate Generator] Generator/Generator"
+          },
+          {
+            "ref": "6-4d/Generator/Enemy by Generator/Elite Guard",
+            "name": "[Elite Guard] Generator/Enemy by Generator"
+          },
+          {
+            "ref": "6-4d/In River/In River Right/Blue Health",
+            "name": "[Blue Health] In River/In River Right"
+          },
+          {
+            "ref": "6-4d/In River/In River Left/Blue Health",
+            "name": "[Blue Health] In River/In River Left"
+          },
+          {
+            "ref": "6-4d/In River/In River Back/Blue Health",
+            "name": "[Blue Health] In River/In River Back"
+          },
+          {
+            "ref": "6-4d/In River/In River Back/Silver Health",
+            "name": "[Silver Health] In River/In River Back"
+          },
+          {
+            "ref": "6-4d/In River/Primagen Key Switch/Switch",
+            "name": "[Switch] In River/Primagen Key Switch"
+          },
+          {
+            "ref": "6-4d/In River/Enemy Behind Generator/Elite Guard",
+            "name": "[Elite Guard] In River/Enemy Behind Generator"
           }
         ],
         "map_locations": [

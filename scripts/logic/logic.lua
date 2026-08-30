@@ -435,8 +435,8 @@ function get_unused_ion_capacitors()
     local generator_locations = {
         "@6-1/Generator/Recalibrate Generator",
         "@6-2b/Generator/Recalibrate Generator",
-        "@6-3b/Generator/Recalibrate Generator"--,
-        --""
+        "@6-3b/Generator/Recalibrate Generator",
+        "@6-4d/Generator/Generator/Recalibrate Generator"
     }
 
     local used_items = 0

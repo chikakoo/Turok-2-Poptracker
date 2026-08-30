@@ -8,11 +8,344 @@
         ],
         "children": [
             {
-                "name": "TEMP",
+                "name": "Behind Bio-Bot",
+                "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
                 "sections": [
                     {
-                        "name": "DELETE ME",
-                        "item_count": 1
+                        "name": "Explosive Shells",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|122000"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "First Corner",
+                "chest_unopened_img": "images/items/health/ultra_health.png",
+                "chest_opened_img": "images/items/health/ultra_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|122001|122002|122003"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "First Hall",
+                "chest_unopened_img": "images/items/ammo/bores.png",
+                "chest_opened_img": "images/items/ammo/bores_bw.png",
+                "sections": [
+                    {
+                        "name": "Bores",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|122004"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Second Corner",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|122005|122006|122007"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Third Corner",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|122008|122009|122010"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Third Hall",
+                "chest_unopened_img": "images/items/ammo/bores.png",
+                "chest_opened_img": "images/items/ammo/bores_bw.png",
+                "sections": [
+                    {
+                        "name": "Bores",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|122011"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Fourth Corner",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 4,
+                        "visibility_rules": [
+                            "$id_exists|122012|122013|122014|122015"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Path End",
+                "sections": [
+                    {
+                        "name": "Ion Capacitor",
+                        "chest_unopened_img": "images/items/mission/ion_capacitor.png",
+                        "chest_opened_img": "images/items/mission/ion_capacitor_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|122016"
+                        ]
+                    },
+                    {
+                        "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|122017|122018"
+                        ]
+                    },
+                    {
+                        "name": "Eagle Feather",
+                        "chest_unopened_img": "images/items/talismans/level_6_eagle_feather.png",
+                        "chest_opened_img": "images/items/talismans/level_6_eagle_feather_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|122019"
+                        ]
+                    },
+                    {
+                        "name": "Destroy Assembly Plant",
+                        "chest_unopened_img": "images/interactables/assembly_plant.png",
+                        "chest_opened_img": "images/interactables/assembly_plant_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|122027"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Stairs",
+                "chest_unopened_img": "images/items/health/silver_health.png",
+                "chest_opened_img": "images/items/health/silver_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Silver Health",
+                        "item_count": 5,
+                        "visibility_rules": [
+                            "$id_exists|122020|122021|122022|122023|122024"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Downstairs",
+                "chest_unopened_img": "images/items/mission/blue_laser_cell.png",
+                "chest_opened_img": "images/items/mission/blue_laser_cell_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Laser Cell",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|122025|122026"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "At Exit Portal",
+                "chest_unopened_img": "images/interactables/switch_console.png",
+                "chest_opened_img": "images/interactables/switch_console_bw.png",
+                "sections": [
+                    {
+                        "name": "Switch",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|122028"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Start",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|122029"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Second Hall",
+                "chest_unopened_img": "images/enemies/elite_guard.png",
+                "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Elite Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|122030"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Path End",
+                "chest_unopened_img": "images/enemies/elite_guard.png",
+                "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                "sections": [
+                    {
+                        "name": "Elite Guard",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|122031"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Spawned From Destroying Assembly Plant",
+                "chest_unopened_img": "images/enemies/bio_bot.png",
+                "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                "sections": [
+                    {
+                        "name": "Bio-Bot",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|122032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-4c",
+                        "x": 0,
+                        "y": 0
                     }
                 ]
             }
