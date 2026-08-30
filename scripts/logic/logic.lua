@@ -35,7 +35,7 @@ PROGRESSIVE_WEAPONS = {
 ION_CAPACITOR_ID = "115011"
 
 ---Checks whether the id of the given location exists as a location in the seed
----Accepts any number of args and returns the number of then that do exist
+---Accepts any number of args and returns the number that do exist
 function id_exists(...)
     if Archipelago.PlayerNumber == -1 then
         return true
@@ -431,7 +431,6 @@ end
 ---We can only know this from generators that are completed recalibrated,
 ---so it is possible that there are more than what this reports back
 function get_unused_ion_capacitors()
-    --TODO: fill this in with the missing location names
     local generator_locations = {
         "@6-1/Generator/Recalibrate Generator",
         "@6-2b/Generator/Recalibrate Generator",

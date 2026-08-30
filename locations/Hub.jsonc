@@ -11820,8 +11820,124 @@
         "name": "6-O",
         "sections": [
           {
-            "ref": "6-O/TEMP/DELETE ME",
-            "name": "[DELETE ME] TEMP"
+            "ref": "6-O/At End/Nuke Part",
+            "name": "[Nuke Part] At End"
+          },
+          {
+            "ref": "6-O/Start Left/Valve",
+            "name": "[Valve] Start Left"
+          },
+          {
+            "ref": "6-O/Start Right/Valve",
+            "name": "[Valve] Start Right"
+          },
+          {
+            "ref": "6-O/Up Left Elevator/Valve",
+            "name": "[Valve] Up Left Elevator"
+          },
+          {
+            "ref": "6-O/Up Right Elevator/Valve",
+            "name": "[Valve] Up Right Elevator"
+          },
+          {
+            "ref": "6-O/Left Room/Valve",
+            "name": "[Valve] Left Room"
+          },
+          {
+            "ref": "6-O/Right Room/Valve",
+            "name": "[Valve] Right Room"
+          },
+          {
+            "ref": "6-O/Enemy at Start/Sentinel",
+            "name": "[Sentinel] Enemy at Start"
+          },
+          {
+            "ref": "6-O/Enemy at Start/Death Guard",
+            "name": "[Death Guard] Enemy at Start"
+          },
+          {
+            "ref": "6-O/Enemy at Start Left Room/Sentinel",
+            "name": "[Sentinel] Enemy at Start Left Room"
+          },
+          {
+            "ref": "6-O/Enemy at Start Left Room/Death Guard",
+            "name": "[Death Guard] Enemy at Start Left Room"
+          },
+          {
+            "ref": "6-O/Enemy at Start Right Room/Sentinel",
+            "name": "[Sentinel] Enemy at Start Right Room"
+          },
+          {
+            "ref": "6-O/Enemy at Start Right Room/Death Guard",
+            "name": "[Death Guard] Enemy at Start Right Room"
+          },
+          {
+            "ref": "6-O/Enemy in Entrance Hall/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy in Entrance Hall"
+          },
+          {
+            "ref": "6-O/Enemy on Ground/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy on Ground"
+          },
+          {
+            "ref": "6-O/Enemy up Left Elevator/Death Guard",
+            "name": "[Death Guard] Enemy up Left Elevator"
+          },
+          {
+            "ref": "6-O/Enemy up Right Elevator/Death Guard",
+            "name": "[Death Guard] Enemy up Right Elevator"
+          },
+          {
+            "ref": "6-O/Enemy in Left Hall/Death Guard",
+            "name": "[Death Guard] Enemy in Left Hall"
+          },
+          {
+            "ref": "6-O/Enemy in Left Hall/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy in Left Hall"
+          },
+          {
+            "ref": "6-O/Enemy in Left Room/Sentinel",
+            "name": "[Sentinel] Enemy in Left Room"
+          },
+          {
+            "ref": "6-O/Enemy in Left Room/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy in Left Room"
+          },
+          {
+            "ref": "6-O/Enemy in Right Hall/Death Guard",
+            "name": "[Death Guard] Enemy in Right Hall"
+          },
+          {
+            "ref": "6-O/Enemy in Right Hall/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy in Right Hall"
+          },
+          {
+            "ref": "6-O/Enemy in Right Room/Sentinel",
+            "name": "[Sentinel] Enemy in Right Room"
+          },
+          {
+            "ref": "6-O/Enemy in Right Room/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy in Right Room"
+          },
+          {
+            "ref": "6-O/Enemy After Valves/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy After Valves"
+          },
+          {
+            "ref": "6-O/Enemy by Exit/Sentinel",
+            "name": "[Sentinel] Enemy by Exit"
+          },
+          {
+            "ref": "6-O/Enemy by Exit/Death Guard",
+            "name": "[Death Guard] Enemy by Exit"
+          },
+          {
+            "ref": "6-O/Enemy by Exit/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy by Exit"
+          },
+          {
+            "ref": "6-O/Enemy at Exit/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Enemy at Exit"
           }
         ],
         "map_locations": [
