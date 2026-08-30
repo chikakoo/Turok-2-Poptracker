@@ -365,6 +365,16 @@ end
 ---Contains json containing the tab to switch to
 ---@param json json containing the map and section used to switch tabs
 function OnBounce(json)
+    if not json then
+        return
+    end
+
+    -- Only switch tabs for the currently connected player
+    local slots = json["slots"]
+    if not slots or not (slots[1] == Archipelago.PlayerNumber and slots[2] == nil) then
+        return
+    end
+
     local data = json["data"]
     if data then
         if data["type"] == "MapUpdate" then
