@@ -10000,6 +10000,10 @@
             "name": "[Bio-Bot] Enemy by Wing 1 Turret"
           },
           {
+            "ref": "6-Hub/Press Primagen Key Switches in All Wings/Primagen Key",
+            "name": "[Primagen Key] Press Primagen Key Switches in All Wings"
+          },
+          {
             "ref": "6-Hub/Wing 2/After Wing 1 Hall/LF10",
             "name": "[LF10] Wing 2/After Wing 1 Hall"
           },
@@ -10122,6 +10126,86 @@
           {
             "ref": "6-Hub/Wing 4/Enemy at Wing 4 Mid/Trooper",
             "name": "[Trooper] Wing 4/Enemy at Wing 4 Mid"
+          },
+          {
+            "ref": "6-Hub/End/After Wing 4 Hall/Blue Health",
+            "name": "[Blue Health] End/After Wing 4 Hall"
+          },
+          {
+            "ref": "6-Hub/End/After Wing 4 Hall/Explosive Shells Behind Bio-Bot",
+            "name": "[Explosive Shells Behind Bio-Bot] End/After Wing 4 Hall"
+          },
+          {
+            "ref": "6-Hub/End/Before Wing 4 Platform/LF10",
+            "name": "[LF10] End/Before Wing 4 Platform"
+          },
+          {
+            "ref": "6-Hub/End/Ending Hall/War Blade",
+            "name": "[War Blade] End/Ending Hall"
+          },
+          {
+            "ref": "6-Hub/End/Ending Hall/Tek Bow",
+            "name": "[Tek Bow] End/Ending Hall"
+          },
+          {
+            "ref": "6-Hub/End/Ending Hall/Mag 60",
+            "name": "[Mag 60] End/Ending Hall"
+          },
+          {
+            "ref": "6-Hub/End/Ending Hall/Shredder",
+            "name": "[Shredder] End/Ending Hall"
+          },
+          {
+            "ref": "6-Hub/End/Ending Hall/Plasma Rifle",
+            "name": "[Plasma Rifle] End/Ending Hall"
+          },
+          {
+            "ref": "6-Hub/End/Ending Hall/Grenade Launcher",
+            "name": "[Grenade Launcher] End/Ending Hall"
+          },
+          {
+            "ref": "6-Hub/End/Ending Hall/Cerebral Bore",
+            "name": "[Cerebral Bore] End/Ending Hall"
+          },
+          {
+            "ref": "6-Hub/End/Ending Hall/Flame Thrower",
+            "name": "[Flame Thrower] End/Ending Hall"
+          },
+          {
+            "ref": "6-Hub/End/Ending Hall/Firestorm Cannon",
+            "name": "[Firestorm Cannon] End/Ending Hall"
+          },
+          {
+            "ref": "6-Hub/End/Ending Hall/P.F.M. Layer",
+            "name": "[P.F.M. Layer] End/Ending Hall"
+          },
+          {
+            "ref": "6-Hub/End/Ending Hall/Scorpion Launcher",
+            "name": "[Scorpion Launcher] End/Ending Hall"
+          },
+          {
+            "ref": "6-Hub/End/Wing 4 End/Switch",
+            "name": "[Switch] End/Wing 4 End"
+          },
+          {
+            "ref": "6-Hub/End/Enemy After Wing 4 Return/Elite Guard",
+            "name": "[Elite Guard] End/Enemy After Wing 4 Return"
+          },
+          {
+            "ref": "6-Hub/End/Enemy After Wing 4 Hall/Bio-Bot",
+            "name": "[Bio-Bot] End/Enemy After Wing 4 Hall"
+          },
+          {
+            "ref": "6-Hub/End/Enemy on Wing 4 Platform/Elite Guard",
+            "name": "[Elite Guard] End/Enemy on Wing 4 Platform"
+          },
+          {
+            "ref": "6-Hub/End/Enemy in Central Hub/Elite Guard After Wing 4",
+            "name": "[Elite Guard After Wing 4] End/Enemy in Central Hub"
+          },
+          {
+            "ref": "6-Hub/End/Enemy by Exit Hall/Elite Guard After Wing 4",
+            "name": "[Elite Guard After Wing 4] End/Enemy by Exit Hall"
           }
         ],
         "map_locations": [

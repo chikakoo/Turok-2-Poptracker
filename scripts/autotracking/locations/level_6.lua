@@ -77,9 +77,36 @@ LOCATIONS_6_Hub = {
     [114068] = {"@6-Hub/Wing 4/By Wing 4 Portal/Switch"},
     [114069] = {"@6-Hub/Wing 4/Enemy on Wing 3 Platform/Elite Guard"},
     [114070] = {"@6-Hub/Wing 4/Enemy at Wing 4 Start/Elite Guard"},
-    [114071] = {"@6-Hub/Wing 4/Enemy at Wing 4 Mid/Trooper"}
+    [114071] = {"@6-Hub/Wing 4/Enemy at Wing 4 Mid/Trooper"},
 
     -- End
+    [114072] = {"@6-Hub/End/After Wing 4 Hall/Blue Health"},
+    [114073] = {"@6-Hub/End/After Wing 4 Hall/Blue Health"},
+    [114074] = {"@6-Hub/End/After Wing 4 Hall/Blue Health"},
+    [114075] = {"@6-Hub/End/After Wing 4 Hall/Explosive Shells Behind Bio-Bot"},
+    [114076] = {"@6-Hub/End/After Wing 4 Hall/Explosive Shells Behind Bio-Bot"},
+    [114077] = {"@6-Hub/End/Before Wing 4 Platform/LF10"},
+    [114078] = {"@6-Hub/End/Before Wing 4 Platform/LF10"},
+    [114079] = {"@6-Hub/End/Before Wing 4 Platform/LF10"},
+    [114080] = {"@6-Hub/End/Ending Hall/War Blade"},
+    [114081] = {"@6-Hub/End/Ending Hall/Tek Bow"},
+    [114082] = {"@6-Hub/End/Ending Hall/Mag 60"},
+    [114083] = {"@6-Hub/End/Ending Hall/Shredder"},
+    [114084] = {"@6-Hub/End/Ending Hall/Plasma Rifle"},
+    [114085] = {"@6-Hub/End/Ending Hall/Grenade Launcher"},
+    [114086] = {"@6-Hub/End/Ending Hall/Cerebral Bore"},
+    [114087] = {"@6-Hub/End/Ending Hall/Flame Thrower"},
+    [114088] = {"@6-Hub/End/Ending Hall/Firestorm Cannon"},
+    [114089] = {"@6-Hub/End/Ending Hall/P.F.M. Layer"},
+    [114090] = {"@6-Hub/End/Ending Hall/Scorpion Launcher"},
+    [114091] = {"@6-Hub/End/Wing 4 End/Switch"},
+    [114092] = {"@6-Hub/End/Enemy After Wing 4 Return/Elite Guard"},
+    [114093] = {"@6-Hub/End/Enemy After Wing 4 Hall/Bio-Bot"},
+    [114094] = {"@6-Hub/End/Enemy After Wing 4 Hall/Bio-Bot"},
+    [114095] = {"@6-Hub/End/Enemy on Wing 4 Platform/Elite Guard"},
+    [114096] = {"@6-Hub/End/Enemy in Central Hub/Elite Guard After Wing 4"},
+    [114097] = {"@6-Hub/End/Enemy by Exit Hall/Elite Guard After Wing 4"},
+    [114098] = {"@6-Hub/Press Primagen Key Switches in All Wings/Primagen Key"},
 }
 
 LOCATIONS_6_1 = {

@@ -1171,6 +1171,8 @@
                 "children": [
                     {
                         "name": "Primagen Key Switch",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
                         "sections": [
                             {
                                 "name": "Switch",

@@ -428,6 +428,30 @@
                 ]
             },
             {
+                "name": "Press Primagen Key Switches in All Wings",
+                "chest_unopened_img": "images/items/keys/level_6_key.png",
+                "chest_opened_img": "images/items/keys/level_6_key_bw.png",
+                "access_rules": [
+                    "$map_access|6|12|mid,^$can_get_l6_primagen_key"
+                ],
+                "sections": [
+                    {
+                        "name": "Primagen Key",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|114098"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "6-Hub",
+                        "x": 100,
+                        "y": 25
+                    }
+                ]
+            },
+            {
                 "name": "Wing 2",
                 "access_rules": [
                     "$map_access|6|2|start"
@@ -991,16 +1015,308 @@
                         ]
                     }
                 ]
-            } //,
-            // {
-            //     "name": "End",
-            //     "access_rules": [
-            //         "$map_access|6|13|mid"
-            //     ],
-            //     "children": [
-            //         {}
-            //     ]
-            // }
+            },
+            {
+                "name": "End",
+                "access_rules": [
+                    "$map_access|6|13|mid"
+                ],
+                "children": [
+                    {
+                        "name": "After Wing 4 Hall",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|114072|114073|114074"
+                                ]
+                            },
+                            {
+                                "name": "Explosive Shells Behind Bio-Bot",
+                                "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                                "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|114075|114076"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Before Wing 4 Platform",
+                        "chest_unopened_img": "images/items/life_forces/lf10.png",
+                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|114077|114078|114079"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Ending Hall",
+                        "sections": [
+                            {
+                                "name": "War Blade",
+                                "chest_unopened_img": "images/items/weapons_small/war_blade.png",
+                                "chest_opened_img": "images/items/weapons_small/war_blade_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114080"
+                                ]
+                            },
+                            {
+                                "name": "Tek Bow",
+                                "chest_unopened_img": "images/items/weapons_small/tek_bow.png",
+                                "chest_opened_img": "images/items/weapons_small/tek_bow_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114081"
+                                ]
+                            },
+                            {
+                                "name": "Mag 60",
+                                "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                                "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114082"
+                                ]
+                            },
+                            {
+                                "name": "Shredder",
+                                "chest_unopened_img": "images/items/weapons_small/shredder.png",
+                                "chest_opened_img": "images/items/weapons_small/shredder_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114083"
+                                ]
+                            },
+                            {
+                                "name": "Plasma Rifle",
+                                "chest_unopened_img": "images/items/weapons_small/plasma_rifle.png",
+                                "chest_opened_img": "images/items/weapons_small/plasma_rifle_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114084"
+                                ]
+                            },
+                            {
+                                "name": "Grenade Launcher",
+                                "chest_unopened_img": "images/items/weapons_small/grenade_launcher.png",
+                                "chest_opened_img": "images/items/weapons_small/grenade_launcher_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114085"
+                                ]
+                            },
+                            {
+                                "name": "Cerebral Bore",
+                                "chest_unopened_img": "images/items/weapons_small/cerebral_bore.png",
+                                "chest_opened_img": "images/items/weapons_small/cerebral_bore_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114086"
+                                ]
+                            },
+                            {
+                                "name": "Flame Thrower",
+                                "chest_unopened_img": "images/items/weapons_small/flame_thrower.png",
+                                "chest_opened_img": "images/items/weapons_small/flame_thrower_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114087"
+                                ]
+                            },
+                            {
+                                "name": "Firestorm Cannon",
+                                "chest_unopened_img": "images/items/weapons_small/firestorm_cannon.png",
+                                "chest_opened_img": "images/items/weapons_small/firestorm_cannon_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114088"
+                                ]
+                            },
+                            {
+                                "name": "P.F.M. Layer",
+                                "chest_unopened_img": "images/items/weapons_small/pfm_layer.png",
+                                "chest_opened_img": "images/items/weapons_small/pfm_layer_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114089"
+                                ]
+                            },
+                            {
+                                "name": "Scorpion Launcher",
+                                "chest_unopened_img": "images/items/weapons_small/scorpion_launcher.png",
+                                "chest_opened_img": "images/items/weapons_small/scorpion_launcher_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114090"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Wing 4 End",
+                        "chest_unopened_img": "images/interactables/switch_console.png",
+                        "chest_opened_img": "images/interactables/switch_console_bw.png",
+                        "sections": [
+                            {
+                                "name": "Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114091"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy After Wing 4 Return",
+                        "chest_unopened_img": "images/enemies/elite_guard.png",
+                        "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                        "sections": [
+                            {
+                                "name": "Elite Guard",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114092"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy After Wing 4 Hall",
+                        "chest_unopened_img": "images/enemies/bio_bot.png",
+                        "chest_opened_img": "images/enemies/bio_bot_bw.png",
+                        "sections": [
+                            {
+                                "name": "Bio-Bot",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|114093|114094"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Wing 4 Platform",
+                        "chest_unopened_img": "images/enemies/elite_guard.png",
+                        "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                        "sections": [
+                            {
+                                "name": "Elite Guard",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114095"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Central Hub",
+                        "chest_unopened_img": "images/enemies/elite_guard.png",
+                        "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                        "sections": [
+                            {
+                                "name": "Elite Guard After Wing 4",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114096"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Exit Hall",
+                        "chest_unopened_img": "images/enemies/elite_guard.png",
+                        "chest_opened_img": "images/enemies/elite_guard_bw.png",
+                        "sections": [
+                            {
+                                "name": "Elite Guard After Wing 4",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|114097"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-Hub",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
     }
 ]
