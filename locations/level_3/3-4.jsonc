@@ -1,6 +1,6 @@
 [
     {
-        "name": "3-4a",
+        "name": "3-4",
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
@@ -20,7 +20,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -41,7 +41,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -71,7 +71,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -92,7 +92,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -111,7 +111,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -141,7 +141,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -160,7 +160,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -179,7 +179,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -198,7 +198,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -219,7 +219,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -249,7 +249,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -279,7 +279,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -307,7 +307,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -328,7 +328,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "x": 0,
                         "y": 0
                     }
@@ -349,7 +349,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "shape": "diamond",
                         "x": 0,
                         "y": 0
@@ -371,7 +371,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "shape": "diamond",
                         "x": 0,
                         "y": 0
@@ -393,7 +393,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "shape": "diamond",
                         "x": 0,
                         "y": 0
@@ -415,7 +415,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "shape": "diamond",
                         "x": 0,
                         "y": 0
@@ -437,7 +437,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "shape": "diamond",
                         "x": 0,
                         "y": 0
@@ -459,7 +459,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "shape": "diamond",
                         "x": 0,
                         "y": 0
@@ -481,10 +481,351 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "3-4a",
+                        "map": "3-4",
                         "shape": "diamond",
                         "x": 0,
                         "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Upper",
+                "access_rules": [
+                    "$warp_requirement|3|4",
+                    "[level_3_bridge_jump]"
+                ],
+                "children": [
+                    {
+                        "name": "Left of Portal",
+                        "sections": [
+                            {
+                                "name": "Clip",
+                                "chest_unopened_img": "images/items/ammo/clip.png",
+                                "chest_opened_img": "images/items/ammo/clip_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|64056|64057"
+                                ]
+                            },
+                            {
+                                "name": "Shells",
+                                "chest_unopened_img": "images/items/ammo/shells.png",
+                                "chest_opened_img": "images/items/ammo/shells_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64058"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Behind Tree",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64059"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Behind Tower",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|64060|64061|64062|64063"
+                                ]
+                            },
+                            {
+                                "name": "Shredder",
+                                "chest_unopened_img": "images/items/weapons_small/shredder.png",
+                                "chest_opened_img": "images/items/weapons_small/shredder_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64064"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Tower",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 8,
+                                "visibility_rules": [
+                                    "$id_exists|64065|64066|64067|64068|64069|64070|64071|64072"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "On Watchtower Roof",
+                        "chest_unopened_img": "images/items/weapons_small/plasma_rifle.png",
+                        "chest_opened_img": "images/items/weapons_small/plasma_rifle_bw.png",
+                        "sections": [
+                            {
+                                "name": "Plasma Rifle",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64073"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Behind Building",
+                        "chest_unopened_img": "images/items/ammo/clip.png",
+                        "chest_opened_img": "images/items/ammo/clip_bw.png",
+                        "sections": [
+                            {
+                                "name": "Clip",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64074"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Ramp",
+                        "chest_unopened_img": "images/items/ammo/explosive_shells.png",
+                        "chest_opened_img": "images/items/ammo/explosive_shells_bw.png",
+                        "sections": [
+                            {
+                                "name": "Explosive Shells",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64075"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Exit Portal",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|64076|64077|64078"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on First Bridge Watchtower",
+                        "chest_unopened_img": "images/enemies/gunner.png",
+                        "chest_opened_img": "images/enemies/gunner_bw.png",
+                        "sections": [
+                            {
+                                "name": "Gunner",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64079"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Bridge",
+                        "chest_unopened_img": "images/enemies/juggernaut.png",
+                        "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                        "sections": [
+                            {
+                                "name": "Juggernaut",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64080"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Second Bridge Watchtower",
+                        "chest_unopened_img": "images/enemies/gunner.png",
+                        "chest_opened_img": "images/enemies/gunner_bw.png",
+                        "sections": [
+                            {
+                                "name": "Gunner",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64081"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy After Bridge",
+                        "sections": [
+                            {
+                                "name": "Juggernaut",
+                                "chest_unopened_img": "images/enemies/juggernaut.png",
+                                "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64082"
+                                ]
+                            },
+                            {
+                                "name": "Wasp Spawned From Destroying Nest",
+                                "chest_unopened_img": "images/enemies/wasp.png",
+                                "chest_opened_img": "images/enemies/wasp_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|64083|64084"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy Ambush",
+                        "chest_unopened_img": "images/enemies/juggernaut.png",
+                        "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                        "sections": [
+                            {
+                                "name": "Juggernaut",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64085"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Checkpoint",
+                        "sections": [
+                            {
+                                "name": "Gunner",
+                                "chest_unopened_img": "images/enemies/gunner.png",
+                                "chest_opened_img": "images/enemies/gunner_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64086"
+                                ]
+                            },
+                            {
+                                "name": "Juggernaut",
+                                "chest_unopened_img": "images/enemies/juggernaut.png",
+                                "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|64087"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-4",
+                                "shape": "diamond",
+                                "x": 0,
+                                "y": 0
+                            }
+                        ]
                     }
                 ]
             }

@@ -192,8 +192,7 @@
     "name": "3-A1",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-A1.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_3/3-A1.png"
   },
   {
     "name": "3-2",
@@ -205,8 +204,7 @@
     "name": "3-3",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-3.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_3/3-3.png"
   },
   {
     "name": "3-O",
@@ -216,10 +214,10 @@
     "img": "images/maps/maplol.png"
   },
   {
-    "name": "3-4a",
+    "name": "3-4",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-4a.png",
+    //"img": "images/maps/level_3/3-4.png",
     "img": "images/maps/maplol.png"
   },
   {
@@ -230,18 +228,10 @@
     "img": "images/maps/maplol.png"
   },
   {
-    "name": "3-4b",
-    "location_size": 15,
-    "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-4b.png",
-    "img": "images/maps/maplol.png"
-  },
-  {
     "name": "3-5",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-5.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_3/3-5.png"
   },
   {
     "name": "3-6",

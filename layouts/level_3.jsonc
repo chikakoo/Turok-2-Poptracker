@@ -48,11 +48,11 @@
                 }
             },
             {
-                "title": "3-4a",
+                "title": "3-4",
                 "content": {
                     "type": "map",
                     "maps": [
-                        "3-4a"
+                        "3-4"
                     ]
                 }
             },
@@ -62,15 +62,6 @@
                     "type": "map",
                     "maps": [
                         "3-A2"
-                    ]
-                }
-            },
-            {
-                "title": "3-4b",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "3-4b"
                     ]
                 }
             },

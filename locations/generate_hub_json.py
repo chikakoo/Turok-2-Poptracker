@@ -52,16 +52,15 @@ MAP_DATA = [
     },
     {
         "level_name": "level_3",
-        "initial_position": (109, 608),
+        "initial_position": (168, 608),
         "maps": {
            "3-1": { "starting_id": 61000 },
            "3-A1": { "starting_id": 69000 },
            "3-2": { "starting_id": 62000 },
            "3-3": { "starting_id": 63000 },
            "3-O": { "starting_id": 80000 },
-           "3-4a": { "starting_id": 64000 },
+           "3-4": { "starting_id": 64000 },
            "3-A2": { "starting_id": 70000 },
-           "3-4b": { "starting_id": 64000 },
            "3-5": { "starting_id": 65000 },
            "3-6": { "starting_id": 66000, "extra_ids": [74000] },
            "3-7": { "starting_id": 67000 },

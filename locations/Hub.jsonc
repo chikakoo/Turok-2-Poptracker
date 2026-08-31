@@ -4411,7 +4411,7 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 109,
+            "x": 168,
             "y": 608
           }
         ]
@@ -4431,7 +4431,7 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 109,
+            "x": 168,
             "y": 638
           }
         ]
@@ -4587,7 +4587,7 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 109,
+            "x": 168,
             "y": 668
           }
         ]
@@ -4887,7 +4887,7 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 109,
+            "x": 168,
             "y": 698
           }
         ]
@@ -4931,123 +4931,195 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 169,
+            "x": 228,
             "y": 608
           }
         ]
       },
       {
-        "name": "3-4a",
+        "name": "3-4",
         "sections": [
           {
-            "ref": "3-4a/Starting Path/LF1",
+            "ref": "3-4/Starting Path/LF1",
             "name": "[LF1] Starting Path"
           },
           {
-            "ref": "3-4a/On Wall/Clip",
+            "ref": "3-4/On Wall/Clip",
             "name": "[Clip] On Wall"
           },
           {
-            "ref": "3-4a/Enclosed Area/Blue Health",
+            "ref": "3-4/Enclosed Area/Blue Health",
             "name": "[Blue Health] Enclosed Area"
           },
           {
-            "ref": "3-4a/Enclosed Area/Satchel Charge",
+            "ref": "3-4/Enclosed Area/Satchel Charge",
             "name": "[Satchel Charge] Enclosed Area"
           },
           {
-            "ref": "3-4a/By Facility Ladder/LF10",
+            "ref": "3-4/By Facility Ladder/LF10",
             "name": "[LF10] By Facility Ladder"
           },
           {
-            "ref": "3-4a/On Log Bridge/LF1",
+            "ref": "3-4/On Log Bridge/LF1",
             "name": "[LF1] On Log Bridge"
           },
           {
-            "ref": "3-4a/Behind Facility/LF10",
+            "ref": "3-4/Behind Facility/LF10",
             "name": "[LF10] Behind Facility"
           },
           {
-            "ref": "3-4a/Behind Facility/Tek Quiver",
+            "ref": "3-4/Behind Facility/Tek Quiver",
             "name": "[Tek Quiver] Behind Facility"
           },
           {
-            "ref": "3-4a/Behind Watchtower/LF1",
+            "ref": "3-4/Behind Watchtower/LF1",
             "name": "[LF1] Behind Watchtower"
           },
           {
-            "ref": "3-4a/Before Swamp Logs/LF1",
+            "ref": "3-4/Before Swamp Logs/LF1",
             "name": "[LF1] Before Swamp Logs"
           },
           {
-            "ref": "3-4a/After Swamp Logs/LF1",
+            "ref": "3-4/After Swamp Logs/LF1",
             "name": "[LF1] After Swamp Logs"
           },
           {
-            "ref": "3-4a/In Bush/Clip",
+            "ref": "3-4/In Bush/Clip",
             "name": "[Clip] In Bush"
           },
           {
-            "ref": "3-4a/Left of Building/Clip",
+            "ref": "3-4/Left of Building/Clip",
             "name": "[Clip] Left of Building"
           },
           {
-            "ref": "3-4a/Left of Building/Shells",
+            "ref": "3-4/Left of Building/Shells",
             "name": "[Shells] Left of Building"
           },
           {
-            "ref": "3-4a/Behind Building/LF10",
+            "ref": "3-4/Behind Building/LF10",
             "name": "[LF10] Behind Building"
           },
           {
-            "ref": "3-4a/Behind Building/Plasma Rifle",
+            "ref": "3-4/Behind Building/Plasma Rifle",
             "name": "[Plasma Rifle] Behind Building"
           },
           {
-            "ref": "3-4a/In Building/LF1",
+            "ref": "3-4/In Building/LF1",
             "name": "[LF1] In Building"
           },
           {
-            "ref": "3-4a/In Building/Full Health",
+            "ref": "3-4/In Building/Full Health",
             "name": "[Full Health] In Building"
           },
           {
-            "ref": "3-4a/By Exit Portal/Shells",
+            "ref": "3-4/By Exit Portal/Shells",
             "name": "[Shells] By Exit Portal"
           },
           {
-            "ref": "3-4a/Enemy at Start/War Club",
+            "ref": "3-4/Enemy at Start/War Club",
             "name": "[War Club] Enemy at Start"
           },
           {
-            "ref": "3-4a/Enemy on Starting Bridge/Gunner",
+            "ref": "3-4/Enemy on Starting Bridge/Gunner",
             "name": "[Gunner] Enemy on Starting Bridge"
           },
           {
-            "ref": "3-4a/Enemy Ambush/War Club",
+            "ref": "3-4/Enemy Ambush/War Club",
             "name": "[War Club] Enemy Ambush"
           },
           {
-            "ref": "3-4a/Enemy by Facility/War Club",
+            "ref": "3-4/Enemy by Facility/War Club",
             "name": "[War Club] Enemy by Facility"
           },
           {
-            "ref": "3-4a/Enemy Before Ladder/Juggernaut",
+            "ref": "3-4/Enemy Before Ladder/Juggernaut",
             "name": "[Juggernaut] Enemy Before Ladder"
           },
           {
-            "ref": "3-4a/Enemy on Watchtower/Gunner",
+            "ref": "3-4/Enemy on Watchtower/Gunner",
             "name": "[Gunner] Enemy on Watchtower"
           },
           {
-            "ref": "3-4a/Enemy by Exit Portal/Juggernaut",
+            "ref": "3-4/Enemy by Exit Portal/Juggernaut",
             "name": "[Juggernaut] Enemy by Exit Portal"
+          },
+          {
+            "ref": "3-4/Upper/Left of Portal/Clip",
+            "name": "[Clip] Upper/Left of Portal"
+          },
+          {
+            "ref": "3-4/Upper/Left of Portal/Shells",
+            "name": "[Shells] Upper/Left of Portal"
+          },
+          {
+            "ref": "3-4/Upper/Behind Tree/Blue Health",
+            "name": "[Blue Health] Upper/Behind Tree"
+          },
+          {
+            "ref": "3-4/Upper/Behind Tower/LF1",
+            "name": "[LF1] Upper/Behind Tower"
+          },
+          {
+            "ref": "3-4/Upper/Behind Tower/Shredder",
+            "name": "[Shredder] Upper/Behind Tower"
+          },
+          {
+            "ref": "3-4/Upper/By Tower/LF1",
+            "name": "[LF1] Upper/By Tower"
+          },
+          {
+            "ref": "3-4/Upper/On Watchtower Roof/Plasma Rifle",
+            "name": "[Plasma Rifle] Upper/On Watchtower Roof"
+          },
+          {
+            "ref": "3-4/Upper/Behind Building/Clip",
+            "name": "[Clip] Upper/Behind Building"
+          },
+          {
+            "ref": "3-4/Upper/By Ramp/Explosive Shells",
+            "name": "[Explosive Shells] Upper/By Ramp"
+          },
+          {
+            "ref": "3-4/Upper/By Exit Portal/Blue Health",
+            "name": "[Blue Health] Upper/By Exit Portal"
+          },
+          {
+            "ref": "3-4/Upper/Enemy on First Bridge Watchtower/Gunner",
+            "name": "[Gunner] Upper/Enemy on First Bridge Watchtower"
+          },
+          {
+            "ref": "3-4/Upper/Enemy on Bridge/Juggernaut",
+            "name": "[Juggernaut] Upper/Enemy on Bridge"
+          },
+          {
+            "ref": "3-4/Upper/Enemy on Second Bridge Watchtower/Gunner",
+            "name": "[Gunner] Upper/Enemy on Second Bridge Watchtower"
+          },
+          {
+            "ref": "3-4/Upper/Enemy After Bridge/Juggernaut",
+            "name": "[Juggernaut] Upper/Enemy After Bridge"
+          },
+          {
+            "ref": "3-4/Upper/Enemy After Bridge/Wasp Spawned From Destroying Nest",
+            "name": "[Wasp Spawned From Destroying Nest] Upper/Enemy After Bridge"
+          },
+          {
+            "ref": "3-4/Upper/Enemy Ambush/Juggernaut",
+            "name": "[Juggernaut] Upper/Enemy Ambush"
+          },
+          {
+            "ref": "3-4/Upper/Enemy by Checkpoint/Gunner",
+            "name": "[Gunner] Upper/Enemy by Checkpoint"
+          },
+          {
+            "ref": "3-4/Upper/Enemy by Checkpoint/Juggernaut",
+            "name": "[Juggernaut] Upper/Enemy by Checkpoint"
           }
         ],
         "map_locations": [
           {
             "map": "Hub",
-            "x": 169,
+            "x": 228,
             "y": 638
           }
         ]
@@ -5067,92 +5139,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 169,
+            "x": 228,
             "y": 668
-          }
-        ]
-      },
-      {
-        "name": "3-4b",
-        "sections": [
-          {
-            "ref": "3-4b/Left of Portal/Clip",
-            "name": "[Clip] Left of Portal"
-          },
-          {
-            "ref": "3-4b/Left of Portal/Shells",
-            "name": "[Shells] Left of Portal"
-          },
-          {
-            "ref": "3-4b/Behind Tree/Blue Health",
-            "name": "[Blue Health] Behind Tree"
-          },
-          {
-            "ref": "3-4b/Behind Tower/LF1",
-            "name": "[LF1] Behind Tower"
-          },
-          {
-            "ref": "3-4b/Behind Tower/Shredder",
-            "name": "[Shredder] Behind Tower"
-          },
-          {
-            "ref": "3-4b/By Tower/LF1",
-            "name": "[LF1] By Tower"
-          },
-          {
-            "ref": "3-4b/On Watchtower Roof/Plasma Rifle",
-            "name": "[Plasma Rifle] On Watchtower Roof"
-          },
-          {
-            "ref": "3-4b/Behind Building/Clip",
-            "name": "[Clip] Behind Building"
-          },
-          {
-            "ref": "3-4b/By Ramp/Explosive Shells",
-            "name": "[Explosive Shells] By Ramp"
-          },
-          {
-            "ref": "3-4b/By Exit Portal/Blue Health",
-            "name": "[Blue Health] By Exit Portal"
-          },
-          {
-            "ref": "3-4b/Enemy on First Bridge Watchtower/Gunner",
-            "name": "[Gunner] Enemy on First Bridge Watchtower"
-          },
-          {
-            "ref": "3-4b/Enemy on Bridge/Juggernaut",
-            "name": "[Juggernaut] Enemy on Bridge"
-          },
-          {
-            "ref": "3-4b/Enemy on Second Bridge Watchtower/Gunner",
-            "name": "[Gunner] Enemy on Second Bridge Watchtower"
-          },
-          {
-            "ref": "3-4b/Enemy After Bridge/Juggernaut",
-            "name": "[Juggernaut] Enemy After Bridge"
-          },
-          {
-            "ref": "3-4b/Enemy After Bridge/Wasp Spawned From Destroying Nest",
-            "name": "[Wasp Spawned From Destroying Nest] Enemy After Bridge"
-          },
-          {
-            "ref": "3-4b/Enemy Ambush/Juggernaut",
-            "name": "[Juggernaut] Enemy Ambush"
-          },
-          {
-            "ref": "3-4b/Enemy by Checkpoint/Gunner",
-            "name": "[Gunner] Enemy by Checkpoint"
-          },
-          {
-            "ref": "3-4b/Enemy by Checkpoint/Juggernaut",
-            "name": "[Juggernaut] Enemy by Checkpoint"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Hub",
-            "x": 169,
-            "y": 698
           }
         ]
       },
@@ -5243,8 +5231,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 229,
-            "y": 608
+            "x": 228,
+            "y": 698
           }
         ]
       },
@@ -5399,8 +5387,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 229,
-            "y": 638
+            "x": 288,
+            "y": 608
           }
         ]
       },
@@ -5507,8 +5495,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 229,
-            "y": 668
+            "x": 288,
+            "y": 638
           }
         ]
       },
@@ -5523,8 +5511,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 229,
-            "y": 698
+            "x": 288,
+            "y": 668
           }
         ]
       },
@@ -5591,8 +5579,8 @@
         "map_locations": [
           {
             "map": "Hub",
-            "x": 289,
-            "y": 608
+            "x": 288,
+            "y": 698
           }
         ]
       },
