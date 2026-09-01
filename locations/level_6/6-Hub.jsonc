@@ -642,6 +642,7 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
+                                "shape": "diamond",
                                 "x": 77,
                                 "y": 301
                             }
@@ -983,6 +984,7 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
+                                "shape": "diamond",
                                 "x": 356,
                                 "y": 299
                             }
@@ -1004,6 +1006,7 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
+                                "shape": "diamond",
                                 "x": 382,
                                 "y": 445
                             }
@@ -1025,6 +1028,7 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
+                                "shape": "diamond",
                                 "x": 434,
                                 "y": 491
                             }
