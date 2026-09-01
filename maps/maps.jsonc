@@ -217,8 +217,7 @@
     "name": "3-4",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-4.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_3/3-4.png"
   },
   {
     "name": "3-A2",
@@ -475,10 +474,9 @@
   // #region Level 6
   {
     "name": "6-Hub",
-    "location_size": 15,
+    "location_size": 10,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_6/6-Hub.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_6/6-Hub.png"
   },
   {
     "name": "6-1",

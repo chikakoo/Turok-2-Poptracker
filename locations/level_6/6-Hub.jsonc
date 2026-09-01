@@ -32,8 +32,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 330,
+                        "y": 635
                     }
                 ]
             },
@@ -53,8 +53,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 265,
+                        "y": 536
                     }
                 ]
             },
@@ -81,8 +81,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 199,
+                        "y": 400
                     }
                 ]
             },
@@ -109,8 +109,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 269,
+                        "y": 303
                     }
                 ]
             },
@@ -137,8 +137,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 340,
+                        "y": 400
                     }
                 ]
             },
@@ -158,8 +158,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 188,
+                        "y": 438
                     }
                 ]
             },
@@ -179,8 +179,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 188,
+                        "y": 362
                     }
                 ]
             },
@@ -200,8 +200,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 349,
+                        "y": 348
                     }
                 ]
             },
@@ -221,8 +221,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 349,
+                        "y": 453
                     }
                 ]
             },
@@ -249,8 +249,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 61,
+                        "y": 508
                     }
                 ]
             },
@@ -270,8 +270,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 176,
+                        "y": 554
                     }
                 ]
             },
@@ -291,8 +291,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 169,
+                        "y": 603
                     }
                 ]
             },
@@ -312,8 +312,8 @@
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 0,
-                        "y": 0
+                        "x": 114,
+                        "y": 620
                     }
                 ]
             },
@@ -334,8 +334,8 @@
                     {
                         "map": "6-Hub",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 246,
+                        "y": 458
                     }
                 ]
             },
@@ -356,8 +356,8 @@
                     {
                         "map": "6-Hub",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 209,
+                        "y": 446
                     }
                 ]
             },
@@ -378,8 +378,8 @@
                     {
                         "map": "6-Hub",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 269,
+                        "y": 286
                     }
                 ]
             },
@@ -400,8 +400,8 @@
                     {
                         "map": "6-Hub",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 332,
+                        "y": 307
                     }
                 ]
             },
@@ -422,8 +422,8 @@
                     {
                         "map": "6-Hub",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 169,
+                        "y": 574
                     }
                 ]
             },
@@ -441,13 +441,29 @@
                         "visibility_rules": [
                             "$id_exists|114098"
                         ]
+                    },
+                    {
+                        "ref": "6-1/Whispers/Primagen Key Switch/Switch",
+                        "name": "Wing 1 Primagen Key Switch"
+                    },
+                    {
+                        "ref": "6-2a/Eye of Truth/Primagen Key Switch/Switch",
+                        "name": "Wing 2 Primagen Key Switch"
+                    },
+                    {
+                        "ref": "6-3b/Leap of Faith/Primagen Key Switch/Switch",
+                        "name": "Wing 3 Primagen Key Switch"
+                    },
+                    {
+                        "ref": "6-4d/In River/Primagen Key Switch/Switch",
+                        "name": "Wing 4 Primagen Key Switch"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "6-Hub",
-                        "x": 100,
-                        "y": 25
+                        "x": 269,
+                        "y": 401
                     }
                 ]
             },
@@ -473,8 +489,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 224,
+                                "y": 522
                             }
                         ]
                     },
@@ -512,8 +528,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 61,
+                                "y": 327
                             }
                         ]
                     },
@@ -533,8 +549,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 109,
+                                "y": 300
                             }
                         ]
                     },
@@ -554,8 +570,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 214,
+                                "y": 481
                             }
                         ]
                     },
@@ -575,8 +591,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 25,
-                                "y": 0
+                                "x": 60,
+                                "y": 223
                             }
                         ]
                     },
@@ -605,8 +621,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 134,
+                                "y": 499
                             }
                         ]
                     },
@@ -626,8 +642,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 77,
+                                "y": 301
                             }
                         ]
                     }
@@ -655,8 +671,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 170,
+                                "y": 216
                             }
                         ]
                     },
@@ -685,8 +701,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 190,
+                                "y": 310
                             }
                         ]
                     },
@@ -713,8 +729,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 423,
+                                "y": 343
                             }
                         ]
                     },
@@ -752,8 +768,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 472,
+                                "y": 304
                             }
                         ]
                     },
@@ -782,8 +798,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 415,
+                                "y": 210
                             }
                         ]
                     },
@@ -803,8 +819,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 409,
+                                "y": 156
                             }
                         ]
                     },
@@ -825,8 +841,8 @@
                             {
                                 "map": "6-Hub",
                                 "shape": "diamond",
-                                "x": 0,
-                                "y": 0
+                                "x": 169,
+                                "y": 264
                             }
                         ]
                     },
@@ -847,8 +863,8 @@
                             {
                                 "map": "6-Hub",
                                 "shape": "diamond",
-                                "x": 0,
-                                "y": 0
+                                "x": 476,
+                                "y": 327
                             }
                         ]
                     }
@@ -874,8 +890,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 317,
+                                "y": 206
                             }
                         ]
                     },
@@ -904,8 +920,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 75,
-                                "y": 57
+                                "x": 345,
+                                "y": 313
                             }
                         ]
                     },
@@ -925,8 +941,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 440,
+                                "y": 508
                             }
                         ]
                     },
@@ -946,8 +962,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 494,
+                                "y": 559
                             }
                         ]
                     },
@@ -967,8 +983,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 356,
+                                "y": 299
                             }
                         ]
                     },
@@ -988,8 +1004,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 382,
+                                "y": 445
                             }
                         ]
                     },
@@ -1009,8 +1025,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 434,
+                                "y": 491
                             }
                         ]
                     }
@@ -1047,8 +1063,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 390,
+                                "y": 572
                             }
                         ]
                     },
@@ -1068,8 +1084,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 315,
+                                "y": 519
                             }
                         ]
                     },
@@ -1179,8 +1195,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 268,
+                                "y": 152
                             }
                         ]
                     },
@@ -1200,8 +1216,8 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
-                                "x": 0,
-                                "y": 0
+                                "x": 321,
+                                "y": 481
                             }
                         ]
                     },
@@ -1222,8 +1238,8 @@
                             {
                                 "map": "6-Hub",
                                 "shape": "diamond",
-                                "x": 0,
-                                "y": 0
+                                "x": 448,
+                                "y": 571
                             }
                         ]
                     },
@@ -1244,8 +1260,8 @@
                             {
                                 "map": "6-Hub",
                                 "shape": "diamond",
-                                "x": 0,
-                                "y": 0
+                                "x": 379,
+                                "y": 567
                             }
                         ]
                     },
@@ -1266,8 +1282,8 @@
                             {
                                 "map": "6-Hub",
                                 "shape": "diamond",
-                                "x": 0,
-                                "y": 0
+                                "x": 307,
+                                "y": 474
                             }
                         ]
                     },
@@ -1288,8 +1304,8 @@
                             {
                                 "map": "6-Hub",
                                 "shape": "diamond",
-                                "x": 0,
-                                "y": 0
+                                "x": 262,
+                                "y": 367
                             }
                         ]
                     },
@@ -1310,8 +1326,8 @@
                             {
                                 "map": "6-Hub",
                                 "shape": "diamond",
-                                "x": 0,
-                                "y": 0
+                                "x": 265,
+                                "y": 251
                             }
                         ]
                     }
