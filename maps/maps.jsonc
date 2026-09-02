@@ -210,8 +210,7 @@
     "name": "3-O",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-O.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_3/3-O.png"
   },
   {
     "name": "3-4",
@@ -223,8 +222,7 @@
     "name": "3-A2",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-A2.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_3/3-A2.png"
   },
   {
     "name": "3-5",
@@ -236,29 +234,25 @@
     "name": "3-6",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-6.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_3/3-6.png"
   },
   {
     "name": "3-7",
-    "location_size": 15,
+    "location_size": 10,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-7.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_3/3-7.png"
   },
   {
     "name": "3-A3",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-A3.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_3/3-A3.png"
   },
   {
     "name": "3-8",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_3/3-8.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_3/3-8.png"
   },
   // #endregion Level 3
 
@@ -480,10 +474,9 @@
   },
   {
     "name": "6-1",
-    "location_size": 15,
+    "location_size": 8,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_6/6-1.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_6/6-1.png"
   },
   {
     "name": "6-2a",
