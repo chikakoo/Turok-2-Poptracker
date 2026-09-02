@@ -5176,8 +5176,8 @@
             "name": "[Full Health on Cell] Cell"
           },
           {
-            "ref": "3-5/Cell/Rescue Prisoner in Cell",
-            "name": "[Rescue Prisoner in Cell] Cell"
+            "ref": "3-5/Cell/Rescue Prisoner",
+            "name": "[Rescue Prisoner] Cell"
           },
           {
             "ref": "3-5/By Cell/Grenade Launcher",
@@ -5304,12 +5304,16 @@
             "name": "[LF10] Above Cell"
           },
           {
-            "ref": "3-6/Above Cell/Ultra Health",
-            "name": "[Ultra Health] Above Cell"
+            "ref": "3-6/Above Cell/Ultra Health on Cell",
+            "name": "[Ultra Health on Cell] Above Cell"
           },
           {
-            "ref": "3-6/On Cell/Satchel Charge",
-            "name": "[Satchel Charge] On Cell"
+            "ref": "3-6/Cell/Rescue Prisoner",
+            "name": "[Rescue Prisoner] Cell"
+          },
+          {
+            "ref": "3-6/Cell/Satchel Charge on Cell",
+            "name": "[Satchel Charge on Cell] Cell"
           },
           {
             "ref": "3-6/On Broken Wall/Eagle Feather",
@@ -5330,10 +5334,6 @@
           {
             "ref": "3-6/In Left Cell/Rescue Prisoner",
             "name": "[Rescue Prisoner] In Left Cell"
-          },
-          {
-            "ref": "3-6/In Cell/Rescue Prisoner",
-            "name": "[Rescue Prisoner] In Cell"
           },
           {
             "ref": "3-6/Up Broken Wall/Talisman Portal Switch",

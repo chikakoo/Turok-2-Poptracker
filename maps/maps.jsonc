@@ -208,7 +208,7 @@
   },
   {
     "name": "3-O",
-    "location_size": 15,
+    "location_size": 18,
     "location_border_thickness": 2,
     "img": "images/maps/level_3/3-O.png"
   },
@@ -232,13 +232,13 @@
   },
   {
     "name": "3-6",
-    "location_size": 15,
+    "location_size": 10,
     "location_border_thickness": 2,
     "img": "images/maps/level_3/3-6.png"
   },
   {
     "name": "3-7",
-    "location_size": 10,
+    "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/level_3/3-7.png"
   },
