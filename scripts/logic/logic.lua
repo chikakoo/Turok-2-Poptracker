@@ -479,33 +479,3 @@ function can_place_one_ion_capacitor()
 
     return AccessibilityLevel.None
 end
-
----Whether the primagen key switches have all been pressed (excludes getting to the maps)
----Normal: Hit the switches already, or has all the talismans/items needed
----        - Wing 1 = Whispers
----        - Wing 2 = Eye of Truth (or the skip is enabled)
----        - Wing 3 = Leap of Faith
----        - Wing 4 = Breath of Life and 2 Blue Laser Cells
----None: Can't get to the switch in wings 1, 3, or 4
----SequenceBreak: Can get to wings 1, 3, and 4, but not 2 (since you can get with the skip)
-function can_get_l6_primagen_key()
-    if has_check("@6-1/Whispers/Primagen Key Switch/Switch") and
-        has_check("@6-2a/Eye of Truth/Primagen Key Switch/Switch") and
-        has_check("@6-3b/Leap of Faith/Primagen Key Switch/Switch") and
-        has_check("@6-4d/In River/Primagen Key Switch/Switch") then
-        return AccessibilityLevel.Normal
-    end
-
-    if not has("whispers") or 
-        not has("leap_of_faith") or 
-        not has("breath_of_life") or
-        not has("blue_laser_cell", 2) then
-        return AccessibilityLevel.None
-    end
-
-    if has("eye_of_truth") or has("level_6_eye_of_truth_skip") then
-        return AccessibilityLevel.Normal
-    end
-
-    return AccessibilityLevel.SequenceBreak
-end

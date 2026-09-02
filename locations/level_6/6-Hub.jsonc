@@ -431,13 +431,13 @@
                 "name": "Press Primagen Key Switches in All Wings",
                 "chest_unopened_img": "images/items/keys/level_6_key.png",
                 "chest_opened_img": "images/items/keys/level_6_key_bw.png",
-                "access_rules": [
-                    "$map_access|6|12|mid,^$can_get_l6_primagen_key"
-                ],
                 "sections": [
                     {
                         "name": "Primagen Key",
                         "item_count": 1,
+                        "access_rules": [
+                            "@6-1/Whispers/Primagen Key Switch/Switch,@6-2a/Eye of Truth/Primagen Key Switch/Switch,@6-3b/Leap of Faith/Primagen Key Switch/Switch,@6-4d/In River/Primagen Key Switch/Switch"
+                        ],
                         "visibility_rules": [
                             "$id_exists|114098"
                         ]
