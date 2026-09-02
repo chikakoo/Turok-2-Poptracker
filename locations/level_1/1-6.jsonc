@@ -23,8 +23,8 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 201,
-            "y": 271
+            "x": 284,
+            "y": 562
           }
         ]
       },
@@ -44,13 +44,13 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 185,
-            "y": 214
+            "x": 264,
+            "y": 499
           }
         ]
       },
       {
-        "name": "Trail to Connecting Hallway",
+        "name": "Before Hall",
         "sections": [
           {
             "name": "LF1",
@@ -58,23 +58,11 @@
             "visibility_rules": [
               "$id_exists|56003|56004|56005|56006"
             ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "1-6",
-            "x": 102,
-            "y": 224
-          }
-        ]
-      },
-      {
-        "name": "Before Hallway Corner",
-        "chest_unopened_img": "images/items/ammo/clip.png",
-        "chest_opened_img": "images/items/ammo/clip_bw.png",
-        "sections": [
+          },
           {
             "name": "Clip",
+            "chest_unopened_img": "images/items/ammo/clip.png",
+            "chest_opened_img": "images/items/ammo/clip_bw.png",
             "item_count": 1,
             "visibility_rules": [
               "$id_exists|56007"
@@ -84,8 +72,8 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 84,
-            "y": 211
+            "x": 186,
+            "y": 517
           }
         ]
       },
@@ -105,8 +93,8 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 449,
-            "y": 231
+            "x": 113,
+            "y": 227
           }
         ]
       },
@@ -126,7 +114,7 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 376,
+            "x": 33,
             "y": 164
           }
         ]
@@ -147,8 +135,8 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 489,
-            "y": 124
+            "x": 155,
+            "y": 126
           }
         ]
       },
@@ -175,8 +163,8 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 565,
-            "y": 271
+            "x": 233,
+            "y": 270
           }
         ]
       },
@@ -196,8 +184,8 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 489,
-            "y": 271
+            "x": 156,
+            "y": 270
           }
         ]
       },
@@ -217,8 +205,8 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 513,
-            "y": 213
+            "x": 178,
+            "y": 212
           }
         ]
       },
@@ -238,8 +226,8 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 530,
-            "y": 146
+            "x": 189,
+            "y": 147
           }
         ]
       },
@@ -257,8 +245,8 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 649,
-            "y": 120
+            "x": 285,
+            "y": 147
           }
         ]
       },
@@ -278,8 +266,8 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 187,
-            "y": 236
+            "x": 271,
+            "y": 526
           }
         ]
       },
@@ -299,8 +287,8 @@
         "map_locations": [
           {
             "map": "1-6",
-            "x": 445,
-            "y": 271
+            "x": 108,
+            "y": 272
           }
         ]
       },
@@ -321,8 +309,8 @@
           {
             "map": "1-6",
             "shape": "diamond",
-            "x": 402,
-            "y": 393
+            "x": 63,
+            "y": 394
           }
         ]
       },
@@ -343,8 +331,8 @@
           {
             "map": "1-6",
             "shape": "diamond",
-            "x": 383,
-            "y": 176
+            "x": 47,
+            "y": 164
           }
         ]
       },
@@ -365,8 +353,8 @@
           {
             "map": "1-6",
             "shape": "diamond",
-            "x": 648,
-            "y": 98
+            "x": 303,
+            "y": 97
           }
         ]
       },
@@ -387,7 +375,7 @@
           {
             "map": "1-6",
             "shape": "diamond",
-            "x": 487,
+            "x": 150,
             "y": 97
           }
         ]

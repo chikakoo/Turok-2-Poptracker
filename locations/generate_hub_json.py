@@ -163,6 +163,10 @@ def add_locations(hub_child, map_name, starting_id, node, path):
             display_name = f"{location_name}"
 
         for section in node["sections"]:
+            # References should never be included
+            if "ref" in section:
+                return
+                
             validate_section(map_name, starting_id, current_path, section)
             hub_child["sections"].append({
                 "ref": f"{ref_path}/{section['name']}",
@@ -181,6 +185,10 @@ def validate_section(map_name, starting_id, path, section):
     """
     full_location = f"{map_name}/{'/'.join(path)}/{section['name']}"
 
+    # This is bad enough to just exit now
+    if "item_count" not in section:
+        raise Exception(f"item_count not found for {full_location}")
+    
     expected_count = section["item_count"]
 
     ranges = [(starting_id, starting_id + 999)]
