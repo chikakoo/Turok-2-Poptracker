@@ -21,9 +21,9 @@
                     },
                     {
                         "name": "LF1",
-                        "item_count": 2,
+                        "item_count": 3,
                         "visibility_rules": [
-                            "$id_exists|66001|66002"
+                            "$id_exists|66001|66002|66003"
                         ]
                     }
                 ],
