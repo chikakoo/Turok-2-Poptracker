@@ -259,10 +259,9 @@
   // #region Level 4
   {
     "name": "4-1",
-    "location_size": 15,
+    "location_size": 10,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_4/4-1.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_4/4-1.png"
   },
   {
     "name": "4-2",
