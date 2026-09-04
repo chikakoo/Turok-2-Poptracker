@@ -166,7 +166,7 @@
                     {
                         "map": "4-3",
                         "x": 238,
-                        "y": 284
+                        "y": 331
                     }
                 ]
             },
@@ -194,7 +194,7 @@
                     {
                         "map": "4-3",
                         "x": 238,
-                        "y": 331
+                        "y": 284
                     }
                 ]
             },
@@ -518,7 +518,7 @@
                             {
                                 "map": "4-3",
                                 "x": 390,
-                                "y": 295
+                                "y": 299
                             }
                         ]
                     },
@@ -547,8 +547,8 @@
                         "map_locations": [
                             {
                                 "map": "4-3",
-                                "x": 489,
-                                "y": 298
+                                "x": 567,
+                                "y": 299
                             }
                         ]
                     },
@@ -634,9 +634,9 @@
                                 ]
                             },
                             {
-                                "name": "Charge Dart Rifle",
-                                "chest_unopened_img": "images/items/weapons_small/charge_dart_rifle.png",
-                                "chest_opened_img": "images/items/weapons_small/charge_dart_rifle_bw.png",
+                                "name": "Charge Dart Pak",
+                                "chest_unopened_img": "images/items/ammo/charge_darts_pak.png",
+                                "chest_opened_img": "images/items/ammo/charge_darts_pak_bw.png",
                                 "item_count": 1,
                                 "visibility_rules": [
                                     "$id_exists|100031"
@@ -821,6 +821,7 @@
                         "map_locations": [
                             {
                                 "map": "4-3",
+                                "shape": "diamond",
                                 "x": 312,
                                 "y": 308
                             }
@@ -842,6 +843,7 @@
                         "map_locations": [
                             {
                                 "map": "4-3",
+                                "shape": "diamond",
                                 "x": 632,
                                 "y": 280
                             }
@@ -863,6 +865,7 @@
                         "map_locations": [
                             {
                                 "map": "4-3",
+                                "shape": "diamond",
                                 "x": 553,
                                 "y": 262
                             }
@@ -884,6 +887,7 @@
                         "map_locations": [
                             {
                                 "map": "4-3",
+                                "shape": "diamond",
                                 "x": 505,
                                 "y": 344
                             }
@@ -905,6 +909,7 @@
                         "map_locations": [
                             {
                                 "map": "4-3",
+                                "shape": "diamond",
                                 "x": 453,
                                 "y": 140
                             }
@@ -1033,8 +1038,8 @@
                             {
                                 "map": "4-3",
                                 "shape": "diamond",
-                                "x": 343,
-                                "y": 362
+                                "x": 353,
+                                "y": 435
                             }
                         ]
                     },
@@ -1056,7 +1061,7 @@
                                 "map": "4-3",
                                 "shape": "diamond",
                                 "x": 420,
-                                "y": 488
+                                "y": 485
                             }
                         ]
                     },
@@ -1099,7 +1104,7 @@
                             {
                                 "map": "4-3",
                                 "shape": "diamond",
-                                "x": 298,
+                                "x": 198,
                                 "y": 562
                             }
                         ]

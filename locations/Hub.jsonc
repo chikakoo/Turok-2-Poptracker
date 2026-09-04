@@ -5788,12 +5788,12 @@
             "name": "[Clip] In Water Start"
           },
           {
-            "ref": "4-2/In Water Middle/Clip",
-            "name": "[Clip] In Water Middle"
+            "ref": "4-2/In Water Back/Clip",
+            "name": "[Clip] In Water Back"
           },
           {
-            "ref": "4-2/In Water Back/Harpoon Gun",
-            "name": "[Harpoon Gun] In Water Back"
+            "ref": "4-2/In Water Middle/Harpoon Gun",
+            "name": "[Harpoon Gun] In Water Middle"
           },
           {
             "ref": "4-2/Water Tunnel/LF1",
@@ -6128,8 +6128,8 @@
             "name": "[Box of Shells] Cave Door/Level Key Room"
           },
           {
-            "ref": "4-3/Cave Door/Level Key Room/Charge Dart Rifle",
-            "name": "[Charge Dart Rifle] Cave Door/Level Key Room"
+            "ref": "4-3/Cave Door/Level Key Room/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Cave Door/Level Key Room"
           },
           {
             "ref": "4-3/Cave Door/Level Key Room/Full Health",
@@ -10632,8 +10632,8 @@
             "name": "[Switch] Platform After Sewers"
           },
           {
-            "ref": "6-2a/After Sewers Left Fork/Mine",
-            "name": "[Mine] After Sewers Left Fork"
+            "ref": "6-2a/After Sewers Right Fork/Mine",
+            "name": "[Mine] After Sewers Right Fork"
           },
           {
             "ref": "6-2a/After Sewers Dead End/Box of Grenades",
@@ -10704,8 +10704,8 @@
             "name": "[Elite Guard] Enemy After Sewers Switch"
           },
           {
-            "ref": "6-2a/Enemy at After Sewers Dead End/Bio-Bot",
-            "name": "[Bio-Bot] Enemy at After Sewers Dead End"
+            "ref": "6-2a/Enemy at Sewers Dead End/Bio-Bot",
+            "name": "[Bio-Bot] Enemy at Sewers Dead End"
           },
           {
             "ref": "6-2a/Eye of Truth/Eye of Truth Bridge Start/Silver Health",
