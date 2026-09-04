@@ -267,15 +267,13 @@
     "name": "4-2",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_4/4-2.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_4/4-2.png"
   },
   {
     "name": "4-3",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_4/4-3.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_4/4-3.png"
   },
   {
     "name": "4-4",
