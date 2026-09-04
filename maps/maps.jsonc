@@ -481,8 +481,7 @@
     "name": "6-2a",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_6/6-2a.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_6/6-2a.png"
   },
   {
     "name": "6-2b",
