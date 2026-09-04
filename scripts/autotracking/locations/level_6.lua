@@ -296,8 +296,8 @@ LOCATIONS_6_2a = {
     [116073] = {"@6-2a/Platform After Sewers/Flame Thrower"},
     [116074] = {"@6-2a/Platform After Sewers/Ion Capacitor"},
     [116075] = {"@6-2a/Platform After Sewers/Blue Health"},
-    [116076] = {"@6-2a/After Sewers Left Fork/Mine"},
-    [116077] = {"@6-2a/After Sewers Left Fork/Mine"},
+    [116076] = {"@6-2a/After Sewers Right Fork/Mine"},
+    [116077] = {"@6-2a/After Sewers Right Fork/Mine"},
     [116078] = {"@6-2a/After Sewers Dead End/Box of Grenades"},
     [116079] = {"@6-2a/After Sewers Dead End/Blue Health"},
     [116080] = {"@6-2a/After Sewers Dead End/Blue Health"},
@@ -336,7 +336,7 @@ LOCATIONS_6_2a = {
     [116113] = {"@6-2a/Enemy Before Fan Elevator/Bio-Bot"},
     [116114] = {"@6-2a/Enemy Across Sewer Room Bridge/Trooper"},
     [116115] = {"@6-2a/Enemy After Sewers Switch/Elite Guard"},
-    [116116] = {"@6-2a/Enemy at After Sewers Dead End/Bio-Bot"},
+    [116116] = {"@6-2a/Enemy at Sewers Dead End/Bio-Bot"},
     [116117] = {"@6-2a/Eye of Truth/Enemy at Primagen Key Switch/Elite Guard"}
 }
 
