@@ -549,8 +549,8 @@ LOCATIONS_3_6 = {
     [66074] = {"@3-6/Enemy by Cell/War Club"},
     [66075] = {"@3-6/Enemy by Exit Portal/Endtrail"},
     [66076] = {"@3-6/Enemy by Exit Portal/Endtrail"},
-    [66077] = {"@3-6/Enemy on Wall Spawned From Standing Here/Endtrail"},
-    [66078] = {"@3-6/Enemy on Wall Spawned From Standing Here/Endtrail"}
+    [66077] = {"@3-6/Enemy Before Cell Spawned From Standing Here/Endtrail"},
+    [66078] = {"@3-6/Enemy After Cell Spawned From Standing Here/Endtrail"},
 }
 
 LOCATIONS_3_7 = {

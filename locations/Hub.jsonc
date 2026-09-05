@@ -5380,8 +5380,12 @@
             "name": "[Endtrail] Enemy by Exit Portal"
           },
           {
-            "ref": "3-6/Enemy on Wall Spawned From Standing Here/Endtrail",
-            "name": "[Endtrail] Enemy on Wall Spawned From Standing Here"
+            "ref": "3-6/Enemy Before Cell Spawned From Standing Here/Endtrail",
+            "name": "[Endtrail] Enemy Before Cell Spawned From Standing Here"
+          },
+          {
+            "ref": "3-6/Enemy After Cell Spawned From Standing Here/Endtrail",
+            "name": "[Endtrail] Enemy After Cell Spawned From Standing Here"
           }
         ],
         "map_locations": [

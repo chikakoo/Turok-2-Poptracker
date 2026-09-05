@@ -651,15 +651,15 @@
                 ]
             },
             {
-                "name": "Enemy on Wall Spawned From Standing Here",
+                "name": "Enemy Before Cell Spawned From Standing Here",
                 "chest_unopened_img": "images/enemies/endtrail.png",
                 "chest_opened_img": "images/enemies/endtrail_bw.png",
                 "sections": [
                     {
                         "name": "Endtrail",
-                        "item_count": 2,
+                        "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|66077|66078"
+                            "$id_exists|66077"
                         ]
                     }
                 ],
@@ -669,6 +669,28 @@
                         "shape": "diamond",
                         "x": 441,
                         "y": 262
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Cell Spawned From Standing Here",
+                "chest_unopened_img": "images/enemies/endtrail.png",
+                "chest_opened_img": "images/enemies/endtrail_bw.png",
+                "sections": [
+                    {
+                        "name": "Endtrail",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|66078"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "3-6",
+                        "shape": "diamond",
+                        "x": 303,
+                        "y": 441
                     }
                 ]
             }

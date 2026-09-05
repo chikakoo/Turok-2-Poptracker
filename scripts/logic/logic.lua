@@ -438,18 +438,17 @@ end
 ---  Otherwise, if you have could have enough to place on this generator
 ---None: Not enough capacitors
 function can_place_all_ion_capacitors()
-    if has("ion_capacitor", 16) or not id_exists(ION_CAPACITOR_ID) then
+    if has("ion_capacitor", 16) then
         return AccessibilityLevel.Normal
     end
 
-    -- TODO: uncomment the lines here, as we're simulating being connected to AP for testing
-    -- if Archipelago.PlayerNumber == -1 then
-    --     return AccessibilityLevel.SequenceBreak
-    -- end
+    if Archipelago.PlayerNumber == -1 then
+        return AccessibilityLevel.SequenceBreak
+    end
 
-    -- if id_exists(ION_CAPACITOR_ID) > 0 then
-    --     return AccessibilityLevel.Normal
-    -- end
+    if not id_exists(ION_CAPACITOR_ID) then
+        return AccessibilityLevel.Normal
+    end
 
     if get_unused_ion_capacitors() >= 4 then
         return AccessibilityLevel.SequenceBreak
