@@ -491,15 +491,13 @@
     "name": "6-3a",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_6/6-3a.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_6/6-3a.png"
   },
   {
     "name": "6-3b",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_6/6-3b.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_6/6-3b.png"
   },
   {
     "name": "6-4a",
