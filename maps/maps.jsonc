@@ -285,22 +285,19 @@
     "name": "4-V1",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_4/4-V1.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_4/4-V1.png"
   },
   {
     "name": "4-5",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_4/4-5.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_4/4-5.png"
   },
   {
     "name": "4-V2",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_4/4-V2.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_4/4-V2.png"
   },
   {
     "name": "4-6a",
@@ -500,26 +497,26 @@
   },
   {
     "name": "6-4a",
-    "location_size": 15,
+    "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/level_6/6-4a.png"
   },
   {
     "name": "6-4b",
-    "location_size": 15,
+    "location_size": 10,
     "location_border_thickness": 2,
     "img": "images/maps/level_6/6-4b.png"
   },
   {
     "name": "6-4c",
-    "location_size": 15,
+    "location_size": 10,
     "location_border_thickness": 2,
     "img": "images/maps/level_6/6-4c.png"
   },
   {
     "name": "6-4d",
-    "location_size": 15,
-    "location_border_thickness": 2,
+    "location_size": 5,
+    "location_border_thickness": 1,
     "img": "images/maps/level_6/6-4d.png"
   },
   {

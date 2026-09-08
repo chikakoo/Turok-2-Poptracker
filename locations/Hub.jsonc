@@ -11540,8 +11540,8 @@
             "name": "[Destroy Assembly Plant] Top Right"
           },
           {
-            "ref": "6-4b/Top Right/Talisman Portal Switch",
-            "name": "[Talisman Portal Switch] Top Right"
+            "ref": "6-4b/Top Right Corner/Talisman Portal Switch",
+            "name": "[Talisman Portal Switch] Top Right Corner"
           },
           {
             "ref": "6-4b/At Exit Portal/Switch",
