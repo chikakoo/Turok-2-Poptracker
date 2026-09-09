@@ -303,8 +303,7 @@
     "name": "4-6a",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_4/4-6a.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_4/4-6a.png"
   },
   {
     "name": "4-O",
