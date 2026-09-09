@@ -32,8 +32,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 62,
+                        "y": 417
                     }
                 ]
             },
@@ -53,8 +53,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 152,
+                        "y": 415
                     }
                 ]
             },
@@ -81,8 +81,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 187,
+                        "y": 365
                     }
                 ]
             },
@@ -111,8 +111,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 282,
+                        "y": 463
                     }
                 ]
             },
@@ -132,8 +132,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 162,
+                        "y": 325
                     }
                 ]
             },
@@ -153,8 +153,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 260,
+                        "y": 301
                     }
                 ]
             },
@@ -174,8 +174,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 216,
+                        "y": 195
                     }
                 ]
             },
@@ -211,8 +211,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 364,
+                        "y": 283
                     }
                 ]
             },
@@ -235,8 +235,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 331,
+                        "y": 414
                     }
                 ]
             },
@@ -256,8 +256,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 109,
+                        "y": 240
                     }
                 ]
             },
@@ -277,8 +277,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 411,
+                        "y": 283
                     }
                 ]
             },
@@ -307,8 +307,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 322,
+                        "y": 542
                     }
                 ]
             },
@@ -335,8 +335,8 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 0,
-                        "y": 0
+                        "x": 310,
+                        "y": 610
                     }
                 ]
             },
@@ -359,8 +359,92 @@
                 "map_locations": [
                     {
                         "map": "5-9S",
-                        "x": 25,
-                        "y": 0
+                        "x": 232,
+                        "y": 624
+                    }
+                ]
+            },
+             {
+                "name": "In Left Wall",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91058"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "x": 454,
+                        "y": 733
+                    }
+                ]
+            },
+            {
+                "name": "In Back Wall",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91059"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "x": 498,
+                        "y": 776
+                    }
+                ]
+            },
+            {
+                "name": "In Right Wall",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91060"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "x": 454,
+                        "y": 822
+                    }
+                ]
+            },
+            {
+                "name": "River Ground Exit",
+                "chest_unopened_img": "images/items/health/blue_health.png",
+                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                "sections": [
+                    {
+                        "name": "Blue Health",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91032"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "x": 458,
+                        "y": 674
                     }
                 ]
             },
@@ -381,8 +465,8 @@
                     {
                         "map": "5-9S",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 138,
+                        "y": 483
                     }
                 ]
             },
@@ -403,8 +487,8 @@
                     {
                         "map": "5-9S",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 166,
+                        "y": 384
                     }
                 ]
             },
@@ -425,8 +509,8 @@
                     {
                         "map": "5-9S",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 174,
+                        "y": 325
                     }
                 ]
             },
@@ -447,8 +531,8 @@
                     {
                         "map": "5-9S",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 314,
+                        "y": 213
                     }
                 ]
             },
@@ -469,8 +553,8 @@
                     {
                         "map": "5-9S",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 243,
+                        "y": 210
                     }
                 ]
             },
@@ -491,8 +575,8 @@
                     {
                         "map": "5-9S",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 318,
+                        "y": 286
                     }
                 ]
             },
@@ -513,8 +597,8 @@
                     {
                         "map": "5-9S",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 243,
+                        "y": 440
                     }
                 ]
             },
@@ -544,8 +628,8 @@
                     {
                         "map": "5-9S",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 108,
+                        "y": 182
                     }
                 ]
             },
@@ -575,8 +659,8 @@
                     {
                         "map": "5-9S",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 425,
+                        "y": 283
                     }
                 ]
             },
@@ -597,8 +681,8 @@
                     {
                         "map": "5-9S",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 384,
+                        "y": 682
                     }
                 ]
             },
@@ -619,8 +703,8 @@
                     {
                         "map": "5-9S",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 350,
+                        "y": 739
                     }
                 ]
             },
@@ -641,8 +725,27 @@
                     {
                         "map": "5-9S",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 438,
+                        "y": 779
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Ground Exit Hall",
+                "chest_unopened_img": "images/enemies/worker.png",
+                "chest_opened_img": "images/enemies/worker_bw.png",
+                "sections": [
+                    {
+                        "ref": "5-9E/Enemy in Ground Exit Hall/Worker",
+                        "name": "Worker"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 526,
+                        "y": 675
                     }
                 ]
             }
@@ -656,27 +759,6 @@
             "$map_access|5|9|mid"
         ],
         "children": [
-            {
-                "name": "River Ground Exit",
-                "chest_unopened_img": "images/items/health/blue_health.png",
-                "chest_opened_img": "images/items/health/blue_health_bw.png",
-                "sections": [
-                    {
-                        "name": "Blue Health",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91032"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9E",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
             {
                 "name": "Behind Pillar",
                 "sections": [
@@ -702,8 +784,8 @@
                 "map_locations": [
                     {
                         "map": "5-9E",
-                        "x": 0,
-                        "y": 0
+                        "x": 93,
+                        "y": 218
                     }
                 ]
             },
@@ -726,8 +808,8 @@
                 "map_locations": [
                     {
                         "map": "5-9E",
-                        "x": 0,
-                        "y": 0
+                        "x": 166,
+                        "y": 317
                     }
                 ]
             },
@@ -747,8 +829,8 @@
                 "map_locations": [
                     {
                         "map": "5-9E",
-                        "x": 0,
-                        "y": 0
+                        "x": 151,
+                        "y": 732
                     }
                 ]
             },
@@ -768,8 +850,8 @@
                 "map_locations": [
                     {
                         "map": "5-9E",
-                        "x": 0,
-                        "y": 0
+                        "x": 324,
+                        "y": 554
                     }
                 ]
             },
@@ -789,8 +871,8 @@
                 "map_locations": [
                     {
                         "map": "5-9E",
-                        "x": 0,
-                        "y": 0
+                        "x": 70,
+                        "y": 336
                     }
                 ]
             },
@@ -837,8 +919,8 @@
                 "map_locations": [
                     {
                         "map": "5-9E",
-                        "x": 0,
-                        "y": 0
+                        "x": 197,
+                        "y": 373
                     }
                 ]
             },
@@ -858,71 +940,8 @@
                 "map_locations": [
                     {
                         "map": "5-9E",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "In Left Wall",
-                "chest_unopened_img": "images/items/health/blue_health.png",
-                "chest_opened_img": "images/items/health/blue_health_bw.png",
-                "sections": [
-                    {
-                        "name": "Blue Health",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91058"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9E",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "In Back Wall",
-                "chest_unopened_img": "images/items/health/blue_health.png",
-                "chest_opened_img": "images/items/health/blue_health_bw.png",
-                "sections": [
-                    {
-                        "name": "Blue Health",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91059"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9E",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "In Right Wall",
-                "chest_unopened_img": "images/items/health/blue_health.png",
-                "chest_opened_img": "images/items/health/blue_health_bw.png",
-                "sections": [
-                    {
-                        "name": "Blue Health",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91060"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9E",
-                        "x": 0,
-                        "y": 0
+                        "x": 345,
+                        "y": 373
                     }
                 ]
             },
@@ -943,8 +962,8 @@
                     {
                         "map": "5-9E",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 108,
+                        "y": 91
                     }
                 ]
             },
@@ -965,8 +984,8 @@
                     {
                         "map": "5-9E",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 177,
+                        "y": 550
                     }
                 ]
             },
@@ -987,8 +1006,8 @@
                     {
                         "map": "5-9E",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 284,
+                        "y": 679
                     }
                 ]
             },
@@ -1009,8 +1028,8 @@
                     {
                         "map": "5-9E",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 291,
+                        "y": 374
                     }
                 ]
             },
@@ -1040,8 +1059,8 @@
                     {
                         "map": "5-9E",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 276,
+                        "y": 240
                     }
                 ]
             },
@@ -1067,8 +1086,8 @@
                         "map_locations": [
                             {
                                 "map": "5-9E",
-                                "x": 50,
-                                "y": 0
+                                "x": 295,
+                                "y": 251
                             }
                         ]
                     },
@@ -1088,8 +1107,8 @@
                         "map_locations": [
                             {
                                 "map": "5-9E",
-                                "x": 0,
-                                "y": 0
+                                "x": 402,
+                                "y": 76
                             }
                         ]
                     }

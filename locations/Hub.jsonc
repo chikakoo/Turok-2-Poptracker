@@ -9320,6 +9320,22 @@
             "name": "[Ultra Health] Leap of Faith Path"
           },
           {
+            "ref": "5-9S/In Left Wall/Blue Health",
+            "name": "[Blue Health] In Left Wall"
+          },
+          {
+            "ref": "5-9S/In Back Wall/Blue Health",
+            "name": "[Blue Health] In Back Wall"
+          },
+          {
+            "ref": "5-9S/In Right Wall/Blue Health",
+            "name": "[Blue Health] In Right Wall"
+          },
+          {
+            "ref": "5-9S/River Ground Exit/Blue Health",
+            "name": "[Blue Health] River Ground Exit"
+          },
+          {
             "ref": "5-9S/Enemy in Starting Hall Egg/Mite",
             "name": "[Mite] Enemy in Starting Hall Egg"
           },
@@ -9376,10 +9392,6 @@
             "name": "[Soldier] Enemy by River Top Portal"
           },
           {
-            "ref": "5-9E/River Ground Exit/Blue Health",
-            "name": "[Blue Health] River Ground Exit"
-          },
-          {
             "ref": "5-9E/Behind Pillar/LF10",
             "name": "[LF10] Behind Pillar"
           },
@@ -9422,18 +9434,6 @@
           {
             "ref": "5-9E/By Water Warp Exit Portal/Blue Health",
             "name": "[Blue Health] By Water Warp Exit Portal"
-          },
-          {
-            "ref": "5-9E/In Left Wall/Blue Health",
-            "name": "[Blue Health] In Left Wall"
-          },
-          {
-            "ref": "5-9E/In Back Wall/Blue Health",
-            "name": "[Blue Health] In Back Wall"
-          },
-          {
-            "ref": "5-9E/In Right Wall/Blue Health",
-            "name": "[Blue Health] In Right Wall"
           },
           {
             "ref": "5-9E/Enemy in Ground Exit Hall/Worker",
