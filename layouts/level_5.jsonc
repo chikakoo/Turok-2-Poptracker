@@ -95,9 +95,26 @@
             {
                 "title": "5-9",
                 "content": {
-                    "type": "map",
-                    "maps": [
-                        "5-9"
+                    "type": "tabbed",
+                    "tabs": [
+                        {
+                            "title": "Start",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-9S"
+                                ]
+                            }
+                        },
+                        {
+                            "title": "End",
+                            "content": {
+                                "type": "map",
+                                "maps": [
+                                    "5-9E"
+                                ]
+                            }
+                        }
                     ]
                 }
             },

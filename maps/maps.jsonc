@@ -317,8 +317,7 @@
     "name": "4-7",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_4/4-7.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_4/4-7.png"
   },
   {
     "name": "4-8a",
@@ -422,11 +421,16 @@
     "img": "images/maps/maplol.png"
   },
   {
-    "name": "5-9",
+    "name": "5-9S",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_5/5-9.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_5/5-9S.png"
+  },
+  {
+    "name": "5-9E",
+    "location_size": 15,
+    "location_border_thickness": 2,
+    "img": "images/maps/level_5/5-9E.png"
   },
   {
     "name": "5-E2",

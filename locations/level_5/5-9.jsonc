@@ -1,6 +1,6 @@
 [
-    {
-        "name": "5-9",
+    { // 5-9S
+        "name": "5-9S",
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
@@ -31,7 +31,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -52,7 +52,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -80,7 +80,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -110,7 +110,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -131,7 +131,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -152,7 +152,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -173,7 +173,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -210,7 +210,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -234,7 +234,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -255,7 +255,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -276,7 +276,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -306,7 +306,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -334,7 +334,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 0,
                         "y": 0
                     }
@@ -358,12 +358,304 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9S",
                         "x": 25,
                         "y": 0
                     }
                 ]
             },
+            {
+                "name": "Enemy in Starting Hall Egg",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91067"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on Top Platform",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91068"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Left of Platforms",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91069"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy in Back Left Corner",
+                "chest_unopened_img": "images/enemies/soldier.png",
+                "chest_opened_img": "images/enemies/soldier_bw.png",
+                "sections": [
+                    {
+                        "name": "Soldier",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91070"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Catwalks Start",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91071"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by Explodable Wall",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91072"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy at Catwalks End",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91073"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy Before Checkpoint",
+                "sections": [
+                    {
+                        "name": "Worker",
+                        "chest_unopened_img": "images/enemies/worker.png",
+                        "chest_opened_img": "images/enemies/worker_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91074|91075"
+                        ]
+                    },
+                    {
+                        "name": "Drone",
+                        "chest_unopened_img": "images/enemies/drone.png",
+                        "chest_opened_img": "images/enemies/drone_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91076|91077"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy After Explodable Wall",
+                "sections": [
+                    {
+                        "name": "Worker",
+                        "chest_unopened_img": "images/enemies/worker.png",
+                        "chest_opened_img": "images/enemies/worker_bw.png",
+                        "item_count": 2,
+                        "visibility_rules": [
+                            "$id_exists|91078|91079"
+                        ]
+                    },
+                    {
+                        "name": "Drone",
+                        "chest_unopened_img": "images/enemies/drone.png",
+                        "chest_opened_img": "images/enemies/drone_bw.png",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91080"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy on River Platform",
+                "chest_unopened_img": "images/enemies/mite.png",
+                "chest_opened_img": "images/enemies/mite_bw.png",
+                "sections": [
+                    {
+                        "name": "Mite",
+                        "item_count": 3,
+                        "visibility_rules": [
+                            "$id_exists|91081|91082|91083"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy up Climbable Wall",
+                "chest_unopened_img": "images/enemies/drone.png",
+                "chest_opened_img": "images/enemies/drone_bw.png",
+                "sections": [
+                    {
+                        "name": "Drone",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91084"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            },
+            {
+                "name": "Enemy by River Top Portal",
+                "chest_unopened_img": "images/enemies/soldier.png",
+                "chest_opened_img": "images/enemies/soldier_bw.png",
+                "sections": [
+                    {
+                        "name": "Soldier",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|91092"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-9S",
+                        "shape": "diamond",
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
+            }
+        ]
+    },
+    { // 5-9E
+        "name": "5-9E",
+        "chest_unopened_img": "images/items/life_forces/lf1.png",
+        "chest_opened_img": "images/items/life_forces/lf1_bw.png",
+        "access_rules": [
+            "$map_access|5|9|mid"
+        ],
+        "children": [
             {
                 "name": "River Ground Exit",
                 "chest_unopened_img": "images/items/health/blue_health.png",
@@ -379,7 +671,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "x": 0,
                         "y": 0
                     }
@@ -409,7 +701,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "x": 0,
                         "y": 0
                     }
@@ -433,7 +725,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "x": 0,
                         "y": 0
                     }
@@ -454,7 +746,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "x": 0,
                         "y": 0
                     }
@@ -475,7 +767,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "x": 0,
                         "y": 0
                     }
@@ -496,7 +788,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "x": 0,
                         "y": 0
                     }
@@ -544,7 +836,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "x": 0,
                         "y": 0
                     }
@@ -565,7 +857,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "x": 0,
                         "y": 0
                     }
@@ -586,7 +878,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "x": 0,
                         "y": 0
                     }
@@ -607,7 +899,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "x": 0,
                         "y": 0
                     }
@@ -628,267 +920,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Enemy in Starting Hall Egg",
-                "chest_unopened_img": "images/enemies/mite.png",
-                "chest_opened_img": "images/enemies/mite_bw.png",
-                "sections": [
-                    {
-                        "name": "Mite",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91067"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9",
-                        "shape": "diamond",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Enemy on Top Platform",
-                "chest_unopened_img": "images/enemies/drone.png",
-                "chest_opened_img": "images/enemies/drone_bw.png",
-                "sections": [
-                    {
-                        "name": "Drone",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91068"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9",
-                        "shape": "diamond",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Enemy Left of Platforms",
-                "chest_unopened_img": "images/enemies/drone.png",
-                "chest_opened_img": "images/enemies/drone_bw.png",
-                "sections": [
-                    {
-                        "name": "Drone",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91069"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9",
-                        "shape": "diamond",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Enemy in Back Left Corner",
-                "chest_unopened_img": "images/enemies/soldier.png",
-                "chest_opened_img": "images/enemies/soldier_bw.png",
-                "sections": [
-                    {
-                        "name": "Soldier",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91070"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9",
-                        "shape": "diamond",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Enemy at Catwalks Start",
-                "chest_unopened_img": "images/enemies/drone.png",
-                "chest_opened_img": "images/enemies/drone_bw.png",
-                "sections": [
-                    {
-                        "name": "Drone",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91071"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9",
-                        "shape": "diamond",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Enemy by Explodable Wall",
-                "chest_unopened_img": "images/enemies/drone.png",
-                "chest_opened_img": "images/enemies/drone_bw.png",
-                "sections": [
-                    {
-                        "name": "Drone",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91072"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9",
-                        "shape": "diamond",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Enemy at Catwalks End",
-                "chest_unopened_img": "images/enemies/drone.png",
-                "chest_opened_img": "images/enemies/drone_bw.png",
-                "sections": [
-                    {
-                        "name": "Drone",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91073"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9",
-                        "shape": "diamond",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Enemy Before Checkpoint",
-                "sections": [
-                    {
-                        "name": "Worker",
-                        "chest_unopened_img": "images/enemies/worker.png",
-                        "chest_opened_img": "images/enemies/worker_bw.png",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$id_exists|91074|91075"
-                        ]
-                    },
-                    {
-                        "name": "Drone",
-                        "chest_unopened_img": "images/enemies/drone.png",
-                        "chest_opened_img": "images/enemies/drone_bw.png",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$id_exists|91076|91077"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9",
-                        "shape": "diamond",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Enemy After Explodable Wall",
-                "sections": [
-                    {
-                        "name": "Worker",
-                        "chest_unopened_img": "images/enemies/worker.png",
-                        "chest_opened_img": "images/enemies/worker_bw.png",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$id_exists|91078|91079"
-                        ]
-                    },
-                    {
-                        "name": "Drone",
-                        "chest_unopened_img": "images/enemies/drone.png",
-                        "chest_opened_img": "images/enemies/drone_bw.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91080"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9",
-                        "shape": "diamond",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Enemy on River Platform",
-                "chest_unopened_img": "images/enemies/mite.png",
-                "chest_opened_img": "images/enemies/mite_bw.png",
-                "sections": [
-                    {
-                        "name": "Mite",
-                        "item_count": 3,
-                        "visibility_rules": [
-                            "$id_exists|91081|91082|91083"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9",
-                        "shape": "diamond",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Enemy up Climbable Wall",
-                "chest_unopened_img": "images/enemies/drone.png",
-                "chest_opened_img": "images/enemies/drone_bw.png",
-                "sections": [
-                    {
-                        "name": "Drone",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91084"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9",
-                        "shape": "diamond",
+                        "map": "5-9E",
                         "x": 0,
                         "y": 0
                     }
@@ -909,7 +941,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "shape": "diamond",
                         "x": 0,
                         "y": 0
@@ -931,7 +963,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "shape": "diamond",
                         "x": 0,
                         "y": 0
@@ -953,7 +985,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "shape": "diamond",
                         "x": 0,
                         "y": 0
@@ -975,29 +1007,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
-                        "shape": "diamond",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Enemy by River Top Portal",
-                "chest_unopened_img": "images/enemies/soldier.png",
-                "chest_opened_img": "images/enemies/soldier_bw.png",
-                "sections": [
-                    {
-                        "name": "Soldier",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|91092"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "shape": "diamond",
                         "x": 0,
                         "y": 0
@@ -1028,7 +1038,7 @@
                 ],
                 "map_locations": [
                     {
-                        "map": "5-9",
+                        "map": "5-9E",
                         "shape": "diamond",
                         "x": 0,
                         "y": 0
@@ -1056,7 +1066,7 @@
                         ],
                         "map_locations": [
                             {
-                                "map": "5-9",
+                                "map": "5-9E",
                                 "x": 50,
                                 "y": 0
                             }
@@ -1077,7 +1087,7 @@
                         ],
                         "map_locations": [
                             {
-                                "map": "5-9",
+                                "map": "5-9E",
                                 "x": 0,
                                 "y": 0
                             }
