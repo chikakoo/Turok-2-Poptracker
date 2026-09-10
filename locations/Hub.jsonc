@@ -9004,8 +9004,12 @@
             "name": "[Flame Thrower] Water Path Start"
           },
           {
-            "ref": "5-8/Water Path Mid/Flame Thrower Tank",
-            "name": "[Flame Thrower Tank] Water Path Mid"
+            "ref": "5-8/Water Path First Corner/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] Water Path First Corner"
+          },
+          {
+            "ref": "5-8/Water Path Second Corner/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] Water Path Second Corner"
           },
           {
             "ref": "5-8/Water Path End/Scorpion Launcher",
@@ -9044,20 +9048,20 @@
             "name": "[Charge Dart Pak] Water Path Right in Right Wall"
           },
           {
-            "ref": "5-8/Catwalks First Corner/Grenade",
-            "name": "[Grenade] Catwalks First Corner"
+            "ref": "5-8/Catwalks Start/Grenade",
+            "name": "[Grenade] Catwalks Start"
           },
           {
-            "ref": "5-8/Catwalks Second Corner/Mine",
-            "name": "[Mine] Catwalks Second Corner"
+            "ref": "5-8/Catwalks Start/Mine",
+            "name": "[Mine] Catwalks Start"
           },
           {
-            "ref": "5-8/Catwalks Third Corner/Grenade",
-            "name": "[Grenade] Catwalks Third Corner"
+            "ref": "5-8/Catwalks End/Grenade",
+            "name": "[Grenade] Catwalks End"
           },
           {
-            "ref": "5-8/Catwalks Fourth Corner/Blue Health",
-            "name": "[Blue Health] Catwalks Fourth Corner"
+            "ref": "5-8/Catwalks End/Blue Health",
+            "name": "[Blue Health] Catwalks End"
           },
           {
             "ref": "5-8/Enemy in Starting Hall/Mite in Egg",

@@ -23,8 +23,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 185,
+                        "y": 395
                     }
                 ]
             },
@@ -44,8 +44,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 206,
+                        "y": 237
                     }
                 ]
             },
@@ -65,8 +65,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 215,
+                        "y": 144
                     }
                 ]
             },
@@ -86,8 +86,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 126,
+                        "y": 51
                     }
                 ]
             },
@@ -105,8 +105,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 199,
+                        "y": 72
                     }
                 ]
             },
@@ -126,8 +126,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 154,
+                        "y": 43
                     }
                 ]
             },
@@ -147,8 +147,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 275,
+                        "y": 237
                     }
                 ]
             },
@@ -168,8 +168,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 233,
+                        "y": 213
                     }
                 ]
             },
@@ -189,29 +189,50 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 264,
+                        "y": 252
                     }
                 ]
             },
             {
-                "name": "Water Path Mid",
+                "name": "Water Path First Corner",
                 "chest_unopened_img": "images/items/ammo/flame_thrower_tank.png",
                 "chest_opened_img": "images/items/ammo/flame_thrower_tank_bw.png",
                 "sections": [
                     {
                         "name": "Flame Thrower Tank",
-                        "item_count": 2,
+                        "item_count": 1,
                         "visibility_rules": [
-                            "$id_exists|90024|90025"
+                            "$id_exists|90024"
                         ]
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 272,
+                        "y": 403
+                    }
+                ]
+            },
+            {
+                "name": "Water Path Second Corner",
+                "chest_unopened_img": "images/items/ammo/flame_thrower_tank.png",
+                "chest_opened_img": "images/items/ammo/flame_thrower_tank_bw.png",
+                "sections": [
+                    {
+                        "name": "Flame Thrower Tank",
+                        "item_count": 1,
+                        "visibility_rules": [
+                            "$id_exists|90025"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "5-8",
+                        "x": 401,
+                        "y": 403
                     }
                 ]
             },
@@ -231,8 +252,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 419,
+                        "y": 601
                     }
                 ]
             },
@@ -252,8 +273,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 489,
+                        "y": 601
                     }
                 ]
             },
@@ -273,8 +294,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 489,
+                        "y": 578
                     }
                 ]
             },
@@ -294,8 +315,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 511,
+                        "y": 601
                     }
                 ]
             },
@@ -315,8 +336,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 489,
+                        "y": 625
                     }
                 ]
             },
@@ -336,8 +357,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 350,
+                        "y": 601
                     }
                 ]
             },
@@ -357,8 +378,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 350,
+                        "y": 625
                     }
                 ]
             },
@@ -378,8 +399,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 328,
+                        "y": 601
                     }
                 ]
             },
@@ -399,39 +420,27 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 350,
+                        "y": 578
                     }
                 ]
             },
             {
-                "name": "Catwalks First Corner",
-                "chest_unopened_img": "images/items/ammo/grenade.png",
-                "chest_opened_img": "images/items/ammo/grenade_bw.png",
+                "name": "Catwalks Start",
                 "sections": [
                     {
                         "name": "Grenade",
+                        "chest_unopened_img": "images/items/ammo/grenade.png",
+                        "chest_opened_img": "images/items/ammo/grenade_bw.png",
                         "item_count": 2,
                         "visibility_rules": [
                             "$id_exists|90041|90042"
                         ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-8",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Catwalks Second Corner",
-                "chest_unopened_img": "images/items/ammo/mine.png",
-                "chest_opened_img": "images/items/ammo/mine_bw.png",
-                "sections": [
+                    },
                     {
                         "name": "Mine",
+                        "chest_unopened_img": "images/items/ammo/mine.png",
+                        "chest_opened_img": "images/items/ammo/mine_bw.png",
                         "item_count": 2,
                         "visibility_rules": [
                             "$id_exists|90043|90044"
@@ -441,39 +450,27 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 185,
+                        "y": 174
                     }
                 ]
             },
             {
-                "name": "Catwalks Third Corner",
-                "chest_unopened_img": "images/items/ammo/grenade.png",
-                "chest_opened_img": "images/items/ammo/grenade_bw.png",
+                "name": "Catwalks End",
                 "sections": [
                     {
                         "name": "Grenade",
+                        "chest_unopened_img": "images/items/ammo/grenade.png",
+                        "chest_opened_img": "images/items/ammo/grenade_bw.png",
                         "item_count": 2,
                         "visibility_rules": [
                             "$id_exists|90045|90046"
                         ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-8",
-                        "x": 0,
-                        "y": 0
-                    }
-                ]
-            },
-            {
-                "name": "Catwalks Fourth Corner",
-                "chest_unopened_img": "images/items/health/blue_health.png",
-                "chest_opened_img": "images/items/health/blue_health_bw.png",
-                "sections": [
+                    },
                     {
                         "name": "Blue Health",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
                         "item_count": 2,
                         "visibility_rules": [
                             "$id_exists|90047|90048"
@@ -483,8 +480,8 @@
                 "map_locations": [
                     {
                         "map": "5-8",
-                        "x": 0,
-                        "y": 0
+                        "x": 123,
+                        "y": 135
                     }
                 ]
             },
@@ -505,8 +502,8 @@
                     {
                         "map": "5-8",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 212,
+                        "y": 300
                     }
                 ]
             },
@@ -527,8 +524,8 @@
                     {
                         "map": "5-8",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 137,
+                        "y": 79
                     }
                 ]
             },
@@ -549,8 +546,8 @@
                     {
                         "map": "5-8",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 193,
+                        "y": 96
                     }
                 ]
             },
@@ -571,8 +568,8 @@
                     {
                         "map": "5-8",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 201,
+                        "y": 32
                     }
                 ]
             },
@@ -593,8 +590,8 @@
                     {
                         "map": "5-8",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 241,
+                        "y": 190
                     }
                 ]
             },
@@ -615,8 +612,8 @@
                     {
                         "map": "5-8",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 420,
+                        "y": 631
                     }
                 ]
             },
@@ -637,8 +634,8 @@
                     {
                         "map": "5-8",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 214,
+                        "y": 190
                     }
                 ]
             },
@@ -659,8 +656,8 @@
                     {
                         "map": "5-8",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 123,
+                        "y": 116
                     }
                 ]
             },
@@ -681,8 +678,8 @@
                     {
                         "map": "5-8",
                         "shape": "diamond",
-                        "x": 0,
-                        "y": 0
+                        "x": 68,
+                        "y": 158
                     }
                 ]
             }
