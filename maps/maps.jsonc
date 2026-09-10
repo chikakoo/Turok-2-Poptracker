@@ -518,8 +518,8 @@
   },
   {
     "name": "6-4d",
-    "location_size": 5,
-    "location_border_thickness": 1,
+    "location_size": 12,
+    "location_border_thickness": 2,
     "img": "images/maps/level_6/6-4d.png"
   },
   {
