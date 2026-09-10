@@ -314,8 +314,8 @@
   },
   {
     "name": "4-7",
-    "location_size": 15,
-    "location_border_thickness": 2,
+    "location_size": 8,
+    "location_border_thickness": 1,
     "img": "images/maps/level_4/4-7.png"
   },
   {
