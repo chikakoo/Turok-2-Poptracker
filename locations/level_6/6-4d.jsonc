@@ -159,6 +159,9 @@
                         "chest_unopened_img": "images/interactables/assembly_plant.png",
                         "chest_opened_img": "images/interactables/assembly_plant_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "red_laser_cell:2"
+                        ],
                         "visibility_rules": [
                             "$id_exists|123047"
                         ]
