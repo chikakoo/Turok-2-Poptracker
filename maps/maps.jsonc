@@ -450,8 +450,7 @@
     "name": "5-10",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_5/5-10.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_5/5-10.png"
   },
   // #endregion Level 5
 
