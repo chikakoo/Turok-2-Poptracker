@@ -341,10 +341,9 @@
   },
   {
     "name": "4-6b",
-    "location_size": 15,
+    "location_size": 10,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_4/4-6b.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_4/4-6b.png"
   },
   // #endregion Level 4
 
@@ -400,10 +399,9 @@
   },
   {
     "name": "5-7",
-    "location_size": 15,
-    "location_border_thickness": 2,
-    //"img": "images/maps/level_5/5-7.png",
-    "img": "images/maps/maplol.png"
+    "location_size": 6,
+    "location_border_thickness": 1,
+    "img": "images/maps/level_5/5-7.png"
   },
   {
     "name": "5-8",
