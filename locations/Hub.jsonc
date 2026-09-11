@@ -8800,8 +8800,8 @@
             "name": "[Bores] In Center Room Wall"
           },
           {
-            "ref": "5-7/After Force Field in Wall/Box of Bullets",
-            "name": "[Box of Bullets] After Force Field in Wall"
+            "ref": "5-7/In Wall/Box of Bullets",
+            "name": "[Box of Bullets] In Wall"
           },
           {
             "ref": "5-7/Before Elevator/Blue Health",
@@ -8856,8 +8856,8 @@
             "name": "[Soldier] Enemy in Left Water Room"
           },
           {
-            "ref": "5-7/Enemy in  Right Water Room/Soldier",
-            "name": "[Soldier] Enemy in  Right Water Room"
+            "ref": "5-7/Enemy in Right Water Room/Soldier",
+            "name": "[Soldier] Enemy in Right Water Room"
           },
           {
             "ref": "5-7/Enemy in Hall/Worker",
@@ -8908,8 +8908,8 @@
             "name": "[Drone] Enemy in Center Room Side"
           },
           {
-            "ref": "5-7/Enemy After Forcefield in Wall/Drone",
-            "name": "[Drone] Enemy After Forcefield in Wall"
+            "ref": "5-7/Enemy in Wall/Drone",
+            "name": "[Drone] Enemy in Wall"
           },
           {
             "ref": "5-7/Enemy by Elevator/Drone",
