@@ -7001,307 +7001,327 @@
         ]
       },
       {
-        "name": "4-8a",
+        "name": "4-8",
         "sections": [
           {
-            "ref": "4-8a/First Cave/Flame Thrower",
-            "name": "[Flame Thrower] First Cave"
+            "ref": "4-8/Before Vent/First Cave/Flame Thrower",
+            "name": "[Flame Thrower] Before Vent/First Cave"
           },
           {
-            "ref": "4-8a/Behind Rocks/Tek Bow",
-            "name": "[Tek Bow] Behind Rocks"
+            "ref": "4-8/Before Vent/Behind Rocks/Tek Bow",
+            "name": "[Tek Bow] Before Vent/Behind Rocks"
           },
           {
-            "ref": "4-8a/Bottom Stalagmite/Flame Thrower",
-            "name": "[Flame Thrower] Bottom Stalagmite"
+            "ref": "4-8/Before Vent/Bottom Stalagmite/Flame Thrower",
+            "name": "[Flame Thrower] Before Vent/Bottom Stalagmite"
           },
           {
-            "ref": "4-8a/In Bottom Cave/Explosive Shells",
-            "name": "[Explosive Shells] In Bottom Cave"
+            "ref": "4-8/Before Vent/In Bottom Cave/Explosive Shells",
+            "name": "[Explosive Shells] Before Vent/In Bottom Cave"
           },
           {
-            "ref": "4-8a/In Bottom Cave/Clip",
-            "name": "[Clip] In Bottom Cave"
+            "ref": "4-8/Before Vent/In Bottom Cave/Clip",
+            "name": "[Clip] Before Vent/In Bottom Cave"
           },
           {
-            "ref": "4-8a/End of Bottom Path/Grenade Launcher",
-            "name": "[Grenade Launcher] End of Bottom Path"
+            "ref": "4-8/Before Vent/End of Bottom Path/Grenade Launcher",
+            "name": "[Grenade Launcher] Before Vent/End of Bottom Path"
           },
           {
-            "ref": "4-8a/Behind Stalagmite/Charge Dart Pak",
-            "name": "[Charge Dart Pak] Behind Stalagmite"
+            "ref": "4-8/Before Vent/Behind Stalagmite/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Before Vent/Behind Stalagmite"
           },
           {
-            "ref": "4-8a/Narrow Path Start/Blue Health",
-            "name": "[Blue Health] Narrow Path Start"
+            "ref": "4-8/Before Vent/Narrow Path Start/Blue Health",
+            "name": "[Blue Health] Before Vent/Narrow Path Start"
           },
           {
-            "ref": "4-8a/Narrow Path Top/Flame Thrower",
-            "name": "[Flame Thrower] Narrow Path Top"
+            "ref": "4-8/Before Vent/Narrow Path Top/Flame Thrower",
+            "name": "[Flame Thrower] Before Vent/Narrow Path Top"
           },
           {
-            "ref": "4-8a/After Checkpoint Gate/Tek Quiver",
-            "name": "[Tek Quiver] After Checkpoint Gate"
+            "ref": "4-8/Before Vent/After Checkpoint Gate/Tek Quiver",
+            "name": "[Tek Quiver] Before Vent/After Checkpoint Gate"
           },
           {
-            "ref": "4-8a/Ledge After Checkpoint/Sunfire Pod",
-            "name": "[Sunfire Pod] Ledge After Checkpoint"
+            "ref": "4-8/Before Vent/Ledge After Checkpoint/Sunfire Pod",
+            "name": "[Sunfire Pod] Before Vent/Ledge After Checkpoint"
           },
           {
-            "ref": "4-8a/Path After Jump/Blue Health",
-            "name": "[Blue Health] Path After Jump"
+            "ref": "4-8/Before Vent/Path After Jump/Blue Health",
+            "name": "[Blue Health] Before Vent/Path After Jump"
           },
           {
-            "ref": "4-8a/Path After Jump/Explosive Shells",
-            "name": "[Explosive Shells] Path After Jump"
+            "ref": "4-8/Before Vent/Path After Jump/Explosive Shells",
+            "name": "[Explosive Shells] Before Vent/Path After Jump"
           },
           {
-            "ref": "4-8a/Tunnel After Path/Shredder",
-            "name": "[Shredder] Tunnel After Path"
+            "ref": "4-8/Before Vent/Tunnel After Path/Shredder",
+            "name": "[Shredder] Before Vent/Tunnel After Path"
           },
           {
-            "ref": "4-8a/At Intersection/Shells",
-            "name": "[Shells] At Intersection"
+            "ref": "4-8/Before Vent/At Intersection/Shells",
+            "name": "[Shells] Before Vent/At Intersection"
           },
           {
-            "ref": "4-8a/By Cave Door/Blue Health",
-            "name": "[Blue Health] By Cave Door"
+            "ref": "4-8/Before Vent/By Cave Door/Blue Health",
+            "name": "[Blue Health] Before Vent/By Cave Door"
           },
           {
-            "ref": "4-8a/By Cave Door/Plasma Rifle",
-            "name": "[Plasma Rifle] By Cave Door"
+            "ref": "4-8/Before Vent/By Cave Door/Plasma Rifle",
+            "name": "[Plasma Rifle] Before Vent/By Cave Door"
           },
           {
-            "ref": "4-8a/At Ledge End/Shells",
-            "name": "[Shells] At Ledge End"
+            "ref": "4-8/Before Vent/At Ledge End/Shells",
+            "name": "[Shells] Before Vent/At Ledge End"
           },
           {
-            "ref": "4-8a/Ledge Jump/LF10",
-            "name": "[LF10] Ledge Jump"
+            "ref": "4-8/Before Vent/Ledge Jump/LF10",
+            "name": "[LF10] Before Vent/Ledge Jump"
           },
           {
-            "ref": "4-8a/Ledge Jump/Full Health",
-            "name": "[Full Health] Ledge Jump"
+            "ref": "4-8/Before Vent/Ledge Jump/Full Health",
+            "name": "[Full Health] Before Vent/Ledge Jump"
           },
           {
-            "ref": "4-8a/In Ledge Jump Room/Plasma Rounds",
-            "name": "[Plasma Rounds] In Ledge Jump Room"
+            "ref": "4-8/Before Vent/In Ledge Jump Room/Plasma Rounds",
+            "name": "[Plasma Rounds] Before Vent/In Ledge Jump Room"
           },
           {
-            "ref": "4-8a/In Ledge Jump Room/Explosive Shells",
-            "name": "[Explosive Shells] In Ledge Jump Room"
+            "ref": "4-8/Before Vent/In Ledge Jump Room/Explosive Shells",
+            "name": "[Explosive Shells] Before Vent/In Ledge Jump Room"
           },
           {
-            "ref": "4-8a/Ledge Jump Path End/Cerebral Bore",
-            "name": "[Cerebral Bore] Ledge Jump Path End"
+            "ref": "4-8/Before Vent/Ledge Jump Path End/Cerebral Bore",
+            "name": "[Cerebral Bore] Before Vent/Ledge Jump Path End"
           },
           {
-            "ref": "4-8a/Drop Down/Blue Health",
-            "name": "[Blue Health] Drop Down"
+            "ref": "4-8/Before Vent/Drop Down/Blue Health",
+            "name": "[Blue Health] Before Vent/Drop Down"
           },
           {
-            "ref": "4-8a/Drop Down Path End/Cave Door Key",
-            "name": "[Cave Door Key] Drop Down Path End"
+            "ref": "4-8/Before Vent/Drop Down Path End/Cave Door Key",
+            "name": "[Cave Door Key] Before Vent/Drop Down Path End"
           },
           {
-            "ref": "4-8a/Path Bottom/Unlock Cave Door",
-            "name": "[Unlock Cave Door] Path Bottom"
+            "ref": "4-8/Before Vent/Path Bottom/Unlock Cave Door",
+            "name": "[Unlock Cave Door] Before Vent/Path Bottom"
           },
           {
-            "ref": "4-8a/Enemy in First Cave/Cave Worm",
-            "name": "[Cave Worm] Enemy in First Cave"
+            "ref": "4-8/Before Vent/Enemy in First Cave/Cave Worm",
+            "name": "[Cave Worm] Before Vent/Enemy in First Cave"
           },
           {
-            "ref": "4-8a/Enemy After First Cave/Nala",
-            "name": "[Nala] Enemy After First Cave"
+            "ref": "4-8/Before Vent/Enemy After First Cave/Nala",
+            "name": "[Nala] Before Vent/Enemy After First Cave"
           },
           {
-            "ref": "4-8a/Enemy at Bottom Cave Start/Guardian",
-            "name": "[Guardian] Enemy at Bottom Cave Start"
+            "ref": "4-8/Before Vent/Enemy at Bottom Cave Start/Guardian",
+            "name": "[Guardian] Before Vent/Enemy at Bottom Cave Start"
           },
           {
-            "ref": "4-8a/Enemy in First Bottom Cave/Leaper",
-            "name": "[Leaper] Enemy in First Bottom Cave"
+            "ref": "4-8/Before Vent/Enemy in First Bottom Cave/Leaper",
+            "name": "[Leaper] Before Vent/Enemy in First Bottom Cave"
           },
           {
-            "ref": "4-8a/Enemy Above First Bottom Cave/Spider",
-            "name": "[Spider] Enemy Above First Bottom Cave"
+            "ref": "4-8/Before Vent/Enemy Above First Bottom Cave/Spider",
+            "name": "[Spider] Before Vent/Enemy Above First Bottom Cave"
           },
           {
-            "ref": "4-8a/Enemy in Second Bottom Cave/Cave Spider",
-            "name": "[Cave Spider] Enemy in Second Bottom Cave"
+            "ref": "4-8/Before Vent/Enemy in Second Bottom Cave/Cave Spider",
+            "name": "[Cave Spider] Before Vent/Enemy in Second Bottom Cave"
           },
           {
-            "ref": "4-8a/Enemy Above Second Bottom Cave/Spider",
-            "name": "[Spider] Enemy Above Second Bottom Cave"
+            "ref": "4-8/Before Vent/Enemy Above Second Bottom Cave/Spider",
+            "name": "[Spider] Before Vent/Enemy Above Second Bottom Cave"
           },
           {
-            "ref": "4-8a/Enemy Before Narrow Path/Sentinel",
-            "name": "[Sentinel] Enemy Before Narrow Path"
+            "ref": "4-8/Before Vent/Enemy Before Narrow Path/Sentinel",
+            "name": "[Sentinel] Before Vent/Enemy Before Narrow Path"
           },
           {
-            "ref": "4-8a/Enemy on Narrow Path/Guardian",
-            "name": "[Guardian] Enemy on Narrow Path"
+            "ref": "4-8/Before Vent/Enemy on Narrow Path/Guardian",
+            "name": "[Guardian] Before Vent/Enemy on Narrow Path"
           },
           {
-            "ref": "4-8a/Enemy on Narrow Path/Sentinel",
-            "name": "[Sentinel] Enemy on Narrow Path"
+            "ref": "4-8/Before Vent/Enemy on Narrow Path/Sentinel",
+            "name": "[Sentinel] Before Vent/Enemy on Narrow Path"
           },
           {
-            "ref": "4-8a/Enemy on Narrow Path End/Spider",
-            "name": "[Spider] Enemy on Narrow Path End"
+            "ref": "4-8/Before Vent/Enemy on Narrow Path End/Spider",
+            "name": "[Spider] Before Vent/Enemy on Narrow Path End"
           },
           {
-            "ref": "4-8a/Enemy by Checkpoint/Cave Spider",
-            "name": "[Cave Spider] Enemy by Checkpoint"
+            "ref": "4-8/Before Vent/Enemy by Checkpoint/Cave Spider",
+            "name": "[Cave Spider] Before Vent/Enemy by Checkpoint"
           },
           {
-            "ref": "4-8a/Enemy on Ledge After Checkpoint/Endtrail",
-            "name": "[Endtrail] Enemy on Ledge After Checkpoint"
+            "ref": "4-8/Before Vent/Enemy on Ledge After Checkpoint/Endtrail",
+            "name": "[Endtrail] Before Vent/Enemy on Ledge After Checkpoint"
           },
           {
-            "ref": "4-8a/Enemy on Path/Endtrail",
-            "name": "[Endtrail] Enemy on Path"
+            "ref": "4-8/Before Vent/Enemy on Path/Endtrail",
+            "name": "[Endtrail] Before Vent/Enemy on Path"
           },
           {
-            "ref": "4-8a/Enemy at Tunnel Start/Sentinel",
-            "name": "[Sentinel] Enemy at Tunnel Start"
+            "ref": "4-8/Before Vent/Enemy at Tunnel Start/Sentinel",
+            "name": "[Sentinel] Before Vent/Enemy at Tunnel Start"
           },
           {
-            "ref": "4-8a/Enemy in Tunnel/Spider",
-            "name": "[Spider] Enemy in Tunnel"
+            "ref": "4-8/Before Vent/Enemy in Tunnel/Spider",
+            "name": "[Spider] Before Vent/Enemy in Tunnel"
           },
           {
-            "ref": "4-8a/Enemy in Tunnel/Guardian",
-            "name": "[Guardian] Enemy in Tunnel"
+            "ref": "4-8/Before Vent/Enemy in Tunnel/Guardian",
+            "name": "[Guardian] Before Vent/Enemy in Tunnel"
           },
           {
-            "ref": "4-8a/Enemy at Intersection/Guardian",
-            "name": "[Guardian] Enemy at Intersection"
+            "ref": "4-8/Before Vent/Enemy at Intersection/Guardian",
+            "name": "[Guardian] Before Vent/Enemy at Intersection"
           },
           {
-            "ref": "4-8a/Enemy at Back of Path/Guardian",
-            "name": "[Guardian] Enemy at Back of Path"
+            "ref": "4-8/Before Vent/Enemy at Back of Path/Guardian",
+            "name": "[Guardian] Before Vent/Enemy at Back of Path"
           },
           {
-            "ref": "4-8a/Enemy on Upper Path/Endtrail",
-            "name": "[Endtrail] Enemy on Upper Path"
+            "ref": "4-8/Before Vent/Enemy on Upper Path/Endtrail",
+            "name": "[Endtrail] Before Vent/Enemy on Upper Path"
           },
           {
-            "ref": "4-8a/Enemy in Ledge Jump Room/Guardian",
-            "name": "[Guardian] Enemy in Ledge Jump Room"
+            "ref": "4-8/Before Vent/Enemy in Ledge Jump Room/Guardian",
+            "name": "[Guardian] Before Vent/Enemy in Ledge Jump Room"
           },
           {
-            "ref": "4-8a/Enemy After Ledge Jump Room/Nala",
-            "name": "[Nala] Enemy After Ledge Jump Room"
+            "ref": "4-8/Before Vent/Enemy After Ledge Jump Room/Nala",
+            "name": "[Nala] Before Vent/Enemy After Ledge Jump Room"
           },
           {
-            "ref": "4-8a/Enemy After Ledge Jump Room/Endtrail",
-            "name": "[Endtrail] Enemy After Ledge Jump Room"
+            "ref": "4-8/Before Vent/Enemy After Ledge Jump Room/Endtrail",
+            "name": "[Endtrail] Before Vent/Enemy After Ledge Jump Room"
           },
           {
-            "ref": "4-8a/Enemy Spawned From Standing Here/Either Sentinel",
-            "name": "[Either Sentinel] Enemy Spawned From Standing Here"
+            "ref": "4-8/Before Vent/Enemy Spawned From Standing Here/Either Sentinel",
+            "name": "[Either Sentinel] Before Vent/Enemy Spawned From Standing Here"
           },
           {
-            "ref": "4-8a/Cave Door/In First Corner/Clip",
-            "name": "[Clip] Cave Door/In First Corner"
+            "ref": "4-8/Before Vent/Cave Door/In First Corner/Clip",
+            "name": "[Clip] Before Vent/Cave Door/In First Corner"
           },
           {
-            "ref": "4-8a/Cave Door/In Second Corner/Shells",
-            "name": "[Shells] Cave Door/In Second Corner"
+            "ref": "4-8/Before Vent/Cave Door/In Second Corner/Shells",
+            "name": "[Shells] Before Vent/Cave Door/In Second Corner"
           },
           {
-            "ref": "4-8a/Cave Door/After Spider Cave/Mag 60",
-            "name": "[Mag 60] Cave Door/After Spider Cave"
+            "ref": "4-8/Before Vent/Cave Door/After Spider Cave/Mag 60",
+            "name": "[Mag 60] Before Vent/Cave Door/After Spider Cave"
           },
           {
-            "ref": "4-8a/Cave Door/Level Key Room/Level Key",
-            "name": "[Level Key] Cave Door/Level Key Room"
+            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Level Key",
+            "name": "[Level Key] Before Vent/Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8a/Cave Door/Level Key Room/Tek Quiver",
-            "name": "[Tek Quiver] Cave Door/Level Key Room"
+            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Tek Quiver",
+            "name": "[Tek Quiver] Before Vent/Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8a/Cave Door/Level Key Room/Plasma Pak",
-            "name": "[Plasma Pak] Cave Door/Level Key Room"
+            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Plasma Pak",
+            "name": "[Plasma Pak] Before Vent/Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8a/Cave Door/Level Key Room/Box of Bullets",
-            "name": "[Box of Bullets] Cave Door/Level Key Room"
+            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Box of Bullets",
+            "name": "[Box of Bullets] Before Vent/Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8a/Cave Door/Level Key Room/Flame Thrower Tank",
-            "name": "[Flame Thrower Tank] Cave Door/Level Key Room"
+            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] Before Vent/Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8a/Cave Door/Level Key Room/Box of Shells",
-            "name": "[Box of Shells] Cave Door/Level Key Room"
+            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Box of Shells",
+            "name": "[Box of Shells] Before Vent/Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8a/Cave Door/Level Key Room/Charge Dart Pak",
-            "name": "[Charge Dart Pak] Cave Door/Level Key Room"
+            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Before Vent/Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8a/Cave Door/After Level Key Room/Full Health",
-            "name": "[Full Health] Cave Door/After Level Key Room"
+            "ref": "4-8/Before Vent/Cave Door/After Level Key Room/Full Health",
+            "name": "[Full Health] Before Vent/Cave Door/After Level Key Room"
           },
           {
-            "ref": "4-8a/Cave Door/After Last Cave/Mag 60",
-            "name": "[Mag 60] Cave Door/After Last Cave"
+            "ref": "4-8/Before Vent/Cave Door/After Last Cave/Mag 60",
+            "name": "[Mag 60] Before Vent/Cave Door/After Last Cave"
           },
           {
-            "ref": "4-8a/Cave Door/After Last Cave/Satchel Charge",
-            "name": "[Satchel Charge] Cave Door/After Last Cave"
+            "ref": "4-8/Before Vent/Cave Door/After Last Cave/Satchel Charge",
+            "name": "[Satchel Charge] Before Vent/Cave Door/After Last Cave"
           },
           {
-            "ref": "4-8a/Cave Door/Left Fork/Blue Health",
-            "name": "[Blue Health] Cave Door/Left Fork"
+            "ref": "4-8/Before Vent/Cave Door/Left Fork/Blue Health",
+            "name": "[Blue Health] Before Vent/Cave Door/Left Fork"
           },
           {
-            "ref": "4-8a/Cave Door/At Exit Drop/Blue Health",
-            "name": "[Blue Health] Cave Door/At Exit Drop"
+            "ref": "4-8/Before Vent/Cave Door/At Exit Drop/Blue Health",
+            "name": "[Blue Health] Before Vent/Cave Door/At Exit Drop"
           },
           {
-            "ref": "4-8a/Cave Door/Enemy After Cave Door/Spider",
-            "name": "[Spider] Cave Door/Enemy After Cave Door"
+            "ref": "4-8/Before Vent/Cave Door/Enemy After Cave Door/Spider",
+            "name": "[Spider] Before Vent/Cave Door/Enemy After Cave Door"
           },
           {
-            "ref": "4-8a/Cave Door/Enemy After Cave Door/Cave Spider",
-            "name": "[Cave Spider] Cave Door/Enemy After Cave Door"
+            "ref": "4-8/Before Vent/Cave Door/Enemy After Cave Door/Cave Spider",
+            "name": "[Cave Spider] Before Vent/Cave Door/Enemy After Cave Door"
           },
           {
-            "ref": "4-8a/Cave Door/Enemy in Level Key Room/Nala",
-            "name": "[Nala] Cave Door/Enemy in Level Key Room"
+            "ref": "4-8/Before Vent/Cave Door/Enemy in Level Key Room/Nala",
+            "name": "[Nala] Before Vent/Cave Door/Enemy in Level Key Room"
           },
           {
-            "ref": "4-8a/Cave Door/Enemy in Level Key Room/Guardian",
-            "name": "[Guardian] Cave Door/Enemy in Level Key Room"
+            "ref": "4-8/Before Vent/Cave Door/Enemy in Level Key Room/Guardian",
+            "name": "[Guardian] Before Vent/Cave Door/Enemy in Level Key Room"
           },
           {
-            "ref": "4-8a/Cave Door/Enemy in Level Key Room/Sentinel",
-            "name": "[Sentinel] Cave Door/Enemy in Level Key Room"
+            "ref": "4-8/Before Vent/Cave Door/Enemy in Level Key Room/Sentinel",
+            "name": "[Sentinel] Before Vent/Cave Door/Enemy in Level Key Room"
           },
           {
-            "ref": "4-8a/Cave Door/Enemy in Final Cave/Endtrail",
-            "name": "[Endtrail] Cave Door/Enemy in Final Cave"
+            "ref": "4-8/Before Vent/Cave Door/Enemy in Final Cave/Endtrail",
+            "name": "[Endtrail] Before Vent/Cave Door/Enemy in Final Cave"
           },
           {
-            "ref": "4-8a/Cave Door/Enemy After Final Cave/Any Raptoid",
-            "name": "[Any Raptoid] Cave Door/Enemy After Final Cave"
+            "ref": "4-8/Before Vent/Cave Door/Enemy After Final Cave/Any Raptoid",
+            "name": "[Any Raptoid] Before Vent/Cave Door/Enemy After Final Cave"
           },
           {
-            "ref": "4-8a/Cave Door/Enemy Spawned From Blue Health/Cave Worm",
-            "name": "[Cave Worm] Cave Door/Enemy Spawned From Blue Health"
+            "ref": "4-8/Before Vent/Cave Door/Enemy Spawned From Blue Health/Cave Worm",
+            "name": "[Cave Worm] Before Vent/Cave Door/Enemy Spawned From Blue Health"
           },
           {
-            "ref": "4-8a/Cave Door/Enemy by Exit Drop/Spider",
-            "name": "[Spider] Cave Door/Enemy by Exit Drop"
+            "ref": "4-8/Before Vent/Cave Door/Enemy by Exit Drop/Spider",
+            "name": "[Spider] Before Vent/Cave Door/Enemy by Exit Drop"
           },
           {
-            "ref": "4-8a/Cave Door/Enemy by Exit Drop/Cave Spider",
-            "name": "[Cave Spider] Cave Door/Enemy by Exit Drop"
+            "ref": "4-8/Before Vent/Cave Door/Enemy by Exit Drop/Cave Spider",
+            "name": "[Cave Spider] Before Vent/Cave Door/Enemy by Exit Drop"
+          },
+          {
+            "ref": "4-8/After Vent/At Return Portal After Vent/Silver Health",
+            "name": "[Silver Health] After Vent/At Return Portal After Vent"
+          },
+          {
+            "ref": "4-8/After Vent/At Return Portal After Vent/Tek Arrows",
+            "name": "[Tek Arrows] After Vent/At Return Portal After Vent"
+          },
+          {
+            "ref": "4-8/After Vent/On Bridge After Vent/Box of Bullets",
+            "name": "[Box of Bullets] After Vent/On Bridge After Vent"
+          },
+          {
+            "ref": "4-8/After Vent/By Exit Drop After Vent/Sentinel",
+            "name": "[Sentinel] After Vent/By Exit Drop After Vent"
+          },
+          {
+            "ref": "4-8/After Vent/By Exit Drop After Vent/Guardian",
+            "name": "[Guardian] After Vent/By Exit Drop After Vent"
           }
         ],
         "map_locations": [
@@ -7453,38 +7473,6 @@
         ]
       },
       {
-        "name": "4-8b",
-        "sections": [
-          {
-            "ref": "4-8b/At Return Portal After Vent/Silver Health",
-            "name": "[Silver Health] At Return Portal After Vent"
-          },
-          {
-            "ref": "4-8b/At Return Portal After Vent/Tek Arrows",
-            "name": "[Tek Arrows] At Return Portal After Vent"
-          },
-          {
-            "ref": "4-8b/On Bridge After Vent/Box of Bullets",
-            "name": "[Box of Bullets] On Bridge After Vent"
-          },
-          {
-            "ref": "4-8b/By Exit Drop After Vent/Sentinel",
-            "name": "[Sentinel] By Exit Drop After Vent"
-          },
-          {
-            "ref": "4-8b/By Exit Drop After Vent/Guardian",
-            "name": "[Guardian] By Exit Drop After Vent"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "Hub",
-            "x": 1080,
-            "y": 382
-          }
-        ]
-      },
-      {
         "name": "4-6b",
         "sections": [
           {
@@ -7576,7 +7564,7 @@
           {
             "map": "Hub",
             "x": 1080,
-            "y": 412
+            "y": 382
           }
         ]
       },

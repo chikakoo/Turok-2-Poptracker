@@ -7,7 +7,7 @@ CAVE_DOOR_4_1 = "@4-1/Whispers/Whispers Drop/Unlock Cave Door"
 CAVE_DOOR_4_3 = "@4-3/Cave Door Room/Unlock Cave Door"
 CAVE_DOOR_4_V1 = "@4-V1/Cave Door Room/Unlock Cave Door"
 CAVE_DOOR_4_6a = "@4-6a/Cave Door Room/Unlock Cave Door"
-CAVE_DOOR_4_8a = "@4-8a/Path Bottom/Unlock Cave Door"
+CAVE_DOOR_4_8 = "@4-8/Before Vent/Path Bottom/Unlock Cave Door"
 CAVE_DOOR_4_V3_LEFT = "@4-V3/Cave Door Right/Place Left Key"
 CAVE_DOOR_4_V3_RIGHT = "@4-V3/Cave Door Right/Place Right Key"
 
@@ -221,7 +221,7 @@ function has_unused_cave_door_keys(count)
             CAVE_DOOR_4_3,
             CAVE_DOOR_4_V1,
             CAVE_DOOR_4_6a,
-            CAVE_DOOR_4_8a,
+            CAVE_DOOR_4_8,
             CAVE_DOOR_4_V3_LEFT,
             CAVE_DOOR_4_V3_RIGHT
         },
@@ -258,12 +258,12 @@ function can_enter_cave_door_on_4_6a()
     return can_enter_cave_door(min_keys, 4, CAVE_DOOR_4_6a)
 end
 
----Returns whether the 4-8a cave door can be entered or opened.
+---Returns whether the 4-8 cave door can be entered or opened.
 ---Min 3: Must open the 4-3/4-6a doors to get here
 ---Max 5: Could open the 4-1/4-V1 doors, but can't progress without this one
-function can_enter_cave_door_on_4_8a()
+function can_enter_cave_door_on_4_8()
     min_keys = 3 + number_of_cave_door_keys_used({CAVE_DOOR_4_1, CAVE_DOOR_4_V1})
-    return can_enter_cave_door(min_keys, 5, CAVE_DOOR_4_8a)
+    return can_enter_cave_door(min_keys, 5, CAVE_DOOR_4_8)
 end
 
 ---Returns whether the 4-V3 cave door can be entered.

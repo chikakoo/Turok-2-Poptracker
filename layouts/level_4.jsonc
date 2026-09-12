@@ -93,11 +93,11 @@
                 }
             },
             {
-                "title": "4-8a",
+                "title": "4-8",
                 "content": {
                     "type": "map",
                     "maps": [
-                        "4-8a"
+                        "4-8"
                     ]
                 }
             },
@@ -107,15 +107,6 @@
                     "type": "map",
                     "maps": [
                         "4-V3"
-                    ]
-                }
-            },
-            {
-                "title": "4-8b",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "4-8b"
                     ]
                 }
             },

@@ -82,9 +82,8 @@ MAP_DATA = [
            "4-6a": { "starting_id": 103000 },
            "4-O": { "starting_id": 81000 },
            "4-7": { "starting_id": 104000 },
-           "4-8a": { "starting_id": 105000 },
+           "4-8": { "starting_id": 105000 },
            "4-V3": { "starting_id": 108000 },
-           "4-8b": { "starting_id": 105000 },
            "4-6b": { "starting_id": 103000, "extra_ids": [1000] }
         }
     },

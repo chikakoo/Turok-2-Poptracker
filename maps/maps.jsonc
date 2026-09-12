@@ -319,8 +319,8 @@
     "img": "images/maps/level_4/4-7.png"
   },
   {
-    "name": "4-8a", //TODO: combine the 4-8 maps
-    "location_size": 15,
+    "name": "4-8",
+    "location_size": 10,
     "location_border_thickness": 2,
     "img": "images/maps/level_4/4-8.png"
   },
@@ -329,13 +329,6 @@
     "location_size": 15,
     "location_border_thickness": 2,
     //"img": "images/maps/level_4/4-V3.png",
-    "img": "images/maps/maplol.png"
-  },
-  {
-    "name": "4-8b",
-    "location_size": 15,
-    "location_border_thickness": 2,
-    //"img": "images/maps/level_4/4-8b.png",
     "img": "images/maps/maplol.png"
   },
   {
