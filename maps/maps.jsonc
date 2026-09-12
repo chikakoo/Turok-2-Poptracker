@@ -319,11 +319,10 @@
     "img": "images/maps/level_4/4-7.png"
   },
   {
-    "name": "4-8a",
+    "name": "4-8a", //TODO: combine the 4-8 maps
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_4/4-8a.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_4/4-8.png"
   },
   {
     "name": "4-V3",
@@ -443,8 +442,7 @@
     "name": "5-MC",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_5/5-MC.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_5/5-MC.png"
   },
   {
     "name": "5-10",
