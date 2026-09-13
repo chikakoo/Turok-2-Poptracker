@@ -1134,7 +1134,7 @@
               "$id_exists|53091"
             ],
             "access_rules": [
-              "[power_cell:3],$has_unused_power_cell"
+              "^$has_unused_power_cell"
             ]
           }
         ],
@@ -1158,7 +1158,7 @@
               "$id_exists|53092"
             ],
             "access_rules": [
-              "[power_cell:3],$has_unused_power_cell"
+              "^$has_unused_power_cell"
             ]
           }
         ],

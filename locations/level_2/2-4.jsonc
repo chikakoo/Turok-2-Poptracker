@@ -522,7 +522,7 @@
             {
                 "name": "Gate Key",
                 "access_rules": [
-                    "gate_key:2"
+                    "$has_mission_items|gate_key|2"
                 ],
                 "children": [
                     {

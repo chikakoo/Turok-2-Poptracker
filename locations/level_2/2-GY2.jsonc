@@ -4,7 +4,7 @@
         "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
         "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
         "access_rules": [
-            "gate_key:2,$map_access|2|10|mid"
+            "$has_mission_items|gate_key|2,$map_access|2|10|mid"
         ],
         "children": [
             {

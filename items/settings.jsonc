@@ -98,6 +98,13 @@
         ]
     },
     {
+        "name": "Randomize Mission Items",
+        "type": "toggle",
+        "img": "/images/settings/randomize_mission_items.png",
+        "initial_active_state": true,
+        "codes": "randomize_mission_items"
+    },
+    {
         "name": "Randomize Weapons",
         "type": "toggle",
         "img": "/images/settings/randomize_weapons.png",

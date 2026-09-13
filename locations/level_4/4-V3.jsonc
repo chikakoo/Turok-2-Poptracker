@@ -518,7 +518,7 @@
                         "chest_unopened_img": "images/interactables/thermal_vent.png",
                         "chest_opened_img": "images/interactables/thermal_vent_bw.png",
                         "access_rules": [
-                            "[l4_satchel_charge:3],$has_unused_l4_satchel_charge"
+                            "^$has_unused_l4_satchel_charge"
                         ],
                         "sections": [
                             {

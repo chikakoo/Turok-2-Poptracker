@@ -31,9 +31,6 @@ PROGRESSIVE_WEAPONS = {
     "razor_wind"
 }
 
----One of the ion capacitors. Used to see if ion capacitors are shuffled, as either one or all will be.
-ION_CAPACITOR_ID = "115011"
-
 ---Checks whether the id of the given location exists as a location in the seed
 ---Accepts any number of args and returns the number that do exist
 function id_exists(...)
@@ -152,11 +149,28 @@ function has_check(checked_location)
     return Tracker:FindObjectForCode(checked_location).AvailableChestCount == 0
 end
 
+---Returns whether the function has the given count of mission items
+---@param mission_item string code for the item
+---@param count number of mission items to check for
+function has_mission_items(mission_item, count)
+    return not has("randomize_mission_items") or has(mission_item, count)
+end
+
 ---Returns whether the player has unused items, given the item and all locations it's used
+---If not randomizing mission items, returns true becuase it's always possible to get it
+---(the game always has the mission items needed on the same or previous maps, and you 
+--- cannot lock yourself out of them)
+--- Normal: Not randomizing mission items, or has all of the mission items
+--- SequenceBreak: Has enough of the mission items, but not all of them
+--- None: Does not have any unused mission items
 ---@param mission_item string code for the item
 ---@param mission_item_locations array of strings of the locations the item is used
 ---@param count_to_check number indicating the number of mission items to check (defaults to 1)
 function has_unused_mission_item(mission_item, mission_item_locations, count_to_check)
+    if has_mission_items(mission_item, #mission_item_locations) then
+        return AccessibilityLevel.Normal
+    end
+
     if count_to_check == nil then
         count_to_check = 1
     end
@@ -168,7 +182,11 @@ function has_unused_mission_item(mission_item, mission_item_locations, count_to_
         end
     end
 
-    return Tracker:ProviderCountForCode(mission_item) - used_items >= count_to_check
+    if Tracker:ProviderCountForCode(mission_item) - used_items >= count_to_check then
+        return AccessibilityLevel.SequenceBreak
+    end
+
+    return AccessibilityLevel.None
 end
 
 ---Returns whether the player has an unused power cell
@@ -226,7 +244,7 @@ function has_unused_cave_door_keys(count)
             CAVE_DOOR_4_V3_RIGHT
         },
         count
-    )
+    ) ~= AccessibilityLevel.None
 end
 
 ---Returns whether the 4-1 cave door can be entered or opened.
@@ -270,7 +288,7 @@ end
 ---This one assumes that you can get to 4-V3 already, so it just checks whether both keys can be placed.
 function can_enter_cave_door_on_4_v3()
     -- If you have the max keys, then you can definitely go in
-    if has("cave_door_key", 7) then
+    if has_mission_items("cave_door_key", 7) then
         return AccessibilityLevel.Normal
     end
 
@@ -294,17 +312,17 @@ end
 ---This assumes that the boss portal can already be reached and does not include that key/torpedo logic.
 function can_enter_4_boss()
     -- Ending weapon requirements and all 3 satchel charges are required
-    if not has_weapon_requirement(4, "end") or not has("l4_satchel_charge", 3) then
+    if not has_weapon_requirement(4, "end") or not has_mission_items("l4_satchel_charge", 3) then
         return AccessibilityLevel.None
     end
 
     -- All cave door keys means all objectives can be completed
-    if has("cave_door_key", 7) then
+    if has_mission_items("cave_door_key", 7) then
         return AccessibilityLevel.Normal
     end
 
     -- If missing one key, it's out of logic unless the one optional door has been opened
-    if has("cave_door_key", 6) and not (number_of_cave_door_keys_used({CAVE_DOOR_4_1}) > 0) then
+    if has_mission_items("cave_door_key", 6) and not (number_of_cave_door_keys_used({CAVE_DOOR_4_1}) > 0) then
         return AccessibilityLevel.SequenceBreak
     end
 
@@ -343,12 +361,12 @@ function can_enter_cave_door(min_keys, max_keys, cave_door_name)
     end
 
     -- If you have the max keys, then you can definitely go in
-    if has("cave_door_key", max_keys) then
+    if has_mission_items("cave_door_key", max_keys) then
         return AccessibilityLevel.Normal
     end
 
     -- If you have the min keys, then you can potentially use them elsewhere
-    if has("cave_door_key", min_keys) then
+    if has_mission_items("cave_door_key", min_keys) then
         return AccessibilityLevel.SequenceBreak
     end
 
@@ -431,22 +449,13 @@ end
 
 ---Whether one of the generators can be purified
 ---Normal: 
----  Has all ion capacitors (16)
----  If not shuffling ion capacitors, it's always possible to get them all per map
+---  Has all ion capacitors (16), or not shuffling them
 ---SequenceBreak: 
 ---  If not connected to AP (it's hard to know whether ion capacitors are shuffled)
 ---  Otherwise, if you have could have enough to place on this generator
 ---None: Not enough capacitors
 function can_place_all_ion_capacitors()
-    if has("ion_capacitor", 16) then
-        return AccessibilityLevel.Normal
-    end
-
-    if Archipelago.PlayerNumber == -1 then
-        return AccessibilityLevel.SequenceBreak
-    end
-
-    if not id_exists(ION_CAPACITOR_ID) then
+    if has_mission_items("ion_capacitor", 16) then
         return AccessibilityLevel.Normal
     end
 
@@ -466,8 +475,7 @@ end
 ---  Has any unused ion capacitor, as it could potentially be placed elsewhere
 ---None: Not enough capacitors
 function can_place_one_ion_capacitor()
-    if has("ion_capacitor", 13) or 
-        not id_exists(ION_CAPACITOR_ID) or
+    if has_mission_items("ion_capacitor", 13) or
         Tracker:FindObjectForCode("@6-2b/Generator/Recalibrate Generator").AvailableChestCount == 0 then
         return AccessibilityLevel.Normal
     end

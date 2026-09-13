@@ -12,7 +12,7 @@
                 "chest_unopened_img": "images/interactables/master_computer.png",
                 "chest_opened_img": "images/interactables/master_computer_bw.png",
                 "access_rules": [
-                    "l5_satchel_charge:4"
+                    "$has_mission_items|l5_satchel_charge|4"
                 ],
                 "sections": [
                     {

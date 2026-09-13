@@ -160,7 +160,7 @@
                         "chest_opened_img": "images/interactables/assembly_plant_bw.png",
                         "item_count": 1,
                         "access_rules": [
-                            "red_laser_cell:2"
+                            "$has_mission_items|red_laser_cell|2"
                         ],
                         "visibility_rules": [
                             "$id_exists|123047"
@@ -272,7 +272,7 @@
             {
                 "name": "Generator",
                 "access_rules": [
-                    "blue_laser_cell:2"
+                    "$has_mission_items|blue_laser_cell|2"
                 ],
                 "children": [
                     {
@@ -455,7 +455,7 @@
             {
                 "name": "In River",
                 "access_rules": [
-                    "blue_laser_cell:2,breath_of_life"
+                    "$has_mission_items|blue_laser_cell|2,breath_of_life"
                 ],
                 "children": [
                     {

@@ -274,7 +274,7 @@
               "$id_exists|51019"
             ],
             "access_rules": [
-              "[power_cell:3],$has_unused_power_cell"
+              "^$has_unused_power_cell"
             ]
           }
         ],

@@ -4,7 +4,7 @@
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
-            "gate_key:2,$map_access|2|5|mid"
+            "$has_mission_items|gate_key|2,$map_access|2|5|mid"
         ],
         "children": [
             {
