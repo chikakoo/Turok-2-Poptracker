@@ -349,7 +349,7 @@
                 "chest_unopened_img": "images/interactables/cave_door.png",
                 "chest_opened_img": "images/interactables/cave_door_bw.png",
                 "access_rules": [
-                    "[cave_door_key:7],$has_unused_cave_door_keys"
+                    "$has_unused_cave_door_keys"
                 ],
                 "sections": [
                     {
