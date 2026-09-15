@@ -346,14 +346,14 @@
   },
   {
     "name": "5-2",
-    "location_size": 15,
+    "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/level_5/5-2.png"
   },
   {
     "name": "5-3",
-    "location_size": 15,
-    "location_border_thickness": 2,
+    "location_size": 8,
+    "location_border_thickness": 1,
     "img": "images/maps/level_5/5-3.png"
   },
   {
