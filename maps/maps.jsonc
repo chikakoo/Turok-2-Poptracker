@@ -342,50 +342,43 @@
     "name": "5-1",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_5/5-1.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_5/5-1.png"
   },
   {
     "name": "5-2",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_5/5-2.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_5/5-2.png"
   },
   {
     "name": "5-3",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_5/5-3.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_5/5-3.png"
   },
   {
     "name": "5-4",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_5/5-4.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_5/5-4.png"
   },
   {
     "name": "5-5",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_5/5-5.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_5/5-5.png"
   },
   {
     "name": "5-O",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_5/5-O.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_5/5-O.png"
   },
   {
     "name": "5-6",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_5/5-6.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_5/5-6.png"
   },
   {
     "name": "5-7",
@@ -508,8 +501,7 @@
     "name": "6-O",
     "location_size": 15,
     "location_border_thickness": 2,
-    //"img": "images/maps/level_6/6-O.png",
-    "img": "images/maps/maplol.png"
+    "img": "images/maps/level_6/6-O.png"
   }
   // #endregion Level 6
 ]
