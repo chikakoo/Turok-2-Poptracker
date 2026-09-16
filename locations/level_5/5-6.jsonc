@@ -650,6 +650,9 @@
                 "name": "Talisman",
                 "chest_unopened_img": "images/items/talismans/whispers.png",
                 "chest_opened_img": "images/items/talismans/whispers_bw.png",
+                "access_rules": [
+                    "level_5_eagle_feather"
+                ],
                 "sections": [
                     {
                         "name": "Whispers",
