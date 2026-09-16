@@ -358,13 +358,13 @@
   },
   {
     "name": "5-4",
-    "location_size": 15,
+    "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/level_5/5-4.png"
   },
   {
     "name": "5-5",
-    "location_size": 15,
+    "location_size": 12,
     "location_border_thickness": 2,
     "img": "images/maps/level_5/5-5.png"
   },
