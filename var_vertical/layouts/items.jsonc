@@ -1,0 +1,27 @@
+{
+    "items": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "group",
+                "header": "Inventory",
+                "dock": "left",
+                "content": {
+                    "type": "layout",
+                    "key": "inventory"
+                }
+            },
+            {
+                "type": "group",
+                "header": "Weapons",
+                "dock": "left",
+                "content": {
+                    "type": "layout",
+                    "key": "weapons"
+                }
+            }
+        ]
+    }
+}

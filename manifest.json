@@ -1,11 +1,11 @@
 {
   "name": "Turok 2 Tracker",
   "game_name": "Turok 2",
-  "package_version": "1.0.0.0",
+  "package_version": "1.0.0",
   "package_uid": "turok_2_tracker",
   "author": "Chikakoo",
   "min_poptracker_version": "0.25.9",
-  "target_poptracker_version": "0.35.0",
+  "target_poptracker_version": "0.35.4",
   "variants": {
     "standard": {
       "display_name": "AP Tracker (Horizontal)",
@@ -18,6 +18,13 @@
       "flags": [
         "ap"
       ]
+    },
+	"var_vertical": {
+      "display_name": "AP Tracker (Vertical)",
+      "flags": [
+        "ap"
+      ]
     }
-  }
+  },
+  "versions_url": "https://raw.githubusercontent.com/chikakoo/Turok-2-Poptracker/versions/versions.json"
 }

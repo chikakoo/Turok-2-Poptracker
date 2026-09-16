@@ -1,0 +1,21 @@
+{
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#000000",
+    "content": {
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "layout",
+          "key": "maps"
+        },
+        {
+          "type": "layout",
+          "key": "items",
+          "dock": "left"
+        }
+      ]
+    }
+  }
+}
