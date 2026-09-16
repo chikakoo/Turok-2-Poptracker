@@ -17,6 +17,15 @@
         "initial_active_state": true,
         "codes": "primagen_goal"
     },
+    {
+        // Options are various ones where you get them from checks or automatically form levels
+        // This will be the toggle options, as that's all we care about here
+        "name": "Primagen Keys From Level Goal",
+        "type": "toggle",
+        "img": "/images/settings/primagen_keys_from_level_goal.png",
+        "initial_active_state": false,
+        "codes": "primagen_keys_from_level_goal"
+    },
 
     // Included Levels
     {

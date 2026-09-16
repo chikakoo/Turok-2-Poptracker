@@ -398,9 +398,13 @@ function AutoFill(slot_data)
         -- Goals
         level_goal = { code = "level_goal" },
         primagen_goal = { code = "primagen_goal", mapping = { [0]=false, [1]=true, [2]=true } },
+        randomize_primagen_keys = { 
+            code = "primagen_keys_from_level_goal",
+            mapping = { [0]=false, [1]=false, [2]=false, [3]=true }
+        },
 
         -- Included levels
-        include_level_1 = { code=  "include_level_1" },
+        include_level_1 = { code = "include_level_1" },
         include_level_2 = { code = "include_level_2" },
         include_level_3 = { code = "include_level_3" },
         include_level_4 = { code = "include_level_4" },

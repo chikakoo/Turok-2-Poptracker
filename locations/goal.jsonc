@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Hub",
+        "chest_unopened_img": "images/settings/primagen_goal.png",
+        "chest_opened_img": "images/settings/primagen_goal_bw.png",
+        "children": [
+            {
+                "name": "Goal",
+                "sections": [
+                    {
+                        "name": "Finish Game",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hub",
+                        "x": 570,
+                        "y": 483
+                    }
+                ]
+            }
+        ]
+    }
+]

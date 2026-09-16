@@ -3,7 +3,7 @@ import re
 from pathlib import Path
 
 """
-Generates the Hub.jsonc file so the hub locations can be references to the real locations
+Generates the hub.jsonc file so the hub locations can be references to the real locations
 It also validates the files to ensure that ids are unique/correct
 """
 
@@ -128,7 +128,7 @@ MAP_DATA = [
 ]
 
 # The output file name
-OUTPUT_FILE = "Hub.jsonc"
+OUTPUT_FILE = "hub.jsonc"
 
 # Validation state
 id_locations = {} # id -> first location where it appeared

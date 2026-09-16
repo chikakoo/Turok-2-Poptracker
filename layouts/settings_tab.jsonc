@@ -23,6 +23,12 @@
                 "max_width": 64,
                 "margin": "2,0",
                 "item": "primagen_goal"
+              },
+              {
+                "type": "item",
+                "max_width": 64,
+                "margin": "2,0",
+                "item": "primagen_keys_from_level_goal"
               }
             ]
           }
