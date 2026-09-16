@@ -1,6 +1,6 @@
 [
   {
-    "name": "Hub",
+    "name": "Hub Goal",
     "chest_unopened_img": "images/items/life_forces/lf1.png",
     "chest_opened_img": "images/items/life_forces/lf1_bw.png",
     "children": [

@@ -6,6 +6,9 @@
         "children": [
             {
                 "name": "Goal",
+                "access_rules":[
+                    "^$can_finish_game"
+                ],
                 "sections": [
                     {
                         "name": "Finish Game",

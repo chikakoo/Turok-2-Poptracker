@@ -115,14 +115,20 @@ end
 
 ---Checks level access based on the key setting
 ---Returns true if no barrier is passed in
----@param level number
+---@param level number of the level to check (set to 0 for the Primagen requirement)
 ---@param weapon_barrier_suffix string indicating which barrier (start/mid/end)
 function has_weapon_requirement(level, weapon_barrier_suffix)
-    if weapon_barrier_suffix == nil then
+    if weapon_barrier_suffix == nil and level ~= 0 then
         return true
     end
 
-    local weapon_setting_name = "weapon_barrier_level_" .. level .. "_" .. weapon_barrier_suffix
+    local weapon_setting_name = "weapon_barrier"
+    if level == 0 then
+        weapon_setting_name = weapon_setting_name .. "_primagen"
+    else
+        weapon_setting_name = weapon_setting_name .. "_level_" .. level .. "_" .. weapon_barrier_suffix
+    end
+
     local weapon_setting = Tracker:FindObjectForCode(weapon_setting_name)
     if weapon_setting == nil then
         print("ERROR - Weapon setting not found: " .. weapon_setting_name)
@@ -149,7 +155,7 @@ function has_check(checked_location)
     return Tracker:FindObjectForCode(checked_location).AvailableChestCount == 0
 end
 
----Returns whether the function has the given count of mission items
+---Returns whether the player has the given count of mission items
 ---@param mission_item string code for the item
 ---@param count number of mission items to check for
 function has_mission_items(mission_item, count)
@@ -484,5 +490,93 @@ function can_place_one_ion_capacitor()
         return AccessibilityLevel.SequenceBreak
     end
 
+    return AccessibilityLevel.None
+end
+
+---Whether the game can be completed
+---Normal: Reaches the level and Primagen goals
+---SequenceBreak: Can only reach the level goal if level 4 is out of logic
+---None: Cannot reach either the level or Primagen goals
+function can_finish_game()
+    -- Check the Primagen goal
+    -- None: Doesn't have the Primagen keys or the weapon requirement
+    if has("primagen_goal") then
+        has_primagen_keys = has("primagen_keys_from_level_goal") or
+        (
+            has("primagen_key_1") and
+            has("primagen_key_2") and
+            has("primagen_key_3") and
+            has("primagen_key_4") and
+            has("primagen_key_5") and
+            has("primagen_key_6")
+        )
+
+        if not has_primagen_keys or not has_weapon_requirement(0) then
+            return AccessibilityLevel.None
+        end
+    end
+
+    -- Check the level goal (no need to check excluded levels, as level keys for those won't exist)
+    -- Normal: No level goal, or can complete all required levels
+    -- SequenceBreak: Can maybe complete all required levels, depending on Cave Door Key usage
+    -- None: Cannot complete all required
+    level_goal = Tracker:ProviderCountForCode("level_goal")
+    if level_goal == 0 then
+        return AccessibilityLevel.Normal
+    end
+
+    -- Check how many levels can be completed
+    completable_levels = 0
+    level_4_out_of_logic = false -- Cave door keys can make this not guaranteed
+
+    if has_mission_items("power_cell", 3) and map_access(1, 9, "end") then
+        completable_levels = completable_levels + 1
+    end
+
+    if has_mission_items("gate_key", 2) and 
+        has_mission_items("graveyard_key", 2) and
+        map_access(2, 11, "end") then
+        completable_levels = completable_levels + 1
+    end
+
+    if has_mission_items("l3_satchel_charge", 3) and map_access(3, 8, "end") then
+        completable_levels = completable_levels + 1
+    end
+
+    if warp_requirement(4, 10) then -- The boss function covers the weapon requirement
+        boss_accessibility = can_enter_4_boss()
+        if boss_accessibility ~= AccessibilityLevel.None then
+            -- At this point it's always completable
+            -- If no torpedo launcher, or you can maybe get to the boss, it's out of logic
+            if not has_torpedo_launcher() or boss_accessibility == AccessibilityLevel.SequenceBreak then
+                level_4_out_of_logic = true
+            else
+                completable_levels = completable_levels + 1
+            end
+        end
+    end
+    
+    if has_mission_items("l5_satchel_charge", 4) and map_access(5, 10, "end") then
+        completable_levels = completable_levels + 1
+    end
+
+    if has_mission_items("ion_capacitor", 16) and
+        has_mission_items("blue_laser_cell", 2) and
+        has_mission_items("red_laser_cell", 2) and
+        map_access(6, 13, "end") then
+        completable_levels = completable_levels + 1
+    end
+
+    -- Enough levels can be completed
+    if completable_levels >= level_goal then
+        return AccessibilityLevel.Normal
+    end
+
+    -- An out of logic level 4 can complete the goal
+    if level_4_out_of_logic and completable_levels + 1 >= level_goal then
+        return AccessibilityLevel.SequenceBreak
+    end
+
+    -- Not enough levels can be completed
     return AccessibilityLevel.None
 end
