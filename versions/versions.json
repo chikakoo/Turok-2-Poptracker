@@ -3,7 +3,8 @@
         {
 			"package_version": "1.0.0",
 			"download_url": "https://github.com/chikakoo/Turok-2-Poptracker/releases/download/v1.0.0/Turok-2-Poptracker.zip",
-			"sha256": ""
+			"sha256": "09be246192cd173d500e92a7e41b67a4986b068987757231557cbf5f670e100a",
+			"changelog": ["Initial commit"]
         }
     ]
 }
