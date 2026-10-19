@@ -3,7 +3,7 @@
 		{
 			"package_version": "1.0.1",
 			"download_url": "https://github.com/chikakoo/Turok-2-Poptracker/releases/download/v1.0.1/Turok-2-Poptracker-1.0.1.zip",
-			"sha256": "c35dcece23dd3e057116166f1386fc6fbef8a2346bd85dd1a0b6be5d9340b88f",
+			"sha256": "32b2101a4444381b68fe7aae50094aa6464feaae2bd8a5a3a3e6ec0f27cbe29d",
 			"changelog": ["Fixed 3-A3 logic", "Fixed 3-5 warp labels"]
         },
         {
