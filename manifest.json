@@ -1,7 +1,7 @@
 {
   "name": "Turok 2 Tracker",
   "game_name": "Turok 2",
-  "package_version": "1.0.0",
+  "package_version": "1.0.1",
   "package_uid": "turok_2_tracker",
   "author": "Chikakoo",
   "min_poptracker_version": "0.25.9",
