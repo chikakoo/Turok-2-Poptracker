@@ -444,19 +444,19 @@
                     },
                     {
                         "ref": "6-1/Whispers/Primagen Key Switch/Switch",
-                        "name": "Wing 1 Primagen Key Switch"
+                        "name": "(Event) Wing 1 Primagen Key Switch"
                     },
                     {
                         "ref": "6-2a/Eye of Truth/Primagen Key Switch/Switch",
-                        "name": "Wing 2 Primagen Key Switch"
+                        "name": "(Event) Wing 2 Primagen Key Switch"
                     },
                     {
                         "ref": "6-3b/Leap of Faith/Primagen Key Switch/Switch",
-                        "name": "Wing 3 Primagen Key Switch"
+                        "name": "(Event) Wing 3 Primagen Key Switch"
                     },
                     {
                         "ref": "6-4d/In River/Primagen Key Switch/Switch",
-                        "name": "Wing 4 Primagen Key Switch"
+                        "name": "(Event) Wing 4 Primagen Key Switch"
                     }
                 ],
                 "map_locations": [
