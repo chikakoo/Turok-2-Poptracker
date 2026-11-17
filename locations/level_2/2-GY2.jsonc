@@ -36,6 +36,9 @@
                     {
                         "name": "Banish Sister of Despair",
                         "item_count": 1,
+                        "access_rules": [
+                            "sister_of_despair_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|134001"
                         ]
@@ -43,6 +46,9 @@
                     {
                         "name": "Sister of Despair",
                         "item_count": 1,
+                        "access_rules": [
+                            "sister_of_despair_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|134005"
                         ]
@@ -58,11 +64,14 @@
                 ]
             },
             {
-                "name": "Left",
+                "name": "Enemy to the Left",
                 "sections": [
                     {
                         "name": "Lord of the Dead",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|134002"
                         ]
@@ -78,11 +87,14 @@
                 ]
             },
             {
-                "name": "Right",
+                "name": "Enemy to the Right",
                 "sections": [
                     {
                         "name": "Lord of the Dead",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|134003"
                         ]
@@ -98,11 +110,14 @@
                 ]
             },
             {
-                "name": "Behind Building",
+                "name": "Enemy Behind Building",
                 "sections": [
                     {
                         "name": "Lord of the Dead",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|134004"
                         ]

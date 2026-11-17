@@ -120,6 +120,9 @@
                     {
                         "name": "Deadman",
                         "item_count": 6,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|133009|133010|133011|133012|133013|133014"
                         ]
@@ -142,6 +145,9 @@
                     {
                         "name": "Lord of the Dead",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|133015"
                         ]
@@ -164,6 +170,9 @@
                     {
                         "name": "Spider",
                         "item_count": 5,
+                        "access_rules": [
+                            "spider_hatchling_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|133016|133017|133018|133019|133020"
                         ]
@@ -186,6 +195,9 @@
                     {
                         "name": "Lord of the Dead",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|133021"
                         ]
@@ -208,6 +220,9 @@
                     {
                         "name": "Lord of the Dead",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|133022"
                         ]
@@ -232,6 +247,9 @@
                         "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
                         "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|133023"
                         ]
@@ -239,6 +257,9 @@
                     {
                         "name": "Deadman",
                         "item_count": 2,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|133024|133025"
                         ]
@@ -246,6 +267,9 @@
                     {
                         "name": "Deadman Spawned From Lord of the Dead by Gate",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|133026"
                         ]
@@ -253,6 +277,9 @@
                     {
                         "name": "Deadman Spawned From Lord of the Dead in Main Room",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|133028"
                         ]
@@ -260,6 +287,9 @@
                     {
                         "name": "Deadman Spawned From Lord of the Dead Behind Building",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|133027"
                         ]
@@ -282,6 +312,9 @@
                     {
                         "name": "Banish Sister of Despair",
                         "item_count": 1,
+                        "access_rules": [
+                            "sister_of_despair_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|133008"
                         ]
@@ -289,6 +322,9 @@
                     {
                         "name": "Sister of Despair",
                         "item_count": 1,
+                        "access_rules": [
+                            "sister_of_despair_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|133029"
                         ]

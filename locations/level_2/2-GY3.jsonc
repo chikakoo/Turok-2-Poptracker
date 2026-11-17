@@ -516,6 +516,9 @@
                     {
                         "name": "Lord of the Dead",
                         "item_count": 2,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135059|135060"
                         ]
@@ -538,6 +541,9 @@
                     {
                         "name": "Lord of the Dead",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135061"
                         ]
@@ -560,6 +566,9 @@
                     {
                         "name": "Lord of the Dead",
                         "item_count": 2,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135062|135063"
                         ]
@@ -582,6 +591,9 @@
                     {
                         "name": "Deadman",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135064"
                         ]
@@ -589,6 +601,9 @@
                     {
                         "name": "Deadman After Switch",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135065"
                         ]
@@ -611,6 +626,9 @@
                     {
                         "name": "Deadman",
                         "item_count": 2,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135066|135067"
                         ]
@@ -633,6 +651,9 @@
                     {
                         "name": "Deadman",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135068"
                         ]
@@ -655,6 +676,9 @@
                     {
                         "name": "Deadman",
                         "item_count": 2,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135069|135070"
                         ]
@@ -677,6 +701,9 @@
                     {
                         "name": "Deadman",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135071"
                         ]
@@ -684,6 +711,9 @@
                     {
                         "name": "Deadman After Switch",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135072"
                         ]
@@ -706,6 +736,9 @@
                     {
                         "name": "Lord of the Dead",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135073"
                         ]
@@ -728,6 +761,9 @@
                     {
                         "name": "Lord of the Dead",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135074"
                         ]
@@ -750,6 +786,9 @@
                     {
                         "name": "Lord of the Dead",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135075"
                         ]
@@ -772,6 +811,9 @@
                     {
                         "name": "Lord of the Dead",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135076"
                         ]
@@ -794,6 +836,9 @@
                     {
                         "name": "Deadman",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135077"
                         ]
@@ -801,6 +846,9 @@
                     {
                         "name": "Deadman After Switch",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135078"
                         ]
@@ -823,6 +871,9 @@
                     {
                         "name": "Deadman",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135079"
                         ]
@@ -830,6 +881,9 @@
                     {
                         "name": "Deadman After Switch",
                         "item_count": 2,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135080|135081"
                         ]
@@ -852,6 +906,9 @@
                     {
                         "name": "Deadman",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135082"
                         ]
@@ -859,6 +916,9 @@
                     {
                         "name": "Deadman After Switch",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135083"
                         ]
@@ -881,6 +941,9 @@
                     {
                         "name": "Deadman",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135084"
                         ]
@@ -888,6 +951,9 @@
                     {
                         "name": "Deadman After Switch",
                         "item_count": 1,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135085"
                         ]
@@ -910,6 +976,9 @@
                         "chest_unopened_img": "images/enemies/deadman.png",
                         "chest_opened_img": "images/enemies/deadman_bw.png",
                         "item_count": 3,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135086|135087|135088"
                         ]
@@ -919,6 +988,9 @@
                         "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
                         "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135089"
                         ]
@@ -941,6 +1013,9 @@
                         "chest_unopened_img": "images/enemies/deadman.png",
                         "chest_opened_img": "images/enemies/deadman_bw.png",
                         "item_count": 3,
+                        "access_rules": [
+                            "deadman_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135090|135091|135092"
                         ]
@@ -950,6 +1025,9 @@
                         "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
                         "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_dead_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|135093"
                         ]
@@ -1029,6 +1107,9 @@
                             {
                                 "name": "Banish Sister of Despair",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "sister_of_despair_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|135058"
                                 ]
@@ -1036,6 +1117,9 @@
                             {
                                 "name": "Sister of Despair",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "sister_of_despair_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|135094"
                                 ]
@@ -1045,6 +1129,9 @@
                                 "chest_unopened_img": "images/enemies/lord_of_the_dead.png",
                                 "chest_opened_img": "images/enemies/lord_of_the_dead_bw.png",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "lord_of_the_dead_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|135102"
                                 ]
@@ -1053,6 +1140,7 @@
                         "map_locations": [
                             {
                                 "map": "2-GY3",
+                                "shape": "diamond",
                                 "x": 227,
                                 "y": 128
                             }
@@ -1066,6 +1154,9 @@
                             {
                                 "name": "Deadman",
                                 "item_count": 3,
+                                "access_rules": [
+                                    "deadman_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|135095|135096|135097"
                                 ]
@@ -1073,6 +1164,9 @@
                             {
                                 "name": "Deadman Spawned From Ultra Health",
                                 "item_count": 2,
+                                "access_rules": [
+                                    "deadman_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|135100|135101"
                                 ]
@@ -1095,6 +1189,9 @@
                             {
                                 "name": "Lord of the Dead",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "lord_of_the_dead_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|135098"
                                 ]
@@ -1102,6 +1199,9 @@
                             {
                                 "name": "Lord of the Dead Spawned From Ultra Health",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "lord_of_the_dead_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|135099"
                                 ]

@@ -78,6 +78,9 @@
                     {
                         "name": "Sentinel",
                         "item_count": 1,
+                        "access_rules": [
+                            "flesh_sentinel_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|79003"
                         ]
@@ -100,6 +103,9 @@
                     {
                         "name": "Sentinel",
                         "item_count": 1,
+                        "access_rules": [
+                            "flesh_sentinel_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|79004"
                         ]
@@ -122,6 +128,9 @@
                     {
                         "name": "Sentinel",
                         "item_count": 2,
+                        "access_rules": [
+                            "flesh_sentinel_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|79005|79006"
                         ]
@@ -144,6 +153,9 @@
                     {
                         "name": "Death Guard",
                         "item_count": 2,
+                        "access_rules": [
+                            "death_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|79007|79008"
                         ]
@@ -166,6 +178,9 @@
                     {
                         "name": "Lord of the Flesh",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_flesh_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|79009"
                         ]
@@ -188,6 +203,9 @@
                     {
                         "name": "Lord of the Flesh",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_flesh_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|79010"
                         ]

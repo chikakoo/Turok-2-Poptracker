@@ -146,6 +146,9 @@
                     {
                         "name": "Raptoid",
                         "item_count": 2,
+                        "access_rules": [
+                            "raptoid_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|130156|130157"
                         ]
@@ -168,6 +171,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 2,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|130158|130159"
                         ]
@@ -190,6 +196,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 2,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|130160|130161"
                         ]

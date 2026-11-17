@@ -1,6 +1,6 @@
 [
   {
-    "name": "Hub Goal",
+    "name": "Hub",
     "chest_unopened_img": "images/items/life_forces/lf1.png",
     "chest_opened_img": "images/items/life_forces/lf1_bw.png",
     "children": [
@@ -3564,16 +3564,16 @@
             "name": "[Sister of Despair] In Building"
           },
           {
-            "ref": "2-GY2/Left/Lord of the Dead",
-            "name": "[Lord of the Dead] Left"
+            "ref": "2-GY2/Enemy to the Left/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy to the Left"
           },
           {
-            "ref": "2-GY2/Right/Lord of the Dead",
-            "name": "[Lord of the Dead] Right"
+            "ref": "2-GY2/Enemy to the Right/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy to the Right"
           },
           {
-            "ref": "2-GY2/Behind Building/Lord of the Dead",
-            "name": "[Lord of the Dead] Behind Building"
+            "ref": "2-GY2/Enemy Behind Building/Lord of the Dead",
+            "name": "[Lord of the Dead] Enemy Behind Building"
           }
         ],
         "map_locations": [

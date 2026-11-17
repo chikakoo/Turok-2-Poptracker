@@ -900,9 +900,9 @@ LOCATIONS_2_7 = {
 LOCATIONS_2_GY2 = {
     [134000] = {"@2-GY2/Start/Mag 60"},
     [134001] = {"@2-GY2/In Building/Banish Sister of Despair"},
-    [134002] = {"@2-GY2/Left/Lord of the Dead"},
-    [134003] = {"@2-GY2/Right/Lord of the Dead"},
-    [134004] = {"@2-GY2/Behind Building/Lord of the Dead"},
+    [134002] = {"@2-GY2/Enemy to the Left/Lord of the Dead"},
+    [134003] = {"@2-GY2/Enemy to the Right/Lord of the Dead"},
+    [134004] = {"@2-GY2/Enemy Behind Building/Lord of the Dead"},
     [134005] = {"@2-GY2/In Building/Sister of Despair"}
 }
 

@@ -483,6 +483,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|126056"
                         ]
@@ -505,6 +508,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|126057"
                         ]
@@ -527,6 +533,9 @@
                     {
                         "name": "Compy",
                         "item_count": 4,
+                        "access_rules": [
+                            "compy_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|126058|126059|126060|126061"
                         ]
@@ -549,6 +558,9 @@
                     {
                         "name": "Compy",
                         "item_count": 3,
+                        "access_rules": [
+                            "compy_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|126062|126063|126064"
                         ]
@@ -571,6 +583,9 @@
                     {
                         "name": "Raptor",
                         "item_count": 1,
+                        "access_rules": [
+                            "raptor_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|126065"
                         ]
@@ -593,6 +608,9 @@
                     {
                         "name": "Raptor",
                         "item_count": 1,
+                        "access_rules": [
+                            "raptor_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|126066"
                         ]
@@ -615,6 +633,9 @@
                     {
                         "name": "Compy",
                         "item_count": 3,
+                        "access_rules": [
+                            "compy_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|126067|126068|126069"
                         ]
@@ -637,6 +658,9 @@
                     {
                         "name": "Raptor",
                         "item_count": 1,
+                        "access_rules": [
+                            "raptor_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|126070"
                         ]
@@ -659,6 +683,9 @@
                     {
                         "name": "Raptoid",
                         "item_count": 3,
+                        "access_rules": [
+                            "raptoid_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|126071|126072|126073"
                         ]

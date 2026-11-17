@@ -322,6 +322,9 @@
                     {
                         "name": "Spider",
                         "item_count": 3,
+                        "access_rules": [
+                            "spider_hatchling_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|130129|130130|130131"
                         ]
@@ -344,6 +347,9 @@
                     {
                         "name": "Spider",
                         "item_count": 1,
+                        "access_rules": [
+                            "spider_hatchling_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|130132"
                         ]
@@ -366,6 +372,9 @@
                     {
                         "name": "Spider",
                         "item_count": 1,
+                        "access_rules": [
+                            "spider_hatchling_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|130133"
                         ]
@@ -388,6 +397,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|130134"
                         ]
@@ -410,6 +422,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|130135"
                         ]
@@ -432,6 +447,9 @@
                     {
                         "name": "Leaper",
                         "item_count": 2,
+                        "access_rules": [
+                            "leaper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|130136|130137"
                         ]
@@ -454,6 +472,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|130138"
                         ]
@@ -476,6 +497,9 @@
                     {
                         "name": "Spider",
                         "item_count": 5,
+                        "access_rules": [
+                            "spider_hatchling_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|130139|130140|130141|130142|130143"
                         ]
