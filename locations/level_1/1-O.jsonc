@@ -36,6 +36,9 @@
                     {
                         "name": "Sentinel",
                         "item_count": 2,
+                        "access_rules": [
+                            "flesh_sentinel_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|78001|78002"
                         ]
@@ -58,6 +61,9 @@
                     {
                         "name": "Death Guard",
                         "item_count": 2,
+                        "access_rules": [
+                            "death_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|78003|78004"
                         ]

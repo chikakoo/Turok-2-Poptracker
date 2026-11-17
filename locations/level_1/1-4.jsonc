@@ -707,6 +707,9 @@
             "chest_unopened_img": "images/enemies/endtrail.png",
             "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|55075"
             ]
@@ -729,6 +732,9 @@
             "chest_unopened_img": "images/enemies/endtrail.png",
             "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 2,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|55076|55077"
             ]
@@ -751,6 +757,9 @@
             "chest_unopened_img": "images/enemies/raptoid.png",
             "chest_opened_img": "images/enemies/raptoid_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|55078"
             ]
@@ -773,6 +782,9 @@
             "chest_unopened_img": "images/enemies/raptoid.png",
             "chest_opened_img": "images/enemies/raptoid_bw.png",
             "item_count": 2,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|55079|55080"
             ]
@@ -795,6 +807,9 @@
             "chest_unopened_img": "images/enemies/endtrail.png",
             "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|55081"
             ]
@@ -817,6 +832,9 @@
             "chest_unopened_img": "images/enemies/endtrail.png",
             "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|55082"
             ]
@@ -839,6 +857,9 @@
             "chest_unopened_img": "images/enemies/endtrail.png",
             "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|55083"
             ]
@@ -861,6 +882,9 @@
             "chest_unopened_img": "images/enemies/endtrail.png",
             "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|55084"
             ]
@@ -883,6 +907,9 @@
             "chest_unopened_img": "images/enemies/endtrail.png",
             "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|55085"
             ]
@@ -905,6 +932,9 @@
             "chest_unopened_img": "images/enemies/raptoid.png",
             "chest_opened_img": "images/enemies/raptoid_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|55086"
             ]
@@ -927,6 +957,9 @@
             "chest_unopened_img": "images/enemies/endtrail.png",
             "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|55087"
             ]

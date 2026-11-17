@@ -300,6 +300,9 @@
           {
             "name": "Raptoid",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|56035"
             ]
@@ -322,6 +325,9 @@
           {
             "name": "Raptoid",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|56036"
             ]
@@ -344,6 +350,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|56037"
             ]
@@ -366,6 +375,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|56038"
             ]

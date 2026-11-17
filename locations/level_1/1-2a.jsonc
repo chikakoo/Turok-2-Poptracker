@@ -562,6 +562,9 @@
           {
             "name": "Raptoid",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|52068"
             ]
@@ -584,6 +587,9 @@
           {
             "name": "Raptoid",
             "item_count": 2,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|52069|52070"
             ]
@@ -606,6 +612,9 @@
           {
             "name": "Raptoid",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|52071"
             ]
@@ -628,6 +637,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|52072"
             ]
@@ -650,6 +662,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|52073"
             ]
@@ -672,6 +687,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|52074"
             ]
@@ -694,6 +712,9 @@
           {
             "name": "Raptoid",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|52075"
             ]
@@ -716,6 +737,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|52076"
             ]
@@ -738,6 +762,9 @@
           {
             "name": "Raptoid",
             "item_count": 2,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|52077|52078"
             ]

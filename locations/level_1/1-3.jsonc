@@ -1,5 +1,5 @@
 [
-  { //1-3F
+  {
     "name": "1-3F",
     "chest_unopened_img": "images/items/life_forces/lf1.png",
     "chest_opened_img": "images/items/life_forces/lf1_bw.png",
@@ -292,6 +292,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53100"
             ]
@@ -314,6 +317,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53101"
             ]
@@ -336,6 +342,9 @@
           {
             "name": "Compy",
             "item_count": 3,
+            "access_rules": [
+              "compy_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53102|53103|53104"
             ]
@@ -358,6 +367,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53105"
             ]
@@ -380,6 +392,9 @@
           {
             "name": "Raptoid",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53106"
             ]
@@ -402,6 +417,9 @@
           {
             "name": "Raptor",
             "item_count": 2,
+            "access_rules": [
+              "raptor_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53107|53108"
             ]
@@ -424,6 +442,9 @@
             "chest_unopened_img": "images/enemies/raptoid.png",
             "chest_opened_img": "images/enemies/raptoid_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53109"
             ]
@@ -433,6 +454,9 @@
             "chest_unopened_img": "images/enemies/endtrail.png",
             "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53110"
             ]
@@ -449,7 +473,7 @@
       }
     ]
   },
-  { //1-3B
+  {
     "name": "1-3B",
     "chest_unopened_img": "images/items/life_forces/lf1.png",
     "chest_opened_img": "images/items/life_forces/lf1_bw.png",
@@ -1262,6 +1286,9 @@
           {
             "name": "Raptoid",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53111"
             ]
@@ -1284,6 +1311,9 @@
           {
             "name": "Raptoid",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53112"
             ]
@@ -1306,6 +1336,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53113"
             ]
@@ -1328,6 +1361,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53114"
             ]
@@ -1350,6 +1386,9 @@
           {
             "name": "Raptoid",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53115"
             ]
@@ -1372,6 +1411,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53116"
             ]
@@ -1394,6 +1436,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53117"
             ]
@@ -1416,6 +1461,10 @@
             "chest_unopened_img": "images/enemies/raptor.png",
             "chest_opened_img": "images/enemies/raptor_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul",
+              "raptor_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53118"
             ]
@@ -1425,6 +1474,9 @@
             "chest_unopened_img": "images/enemies/raptoid.png",
             "chest_opened_img": "images/enemies/raptoid_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53119"
             ]
@@ -1447,6 +1499,9 @@
             "chest_unopened_img": "images/enemies/raptoid.png",
             "chest_opened_img": "images/enemies/raptoid_bw.png",
             "item_count": 2,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53120|53121"
             ]
@@ -1456,6 +1511,9 @@
             "chest_unopened_img": "images/enemies/endtrail.png",
             "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53122"
             ]
@@ -1478,6 +1536,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53123"
             ]
@@ -1500,6 +1561,9 @@
             "chest_unopened_img": "images/enemies/endtrail.png",
             "chest_opened_img": "images/enemies/endtrail_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53124"
             ]
@@ -1509,6 +1573,9 @@
             "chest_unopened_img": "images/enemies/raptor.png",
             "chest_opened_img": "images/enemies/raptor_bw.png",
             "item_count": 1,
+            "access_rules": [
+              "raptor_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53125"
             ]
@@ -1531,6 +1598,9 @@
           {
             "name": "Raptoid",
             "item_count": 2,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53126|53127"
             ]
@@ -1553,6 +1623,9 @@
           {
             "name": "Endtrail",
             "item_count": 2,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|53128|53129"
             ]

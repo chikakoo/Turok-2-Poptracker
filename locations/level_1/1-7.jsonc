@@ -557,6 +557,9 @@
           {
             "name": "Raptoid",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57038"
             ]
@@ -579,6 +582,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57039"
             ]
@@ -601,6 +607,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57040"
             ]
@@ -623,6 +632,9 @@
           {
             "name": "Raptor",
             "item_count": 1,
+            "access_rules": [
+              "raptor_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57041"
             ]
@@ -645,6 +657,9 @@
           {
             "name": "Raptor",
             "item_count": 1,
+            "access_rules": [
+              "raptor_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57042"
             ]
@@ -667,6 +682,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57043"
             ]
@@ -689,6 +707,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57044"
             ]
@@ -711,6 +732,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57045"
             ]
@@ -733,6 +757,9 @@
           {
             "name": "Raptoid",
             "item_count": 3,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57046|57047|57048"
             ]
@@ -755,6 +782,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57049"
             ]
@@ -777,6 +807,9 @@
           {
             "name": "Raptoid",
             "item_count": 2,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57050|57051"
             ]
@@ -799,6 +832,9 @@
           {
             "name": "Endtrail",
             "item_count": 1,
+            "access_rules": [
+              "endtrail_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57052"
             ]
@@ -821,6 +857,9 @@
           {
             "name": "Raptoid",
             "item_count": 1,
+            "access_rules": [
+              "raptoid_soul"
+            ],
             "visibility_rules": [
               "$id_exists|57053"
             ]
