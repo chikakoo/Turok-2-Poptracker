@@ -15,6 +15,13 @@
                     "type": "layout",
                     "key": "weapons"
                 }
+            },
+            {
+                "title": "Souls",
+                "content": {
+                    "type": "layout",
+                    "key": "enemy_souls"
+                }
             }
         ]
     }

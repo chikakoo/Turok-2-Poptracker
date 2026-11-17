@@ -424,5 +424,180 @@
     "type": "toggle",
     "img": "images/items/weapons/nuke.png",
     "codes": "nuke"
+  },
+
+  {
+    "name": "Raptoid Soul",
+    "type": "toggle",
+    "img": "images/enemies/raptoid.png",
+    "codes": "raptoid_soul"
+  },
+  {
+    "name": "Endtrail Soul",
+    "type": "toggle",
+    "img": "images/enemies/endtrail.png",
+    "codes": "endtrail_soul"
+  },
+  {
+    "name": "Compy Soul",
+    "type": "toggle",
+    "img": "images/enemies/compy.png",
+    "codes": "compy_soul"
+  },
+  {
+    "name": "Raptor Soul",
+    "type": "toggle",
+    "img": "images/enemies/raptor.png",
+    "codes": "raptor_soul"
+  },
+  {
+    "name": "Leaper Soul",
+    "type": "toggle",
+    "img": "images/enemies/leaper.png",
+    "codes": "leaper_soul"
+  },
+  {
+    "name": "Spider Hatchling Soul",
+    "type": "toggle",
+    "img": "images/enemies/spider.png",
+    "codes": "spider_hatchling_soul"
+  },
+  {
+    "name": "Deadman Soul",
+    "type": "toggle",
+    "img": "images/enemies/deadman.png",
+    "codes": "deadman_soul"
+  },
+  {
+    "name": "Lord of the Dead Soul",
+    "type": "toggle",
+    "img": "images/enemies/lord_of_the_dead.png",
+    "codes": "lord_of_the_dead_soul"
+  },
+  {
+    "name": "Sister of Despair Soul",
+    "type": "toggle",
+    "img": "images/enemies/sister_of_despair.png",
+    "codes": "sister_of_despair_soul"
+  },
+  {
+    "name": "War Club Soul",
+    "type": "toggle",
+    "img": "images/enemies/war_club.png",
+    "codes": "war_club_soul"
+  },
+  {
+    "name": "Gunner Soul",
+    "type": "toggle",
+    "img": "images/enemies/gunner.png",
+    "codes": "gunner_soul"
+  },
+  {
+    "name": "Juggernaut Soul",
+    "type": "toggle",
+    "img": "images/enemies/juggernaut.png",
+    "codes": "juggernaut_soul"
+  },
+  {
+    "name": "Cave Worm Soul",
+    "type": "toggle",
+    "img": "images/enemies/cave_worm.png",
+    "codes": "cave_worm_soul"
+  },
+  {
+    "name": "Wasp Soul",
+    "type": "toggle",
+    "img": "images/enemies/wasp.png",
+    "codes": "wasp_soul"
+  },
+  {
+    "name": "Blind Sentinel Soul",
+    "type": "toggle",
+    "img": "images/enemies/sentinel_blind.png",
+    "codes": "blind_sentinel_soul"
+  },
+  {
+    "name": "Guardian Soul",
+    "type": "toggle",
+    "img": "images/enemies/guardian.png",
+    "codes": "guardian_soul"
+  },
+  {
+    "name": "Nala Soul",
+    "type": "toggle",
+    "img": "images/enemies/nala.png",
+    "codes": "nala_soul"
+  },
+  {
+    "name": "Cave Spider Soul",
+    "type": "toggle",
+    "img": "images/enemies/cave_spider.png",
+    "codes": "cave_spider_soul"
+  },
+  {
+    "name": "Fireborn Soul",
+    "type": "toggle",
+    "img": "images/enemies/fireborn.png",
+    "codes": "fireborn_soul"
+  },
+  {
+    "name": "Drone Soul",
+    "type": "toggle",
+    "img": "images/enemies/drone.png",
+    "codes": "drone_soul"
+  },
+  {
+    "name": "Worker Soul",
+    "type": "toggle",
+    "img": "images/enemies/worker.png",
+    "codes": "worker_soul"
+  },
+  {
+    "name": "Mite Soul",
+    "type": "toggle",
+    "img": "images/enemies/mite.png",
+    "codes": "mite_soul"
+  },
+  {
+    "name": "Soldier Soul",
+    "type": "toggle",
+    "img": "images/enemies/soldier.png",
+    "codes": "soldier_soul"
+  },
+  {
+    "name": "Bio-Bot Soul",
+    "type": "toggle",
+    "img": "images/enemies/bio_bot.png",
+    "codes": "bio_bot_soul"
+  },
+  {
+    "name": "Trooper Soul",
+    "type": "toggle",
+    "img": "images/enemies/trooper.png",
+    "codes": "trooper_soul"
+  },
+  {
+    "name": "Elite Guard Soul",
+    "type": "toggle",
+    "img": "images/enemies/elite_guard.png",
+    "codes": "elite_guard_soul"
+  },
+  {
+    "name": "Flesh Sentinel Soul",
+    "type": "toggle",
+    "img": "images/enemies/sentinel_oblivion.png",
+    "codes": "flesh_sentinel_soul"
+  },
+  {
+    "name": "Death Guard Soul",
+    "type": "toggle",
+    "img": "images/enemies/death_guard.png",
+    "codes": "death_guard_soul"
+  },
+  {
+    "name": "Lord of the Flesh Soul",
+    "type": "toggle",
+    "img": "images/enemies/lord_of_the_flesh.png",
+    "codes": "lord_of_the_flesh_soul"
   }
 ]

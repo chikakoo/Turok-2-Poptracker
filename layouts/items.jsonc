@@ -21,6 +21,15 @@
                     "type": "layout",
                     "key": "weapons"
                 }
+            },
+            {
+                "type": "group",
+                "header": "Souls",
+                "dock": "left",
+                "content": {
+                    "type": "layout",
+                    "key": "enemy_souls"
+                }
             }
         ]
     }

@@ -416,7 +416,11 @@ function AutoFill(slot_data)
         level_unlock_method = { code = "level_unlock_method" },
         randomize_mission_items = { code = "randomize_mission_items" },
         randomize_weapons = { code = "randomize_weapons" },
-        progressive_weapon_ammo_upgrades = {  code = "progressive_weapon_ammo_upgrades" },
+        progressive_weapon_ammo_upgrades = { code = "progressive_weapon_ammo_upgrades" },
+        enemy_souls = { 
+            code = "enemy_souls_setting",
+            mapping = { [0]=0, [1]=1, [2]=2, [3]=2 }
+        },
 
         -- Weapon Barriers
         weapon_barrier_level_1_start = { code = "weapon_barrier_level_1_start" },
@@ -463,7 +467,11 @@ function AutoFill(slot_data)
             elseif item.Type == "consumable" then
                 item.AcquiredCount = settings_value
             elseif item.Type == "progressive" then
-                item.CurrentStage = settings_value
+                if settingData.mapping then
+                    item.CurrentStage = settingData.mapping[settings_value]
+                else
+                    item.CurrentStage = settings_value
+                end
             else
                 print("WARNING - Setting not mapped: " .. settings_name)
             end

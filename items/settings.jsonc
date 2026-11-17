@@ -129,6 +129,32 @@
         "initial_quantity": 1,
         "codes": "progressive_weapon_ammo_upgrades"
     },
+    {
+        "name": "Enemy Souls",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Enemy Souls (Off)",
+                "img": "/images/settings/enemy_souls_off.png",
+                "codes": "enemy_souls_setting,raptoid_soul",
+                "inherit_codes": false
+            },
+            {
+                "name": "Enemy Souls (Checks Only)",
+                "img": "/images/settings/enemy_souls_checks_only.png",
+                "codes": "enemy_souls_checks",
+                "inherit_codes": true
+            },
+            {
+                "name": "Enemy Souls (On)",
+                "img": "/images/settings/enemy_souls_on.png",
+                "codes": "enemy_souls_setting,enemy_souls_checks,enemy_souls",
+                "inherit_codes": false
+            }
+        ]
+    },
 
     // Tracker
     {

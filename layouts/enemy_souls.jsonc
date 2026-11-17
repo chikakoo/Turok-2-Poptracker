@@ -1,0 +1,67 @@
+{
+    "enemy_souls": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "1, 1",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_size": "32,32",
+                        "rows": [
+                            [
+                                "raptoid_soul",
+                                "endtrail_soul",
+                                "compy_soul",
+                                "raptor_soul"
+                            ],
+                            [
+                                "leaper_soul",
+                                "spider_hatchling_soul",
+                                "deadman_soul",
+                                "lord_of_the_dead_soul",
+                                "sister_of_despair_soul"
+                            ],
+                            [
+                                "war_club_soul",
+                                "gunner_soul",
+                                "juggernaut_soul",
+                                "cave_worm_soul",
+                                "wasp_soul"
+                            ],
+                            [
+                                "blind_sentinel_soul",
+                                "guardian_soul",
+                                "nala_soul",
+                                "cave_spider_soul",
+                                "fireborn_soul"
+                            ],
+                            [
+                                "drone_soul",
+                                "worker_soul",
+                                "mite_soul",
+                                "soldier_soul"
+                            ],
+                            [
+                                "bio_bot_soul",
+                                "trooper_soul",
+                                "elite_guard_soul",
+                                "flesh_sentinel_soul",
+                                "death_guard_soul",
+                                "lord_of_the_flesh_soul"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

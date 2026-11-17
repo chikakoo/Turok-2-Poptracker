@@ -121,6 +121,12 @@
                 "max_width": 64,
                 "margin": "2,0",
                 "item": "progressive_weapon_ammo_upgrades"
+              },
+              {
+                "type": "item",
+                "max_width": 64,
+                "margin": "2,0",
+                "item": "enemy_souls_setting"
               }
             ]
           }
