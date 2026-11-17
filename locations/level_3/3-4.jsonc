@@ -342,6 +342,9 @@
                     {
                         "name": "War Club",
                         "item_count": 1,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|64049"
                         ]
@@ -364,6 +367,9 @@
                     {
                         "name": "Gunner",
                         "item_count": 1,
+                        "access_rules": [
+                            "gunner_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|64050"
                         ]
@@ -386,6 +392,9 @@
                     {
                         "name": "War Club",
                         "item_count": 1,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|64051"
                         ]
@@ -408,6 +417,9 @@
                     {
                         "name": "War Club",
                         "item_count": 1,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|64052"
                         ]
@@ -430,6 +442,9 @@
                     {
                         "name": "Juggernaut",
                         "item_count": 1,
+                        "access_rules": [
+                            "juggernaut_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|64053"
                         ]
@@ -452,6 +467,9 @@
                     {
                         "name": "Gunner",
                         "item_count": 1,
+                        "access_rules": [
+                            "gunner_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|64054"
                         ]
@@ -474,6 +492,9 @@
                     {
                         "name": "Juggernaut",
                         "item_count": 1,
+                        "access_rules": [
+                            "juggernaut_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|64055"
                         ]
@@ -685,6 +706,9 @@
                             {
                                 "name": "Gunner",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "gunner_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|64079"
                                 ]
@@ -707,6 +731,9 @@
                             {
                                 "name": "Juggernaut",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "juggernaut_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|64080"
                                 ]
@@ -729,6 +756,9 @@
                             {
                                 "name": "Gunner",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "gunner_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|64081"
                                 ]
@@ -751,6 +781,9 @@
                                 "chest_unopened_img": "images/enemies/juggernaut.png",
                                 "chest_opened_img": "images/enemies/juggernaut_bw.png",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "juggernaut_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|64082"
                                 ]
@@ -760,6 +793,9 @@
                                 "chest_unopened_img": "images/enemies/wasp.png",
                                 "chest_opened_img": "images/enemies/wasp_bw.png",
                                 "item_count": 2,
+                                "access_rules": [
+                                    "wasp_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|64083|64084"
                                 ]
@@ -782,6 +818,9 @@
                             {
                                 "name": "Juggernaut",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "juggernaut_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|64085"
                                 ]
@@ -804,6 +843,9 @@
                                 "chest_unopened_img": "images/enemies/gunner.png",
                                 "chest_opened_img": "images/enemies/gunner_bw.png",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "gunner_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|64086"
                                 ]
@@ -813,6 +855,9 @@
                                 "chest_unopened_img": "images/enemies/juggernaut.png",
                                 "chest_opened_img": "images/enemies/juggernaut_bw.png",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "juggernaut_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|64087"
                                 ]

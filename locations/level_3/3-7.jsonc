@@ -97,6 +97,9 @@
                         "chest_unopened_img": "images/enemies/juggernaut.png",
                         "chest_opened_img": "images/enemies/juggernaut_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "juggernaut_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|67031"
                         ]
@@ -106,6 +109,9 @@
                         "chest_unopened_img": "images/enemies/war_club.png",
                         "chest_opened_img": "images/enemies/war_club_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|67032"
                         ]
@@ -128,6 +134,9 @@
                     {
                         "name": "Wasp",
                         "item_count": 2,
+                        "access_rules": [
+                            "wasp_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|67033|67034"
                         ]
@@ -150,6 +159,9 @@
                     {
                         "name": "Gunner",
                         "item_count": 1,
+                        "access_rules": [
+                            "gunner_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|67035"
                         ]
@@ -400,6 +412,9 @@
                             {
                                 "name": "Gunner",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "gunner_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|67036"
                                 ]
@@ -422,6 +437,9 @@
                             {
                                 "name": "Gunner",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "gunner_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|67037"
                                 ]
@@ -444,6 +462,9 @@
                             {
                                 "name": "Gunner",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "gunner_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|67038"
                                 ]

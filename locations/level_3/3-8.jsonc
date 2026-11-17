@@ -177,6 +177,9 @@
                     {
                         "name": "Raptor",
                         "item_count": 4,
+                        "access_rules": [
+                            "raptor_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|68015|68016|68017|68018"
                         ]
@@ -199,6 +202,9 @@
                     {
                         "name": "Juggernaut",
                         "item_count": 1,
+                        "access_rules": [
+                            "juggernaut_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|68019"
                         ]
@@ -221,6 +227,9 @@
                     {
                         "name": "Juggernaut",
                         "item_count": 1,
+                        "access_rules": [
+                            "juggernaut_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|68020"
                         ]
@@ -243,6 +252,9 @@
                     {
                         "name": "Juggernaut",
                         "item_count": 1,
+                        "access_rules": [
+                            "juggernaut_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|68021"
                         ]

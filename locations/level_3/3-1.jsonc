@@ -650,6 +650,9 @@
                     {
                         "name": "War Club",
                         "item_count": 1,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61104"
                         ]
@@ -672,6 +675,9 @@
                     {
                         "name": "Gunner",
                         "item_count": 1,
+                        "access_rules": [
+                            "gunner_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61105"
                         ]
@@ -694,6 +700,9 @@
                     {
                         "name": "Raptoid",
                         "item_count": 1,
+                        "access_rules": [
+                            "raptoid_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61106"
                         ]
@@ -716,6 +725,9 @@
                     {
                         "name": "Gunner",
                         "item_count": 1,
+                        "access_rules": [
+                            "gunner_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61107"
                         ]
@@ -738,6 +750,9 @@
                     {
                         "name": "War Club",
                         "item_count": 1,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61108"
                         ]
@@ -760,6 +775,9 @@
                     {
                         "name": "Gunner",
                         "item_count": 1,
+                        "access_rules": [
+                            "gunner_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61109"
                         ]
@@ -782,6 +800,9 @@
                     {
                         "name": "War Club",
                         "item_count": 1,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61110"
                         ]
@@ -804,6 +825,9 @@
                     {
                         "name": "Wasp",
                         "item_count": 2,
+                        "access_rules": [
+                            "wasp_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61111|61112"
                         ]
@@ -826,6 +850,9 @@
                     {
                         "name": "War Club",
                         "item_count": 1,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61113"
                         ]
@@ -848,6 +875,9 @@
                     {
                         "name": "Gunner",
                         "item_count": 1,
+                        "access_rules": [
+                            "gunner_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61114"
                         ]
@@ -870,6 +900,9 @@
                     {
                         "name": "War Club",
                         "item_count": 1,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61115"
                         ]
@@ -892,6 +925,9 @@
                     {
                         "name": "Cave Worm",
                         "item_count": 1,
+                        "access_rules": [
+                            "cave_worm_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61116"
                         ]
@@ -914,6 +950,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61117"
                         ]
@@ -936,6 +975,9 @@
                     {
                         "name": "Gunner",
                         "item_count": 1,
+                        "access_rules": [
+                            "gunner_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61118"
                         ]
@@ -958,6 +1000,9 @@
                     {
                         "name": "Wasp",
                         "item_count": 1,
+                        "access_rules": [
+                            "wasp_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61119"
                         ]
@@ -980,6 +1025,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61120"
                         ]
@@ -1002,6 +1050,9 @@
                     {
                         "name": "Cave Worm Spawned From Tek Arrows",
                         "item_count": 1,
+                        "access_rules": [
+                            "cave_worm_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61121"
                         ]
@@ -1024,6 +1075,9 @@
                     {
                         "name": "Cave Worm",
                         "item_count": 1,
+                        "access_rules": [
+                            "cave_worm_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61122"
                         ]
@@ -1031,6 +1085,9 @@
                     {
                         "name": "Cave Worm Spawned From Tek Quiver",
                         "item_count": 1,
+                        "access_rules": [
+                            "cave_worm_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61123"
                         ]
@@ -1053,6 +1110,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61124"
                         ]
@@ -1075,6 +1135,9 @@
                     {
                         "name": "War Club",
                         "item_count": 1,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|61125"
                         ]

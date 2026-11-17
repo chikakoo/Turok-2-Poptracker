@@ -36,6 +36,9 @@
                         "chest_unopened_img": "images/enemies/sentinel_oblivion.png",
                         "chest_opened_img": "images/enemies/sentinel_oblivion_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "flesh_sentinel_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|80001"
                         ]
@@ -45,6 +48,9 @@
                         "chest_unopened_img": "images/enemies/death_guard.png",
                         "chest_opened_img": "images/enemies/death_guard_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "death_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|80002"
                         ]
@@ -67,6 +73,9 @@
                         "chest_unopened_img": "images/enemies/sentinel_oblivion.png",
                         "chest_opened_img": "images/enemies/sentinel_oblivion_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "flesh_sentinel_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|80003"
                         ]
@@ -76,6 +85,9 @@
                         "chest_unopened_img": "images/enemies/death_guard.png",
                         "chest_opened_img": "images/enemies/death_guard_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "death_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|80004"
                         ]
@@ -98,6 +110,9 @@
                         "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
                         "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_flesh_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|80005"
                         ]
@@ -107,6 +122,9 @@
                         "chest_unopened_img": "images/enemies/death_guard.png",
                         "chest_opened_img": "images/enemies/death_guard_bw.png",
                         "item_count": 2,
+                        "access_rules": [
+                            "death_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|80006|80007"
                         ]
@@ -129,6 +147,9 @@
                     {
                         "name": "Lord of the Flesh",
                         "item_count": 1,
+                        "access_rules": [
+                            "lord_of_the_flesh_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|80008"
                         ]

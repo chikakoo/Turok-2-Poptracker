@@ -486,6 +486,9 @@
                         "chest_unopened_img": "images/enemies/war_club.png",
                         "chest_opened_img": "images/enemies/war_club_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|66064"
                         ]
@@ -495,6 +498,9 @@
                         "chest_unopened_img": "images/enemies/juggernaut.png",
                         "chest_opened_img": "images/enemies/juggernaut_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "juggernaut_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|66065"
                         ]
@@ -517,6 +523,9 @@
                         "chest_unopened_img": "images/enemies/gunner.png",
                         "chest_opened_img": "images/enemies/gunner_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "gunner_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|66066"
                         ]
@@ -539,6 +548,9 @@
                         "chest_unopened_img": "images/enemies/endtrail.png",
                         "chest_opened_img": "images/enemies/endtrail_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|66067"
                         ]
@@ -548,6 +560,9 @@
                         "chest_unopened_img": "images/enemies/war_club.png",
                         "chest_opened_img": "images/enemies/war_club_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|66068"
                         ]
@@ -570,6 +585,9 @@
                     {
                         "name": "Wasp",
                         "item_count": 2,
+                        "access_rules": [
+                            "wasp_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|66069|66070"
                         ]
@@ -592,6 +610,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|66071"
                         ]
@@ -614,6 +635,9 @@
                     {
                         "name": "War Club",
                         "item_count": 3,
+                        "access_rules": [
+                            "war_club_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|66072|66073|66074"
                         ]
@@ -636,6 +660,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 2,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|66075|66076"
                         ]
@@ -658,6 +685,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|66077"
                         ]
@@ -680,6 +710,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|66078"
                         ]
