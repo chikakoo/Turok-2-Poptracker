@@ -241,6 +241,9 @@
                     {
                         "name": "Leaper",
                         "item_count": 3,
+                        "access_rules": [
+                            "leaper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|104043|104044|104045"
                         ]
@@ -263,6 +266,9 @@
                     {
                         "name": "Fireborn",
                         "item_count": 1,
+                        "access_rules": [
+                            "fireborn_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|104046"
                         ]
@@ -285,6 +291,9 @@
                     {
                         "name": "Fireborn",
                         "item_count": 1,
+                        "access_rules": [
+                            "fireborn_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|104047"
                         ]
@@ -307,6 +316,9 @@
                     {
                         "name": "Fireborn",
                         "item_count": 1,
+                        "access_rules": [
+                            "fireborn_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|104048"
                         ]
@@ -329,6 +341,9 @@
                         "chest_unopened_img": "images/enemies/spider.png",
                         "chest_opened_img": "images/enemies/spider_bw.png",
                         "item_count": 4,
+                        "access_rules": [
+                            "spider_hatchling_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|104049|104050|104051|104052"
                         ]
@@ -338,6 +353,9 @@
                         "chest_unopened_img": "images/enemies/cave_spider.png",
                         "chest_opened_img": "images/enemies/cave_spider_bw.png",
                         "item_count": 2,
+                        "access_rules": [
+                            "cave_spider_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|104053|104054"
                         ]
@@ -360,6 +378,9 @@
                     {
                         "name": "Fireborn",
                         "item_count": 2,
+                        "access_rules": [
+                            "fireborn_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|104055|104056"
                         ]
@@ -382,6 +403,9 @@
                     {
                         "name": "Fireborn",
                         "item_count": 1,
+                        "access_rules": [
+                            "fireborn_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|104057"
                         ]

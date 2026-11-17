@@ -61,6 +61,9 @@
                     {
                         "name": "Sentinel",
                         "item_count": 1,
+                        "access_rules": [
+                            "blind_sentinel_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|106003"
                         ]

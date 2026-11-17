@@ -632,6 +632,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99060"
                         ]
@@ -654,6 +657,9 @@
                     {
                         "name": "Leaper",
                         "item_count": 1,
+                        "access_rules": [
+                            "leaper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99061"
                         ]
@@ -676,6 +682,9 @@
                     {
                         "name": "Raptoid",
                         "item_count": 1,
+                        "access_rules": [
+                            "raptoid_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99062"
                         ]
@@ -698,6 +707,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99063"
                         ]
@@ -720,6 +732,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99064"
                         ]
@@ -742,6 +757,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99065"
                         ]
@@ -764,6 +782,9 @@
                     {
                         "name": "Endtrail",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99066"
                         ]
@@ -786,6 +807,9 @@
                     {
                         "name": "Spider",
                         "item_count": 1,
+                        "access_rules": [
+                            "spider_hatchling_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99067"
                         ]
@@ -808,6 +832,9 @@
                         "chest_unopened_img": "images/enemies/spider.png",
                         "chest_opened_img": "images/enemies/spider_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "spider_hatchling_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99068"
                         ]
@@ -817,6 +844,9 @@
                         "chest_unopened_img": "images/enemies/raptoid.png",
                         "chest_opened_img": "images/enemies/raptoid_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "raptoid_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99069"
                         ]
@@ -839,6 +869,9 @@
                     {
                         "name": "Sentinel",
                         "item_count": 1,
+                        "access_rules": [
+                            "blind_sentinel_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99070"
                         ]
@@ -861,6 +894,9 @@
                     {
                         "name": "Raptoid",
                         "item_count": 1,
+                        "access_rules": [
+                            "raptoid_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99071"
                         ]
@@ -883,6 +919,9 @@
                     {
                         "name": "Sentinel",
                         "item_count": 2,
+                        "access_rules": [
+                            "blind_sentinel_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99072|99073"
                         ]
@@ -905,6 +944,9 @@
                         "chest_unopened_img": "images/enemies/leaper.png",
                         "chest_opened_img": "images/enemies/leaper_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "leaper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99074"
                         ]
@@ -914,6 +956,9 @@
                         "chest_unopened_img": "images/enemies/endtrail.png",
                         "chest_opened_img": "images/enemies/endtrail_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "endtrail_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99075"
                         ]
@@ -936,6 +981,9 @@
                     {
                         "name": "Cave Worm",
                         "item_count": 1,
+                        "access_rules": [
+                            "cave_worm_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99076"
                         ]
@@ -958,6 +1006,9 @@
                     {
                         "name": "Spider",
                         "item_count": 1,
+                        "access_rules": [
+                            "spider_hatchling_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|99077"
                         ]
@@ -1007,6 +1058,9 @@
                             {
                                 "name": "Guardian",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "guardian_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|99078"
                                 ]

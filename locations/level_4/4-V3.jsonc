@@ -384,6 +384,9 @@
                     {
                         "name": "Sentinel",
                         "item_count": 1,
+                        "access_rules": [
+                            "blind_sentinel_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|108027"
                         ]
@@ -406,6 +409,9 @@
                     {
                         "name": "Guardian",
                         "item_count": 1,
+                        "access_rules": [
+                            "guardian_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|108028"
                         ]
@@ -428,6 +434,9 @@
                     {
                         "name": "Guardian",
                         "item_count": 4,
+                        "access_rules": [
+                            "guardian_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|108029|108030|108031|108032"
                         ]
@@ -450,6 +459,9 @@
                     {
                         "name": "Guardian",
                         "item_count": 4,
+                        "access_rules": [
+                            "guardian_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|108033|108034|108035|108036"
                         ]
@@ -472,6 +484,9 @@
                     {
                         "name": "Sentinel",
                         "item_count": 1,
+                        "access_rules": [
+                            "blind_sentinel_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|108037"
                         ]

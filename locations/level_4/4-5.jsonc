@@ -279,13 +279,16 @@
                 ]
             },
             {
-                "name": "At Start",
+                "name": "Enemy at Start",
                 "sections": [
                     {
                         "name": "Spider",
                         "chest_unopened_img": "images/enemies/spider.png",
                         "chest_opened_img": "images/enemies/spider_bw.png",
                         "item_count": 3,
+                        "access_rules": [
+                            "spider_hatchling_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|102038|102039|102040"
                         ]
@@ -308,6 +311,9 @@
                         "chest_unopened_img": "images/enemies/leaper.png",
                         "chest_opened_img": "images/enemies/leaper_bw.png",
                         "item_count": 2,
+                        "access_rules": [
+                            "leaper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|102041|102043"
                         ]
@@ -317,6 +323,9 @@
                         "chest_unopened_img": "images/enemies/raptoid.png",
                         "chest_opened_img": "images/enemies/raptoid_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "raptoid_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|102042"
                         ]
@@ -489,6 +498,9 @@
                             {
                                 "name": "Leaper",
                                 "item_count": 2,
+                                "access_rules": [
+                                    "leaper_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|102044|102045"
                                 ]
@@ -511,6 +523,9 @@
                             {
                                 "name": "Leaper",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "leaper_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|102046"
                                 ]
@@ -533,6 +548,9 @@
                             {
                                 "name": "Raptoid",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "raptoid_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|102047"
                                 ]
@@ -555,6 +573,9 @@
                             {
                                 "name": "Raptoid",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "raptoid_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|102048"
                                 ]
@@ -577,6 +598,9 @@
                             {
                                 "name": "Raptoid",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "raptoid_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|102049"
                                 ]
@@ -599,6 +623,9 @@
                             {
                                 "name": "Raptoid",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "raptoid_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|102050"
                                 ]
