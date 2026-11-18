@@ -4896,10 +4896,6 @@
         "name": "3-O",
         "sections": [
           {
-            "ref": "3-O/Exit/Nuke Part",
-            "name": "[Nuke Part] Exit"
-          },
-          {
             "ref": "3-O/Enemy in Left Room/Sentinel",
             "name": "[Sentinel] Enemy in Left Room"
           },
@@ -4916,16 +4912,20 @@
             "name": "[Death Guard] Enemy in Right Room"
           },
           {
-            "ref": "3-O/Enemy in Forward Room/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy in Forward Room"
+            "ref": "3-O/Exit/Exit/Nuke Part",
+            "name": "[Nuke Part] Exit/Exit"
           },
           {
-            "ref": "3-O/Enemy in Forward Room/Death Guard",
-            "name": "[Death Guard] Enemy in Forward Room"
+            "ref": "3-O/Exit/Enemy in Forward Room/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Exit/Enemy in Forward Room"
           },
           {
-            "ref": "3-O/Enemy by Exit/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy by Exit"
+            "ref": "3-O/Exit/Enemy in Forward Room/Death Guard",
+            "name": "[Death Guard] Exit/Enemy in Forward Room"
+          },
+          {
+            "ref": "3-O/Exit/Enemy by Exit/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Exit/Enemy by Exit"
           }
         ],
         "map_locations": [
@@ -5568,16 +5568,16 @@
             "name": "[Raptor] Enemy Ambush"
           },
           {
-            "ref": "3-8/Either Enemy on Ground/Juggernaut",
-            "name": "[Juggernaut] Either Enemy on Ground"
+            "ref": "3-8/Exit/Either Enemy on Ground/Juggernaut",
+            "name": "[Juggernaut] Exit/Either Enemy on Ground"
           },
           {
-            "ref": "3-8/Enemy on Left Tower/Juggernaut",
-            "name": "[Juggernaut] Enemy on Left Tower"
+            "ref": "3-8/Exit/Enemy on Left Tower/Juggernaut",
+            "name": "[Juggernaut] Exit/Enemy on Left Tower"
           },
           {
-            "ref": "3-8/Enemy on Right Tower/Juggernaut",
-            "name": "[Juggernaut] Enemy on Right Tower"
+            "ref": "3-8/Exit/Enemy on Right Tower/Juggernaut",
+            "name": "[Juggernaut] Exit/Enemy on Right Tower"
           }
         ],
         "map_locations": [
@@ -5732,18 +5732,6 @@
             "name": "[Spider] Whispers/Enemy in Switch Wall"
           },
           {
-            "ref": "4-1/Cave Door/By Portal/LF10",
-            "name": "[LF10] Cave Door/By Portal"
-          },
-          {
-            "ref": "4-1/Cave Door/By Portal/Ultra Health",
-            "name": "[Ultra Health] Cave Door/By Portal"
-          },
-          {
-            "ref": "4-1/Cave Door/Through Whispers Portal/Primagen Key",
-            "name": "[Primagen Key] Cave Door/Through Whispers Portal"
-          },
-          {
             "ref": "4-1/Cave Door/Enemy in First Room/Spider",
             "name": "[Spider] Cave Door/Enemy in First Room"
           },
@@ -5752,8 +5740,20 @@
             "name": "[Cave Spider] Cave Door/Enemy in First Room"
           },
           {
-            "ref": "4-1/Cave Door/Enemy in Second Room/Cave Spider",
-            "name": "[Cave Spider] Cave Door/Enemy in Second Room"
+            "ref": "4-1/Cave Spider Door/By Portal/LF10",
+            "name": "[LF10] Cave Spider Door/By Portal"
+          },
+          {
+            "ref": "4-1/Cave Spider Door/By Portal/Ultra Health",
+            "name": "[Ultra Health] Cave Spider Door/By Portal"
+          },
+          {
+            "ref": "4-1/Cave Spider Door/Through Whispers Portal/Primagen Key",
+            "name": "[Primagen Key] Cave Spider Door/Through Whispers Portal"
+          },
+          {
+            "ref": "4-1/Cave Spider Door/Enemy in Second Room/Cave Spider",
+            "name": "[Cave Spider] Cave Spider Door/Enemy in Second Room"
           }
         ],
         "map_locations": [
@@ -6012,66 +6012,6 @@
             "name": "[Quiver] Behind Stalagmite"
           },
           {
-            "ref": "4-3/In Cave Spider Alcove/Grenade Launcher",
-            "name": "[Grenade Launcher] In Cave Spider Alcove"
-          },
-          {
-            "ref": "4-3/After Cave Spider/Blue Health",
-            "name": "[Blue Health] After Cave Spider"
-          },
-          {
-            "ref": "4-3/Left Path Start/LF1",
-            "name": "[LF1] Left Path Start"
-          },
-          {
-            "ref": "4-3/Left Path Start/Blue Health",
-            "name": "[Blue Health] Left Path Start"
-          },
-          {
-            "ref": "4-3/Right Path Start/LF1",
-            "name": "[LF1] Right Path Start"
-          },
-          {
-            "ref": "4-3/Right Path Start/Blue Health",
-            "name": "[Blue Health] Right Path Start"
-          },
-          {
-            "ref": "4-3/In Water/Blue Health",
-            "name": "[Blue Health] In Water"
-          },
-          {
-            "ref": "4-3/By Left Ladder/LF1",
-            "name": "[LF1] By Left Ladder"
-          },
-          {
-            "ref": "4-3/By Left Ladder/Shootable Switch",
-            "name": "[Shootable Switch] By Left Ladder"
-          },
-          {
-            "ref": "4-3/By Right Ladder/LF1",
-            "name": "[LF1] By Right Ladder"
-          },
-          {
-            "ref": "4-3/By Right Ladder/Shootable Switch",
-            "name": "[Shootable Switch] By Right Ladder"
-          },
-          {
-            "ref": "4-3/Up Ladder/Charge Dart Rifle",
-            "name": "[Charge Dart Rifle] Up Ladder"
-          },
-          {
-            "ref": "4-3/Water Path End/Cave Door Key",
-            "name": "[Cave Door Key] Water Path End"
-          },
-          {
-            "ref": "4-3/By Wall/Skull Switch",
-            "name": "[Skull Switch] By Wall"
-          },
-          {
-            "ref": "4-3/Cave Door Room/Unlock Cave Door",
-            "name": "[Unlock Cave Door] Cave Door Room"
-          },
-          {
             "ref": "4-3/Enemy Spawned From Blue Health/Cave Worm",
             "name": "[Cave Worm] Enemy Spawned From Blue Health"
           },
@@ -6080,20 +6020,80 @@
             "name": "[Cave Spider] Enemy in First Cave"
           },
           {
-            "ref": "4-3/Enemy by Cave Door/Endtrail",
-            "name": "[Endtrail] Enemy by Cave Door"
+            "ref": "4-3/Cave Spider Door/In Cave Spider Alcove/Grenade Launcher",
+            "name": "[Grenade Launcher] Cave Spider Door/In Cave Spider Alcove"
           },
           {
-            "ref": "4-3/Enemy in Left Path/Leaper",
-            "name": "[Leaper] Enemy in Left Path"
+            "ref": "4-3/Cave Spider Door/After Cave Spider/Blue Health",
+            "name": "[Blue Health] Cave Spider Door/After Cave Spider"
           },
           {
-            "ref": "4-3/Enemy in Right Path/Leaper",
-            "name": "[Leaper] Enemy in Right Path"
+            "ref": "4-3/Cave Spider Door/Left Path Start/LF1",
+            "name": "[LF1] Cave Spider Door/Left Path Start"
           },
           {
-            "ref": "4-3/Enemy at Water Path End/Sentinel",
-            "name": "[Sentinel] Enemy at Water Path End"
+            "ref": "4-3/Cave Spider Door/Left Path Start/Blue Health",
+            "name": "[Blue Health] Cave Spider Door/Left Path Start"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/Right Path Start/LF1",
+            "name": "[LF1] Cave Spider Door/Right Path Start"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/Right Path Start/Blue Health",
+            "name": "[Blue Health] Cave Spider Door/Right Path Start"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/In Water/Blue Health",
+            "name": "[Blue Health] Cave Spider Door/In Water"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/By Left Ladder/LF1",
+            "name": "[LF1] Cave Spider Door/By Left Ladder"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/By Left Ladder/Shootable Switch",
+            "name": "[Shootable Switch] Cave Spider Door/By Left Ladder"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/By Right Ladder/LF1",
+            "name": "[LF1] Cave Spider Door/By Right Ladder"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/By Right Ladder/Shootable Switch",
+            "name": "[Shootable Switch] Cave Spider Door/By Right Ladder"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/Up Ladder/Charge Dart Rifle",
+            "name": "[Charge Dart Rifle] Cave Spider Door/Up Ladder"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/Water Path End/Cave Door Key",
+            "name": "[Cave Door Key] Cave Spider Door/Water Path End"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/By Wall/Skull Switch",
+            "name": "[Skull Switch] Cave Spider Door/By Wall"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/Cave Door Room/Unlock Cave Door",
+            "name": "[Unlock Cave Door] Cave Spider Door/Cave Door Room"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/Enemy by Cave Door/Endtrail",
+            "name": "[Endtrail] Cave Spider Door/Enemy by Cave Door"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/Enemy in Left Path/Leaper",
+            "name": "[Leaper] Cave Spider Door/Enemy in Left Path"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/Enemy in Right Path/Leaper",
+            "name": "[Leaper] Cave Spider Door/Enemy in Right Path"
+          },
+          {
+            "ref": "4-3/Cave Spider Door/Enemy at Water Path End/Sentinel",
+            "name": "[Sentinel] Cave Spider Door/Enemy at Water Path End"
           },
           {
             "ref": "4-3/Cave Door/Across Fallen Bridge/Blue Health",
@@ -6136,38 +6136,6 @@
             "name": "[Charge Dart Pak] Cave Door/Level Key Room"
           },
           {
-            "ref": "4-3/Cave Door/Level Key Room/Full Health",
-            "name": "[Full Health] Cave Door/Level Key Room"
-          },
-          {
-            "ref": "4-3/Cave Door/Behind Rock/Quiver",
-            "name": "[Quiver] Cave Door/Behind Rock"
-          },
-          {
-            "ref": "4-3/Cave Door/In Bush/Box of Bullets",
-            "name": "[Box of Bullets] Cave Door/In Bush"
-          },
-          {
-            "ref": "4-3/Cave Door/By Checkpoint/Mag 60",
-            "name": "[Mag 60] Cave Door/By Checkpoint"
-          },
-          {
-            "ref": "4-3/Cave Door/After Switch Gate/Full Health",
-            "name": "[Full Health] Cave Door/After Switch Gate"
-          },
-          {
-            "ref": "4-3/Cave Door/By Exit Drop/LF1",
-            "name": "[LF1] Cave Door/By Exit Drop"
-          },
-          {
-            "ref": "4-3/Cave Door/On Bottom Wall/Shootable Switch",
-            "name": "[Shootable Switch] Cave Door/On Bottom Wall"
-          },
-          {
-            "ref": "4-3/Cave Door/On Top Wall/Shootable Switch",
-            "name": "[Shootable Switch] Cave Door/On Top Wall"
-          },
-          {
             "ref": "4-3/Cave Door/Enemy After Cave Door/Guardian",
             "name": "[Guardian] Cave Door/Enemy After Cave Door"
           },
@@ -6204,40 +6172,72 @@
             "name": "[Nala] Cave Door/Enemy in Level Key Room"
           },
           {
-            "ref": "4-3/Cave Door/Enemy Across Bridge/Guardian",
-            "name": "[Guardian] Cave Door/Enemy Across Bridge"
+            "ref": "4-3/After Level Key/Level Key Room/Full Health",
+            "name": "[Full Health] After Level Key/Level Key Room"
           },
           {
-            "ref": "4-3/Cave Door/Enemy by Falling Bridge/Spider",
-            "name": "[Spider] Cave Door/Enemy by Falling Bridge"
+            "ref": "4-3/After Level Key/Behind Rock/Quiver",
+            "name": "[Quiver] After Level Key/Behind Rock"
           },
           {
-            "ref": "4-3/Cave Door/Enemy by Falling Bridge/Guardian",
-            "name": "[Guardian] Cave Door/Enemy by Falling Bridge"
+            "ref": "4-3/After Level Key/In Bush/Box of Bullets",
+            "name": "[Box of Bullets] After Level Key/In Bush"
           },
           {
-            "ref": "4-3/Cave Door/Enemy Across Falling Bridge/Cave Spider",
-            "name": "[Cave Spider] Cave Door/Enemy Across Falling Bridge"
+            "ref": "4-3/After Level Key/By Checkpoint/Mag 60",
+            "name": "[Mag 60] After Level Key/By Checkpoint"
           },
           {
-            "ref": "4-3/Cave Door/Enemy by Checkpoint/Guardian",
-            "name": "[Guardian] Cave Door/Enemy by Checkpoint"
+            "ref": "4-3/After Level Key/After Switch Gate/Full Health",
+            "name": "[Full Health] After Level Key/After Switch Gate"
           },
           {
-            "ref": "4-3/Cave Door/Enemy After First Switch/Leaper",
-            "name": "[Leaper] Cave Door/Enemy After First Switch"
+            "ref": "4-3/After Level Key/By Exit Drop/LF1",
+            "name": "[LF1] After Level Key/By Exit Drop"
           },
           {
-            "ref": "4-3/Cave Door/Enemy Above Checkpoint/Sentinel",
-            "name": "[Sentinel] Cave Door/Enemy Above Checkpoint"
+            "ref": "4-3/After Level Key/On Bottom Wall/Shootable Switch",
+            "name": "[Shootable Switch] After Level Key/On Bottom Wall"
           },
           {
-            "ref": "4-3/Cave Door/Enemy by Upper Switch/Sentinel",
-            "name": "[Sentinel] Cave Door/Enemy by Upper Switch"
+            "ref": "4-3/After Level Key/On Top Wall/Shootable Switch",
+            "name": "[Shootable Switch] After Level Key/On Top Wall"
           },
           {
-            "ref": "4-3/Cave Door/Enemy Before Exit Drop/Leaper",
-            "name": "[Leaper] Cave Door/Enemy Before Exit Drop"
+            "ref": "4-3/After Level Key/Enemy Across Bridge/Guardian",
+            "name": "[Guardian] After Level Key/Enemy Across Bridge"
+          },
+          {
+            "ref": "4-3/After Level Key/Enemy by Falling Bridge/Spider",
+            "name": "[Spider] After Level Key/Enemy by Falling Bridge"
+          },
+          {
+            "ref": "4-3/After Level Key/Enemy by Falling Bridge/Guardian",
+            "name": "[Guardian] After Level Key/Enemy by Falling Bridge"
+          },
+          {
+            "ref": "4-3/After Level Key/Enemy Across Falling Bridge/Cave Spider",
+            "name": "[Cave Spider] After Level Key/Enemy Across Falling Bridge"
+          },
+          {
+            "ref": "4-3/After Level Key/Enemy by Checkpoint/Guardian",
+            "name": "[Guardian] After Level Key/Enemy by Checkpoint"
+          },
+          {
+            "ref": "4-3/After Level Key/Enemy After First Switch/Leaper",
+            "name": "[Leaper] After Level Key/Enemy After First Switch"
+          },
+          {
+            "ref": "4-3/After Level Key/Enemy Above Checkpoint/Sentinel",
+            "name": "[Sentinel] After Level Key/Enemy Above Checkpoint"
+          },
+          {
+            "ref": "4-3/After Level Key/Enemy by Upper Switch/Sentinel",
+            "name": "[Sentinel] After Level Key/Enemy by Upper Switch"
+          },
+          {
+            "ref": "4-3/After Level Key/Enemy Before Exit Drop/Leaper",
+            "name": "[Leaper] After Level Key/Enemy Before Exit Drop"
           },
           {
             "ref": "4-3/Return Room/In Return Room/Blue Health",
@@ -6324,14 +6324,6 @@
             "name": "[Box of Bullets] Cave After Switch"
           },
           {
-            "ref": "4-4/On Satchel Platform/LF10",
-            "name": "[LF10] On Satchel Platform"
-          },
-          {
-            "ref": "4-4/On Satchel Platform/Satchel Charge",
-            "name": "[Satchel Charge] On Satchel Platform"
-          },
-          {
             "ref": "4-4/Enemy by Return Portal/Spider",
             "name": "[Spider] Enemy by Return Portal"
           },
@@ -6384,40 +6376,48 @@
             "name": "[Sentinel] Enemy After Lowered Bridge"
           },
           {
-            "ref": "4-4/Enemy in Cave After Switch/Sentinel",
-            "name": "[Sentinel] Enemy in Cave After Switch"
+            "ref": "4-4/Upper Bridges/On Satchel Platform/LF10",
+            "name": "[LF10] Upper Bridges/On Satchel Platform"
           },
           {
-            "ref": "4-4/Enemy in Cave After Switch/Nala",
-            "name": "[Nala] Enemy in Cave After Switch"
+            "ref": "4-4/Upper Bridges/On Satchel Platform/Satchel Charge",
+            "name": "[Satchel Charge] Upper Bridges/On Satchel Platform"
           },
           {
-            "ref": "4-4/Enemy by Satchel Platform/Guardian",
-            "name": "[Guardian] Enemy by Satchel Platform"
+            "ref": "4-4/Upper Bridges/Enemy in Cave After Switch/Sentinel",
+            "name": "[Sentinel] Upper Bridges/Enemy in Cave After Switch"
           },
           {
-            "ref": "4-4/Enemy on First Upper Bridge/Guardian",
-            "name": "[Guardian] Enemy on First Upper Bridge"
+            "ref": "4-4/Upper Bridges/Enemy in Cave After Switch/Nala",
+            "name": "[Nala] Upper Bridges/Enemy in Cave After Switch"
           },
           {
-            "ref": "4-4/Enemy on Second Upper Bridge/Guardian",
-            "name": "[Guardian] Enemy on Second Upper Bridge"
+            "ref": "4-4/Upper Bridges/Enemy by Satchel Platform/Guardian",
+            "name": "[Guardian] Upper Bridges/Enemy by Satchel Platform"
           },
           {
-            "ref": "4-4/Enemy on Third Upper Bridge/Sentinel",
-            "name": "[Sentinel] Enemy on Third Upper Bridge"
+            "ref": "4-4/Upper Bridges/Enemy on First Upper Bridge/Guardian",
+            "name": "[Guardian] Upper Bridges/Enemy on First Upper Bridge"
           },
           {
-            "ref": "4-4/Enemy by Exit Drop/Leaper",
-            "name": "[Leaper] Enemy by Exit Drop"
+            "ref": "4-4/Upper Bridges/Enemy on Second Upper Bridge/Guardian",
+            "name": "[Guardian] Upper Bridges/Enemy on Second Upper Bridge"
           },
           {
-            "ref": "4-4/Enemy by Exit Drop/Spider",
-            "name": "[Spider] Enemy by Exit Drop"
+            "ref": "4-4/Upper Bridges/Enemy on Third Upper Bridge/Sentinel",
+            "name": "[Sentinel] Upper Bridges/Enemy on Third Upper Bridge"
           },
           {
-            "ref": "4-4/Enemy by Vent Entrance/Nala",
-            "name": "[Nala] Enemy by Vent Entrance"
+            "ref": "4-4/Upper Bridges/Enemy by Exit Drop/Leaper",
+            "name": "[Leaper] Upper Bridges/Enemy by Exit Drop"
+          },
+          {
+            "ref": "4-4/Upper Bridges/Enemy by Exit Drop/Spider",
+            "name": "[Spider] Upper Bridges/Enemy by Exit Drop"
+          },
+          {
+            "ref": "4-4/Upper Bridges/Enemy by Vent Entrance/Nala",
+            "name": "[Nala] Upper Bridges/Enemy by Vent Entrance"
           },
           {
             "ref": "4-4/Vent Return Room/In Vent Return Room/Blue Health",
@@ -6836,44 +6836,44 @@
         "name": "4-O",
         "sections": [
           {
-            "ref": "4-O/Exit/Nuke Part",
-            "name": "[Nuke Part] Exit"
-          },
-          {
-            "ref": "4-O/Up Ladder Front/Valve",
-            "name": "[Valve] Up Ladder Front"
-          },
-          {
-            "ref": "4-O/Up Ladder Back/Valve",
-            "name": "[Valve] Up Ladder Back"
-          },
-          {
-            "ref": "4-O/Circular Room/Valve",
-            "name": "[Valve] Circular Room"
-          },
-          {
             "ref": "4-O/Enemy at Start/Sentinel",
             "name": "[Sentinel] Enemy at Start"
           },
           {
-            "ref": "4-O/Enemy by Ladder/Death Guard",
-            "name": "[Death Guard] Enemy by Ladder"
+            "ref": "4-O/After First Room/Up Ladder Front/Valve",
+            "name": "[Valve] After First Room/Up Ladder Front"
           },
           {
-            "ref": "4-O/Enemy up Ladder/Death Guard",
-            "name": "[Death Guard] Enemy up Ladder"
+            "ref": "4-O/After First Room/Up Ladder Back/Valve",
+            "name": "[Valve] After First Room/Up Ladder Back"
           },
           {
-            "ref": "4-O/Enemy in Circular Room/Sentinel",
-            "name": "[Sentinel] Enemy in Circular Room"
+            "ref": "4-O/After First Room/Circular Room/Valve",
+            "name": "[Valve] After First Room/Circular Room"
           },
           {
-            "ref": "4-O/Enemy in Circular Room/Death Guard",
-            "name": "[Death Guard] Enemy in Circular Room"
+            "ref": "4-O/After First Room/Enemy by Ladder/Death Guard",
+            "name": "[Death Guard] After First Room/Enemy by Ladder"
           },
           {
-            "ref": "4-O/Enemy by Exit/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy by Exit"
+            "ref": "4-O/After First Room/Enemy up Ladder/Death Guard",
+            "name": "[Death Guard] After First Room/Enemy up Ladder"
+          },
+          {
+            "ref": "4-O/After First Room/Enemy in Circular Room/Sentinel",
+            "name": "[Sentinel] After First Room/Enemy in Circular Room"
+          },
+          {
+            "ref": "4-O/After First Room/Enemy in Circular Room/Death Guard",
+            "name": "[Death Guard] After First Room/Enemy in Circular Room"
+          },
+          {
+            "ref": "4-O/After First Room/Enemy by Exit/Lord of the Flesh",
+            "name": "[Lord of the Flesh] After First Room/Enemy by Exit"
+          },
+          {
+            "ref": "4-O/After First Room/Exit/Nuke Part",
+            "name": "[Nuke Part] After First Room/Exit"
           }
         ],
         "map_locations": [
@@ -7004,8 +7004,12 @@
         "name": "4-8",
         "sections": [
           {
-            "ref": "4-8/Before Vent/First Cave/Flame Thrower",
-            "name": "[Flame Thrower] Before Vent/First Cave"
+            "ref": "4-8/Start/First Cave/Flame Thrower",
+            "name": "[Flame Thrower] Start/First Cave"
+          },
+          {
+            "ref": "4-8/Start/Enemy in First Cave/Cave Worm",
+            "name": "[Cave Worm] Start/Enemy in First Cave"
           },
           {
             "ref": "4-8/Before Vent/Behind Rocks/Tek Bow",
@@ -7092,10 +7096,6 @@
             "name": "[Explosive Shells] Before Vent/In Ledge Jump Room"
           },
           {
-            "ref": "4-8/Before Vent/Ledge Jump Path End/Cerebral Bore",
-            "name": "[Cerebral Bore] Before Vent/Ledge Jump Path End"
-          },
-          {
             "ref": "4-8/Before Vent/Drop Down/Blue Health",
             "name": "[Blue Health] Before Vent/Drop Down"
           },
@@ -7106,10 +7106,6 @@
           {
             "ref": "4-8/Before Vent/Path Bottom/Unlock Cave Door",
             "name": "[Unlock Cave Door] Before Vent/Path Bottom"
-          },
-          {
-            "ref": "4-8/Before Vent/Enemy in First Cave/Cave Worm",
-            "name": "[Cave Worm] Before Vent/Enemy in First Cave"
           },
           {
             "ref": "4-8/Before Vent/Enemy After First Cave/Nala",
@@ -7192,116 +7188,120 @@
             "name": "[Guardian] Before Vent/Enemy in Ledge Jump Room"
           },
           {
-            "ref": "4-8/Before Vent/Enemy After Ledge Jump Room/Nala",
-            "name": "[Nala] Before Vent/Enemy After Ledge Jump Room"
-          },
-          {
-            "ref": "4-8/Before Vent/Enemy After Ledge Jump Room/Endtrail",
-            "name": "[Endtrail] Before Vent/Enemy After Ledge Jump Room"
-          },
-          {
             "ref": "4-8/Before Vent/Enemy Spawned From Standing Here/Either Sentinel",
             "name": "[Either Sentinel] Before Vent/Enemy Spawned From Standing Here"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/In First Corner/Clip",
-            "name": "[Clip] Before Vent/Cave Door/In First Corner"
+            "ref": "4-8/Cerebral Bore Path/Enemy After Ledge Jump Room/Nala",
+            "name": "[Nala] Cerebral Bore Path/Enemy After Ledge Jump Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/In Second Corner/Shells",
-            "name": "[Shells] Before Vent/Cave Door/In Second Corner"
+            "ref": "4-8/Cerebral Bore Path/Enemy After Ledge Jump Room/Endtrail",
+            "name": "[Endtrail] Cerebral Bore Path/Enemy After Ledge Jump Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/After Spider Cave/Mag 60",
-            "name": "[Mag 60] Before Vent/Cave Door/After Spider Cave"
+            "ref": "4-8/Cerebral Bore Path/Ledge Jump Path End/Cerebral Bore",
+            "name": "[Cerebral Bore] Cerebral Bore Path/Ledge Jump Path End"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Level Key",
-            "name": "[Level Key] Before Vent/Cave Door/Level Key Room"
+            "ref": "4-8/Cave Door/In First Corner/Clip",
+            "name": "[Clip] Cave Door/In First Corner"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Tek Quiver",
-            "name": "[Tek Quiver] Before Vent/Cave Door/Level Key Room"
+            "ref": "4-8/Cave Door/In Second Corner/Shells",
+            "name": "[Shells] Cave Door/In Second Corner"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Plasma Pak",
-            "name": "[Plasma Pak] Before Vent/Cave Door/Level Key Room"
+            "ref": "4-8/Cave Door/After Spider Cave/Mag 60",
+            "name": "[Mag 60] Cave Door/After Spider Cave"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Box of Bullets",
-            "name": "[Box of Bullets] Before Vent/Cave Door/Level Key Room"
+            "ref": "4-8/Cave Door/Level Key Room/Level Key",
+            "name": "[Level Key] Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Flame Thrower Tank",
-            "name": "[Flame Thrower Tank] Before Vent/Cave Door/Level Key Room"
+            "ref": "4-8/Cave Door/Level Key Room/Tek Quiver",
+            "name": "[Tek Quiver] Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Box of Shells",
-            "name": "[Box of Shells] Before Vent/Cave Door/Level Key Room"
+            "ref": "4-8/Cave Door/Level Key Room/Plasma Pak",
+            "name": "[Plasma Pak] Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Level Key Room/Charge Dart Pak",
-            "name": "[Charge Dart Pak] Before Vent/Cave Door/Level Key Room"
+            "ref": "4-8/Cave Door/Level Key Room/Box of Bullets",
+            "name": "[Box of Bullets] Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/After Level Key Room/Full Health",
-            "name": "[Full Health] Before Vent/Cave Door/After Level Key Room"
+            "ref": "4-8/Cave Door/Level Key Room/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/After Last Cave/Mag 60",
-            "name": "[Mag 60] Before Vent/Cave Door/After Last Cave"
+            "ref": "4-8/Cave Door/Level Key Room/Box of Shells",
+            "name": "[Box of Shells] Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/After Last Cave/Satchel Charge",
-            "name": "[Satchel Charge] Before Vent/Cave Door/After Last Cave"
+            "ref": "4-8/Cave Door/Level Key Room/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Cave Door/Level Key Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Left Fork/Blue Health",
-            "name": "[Blue Health] Before Vent/Cave Door/Left Fork"
+            "ref": "4-8/Cave Door/After Level Key Room/Full Health",
+            "name": "[Full Health] Cave Door/After Level Key Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/At Exit Drop/Blue Health",
-            "name": "[Blue Health] Before Vent/Cave Door/At Exit Drop"
+            "ref": "4-8/Cave Door/Enemy After Cave Door/Spider",
+            "name": "[Spider] Cave Door/Enemy After Cave Door"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Enemy After Cave Door/Spider",
-            "name": "[Spider] Before Vent/Cave Door/Enemy After Cave Door"
+            "ref": "4-8/Cave Door/Enemy After Cave Door/Cave Spider",
+            "name": "[Cave Spider] Cave Door/Enemy After Cave Door"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Enemy After Cave Door/Cave Spider",
-            "name": "[Cave Spider] Before Vent/Cave Door/Enemy After Cave Door"
+            "ref": "4-8/Cave Door/Enemy in Level Key Room/Nala",
+            "name": "[Nala] Cave Door/Enemy in Level Key Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Enemy in Level Key Room/Nala",
-            "name": "[Nala] Before Vent/Cave Door/Enemy in Level Key Room"
+            "ref": "4-8/Cave Door/Enemy in Level Key Room/Guardian",
+            "name": "[Guardian] Cave Door/Enemy in Level Key Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Enemy in Level Key Room/Guardian",
-            "name": "[Guardian] Before Vent/Cave Door/Enemy in Level Key Room"
+            "ref": "4-8/Cave Door/Enemy in Level Key Room/Sentinel",
+            "name": "[Sentinel] Cave Door/Enemy in Level Key Room"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Enemy in Level Key Room/Sentinel",
-            "name": "[Sentinel] Before Vent/Cave Door/Enemy in Level Key Room"
+            "ref": "4-8/Cave Door/Enemy in Final Cave/Endtrail",
+            "name": "[Endtrail] Cave Door/Enemy in Final Cave"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Enemy in Final Cave/Endtrail",
-            "name": "[Endtrail] Before Vent/Cave Door/Enemy in Final Cave"
+            "ref": "4-8/Exit/After Last Cave/Mag 60",
+            "name": "[Mag 60] Exit/After Last Cave"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Enemy After Final Cave/Any Raptoid",
-            "name": "[Any Raptoid] Before Vent/Cave Door/Enemy After Final Cave"
+            "ref": "4-8/Exit/After Last Cave/Satchel Charge",
+            "name": "[Satchel Charge] Exit/After Last Cave"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Enemy Spawned From Blue Health/Cave Worm",
-            "name": "[Cave Worm] Before Vent/Cave Door/Enemy Spawned From Blue Health"
+            "ref": "4-8/Exit/Left Fork/Blue Health",
+            "name": "[Blue Health] Exit/Left Fork"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Enemy by Exit Drop/Spider",
-            "name": "[Spider] Before Vent/Cave Door/Enemy by Exit Drop"
+            "ref": "4-8/Exit/At Exit Drop/Blue Health",
+            "name": "[Blue Health] Exit/At Exit Drop"
           },
           {
-            "ref": "4-8/Before Vent/Cave Door/Enemy by Exit Drop/Cave Spider",
-            "name": "[Cave Spider] Before Vent/Cave Door/Enemy by Exit Drop"
+            "ref": "4-8/Exit/Enemy After Final Cave/Any Raptoid",
+            "name": "[Any Raptoid] Exit/Enemy After Final Cave"
+          },
+          {
+            "ref": "4-8/Exit/Enemy Spawned From Blue Health/Cave Worm",
+            "name": "[Cave Worm] Exit/Enemy Spawned From Blue Health"
+          },
+          {
+            "ref": "4-8/Exit/Enemy by Exit Drop/Spider",
+            "name": "[Spider] Exit/Enemy by Exit Drop"
+          },
+          {
+            "ref": "4-8/Exit/Enemy by Exit Drop/Cave Spider",
+            "name": "[Cave Spider] Exit/Enemy by Exit Drop"
           },
           {
             "ref": "4-8/After Vent/At Return Portal After Vent/Silver Health",

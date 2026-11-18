@@ -513,7 +513,7 @@
             {
                 "name": "Return Room",
                 "access_rules": [
-                    "$map_access|4|7|mid"
+                    "^$map_4_8a_access"
                 ],
                 "children": [
                     {

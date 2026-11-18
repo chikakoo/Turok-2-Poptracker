@@ -303,36 +303,6 @@
                 ]
             },
             {
-                "name": "On Satchel Platform",
-                "sections": [
-                    {
-                        "name": "LF10",
-                        "chest_unopened_img": "images/items/life_forces/lf10.png",
-                        "chest_opened_img": "images/items/life_forces/lf10_bw.png",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$id_exists|101018|101019"
-                        ]
-                    },
-                    {
-                        "name": "Satchel Charge",
-                        "chest_unopened_img": "images/items/mission/l4_satchel_charge.png",
-                        "chest_opened_img": "images/items/mission/l4_satchel_charge_bw.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|101020"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-4",
-                        "x": 309,
-                        "y": 391
-                    }
-                ]
-            },
-            {
                 "name": "Enemy by Return Portal",
                 "chest_unopened_img": "images/enemies/spider.png",
                 "chest_opened_img": "images/enemies/spider_bw.png",
@@ -632,214 +602,253 @@
                 ]
             },
             {
-                "name": "Enemy in Cave After Switch",
-                "sections": [
+                "name": "Upper Bridges",
+                "access_rules": [
+                    "blind_sentinel_soul"
+                ],
+                "children": [
                     {
-                        "name": "Sentinel",
+                        "name": "On Satchel Platform",
+                        "sections": [
+                            {
+                                "name": "LF10",
+                                "chest_unopened_img": "images/items/life_forces/lf10.png",
+                                "chest_opened_img": "images/items/life_forces/lf10_bw.png",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|101018|101019"
+                                ]
+                            },
+                            {
+                                "name": "Satchel Charge",
+                                "chest_unopened_img": "images/items/mission/l4_satchel_charge.png",
+                                "chest_opened_img": "images/items/mission/l4_satchel_charge_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|101020"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-4",
+                                "x": 309,
+                                "y": 391
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Cave After Switch",
+                        "sections": [
+                            {
+                                "name": "Sentinel",
+                                "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "blind_sentinel_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|101048"
+                                ]
+                            },
+                            {
+                                "name": "Nala",
+                                "chest_unopened_img": "images/enemies/nala.png",
+                                "chest_opened_img": "images/enemies/nala_bw.png",
+                                "item_count": 3,
+                                "access_rules": [
+                                    "nala_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|101049|101050|101051"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-4",
+                                "shape": "diamond",
+                                "x": 377,
+                                "y": 279
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Satchel Platform",
+                        "chest_unopened_img": "images/enemies/guardian.png",
+                        "chest_opened_img": "images/enemies/guardian_bw.png",
+                        "sections": [
+                            {
+                                "name": "Guardian",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "guardian_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|101052"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-4",
+                                "shape": "diamond",
+                                "x": 311,
+                                "y": 367
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on First Upper Bridge",
+                        "chest_unopened_img": "images/enemies/guardian.png",
+                        "chest_opened_img": "images/enemies/guardian_bw.png",
+                        "sections": [
+                            {
+                                "name": "Guardian",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "guardian_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|101053"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-4",
+                                "shape": "diamond",
+                                "x": 344,
+                                "y": 436
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Second Upper Bridge",
+                        "chest_unopened_img": "images/enemies/guardian.png",
+                        "chest_opened_img": "images/enemies/guardian_bw.png",
+                        "sections": [
+                            {
+                                "name": "Guardian",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "guardian_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|101054"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-4",
+                                "shape": "diamond",
+                                "x": 230,
+                                "y": 365
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy on Third Upper Bridge",
                         "chest_unopened_img": "images/enemies/sentinel_blind.png",
                         "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "blind_sentinel_soul"
+                        "sections": [
+                            {
+                                "name": "Sentinel",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "blind_sentinel_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|101055"
+                                ]
+                            }
                         ],
-                        "visibility_rules": [
-                            "$id_exists|101048"
+                        "map_locations": [
+                            {
+                                "map": "4-4",
+                                "shape": "diamond",
+                                "x": 279,
+                                "y": 436
+                            }
                         ]
                     },
                     {
-                        "name": "Nala",
+                        "name": "Enemy by Exit Drop",
+                        "sections": [
+                            {
+                                "name": "Leaper",
+                                "chest_unopened_img": "images/enemies/leaper.png",
+                                "chest_opened_img": "images/enemies/leaper_bw.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "leaper_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|101056"
+                                ]
+                            },
+                            {
+                                "name": "Spider",
+                                "chest_unopened_img": "images/enemies/spider.png",
+                                "chest_opened_img": "images/enemies/spider_bw.png",
+                                "item_count": 2,
+                                "access_rules": [
+                                    "spider_hatchling_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|101057|101058"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-4",
+                                "shape": "diamond",
+                                "x": 229,
+                                "y": 569
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Vent Entrance",
                         "chest_unopened_img": "images/enemies/nala.png",
                         "chest_opened_img": "images/enemies/nala_bw.png",
-                        "item_count": 3,
-                        "access_rules": [
-                            "nala_soul"
+                        "sections": [
+                            {
+                                "name": "Nala",
+                                "item_count": 2,
+                                "access_rules": [
+                                    "nala_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|101059|101060"
+                                ]
+                            }
                         ],
-                        "visibility_rules": [
-                            "$id_exists|101049|101050|101051"
+                        "map_locations": [
+                            {
+                                "map": "4-4",
+                                "shape": "diamond",
+                                "x": 361,
+                                "y": 180
+                            }
                         ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-4",
-                        "shape": "diamond",
-                        "x": 377,
-                        "y": 279
-                    }
-                ]
-            },
-            {
-                "name": "Enemy by Satchel Platform",
-                "chest_unopened_img": "images/enemies/guardian.png",
-                "chest_opened_img": "images/enemies/guardian_bw.png",
-                "sections": [
-                    {
-                        "name": "Guardian",
-                        "item_count": 1,
-                        "access_rules": [
-                            "guardian_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|101052"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-4",
-                        "shape": "diamond",
-                        "x": 311,
-                        "y": 367
-                    }
-                ]
-            },
-            {
-                "name": "Enemy on First Upper Bridge",
-                "chest_unopened_img": "images/enemies/guardian.png",
-                "chest_opened_img": "images/enemies/guardian_bw.png",
-                "sections": [
-                    {
-                        "name": "Guardian",
-                        "item_count": 1,
-                        "access_rules": [
-                            "guardian_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|101053"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-4",
-                        "shape": "diamond",
-                        "x": 344,
-                        "y": 436
-                    }
-                ]
-            },
-            {
-                "name": "Enemy on Second Upper Bridge",
-                "chest_unopened_img": "images/enemies/guardian.png",
-                "chest_opened_img": "images/enemies/guardian_bw.png",
-                "sections": [
-                    {
-                        "name": "Guardian",
-                        "item_count": 1,
-                        "access_rules": [
-                            "guardian_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|101054"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-4",
-                        "shape": "diamond",
-                        "x": 230,
-                        "y": 365
-                    }
-                ]
-            },
-            {
-                "name": "Enemy on Third Upper Bridge",
-                "chest_unopened_img": "images/enemies/sentinel_blind.png",
-                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
-                "sections": [
-                    {
-                        "name": "Sentinel",
-                        "item_count": 1,
-                        "access_rules": [
-                            "blind_sentinel_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|101055"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-4",
-                        "shape": "diamond",
-                        "x": 279,
-                        "y": 436
-                    }
-                ]
-            },
-            {
-                "name": "Enemy by Exit Drop",
-                "sections": [
-                    {
-                        "name": "Leaper",
-                        "chest_unopened_img": "images/enemies/leaper.png",
-                        "chest_opened_img": "images/enemies/leaper_bw.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "leaper_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|101056"
-                        ]
-                    },
-                    {
-                        "name": "Spider",
-                        "chest_unopened_img": "images/enemies/spider.png",
-                        "chest_opened_img": "images/enemies/spider_bw.png",
-                        "item_count": 2,
-                        "access_rules": [
-                            "spider_hatchling_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|101057|101058"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-4",
-                        "shape": "diamond",
-                        "x": 229,
-                        "y": 569
-                    }
-                ]
-            },
-            {
-                "name": "Enemy by Vent Entrance",
-                "chest_unopened_img": "images/enemies/nala.png",
-                "chest_opened_img": "images/enemies/nala_bw.png",
-                "sections": [
-                    {
-                        "name": "Nala",
-                        "item_count": 2,
-                        "access_rules": [
-                            "nala_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|101059|101060"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-4",
-                        "shape": "diamond",
-                        "x": 361,
-                        "y": 180
                     }
                 ]
             },
             {
                 "name": "Vent Return Room",
                 "access_rules": [
-                    "$map_access|4|4|mid"
+                    "^$map_4_v1_access"
                 ],
                 "children": [
                     {
                         "name": "In Vent Return Room",
                         "chest_unopened_img": "images/items/health/blue_health.png",
                         "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        
                         "sections": [
                             {
                                 "name": "Blue Health",

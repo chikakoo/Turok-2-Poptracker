@@ -4,7 +4,7 @@
 require("scripts.autotracking.archipelago")
 
 CAVE_DOOR_4_1 = "@4-1/Whispers/Whispers Drop/Unlock Cave Door"
-CAVE_DOOR_4_3 = "@4-3/Cave Door Room/Unlock Cave Door"
+CAVE_DOOR_4_3 = "@4-3/Cave Spider Door/Cave Door Room/Unlock Cave Door"
 CAVE_DOOR_4_V1 = "@4-V1/Cave Door Room/Unlock Cave Door"
 CAVE_DOOR_4_6a = "@4-6a/Cave Door Room/Unlock Cave Door"
 CAVE_DOOR_4_8 = "@4-8/Before Vent/Path Bottom/Unlock Cave Door"

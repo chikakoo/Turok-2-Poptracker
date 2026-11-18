@@ -3,14 +3,12 @@
         "name": "4-8",
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
-        "access_rules": [
-            "^$map_4_8a_access"
-        ],
         "children": [
             {
-                "name": "Before Vent",
-                "chest_unopened_img": "images/items/life_forces/lf1.png",
-                "chest_opened_img": "images/items/life_forces/lf1_bw.png",
+                "name": "Start",
+                "access_rules": [
+                    "^$map_4_8a_access"
+                ],
                 "children": [
                     {
                         "name": "First Cave",
@@ -33,6 +31,39 @@
                             }
                         ]
                     },
+                    {
+                        "name": "Enemy in First Cave",
+                        "chest_unopened_img": "images/enemies/cave_worm.png",
+                        "chest_opened_img": "images/enemies/cave_worm_bw.png",
+                        "sections": [
+                            {
+                                "name": "Cave Worm",
+                                "item_count": 4,
+                                "access_rules": [
+                                    "cave_worm_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|105059|105060|105061|105062"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "shape": "diamond",
+                                "x": 642,
+                                "y": 148
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Before Vent",
+                "access_rules": [
+                    "^$map_4_8a_access,cave_worm_soul"
+                ],
+                "children": [
                     {
                         "name": "Behind Rocks",
                         "chest_unopened_img": "images/items/weapons_small/tek_bow.png",
@@ -415,27 +446,6 @@
                         ]
                     },
                     {
-                        "name": "Ledge Jump Path End",
-                        "chest_unopened_img": "images/items/weapons_small/cerebral_bore.png",
-                        "chest_opened_img": "images/items/weapons_small/cerebral_bore_bw.png",
-                        "sections": [
-                            {
-                                "name": "Cerebral Bore",
-                                "item_count": 1,
-                                "visibility_rules": [
-                                    "$id_exists|105036"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "4-8",
-                                "x": 253,
-                                "y": 469
-                            }
-                        ]
-                    },
-                    {
                         "name": "Drop Down",
                         "chest_unopened_img": "images/items/health/blue_health.png",
                         "chest_opened_img": "images/items/health/blue_health_bw.png",
@@ -499,31 +509,6 @@
                                 "shape": "trapezoid",
                                 "x": 260,
                                 "y": 571
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Enemy in First Cave",
-                        "chest_unopened_img": "images/enemies/cave_worm.png",
-                        "chest_opened_img": "images/enemies/cave_worm_bw.png",
-                        "sections": [
-                            {
-                                "name": "Cave Worm",
-                                "item_count": 4,
-                                "access_rules": [
-                                    "cave_worm_soul"
-                                ],
-                                "visibility_rules": [
-                                    "$id_exists|105059|105060|105061|105062"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "4-8",
-                                "shape": "diamond",
-                                "x": 642,
-                                "y": 148
                             }
                         ]
                     },
@@ -1002,6 +987,39 @@
                         ]
                     },
                     {
+                        "name": "Enemy Spawned From Standing Here",
+                        "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                        "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                        "sections": [
+                            {
+                                "name": "Either Sentinel",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "blind_sentinel_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|105097"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "shape": "diamond",
+                                "x": 318,
+                                "y": 334
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cerebral Bore Path",
+                "access_rules": [
+                    "^$map_4_8a_access,cave_worm_soul"
+                ],
+                "children": [
+                    {
                         "name": "Enemy After Ledge Jump Room",
                         "sections": [
                             {
@@ -1039,18 +1057,224 @@
                         ]
                     },
                     {
-                        "name": "Enemy Spawned From Standing Here",
-                        "chest_unopened_img": "images/enemies/sentinel_blind.png",
-                        "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                        "name": "Ledge Jump Path End",
+                        "chest_unopened_img": "images/items/weapons_small/cerebral_bore.png",
+                        "chest_opened_img": "images/items/weapons_small/cerebral_bore_bw.png",
                         "sections": [
                             {
-                                "name": "Either Sentinel",
+                                "name": "Cerebral Bore",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|105036"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "x": 253,
+                                "y": 469
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cave Door",
+                "access_rules": [
+                    "^$map_4_8a_access,cave_worm_soul"
+                ],
+                "children": [
+                    {
+                        "name": "In First Corner",
+                        "chest_unopened_img": "images/items/ammo/clip.png",
+                        "chest_opened_img": "images/items/ammo/clip_bw.png",
+                        "sections": [
+                            {
+                                "name": "Clip",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|105042|105043"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "x": 276,
+                                "y": 654
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Second Corner",
+                        "chest_unopened_img": "images/items/ammo/shells.png",
+                        "chest_opened_img": "images/items/ammo/shells_bw.png",
+                        "sections": [
+                            {
+                                "name": "Shells",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|105044|105045"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "x": 187,
+                                "y": 654
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Spider Cave",
+                        "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                        "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                        "sections": [
+                            {
+                                "name": "Mag 60",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|105046"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "x": 200,
+                                "y": 532
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Level Key Room",
+                        "sections": [
+                            {
+                                "name": "Level Key",
+                                "chest_unopened_img": "images/items/keys/level_6_key.png",
+                                "chest_opened_img": "images/items/keys/level_6_key_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|105047"
+                                ]
+                            },
+                            {
+                                "name": "Tek Quiver",
+                                "chest_unopened_img": "images/items/ammo/quiver_of_tek_arrows.png",
+                                "chest_opened_img": "images/items/ammo/quiver_of_tek_arrows_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|105048"
+                                ]
+                            },
+                            {
+                                "name": "Plasma Pak",
+                                "chest_unopened_img": "images/items/ammo/plasma_pak.png",
+                                "chest_opened_img": "images/items/ammo/plasma_pak_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|105049"
+                                ]
+                            },
+                            {
+                                "name": "Box of Bullets",
+                                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|105050"
+                                ]
+                            },
+                            {
+                                "name": "Flame Thrower Tank",
+                                "chest_unopened_img": "images/items/ammo/flame_thrower_tank.png",
+                                "chest_opened_img": "images/items/ammo/flame_thrower_tank_bw.png",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "blind_sentinel_soul"
+                                    "guardian_soul"
                                 ],
                                 "visibility_rules": [
-                                    "$id_exists|105097"
+                                    "$id_exists|105051"
+                                ]
+                            },
+                            {
+                                "name": "Box of Shells",
+                                "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                                "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|105052"
+                                ]
+                            },
+                            {
+                                "name": "Charge Dart Pak",
+                                "chest_unopened_img": "images/items/ammo/charge_darts_pak.png",
+                                "chest_opened_img": "images/items/ammo/charge_darts_pak_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|105053"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "x": 135,
+                                "y": 454
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Level Key Room",
+                        "chest_unopened_img": "images/items/health/full_health.png",
+                        "chest_opened_img": "images/items/health/full_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Full Health",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "guardian_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|105054"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "x": 106,
+                                "y": 455
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy After Cave Door",
+                        "sections": [
+                            {
+                                "name": "Spider",
+                                "chest_unopened_img": "images/enemies/spider.png",
+                                "chest_opened_img": "images/enemies/spider_bw.png",
+                                "item_count": 2,
+                                "access_rules": [
+                                    "spider_hatchling_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|105098|105099"
+                                ]
+                            },
+                            {
+                                "name": "Cave Spider",
+                                "chest_unopened_img": "images/enemies/cave_spider.png",
+                                "chest_opened_img": "images/enemies/cave_spider_bw.png",
+                                "item_count": 3,
+                                "access_rules": [
+                                    "cave_spider_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|105100|105101|105102"
                                 ]
                             }
                         ],
@@ -1058,445 +1282,249 @@
                             {
                                 "map": "4-8",
                                 "shape": "diamond",
-                                "x": 318,
-                                "y": 334
+                                "x": 200,
+                                "y": 589
                             }
                         ]
                     },
                     {
-                        "name": "Cave Door",
-                        "access_rules": [
-                            "^$can_enter_cave_door_on_4_8"
+                        "name": "Enemy in Level Key Room",
+                        "sections": [
+                            {
+                                "name": "Nala",
+                                "chest_unopened_img": "images/enemies/nala.png",
+                                "chest_opened_img": "images/enemies/nala_bw.png",
+                                "item_count": 4,
+                                "access_rules": [
+                                    "nala_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|105103|105104|105105|105106"
+                                ]
+                            },
+                            {
+                                "name": "Guardian",
+                                "chest_unopened_img": "images/enemies/guardian.png",
+                                "chest_opened_img": "images/enemies/guardian_bw.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "guardian_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|105107"
+                                ]
+                            },
+                            {
+                                "name": "Sentinel",
+                                "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "blind_sentinel_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|105108"
+                                ]
+                            }
                         ],
-                        "children": [
+                        "map_locations": [
                             {
-                                "name": "In First Corner",
-                                "chest_unopened_img": "images/items/ammo/clip.png",
-                                "chest_opened_img": "images/items/ammo/clip_bw.png",
-                                "sections": [
-                                    {
-                                        "name": "Clip",
-                                        "item_count": 2,
-                                        "visibility_rules": [
-                                            "$id_exists|105042|105043"
-                                        ]
-                                    }
+                                "map": "4-8",
+                                "shape": "diamond",
+                                "x": 146,
+                                "y": 446
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Final Cave",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
+                        "sections": [
+                            {
+                                "name": "Endtrail",
+                                "item_count": 3,
+                                "access_rules": [
+                                    "endtrail_soul,guardian_soul"
                                 ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "x": 276,
-                                        "y": 654
-                                    }
+                                "visibility_rules": [
+                                    "$id_exists|105109|105110|105111"
                                 ]
-                            },
+                            }
+                        ],
+                        "map_locations": [
                             {
-                                "name": "In Second Corner",
-                                "chest_unopened_img": "images/items/ammo/shells.png",
-                                "chest_opened_img": "images/items/ammo/shells_bw.png",
-                                "sections": [
-                                    {
-                                        "name": "Shells",
-                                        "item_count": 2,
-                                        "visibility_rules": [
-                                            "$id_exists|105044|105045"
-                                        ]
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "x": 187,
-                                        "y": 654
-                                    }
-                                ]
-                            },
+                                "map": "4-8",
+                                "shape": "diamond",
+                                "x": 76,
+                                "y": 299
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Exit",
+                "access_rules": [
+                    "^$map_4_8a_access,cave_worm_soul,guardian_soul,endtrail_soul"
+                ],
+                "children": [
+                    {
+                        "name": "After Last Cave",
+                        "sections": [
                             {
-                                "name": "After Spider Cave",
+                                "name": "Mag 60",
                                 "chest_unopened_img": "images/items/weapons_small/mag_60.png",
                                 "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
-                                "sections": [
-                                    {
-                                        "name": "Mag 60",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105046"
-                                        ]
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "x": 200,
-                                        "y": 532
-                                    }
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|105055"
                                 ]
                             },
                             {
-                                "name": "Level Key Room",
-                                "sections": [
-                                    {
-                                        "name": "Level Key",
-                                        "chest_unopened_img": "images/items/keys/level_6_key.png",
-                                        "chest_opened_img": "images/items/keys/level_6_key_bw.png",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105047"
-                                        ]
-                                    },
-                                    {
-                                        "name": "Tek Quiver",
-                                        "chest_unopened_img": "images/items/ammo/quiver_of_tek_arrows.png",
-                                        "chest_opened_img": "images/items/ammo/quiver_of_tek_arrows_bw.png",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105048"
-                                        ]
-                                    },
-                                    {
-                                        "name": "Plasma Pak",
-                                        "chest_unopened_img": "images/items/ammo/plasma_pak.png",
-                                        "chest_opened_img": "images/items/ammo/plasma_pak_bw.png",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105049"
-                                        ]
-                                    },
-                                    {
-                                        "name": "Box of Bullets",
-                                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
-                                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105050"
-                                        ]
-                                    },
-                                    {
-                                        "name": "Flame Thrower Tank",
-                                        "chest_unopened_img": "images/items/ammo/flame_thrower_tank.png",
-                                        "chest_opened_img": "images/items/ammo/flame_thrower_tank_bw.png",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105051"
-                                        ]
-                                    },
-                                    {
-                                        "name": "Box of Shells",
-                                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
-                                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105052"
-                                        ]
-                                    },
-                                    {
-                                        "name": "Charge Dart Pak",
-                                        "chest_unopened_img": "images/items/ammo/charge_darts_pak.png",
-                                        "chest_opened_img": "images/items/ammo/charge_darts_pak_bw.png",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105053"
-                                        ]
-                                    }
+                                "name": "Satchel Charge",
+                                "chest_unopened_img": "images/items/mission/l4_satchel_charge.png",
+                                "chest_opened_img": "images/items/mission/l4_satchel_charge_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|105056"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "x": 77,
+                                "y": 225
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Left Fork",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|105057"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "x": 31,
+                                "y": 189
+                            }
+                        ]
+                    },
+                    {
+                        "name": "At Exit Drop",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|105058"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "x": 76,
+                                "y": 126
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy After Final Cave",
+                        "chest_unopened_img": "images/enemies/raptoid.png",
+                        "chest_opened_img": "images/enemies/raptoid_bw.png",
+                        "sections": [
+                            {
+                                "name": "Any Raptoid",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "raptoid_soul"
                                 ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "x": 135,
-                                        "y": 454
-                                    }
+                                "visibility_rules": [
+                                    "$id_exists|105112"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "shape": "diamond",
+                                "x": 76,
+                                "y": 208
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy Spawned From Blue Health",
+                        "chest_unopened_img": "images/enemies/cave_worm.png",
+                        "chest_opened_img": "images/enemies/cave_worm_bw.png",
+                        "sections": [
+                            {
+                                "name": "Cave Worm",
+                                "item_count": 2,
+                                "access_rules": [
+                                    "cave_worm_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|105113|105114"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-8",
+                                "shape": "diamond",
+                                "x": 34,
+                                "y": 199
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Exit Drop",
+                        "sections": [
+                            {
+                                "name": "Spider",
+                                "chest_unopened_img": "images/enemies/spider.png",
+                                "chest_opened_img": "images/enemies/spider_bw.png",
+                                "item_count": 5,
+                                "access_rules": [
+                                    "spider_hatchling_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|105115|105116|105117|105118|105119"
                                 ]
                             },
                             {
-                                "name": "After Level Key Room",
-                                "chest_unopened_img": "images/items/health/full_health.png",
-                                "chest_opened_img": "images/items/health/full_health_bw.png",
-                                "sections": [
-                                    {
-                                        "name": "Full Health",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105054"
-                                        ]
-                                    }
+                                "name": "Cave Spider",
+                                "chest_unopened_img": "images/enemies/cave_spider.png",
+                                "chest_opened_img": "images/enemies/cave_spider_bw.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "cave_spider_soul"
                                 ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "x": 106,
-                                        "y": 455
-                                    }
+                                "visibility_rules": [
+                                    "$id_exists|105120"
                                 ]
-                            },
+                            }
+                        ],
+                        "map_locations": [
                             {
-                                "name": "After Last Cave",
-                                "sections": [
-                                    {
-                                        "name": "Mag 60",
-                                        "chest_unopened_img": "images/items/weapons_small/mag_60.png",
-                                        "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105055"
-                                        ]
-                                    },
-                                    {
-                                        "name": "Satchel Charge",
-                                        "chest_unopened_img": "images/items/mission/l4_satchel_charge.png",
-                                        "chest_opened_img": "images/items/mission/l4_satchel_charge_bw.png",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105056"
-                                        ]
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "x": 77,
-                                        "y": 225
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Left Fork",
-                                "chest_unopened_img": "images/items/health/blue_health.png",
-                                "chest_opened_img": "images/items/health/blue_health_bw.png",
-                                "sections": [
-                                    {
-                                        "name": "Blue Health",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105057"
-                                        ]
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "x": 31,
-                                        "y": 189
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "At Exit Drop",
-                                "chest_unopened_img": "images/items/health/blue_health.png",
-                                "chest_opened_img": "images/items/health/blue_health_bw.png",
-                                "sections": [
-                                    {
-                                        "name": "Blue Health",
-                                        "item_count": 1,
-                                        "visibility_rules": [
-                                            "$id_exists|105058"
-                                        ]
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "x": 76,
-                                        "y": 126
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Enemy After Cave Door",
-                                "sections": [
-                                    {
-                                        "name": "Spider",
-                                        "chest_unopened_img": "images/enemies/spider.png",
-                                        "chest_opened_img": "images/enemies/spider_bw.png",
-                                        "item_count": 2,
-                                        "access_rules": [
-                                            "spider_hatchling_soul"
-                                        ],
-                                        "visibility_rules": [
-                                            "$id_exists|105098|105099"
-                                        ]
-                                    },
-                                    {
-                                        "name": "Cave Spider",
-                                        "chest_unopened_img": "images/enemies/cave_spider.png",
-                                        "chest_opened_img": "images/enemies/cave_spider_bw.png",
-                                        "item_count": 3,
-                                        "access_rules": [
-                                            "cave_spider_soul"
-                                        ],
-                                        "visibility_rules": [
-                                            "$id_exists|105100|105101|105102"
-                                        ]
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "shape": "diamond",
-                                        "x": 200,
-                                        "y": 589
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Enemy in Level Key Room",
-                                "sections": [
-                                    {
-                                        "name": "Nala",
-                                        "chest_unopened_img": "images/enemies/nala.png",
-                                        "chest_opened_img": "images/enemies/nala_bw.png",
-                                        "item_count": 4,
-                                        "access_rules": [
-                                            "nala_soul"
-                                        ],
-                                        "visibility_rules": [
-                                            "$id_exists|105103|105104|105105|105106"
-                                        ]
-                                    },
-                                    {
-                                        "name": "Guardian",
-                                        "chest_unopened_img": "images/enemies/guardian.png",
-                                        "chest_opened_img": "images/enemies/guardian_bw.png",
-                                        "item_count": 1,
-                                        "access_rules": [
-                                            "guardian_soul"
-                                        ],
-                                        "visibility_rules": [
-                                            "$id_exists|105107"
-                                        ]
-                                    },
-                                    {
-                                        "name": "Sentinel",
-                                        "chest_unopened_img": "images/enemies/sentinel_blind.png",
-                                        "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
-                                        "item_count": 1,
-                                        "access_rules": [
-                                            "blind_sentinel_soul"
-                                        ],
-                                        "visibility_rules": [
-                                            "$id_exists|105108"
-                                        ]
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "shape": "diamond",
-                                        "x": 146,
-                                        "y": 446
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Enemy in Final Cave",
-                                "chest_unopened_img": "images/enemies/endtrail.png",
-                                "chest_opened_img": "images/enemies/endtrail_bw.png",
-                                "sections": [
-                                    {
-                                        "name": "Endtrail",
-                                        "item_count": 3,
-                                        "access_rules": [
-                                            "endtrail_soul"
-                                        ],
-                                        "visibility_rules": [
-                                            "$id_exists|105109|105110|105111"
-                                        ]
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "shape": "diamond",
-                                        "x": 76,
-                                        "y": 299
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Enemy After Final Cave",
-                                "chest_unopened_img": "images/enemies/raptoid.png",
-                                "chest_opened_img": "images/enemies/raptoid_bw.png",
-                                "sections": [
-                                    {
-                                        "name": "Any Raptoid",
-                                        "item_count": 1,
-                                        "access_rules": [
-                                            "raptoid_soul"
-                                        ],
-                                        "visibility_rules": [
-                                            "$id_exists|105112"
-                                        ]
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "shape": "diamond",
-                                        "x": 76,
-                                        "y": 208
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Enemy Spawned From Blue Health",
-                                "chest_unopened_img": "images/enemies/cave_worm.png",
-                                "chest_opened_img": "images/enemies/cave_worm_bw.png",
-                                "sections": [
-                                    {
-                                        "name": "Cave Worm",
-                                        "item_count": 2,
-                                        "access_rules": [
-                                            "cave_worm_soul"
-                                        ],
-                                        "visibility_rules": [
-                                            "$id_exists|105113|105114"
-                                        ]
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "shape": "diamond",
-                                        "x": 34,
-                                        "y": 199
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "Enemy by Exit Drop",
-                                "sections": [
-                                    {
-                                        "name": "Spider",
-                                        "chest_unopened_img": "images/enemies/spider.png",
-                                        "chest_opened_img": "images/enemies/spider_bw.png",
-                                        "item_count": 5,
-                                        "access_rules": [
-                                            "spider_hatchling_soul"
-                                        ],
-                                        "visibility_rules": [
-                                            "$id_exists|105115|105116|105117|105118|105119"
-                                        ]
-                                    },
-                                    {
-                                        "name": "Cave Spider",
-                                        "chest_unopened_img": "images/enemies/cave_spider.png",
-                                        "chest_opened_img": "images/enemies/cave_spider_bw.png",
-                                        "item_count": 1,
-                                        "access_rules": [
-                                            "cave_spider_soul"
-                                        ],
-                                        "visibility_rules": [
-                                            "$id_exists|105120"
-                                        ]
-                                    }
-                                ],
-                                "map_locations": [
-                                    {
-                                        "map": "4-8",
-                                        "shape": "diamond",
-                                        "x": 76,
-                                        "y": 147
-                                    }
-                                ]
+                                "map": "4-8",
+                                "shape": "diamond",
+                                "x": 76,
+                                "y": 147
                             }
                         ]
                     }
@@ -1504,8 +1532,6 @@
             },
             {
                 "name": "After Vent",
-                "chest_unopened_img": "images/items/life_forces/lf1.png",
-                "chest_opened_img": "images/items/life_forces/lf1_bw.png",
                 "access_rules": [
                     "^$map_4_8b_access"
                 ],

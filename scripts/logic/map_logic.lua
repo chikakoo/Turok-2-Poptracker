@@ -314,6 +314,18 @@ function cave_door_and_torpedo_launcher_accessibility(cave_door_accessibility)
     return AccessibilityLevel.SequenceBreak
 end
 
+function can_exit_4_3()
+    return has("cave_spider_soul") and has("nala_soul")
+end
+
+function can_exit_4_4()
+    return can_exit_4_3() and has("blind_sentinel_soul")
+end
+
+function can_exit_4_8a()
+    return can_exit_4_4() and has("cave_worm_soul") and has("guardian_soul") and has("endtrail_soul")
+end
+
 function map_4_1_access()
     return map_access(4)
 end
@@ -327,7 +339,7 @@ function map_4_3_access()
 end
 
 function map_4_4_access()
-    if not map_access(4, 3, "mid") then
+    if not can_exit_4_3() or not map_access(4, 3, "mid") then
         return AccessibilityLevel.None
     end
 
@@ -335,7 +347,7 @@ function map_4_4_access()
 end
 
 function map_4_v1_access()
-    if not map_access(4, 4, "mid") then
+    if not can_exit_4_4() or not map_access(4, 4, "mid") then
         return AccessibilityLevel.None
     end
 
@@ -343,7 +355,7 @@ function map_4_v1_access()
 end
 
 function map_4_5_access()
-    if not map_access(4, 4, "mid") then
+    if not can_exit_4_4() or not map_access(4, 4, "mid") then
         return AccessibilityLevel.None
     end
 
@@ -351,7 +363,7 @@ function map_4_5_access()
 end
 
 function map_4_v2_access()
-    if not map_access(4, 5, "mid") then
+    if not can_exit_4_4() or not map_access(4, 5, "mid") then
         return AccessibilityLevel.None
     end
 
@@ -359,7 +371,7 @@ function map_4_v2_access()
 end
 
 function map_4_6a_access()
-    if not map_access(4, 5, "mid") then
+    if not can_exit_4_4() or not map_access(4, 5, "mid") then
         return AccessibilityLevel.None
     end
 
@@ -367,7 +379,7 @@ function map_4_6a_access()
 end
 
 function map_4_O_access()
-    if not map_access(4, 5, "mid") then
+    if not can_exit_4_4() or not map_access(4, 5, "mid") then
         return AccessibilityLevel.None
     end
 
@@ -375,7 +387,7 @@ function map_4_O_access()
 end
 
 function map_4_7_access()
-    if not map_access(4, 6, "mid") then
+    if not can_exit_4_4() or not map_access(4, 6, "mid") then
         return AccessibilityLevel.None
     end
 
@@ -383,7 +395,7 @@ function map_4_7_access()
 end
 
 function map_4_8a_access()
-    if not map_access(4, 7, "mid") then
+    if not can_exit_4_4() or not map_access(4, 7, "mid") then
         return AccessibilityLevel.None
     end
 
@@ -391,7 +403,7 @@ function map_4_8a_access()
 end
 
 function map_4_v3_access()
-    if not map_access(4, 8, "mid") then
+    if not can_exit_4_8a() or not map_access(4, 8, "mid") then
         return AccessibilityLevel.None
     end
 
@@ -399,7 +411,7 @@ function map_4_v3_access()
 end
 
 function map_4_8b_access()
-    if not map_access(4, 9, "mid") then
+    if not can_exit_4_8a() or not map_access(4, 9, "mid") then
         return AccessibilityLevel.None
     end
 
@@ -407,7 +419,7 @@ function map_4_8b_access()
 end
 
 function map_4_6b_access()
-    if not map_access(4, 10, "mid") then
+    if not can_exit_4_8a() or not map_access(4, 10, "mid") then
         return AccessibilityLevel.None
     end
 

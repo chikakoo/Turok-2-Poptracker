@@ -101,269 +101,6 @@
                 ]
             },
             {
-                "name": "In Cave Spider Alcove",
-                "chest_unopened_img": "images/items/weapons_small/grenade_launcher.png",
-                "chest_opened_img": "images/items/weapons_small/grenade_launcher_bw.png",
-                "sections": [
-                    {
-                        "name": "Grenade Launcher",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|100005"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-3",
-                        "x": 206,
-                        "y": 142
-                    }
-                ]
-            },
-            {
-                "name": "After Cave Spider",
-                "chest_unopened_img": "images/items/health/blue_health.png",
-                "chest_opened_img": "images/items/health/blue_health_bw.png",
-                "sections": [
-                    {
-                        "name": "Blue Health",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|100006"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-3",
-                        "x": 185,
-                        "y": 202
-                    }
-                ]
-            },
-            {
-                "name": "Left Path Start",
-                "sections": [
-                    {
-                        "name": "LF1",
-                        "item_count": 3,
-                        "visibility_rules": [
-                            "$id_exists|100007|100008|100009"
-                        ]
-                    },
-                    {
-                        "name": "Blue Health",
-                        "chest_unopened_img": "images/items/health/blue_health.png",
-                        "chest_opened_img": "images/items/health/blue_health_bw.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|100010"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-3",
-                        "x": 238,
-                        "y": 331
-                    }
-                ]
-            },
-            {
-                "name": "Right Path Start",
-                "sections": [
-                    {
-                        "name": "LF1",
-                        "item_count": 3,
-                        "visibility_rules": [
-                            "$id_exists|100011|100012|100013"
-                        ]
-                    },
-                    {
-                        "name": "Blue Health",
-                        "chest_unopened_img": "images/items/health/blue_health.png",
-                        "chest_opened_img": "images/items/health/blue_health_bw.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|100014"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-3",
-                        "x": 238,
-                        "y": 284
-                    }
-                ]
-            },
-            {
-                "name": "In Water",
-                "chest_unopened_img": "images/items/health/blue_health.png",
-                "chest_opened_img": "images/items/health/blue_health_bw.png",
-                "sections": [
-                    {
-                        "name": "Blue Health",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|100015"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-3",
-                        "x": 145,
-                        "y": 309
-                    }
-                ]
-            },
-            {
-                "name": "By Left Ladder",
-                "sections": [
-                    {
-                        "name": "LF1",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$id_exists|100016|100017"
-                        ]
-                    },
-                    {
-                        "name": "Shootable Switch",
-                        "chest_unopened_img": "images/interactables/switch_wooden.png",
-                        "chest_opened_img": "images/interactables/switch_wooden_bw.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|100043"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-3",
-                        "x": 51,
-                        "y": 344
-                    }
-                ]
-            },
-            {
-                "name": "By Right Ladder",
-                "sections": [
-                    {
-                        "name": "LF1",
-                        "item_count": 2,
-                        "visibility_rules": [
-                            "$id_exists|100018|100019"
-                        ]
-                    },
-                    {
-                        "name": "Shootable Switch",
-                        "chest_unopened_img": "images/interactables/switch_wooden.png",
-                        "chest_opened_img": "images/interactables/switch_wooden_bw.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|100044"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-3",
-                        "x": 51,
-                        "y": 270
-                    }
-                ]
-            },
-            {
-                "name": "Up Ladder",
-                "chest_unopened_img": "images/items/weapons_small/charge_dart_rifle.png",
-                "chest_opened_img": "images/items/weapons_small/charge_dart_rifle_bw.png",
-                "sections": [
-                    {
-                        "name": "Charge Dart Rifle",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|100020"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-3",
-                        "x": 30,
-                        "y": 308
-                    }
-                ]
-            },
-            {
-                "name": "Water Path End",
-                "chest_unopened_img": "images/items/mission/cave_door_key.png",
-                "chest_opened_img": "images/items/mission/cave_door_key_bw.png",
-                "sections": [
-                    {
-                        "name": "Cave Door Key",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|100021"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-3",
-                        "x": 247,
-                        "y": 311
-                    }
-                ]
-            },
-            {
-                "name": "By Wall",
-                "chest_unopened_img": "images/interactables/switch_skull.png",
-                "chest_opened_img": "images/interactables/switch_skull_bw.png",
-                "sections": [
-                    {
-                        "name": "Skull Switch",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|100042"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-3",
-                        "x": 256,
-                        "y": 362
-                    }
-                ]
-            },
-            {
-                "name": "Cave Door Room",
-                "chest_unopened_img": "images/interactables/cave_door.png",
-                "chest_opened_img": "images/interactables/cave_door_bw.png",
-                "access_rules": [
-                    "^$can_enter_cave_door_on_4_3"
-                ],
-                "sections": [
-                    {
-                        "name": "Unlock Cave Door",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|100088"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "4-3",
-                        "shape": "trapezoid",
-                        "x": 273,
-                        "y": 308
-                    }
-                ]
-            },
-            {
                 "name": "Enemy Spawned From Blue Health",
                 "chest_unopened_img": "images/enemies/cave_worm.png",
                 "chest_opened_img": "images/enemies/cave_worm_bw.png",
@@ -414,109 +151,380 @@
                 ]
             },
             {
-                "name": "Enemy by Cave Door",
-                "chest_unopened_img": "images/enemies/endtrail.png",
-                "chest_opened_img": "images/enemies/endtrail_bw.png",
-                "sections": [
-                    {
-                        "name": "Endtrail",
-                        "item_count": 2,
-                        "access_rules": [
-                            "endtrail_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|100050|100051"
-                        ]
-                    }
+                "name": "Cave Spider Door",
+                "access_rules": [
+                    "cave_spider_soul"
                 ],
-                "map_locations": [
+                "children": [
                     {
-                        "map": "4-3",
-                        "shape": "diamond",
-                        "x": 264,
-                        "y": 286
-                    }
-                ]
-            },
-            {
-                "name": "Enemy in Left Path",
-                "chest_unopened_img": "images/enemies/leaper.png",
-                "chest_opened_img": "images/enemies/leaper_bw.png",
-                "sections": [
-                    {
-                        "name": "Leaper",
-                        "item_count": 1,
-                        "access_rules": [
-                            "leaper_soul"
+                        "name": "In Cave Spider Alcove",
+                        "chest_unopened_img": "images/items/weapons_small/grenade_launcher.png",
+                        "chest_opened_img": "images/items/weapons_small/grenade_launcher_bw.png",
+                        "sections": [
+                            {
+                                "name": "Grenade Launcher",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100005"
+                                ]
+                            }
                         ],
-                        "visibility_rules": [
-                            "$id_exists|100052"
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 206,
+                                "y": 142
+                            }
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "4-3",
-                        "shape": "diamond",
-                        "x": 77,
-                        "y": 372
-                    }
-                ]
-            },
-            {
-                "name": "Enemy in Right Path",
-                "chest_unopened_img": "images/enemies/leaper.png",
-                "chest_opened_img": "images/enemies/leaper_bw.png",
-                "sections": [
-                    {
-                        "name": "Leaper",
-                        "item_count": 1,
-                        "access_rules": [
-                            "leaper_soul"
+                        "name": "After Cave Spider",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100006"
+                                ]
+                            }
                         ],
-                        "visibility_rules": [
-                            "$id_exists|100053"
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 185,
+                                "y": 202
+                            }
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "4-3",
-                        "shape": "diamond",
-                        "x": 77,
-                        "y": 245
-                    }
-                ]
-            },
-            {
-                "name": "Enemy at Water Path End",
-                "chest_unopened_img": "images/enemies/sentinel_blind.png",
-                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
-                "sections": [
-                    {
-                        "name": "Sentinel",
-                        "item_count": 1,
-                        "access_rules": [
-                            "blind_sentinel_soul"
+                        "name": "Left Path Start",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|100007|100008|100009"
+                                ]
+                            },
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100010"
+                                ]
+                            }
                         ],
-                        "visibility_rules": [
-                            "$id_exists|100054"
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 238,
+                                "y": 331
+                            }
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "4-3",
-                        "shape": "diamond",
-                        "x": 168,
-                        "y": 308
+                        "name": "Right Path Start",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 3,
+                                "visibility_rules": [
+                                    "$id_exists|100011|100012|100013"
+                                ]
+                            },
+                            {
+                                "name": "Blue Health",
+                                "chest_unopened_img": "images/items/health/blue_health.png",
+                                "chest_opened_img": "images/items/health/blue_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100014"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 238,
+                                "y": 284
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Water",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100015"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 145,
+                                "y": 309
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Left Ladder",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|100016|100017"
+                                ]
+                            },
+                            {
+                                "name": "Shootable Switch",
+                                "chest_unopened_img": "images/interactables/switch_wooden.png",
+                                "chest_opened_img": "images/interactables/switch_wooden_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100043"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 51,
+                                "y": 344
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Right Ladder",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 2,
+                                "visibility_rules": [
+                                    "$id_exists|100018|100019"
+                                ]
+                            },
+                            {
+                                "name": "Shootable Switch",
+                                "chest_unopened_img": "images/interactables/switch_wooden.png",
+                                "chest_opened_img": "images/interactables/switch_wooden_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100044"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 51,
+                                "y": 270
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Up Ladder",
+                        "chest_unopened_img": "images/items/weapons_small/charge_dart_rifle.png",
+                        "chest_opened_img": "images/items/weapons_small/charge_dart_rifle_bw.png",
+                        "sections": [
+                            {
+                                "name": "Charge Dart Rifle",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100020"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 30,
+                                "y": 308
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Water Path End",
+                        "chest_unopened_img": "images/items/mission/cave_door_key.png",
+                        "chest_opened_img": "images/items/mission/cave_door_key_bw.png",
+                        "sections": [
+                            {
+                                "name": "Cave Door Key",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100021"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 247,
+                                "y": 311
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Wall",
+                        "chest_unopened_img": "images/interactables/switch_skull.png",
+                        "chest_opened_img": "images/interactables/switch_skull_bw.png",
+                        "sections": [
+                            {
+                                "name": "Skull Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100042"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 256,
+                                "y": 362
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Cave Door Room",
+                        "chest_unopened_img": "images/interactables/cave_door.png",
+                        "chest_opened_img": "images/interactables/cave_door_bw.png",
+                        "access_rules": [
+                            "^$can_enter_cave_door_on_4_3"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Unlock Cave Door",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100088"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "shape": "trapezoid",
+                                "x": 273,
+                                "y": 308
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Cave Door",
+                        "chest_unopened_img": "images/enemies/endtrail.png",
+                        "chest_opened_img": "images/enemies/endtrail_bw.png",
+                        "sections": [
+                            {
+                                "name": "Endtrail",
+                                "item_count": 2,
+                                "access_rules": [
+                                    "endtrail_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|100050|100051"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "shape": "diamond",
+                                "x": 264,
+                                "y": 286
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Left Path",
+                        "chest_unopened_img": "images/enemies/leaper.png",
+                        "chest_opened_img": "images/enemies/leaper_bw.png",
+                        "sections": [
+                            {
+                                "name": "Leaper",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "leaper_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|100052"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "shape": "diamond",
+                                "x": 77,
+                                "y": 372
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy in Right Path",
+                        "chest_unopened_img": "images/enemies/leaper.png",
+                        "chest_opened_img": "images/enemies/leaper_bw.png",
+                        "sections": [
+                            {
+                                "name": "Leaper",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "leaper_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|100053"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "shape": "diamond",
+                                "x": 77,
+                                "y": 245
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy at Water Path End",
+                        "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                        "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                        "sections": [
+                            {
+                                "name": "Sentinel",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "blind_sentinel_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|100054"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "shape": "diamond",
+                                "x": 168,
+                                "y": 308
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "name": "Cave Door",
                 "access_rules": [
-                    "^$can_enter_cave_door_on_4_3"
+                    "^$can_enter_cave_door_on_4_3,cave_spider_soul"
                 ],
                 "children": [
                     {
@@ -659,167 +667,13 @@
                                 "visibility_rules": [
                                     "$id_exists|100031"
                                 ]
-                            },
-                            {
-                                "name": "Full Health",
-                                "chest_unopened_img": "images/items/health/full_health.png",
-                                "chest_opened_img": "images/items/health/full_health_bw.png",
-                                "item_count": 1,
-                                "visibility_rules": [
-                                    "$id_exists|100032"
-                                ]
                             }
                         ],
                         "map_locations": [
                             {
                                 "map": "4-3",
-                                "x": 361,
+                                "x": 360,
                                 "y": 220
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Behind Rock",
-                        "chest_unopened_img": "images/items/ammo/quiver_of_arrows.png",
-                        "chest_opened_img": "images/items/ammo/quiver_of_arrows_bw.png",
-                        "sections": [
-                            {
-                                "name": "Quiver",
-                                "item_count": 1,
-                                "visibility_rules": [
-                                    "$id_exists|100033"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "4-3",
-                                "x": 342,
-                                "y": 435
-                            }
-                        ]
-                    },
-                    {
-                        "name": "In Bush",
-                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
-                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
-                        "sections": [
-                            {
-                                "name": "Box of Bullets",
-                                "item_count": 1,
-                                "visibility_rules": [
-                                    "$id_exists|100034"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "4-3",
-                                "x": 427,
-                                "y": 424
-                            }
-                        ]
-                    },
-                    {
-                        "name": "By Checkpoint",
-                        "chest_unopened_img": "images/items/weapons_small/mag_60.png",
-                        "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
-                        "sections": [
-                            {
-                                "name": "Mag 60",
-                                "item_count": 1,
-                                "visibility_rules": [
-                                    "$id_exists|100035"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "4-3",
-                                "x": 335,
-                                "y": 588
-                            }
-                        ]
-                    },
-                    {
-                        "name": "After Switch Gate",
-                        "chest_unopened_img": "images/items/health/full_health.png",
-                        "chest_opened_img": "images/items/health/full_health_bw.png",
-                        "sections": [
-                            {
-                                "name": "Full Health",
-                                "item_count": 1,
-                                "visibility_rules": [
-                                    "$id_exists|100036"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "4-3",
-                                "x": 373,
-                                "y": 636
-                            }
-                        ]
-                    },
-                    {
-                        "name": "By Exit Drop",
-                        "sections": [
-                            {
-                                "name": "LF1",
-                                "item_count": 4,
-                                "visibility_rules": [
-                                    "$id_exists|100037|100038|100039|100040"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "4-3",
-                                "x": 431,
-                                "y": 636
-                            }
-                        ]
-                    },
-                    {
-                        "name": "On Bottom Wall",
-                        "chest_unopened_img": "images/interactables/switch_wooden.png",
-                        "chest_opened_img": "images/interactables/switch_wooden_bw.png",
-                        "sections": [
-                            {
-                                "name": "Shootable Switch",
-                                "item_count": 1,
-                                "visibility_rules": [
-                                    "$id_exists|100045"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "4-3",
-                                "x": 242,
-                                "y": 580
-                            }
-                        ]
-                    },
-                    {
-                        "name": "On Top Wall",
-                        "chest_unopened_img": "images/interactables/switch_wooden.png",
-                        "chest_opened_img": "images/interactables/switch_wooden_bw.png",
-                        "sections": [
-                            {
-                                "name": "Shootable Switch",
-                                "item_count": 1,
-                                "visibility_rules": [
-                                    "$id_exists|100046"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "4-3",
-                                "x": 354,
-                                "y": 664
                             }
                         ]
                     },
@@ -1032,6 +886,180 @@
                                 "shape": "diamond",
                                 "x": 353,
                                 "y": 210
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "After Level Key",
+                "access_rules": [
+                    "^$can_enter_cave_door_on_4_3,cave_spider_soul,nala_soul"
+                ],
+                "children": [
+                    {
+                        "name": "Level Key Room",
+                        "sections": [
+                            {
+                                "name": "Full Health",
+                                "chest_unopened_img": "images/items/health/full_health.png",
+                                "chest_opened_img": "images/items/health/full_health_bw.png",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100032"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 360,
+                                "y": 242
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Behind Rock",
+                        "chest_unopened_img": "images/items/ammo/quiver_of_arrows.png",
+                        "chest_opened_img": "images/items/ammo/quiver_of_arrows_bw.png",
+                        "sections": [
+                            {
+                                "name": "Quiver",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100033"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 342,
+                                "y": 435
+                            }
+                        ]
+                    },
+                    {
+                        "name": "In Bush",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "sections": [
+                            {
+                                "name": "Box of Bullets",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100034"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 427,
+                                "y": 424
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Checkpoint",
+                        "chest_unopened_img": "images/items/weapons_small/mag_60.png",
+                        "chest_opened_img": "images/items/weapons_small/mag_60_bw.png",
+                        "sections": [
+                            {
+                                "name": "Mag 60",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100035"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 335,
+                                "y": 588
+                            }
+                        ]
+                    },
+                    {
+                        "name": "After Switch Gate",
+                        "chest_unopened_img": "images/items/health/full_health.png",
+                        "chest_opened_img": "images/items/health/full_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Full Health",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100036"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 373,
+                                "y": 636
+                            }
+                        ]
+                    },
+                    {
+                        "name": "By Exit Drop",
+                        "sections": [
+                            {
+                                "name": "LF1",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|100037|100038|100039|100040"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 431,
+                                "y": 636
+                            }
+                        ]
+                    },
+                    {
+                        "name": "On Bottom Wall",
+                        "chest_unopened_img": "images/interactables/switch_wooden.png",
+                        "chest_opened_img": "images/interactables/switch_wooden_bw.png",
+                        "sections": [
+                            {
+                                "name": "Shootable Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100045"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 242,
+                                "y": 580
+                            }
+                        ]
+                    },
+                    {
+                        "name": "On Top Wall",
+                        "chest_unopened_img": "images/interactables/switch_wooden.png",
+                        "chest_opened_img": "images/interactables/switch_wooden_bw.png",
+                        "sections": [
+                            {
+                                "name": "Shootable Switch",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|100046"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-3",
+                                "x": 354,
+                                "y": 664
                             }
                         ]
                     },
@@ -1252,7 +1280,7 @@
             {
                 "name": "Return Room",
                 "access_rules": [
-                    "$map_access|4|3|mid,^$can_enter_cave_door_on_4_3"
+                    "^$map_4_4_access"
                 ],
                 "children": [
                     {

@@ -760,6 +760,50 @@
                 ],
                 "children": [
                     {
+                        "name": "Enemy in First Room",
+                        "sections": [
+                            {
+                                "name": "Spider",
+                                "chest_unopened_img": "images/enemies/spider.png",
+                                "chest_opened_img": "images/enemies/spider_bw.png",
+                                "item_count": 4,
+                                "access_rules": [
+                                    "spider_hatchling_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|98056|98057|98058|98059"
+                                ]
+                            },
+                            {
+                                "name": "Cave Spider",
+                                "chest_unopened_img": "images/enemies/cave_spider.png",
+                                "chest_opened_img": "images/enemies/cave_spider_bw.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "cave_spider_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|98060"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "4-1",
+                                "x": 234,
+                                "y": 677
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Cave Spider Door",
+                "access_rules": [
+                    "whispers,^$can_enter_cave_door_on_4_1,cave_spider_soul"
+                ],
+                "children": [
+                    {
                         "name": "By Portal",
                         "sections": [
                             {
@@ -810,42 +854,6 @@
                                 "map": "4-1",
                                 "x": 673,
                                 "y": 119
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Enemy in First Room",
-                        "sections": [
-                            {
-                                "name": "Spider",
-                                "chest_unopened_img": "images/enemies/spider.png",
-                                "chest_opened_img": "images/enemies/spider_bw.png",
-                                "item_count": 4,
-                                "access_rules": [
-                                    "spider_hatchling_soul"
-                                ],
-                                "visibility_rules": [
-                                    "$id_exists|98056|98057|98058|98059"
-                                ]
-                            },
-                            {
-                                "name": "Cave Spider",
-                                "chest_unopened_img": "images/enemies/cave_spider.png",
-                                "chest_opened_img": "images/enemies/cave_spider_bw.png",
-                                "item_count": 1,
-                                "access_rules": [
-                                    "cave_spider_soul"
-                                ],
-                                "visibility_rules": [
-                                    "$id_exists|98060"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "4-1",
-                                "x": 234,
-                                "y": 677
                             }
                         ]
                     },

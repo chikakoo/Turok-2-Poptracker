@@ -1026,7 +1026,7 @@
             {
                 "name": "Return Room",
                 "access_rules": [
-                    "$map_access|4|2|start"
+                    "^$map_4_3_access"
                 ],
                 "children": [
                     {
