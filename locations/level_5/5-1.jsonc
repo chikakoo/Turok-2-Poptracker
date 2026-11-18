@@ -57,6 +57,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|124005"
                         ]
@@ -79,6 +82,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|124006"
                         ]
@@ -101,6 +107,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|124007"
                         ]
@@ -123,6 +132,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|124008"
                         ]
@@ -145,6 +157,9 @@
                     {
                         "name": "Drone",
                         "item_count": 4,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|124009|124010|124011|124012"
                         ]

@@ -430,6 +430,9 @@
                     {
                         "name": "Worker",
                         "item_count": 2,
+                        "access_rules": [
+                            "worker_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84062|84063"
                         ]
@@ -452,6 +455,9 @@
                         "chest_unopened_img": "images/enemies/worker.png",
                         "chest_opened_img": "images/enemies/worker_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "worker_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84064"
                         ]
@@ -461,6 +467,9 @@
                         "chest_unopened_img": "images/enemies/drone.png",
                         "chest_opened_img": "images/enemies/drone_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84065"
                         ]
@@ -483,6 +492,9 @@
                     {
                         "name": "Worker",
                         "item_count": 1,
+                        "access_rules": [
+                            "worker_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84066"
                         ]
@@ -505,6 +517,9 @@
                     {
                         "name": "Worker",
                         "item_count": 3,
+                        "access_rules": [
+                            "worker_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84067|84068|84069"
                         ]
@@ -527,6 +542,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84070"
                         ]
@@ -549,6 +567,9 @@
                     {
                         "name": "Drone",
                         "item_count": 4,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84071|84072|84073|84074"
                         ]
@@ -571,6 +592,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84075"
                         ]
@@ -593,6 +617,9 @@
                         "chest_unopened_img": "images/enemies/drone.png",
                         "chest_opened_img": "images/enemies/drone_bw.png",
                         "item_count": 2,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84076|84079"
                         ]
@@ -602,6 +629,9 @@
                         "chest_unopened_img": "images/enemies/worker.png",
                         "chest_opened_img": "images/enemies/worker_bw.png",
                         "item_count": 2,
+                        "access_rules": [
+                            "worker_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84077|84078"
                         ]
@@ -624,6 +654,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84080"
                         ]
@@ -646,6 +679,9 @@
                         "chest_unopened_img": "images/enemies/worker.png",
                         "chest_opened_img": "images/enemies/worker_bw.png",
                         "item_count": 2,
+                        "access_rules": [
+                            "worker_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84081|84082"
                         ]
@@ -655,6 +691,9 @@
                         "chest_unopened_img": "images/enemies/drone.png",
                         "chest_opened_img": "images/enemies/drone_bw.png",
                         "item_count": 2,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|84083|84084"
                         ]

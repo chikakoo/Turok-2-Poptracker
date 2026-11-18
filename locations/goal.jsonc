@@ -1,6 +1,6 @@
 [
     {
-        "name": "Hub",
+        "name": "Hub Goal",
         "chest_unopened_img": "images/settings/primagen_goal.png",
         "chest_opened_img": "images/settings/primagen_goal_bw.png",
         "children": [

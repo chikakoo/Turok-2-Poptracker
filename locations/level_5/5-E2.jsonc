@@ -346,6 +346,9 @@
                     {
                         "name": "Drone",
                         "item_count": 2,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95025|95026"
                         ]
@@ -368,6 +371,9 @@
                     {
                         "name": "Soldier",
                         "item_count": 1,
+                        "access_rules": [
+                            "soldier_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95027"
                         ]
@@ -390,6 +396,9 @@
                     {
                         "name": "Soldier",
                         "item_count": 1,
+                        "access_rules": [
+                            "soldier_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95028"
                         ]
@@ -412,6 +421,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95029"
                         ]
@@ -434,6 +446,9 @@
                     {
                         "name": "Soldier",
                         "item_count": 1,
+                        "access_rules": [
+                            "soldier_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95030"
                         ]
@@ -456,6 +471,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95031"
                         ]
@@ -478,6 +496,9 @@
                     {
                         "name": "Mite in Egg",
                         "item_count": 1,
+                        "access_rules": [
+                            "mite_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95032"
                         ]
@@ -500,6 +521,9 @@
                     {
                         "name": "Mite in Egg",
                         "item_count": 1,
+                        "access_rules": [
+                            "mite_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95033"
                         ]
@@ -522,6 +546,9 @@
                         "chest_unopened_img": "images/enemies/mite.png",
                         "chest_opened_img": "images/enemies/mite_bw.png",
                         "item_count": 2,
+                        "access_rules": [
+                            "mite_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95034|95037"
                         ]
@@ -531,6 +558,9 @@
                         "chest_unopened_img": "images/enemies/drone.png",
                         "chest_opened_img": "images/enemies/drone_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95035"
                         ]
@@ -553,6 +583,9 @@
                         "chest_unopened_img": "images/enemies/drone.png",
                         "chest_opened_img": "images/enemies/drone_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95036"
                         ]
@@ -562,6 +595,9 @@
                         "chest_unopened_img": "images/enemies/mite.png",
                         "chest_opened_img": "images/enemies/mite_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "mite_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95041"
                         ]
@@ -584,6 +620,9 @@
                         "chest_unopened_img": "images/enemies/drone.png",
                         "chest_opened_img": "images/enemies/drone_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95038"
                         ]
@@ -593,6 +632,9 @@
                         "chest_unopened_img": "images/enemies/mite.png",
                         "chest_opened_img": "images/enemies/mite_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "mite_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95039"
                         ]
@@ -615,6 +657,9 @@
                     {
                         "name": "Mite in Egg",
                         "item_count": 1,
+                        "access_rules": [
+                            "mite_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95040"
                         ]
@@ -637,6 +682,9 @@
                     {
                         "name": "Soldier",
                         "item_count": 2,
+                        "access_rules": [
+                            "soldier_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95042|95043"
                         ]
@@ -659,6 +707,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95044"
                         ]
@@ -681,6 +732,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95045"
                         ]
@@ -703,6 +757,9 @@
                     {
                         "name": "Mite",
                         "item_count": 1,
+                        "access_rules": [
+                            "mite_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95046"
                         ]
@@ -725,6 +782,9 @@
                     {
                         "name": "Mite",
                         "item_count": 1,
+                        "access_rules": [
+                            "mite_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|95047"
                         ]

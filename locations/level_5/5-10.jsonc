@@ -36,6 +36,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|92022"
                         ]
@@ -162,6 +165,9 @@
                             {
                                 "name": "Soldier",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "soldier_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|92023"
                                 ]
@@ -184,6 +190,9 @@
                             {
                                 "name": "Soldier",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "soldier_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|92024"
                                 ]
@@ -206,6 +215,9 @@
                             {
                                 "name": "Soldier",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "soldier_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|92025"
                                 ]

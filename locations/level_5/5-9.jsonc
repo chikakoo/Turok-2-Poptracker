@@ -1,5 +1,5 @@
 [
-    { // 5-9S
+    {
         "name": "5-9S",
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
@@ -456,6 +456,9 @@
                     {
                         "name": "Mite",
                         "item_count": 1,
+                        "access_rules": [
+                            "mite_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91067"
                         ]
@@ -478,6 +481,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91068"
                         ]
@@ -500,6 +506,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91069"
                         ]
@@ -522,6 +531,9 @@
                     {
                         "name": "Soldier",
                         "item_count": 1,
+                        "access_rules": [
+                            "soldier_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91070"
                         ]
@@ -544,6 +556,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91071"
                         ]
@@ -566,6 +581,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91072"
                         ]
@@ -588,6 +606,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91073"
                         ]
@@ -610,6 +631,9 @@
                         "chest_unopened_img": "images/enemies/worker.png",
                         "chest_opened_img": "images/enemies/worker_bw.png",
                         "item_count": 2,
+                        "access_rules": [
+                            "worker_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91074|91075"
                         ]
@@ -619,6 +643,9 @@
                         "chest_unopened_img": "images/enemies/drone.png",
                         "chest_opened_img": "images/enemies/drone_bw.png",
                         "item_count": 2,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91076|91077"
                         ]
@@ -641,6 +668,9 @@
                         "chest_unopened_img": "images/enemies/worker.png",
                         "chest_opened_img": "images/enemies/worker_bw.png",
                         "item_count": 2,
+                        "access_rules": [
+                            "worker_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91078|91079"
                         ]
@@ -650,6 +680,9 @@
                         "chest_unopened_img": "images/enemies/drone.png",
                         "chest_opened_img": "images/enemies/drone_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91080"
                         ]
@@ -672,6 +705,9 @@
                     {
                         "name": "Mite",
                         "item_count": 3,
+                        "access_rules": [
+                            "mite_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91081|91082|91083"
                         ]
@@ -694,6 +730,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91084"
                         ]
@@ -716,6 +755,9 @@
                     {
                         "name": "Soldier",
                         "item_count": 1,
+                        "access_rules": [
+                            "soldier_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91092"
                         ]
@@ -751,7 +793,7 @@
             }
         ]
     },
-    { // 5-9E
+    {
         "name": "5-9E",
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
@@ -953,6 +995,9 @@
                     {
                         "name": "Worker",
                         "item_count": 3,
+                        "access_rules": [
+                            "worker_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91085|91086|91087"
                         ]
@@ -975,6 +1020,9 @@
                     {
                         "name": "Drone",
                         "item_count": 2,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91088|91089"
                         ]
@@ -997,6 +1045,9 @@
                     {
                         "name": "Soldier",
                         "item_count": 1,
+                        "access_rules": [
+                            "soldier_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91090"
                         ]
@@ -1019,6 +1070,9 @@
                     {
                         "name": "Drone",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91091"
                         ]
@@ -1041,6 +1095,9 @@
                         "chest_unopened_img": "images/enemies/drone.png",
                         "chest_opened_img": "images/enemies/drone_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "drone_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91093"
                         ]
@@ -1050,6 +1107,9 @@
                         "chest_unopened_img": "images/enemies/mite.png",
                         "chest_opened_img": "images/enemies/mite_bw.png",
                         "item_count": 2,
+                        "access_rules": [
+                            "mite_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|91094|91095"
                         ]
