@@ -7684,24 +7684,8 @@
             "name": "[Blue Health] Before Level Key Room"
           },
           {
-            "ref": "5-2/On Raised Platform/Level Key",
-            "name": "[Level Key] On Raised Platform"
-          },
-          {
-            "ref": "5-2/After Level Key Room/Full Health",
-            "name": "[Full Health] After Level Key Room"
-          },
-          {
-            "ref": "5-2/By Exit Portal/Silver Health",
-            "name": "[Silver Health] By Exit Portal"
-          },
-          {
             "ref": "5-2/In Start Left Room/Force Field Generator",
             "name": "[Force Field Generator] In Start Left Room"
-          },
-          {
-            "ref": "5-2/On Wall/Switch",
-            "name": "[Switch] On Wall"
           },
           {
             "ref": "5-2/Enemy in Back of Starting Room/Worker",
@@ -7744,16 +7728,32 @@
             "name": "[Worker] Enemy Before Level Key Room"
           },
           {
-            "ref": "5-2/Enemy by Switch/Drone",
-            "name": "[Drone] Enemy by Switch"
+            "ref": "5-2/Exit/On Raised Platform/Level Key",
+            "name": "[Level Key] Exit/On Raised Platform"
           },
           {
-            "ref": "5-2/Enemy in Exit Hall/Worker",
-            "name": "[Worker] Enemy in Exit Hall"
+            "ref": "5-2/Exit/After Level Key Room/Full Health",
+            "name": "[Full Health] Exit/After Level Key Room"
           },
           {
-            "ref": "5-2/Enemy in Exit Hall/Drone",
-            "name": "[Drone] Enemy in Exit Hall"
+            "ref": "5-2/Exit/By Exit Portal/Silver Health",
+            "name": "[Silver Health] Exit/By Exit Portal"
+          },
+          {
+            "ref": "5-2/Exit/On Wall/Switch",
+            "name": "[Switch] Exit/On Wall"
+          },
+          {
+            "ref": "5-2/Exit/Enemy by Switch/Drone",
+            "name": "[Drone] Exit/Enemy by Switch"
+          },
+          {
+            "ref": "5-2/Exit/Enemy in Exit Hall/Worker",
+            "name": "[Worker] Exit/Enemy in Exit Hall"
+          },
+          {
+            "ref": "5-2/Exit/Enemy in Exit Hall/Drone",
+            "name": "[Drone] Exit/Enemy in Exit Hall"
           }
         ],
         "map_locations": [

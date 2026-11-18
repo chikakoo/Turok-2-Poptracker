@@ -449,7 +449,68 @@ function can_enter_4_boss()
 end
 
 -- Level 5
+function map_5_1_access()
+    return map_access(5)
+end
 
+function map_5_2_access()
+    return map_access(5, 1)
+end
+
+function map_5_3_access()
+    return has("drone_soul") and map_access(5, 2, "start")
+end
+
+function map_5_4_access()
+    return has("drone_soul") and map_access(5, 3, "start")
+end
+
+function map_5_5_access()
+    return has("drone_soul") and map_access(5, 4, "start")
+end
+
+function map_5_O_access()
+    return has("drone_soul") and map_access(5, 4, "start")
+end
+
+function map_5_6_access()
+    return has("drone_soul") and map_access(5, 5, "start")
+end
+
+function map_5_7_access()
+    return has("drone_soul") and map_access(5, 6, "start")
+end
+
+function map_5_8_access()
+    return has("drone_soul") and map_access(5, 7, "mid")
+end
+
+function map_5_e1_access()
+    return has("drone_soul") and map_access(5, 8, "mid")
+end
+
+function map_5_9_access()
+    return has("drone_soul") and map_access(5, 9, "mid")
+end
+
+function map_5_e2_access()
+    return has("drone_soul") and map_access(5, 10, "mid")
+end
+
+function map_5_e3_access()
+    return has("drone_soul") and map_access(5, 10, "mid")
+end
+
+function map_5_10_access()
+    if not has("drone_soul") or not map_access(5, 10, "mid") then
+        return AccessibilityLevel.None
+    end
+
+    return can_do_l5_jump_to_primagen_key_path()
+end
+
+function map_5_mc_access()
+    return has("drone_soul") and map_access(5, 10, "mid")
+end
 
 -- Level 6
-
