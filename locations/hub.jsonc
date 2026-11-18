@@ -128,10 +128,6 @@
             "name": "[LF1] On Catwalks"
           },
           {
-            "ref": "1-2a/Catwalks Enemy Trigger Room/Switch",
-            "name": "[Switch] Catwalks Enemy Trigger Room"
-          },
-          {
             "ref": "1-2a/Child Path Upper Walkway/Silver Health",
             "name": "[Silver Health] Child Path Upper Walkway"
           },
@@ -168,22 +164,6 @@
             "name": "[Rescue Child] Child Area Bottom"
           },
           {
-            "ref": "1-2a/Before Lower Warp Room/Box of Bullets",
-            "name": "[Box of Bullets] Before Lower Warp Room"
-          },
-          {
-            "ref": "1-2a/Before Lower Warp Room Behind Door L/R/Clip",
-            "name": "[Clip] Before Lower Warp Room Behind Door L/R"
-          },
-          {
-            "ref": "1-2a/Lower Warp Room Behind Door/Clip",
-            "name": "[Clip] Lower Warp Room Behind Door"
-          },
-          {
-            "ref": "1-2a/Lower Warp Room Behind Fallen Pillar/Quiver",
-            "name": "[Quiver] Lower Warp Room Behind Fallen Pillar"
-          },
-          {
             "ref": "1-2a/Enemy in Level Key Room/Raptoid",
             "name": "[Raptoid] Enemy in Level Key Room"
           },
@@ -212,12 +192,32 @@
             "name": "[Raptoid] Enemy in Child Area Top After Switch"
           },
           {
-            "ref": "1-2a/Enemy By Water After Catwalks Switch/Endtrail",
-            "name": "[Endtrail] Enemy By Water After Catwalks Switch"
+            "ref": "1-2a/Catwalks Switch/Before Lower Warp Room/Box of Bullets",
+            "name": "[Box of Bullets] Catwalks Switch/Before Lower Warp Room"
           },
           {
-            "ref": "1-2a/Enemy By Portal/Raptoid",
-            "name": "[Raptoid] Enemy By Portal"
+            "ref": "1-2a/Catwalks Switch/Before Lower Warp Room Behind Door L/R/Clip",
+            "name": "[Clip] Catwalks Switch/Before Lower Warp Room Behind Door L/R"
+          },
+          {
+            "ref": "1-2a/Catwalks Switch/Lower Warp Room Behind Door/Clip",
+            "name": "[Clip] Catwalks Switch/Lower Warp Room Behind Door"
+          },
+          {
+            "ref": "1-2a/Catwalks Switch/Lower Warp Room Behind Fallen Pillar/Quiver",
+            "name": "[Quiver] Catwalks Switch/Lower Warp Room Behind Fallen Pillar"
+          },
+          {
+            "ref": "1-2a/Catwalks Switch/Catwalks Enemy Trigger Room/Switch",
+            "name": "[Switch] Catwalks Switch/Catwalks Enemy Trigger Room"
+          },
+          {
+            "ref": "1-2a/Catwalks Switch/Enemy By Water After Catwalks Switch/Endtrail",
+            "name": "[Endtrail] Catwalks Switch/Enemy By Water After Catwalks Switch"
+          },
+          {
+            "ref": "1-2a/Catwalks Switch/Enemy By Portal/Raptoid",
+            "name": "[Raptoid] Catwalks Switch/Enemy By Portal"
           }
         ],
         "map_locations": [
@@ -1688,16 +1688,16 @@
         "name": "1-O",
         "sections": [
           {
-            "ref": "1-O/At End/Nuke Part",
-            "name": "[Nuke Part] At End"
-          },
-          {
             "ref": "1-O/Enemy Wave 1/Sentinel",
             "name": "[Sentinel] Enemy Wave 1"
           },
           {
-            "ref": "1-O/Enemy Wave 2/Death Guard",
-            "name": "[Death Guard] Enemy Wave 2"
+            "ref": "1-O/After Sentinels/Enemy Wave 2/Death Guard",
+            "name": "[Death Guard] After Sentinels/Enemy Wave 2"
+          },
+          {
+            "ref": "1-O/After Sentinels/At End/Nuke Part",
+            "name": "[Nuke Part] After Sentinels/At End"
           }
         ],
         "map_locations": [
@@ -2212,40 +2212,72 @@
             "name": "[LF10] On Broken Wall"
           },
           {
-            "ref": "2-3/Left After Bridge/Blue Health",
-            "name": "[Blue Health] Left After Bridge"
+            "ref": "2-3/After Bridge/Left After Bridge/Blue Health",
+            "name": "[Blue Health] After Bridge/Left After Bridge"
           },
           {
-            "ref": "2-3/Near River Bridge/Clip",
-            "name": "[Clip] Near River Bridge"
+            "ref": "2-3/After Bridge/Near River Bridge/Clip",
+            "name": "[Clip] After Bridge/Near River Bridge"
           },
           {
-            "ref": "2-3/Right After Bridge/Silver Health",
-            "name": "[Silver Health] Right After Bridge"
+            "ref": "2-3/After Bridge/Right After Bridge/Silver Health",
+            "name": "[Silver Health] After Bridge/Right After Bridge"
           },
           {
-            "ref": "2-3/After River Compy/Full Health",
-            "name": "[Full Health] After River Compy"
+            "ref": "2-3/After Bridge/After River Compy/Full Health",
+            "name": "[Full Health] After Bridge/After River Compy"
           },
           {
-            "ref": "2-3/Switch Hall Start/Blue Health",
-            "name": "[Blue Health] Switch Hall Start"
+            "ref": "2-3/After Bridge/Switch Hall Start/Blue Health",
+            "name": "[Blue Health] After Bridge/Switch Hall Start"
           },
           {
-            "ref": "2-3/Across River Bridge/Box of Shells",
-            "name": "[Box of Shells] Across River Bridge"
+            "ref": "2-3/After Bridge/Across River Bridge/Box of Shells",
+            "name": "[Box of Shells] After Bridge/Across River Bridge"
           },
           {
-            "ref": "2-3/Across River Bridge/Box of Bullets",
-            "name": "[Box of Bullets] Across River Bridge"
+            "ref": "2-3/After Bridge/Across River Bridge/Box of Bullets",
+            "name": "[Box of Bullets] After Bridge/Across River Bridge"
           },
           {
-            "ref": "2-3/In Exploded Wall by Bridge/Switch",
-            "name": "[Switch] In Exploded Wall by Bridge"
+            "ref": "2-3/After Bridge/In Exploded Wall by Bridge/Switch",
+            "name": "[Switch] After Bridge/In Exploded Wall by Bridge"
           },
           {
-            "ref": "2-3/Above River Bridge/Shootable Switch",
-            "name": "[Shootable Switch] Above River Bridge"
+            "ref": "2-3/After Bridge/Above River Bridge/Shootable Switch",
+            "name": "[Shootable Switch] After Bridge/Above River Bridge"
+          },
+          {
+            "ref": "2-3/After Bridge/Enemy After Bridge/Raptoid",
+            "name": "[Raptoid] After Bridge/Enemy After Bridge"
+          },
+          {
+            "ref": "2-3/After Bridge/Enemy Left After Bridge/Endtrail",
+            "name": "[Endtrail] After Bridge/Enemy Left After Bridge"
+          },
+          {
+            "ref": "2-3/After Bridge/Enemy Near River Bridge/Endtrail",
+            "name": "[Endtrail] After Bridge/Enemy Near River Bridge"
+          },
+          {
+            "ref": "2-3/After Bridge/Enemy Right After Bridge/Endtrail",
+            "name": "[Endtrail] After Bridge/Enemy Right After Bridge"
+          },
+          {
+            "ref": "2-3/After Bridge/Enemy by River/Compy",
+            "name": "[Compy] After Bridge/Enemy by River"
+          },
+          {
+            "ref": "2-3/After Bridge/Enemy in Switch Hall/Endtrail",
+            "name": "[Endtrail] After Bridge/Enemy in Switch Hall"
+          },
+          {
+            "ref": "2-3/After Bridge/Enemy After Switch Hall/Endtrail",
+            "name": "[Endtrail] After Bridge/Enemy After Switch Hall"
+          },
+          {
+            "ref": "2-3/After Bridge/Enemy by Exit Portal/Raptoid",
+            "name": "[Raptoid] After Bridge/Enemy by Exit Portal"
           },
           {
             "ref": "2-3/In River/In River Tunnel/LF10",
@@ -2290,38 +2322,6 @@
           {
             "ref": "2-3/Enemy Bridge Platform Left/Endtrail",
             "name": "[Endtrail] Enemy Bridge Platform Left"
-          },
-          {
-            "ref": "2-3/Enemy After Bridge/Raptoid",
-            "name": "[Raptoid] Enemy After Bridge"
-          },
-          {
-            "ref": "2-3/Enemy Left After Bridge/Endtrail",
-            "name": "[Endtrail] Enemy Left After Bridge"
-          },
-          {
-            "ref": "2-3/Enemy Near River Bridge/Endtrail",
-            "name": "[Endtrail] Enemy Near River Bridge"
-          },
-          {
-            "ref": "2-3/Enemy Right After Bridge/Endtrail",
-            "name": "[Endtrail] Enemy Right After Bridge"
-          },
-          {
-            "ref": "2-3/Enemy by River/Compy",
-            "name": "[Compy] Enemy by River"
-          },
-          {
-            "ref": "2-3/Enemy in Switch Hall/Endtrail",
-            "name": "[Endtrail] Enemy in Switch Hall"
-          },
-          {
-            "ref": "2-3/Enemy After Switch Hall/Endtrail",
-            "name": "[Endtrail] Enemy After Switch Hall"
-          },
-          {
-            "ref": "2-3/Enemy by Exit Portal/Raptoid",
-            "name": "[Raptoid] Enemy by Exit Portal"
           }
         ],
         "map_locations": [
@@ -2512,10 +2512,6 @@
         "name": "2-O",
         "sections": [
           {
-            "ref": "2-O/Exit/Nuke Part",
-            "name": "[Nuke Part] Exit"
-          },
-          {
             "ref": "2-O/Left/Valve",
             "name": "[Valve] Left"
           },
@@ -2540,12 +2536,16 @@
             "name": "[Death Guard] Enemy in Back Doors"
           },
           {
-            "ref": "2-O/Enemy in Lava Room/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy in Lava Room"
+            "ref": "2-O/Lava Room/Enemy in Lava Room/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Lava Room/Enemy in Lava Room"
           },
           {
-            "ref": "2-O/Enemy After Lava Room/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy After Lava Room"
+            "ref": "2-O/Exit/Enemy After Lava Room/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Exit/Enemy After Lava Room"
+          },
+          {
+            "ref": "2-O/Exit/Exit/Nuke Part",
+            "name": "[Nuke Part] Exit/Exit"
           }
         ],
         "map_locations": [
@@ -3140,64 +3140,64 @@
             "name": "[Shotgun] Before Gate"
           },
           {
-            "ref": "2-GY1/On Ledge/Mag 60",
-            "name": "[Mag 60] On Ledge"
-          },
-          {
-            "ref": "2-GY1/On Pillar/LF10",
-            "name": "[LF10] On Pillar"
-          },
-          {
-            "ref": "2-GY1/By Pillars/LF10",
-            "name": "[LF10] By Pillars"
-          },
-          {
             "ref": "2-GY1/Enemy by Gate/Deadman",
             "name": "[Deadman] Enemy by Gate"
           },
           {
-            "ref": "2-GY1/Enemy After Gate/Lord of the Dead",
-            "name": "[Lord of the Dead] Enemy After Gate"
+            "ref": "2-GY1/After Gate/On Ledge/Mag 60",
+            "name": "[Mag 60] After Gate/On Ledge"
           },
           {
-            "ref": "2-GY1/Enemy up Ladder/Spider",
-            "name": "[Spider] Enemy up Ladder"
+            "ref": "2-GY1/After Gate/On Pillar/LF10",
+            "name": "[LF10] After Gate/On Pillar"
           },
           {
-            "ref": "2-GY1/Enemy by Main Room Gate/Lord of the Dead",
-            "name": "[Lord of the Dead] Enemy by Main Room Gate"
+            "ref": "2-GY1/After Gate/By Pillars/LF10",
+            "name": "[LF10] After Gate/By Pillars"
           },
           {
-            "ref": "2-GY1/Enemy Behind Building/Lord of the Dead",
-            "name": "[Lord of the Dead] Enemy Behind Building"
+            "ref": "2-GY1/After Gate/Enemy After Gate/Lord of the Dead",
+            "name": "[Lord of the Dead] After Gate/Enemy After Gate"
           },
           {
-            "ref": "2-GY1/Enemy in Main Room/Lord of the Dead",
-            "name": "[Lord of the Dead] Enemy in Main Room"
+            "ref": "2-GY1/After Gate/Enemy up Ladder/Spider",
+            "name": "[Spider] After Gate/Enemy up Ladder"
           },
           {
-            "ref": "2-GY1/Enemy in Main Room/Deadman",
-            "name": "[Deadman] Enemy in Main Room"
+            "ref": "2-GY1/After Gate/Enemy by Main Room Gate/Lord of the Dead",
+            "name": "[Lord of the Dead] After Gate/Enemy by Main Room Gate"
           },
           {
-            "ref": "2-GY1/Enemy in Main Room/Deadman Spawned From Lord of the Dead by Gate",
-            "name": "[Deadman Spawned From Lord of the Dead by Gate] Enemy in Main Room"
+            "ref": "2-GY1/After Gate/Enemy Behind Building/Lord of the Dead",
+            "name": "[Lord of the Dead] After Gate/Enemy Behind Building"
           },
           {
-            "ref": "2-GY1/Enemy in Main Room/Deadman Spawned From Lord of the Dead in Main Room",
-            "name": "[Deadman Spawned From Lord of the Dead in Main Room] Enemy in Main Room"
+            "ref": "2-GY1/After Gate/Enemy in Main Room/Lord of the Dead",
+            "name": "[Lord of the Dead] After Gate/Enemy in Main Room"
           },
           {
-            "ref": "2-GY1/Enemy in Main Room/Deadman Spawned From Lord of the Dead Behind Building",
-            "name": "[Deadman Spawned From Lord of the Dead Behind Building] Enemy in Main Room"
+            "ref": "2-GY1/After Gate/Enemy in Main Room/Deadman",
+            "name": "[Deadman] After Gate/Enemy in Main Room"
           },
           {
-            "ref": "2-GY1/In Center Building/Banish Sister of Despair",
-            "name": "[Banish Sister of Despair] In Center Building"
+            "ref": "2-GY1/After Gate/Enemy in Main Room/Deadman Spawned From Lord of the Dead by Gate",
+            "name": "[Deadman Spawned From Lord of the Dead by Gate] After Gate/Enemy in Main Room"
           },
           {
-            "ref": "2-GY1/In Center Building/Sister of Despair",
-            "name": "[Sister of Despair] In Center Building"
+            "ref": "2-GY1/After Gate/Enemy in Main Room/Deadman Spawned From Lord of the Dead in Main Room",
+            "name": "[Deadman Spawned From Lord of the Dead in Main Room] After Gate/Enemy in Main Room"
+          },
+          {
+            "ref": "2-GY1/After Gate/Enemy in Main Room/Deadman Spawned From Lord of the Dead Behind Building",
+            "name": "[Deadman Spawned From Lord of the Dead Behind Building] After Gate/Enemy in Main Room"
+          },
+          {
+            "ref": "2-GY1/After Gate/In Center Building/Banish Sister of Despair",
+            "name": "[Banish Sister of Despair] After Gate/In Center Building"
+          },
+          {
+            "ref": "2-GY1/After Gate/In Center Building/Sister of Despair",
+            "name": "[Sister of Despair] After Gate/In Center Building"
           }
         ],
         "map_locations": [
@@ -6536,8 +6536,8 @@
             "name": "[Skull Switch] Second Water Room Top"
           },
           {
-            "ref": "4-5/At Start/Spider",
-            "name": "[Spider] At Start"
+            "ref": "4-5/Enemy at Start/Spider",
+            "name": "[Spider] Enemy at Start"
           },
           {
             "ref": "4-5/Enemy After Gate/Leaper",
@@ -6652,8 +6652,8 @@
             "name": "[Unlock Cave Door] Cave Door Room"
           },
           {
-            "ref": "4-6a/At Start/Sentinel",
-            "name": "[Sentinel] At Start"
+            "ref": "4-6a/Enemy at Start/Sentinel",
+            "name": "[Sentinel] Enemy at Start"
           },
           {
             "ref": "4-6a/Cave Door/After Switch/Tek Bow",
@@ -7316,12 +7316,12 @@
             "name": "[Box of Bullets] After Vent/On Bridge After Vent"
           },
           {
-            "ref": "4-8/After Vent/By Exit Drop After Vent/Sentinel",
-            "name": "[Sentinel] After Vent/By Exit Drop After Vent"
+            "ref": "4-8/After Vent/Enemy by Exit Drop After Vent/Sentinel",
+            "name": "[Sentinel] After Vent/Enemy by Exit Drop After Vent"
           },
           {
-            "ref": "4-8/After Vent/By Exit Drop After Vent/Guardian",
-            "name": "[Guardian] After Vent/By Exit Drop After Vent"
+            "ref": "4-8/After Vent/Enemy by Exit Drop After Vent/Guardian",
+            "name": "[Guardian] After Vent/Enemy by Exit Drop After Vent"
           }
         ],
         "map_locations": [

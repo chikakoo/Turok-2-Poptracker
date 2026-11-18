@@ -4,7 +4,7 @@
         "chest_unopened_img": "images/items/ammo/clip.png",
         "chest_opened_img": "images/items/ammo/clip_bw.png",
         "access_rules": [
-            "$map_access|2"
+            "^$map_2_1_access"
         ],
         "children": [
             {

@@ -4,30 +4,9 @@
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
-            "$has_mission_items|gate_key|2,$map_access|2|3|start"
+            "^$map_2_O_access"
         ],
         "children": [
-            {
-                "name": "Exit",
-                "chest_unopened_img": "images/items/weapons/nuke_parts.png",
-                "chest_opened_img": "images/items/weapons/nuke_parts_bw.png",
-                "sections": [
-                    {
-                        "name": "Nuke Part",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|79000"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "2-O",
-                        "x": 645,
-                        "y": 217
-                    }
-                ]
-            },
             {
                 "name": "Left",
                 "chest_unopened_img": "images/interactables/valve.png",
@@ -171,52 +150,89 @@
                 ]
             },
             {
-                "name": "Enemy in Lava Room",
-                "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
-                "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
-                "sections": [
-                    {
-                        "name": "Lord of the Flesh",
-                        "item_count": 1,
-                        "access_rules": [
-                            "lord_of_the_flesh_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|79009"
-                        ]
-                    }
+                "name": "Lava Room",
+                "access_rules": [
+                    "flesh_sentinel_soul,death_guard_soul"
                 ],
-                "map_locations": [
+                "children": [
                     {
-                        "map": "2-O",
-                        "shape": "diamond",
-                        "x": 523,
-                        "y": 217
+                        "name": "Enemy in Lava Room",
+                        "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
+                        "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
+                        "sections": [
+                            {
+                                "name": "Lord of the Flesh",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "lord_of_the_flesh_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|79009"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-O",
+                                "shape": "diamond",
+                                "x": 523,
+                                "y": 217
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Enemy After Lava Room",
-                "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
-                "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
-                "sections": [
-                    {
-                        "name": "Lord of the Flesh",
-                        "item_count": 1,
-                        "access_rules": [
-                            "lord_of_the_flesh_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|79010"
-                        ]
-                    }
+                "name": "Exit",
+                "access_rules": [
+                    "flesh_sentinel_soul,death_guard_soul,lord_of_the_flesh_soul"
                 ],
-                "map_locations": [
+                "children": [
                     {
-                        "map": "2-O",
-                        "shape": "diamond",
-                        "x": 619,
-                        "y": 217
+                        "name": "Enemy After Lava Room",
+                        "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
+                        "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
+                        "sections": [
+                            {
+                                "name": "Lord of the Flesh",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "lord_of_the_flesh_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|79010"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-O",
+                                "shape": "diamond",
+                                "x": 619,
+                                "y": 217
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Exit",
+                        "chest_unopened_img": "images/items/weapons/nuke_parts.png",
+                        "chest_opened_img": "images/items/weapons/nuke_parts_bw.png",
+                        "sections": [
+                            {
+                                "name": "Nuke Part",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|79000"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "2-O",
+                                "x": 645,
+                                "y": 217
+                            }
+                        ]
                     }
                 ]
             }
