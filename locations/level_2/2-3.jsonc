@@ -706,8 +706,7 @@
             {
                 "name": "In River",
                 "access_rules": [
-                    "endtrail_soul",
-                    "breath_of_life"
+                    "endtrail_soul,breath_of_life"
                 ],
                 "children": [
                     {
