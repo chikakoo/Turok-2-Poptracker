@@ -792,6 +792,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|116107"
                         ]
@@ -814,6 +817,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|116108"
                         ]
@@ -836,6 +842,9 @@
                         "chest_unopened_img": "images/enemies/bio_bot.png",
                         "chest_opened_img": "images/enemies/bio_bot_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|116109"
                         ]
@@ -845,6 +854,9 @@
                         "chest_unopened_img": "images/enemies/trooper.png",
                         "chest_opened_img": "images/enemies/trooper_bw.png",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|116111"
                         ]
@@ -867,6 +879,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|116110"
                         ]
@@ -889,6 +904,9 @@
                     {
                         "name": "Elite Guard",
                         "item_count": 1,
+                        "access_rules": [
+                            "elite_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|116112"
                         ]
@@ -911,6 +929,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|116113"
                         ]
@@ -933,6 +954,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|116114"
                         ]
@@ -955,6 +979,9 @@
                     {
                         "name": "Elite Guard",
                         "item_count": 1,
+                        "access_rules": [
+                            "elite_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|116115"
                         ]
@@ -977,6 +1004,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|116116"
                         ]
@@ -1097,6 +1127,9 @@
                             {
                                 "name": "Elite Guard",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "elite_guard_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|116117"
                                 ]

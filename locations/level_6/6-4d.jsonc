@@ -255,6 +255,9 @@
                     {
                         "name": "Elite Guard",
                         "item_count": 1,
+                        "access_rules": [
+                            "elite_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|123052"
                         ]
@@ -436,6 +439,9 @@
                             {
                                 "name": "Elite Guard",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "elite_guard_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|123053"
                                 ]
@@ -559,6 +565,9 @@
                             {
                                 "name": "Elite Guard",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "elite_guard_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|123054"
                                 ]

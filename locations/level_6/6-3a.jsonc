@@ -816,6 +816,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|118083"
                         ]
@@ -838,6 +841,9 @@
                     {
                         "name": "Bio-Bot Spawned From Turret Spawned From Next Room",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|118084"
                         ]
@@ -860,6 +866,9 @@
                     {
                         "name": "Elite Guard",
                         "item_count": 1,
+                        "access_rules": [
+                            "elite_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|118085"
                         ]
@@ -882,6 +891,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|118086"
                         ]
@@ -889,6 +901,9 @@
                     {
                         "name": "Trooper Spawned After Door Trap",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|118089"
                         ]
@@ -911,6 +926,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|118087"
                         ]
@@ -933,6 +951,9 @@
                     {
                         "name": "Elite Guard",
                         "item_count": 1,
+                        "access_rules": [
+                            "elite_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|118088"
                         ]
@@ -955,6 +976,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|118090"
                         ]
@@ -977,6 +1001,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|118091"
                         ]

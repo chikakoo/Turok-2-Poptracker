@@ -273,6 +273,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|122029"
                         ]
@@ -295,6 +298,9 @@
                     {
                         "name": "Elite Guard",
                         "item_count": 1,
+                        "access_rules": [
+                            "elite_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|122030"
                         ]
@@ -317,6 +323,9 @@
                     {
                         "name": "Elite Guard",
                         "item_count": 1,
+                        "access_rules": [
+                            "elite_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|122031"
                         ]
@@ -339,6 +348,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|122032"
                         ]

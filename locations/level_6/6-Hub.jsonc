@@ -325,6 +325,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|114027"
                         ]
@@ -347,6 +350,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|114028"
                         ]
@@ -369,6 +375,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|114029"
                         ]
@@ -391,6 +400,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|114030"
                         ]
@@ -413,6 +425,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|114031"
                         ]
@@ -604,6 +619,9 @@
                                 "chest_unopened_img": "images/enemies/bio_bot.png",
                                 "chest_opened_img": "images/enemies/bio_bot_bw.png",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "bio_bot_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114041"
                                 ]
@@ -613,6 +631,9 @@
                                 "chest_unopened_img": "images/enemies/trooper.png",
                                 "chest_opened_img": "images/enemies/trooper_bw.png",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "trooper_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114042"
                                 ]
@@ -621,6 +642,7 @@
                         "map_locations": [
                             {
                                 "map": "6-Hub",
+                                "shape": "diamond",
                                 "x": 134,
                                 "y": 499
                             }
@@ -634,6 +656,9 @@
                                 "chest_unopened_img": "images/enemies/bio_bot.png",
                                 "chest_opened_img": "images/enemies/bio_bot_bw.png",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "bio_bot_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114043"
                                 ]
@@ -833,6 +858,9 @@
                             {
                                 "name": "Trooper",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "trooper_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114058"
                                 ]
@@ -855,6 +883,9 @@
                             {
                                 "name": "Bio-Bot",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "bio_bot_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114059"
                                 ]
@@ -976,6 +1007,9 @@
                             {
                                 "name": "Elite Guard",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "elite_guard_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114069"
                                 ]
@@ -998,6 +1032,9 @@
                             {
                                 "name": "Elite Guard",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "elite_guard_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114070"
                                 ]
@@ -1020,6 +1057,9 @@
                             {
                                 "name": "Trooper",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "trooper_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114071"
                                 ]
@@ -1233,6 +1273,9 @@
                             {
                                 "name": "Elite Guard",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "elite_guard_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114092"
                                 ]
@@ -1255,6 +1298,9 @@
                             {
                                 "name": "Bio-Bot",
                                 "item_count": 2,
+                                "access_rules": [
+                                    "bio_bot_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114093|114094"
                                 ]
@@ -1277,6 +1323,9 @@
                             {
                                 "name": "Elite Guard",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "elite_guard_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114095"
                                 ]
@@ -1299,6 +1348,9 @@
                             {
                                 "name": "Elite Guard After Wing 4",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "elite_guard_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114096"
                                 ]
@@ -1321,6 +1373,9 @@
                             {
                                 "name": "Elite Guard After Wing 4",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "elite_guard_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|114097"
                                 ]

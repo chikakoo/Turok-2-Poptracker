@@ -417,6 +417,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|117047"
                         ]
@@ -439,6 +442,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|117048"
                         ]
@@ -461,6 +467,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|117049"
                         ]
@@ -483,6 +492,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|117050"
                         ]
@@ -505,6 +517,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|117051"
                         ]
@@ -527,6 +542,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|117052"
                         ]
@@ -549,6 +567,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|117053"
                         ]
@@ -571,6 +592,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|117057"
                         ]
@@ -739,6 +763,9 @@
                             {
                                 "name": "Trooper After Placing One Capacitor",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "trooper_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|117054"
                                 ]
@@ -761,6 +788,9 @@
                             {
                                 "name": "Bio-Bot After Placing One Capacitor",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "bio_bot_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|117055"
                                 ]
@@ -783,6 +813,9 @@
                             {
                                 "name": "Bio-Bot After Placing One Capacitor",
                                 "item_count": 1,
+                                "access_rules": [
+                                    "bio_bot_soul"
+                                ],
                                 "visibility_rules": [
                                     "$id_exists|117056"
                                 ]

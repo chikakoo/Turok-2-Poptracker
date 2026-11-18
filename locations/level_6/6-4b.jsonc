@@ -427,6 +427,9 @@
                     {
                         "name": "Bio-Bot After Switch",
                         "item_count": 2,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|121040|121041"
                         ]
@@ -449,6 +452,9 @@
                     {
                         "name": "Elite Guard",
                         "item_count": 1,
+                        "access_rules": [
+                            "elite_guard_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|121042"
                         ]
@@ -471,6 +477,9 @@
                     {
                         "name": "Bio-Bot",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|121043"
                         ]
@@ -493,6 +502,9 @@
                     {
                         "name": "Trooper",
                         "item_count": 1,
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|121044"
                         ]
@@ -513,6 +525,9 @@
                     {
                         "name": "Bio-Bot Awoken From Standing Here",
                         "item_count": 1,
+                        "access_rules": [
+                            "bio_bot_soul"
+                        ],
                         "visibility_rules": [
                             "$id_exists|121045"
                         ]
