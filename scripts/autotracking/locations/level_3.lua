@@ -322,15 +322,15 @@ LOCATIONS_3_3 = {
 }
 
 LOCATIONS_3_O = {
-    [80000] = {"@3-O/Exit/Nuke Part"},
+    [80000] = {"@3-O/Exit/Exit/Nuke Part"},
     [80001] = {"@3-O/Enemy in Left Room/Sentinel"},
     [80002] = {"@3-O/Enemy in Left Room/Death Guard"},
     [80003] = {"@3-O/Enemy in Right Room/Sentinel"},
     [80004] = {"@3-O/Enemy in Right Room/Death Guard"},
-    [80005] = {"@3-O/Enemy in Forward Room/Lord of the Flesh"},
-    [80006] = {"@3-O/Enemy in Forward Room/Death Guard"},
-    [80007] = {"@3-O/Enemy in Forward Room/Death Guard"},
-    [80008] = {"@3-O/Enemy by Exit/Lord of the Flesh"}
+    [80005] = {"@3-O/Exit/Enemy in Forward Room/Lord of the Flesh"},
+    [80006] = {"@3-O/Exit/Enemy in Forward Room/Death Guard"},
+    [80007] = {"@3-O/Exit/Enemy in Forward Room/Death Guard"},
+    [80008] = {"@3-O/Exit/Enemy by Exit/Lord of the Flesh"},
 }
 
 LOCATIONS_3_4 = {
@@ -619,7 +619,7 @@ LOCATIONS_3_8 = {
     [68016] = {"@3-8/Enemy Ambush/Raptor"},
     [68017] = {"@3-8/Enemy Ambush/Raptor"},
     [68018] = {"@3-8/Enemy Ambush/Raptor"},
-    [68019] = {"@3-8/Either Enemy on Ground/Juggernaut"},
-    [68020] = {"@3-8/Enemy on Left Tower/Juggernaut"},
-    [68021] = {"@3-8/Enemy on Right Tower/Juggernaut"}
+    [68019] = {"@3-8/Exit/Either Enemy on Ground/Juggernaut"},
+    [68020] = {"@3-8/Exit/Enemy on Left Tower/Juggernaut"},
+    [68021] = {"@3-8/Exit/Enemy on Right Tower/Juggernaut"},
 }

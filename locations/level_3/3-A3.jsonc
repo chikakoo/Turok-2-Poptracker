@@ -4,13 +4,16 @@
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
-            "$map_access|3|8|mid,^$has_unused_l3_satchel_charge"
+            "^$map_3_a3_access"
         ],
         "children": [
             {
                 "name": "Back Room",
                 "chest_unopened_img": "images/interactables/ammo_facility.png",
                 "chest_opened_img": "images/interactables/ammo_facility_bw.png",
+                "access_rules": [
+                    "^$has_unused_l3_satchel_charge"
+                ],
                 "sections": [
                     {
                         "name": "Destroy Facility",

@@ -4,7 +4,7 @@
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
-            "$map_access|3|8|mid"
+            "^$map_3_8_access"
         ],
         "children": [
             {
@@ -195,77 +195,85 @@
                 ]
             },
             {
-                "name": "Either Enemy on Ground",
-                "chest_unopened_img": "images/enemies/juggernaut.png",
-                "chest_opened_img": "images/enemies/juggernaut_bw.png",
-                "sections": [
-                    {
-                        "name": "Juggernaut",
-                        "item_count": 1,
-                        "access_rules": [
-                            "juggernaut_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|68019"
-                        ]
-                    }
+                "name": "Exit",
+                "access_rules": [
+                    "raptor_soul"
                 ],
-                "map_locations": [
+                "children": [
                     {
-                        "map": "3-8",
-                        "shape": "diamond",
-                        "x": 216,
-                        "y": 420
-                    }
-                ]
-            },
-            {
-                "name": "Enemy on Left Tower",
-                "chest_unopened_img": "images/enemies/juggernaut.png",
-                "chest_opened_img": "images/enemies/juggernaut_bw.png",
-                "sections": [
-                    {
-                        "name": "Juggernaut",
-                        "item_count": 1,
-                        "access_rules": [
-                            "juggernaut_soul"
+                        "name": "Either Enemy on Ground",
+                        "chest_unopened_img": "images/enemies/juggernaut.png",
+                        "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                        "sections": [
+                            {
+                                "name": "Juggernaut",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "juggernaut_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|68019"
+                                ]
+                            }
                         ],
-                        "visibility_rules": [
-                            "$id_exists|68020"
+                        "map_locations": [
+                            {
+                                "map": "3-8",
+                                "shape": "diamond",
+                                "x": 216,
+                                "y": 420
+                            }
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "3-8",
-                        "shape": "diamond",
-                        "x": 291,
-                        "y": 457
-                    }
-                ]
-            },
-            {
-                "name": "Enemy on Right Tower",
-                "chest_unopened_img": "images/enemies/juggernaut.png",
-                "chest_opened_img": "images/enemies/juggernaut_bw.png",
-                "sections": [
-                    {
-                        "name": "Juggernaut",
-                        "item_count": 1,
-                        "access_rules": [
-                            "juggernaut_soul"
+                        "name": "Enemy on Left Tower",
+                        "chest_unopened_img": "images/enemies/juggernaut.png",
+                        "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                        "sections": [
+                            {
+                                "name": "Juggernaut",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "juggernaut_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|68020"
+                                ]
+                            }
                         ],
-                        "visibility_rules": [
-                            "$id_exists|68021"
+                        "map_locations": [
+                            {
+                                "map": "3-8",
+                                "shape": "diamond",
+                                "x": 291,
+                                "y": 457
+                            }
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "3-8",
-                        "shape": "diamond",
-                        "x": 151,
-                        "y": 457
+                        "name": "Enemy on Right Tower",
+                        "chest_unopened_img": "images/enemies/juggernaut.png",
+                        "chest_opened_img": "images/enemies/juggernaut_bw.png",
+                        "sections": [
+                            {
+                                "name": "Juggernaut",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "juggernaut_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|68021"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "3-8",
+                                "shape": "diamond",
+                                "x": 151,
+                                "y": 457
+                            }
+                        ]
                     }
                 ]
             }

@@ -110,5 +110,68 @@ function map_2_gy3_access()
     return has("endtrail_soul") and can_open_level_2_gate() and can_exit_gy1() and map_access(2, 11, "mid")
 end
 
+-- Level 3
+function map_3_1_access()
+    return map_access(3)
+end
 
+function map_3_a1_access()
+    return map_access(3, 1)
+end
+
+function map_3_2_access()
+    return map_access(3, 1)
+end
+
+function map_3_3_access()
+    return map_access(3, 2, "start")
+end
+
+function map_3_4a_access()
+    return map_access(3, 3, "mid")
+end
+
+function map_3_a2_access()
+    return map_access(3, 4, "mid")
+end
+
+function map_3_4b_access()
+    if not map_3_4a_access() then
+        return AccessibilityLevel.None
+    end
+
+    if map_access(3, 4, "mid") or has("level_3_bridge_jump") then
+        return AccessibilityLevel.Normal
+    end
+
+    return AccessibilityLevel.SequenceBreak
+end
+
+function map_3_5_access()
+    return map_access(3, 5, "mid")
+end
+
+function map_3_6_access()
+    return has("juggernaut_soul") and map_access(3, 6, "mid")
+end
+
+function map_3_7_access()
+    return has("juggernaut_soul") and map_access(3, 7, "mid")
+end
+
+function map_3_8_access()
+    return has("juggernaut_soul") and map_access(3, 8, "mid")
+end
+
+function map_3_a3_access()
+    return has("juggernaut_soul") and map_access(3, 8, "mid")
+end
+
+-- Level 4
+
+
+-- Level 5
+
+
+-- Level 6
 
