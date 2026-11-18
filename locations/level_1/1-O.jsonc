@@ -4,30 +4,9 @@
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
-            "$map_access|1|9|mid"
+            "^$map_1_9_access"
         ],
         "children": [
-            {
-                "name": "At End",
-                "sections": [
-                    {
-                        "name": "Nuke Part",
-                        "chest_unopened_img": "images/items/weapons/nuke_parts.png",
-                        "chest_opened_img": "images/items/weapons/nuke_parts_bw.png",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|78000"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "1-O",
-                        "x": 215,
-                        "y": 123
-                    }
-                ]
-            },
             {
                 "name": "Enemy Wave 1",
                 "chest_unopened_img": "images/enemies/sentinel_oblivion.png",
@@ -54,27 +33,59 @@
                 ]
             },
             {
-                "name": "Enemy Wave 2",
-                "chest_unopened_img": "images/enemies/death_guard.png",
-                "chest_opened_img": "images/enemies/death_guard_bw.png",
-                "sections": [
-                    {
-                        "name": "Death Guard",
-                        "item_count": 2,
-                        "access_rules": [
-                            "death_guard_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|78003|78004"
-                        ]
-                    }
+                "name": "After Sentinels",
+                "access_rules": [
+                    "flesh_sentinel_soul"
                 ],
-                "map_locations": [
+                "children": [
                     {
-                        "map": "1-O",
-                        "shape": "diamond",
-                        "x": 411,
-                        "y": 123
+                        "name": "Enemy Wave 2",
+                        "chest_unopened_img": "images/enemies/death_guard.png",
+                        "chest_opened_img": "images/enemies/death_guard_bw.png",
+                        "sections": [
+                            {
+                                "name": "Death Guard",
+                                "item_count": 2,
+                                "access_rules": [
+                                    "death_guard_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|78003|78004"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "1-O",
+                                "shape": "diamond",
+                                "x": 411,
+                                "y": 123
+                            }
+                        ]
+                    },
+                    {
+                        "name": "At End",
+                        "sections": [
+                            {
+                                "name": "Nuke Part",
+                                "chest_unopened_img": "images/items/weapons/nuke_parts.png",
+                                "chest_opened_img": "images/items/weapons/nuke_parts_bw.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "death_guard_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|78000"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "1-O",
+                                "x": 215,
+                                "y": 123
+                            }
+                        ]
                     }
                 ]
             }

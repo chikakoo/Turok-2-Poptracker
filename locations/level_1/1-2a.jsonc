@@ -4,7 +4,7 @@
     "chest_unopened_img": "images/items/life_forces/lf1.png",
     "chest_opened_img": "images/items/life_forces/lf1_bw.png",
     "access_rules": [
-      "$map_access|1|1"
+      "^$map_1_2a_access"
     ],
     "children": [
       {
@@ -261,27 +261,6 @@
         ]
       },
       {
-        "name": "Catwalks Enemy Trigger Room",
-        "chest_unopened_img": "images/interactables/switch_standard.png",
-        "chest_opened_img": "images/interactables/switch_standard_bw.png",
-        "sections": [
-          {
-            "name": "Switch",
-            "item_count": 1,
-            "visibility_rules": [
-              "$id_exists|52064"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "1-2a",
-            "x": 258,
-            "y": 218
-          }
-        ]
-      },
-      {
         "name": "Child Path Upper Walkway",
         "chest_unopened_img": "images/items/health/silver_health.png",
         "chest_opened_img": "images/items/health/silver_health_bw.png",
@@ -471,90 +450,6 @@
         ]
       },
       {
-        "name": "Before Lower Warp Room",
-        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
-        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
-        "sections": [
-          {
-            "name": "Box of Bullets",
-            "item_count": 1,
-            "visibility_rules": [
-              "$id_exists|52060"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "1-2a",
-            "x": 173,
-            "y": 288
-          }
-        ]
-      },
-      {
-        "name": "Before Lower Warp Room Behind Door L/R",
-        "chest_unopened_img": "images/items/ammo/clip.png",
-        "chest_opened_img": "images/items/ammo/clip_bw.png",
-        "sections": [
-          {
-            "name": "Clip",
-            "item_count": 2,
-            "visibility_rules": [
-              "$id_exists|52058|52059"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "1-2a",
-            "x": 195,
-            "y": 271
-          }
-        ]
-      },
-      {
-        "name": "Lower Warp Room Behind Door",
-        "chest_unopened_img": "images/items/ammo/clip.png",
-        "chest_opened_img": "images/items/ammo/clip_bw.png",
-        "sections": [
-          {
-            "name": "Clip",
-            "item_count": 1,
-            "visibility_rules": [
-              "$id_exists|52061"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "1-2a",
-            "x": 117,
-            "y": 264
-          }
-        ]
-      },
-      {
-        "name": "Lower Warp Room Behind Fallen Pillar",
-        "chest_unopened_img": "images/items/ammo/quiver_of_arrows.png",
-        "chest_opened_img": "images/items/ammo/quiver_of_arrows_bw.png",
-        "sections": [
-          {
-            "name": "Quiver",
-            "item_count": 1,
-            "visibility_rules": [
-              "$id_exists|52062"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "1-2a",
-            "x": 62,
-            "y": 317
-          }
-        ]
-      },
-      {
         "name": "Enemy in Level Key Room",
         "chest_unopened_img": "images/enemies/raptoid.png",
         "chest_opened_img": "images/enemies/raptoid_bw.png",
@@ -730,52 +625,165 @@
         ]
       },
       {
-        "name": "Enemy By Water After Catwalks Switch",
-        "chest_unopened_img": "images/enemies/endtrail.png",
-        "chest_opened_img": "images/enemies/endtrail_bw.png",
-        "sections": [
-          {
-            "name": "Endtrail",
-            "item_count": 1,
-            "access_rules": [
-              "endtrail_soul"
-            ],
-            "visibility_rules": [
-              "$id_exists|52076"
-            ]
-          }
+        "name": "Catwalks Switch",
+        "access_rules": [
+          "endtrail_soul"
         ],
-        "map_locations": [
+        "children": [
           {
-            "map": "1-2a",
-            "shape": "diamond",
-            "x": 196,
-            "y": 288
-          }
-        ]
-      },
-      {
-        "name": "Enemy By Portal",
-        "chest_unopened_img": "images/enemies/raptoid.png",
-        "chest_opened_img": "images/enemies/raptoid_bw.png",
-        "sections": [
-          {
-            "name": "Raptoid",
-            "item_count": 2,
-            "access_rules": [
-              "raptoid_soul"
+            "name": "Before Lower Warp Room",
+            "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+            "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+            "sections": [
+              {
+                "name": "Box of Bullets",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52060"
+                ]
+              }
             ],
-            "visibility_rules": [
-              "$id_exists|52077|52078"
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 173,
+                "y": 288
+              }
             ]
-          }
-        ],
-        "map_locations": [
+          },
           {
-            "map": "1-2a",
-            "shape": "diamond",
-            "x": 74,
-            "y": 289
+            "name": "Before Lower Warp Room Behind Door L/R",
+            "chest_unopened_img": "images/items/ammo/clip.png",
+            "chest_opened_img": "images/items/ammo/clip_bw.png",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 2,
+                "visibility_rules": [
+                  "$id_exists|52058|52059"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 195,
+                "y": 271
+              }
+            ]
+          },
+          {
+            "name": "Lower Warp Room Behind Door",
+            "chest_unopened_img": "images/items/ammo/clip.png",
+            "chest_opened_img": "images/items/ammo/clip_bw.png",
+            "sections": [
+              {
+                "name": "Clip",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52061"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 117,
+                "y": 264
+              }
+            ]
+          },
+          {
+            "name": "Lower Warp Room Behind Fallen Pillar",
+            "chest_unopened_img": "images/items/ammo/quiver_of_arrows.png",
+            "chest_opened_img": "images/items/ammo/quiver_of_arrows_bw.png",
+            "sections": [
+              {
+                "name": "Quiver",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52062"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 62,
+                "y": 317
+              }
+            ]
+          },
+          {
+            "name": "Catwalks Enemy Trigger Room",
+            "chest_unopened_img": "images/interactables/switch_standard.png",
+            "chest_opened_img": "images/interactables/switch_standard_bw.png",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52064"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 258,
+                "y": 218
+              }
+            ]
+          },
+          {
+            "name": "Enemy By Water After Catwalks Switch",
+            "chest_unopened_img": "images/enemies/endtrail.png",
+            "chest_opened_img": "images/enemies/endtrail_bw.png",
+            "sections": [
+              {
+                "name": "Endtrail",
+                "item_count": 1,
+                "access_rules": [
+                  "endtrail_soul"
+                ],
+                "visibility_rules": [
+                  "$id_exists|52076"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "shape": "diamond",
+                "x": 196,
+                "y": 288
+              }
+            ]
+          },
+          {
+            "name": "Enemy By Portal",
+            "chest_unopened_img": "images/enemies/raptoid.png",
+            "chest_opened_img": "images/enemies/raptoid_bw.png",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 2,
+                "access_rules": [
+                  "raptoid_soul"
+                ],
+                "visibility_rules": [
+                  "$id_exists|52077|52078"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "shape": "diamond",
+                "x": 74,
+                "y": 289
+              }
+            ]
           }
         ]
       }

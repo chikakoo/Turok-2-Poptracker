@@ -80,13 +80,13 @@ LOCATIONS_1_2a = {
 	[52055] = {"@1-2a/Child Area Right Ramp/Blue Health"},
 	[52056] = {"@1-2a/Child Area Right Ramp/Blue Health"},
 	[52057] = {"@1-2a/Child Area Top After Switch/Box of Bullets"},
-	[52058] = {"@1-2a/Before Lower Warp Room Behind Door L/R/Clip"},
-	[52059] = {"@1-2a/Before Lower Warp Room Behind Door L/R/Clip"},
-	[52060] = {"@1-2a/Before Lower Warp Room/Box of Bullets"},
-	[52061] = {"@1-2a/Lower Warp Room Behind Door/Clip"},
-	[52062] = {"@1-2a/Lower Warp Room Behind Fallen Pillar/Quiver"},
+	[52058] = {"@1-2a/Catwalks Switch/Before Lower Warp Room Behind Door L/R/Clip"},
+	[52059] = {"@1-2a/Catwalks Switch/Before Lower Warp Room Behind Door L/R/Clip"},
+	[52060] = {"@1-2a/Catwalks Switch/Before Lower Warp Room/Box of Bullets"},
+	[52061] = {"@1-2a/Catwalks Switch/Lower Warp Room Behind Door/Clip"},
+	[52062] = {"@1-2a/Catwalks Switch/Lower Warp Room Behind Fallen Pillar/Quiver"},
 	[52063] = {"@1-2a/After Tunnel/Switch"},
-	[52064] = {"@1-2a/Catwalks Enemy Trigger Room/Switch"},
+	[52064] = {"@1-2a/Catwalks Switch/Catwalks Enemy Trigger Room/Switch"},
 	[52065] = {"@1-2a/Child Path After Walkway/Switch"},
 	[52066] = {"@1-2a/Child Area Top Switch Room/Switch"},
 	[52067] = {"@1-2a/Child Area Bottom/Rescue Child"},
@@ -98,9 +98,9 @@ LOCATIONS_1_2a = {
 	[52073] = {"@1-2a/Enemy in Child Area Bottom/Endtrail"},
 	[52074] = {"@1-2a/Enemy in Child Area Top/Endtrail"},
 	[52075] = {"@1-2a/Enemy in Child Area Top After Switch/Raptoid"},
-	[52076] = {"@1-2a/Enemy By Water After Catwalks Switch/Endtrail"},
-	[52077] = {"@1-2a/Enemy By Portal/Raptoid"},
-	[52078] = {"@1-2a/Enemy By Portal/Raptoid"}
+	[52076] = {"@1-2a/Catwalks Switch/Enemy By Water After Catwalks Switch/Endtrail"},
+	[52077] = {"@1-2a/Catwalks Switch/Enemy By Portal/Raptoid"},
+	[52078] = {"@1-2a/Catwalks Switch/Enemy By Portal/Raptoid"}
 }
 
 LOCATIONS_1_3 = {
@@ -709,9 +709,9 @@ LOCATIONS_1_9 = {
 }
 
 LOCATIONS_1_O = {
-	[78000] = {"@1-O/At End/Nuke Part"},
+	[78000] = {"@1-O/After Sentinels/At End/Nuke Part"},
 	[78001] = {"@1-O/Enemy Wave 1/Sentinel"},
 	[78002] = {"@1-O/Enemy Wave 1/Sentinel"},
-	[78003] = {"@1-O/Enemy Wave 2/Death Guard"},
-	[78004] = {"@1-O/Enemy Wave 2/Death Guard"}
+	[78003] = {"@1-O/After Sentinels/Enemy Wave 2/Death Guard"},
+	[78004] = {"@1-O/After Sentinels/Enemy Wave 2/Death Guard"},
 }
