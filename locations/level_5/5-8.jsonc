@@ -258,174 +258,6 @@
                 ]
             },
             {
-                "name": "Water Path Left",
-                "chest_unopened_img": "images/items/health/blue_health.png",
-                "chest_opened_img": "images/items/health/blue_health_bw.png",
-                "sections": [
-                    {
-                        "name": "Blue Health",
-                        "item_count": 4,
-                        "visibility_rules": [
-                            "$id_exists|90027|90028|90029|90030"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-8",
-                        "x": 489,
-                        "y": 601
-                    }
-                ]
-            },
-            {
-                "name": "Water Path Left in Left Wall",
-                "chest_unopened_img": "images/items/ammo/flame_thrower_tank.png",
-                "chest_opened_img": "images/items/ammo/flame_thrower_tank_bw.png",
-                "sections": [
-                    {
-                        "name": "Flame Thrower Tank",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|90031"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-8",
-                        "x": 489,
-                        "y": 578
-                    }
-                ]
-            },
-            {
-                "name": "Water Path Left in Back Wall",
-                "chest_unopened_img": "images/items/ammo/box_of_grenades.png",
-                "chest_opened_img": "images/items/ammo/box_of_grenades_bw.png",
-                "sections": [
-                    {
-                        "name": "Box of Grenades",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|90032"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-8",
-                        "x": 511,
-                        "y": 601
-                    }
-                ]
-            },
-            {
-                "name": "Water Path Left in Right Wall",
-                "chest_unopened_img": "images/items/ammo/plasma_pak.png",
-                "chest_opened_img": "images/items/ammo/plasma_pak_bw.png",
-                "sections": [
-                    {
-                        "name": "Plasma Pak",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|90033"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-8",
-                        "x": 489,
-                        "y": 625
-                    }
-                ]
-            },
-            {
-                "name": "Water Path Right",
-                "chest_unopened_img": "images/items/health/blue_health.png",
-                "chest_opened_img": "images/items/health/blue_health_bw.png",
-                "sections": [
-                    {
-                        "name": "Blue Health",
-                        "item_count": 4,
-                        "visibility_rules": [
-                            "$id_exists|90034|90035|90036|90037"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-8",
-                        "x": 350,
-                        "y": 601
-                    }
-                ]
-            },
-            {
-                "name": "Water Path Right in Left Wall",
-                "chest_unopened_img": "images/items/ammo/box_of_shells.png",
-                "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
-                "sections": [
-                    {
-                        "name": "Box of Shells",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|90038"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-8",
-                        "x": 350,
-                        "y": 625
-                    }
-                ]
-            },
-            {
-                "name": "Water Path Right in Back Wall",
-                "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
-                "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
-                "sections": [
-                    {
-                        "name": "Box of Bullets",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|90039"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-8",
-                        "x": 328,
-                        "y": 601
-                    }
-                ]
-            },
-            {
-                "name": "Water Path Right in Right Wall",
-                "chest_unopened_img": "images/items/ammo/charge_darts_pak.png",
-                "chest_opened_img": "images/items/ammo/charge_darts_pak_bw.png",
-                "sections": [
-                    {
-                        "name": "Charge Dart Pak",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|90040"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-8",
-                        "x": 350,
-                        "y": 578
-                    }
-                ]
-            },
-            {
                 "name": "Catwalks Start",
                 "sections": [
                     {
@@ -707,6 +539,182 @@
                         "shape": "diamond",
                         "x": 68,
                         "y": 158
+                    }
+                ]
+            },
+            {
+                "name": "Water Secret Rooms",
+                "access_rules": [
+                    "mite_soul"
+                ],
+                "children": [
+                    {
+                        "name": "Water Path Left",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|90027|90028|90029|90030"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-8",
+                                "x": 489,
+                                "y": 601
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Water Path Left in Left Wall",
+                        "chest_unopened_img": "images/items/ammo/flame_thrower_tank.png",
+                        "chest_opened_img": "images/items/ammo/flame_thrower_tank_bw.png",
+                        "sections": [
+                            {
+                                "name": "Flame Thrower Tank",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|90031"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-8",
+                                "x": 489,
+                                "y": 578
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Water Path Left in Back Wall",
+                        "chest_unopened_img": "images/items/ammo/box_of_grenades.png",
+                        "chest_opened_img": "images/items/ammo/box_of_grenades_bw.png",
+                        "sections": [
+                            {
+                                "name": "Box of Grenades",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|90032"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-8",
+                                "x": 511,
+                                "y": 601
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Water Path Left in Right Wall",
+                        "chest_unopened_img": "images/items/ammo/plasma_pak.png",
+                        "chest_opened_img": "images/items/ammo/plasma_pak_bw.png",
+                        "sections": [
+                            {
+                                "name": "Plasma Pak",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|90033"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-8",
+                                "x": 489,
+                                "y": 625
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Water Path Right",
+                        "chest_unopened_img": "images/items/health/blue_health.png",
+                        "chest_opened_img": "images/items/health/blue_health_bw.png",
+                        "sections": [
+                            {
+                                "name": "Blue Health",
+                                "item_count": 4,
+                                "visibility_rules": [
+                                    "$id_exists|90034|90035|90036|90037"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-8",
+                                "x": 350,
+                                "y": 601
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Water Path Right in Left Wall",
+                        "chest_unopened_img": "images/items/ammo/box_of_shells.png",
+                        "chest_opened_img": "images/items/ammo/box_of_shells_bw.png",
+                        "sections": [
+                            {
+                                "name": "Box of Shells",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|90038"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-8",
+                                "x": 350,
+                                "y": 625
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Water Path Right in Back Wall",
+                        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+                        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+                        "sections": [
+                            {
+                                "name": "Box of Bullets",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|90039"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-8",
+                                "x": 328,
+                                "y": 601
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Water Path Right in Right Wall",
+                        "chest_unopened_img": "images/items/ammo/charge_darts_pak.png",
+                        "chest_opened_img": "images/items/ammo/charge_darts_pak_bw.png",
+                        "sections": [
+                            {
+                                "name": "Charge Dart Pak",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|90040"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-8",
+                                "x": 350,
+                                "y": 578
+                            }
+                        ]
                     }
                 ]
             }

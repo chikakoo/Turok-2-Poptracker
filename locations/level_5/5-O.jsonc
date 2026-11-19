@@ -8,48 +8,6 @@
         ],
         "children": [
             {
-                "name": "Exit",
-                "chest_unopened_img": "images/items/weapons/nuke_parts.png",
-                "chest_opened_img": "images/items/weapons/nuke_parts_bw.png",
-                "sections": [
-                    {
-                        "name": "Nuke Part",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|82000"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-O",
-                        "x": 119,
-                        "y": 591
-                    }
-                ]
-            },
-            {
-                "name": "Left",
-                "chest_unopened_img": "images/interactables/valve.png",
-                "chest_opened_img": "images/interactables/valve_bw.png",
-                "sections": [
-                    {
-                        "name": "Valve",
-                        "item_count": 1,
-                        "visibility_rules": [
-                            "$id_exists|82001"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "5-O",
-                        "x": 231,
-                        "y": 570
-                    }
-                ]
-            },
-            {
                 "name": "Enemy at Start",
                 "chest_unopened_img": "images/enemies/death_guard.png",
                 "chest_opened_img": "images/enemies/death_guard_bw.png",
@@ -137,114 +95,209 @@
                 ]
             },
             {
-                "name": "Enemy by Valve",
-                "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
-                "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
-                "sections": [
-                    {
-                        "name": "Lord of the Flesh",
-                        "item_count": 1,
-                        "access_rules": [
-                            "lord_of_the_flesh_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|82008"
-                        ]
-                    }
+                "name": "Left Room",
+                "access_rules": [
+                    "lord_of_the_flesh_soul"
                 ],
-                "map_locations": [
+                "children": [
                     {
-                        "map": "5-O",
-                        "shape": "diamond",
-                        "x": 265,
-                        "y": 509
+                        "name": "Enemy in First Left Room",
+                        "sections": [
+                            {
+                                "name": "Sentinel",
+                                "chest_unopened_img": "images/enemies/sentinel_oblivion.png",
+                                "chest_opened_img": "images/enemies/sentinel_oblivion_bw.png",
+                                "item_count": 2,
+                                "access_rules": [
+                                    "flesh_sentinel_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|82005|82006"
+                                ]
+                            },
+                            {
+                                "name": "Death Guard",
+                                "chest_unopened_img": "images/enemies/death_guard.png",
+                                "chest_opened_img": "images/enemies/death_guard_bw.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "death_guard_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|82007"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-O",
+                                "shape": "diamond",
+                                "x": 229,
+                                "y": 361
+                            }
+                        ]
                     }
                 ]
             },
             {
-                "name": "Enemy Spawned From Valve",
-                "chest_unopened_img": "images/enemies/sentinel_oblivion.png",
-                "chest_opened_img": "images/enemies/sentinel_oblivion_bw.png",
-                "sections": [
-                    {
-                        "name": "Sentinel",
-                        "item_count": 2,
-                        "access_rules": [
-                            "flesh_sentinel_soul"
-                        ],
-                        "visibility_rules": [
-                            "$id_exists|82009|82010"
-                        ]
-                    }
+                "name": "Second Half",
+                "access_rules": [
+                    "lord_of_the_flesh_soul,death_guard_soul"
                 ],
-                "map_locations": [
+                "children": [
                     {
-                        "map": "5-O",
-                        "shape": "diamond",
-                        "x": 150,
-                        "y": 205
-                    }
-                ]
-            },
-            {
-                "name": "Enemy in First Right Room",
-                "sections": [
-                    {
-                        "name": "Death Guard",
-                        "chest_unopened_img": "images/enemies/death_guard.png",
-                        "chest_opened_img": "images/enemies/death_guard_bw.png",
-                        "item_count": 2,
-                        "access_rules": [
-                            "death_guard_soul"
+                        "name": "Exit",
+                        "chest_unopened_img": "images/items/weapons/nuke_parts.png",
+                        "chest_opened_img": "images/items/weapons/nuke_parts_bw.png",
+                        "sections": [
+                            {
+                                "name": "Nuke Part",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|82000"
+                                ]
+                            }
                         ],
-                        "visibility_rules": [
-                            "$id_exists|82011|82012"
+                        "map_locations": [
+                            {
+                                "map": "5-O",
+                                "x": 119,
+                                "y": 591
+                            }
                         ]
                     },
                     {
-                        "name": "Lord of the Flesh",
+                        "name": "Left",
+                        "chest_unopened_img": "images/interactables/valve.png",
+                        "chest_opened_img": "images/interactables/valve_bw.png",
+                        "sections": [
+                            {
+                                "name": "Valve",
+                                "item_count": 1,
+                                "visibility_rules": [
+                                    "$id_exists|82001"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-O",
+                                "x": 231,
+                                "y": 570
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Valve",
                         "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
                         "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
-                        "item_count": 1,
-                        "access_rules": [
-                            "lord_of_the_flesh_soul"
+                        "sections": [
+                            {
+                                "name": "Lord of the Flesh",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "lord_of_the_flesh_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|82008"
+                                ]
+                            }
                         ],
-                        "visibility_rules": [
-                            "$id_exists|82013"
+                        "map_locations": [
+                            {
+                                "map": "5-O",
+                                "shape": "diamond",
+                                "x": 265,
+                                "y": 509
+                            }
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "5-O",
-                        "shape": "diamond",
-                        "x": 69,
-                        "y": 361
-                    }
-                ]
-            },
-            {
-                "name": "Enemy by Exit",
-                "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
-                "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
-                "sections": [
-                    {
-                        "name": "Lord of the Flesh",
-                        "item_count": 3,
-                        "access_rules": [
-                            "lord_of_the_flesh_soul"
+                        "name": "Enemy Spawned From Valve",
+                        "chest_unopened_img": "images/enemies/sentinel_oblivion.png",
+                        "chest_opened_img": "images/enemies/sentinel_oblivion_bw.png",
+                        "sections": [
+                            {
+                                "name": "Sentinel",
+                                "item_count": 2,
+                                "access_rules": [
+                                    "flesh_sentinel_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|82009|82010"
+                                ]
+                            }
                         ],
-                        "visibility_rules": [
-                            "$id_exists|82014|82015|82016"
+                        "map_locations": [
+                            {
+                                "map": "5-O",
+                                "shape": "diamond",
+                                "x": 150,
+                                "y": 205
+                            }
                         ]
-                    }
-                ],
-                "map_locations": [
+                    },
                     {
-                        "map": "5-O",
-                        "shape": "diamond",
-                        "x": 139,
-                        "y": 531
+                        "name": "Enemy in First Right Room",
+                        "sections": [
+                            {
+                                "name": "Death Guard",
+                                "chest_unopened_img": "images/enemies/death_guard.png",
+                                "chest_opened_img": "images/enemies/death_guard_bw.png",
+                                "item_count": 2,
+                                "access_rules": [
+                                    "death_guard_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|82011|82012"
+                                ]
+                            },
+                            {
+                                "name": "Lord of the Flesh",
+                                "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
+                                "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "lord_of_the_flesh_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|82013"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-O",
+                                "shape": "diamond",
+                                "x": 69,
+                                "y": 361
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy by Exit",
+                        "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
+                        "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
+                        "sections": [
+                            {
+                                "name": "Lord of the Flesh",
+                                "item_count": 3,
+                                "access_rules": [
+                                    "lord_of_the_flesh_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|82014|82015|82016"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "5-O",
+                                "shape": "diamond",
+                                "x": 139,
+                                "y": 531
+                            }
+                        ]
                     }
                 ]
             }

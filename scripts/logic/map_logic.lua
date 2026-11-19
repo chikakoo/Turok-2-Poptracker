@@ -482,27 +482,27 @@ function map_5_7_access()
 end
 
 function map_5_8_access()
-    return has("drone_soul") and map_access(5, 7, "mid")
+    return has("drone_soul") and has("soldier_soul") and map_access(5, 7, "mid")
 end
 
 function map_5_e1_access()
-    return has("drone_soul") and map_access(5, 8, "mid")
+    return has("drone_soul") and has("soldier_soul") and map_access(5, 8, "mid")
 end
 
 function map_5_9_access()
-    return has("drone_soul") and map_access(5, 9, "mid")
+    return has("drone_soul") and has("soldier_soul") and map_access(5, 9, "mid")
 end
 
 function map_5_e2_access()
-    return has("drone_soul") and map_access(5, 10, "mid")
+    return has("drone_soul") and has("soldier_soul") and map_access(5, 10, "mid")
 end
 
 function map_5_e3_access()
-    return has("drone_soul") and map_access(5, 10, "mid")
+    return has("drone_soul") and has("soldier_soul") and map_access(5, 10, "mid")
 end
 
 function map_5_10_access()
-    if not has("drone_soul") or not map_access(5, 10, "mid") then
+    if not has("drone_soul") or not has("soldier_soul") or not map_access(5, 10, "mid") then
         return AccessibilityLevel.None
     end
 
@@ -510,7 +510,7 @@ function map_5_10_access()
 end
 
 function map_5_mc_access()
-    return has("drone_soul") and map_access(5, 10, "mid")
+    return has("drone_soul") and has("soldier_soul") and map_access(5, 10, "mid")
 end
 
 -- Level 6
