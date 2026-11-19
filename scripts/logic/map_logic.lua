@@ -514,3 +514,63 @@ function map_5_mc_access()
 end
 
 -- Level 6
+function map_6_hub_access()
+    return map_access(6)
+end
+
+function map_6_1_access()
+    return map_access(6, 1)
+end
+
+function map_6_hub_w2_access()
+    return map_access(6, 2, "start")
+end
+
+function map_6_2a_access()
+    return map_access(6, 3, "start")
+end
+
+function map_6_2b_access()
+    return map_access(6, 4, "start")
+end
+
+function map_6_hub_w3_access()
+    return map_access(6, 5, "start")
+end
+
+function map_6_3a_access()
+    return map_access(6, 6, "mid")
+end
+
+function map_6_3b_access()
+    return map_access(6, 7, "mid")
+end
+
+function map_6_hub_w4_access()
+    return map_access(6, 8, "mid")
+end
+
+function map_6_4a_access()
+    return map_access(6, 9, "mid")
+end
+
+function map_6_4b_access()
+    return map_access(6, 10, "mid")
+end
+
+function map_6_4c_access()
+    return map_access(6, 11, "mid")
+end
+
+function map_6_4d_access()
+    return map_access(6, 12, "mid")
+end
+
+function map_6_O_access()
+    return has_mission_items("blue_laser_cell", 2) and map_access(6, 12, "mid")
+end
+
+function map_6_hub_end_access()
+    return map_access(6, 13, "mid")
+end
+

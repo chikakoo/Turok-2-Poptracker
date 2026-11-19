@@ -4,7 +4,7 @@
         "chest_unopened_img": "images/items/life_forces/lf1.png",
         "chest_opened_img": "images/items/life_forces/lf1_bw.png",
         "access_rules": [
-            "$map_access|6"
+            "^$map_6_hub_access"
         ],
         "children": [
             {
@@ -485,7 +485,7 @@
             {
                 "name": "Wing 2",
                 "access_rules": [
-                    "$map_access|6|2|start"
+                    "^$map_6_hub_w2_access"
                 ],
                 "children": [
                     {
@@ -678,7 +678,7 @@
             {
                 "name": "Wing 3",
                 "access_rules": [
-                    "$map_access|6|5|start"
+                    "^$map_6_hub_w3_access"
                 ],
                 "children": [
                     {
@@ -905,7 +905,7 @@
             {
                 "name": "Wing 4",
                 "access_rules": [
-                    "$map_access|6|8|mid"
+                    "^$map_6_hub_w4_access"
                 ],
                 "children": [
                     {
@@ -1079,7 +1079,7 @@
             {
                 "name": "End",
                 "access_rules": [
-                    "$map_access|6|13|mid"
+                    "^$map_6_hub_end_access"
                 ],
                 "children": [
                     {
