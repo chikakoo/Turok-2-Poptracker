@@ -697,6 +697,9 @@
                     },
                     {
                         "name": "Place One Capacitor Left Wall",
+                        "access_rules": [
+                            "trooper_soul"
+                        ],
                         "sections": [
                             {
                                 "name": "LF10",
@@ -727,6 +730,9 @@
                     },
                     {
                         "name": "Place One Capacitor Right Wall",
+                        "access_rules": [
+                            "trooper_soul,bio_bot_soul"
+                        ],
                         "sections": [
                             {
                                 "name": "LF10",
@@ -789,7 +795,7 @@
                                 "name": "Bio-Bot After Placing One Capacitor",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "bio_bot_soul"
+                                    "bio_bot_soul,trooper_soul"
                                 ],
                                 "visibility_rules": [
                                     "$id_exists|117055"
@@ -814,7 +820,7 @@
                                 "name": "Bio-Bot After Placing One Capacitor",
                                 "item_count": 1,
                                 "access_rules": [
-                                    "bio_bot_soul"
+                                    "bio_bot_soul,trooper_soul"
                                 ],
                                 "visibility_rules": [
                                     "$id_exists|117056"

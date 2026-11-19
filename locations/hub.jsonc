@@ -8340,14 +8340,6 @@
         "name": "5-O",
         "sections": [
           {
-            "ref": "5-O/Exit/Nuke Part",
-            "name": "[Nuke Part] Exit"
-          },
-          {
-            "ref": "5-O/Left/Valve",
-            "name": "[Valve] Left"
-          },
-          {
             "ref": "5-O/Enemy at Start/Death Guard",
             "name": "[Death Guard] Enemy at Start"
           },
@@ -8356,32 +8348,40 @@
             "name": "[Lord of the Flesh] Enemy on Catwalks"
           },
           {
-            "ref": "5-O/Enemy in First Left Room/Sentinel",
-            "name": "[Sentinel] Enemy in First Left Room"
+            "ref": "5-O/Left Room/Enemy in First Left Room/Sentinel",
+            "name": "[Sentinel] Left Room/Enemy in First Left Room"
           },
           {
-            "ref": "5-O/Enemy in First Left Room/Death Guard",
-            "name": "[Death Guard] Enemy in First Left Room"
+            "ref": "5-O/Left Room/Enemy in First Left Room/Death Guard",
+            "name": "[Death Guard] Left Room/Enemy in First Left Room"
           },
           {
-            "ref": "5-O/Enemy by Valve/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy by Valve"
+            "ref": "5-O/Second Half/Exit/Nuke Part",
+            "name": "[Nuke Part] Second Half/Exit"
           },
           {
-            "ref": "5-O/Enemy Spawned From Valve/Sentinel",
-            "name": "[Sentinel] Enemy Spawned From Valve"
+            "ref": "5-O/Second Half/Left/Valve",
+            "name": "[Valve] Second Half/Left"
           },
           {
-            "ref": "5-O/Enemy in First Right Room/Death Guard",
-            "name": "[Death Guard] Enemy in First Right Room"
+            "ref": "5-O/Second Half/Enemy by Valve/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Second Half/Enemy by Valve"
           },
           {
-            "ref": "5-O/Enemy in First Right Room/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy in First Right Room"
+            "ref": "5-O/Second Half/Enemy Spawned From Valve/Sentinel",
+            "name": "[Sentinel] Second Half/Enemy Spawned From Valve"
           },
           {
-            "ref": "5-O/Enemy by Exit/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy by Exit"
+            "ref": "5-O/Second Half/Enemy in First Right Room/Death Guard",
+            "name": "[Death Guard] Second Half/Enemy in First Right Room"
+          },
+          {
+            "ref": "5-O/Second Half/Enemy in First Right Room/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Second Half/Enemy in First Right Room"
+          },
+          {
+            "ref": "5-O/Second Half/Enemy by Exit/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Second Half/Enemy by Exit"
           }
         ],
         "map_locations": [
@@ -8728,98 +8728,6 @@
             "name": "[Box of Bullets] Right Water Room"
           },
           {
-            "ref": "5-7/In Left Wall/Mine",
-            "name": "[Mine] In Left Wall"
-          },
-          {
-            "ref": "5-7/In Right Wall/Mine",
-            "name": "[Mine] In Right Wall"
-          },
-          {
-            "ref": "5-7/Front Left Water Room/Blue Health",
-            "name": "[Blue Health] Front Left Water Room"
-          },
-          {
-            "ref": "5-7/Front Left Water Room/Firestorm Cannon",
-            "name": "[Firestorm Cannon] Front Left Water Room"
-          },
-          {
-            "ref": "5-7/Front Right Water Room/Blue Health",
-            "name": "[Blue Health] Front Right Water Room"
-          },
-          {
-            "ref": "5-7/Front Right Water Room/P.F.M. Layer",
-            "name": "[P.F.M. Layer] Front Right Water Room"
-          },
-          {
-            "ref": "5-7/Left of Checkpoint/Box of Bullets",
-            "name": "[Box of Bullets] Left of Checkpoint"
-          },
-          {
-            "ref": "5-7/Right of Checkpoint/Box of Grenades",
-            "name": "[Box of Grenades] Right of Checkpoint"
-          },
-          {
-            "ref": "5-7/Front Left Platform/LF10",
-            "name": "[LF10] Front Left Platform"
-          },
-          {
-            "ref": "5-7/Back Left Platform/LF10",
-            "name": "[LF10] Back Left Platform"
-          },
-          {
-            "ref": "5-7/Back Right Platform/LF10",
-            "name": "[LF10] Back Right Platform"
-          },
-          {
-            "ref": "5-7/Front Right Platform/LF10",
-            "name": "[LF10] Front Right Platform"
-          },
-          {
-            "ref": "5-7/Underwater Room/Blue Health",
-            "name": "[Blue Health] Underwater Room"
-          },
-          {
-            "ref": "5-7/Underwater Room/Force Field Generator",
-            "name": "[Force Field Generator] Underwater Room"
-          },
-          {
-            "ref": "5-7/In Center Room Wall/Bores",
-            "name": "[Bores] In Center Room Wall"
-          },
-          {
-            "ref": "5-7/In Wall/Box of Bullets",
-            "name": "[Box of Bullets] In Wall"
-          },
-          {
-            "ref": "5-7/Before Elevator/Blue Health",
-            "name": "[Blue Health] Before Elevator"
-          },
-          {
-            "ref": "5-7/After Main Generator/Blue Health",
-            "name": "[Blue Health] After Main Generator"
-          },
-          {
-            "ref": "5-7/After Main Generator/Scorpion Launcher",
-            "name": "[Scorpion Launcher] After Main Generator"
-          },
-          {
-            "ref": "5-7/Level Key Room/Level Key",
-            "name": "[Level Key] Level Key Room"
-          },
-          {
-            "ref": "5-7/By Exit Portal/Silver Health",
-            "name": "[Silver Health] By Exit Portal"
-          },
-          {
-            "ref": "5-7/Before Checkpoint/Switch",
-            "name": "[Switch] Before Checkpoint"
-          },
-          {
-            "ref": "5-7/Main Generator Room/Destroy Generator",
-            "name": "[Destroy Generator] Main Generator Room"
-          },
-          {
             "ref": "5-7/Enemy in Starting Hall Left/Drone",
             "name": "[Drone] Enemy in Starting Hall Left"
           },
@@ -8848,100 +8756,192 @@
             "name": "[Soldier] Enemy in Right Water Room"
           },
           {
-            "ref": "5-7/Enemy in Hall/Worker",
-            "name": "[Worker] Enemy in Hall"
+            "ref": "5-7/After Water 1/In Left Wall/Mine",
+            "name": "[Mine] After Water 1/In Left Wall"
           },
           {
-            "ref": "5-7/Enemy in Front Left Room/Mite",
-            "name": "[Mite] Enemy in Front Left Room"
+            "ref": "5-7/After Water 1/In Right Wall/Mine",
+            "name": "[Mine] After Water 1/In Right Wall"
           },
           {
-            "ref": "5-7/Enemy in Front Right Room/Mite",
-            "name": "[Mite] Enemy in Front Right Room"
+            "ref": "5-7/After Water 1/Front Left Water Room/Blue Health",
+            "name": "[Blue Health] After Water 1/Front Left Water Room"
           },
           {
-            "ref": "5-7/Enemy on Upper Ledge/Drone",
-            "name": "[Drone] Enemy on Upper Ledge"
+            "ref": "5-7/After Water 1/Front Left Water Room/Firestorm Cannon",
+            "name": "[Firestorm Cannon] After Water 1/Front Left Water Room"
           },
           {
-            "ref": "5-7/Enemy by Checkpoint/Drone",
-            "name": "[Drone] Enemy by Checkpoint"
+            "ref": "5-7/After Water 1/Front Right Water Room/Blue Health",
+            "name": "[Blue Health] After Water 1/Front Right Water Room"
           },
           {
-            "ref": "5-7/Enemy on Front Left Platform/Soldier",
-            "name": "[Soldier] Enemy on Front Left Platform"
+            "ref": "5-7/After Water 1/Front Right Water Room/P.F.M. Layer",
+            "name": "[P.F.M. Layer] After Water 1/Front Right Water Room"
           },
           {
-            "ref": "5-7/Enemy on Front Right Platform/Soldier",
-            "name": "[Soldier] Enemy on Front Right Platform"
+            "ref": "5-7/After Water 1/Left of Checkpoint/Box of Bullets",
+            "name": "[Box of Bullets] After Water 1/Left of Checkpoint"
           },
           {
-            "ref": "5-7/Enemy on Back Left Platform/Soldier",
-            "name": "[Soldier] Enemy on Back Left Platform"
+            "ref": "5-7/After Water 1/Right of Checkpoint/Box of Grenades",
+            "name": "[Box of Grenades] After Water 1/Right of Checkpoint"
           },
           {
-            "ref": "5-7/Enemy on Back Right Platform/Soldier",
-            "name": "[Soldier] Enemy on Back Right Platform"
+            "ref": "5-7/After Water 1/Front Left Platform/LF10",
+            "name": "[LF10] After Water 1/Front Left Platform"
           },
           {
-            "ref": "5-7/Enemy in Underwater Room/Soldier",
-            "name": "[Soldier] Enemy in Underwater Room"
+            "ref": "5-7/After Water 1/Back Left Platform/LF10",
+            "name": "[LF10] After Water 1/Back Left Platform"
           },
           {
-            "ref": "5-7/Enemy in Center Room Front/Drone",
-            "name": "[Drone] Enemy in Center Room Front"
+            "ref": "5-7/After Water 1/Back Right Platform/LF10",
+            "name": "[LF10] After Water 1/Back Right Platform"
           },
           {
-            "ref": "5-7/Enemy in Center Room Side/Drone",
-            "name": "[Drone] Enemy in Center Room Side"
+            "ref": "5-7/After Water 1/Front Right Platform/LF10",
+            "name": "[LF10] After Water 1/Front Right Platform"
           },
           {
-            "ref": "5-7/Enemy in Wall/Drone",
-            "name": "[Drone] Enemy in Wall"
+            "ref": "5-7/After Water 1/Underwater Room/Blue Health",
+            "name": "[Blue Health] After Water 1/Underwater Room"
           },
           {
-            "ref": "5-7/Enemy by Elevator/Drone",
-            "name": "[Drone] Enemy by Elevator"
+            "ref": "5-7/After Water 1/Underwater Room/Force Field Generator",
+            "name": "[Force Field Generator] After Water 1/Underwater Room"
           },
           {
-            "ref": "5-7/Enemy After Elevator/Drone",
-            "name": "[Drone] Enemy After Elevator"
+            "ref": "5-7/After Water 1/In Center Room Wall/Bores",
+            "name": "[Bores] After Water 1/In Center Room Wall"
           },
           {
-            "ref": "5-7/Enemy After Elevator/Mite in Egg",
-            "name": "[Mite in Egg] Enemy After Elevator"
+            "ref": "5-7/After Water 1/In Wall/Box of Bullets",
+            "name": "[Box of Bullets] After Water 1/In Wall"
           },
           {
-            "ref": "5-7/Enemy Above Main Generator/Worker",
-            "name": "[Worker] Enemy Above Main Generator"
+            "ref": "5-7/After Water 1/Before Elevator/Blue Health",
+            "name": "[Blue Health] After Water 1/Before Elevator"
           },
           {
-            "ref": "5-7/Enemy Above Main Generator/Drone",
-            "name": "[Drone] Enemy Above Main Generator"
+            "ref": "5-7/After Water 1/After Main Generator/Blue Health",
+            "name": "[Blue Health] After Water 1/After Main Generator"
           },
           {
-            "ref": "5-7/Enemy Spawned From Generator/Drone",
-            "name": "[Drone] Enemy Spawned From Generator"
+            "ref": "5-7/After Water 1/After Main Generator/Scorpion Launcher",
+            "name": "[Scorpion Launcher] After Water 1/After Main Generator"
           },
           {
-            "ref": "5-7/Enemy in Corner/Soldier",
-            "name": "[Soldier] Enemy in Corner"
+            "ref": "5-7/After Water 1/Level Key Room/Level Key",
+            "name": "[Level Key] After Water 1/Level Key Room"
           },
           {
-            "ref": "5-7/Enemy Spawned by Door/Drone",
-            "name": "[Drone] Enemy Spawned by Door"
+            "ref": "5-7/After Water 1/By Exit Portal/Silver Health",
+            "name": "[Silver Health] After Water 1/By Exit Portal"
           },
           {
-            "ref": "5-7/Enemy in Exit Tunnel/Worker",
-            "name": "[Worker] Enemy in Exit Tunnel"
+            "ref": "5-7/After Water 1/Before Checkpoint/Switch",
+            "name": "[Switch] After Water 1/Before Checkpoint"
           },
           {
-            "ref": "5-7/Enemy by Exit Portal/Drone",
-            "name": "[Drone] Enemy by Exit Portal"
+            "ref": "5-7/After Water 1/Main Generator Room/Destroy Generator",
+            "name": "[Destroy Generator] After Water 1/Main Generator Room"
           },
           {
-            "ref": "5-7/Enemy Spawned From Level Key/Worker",
-            "name": "[Worker] Enemy Spawned From Level Key"
+            "ref": "5-7/After Water 1/Enemy in Hall/Worker",
+            "name": "[Worker] After Water 1/Enemy in Hall"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy in Front Left Room/Mite",
+            "name": "[Mite] After Water 1/Enemy in Front Left Room"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy in Front Right Room/Mite",
+            "name": "[Mite] After Water 1/Enemy in Front Right Room"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy on Upper Ledge/Drone",
+            "name": "[Drone] After Water 1/Enemy on Upper Ledge"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy by Checkpoint/Drone",
+            "name": "[Drone] After Water 1/Enemy by Checkpoint"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy on Front Left Platform/Soldier",
+            "name": "[Soldier] After Water 1/Enemy on Front Left Platform"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy on Front Right Platform/Soldier",
+            "name": "[Soldier] After Water 1/Enemy on Front Right Platform"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy on Back Left Platform/Soldier",
+            "name": "[Soldier] After Water 1/Enemy on Back Left Platform"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy on Back Right Platform/Soldier",
+            "name": "[Soldier] After Water 1/Enemy on Back Right Platform"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy in Underwater Room/Soldier",
+            "name": "[Soldier] After Water 1/Enemy in Underwater Room"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy in Center Room Front/Drone",
+            "name": "[Drone] After Water 1/Enemy in Center Room Front"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy in Center Room Side/Drone",
+            "name": "[Drone] After Water 1/Enemy in Center Room Side"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy in Wall/Drone",
+            "name": "[Drone] After Water 1/Enemy in Wall"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy by Elevator/Drone",
+            "name": "[Drone] After Water 1/Enemy by Elevator"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy After Elevator/Drone",
+            "name": "[Drone] After Water 1/Enemy After Elevator"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy After Elevator/Mite in Egg",
+            "name": "[Mite in Egg] After Water 1/Enemy After Elevator"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy Above Main Generator/Worker",
+            "name": "[Worker] After Water 1/Enemy Above Main Generator"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy Above Main Generator/Drone",
+            "name": "[Drone] After Water 1/Enemy Above Main Generator"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy Spawned From Generator/Drone",
+            "name": "[Drone] After Water 1/Enemy Spawned From Generator"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy in Corner/Soldier",
+            "name": "[Soldier] After Water 1/Enemy in Corner"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy Spawned by Door/Drone",
+            "name": "[Drone] After Water 1/Enemy Spawned by Door"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy in Exit Tunnel/Worker",
+            "name": "[Worker] After Water 1/Enemy in Exit Tunnel"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy by Exit Portal/Drone",
+            "name": "[Drone] After Water 1/Enemy by Exit Portal"
+          },
+          {
+            "ref": "5-7/After Water 1/Enemy Spawned From Level Key/Worker",
+            "name": "[Worker] After Water 1/Enemy Spawned From Level Key"
           }
         ],
         "map_locations": [
@@ -9004,38 +9004,6 @@
             "name": "[Scorpion Launcher] Water Path End"
           },
           {
-            "ref": "5-8/Water Path Left/Blue Health",
-            "name": "[Blue Health] Water Path Left"
-          },
-          {
-            "ref": "5-8/Water Path Left in Left Wall/Flame Thrower Tank",
-            "name": "[Flame Thrower Tank] Water Path Left in Left Wall"
-          },
-          {
-            "ref": "5-8/Water Path Left in Back Wall/Box of Grenades",
-            "name": "[Box of Grenades] Water Path Left in Back Wall"
-          },
-          {
-            "ref": "5-8/Water Path Left in Right Wall/Plasma Pak",
-            "name": "[Plasma Pak] Water Path Left in Right Wall"
-          },
-          {
-            "ref": "5-8/Water Path Right/Blue Health",
-            "name": "[Blue Health] Water Path Right"
-          },
-          {
-            "ref": "5-8/Water Path Right in Left Wall/Box of Shells",
-            "name": "[Box of Shells] Water Path Right in Left Wall"
-          },
-          {
-            "ref": "5-8/Water Path Right in Back Wall/Box of Bullets",
-            "name": "[Box of Bullets] Water Path Right in Back Wall"
-          },
-          {
-            "ref": "5-8/Water Path Right in Right Wall/Charge Dart Pak",
-            "name": "[Charge Dart Pak] Water Path Right in Right Wall"
-          },
-          {
             "ref": "5-8/Catwalks Start/Grenade",
             "name": "[Grenade] Catwalks Start"
           },
@@ -9086,6 +9054,38 @@
           {
             "ref": "5-8/Enemy in Exit Hall Egg/Mite",
             "name": "[Mite] Enemy in Exit Hall Egg"
+          },
+          {
+            "ref": "5-8/Water Secret Rooms/Water Path Left/Blue Health",
+            "name": "[Blue Health] Water Secret Rooms/Water Path Left"
+          },
+          {
+            "ref": "5-8/Water Secret Rooms/Water Path Left in Left Wall/Flame Thrower Tank",
+            "name": "[Flame Thrower Tank] Water Secret Rooms/Water Path Left in Left Wall"
+          },
+          {
+            "ref": "5-8/Water Secret Rooms/Water Path Left in Back Wall/Box of Grenades",
+            "name": "[Box of Grenades] Water Secret Rooms/Water Path Left in Back Wall"
+          },
+          {
+            "ref": "5-8/Water Secret Rooms/Water Path Left in Right Wall/Plasma Pak",
+            "name": "[Plasma Pak] Water Secret Rooms/Water Path Left in Right Wall"
+          },
+          {
+            "ref": "5-8/Water Secret Rooms/Water Path Right/Blue Health",
+            "name": "[Blue Health] Water Secret Rooms/Water Path Right"
+          },
+          {
+            "ref": "5-8/Water Secret Rooms/Water Path Right in Left Wall/Box of Shells",
+            "name": "[Box of Shells] Water Secret Rooms/Water Path Right in Left Wall"
+          },
+          {
+            "ref": "5-8/Water Secret Rooms/Water Path Right in Back Wall/Box of Bullets",
+            "name": "[Box of Bullets] Water Secret Rooms/Water Path Right in Back Wall"
+          },
+          {
+            "ref": "5-8/Water Secret Rooms/Water Path Right in Right Wall/Charge Dart Pak",
+            "name": "[Charge Dart Pak] Water Secret Rooms/Water Path Right in Right Wall"
           }
         ],
         "map_locations": [
@@ -11804,34 +11804,6 @@
         "name": "6-O",
         "sections": [
           {
-            "ref": "6-O/At End/Nuke Part",
-            "name": "[Nuke Part] At End"
-          },
-          {
-            "ref": "6-O/Start Left/Valve",
-            "name": "[Valve] Start Left"
-          },
-          {
-            "ref": "6-O/Start Right/Valve",
-            "name": "[Valve] Start Right"
-          },
-          {
-            "ref": "6-O/Up Left Elevator/Valve",
-            "name": "[Valve] Up Left Elevator"
-          },
-          {
-            "ref": "6-O/Up Right Elevator/Valve",
-            "name": "[Valve] Up Right Elevator"
-          },
-          {
-            "ref": "6-O/Left Room/Valve",
-            "name": "[Valve] Left Room"
-          },
-          {
-            "ref": "6-O/Right Room/Valve",
-            "name": "[Valve] Right Room"
-          },
-          {
             "ref": "6-O/Enemy at Start/Sentinel",
             "name": "[Sentinel] Enemy at Start"
           },
@@ -11840,88 +11812,116 @@
             "name": "[Death Guard] Enemy at Start"
           },
           {
-            "ref": "6-O/Enemy at Start Left Room/Sentinel",
-            "name": "[Sentinel] Enemy at Start Left Room"
+            "ref": "6-O/Elevators/Start Left/Valve",
+            "name": "[Valve] Elevators/Start Left"
           },
           {
-            "ref": "6-O/Enemy at Start Left Room/Death Guard",
-            "name": "[Death Guard] Enemy at Start Left Room"
+            "ref": "6-O/Elevators/Start Right/Valve",
+            "name": "[Valve] Elevators/Start Right"
           },
           {
-            "ref": "6-O/Enemy at Start Right Room/Sentinel",
-            "name": "[Sentinel] Enemy at Start Right Room"
+            "ref": "6-O/Elevators/Up Left Elevator/Valve",
+            "name": "[Valve] Elevators/Up Left Elevator"
           },
           {
-            "ref": "6-O/Enemy at Start Right Room/Death Guard",
-            "name": "[Death Guard] Enemy at Start Right Room"
+            "ref": "6-O/Elevators/Up Right Elevator/Valve",
+            "name": "[Valve] Elevators/Up Right Elevator"
           },
           {
-            "ref": "6-O/Enemy in Entrance Hall/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy in Entrance Hall"
+            "ref": "6-O/Elevators/Left Room/Valve",
+            "name": "[Valve] Elevators/Left Room"
           },
           {
-            "ref": "6-O/Enemy on Ground/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy on Ground"
+            "ref": "6-O/Elevators/Right Room/Valve",
+            "name": "[Valve] Elevators/Right Room"
           },
           {
-            "ref": "6-O/Enemy up Left Elevator/Death Guard",
-            "name": "[Death Guard] Enemy up Left Elevator"
+            "ref": "6-O/Elevators/Enemy at Start Left Room/Sentinel",
+            "name": "[Sentinel] Elevators/Enemy at Start Left Room"
           },
           {
-            "ref": "6-O/Enemy up Right Elevator/Death Guard",
-            "name": "[Death Guard] Enemy up Right Elevator"
+            "ref": "6-O/Elevators/Enemy at Start Left Room/Death Guard",
+            "name": "[Death Guard] Elevators/Enemy at Start Left Room"
           },
           {
-            "ref": "6-O/Enemy in Left Hall/Death Guard",
-            "name": "[Death Guard] Enemy in Left Hall"
+            "ref": "6-O/Elevators/Enemy at Start Right Room/Sentinel",
+            "name": "[Sentinel] Elevators/Enemy at Start Right Room"
           },
           {
-            "ref": "6-O/Enemy in Left Hall/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy in Left Hall"
+            "ref": "6-O/Elevators/Enemy at Start Right Room/Death Guard",
+            "name": "[Death Guard] Elevators/Enemy at Start Right Room"
           },
           {
-            "ref": "6-O/Enemy in Left Room/Sentinel",
-            "name": "[Sentinel] Enemy in Left Room"
+            "ref": "6-O/Elevators/Enemy in Entrance Hall/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Elevators/Enemy in Entrance Hall"
           },
           {
-            "ref": "6-O/Enemy in Left Room/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy in Left Room"
+            "ref": "6-O/Elevators/Enemy on Ground/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Elevators/Enemy on Ground"
           },
           {
-            "ref": "6-O/Enemy in Right Hall/Death Guard",
-            "name": "[Death Guard] Enemy in Right Hall"
+            "ref": "6-O/Elevators/Enemy up Left Elevator/Death Guard",
+            "name": "[Death Guard] Elevators/Enemy up Left Elevator"
           },
           {
-            "ref": "6-O/Enemy in Right Hall/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy in Right Hall"
+            "ref": "6-O/Elevators/Enemy up Right Elevator/Death Guard",
+            "name": "[Death Guard] Elevators/Enemy up Right Elevator"
           },
           {
-            "ref": "6-O/Enemy in Right Room/Sentinel",
-            "name": "[Sentinel] Enemy in Right Room"
+            "ref": "6-O/Elevators/Enemy in Right Hall/Death Guard",
+            "name": "[Death Guard] Elevators/Enemy in Right Hall"
           },
           {
-            "ref": "6-O/Enemy in Right Room/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy in Right Room"
+            "ref": "6-O/Elevators/Enemy in Right Hall/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Elevators/Enemy in Right Hall"
           },
           {
-            "ref": "6-O/Enemy After Valves/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy After Valves"
+            "ref": "6-O/Elevators/Enemy in Left Hall/Death Guard",
+            "name": "[Death Guard] Elevators/Enemy in Left Hall"
           },
           {
-            "ref": "6-O/Enemy by Exit/Sentinel",
-            "name": "[Sentinel] Enemy by Exit"
+            "ref": "6-O/Elevators/Enemy in Left Hall/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Elevators/Enemy in Left Hall"
           },
           {
-            "ref": "6-O/Enemy by Exit/Death Guard",
-            "name": "[Death Guard] Enemy by Exit"
+            "ref": "6-O/Elevators/Enemy After Valves/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Elevators/Enemy After Valves"
           },
           {
-            "ref": "6-O/Enemy by Exit/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy by Exit"
+            "ref": "6-O/Elevators/Enemy by Exit/Sentinel",
+            "name": "[Sentinel] Elevators/Enemy by Exit"
           },
           {
-            "ref": "6-O/Enemy at Exit/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Enemy at Exit"
+            "ref": "6-O/Elevators/Enemy by Exit/Death Guard",
+            "name": "[Death Guard] Elevators/Enemy by Exit"
+          },
+          {
+            "ref": "6-O/Elevators/Enemy by Exit/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Elevators/Enemy by Exit"
+          },
+          {
+            "ref": "6-O/Elevators/Enemy at Exit/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Elevators/Enemy at Exit"
+          },
+          {
+            "ref": "6-O/Exit/At End/Nuke Part",
+            "name": "[Nuke Part] Exit/At End"
+          },
+          {
+            "ref": "6-O/Exit/Enemy in Left Room/Sentinel",
+            "name": "[Sentinel] Exit/Enemy in Left Room"
+          },
+          {
+            "ref": "6-O/Exit/Enemy in Left Room/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Exit/Enemy in Left Room"
+          },
+          {
+            "ref": "6-O/Exit/Enemy in Right Room/Sentinel",
+            "name": "[Sentinel] Exit/Enemy in Right Room"
+          },
+          {
+            "ref": "6-O/Exit/Enemy in Right Room/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Exit/Enemy in Right Room"
           }
         ],
         "map_locations": [
