@@ -125,6 +125,10 @@ function map_3_3_access()
     return map_access(3, 2, "start")
 end
 
+function map_3_O_access()
+    return map_access(3, 2, "start")
+end
+
 function map_3_4a_access()
     return map_access(3, 3, "mid")
 end

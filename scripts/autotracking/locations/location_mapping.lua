@@ -1,3 +1,4 @@
+require("scripts.autotracking.locations.level_0")
 require("scripts.autotracking.locations.level_1")
 require("scripts.autotracking.locations.level_2")
 require("scripts.autotracking.locations.level_3")
@@ -6,6 +7,9 @@ require("scripts.autotracking.locations.level_5")
 require("scripts.autotracking.locations.level_6")
 
 LOCATION_MAPPING = concat_tables(
+	-- Not level specific
+	LOCATIONS_0,
+
 	-- Level 1
 	LOCATIONS_1_1,
 	LOCATIONS_1_2a,

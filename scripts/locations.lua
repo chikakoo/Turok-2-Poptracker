@@ -1,5 +1,5 @@
 Tracker:AddLocations("locations/hub.jsonc")
-Tracker:AddLocations("locations/goal.jsonc")
+Tracker:AddLocations("locations/hub_enemies_and_goal.jsonc")
 
 Tracker:AddLocations("locations/level_1/1-1.jsonc")
 Tracker:AddLocations("locations/level_1/1-2a.jsonc")
