@@ -380,41 +380,30 @@ function can_finish_game()
     completable_levels = 0
     level_4_out_of_logic = false -- Cave door keys can make this not guaranteed
 
-    if has_mission_items("power_cell", 3) and map_access(1, 9, "end") then
+    if level_1_complete() then
         completable_levels = completable_levels + 1
     end
 
-    if has_mission_items("gate_key", 2) and 
-        has_mission_items("graveyard_key", 2) and
-        map_access(2, 11, "end") then
+    if level_2_complete() then
         completable_levels = completable_levels + 1
     end
 
-    if has_mission_items("l3_satchel_charge", 3) and map_access(3, 8, "end") then
+    if level_3_complete() then
         completable_levels = completable_levels + 1
     end
 
-    if warp_requirement(4, 10) then -- The boss function covers the weapon requirement
-        boss_accessibility = can_enter_4_boss()
-        if boss_accessibility ~= AccessibilityLevel.None then
-            -- At this point it's always completable
-            -- If no torpedo launcher, or you can maybe get to the boss, it's out of logic
-            if not has_torpedo_launcher() or boss_accessibility == AccessibilityLevel.SequenceBreak then
-                level_4_out_of_logic = true
-            else
-                completable_levels = completable_levels + 1
-            end
-        end
+    level_4_complete_accessibility = level_4_complete()
+    if level_4_complete_accessibility == AccessibilityLevel.SequenceBreak then
+        level_4_out_of_logic = true
+    elseif level_4_complete_accessibility == AccessibilityLevel.Normal then
+        completable_levels = completable_levels + 1
     end
     
-    if has_mission_items("l5_satchel_charge", 4) and map_access(5, 10, "end") then
+    if level_5_complete() then
         completable_levels = completable_levels + 1
     end
 
-    if has_mission_items("ion_capacitor", 16) and
-        has_mission_items("blue_laser_cell", 2) and
-        has_mission_items("red_laser_cell", 2) and
-        map_access(6, 13, "end") then
+    if level_6_complete() then
         completable_levels = completable_levels + 1
     end
 

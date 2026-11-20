@@ -24,6 +24,31 @@
                 ]
             },
             {
+                "name": "Level 1",
+                "chest_unopened_img": "images/items/keys/level_1_key.png",
+                "chest_opened_img": "images/items/keys/level_1_key_bw.png",
+                "sections": [
+                    {
+                        "access_rules": [
+                            "^$level_1_complete"
+                        ],
+                        "name": "Complete"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hub",
+                        "x": 794,
+                        "y": 777
+                    },
+                    {
+                        "map": "1-9E",
+                        "x": 37,
+                        "y": 272
+                    }
+                ]
+            },
+            {
                 "name": "Enemies",
                 "children": [
                     {

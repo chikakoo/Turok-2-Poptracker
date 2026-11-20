@@ -43,6 +43,10 @@ function map_1_O_access()
     return has("endtrail_soul") and map_access(1, 9, "mid")
 end
 
+function level_1_complete()
+    return has_mission_items("power_cell", 3) and map_1_9_access()
+end
+
 -- Level 2
 function can_open_level_2_gate()
     return has_mission_items("gate_key", 2)
@@ -108,6 +112,10 @@ function map_2_gy3_access()
     return has("endtrail_soul") and can_open_level_2_gate() and can_exit_gy1() and map_access(2, 11, "mid")
 end
 
+function level_2_complete()
+    return has_mission_items("graveyard_key", 2) and map_2_gy3_access()
+end
+
 -- Level 3
 function map_3_1_access()
     return map_access(3)
@@ -167,6 +175,10 @@ end
 
 function map_3_a3_access()
     return has("juggernaut_soul") and map_access(3, 8, "mid")
+end
+
+function level_3_complete()
+    return has("raptor_soul") and has_mission_items("l3_satchel_charge", 3) and map_3_8_access()
 end
 
 -- Level 4
@@ -430,6 +442,21 @@ function map_4_6b_access()
     return cave_door_and_torpedo_launcher_accessibility(can_enter_cave_door_on_4_8())
 end
 
+function level_4_complete()
+    can_get_to_portal = map_4_6b_access()
+    can_get_to_boss = can_enter_4_boss()
+
+    if can_get_to_portal == AccessibilityLevel.None or can_get_to_boss == AccessibilityLevel.None then
+        return AccessibilityLevel.None
+    end
+
+    if can_get_to_portal == AccessibilityLevel.SequenceBreak or can_get_to_boss == AccessibilityLevel.SequenceBreak then
+        return AccessibilityLevel.SequenceBreak
+    end
+
+    return AccessibilityLevel.Normal
+end
+
 ---Returns whether the boss room can be entered on level 4.
 ---This assumes that the boss portal can already be reached and does not include that key/torpedo logic.
 function can_enter_4_boss()
@@ -517,6 +544,11 @@ function map_5_mc_access()
     return has("drone_soul") and has("soldier_soul") and map_access(5, 10, "mid")
 end
 
+function level_5_complete()
+    -- In the future, well need to check every embryo map too
+    return has_mission_items("l5_satchel_charge", 4) and map_5_mc_access()
+end
+
 -- Level 6
 function map_6_hub_access()
     return map_access(6)
@@ -578,3 +610,9 @@ function map_6_hub_end_access()
     return map_access(6, 13, "mid")
 end
 
+function level_6_complete()
+    return has_mission_items("ion_capacitor", 16) and
+        has_mission_items("blue_laser_cell", 2) and
+        has_mission_items("red_laser_cell", 2) and
+        map_6_hub_end_access()
+end
