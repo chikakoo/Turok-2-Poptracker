@@ -83,7 +83,7 @@ end
 function get_progressive_warps_needed(warp)
     local progressive_warp_strength = Tracker:ProviderCountForCode("progressive_warps")
     if progressive_warp_strength == 0 then
-        return true
+        return 0
     end
 
     return math.ceil(warp / progressive_warp_strength)

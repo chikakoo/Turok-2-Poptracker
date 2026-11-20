@@ -1,6 +1,12 @@
 {
     "versions": [
 		{
+			"package_version": "2.0.0",
+			"download_url": "https://github.com/chikakoo/Turok-2-Poptracker/releases/download/v1.0.1/Turok-2-Poptracker-2.0.0.zip",
+			"sha256": "",
+			"changelog": ["Added enemy soul logic", "Fixed logic for no progressive warps"]
+        },
+		{
 			"package_version": "1.0.1",
 			"download_url": "https://github.com/chikakoo/Turok-2-Poptracker/releases/download/v1.0.1/Turok-2-Poptracker-1.0.1.zip",
 			"sha256": "32b2101a4444381b68fe7aae50094aa6464feaae2bd8a5a3a3e6ec0f27cbe29d",

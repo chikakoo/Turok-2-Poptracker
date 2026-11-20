@@ -602,6 +602,31 @@
                 ]
             },
             {
+                "name": "Enemy in Cave After Switch",
+                "sections": [
+                    {
+                        "name": "Sentinel",
+                        "chest_unopened_img": "images/enemies/sentinel_blind.png",
+                        "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
+                        "item_count": 1,
+                        "access_rules": [
+                            "blind_sentinel_soul"
+                        ],
+                        "visibility_rules": [
+                            "$id_exists|101048"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "4-4",
+                        "shape": "diamond",
+                        "x": 360,
+                        "y": 281
+                    }
+                ]
+            },
+            {
                 "name": "Upper Bridges",
                 "access_rules": [
                     "blind_sentinel_soul"
@@ -641,18 +666,6 @@
                         "name": "Enemy in Cave After Switch",
                         "sections": [
                             {
-                                "name": "Sentinel",
-                                "chest_unopened_img": "images/enemies/sentinel_blind.png",
-                                "chest_opened_img": "images/enemies/sentinel_blind_bw.png",
-                                "item_count": 1,
-                                "access_rules": [
-                                    "blind_sentinel_soul"
-                                ],
-                                "visibility_rules": [
-                                    "$id_exists|101048"
-                                ]
-                            },
-                            {
                                 "name": "Nala",
                                 "chest_unopened_img": "images/enemies/nala.png",
                                 "chest_opened_img": "images/enemies/nala_bw.png",
@@ -669,8 +682,8 @@
                             {
                                 "map": "4-4",
                                 "shape": "diamond",
-                                "x": 377,
-                                "y": 279
+                                "x": 385,
+                                "y": 290
                             }
                         ]
                     },

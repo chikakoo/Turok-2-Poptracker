@@ -497,31 +497,6 @@
                                 "y": 652
                             }
                         ]
-                    },
-                    {
-                        "name": "Enemy at Exit",
-                        "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
-                        "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
-                        "sections": [
-                            {
-                                "name": "Lord of the Flesh",
-                                "item_count": 1,
-                                "access_rules": [
-                                    "lord_of_the_flesh_soul"
-                                ],
-                                "visibility_rules": [
-                                    "$id_exists|83035"
-                                ]
-                            }
-                        ],
-                        "map_locations": [
-                            {
-                                "map": "6-O",
-                                "shape": "diamond",
-                                "x": 305,
-                                "y": 700
-                            }
-                        ]
                     }
                 ]
             },
@@ -623,6 +598,31 @@
                                 "shape": "diamond",
                                 "x": 79,
                                 "y": 539
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Enemy at Exit",
+                        "chest_unopened_img": "images/enemies/lord_of_the_flesh.png",
+                        "chest_opened_img": "images/enemies/lord_of_the_flesh_bw.png",
+                        "sections": [
+                            {
+                                "name": "Lord of the Flesh",
+                                "item_count": 1,
+                                "access_rules": [
+                                    "lord_of_the_flesh_soul"
+                                ],
+                                "visibility_rules": [
+                                    "$id_exists|83035"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "6-O",
+                                "shape": "diamond",
+                                "x": 305,
+                                "y": 700
                             }
                         ]
                     }
