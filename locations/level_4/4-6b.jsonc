@@ -380,12 +380,16 @@
                         "visibility_rules": [
                             "$id_exists|1000"
                         ]
+                    },
+                    {
+                        "ref": "Hub Enemies and Goal/Level 4/Complete",
+                        "name": "Level 4 Complete"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "4-6b",
-                        "x": 13,
+                        "x": 27,
                         "y": 111
                     }
                 ]

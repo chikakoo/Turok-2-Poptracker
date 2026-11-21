@@ -29,10 +29,10 @@ LOCATIONS_0 = {
     [28] = {"@Hub Enemies and Goal/Enemies/Death Guard/Defeated (All Oblivions)"},
     [29] = {"@Hub Enemies and Goal/Enemies/Lord of the Flesh/Defeated (All Oblivions Except 1-O)"},
 
-    [203001] = {"@Hub Enemies and Goal/Level 1/Complete"} --,
-    --[203002] = {"@Hub Enemies and Goal/Level 2/Complete"},
-    --[203003] = {"@Hub Enemies and Goal/Level 3/Complete"},
-    --[203004] = {"@Hub Enemies and Goal/Level 4/Complete"},
-    --[203005] = {"@Hub Enemies and Goal/Level 5/Complete"},
-    --[203006] = {"@Hub Enemies and Goal/Level 6/Complete"}
+    [101] = {"@Hub Enemies and Goal/Level 1/Complete"},
+    [102] = {"@Hub Enemies and Goal/Level 2/Complete"},
+    [103] = {"@Hub Enemies and Goal/Level 3/Complete"},
+    [104] = {"@Hub Enemies and Goal/Level 4/Complete"},
+    [105] = {"@Hub Enemies and Goal/Level 5/Complete"},
+    [106] = {"@Hub Enemies and Goal/Level 6/Complete"}
 }

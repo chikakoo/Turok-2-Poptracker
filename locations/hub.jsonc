@@ -6376,16 +6376,16 @@
             "name": "[Sentinel] Enemy After Lowered Bridge"
           },
           {
+            "ref": "4-4/Enemy in Cave After Switch/Sentinel",
+            "name": "[Sentinel] Enemy in Cave After Switch"
+          },
+          {
             "ref": "4-4/Upper Bridges/On Satchel Platform/LF10",
             "name": "[LF10] Upper Bridges/On Satchel Platform"
           },
           {
             "ref": "4-4/Upper Bridges/On Satchel Platform/Satchel Charge",
             "name": "[Satchel Charge] Upper Bridges/On Satchel Platform"
-          },
-          {
-            "ref": "4-4/Upper Bridges/Enemy in Cave After Switch/Sentinel",
-            "name": "[Sentinel] Upper Bridges/Enemy in Cave After Switch"
           },
           {
             "ref": "4-4/Upper Bridges/Enemy in Cave After Switch/Nala",
@@ -11900,10 +11900,6 @@
             "name": "[Lord of the Flesh] Elevators/Enemy by Exit"
           },
           {
-            "ref": "6-O/Elevators/Enemy at Exit/Lord of the Flesh",
-            "name": "[Lord of the Flesh] Elevators/Enemy at Exit"
-          },
-          {
             "ref": "6-O/Exit/At End/Nuke Part",
             "name": "[Nuke Part] Exit/At End"
           },
@@ -11922,6 +11918,10 @@
           {
             "ref": "6-O/Exit/Enemy in Right Room/Lord of the Flesh",
             "name": "[Lord of the Flesh] Exit/Enemy in Right Room"
+          },
+          {
+            "ref": "6-O/Exit/Enemy at Exit/Lord of the Flesh",
+            "name": "[Lord of the Flesh] Exit/Enemy at Exit"
           }
         ],
         "map_locations": [

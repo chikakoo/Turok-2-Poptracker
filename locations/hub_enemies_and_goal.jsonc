@@ -32,6 +32,9 @@
                         "access_rules": [
                             "^$level_1_complete"
                         ],
+                        "visibility_rules": [
+                            "$id_exists|101"
+                        ],
                         "name": "Complete"
                     }
                 ],
@@ -45,6 +48,141 @@
                         "map": "1-9E",
                         "x": 37,
                         "y": 272
+                    }
+                ]
+            },
+            {
+                "name": "Level 2",
+                "chest_unopened_img": "images/items/keys/level_2_key.png",
+                "chest_opened_img": "images/items/keys/level_2_key_bw.png",
+                "sections": [
+                    {
+                        "access_rules": [
+                            "^$level_2_complete"
+                        ],
+                        "visibility_rules": [
+                            "$id_exists|102"
+                        ],
+                        "name": "Complete"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hub",
+                        "x": 1017,
+                        "y": 571
+                    },
+                    {
+                        "map": "2-8",
+                        "x": 476,
+                        "y": 115
+                    }
+                ]
+            },
+            {
+                "name": "Level 3",
+                "chest_unopened_img": "images/items/keys/level_3_key.png",
+                "chest_opened_img": "images/items/keys/level_3_key_bw.png",
+                "sections": [
+                    {
+                        "access_rules": [
+                            "^$level_3_complete"
+                        ],
+                        "visibility_rules": [
+                            "$id_exists|103"
+                        ],
+                        "name": "Complete"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hub",
+                        "x": 288,
+                        "y": 573
+                    },
+                    {
+                        "map": "3-8",
+                        "x": 219,
+                        "y": 669
+                    }
+                ]
+            },
+            {
+                "name": "Level 4",
+                "chest_unopened_img": "images/items/keys/level_4_key.png",
+                "chest_opened_img": "images/items/keys/level_4_key_bw.png",
+                "sections": [
+                    {
+                        "access_rules": [
+                            "^$level_4_complete"
+                        ],
+                        "visibility_rules": [
+                            "$id_exists|104"
+                        ],
+                        "name": "Complete"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hub",
+                        "x": 1080,
+                        "y": 347
+                    }
+                ]
+            },
+            {
+                "name": "Level 5",
+                "chest_unopened_img": "images/items/keys/level_5_key.png",
+                "chest_opened_img": "images/items/keys/level_5_key_bw.png",
+                "sections": [
+                    {
+                        "access_rules": [
+                            "^$level_5_complete"
+                        ],
+                        "visibility_rules": [
+                            "$id_exists|105"
+                        ],
+                        "name": "Complete"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hub",
+                        "x": 294,
+                        "y": 316
+                    },
+                    {
+                        "map": "5-9E",
+                        "x": 305,
+                        "y": 700
+                    }
+                ]
+            },
+            {
+                "name": "Level 6",
+                "chest_unopened_img": "images/items/keys/level_6_key.png",
+                "chest_opened_img": "images/items/keys/level_6_key_bw.png",
+                "sections": [
+                    {
+                        "access_rules": [
+                            "^$level_6_complete"
+                        ],
+                        "visibility_rules": [
+                            "$id_exists|106"
+                        ],
+                        "name": "Complete"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "Hub",
+                        "x": 853,
+                        "y": 73
+                    },
+                    {
+                        "map": "6-Hub",
+                        "x": 269,
+                        "y": 35
                     }
                 ]
             },
