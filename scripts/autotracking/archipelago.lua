@@ -197,6 +197,7 @@ end
 ---Called when the pack connects to an AP server
 ---@param slot_data? table Slotdata send from AP server for the specific user/slot
 function OnClear(slot_data)
+    ALL_LOCATIONS_MAP = {}
     MANUAL_CHECKED = false
     local custom_storage_item = Tracker:FindObjectForCode("manual_location_storage").ItemState
     if custom_storage_item == nil then
@@ -247,9 +248,6 @@ function OnClear(slot_data)
 
     -- print(PLAYER_ID, TEAM_NUMBER)
     if Archipelago.PlayerNumber > -1 then
-        if #ALL_LOCATIONS > 0 then
-            ALL_LOCATIONS = {}
-        end
         for _, value in pairs(Archipelago.MissingLocations) do
             table.insert(ALL_LOCATIONS, #ALL_LOCATIONS + 1, value)
             ALL_LOCATIONS_MAP[value] = true
