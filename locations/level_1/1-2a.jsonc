@@ -387,69 +387,6 @@
         ]
       },
       {
-        "name": "Child Area Top After Switch",
-        "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
-        "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
-        "sections": [
-          {
-            "name": "Box of Bullets",
-            "item_count": 1,
-            "visibility_rules": [
-              "$id_exists|52057"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "1-2a",
-            "x": 786,
-            "y": 155
-          }
-        ]
-      },
-      {
-        "name": "Child Area Top Switch Room",
-        "chest_unopened_img": "images/interactables/switch_standard.png",
-        "chest_opened_img": "images/interactables/switch_standard_bw.png",
-        "sections": [
-          {
-            "name": "Switch",
-            "item_count": 1,
-            "visibility_rules": [
-              "$id_exists|52066"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "1-2a",
-            "x": 605,
-            "y": 155
-          }
-        ]
-      },
-      {
-        "name": "Child Area Bottom",
-        "chest_unopened_img": "images/interactables/child.png",
-        "chest_opened_img": "images/interactables/child_bw.png",
-        "sections": [
-          {
-            "name": "Rescue Child",
-            "item_count": 1,
-            "visibility_rules": [
-              "$id_exists|52067"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "1-2a",
-            "x": 658,
-            "y": 442
-          }
-        ]
-      },
-      {
         "name": "Enemy in Level Key Room",
         "chest_unopened_img": "images/enemies/raptoid.png",
         "chest_opened_img": "images/enemies/raptoid_bw.png",
@@ -600,36 +537,99 @@
         ]
       },
       {
-        "name": "Enemy in Child Area Top After Switch",
-        "chest_unopened_img": "images/enemies/raptoid.png",
-        "chest_opened_img": "images/enemies/raptoid_bw.png",
-        "sections": [
-          {
-            "name": "Raptoid",
-            "item_count": 1,
-            "access_rules": [
-              "raptoid_soul"
-            ],
-            "visibility_rules": [
-              "$id_exists|52075"
-            ]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "1-2a",
-            "shape": "diamond",
-            "x": 771,
-            "y": 156
-          }
-        ]
-      },
-      {
         "name": "Catwalks Switch",
         "access_rules": [
           "endtrail_soul"
         ],
         "children": [
+          {
+            "name": "Child Area Top After Switch",
+            "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
+            "chest_opened_img": "images/items/ammo/box_of_bullets_bw.png",
+            "sections": [
+              {
+                "name": "Box of Bullets",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52057"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 786,
+                "y": 155
+              }
+            ]
+          },
+          {
+            "name": "Child Area Top Switch Room",
+            "chest_unopened_img": "images/interactables/switch_standard.png",
+            "chest_opened_img": "images/interactables/switch_standard_bw.png",
+            "sections": [
+              {
+                "name": "Switch",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52066"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 605,
+                "y": 155
+              }
+            ]
+          },
+          {
+            "name": "Child Area Bottom",
+            "chest_unopened_img": "images/interactables/child.png",
+            "chest_opened_img": "images/interactables/child_bw.png",
+            "sections": [
+              {
+                "name": "Rescue Child",
+                "item_count": 1,
+                "visibility_rules": [
+                  "$id_exists|52067"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "x": 658,
+                "y": 442
+              }
+            ]
+          },
+          {
+            "name": "Enemy in Child Area Top After Switch",
+            "chest_unopened_img": "images/enemies/raptoid.png",
+            "chest_opened_img": "images/enemies/raptoid_bw.png",
+            "sections": [
+              {
+                "name": "Raptoid",
+                "item_count": 1,
+                "access_rules": [
+                  "raptoid_soul"
+                ],
+                "visibility_rules": [
+                  "$id_exists|52075"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "1-2a",
+                "shape": "diamond",
+                "x": 771,
+                "y": 156
+              }
+            ]
+          },
           {
             "name": "Before Lower Warp Room",
             "chest_unopened_img": "images/items/ammo/box_of_bullets.png",
