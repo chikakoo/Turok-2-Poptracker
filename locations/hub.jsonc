@@ -152,18 +152,6 @@
             "name": "[Blue Health] Child Area Right Ramp"
           },
           {
-            "ref": "1-2a/Child Area Top After Switch/Box of Bullets",
-            "name": "[Box of Bullets] Child Area Top After Switch"
-          },
-          {
-            "ref": "1-2a/Child Area Top Switch Room/Switch",
-            "name": "[Switch] Child Area Top Switch Room"
-          },
-          {
-            "ref": "1-2a/Child Area Bottom/Rescue Child",
-            "name": "[Rescue Child] Child Area Bottom"
-          },
-          {
             "ref": "1-2a/Enemy in Level Key Room/Raptoid",
             "name": "[Raptoid] Enemy in Level Key Room"
           },
@@ -188,36 +176,48 @@
             "name": "[Endtrail] Enemy in Child Area Top"
           },
           {
-            "ref": "1-2a/Enemy in Child Area Top After Switch/Raptoid",
-            "name": "[Raptoid] Enemy in Child Area Top After Switch"
+            "ref": "1-2a/Endtrail Switch/Child Area Top After Switch/Box of Bullets",
+            "name": "[Box of Bullets] Endtrail Switch/Child Area Top After Switch"
           },
           {
-            "ref": "1-2a/Catwalks Switch/Before Lower Warp Room/Box of Bullets",
-            "name": "[Box of Bullets] Catwalks Switch/Before Lower Warp Room"
+            "ref": "1-2a/Endtrail Switch/Child Area Top Switch Room/Switch",
+            "name": "[Switch] Endtrail Switch/Child Area Top Switch Room"
           },
           {
-            "ref": "1-2a/Catwalks Switch/Before Lower Warp Room Behind Door L/R/Clip",
-            "name": "[Clip] Catwalks Switch/Before Lower Warp Room Behind Door L/R"
+            "ref": "1-2a/Endtrail Switch/Child Area Bottom/Rescue Child",
+            "name": "[Rescue Child] Endtrail Switch/Child Area Bottom"
           },
           {
-            "ref": "1-2a/Catwalks Switch/Lower Warp Room Behind Door/Clip",
-            "name": "[Clip] Catwalks Switch/Lower Warp Room Behind Door"
+            "ref": "1-2a/Endtrail Switch/Enemy in Child Area Top After Switch/Raptoid",
+            "name": "[Raptoid] Endtrail Switch/Enemy in Child Area Top After Switch"
           },
           {
-            "ref": "1-2a/Catwalks Switch/Lower Warp Room Behind Fallen Pillar/Quiver",
-            "name": "[Quiver] Catwalks Switch/Lower Warp Room Behind Fallen Pillar"
+            "ref": "1-2a/Endtrail Switch/Before Lower Warp Room/Box of Bullets",
+            "name": "[Box of Bullets] Endtrail Switch/Before Lower Warp Room"
           },
           {
-            "ref": "1-2a/Catwalks Switch/Catwalks Enemy Trigger Room/Switch",
-            "name": "[Switch] Catwalks Switch/Catwalks Enemy Trigger Room"
+            "ref": "1-2a/Endtrail Switch/Before Lower Warp Room Behind Door L/R/Clip",
+            "name": "[Clip] Endtrail Switch/Before Lower Warp Room Behind Door L/R"
           },
           {
-            "ref": "1-2a/Catwalks Switch/Enemy By Water After Catwalks Switch/Endtrail",
-            "name": "[Endtrail] Catwalks Switch/Enemy By Water After Catwalks Switch"
+            "ref": "1-2a/Endtrail Switch/Lower Warp Room Behind Door/Clip",
+            "name": "[Clip] Endtrail Switch/Lower Warp Room Behind Door"
           },
           {
-            "ref": "1-2a/Catwalks Switch/Enemy By Portal/Raptoid",
-            "name": "[Raptoid] Catwalks Switch/Enemy By Portal"
+            "ref": "1-2a/Endtrail Switch/Lower Warp Room Behind Fallen Pillar/Quiver",
+            "name": "[Quiver] Endtrail Switch/Lower Warp Room Behind Fallen Pillar"
+          },
+          {
+            "ref": "1-2a/Endtrail Switch/Catwalks Enemy Trigger Room/Switch",
+            "name": "[Switch] Endtrail Switch/Catwalks Enemy Trigger Room"
+          },
+          {
+            "ref": "1-2a/Endtrail Switch/Enemy By Water After Catwalks Switch/Endtrail",
+            "name": "[Endtrail] Endtrail Switch/Enemy By Water After Catwalks Switch"
+          },
+          {
+            "ref": "1-2a/Endtrail Switch/Enemy By Portal/Raptoid",
+            "name": "[Raptoid] Endtrail Switch/Enemy By Portal"
           }
         ],
         "map_locations": [

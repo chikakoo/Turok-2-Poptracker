@@ -537,7 +537,7 @@
         ]
       },
       {
-        "name": "Catwalks Switch",
+        "name": "Endtrail Switch",
         "access_rules": [
           "endtrail_soul"
         ],
