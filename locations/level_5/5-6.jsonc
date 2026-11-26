@@ -984,14 +984,14 @@
             },
             {
                 "name": "Enemy After Switch",
-                "chest_unopened_img": "images/enemies/mite.png",
-                "chest_opened_img": "images/enemies/mite_bw.png",
+                "chest_unopened_img": "images/enemies/worker.png",
+                "chest_opened_img": "images/enemies/worker_bw.png",
                 "sections": [
                     {
-                        "name": "Mite",
+                        "name": "Worker",
                         "item_count": 4,
                         "access_rules": [
-                            "mite_soul"
+                            "worker_soul"
                         ],
                         "visibility_rules": [
                             "$id_exists|88106|88107|88108|88109"
